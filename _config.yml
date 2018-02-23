@@ -38,6 +38,10 @@ defaults:
     type: docs
   values:
     layout: docs
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 # Build settings
 markdown: kramdown
