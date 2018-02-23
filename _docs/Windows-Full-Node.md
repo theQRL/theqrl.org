@@ -1,1 +1,0 @@
-Windows-Full-Node.md
