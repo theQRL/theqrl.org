@@ -1,0 +1,133 @@
+body {
+	font-family: $body_font;
+}
+.grid > div {
+	padding:5px;
+}
+.header .grid {
+	grid-template-columns: 138px 1fr min-content;
+}
+code {
+	background-color:#DDD;
+	padding:5px;
+}
+h1 {
+	font-size:62px;
+}
+nav a {
+	padding:5px 10px;
+	text-decoration: none;
+	color:#000;
+}
+
+.grid.support {
+	div {
+		text-align: center;
+	}
+	svg,
+	.iconPreview {
+		height:100px;
+		text-align: center;
+		color:#F00;
+
+	}
+}
+.header {
+	position:relative;
+	z-index: 10;
+	.grid {
+		max-width: 1300px;
+	}
+	@include md {
+		padding-top:20px;
+	}
+
+	.logo img {
+		max-width: 100%;
+		height:auto;
+	}
+	li svg {
+		max-height:12px;
+	}
+	.menu nav {
+		svg {
+			display:block;
+			@include sm {
+				display:none;
+			}
+		}
+		a {
+			font-size: 0;
+
+			@include sm {
+				font-size:13px;
+			}
+		}
+		padding-top: 30px;
+
+		@include sm {	padding-left:0px; }
+		@include md {	padding-left:20px; }
+		@include lg {	padding-left:50px; }
+	}
+	.whitepaper nav {
+		padding-top: 20px;
+	}
+	nav a {
+		font-family: 'Quicksand';
+		font-weight: 500;
+		font-size:13px;
+		text-transform: uppercase;
+		@include md {
+			padding:5px 20px;
+		}
+		@include lg {
+			padding:5px 30px;
+		}
+
+	}
+}
+
+.wrapper.intro {
+	@include angle-edge($angle: 2.5, $angle-position-y: 'both', $angle-position-x: 'right', $angle-position-bottom-x: 'left', $angle-bottom:1.5);
+	padding:50px 0;
+	background-color:#F3F3F3;
+}
+.whitepaper {
+	svg {
+		display:inline-block;
+	}
+	nav > ul > li {
+		a {
+			font-family: 'Roboto';
+			background-color:#F3F3F3;
+			text-decoration: none;
+			color: #000;
+
+			&:hover {
+				background-color:#EEE;
+			}
+		}
+		> a {
+			border:1px solid #000;
+			padding:10px 20px;
+			box-shadow: $shadow;
+		}
+
+		> ul {
+			margin-top:-1px;
+			flex-direction:column;
+			border:1px solid #000;
+			border-top:0px;
+
+			a {
+				padding:5px 10px;			
+			}
+		}
+
+
+	}
+}
+.wrapper.footer {
+	background-color:#160527;
+	color:#FFF;
+}

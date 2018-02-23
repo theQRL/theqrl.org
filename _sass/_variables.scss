@@ -1,0 +1,48 @@
+/* Layout */
+$grid: 12;
+$grid_margin: 1em;
+$grid_maxwidth: 960px;
+
+$screen-sm-min: 576px;
+$screen-md-min: 768px;
+$screen-lg-min: 992px;
+$screen-xl-min: 1200px;
+
+/* Style */
+$heading_font: 'Quicksand';
+$body_font: 'Roboto', Verdana, sans-serif;
+
+
+$shadow:0 0 10px rgba(0,0,0,0.4);
+
+/*  */
+/* Project Specific */
+
+
+// Small devices
+@mixin sm {
+   @media (min-width: #{$screen-sm-min}) {
+       @content;
+   }
+}
+
+// Medium devices
+@mixin md {
+   @media (min-width: #{$screen-md-min}) {
+       @content;
+   }
+}
+
+// Large devices
+@mixin lg {
+   @media (min-width: #{$screen-lg-min}) {
+       @content;
+   }
+}
+
+// Extra large devices
+@mixin xl {
+   @media (min-width: #{$screen-xl-min}) {
+       @content;
+   }
+}

@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="wrapper docs">
+	<div class="grid w12">
+		<div class="w12">
+			<p>Head back to <a href="/docs">Documentation</a></p>
+			<h1>Documentation</h1>
+
+		  {% if page.title %}
+		    <h2 class="page-heading">{{ page.title }}</h2>
+		  {% endif %}
+
+		  {{ content }}
+		</div>		
+	</div>
+</div>
+
+
