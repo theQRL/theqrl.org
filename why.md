@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Why QRL
+permalink: /why/
 ---
 
 Why do you exist?

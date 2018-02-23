@@ -14,12 +14,39 @@ code {
 h1 {
 	font-size:62px;
 }
+a.cta {
+	background-color:#dc255d;
+	padding:10px 20px;
+	color:#FFF;
+	text-decoration: none;
+	box-shadow: $shadow;
+}
+
+
 nav a {
 	padding:5px 10px;
 	text-decoration: none;
 	color:#000;
 }
 
+
+.wrapper.hero {
+	text-align:center;
+
+	h1 {
+		font-weight: 300;
+	}
+	p {
+		max-width: 400px;
+		margin:0 auto;
+		font-family: $heading_font;
+	}
+
+	.cta {
+		display: inline-block;
+		margin-top: 20px;
+	}
+}
 .grid.support {
 	div {
 		text-align: center;
@@ -91,6 +118,25 @@ nav a {
 	@include angle-edge($angle: 2.5, $angle-position-y: 'both', $angle-position-x: 'right', $angle-position-bottom-x: 'left', $angle-bottom:1.5);
 	padding:50px 0;
 	background-color:#F3F3F3;
+}
+
+.conference {
+	background-color:#160529;
+	color:#FFF;
+	margin-bottom: 20px;
+	box-shadow: $shadow;
+	.image {
+		background-color:#FFF;
+	}
+	h2 {
+		font-weight: 500;
+		margin:0;
+	}
+	p {
+		margin:0;
+		font-family: $heading_font;
+		font-weight: 400;
+	}
 }
 .whitepaper {
 	svg {

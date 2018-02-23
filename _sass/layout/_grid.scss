@@ -13,6 +13,7 @@
   &.w3 > div { grid-column: span 3; }
   &.w4 > div { grid-column: span 4; }
   &.w6 > div { grid-column: span 6; }
+  &.w12 > div { grid-column: span 12; }
 
   > div.w1 { grid-column: span 1; }
   > div.w2 { grid-column: span 2; }
