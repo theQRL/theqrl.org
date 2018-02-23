@@ -5,24 +5,6 @@ categories: mining
 tags: mining
 ---
 
-![logo](/assets/logo.png)
-
-* [Install QRL](#install-qrl)
- * [Update](#update)
- * [Dependencies](#dep)
- * [Install](#install)
-* [Wallet](#setup-wallet)
- * [Create New Wallet](#create-new-wallet)
- * [Get Mnemonic/hexseed](#Get-Mnemonic-and-hexseed)
- * [Recover Wallet](#recover-wallet)
-* [Generate Slaves.json](#generate-slaves.json)
-* [Start The Node](#start-the-node)
-* [Handy Commands](#node-commands)
-* [Install From Source](#install-from-source)
-* [User config.yml File](#config-file)
-*
-
-* * *
 
 ## QRL Linux Node Instructions
 
