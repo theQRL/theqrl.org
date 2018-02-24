@@ -9,22 +9,10 @@ body {
 	grid-template-columns: 138px 1fr min-content;
 }
 
-
-h1 {
-	font-size:62px;
-	font-weight: 400;
-}
-h2 {
-	font-weight: 400;
-}
-p, ul, li {
-	font-size:14px;
-	line-height: 19px;
-}
-
 a {
 	color:$quantum_burst;
 }
+
 /* Elements */
 // Call-to-action
 a.cta {
@@ -58,6 +46,20 @@ a.cta {
 		font-family: $body_font;
 		color:#30aa9a;
 		text-transform: uppercase;
+	}
+}
+.blog-card {
+	.title a {
+		font-family: $heading_font;
+		color:#FFF;
+		text-decoration: none;
+		font-size:20px;
+
+	}
+	&:first-child {
+		.title a {
+			font-size:30px;
+		}
 	}
 }
 .header-section {
@@ -123,6 +125,10 @@ nav a {
 
 
 .grid.support {
+	svg {
+		fill: $quantum_burst;
+		max-height: 120px;
+	}
 	div {
 		text-align: center;
 	}
