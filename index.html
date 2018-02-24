@@ -1,12 +1,20 @@
 ---
 layout: default
 ---
+<script src="/assets/slippry/slippry.min.js"></script>
+<link rel="stylesheet" href="/assets/slippry/slippry.css" />
+<script>
+jQuery(document).ready(function(){
+  jQuery('.slideshow').slippry()
+});
+</script>
+
 <div class="wrapper hero">
   <div class="grid">
     <div class="w12">
       <h1>Mainnet is live!</h1>
       <p>MainNet launch is live visit the downloads page and checkout our new wallets and Node software.</p>
-      <a class="cta" href="/docs">Documentation</a>
+      <a class="cta" href="/docs">Visit The Downloads Page</a>
     </div>
   </div>
 </div>
@@ -14,17 +22,19 @@ layout: default
 <div class="wrapper intro">
   <div class="grid w12"> 
     <div>
-      <div class="grid slideshow w12">
-        <div>
-          create a new wallet
-        </div>
-        <div>
-          etc
-        </div>
-        <div>
-          etc
-        </div>
-      </div>
+      <ul class="slideshow">
+      <li>
+        <a href="https://explorer.theqrl.org">
+          <img src="/assets/front-slideshow/newwallet.png">
+        </a>
+      </li>
+            <li>
+        <a href="https://wallet.theqrl.org">
+          <img src="/assets/front-slideshow/send.png">
+        </a>
+      </li>
+
+    </ul>
       
       <p>See us in action at</p>
       <div class="grid conference">
@@ -53,9 +63,76 @@ layout: default
           <a class="cta" href="">Buy Tickets</a>
         </div>
       </div>
-      <!-- <iframe src="https://www.youtube.com/embed/V8IxLDxMEb8?rel=0&modestbranding=0&showinfo=0" allowfullscreen="" frameborder="0"></iframe> -->
+      
+      <div class="header-section">
+        <h2>What is QRL</h2>
+        <h3>An intro into QRL</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic voluptatibus error molestias nesciunt beatae doloribus animi consectetur. Odio magni fuga, consectetur. Tenetur architecto facere consectetur soluta incidunt reprehenderit, similique officia?</p>
+        <div class="video">
+        <iframe class="youtube" src="https://www.youtube.com/embed/V8IxLDxMEb8?rel=0&modestbranding=0&showinfo=0" allowfullscreen="" frameborder="0"></iframe>               
+        </div>
+   
+      </div>
+
       
 
     </div>
   </div>
+</div>
+
+<div class="wrapper team">
+  <div class="grid w12">
+    <div>
+      <div class="header-section">
+        <h2>About Us</h2>
+        <h3>Our Awesome Crew</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic voluptatibus error molestias nesciunt beatae doloribus animi consectetur. Odio magni fuga, consectetur. Tenetur architecto facere consectetur soluta incidunt reprehenderit, similique officia?</p>
+      </div>
+    </div>
+  </div>
+  <div class="grid w4 team-members">
+    <div>
+      <div class="image"></div>
+      <div class="name">Dr. Peter Waterland</div>
+      <div class="position">Founder</div>
+      <div class="social"></div>
+    </div>
+    <div>
+      <div class="image"></div>
+      <div class="name">Dr. JP Lomas</div>
+      <div class="position">Core-Developer</div>
+      <div class="social"></div>
+    </div>
+    <div>
+      <div class="image"></div>
+      <div class="name">Kaushal Kumar Singh</div>
+      <div class="position">Core-developer</div>
+      <div class="social"></div>
+    </div>
+    <div>
+      <div class="image"></div>
+      <div class="name">Leon Groot Bruinderink</div>
+      <div class="position">Advisor</div>
+      <div class="social"></div>
+    </div>
+    <div>
+      <div class="image"></div>
+      <div class="name">Michael Kolenbrander</div>
+      <div class="position">Core-Developer</div>
+      <div class="social"></div>
+    </div>
+    <div>
+      <div class="image"></div>
+      <div class="name">Filip Radcevic</div>
+      <div class="position">Core-Developer</div>
+      <div class="social"></div>
+    </div>
+  </div>
+  <div class="grid w12">
+    <div>
+      <a href="/team" class="cta">See The Whole Team</a>      
+    </div>
+  </div>
+
+
 </div>
