@@ -1,4 +1,12 @@
-@mixin angle-edge($angle, $angle-position-y, $angle-position-x, $angle-position-bottom-x: '',$angle-bottom: 10, $fallback: true, $fallback-color: #fff) {
+
+// $angle: The angle in degrees: 1 - 45
+// $angle-position-y: The Y position of the angle: top | bottom | both
+// $angle-position-x: The X position of the angle: left | right
+// $angle-position-bottom-x: The X position of the bottom angle if using 'both' for $angle-position-y: left | right
+// $fallback: Create a fallback for older browsers: true | false
+// $fallback-color: Fallback colour for older browsers: Hex color
+
+@mixin angle-edge($angle, $angle-position-y, $angle-position-x, $angle-position-bottom-x: '', $fallback: true, $fallback-color: #fff) {
 
   position: relative;
   overflow: hidden;
@@ -6,7 +14,6 @@
   // Converts degrees to VW, 100vw = 45deg using this technique
   @if $angle < 46 {
     $angle: convertDegToVW($angle);
-    $angle-bottom: convertDegToVW($angle-bottom);
   }
   @if $angle > 45 {
     $angle: 0;
@@ -18,11 +25,11 @@
   }
 
   $angle-calc-top: calc(0% + #{$angle}vw);
-  $angle-calc-bottom: calc(100% - #{$angle-bottom}vw);
+  $angle-calc-bottom: calc(100% - #{$angle}vw);
 
   $clip-path-top: 0 0, 100% 0;
   $clip-path-bottom: 100% 100%, 0 100%;
- 
+
   $border-width-top: '';
   $border-width-bottom: '';
   $border-color-top: '';
@@ -56,13 +63,13 @@
     @if $angle-position-x == 'left' {
       $clip-path-bottom: 100% 100%, 0 $angle-calc-bottom;   
 
-      $border-width-bottom: 0 100vw #{$angle-bottom + 1}vw 0;
+      $border-width-bottom: 0 100vw #{$angle + 1}vw 0;
     }
 
     @if $angle-position-x == 'right' {
       $clip-path-bottom: 100% $angle-calc-bottom, 0 100%;   
 
-      $border-width-bottom: 0 0 #{$angle-bottom + 1}vw 100vw;
+      $border-width-bottom: 0 0 #{$angle + 1}vw 100vw;
     }
     
     $border-color-bottom: transparent transparent $fallback-color transparent;
@@ -70,10 +77,6 @@
 
   $clip-path: polygon($clip-path-top, $clip-path-bottom);
   clip-path: $clip-path;
-
-
-
-
 
 
   // Fallback for clip-path with solid colours
@@ -115,4 +118,52 @@
 // Converts degrees to VW, 100vw = 45deg using this technique
 @function convertDegToVW($angle){
   @return round($angle*2.22);
+}
+
+
+// Classes
+.angle--top-left {
+  @include angle-edge($angle: 3, $angle-position-y: 'top', $angle-position-x: 'left');
+}
+
+.angle--top-right {
+  @include angle-edge($angle: 3, $angle-position-y: 'top', $angle-position-x: 'right');
+}
+
+.angle--bottom-left {
+  @include angle-edge($angle: 3, $angle-position-y: 'bottom', $angle-position-x: 'left');
+}
+
+.angle--bottom-right {
+  @include angle-edge($angle: 3, $angle-position-y: 'bottom', $angle-position-x: 'right');
+}
+
+.angle--both-left-left {
+  @include angle-edge($angle: 3, $angle-position-y: 'both', $angle-position-x: 'left');
+}
+
+.angle--both-right-right {
+  @include angle-edge($angle: 3, $angle-position-y: 'both', $angle-position-x: 'right');
+}
+
+.angle--both-left-right {
+  @include angle-edge($angle: 3, $angle-position-y: 'both', $angle-position-x: 'left', $angle-position-bottom-x: 'right');
+}
+
+.angle--both-right-left {
+  @include angle-edge($angle: 3, $angle-position-y: 'both', $angle-position-x: 'right', $angle-position-bottom-x: 'left');
+}
+
+
+  .angle__content {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+.angle--colour {
+  color: #fff;
+  background-color: #2196F3;
+  text-align: center;
+  padding: 10% 0;
 }
