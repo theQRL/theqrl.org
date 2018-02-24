@@ -28,8 +28,6 @@ mining operation. You will also need enough storage to keep the chain as it grow
 in the future. Recommend a few hundred gig HDD/SSD to sync the chain on 
 long term to be safe.
 
-I do not expect to make any profit running this server mining coins and I am simply using it for testing. You really want to run this on a multi-processor setup with a good amount of ram. Add a few GPU's and you will be making a decent return.
-
 * * *
 
 ### Install QRL
