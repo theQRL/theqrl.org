@@ -4,30 +4,10 @@ categories: mining
 tags: mining
 ---
 
-![logo](/assets/logo.png)
+Any modern PC with Ubuntu (16.04) or Linux/Unix based systems should work 
+running a full QRL node. There are a few requirements that you should take into consideration.
 
-* [Install QRL](#install-qrl)
- * [Update](#update)
- * [Dependencies](#dep)
- * [Install](#install)
-* [Wallet](#setup-wallet)
- * [Create New Wallet](#create-new-wallet)
- * [Get Mnemonic/hexseed](#Get-Mnemonic-and-hexseed)
- * [Recover Wallet](#recover-wallet)
-* [Generate Slaves.json](#generate-slaves.json)
-* [Start The Node](#start-the-node)
-* [Handy Commands](#node-commands)
-* [Install From Source](#install-from-source)
-* [User config.yml File](#config-file)
-*
-
-* * *
-
-## QRL Linux Node Instructions
-
-Any modern PC with Ubuntu (16.04) or Linux/Unix based systems should work running a full QRL node.
-
-**Minimum Requirements to Run QRL**
+### Minimum Requirements
 
 * Linux / Unix / mac based systems should work *YMMV*
 * Any x86 or x64 based processor
@@ -37,13 +17,16 @@ Any modern PC with Ubuntu (16.04) or Linux/Unix based systems should work runnin
 * HDD large enough to store the BlockChain at current size, plus future growth                
 
 
-You should have a basic understanding of the CLI before attempting to set this up, it isn't really all that tough. If you have issues please drop into the Discord chat:
-
-[discord.gg/RcR9WzX](https://cnhv.co/1mfxv)
-Lots of friendly people over there ready to help.
+You should have a basic understanding of the CLI before attempting to set this up, it isn't really all that tough.
+ If you have issues please drop into the Discord chat: [discord.gg/RcR9WzX ](discord.gg/RcR9WzX )
+ Lots of friendly people over there ready to help.
               
+**Plan for the future!**
 
-Make sure the computer you are using has enough power to handle the load of the mining operation. You will also need enough storage to keep the chain as it grows in the future. You can attach storage in the cloud to your VPS and that's exactly what I did. I would recommend a couple hundred gig HDD/SSD to sync the chain on long term to be safe.
+Make sure the computer you are using has enough power to handle the load of the 
+mining operation. You will also need enough storage to keep the chain as it grows 
+in the future. Recommend a few hundred gig HDD/SSD to sync the chain on 
+long term to be safe.
 
 I do not expect to make any profit running this server mining coins and I am simply using it for testing. You really want to run this on a multi-processor setup with a good amount of ram. Add a few GPU's and you will be making a decent return.
 
@@ -56,38 +39,41 @@ It's best to start with a fresh, brand new install of Ubuntu 16.04. If you have 
 
 #### Update 
 
-**Issue the following command to update software**
-
 ```bash
+# Issue the following command to update software
 sudo apt update && sudo apt upgrade -y
 ```
 
 #### Dependencies
 
-Install the required packages for QRL.  
 ```bash
-sudo apt-get -y install swig3.0 python3-dev python3-pip build-essential cmake pkg-config libssl-dev libffi-dev libhwloc-dev libboost-dev
+## Install the required packages for QRL
+
+sudo apt-get -y install swig3.0 python3-dev python3-pip build-essential 
+sudo apt-get -y cmake pkg-config libssl-dev libffi-dev libhwloc-dev libboost-dev
 ```
 
 #### Install
 
-Install the QRL Package. 
 ```bash
+# Install the QRL Package.
+
 pip3 install -U qrl
 ```
-##### Trouble with pip3
+#### pip3
 
-If your having issues runnning the above command there are a few things to do that will help diagnose the issue.  
-the `pip3` function comes with a logging capibility to see where the issues are happening.  
-Run the command again with  
+If your having issues runnning the above command there are a few things to do that will help diagnose the issue. The `pip3` function comes with a logging capibility to see where the issues are happening.  
+
+Run the command above again with  
 
 ```bash
 pip3 install -U qrl --log ~/pip3-Qrl.log
 ```
 
-This will print the output of the install to your home directory with the file name pip3-qrl.log. Read it!
+It will print details of the install to your home directory with the file name pip3-qrl.log. Read it!
+The error should be inside.
 
-##### Git
+#### Git
 
 If you want to run from the repo you can clone it to the local file system with:  
 ```bash 
@@ -119,6 +105,7 @@ Create a new wallet with:
 qrl wallet_gen
 ```
 **From Source**
+
 ```bash
 ~/QRL/qrl/cli.py wallet_gen
 ```
@@ -131,10 +118,12 @@ This creates a wallet file in your
 #### Get Mnemonic and hexseed
 
 To find your hexseed and recovery information for your wallet you will need to run:
+
 ```bash
 qrl wallet_secret
 ```  
 Or if installed from source 
+
 ```bash
 ~/QRL/qrl/cli.py wallet_secret
 ```
@@ -217,27 +206,26 @@ It will ask the same questions as above.
 * * *
 
 
-### Start the node
+### Start the Node
 
 We need to move the `slaves.json` file we created above to our mining pc, and then start the node.
 
-##### Run
+**Run**
 
 ```bash
+#Installed with pip3
 qrl
-```
 
-if you installed with pip3
-
-##### Or
-
-```bash
+# Running from source
 ~/QRL/start_qrl.py
 ```
 If you are running from source
 
-If you placed the `slaves.json` file into the correct directory the node should start up and begin mining. It may take a little while for the slave to become active. Be patient!.
+If you placed the `slaves.json` file into the correct 
+directory the node should start up and begin mining. 
+It may take a little while for the slave to become active. 
 
+**Be patient!**
 
 * * *
 
@@ -246,12 +234,15 @@ If you placed the `slaves.json` file into the correct directory the node should 
 Some Handy Commands to query against your node. 
 
 ``` bash
-screen -d -m ~/QRL/start_qrl                # This will start QRL in a screen session.
-    screen -r                               # To reattach the screen
-    ctl+a d                                 # Exit the screen without quitting the program ctl+a then d this will detach the current screen session
-tail -f ~/.qrl/qrl.log                      # This will show the activity on your node if you run in --quiet | -q mode or in a screen session.
-grep Solution Found ~/.qrl/qrl.log          # Will print all of your found blocks. If this list is empty your node has not found anything yet.
-grep Solution Found ~/.qrl/qrl.log |wc -l   # Prints how many blocks you have found (count of won blocks)
+screen -d -m ~/QRL/start_qrl # This will start QRL in a screen session.
+    screen -r                # To reattach the screen
+    ctl+a d                  # Exit the screen without quitting the program
+tail -f ~/.qrl/qrl.log       # Show activity in qrl.log
+
+# Print found blocks. If empty your node has not found anything yet.
+grep Solution Found ~/.qrl/qrl.log
+# Prints how many blocks you have found (count of won blocks)
+grep Solution Found ~/.qrl/qrl.log |wc -l   
 ```
 
 * * *
