@@ -149,12 +149,10 @@ This will respond with a question
 Wallet idx [0]:
 ``` 
 
-**Enter** will select the default wallet shown, if you have more tahn one select the index that reflects the wallet you are using.
-
+**Enter** will select the default wallet shown, if you have more than one wallet select the index that reflects the wallet you are using.
 
 *   This will show you the address and secret mnemonic for the wallet you created, stored in `~/.qrl/`
-*   Save it somewhere safe! Anyone with this information can recover your wallet and steal your coins.
-
+*   Save it somewhere safe! Anyone with this info can recover your wallet and steal your coins.
 
 * * *
 
@@ -168,20 +166,15 @@ Using the wallet we just created lets create some files we can use to mine with.
 qrl -r --host 104.251.219.215 slave_tx_generate` 
 ```
 
-This will prompt you for some answers.
-
+This will prompt with some questions:
 
 ```bash
 Src []:                 # the wallet you generated identified by #ID
 Addr from               # (Leave blank in case same as source) []:`
 Number of slaves [0]:   # How many wallet files do we want to slave?
 Access type [0]:        # Do we want to mine or transfer coins?
-# 0 <-- gives all permissions from the master wallet to slave wallet, 
-    # Slave wallet can perform all transactions for master wallet
-# 1 <-- Only mining permissions to slave wallet. 
-    # Slave wallet can sign blocks while mining 
-    # Will credit the mining reward to the master address only. 
-    # This setting allows incoming only transfers.
+                        # 0 <-- gives all permissions from the master wallet to slave wallet, Slave wallet can perform all transactions for master wallet
+                        # 1 <-- Only mining permissions to slave wallet. Slave wallet can sign blocks while mining Will credit the mining reward to the master address only. This setting allows incoming only transfers.
 Fee [0.0]: 0            # how much fee are we paying
 ```
 
