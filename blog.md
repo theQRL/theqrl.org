@@ -4,4 +4,4 @@ title: Blog
 permalink: /blog/
 ---
 
-Why do you exist?
+At QRL we're narcissitic and like to talk about ourselves.
