@@ -246,24 +246,35 @@ qrl --seed-type hexseed
 ```
 This will prompt up to enter the key or phrase. This should recover the wallet and ask if we want to save it. Enter `y` when prompted.
 
+You can now interact with your quanta as normal. 
 
 * * *
 
-
 ### Start the Node
 
-We need to move the `slaves.json` file we created above to our mining pc, and then start the node.
+We need to move the `slaves.json` file we created above to our mining pc, and then start the node. 
 
-**Run**
+If you are using the same pc to mine with, then:
+
+```bash
+mv slaves.json ~/.qrl/
+```
+
+To start QRL run :
 
 ```bash
 #Installed with pip3
-qrl
 
+qrl
+```
+
+OR 
+
+```bash
 # Running from source
+
 ~/QRL/start_qrl.py
 ```
-If you are running from source
 
 If you placed the `slaves.json` file into the correct 
 directory the node should start up and begin mining. 
