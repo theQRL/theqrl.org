@@ -80,10 +80,9 @@ git clone https://github.com/theQRL/QRL.git
 ```
 
 
-This allows you to run from a local directory and gives some freedom to change some of the defaults.  
-Also later if you want to update to get the latest changes from the developers it's a simple 
-`git pull`
-from inside the QRL directory
+This allows you to run from a local directory and gives some freedom to change some of the defaults.
+
+Also later if you want to update to get the latest changes from the developers it's a simple `git pull` from inside the QRL directory
 
 * * *
 
@@ -91,9 +90,16 @@ from inside the QRL directory
 
 Before we start there are a few things to know about.
 
-*   The default location for the wallet and the chain is `~/.qrl` unless you specify it on the command line. Make sure this location has some room for the chain to grow.
-*   If you installed with `pip3 install -U qrl` you will use the `qrl` command.
+* The default location for the wallet and the chain is `~/.qrl` unless you specify it on the command line. 
+ * Make sure this location has some room for the chain to grow.
+* If you installed with `pip3 install -U qrl` you will use the `qrl` command.
 *   If you installed from source via GitHub you will be invoking the `~/QRL/start_qrl.py` and the `~/QRL/qrl/cli.py` commands.
+
+Steps to creating a wallet:
+
+1) Create Wallet
+2) Get the recovery seed / phrase
+3) 
 
 #### Create New Wallet
 
@@ -164,7 +170,7 @@ This will prompt up to enter the key or phrase. This should recover the wallet a
 
 * * *
 
-#### Generate New `slaves.json` File
+### Generate New `slaves.json` File
 
 Using the wallet we just created lets create some files we can use to mine with.  
 
