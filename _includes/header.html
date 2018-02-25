@@ -10,6 +10,12 @@
       <div class="menu">
         {% if page_paths %}
         <nav>
+          <div id="nav-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
           <ul>
           {% for path in page_paths %}
             {% assign my_page = site.pages | where: "path", path | first %}
