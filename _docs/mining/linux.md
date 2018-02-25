@@ -126,6 +126,8 @@ This creates a wallet file in your `~/.qrl/` folder called `wallet.qrl`
 
 In order to recover our wallet later or use this wallet in web wallet, you will need our private keys. You can get these keys in two ways, a hexseed, and a mnemonic phrase. The mnemonic is easier for humans to read, however each will work.
 
+**YOU HAVE TO SAVE THIS SOMEWHERE SAFE**
+
 To find your hexseed and recovery information for your wallet you will need to run:
 
 ```bash
@@ -146,9 +148,11 @@ Or if installed from source
 This will respond with a question 
 
 ```
+# Which Wallet to use [0 os default]
+
 Wallet idx [0]:
 ``` 
-
+ 
 **Enter** will select the default wallet shown, if you have more than one wallet select the index that reflects the wallet you are using.
 
 *   This will show you the address and secret mnemonic for the wallet you created, stored in `~/.qrl/`
@@ -160,23 +164,34 @@ Wallet idx [0]:
 
 Using the wallet we just created lets create some files we can use to mine with. We will generate the file against a know working node. You can switch the ip address with a trusted open node
 
+##### With pip3
+
 ```bash
 # Generate slaves.json file
 
 qrl -r --host 104.251.219.215 slave_tx_generate` 
 ```
 
+##### From Sources
+
+
+```bash
+If you are running from `git clone`  
+
+./qrl/cli.py -r --host 104.251.219.215 --wallet_dir /home/qrl/QRL/.qrl/ slave_tx_generate
+```
+
 This will prompt with some questions:
 
 ```bash
-Src []:                 # the wallet you generated identified by #ID
+Src []:                 # The wallet you generated identified by #ID
 Addr from               # (Leave blank in case same as source) []:`
 Number of slaves [0]:   # How many wallet files do we want to slave?
 Access type [0]:        # Do we want to mine or transfer coins?
-                        # 0 <-- gives all permissions from the master wallet to slave wallet
-                        # 1 <-- Only mining permissions to slave wallet. 
+                        # 0 Gives all permissions from the master wallet to slave wallet
+                        # 1 Only mining permissions to slave wallet. 
                             # This setting allows incoming only transfers (SAFE).
-Fee [0.0]: 0            # how much fee are we paying
+Fee [0.0]: 0            # How much fee are we paying
 ```
 
 This will generate a `slaves.json` file for you and put into the directory you are in. We need to move it to the `.qrl` folder of whatever computer we plan to mine with. 
@@ -185,14 +200,6 @@ This will allow you to securely make a wallet file and generate a `slaves.json` 
 
 Save the Mmneonic to a cold wallet file and when you need to move coins, restore the wallet, generate a new `slaves.json` with the correct privileges and transfer the coins out of the wallet.
 
-##### From Local Directory
-
-If you are running from `git clone`  
-
-```bash
-./qrl/cli.py -r --host 104.251.219.215 --wallet_dir /home/qrl/QRL/.qrl/ slave_tx_generate
-```
-It will ask the same questions as above.
 
 * * *
 
