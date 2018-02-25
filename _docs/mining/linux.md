@@ -32,13 +32,14 @@ long term to be safe.
 
 ### Install QRL
 
-It's best to start with a fresh, brand new install of Ubuntu 16.04. If you have dependency issues with other software you will need to work through it then come back. You can always boot into a Linux live persistent USB or similar and run the mining node on the computer without modifying the PC (other than the CPU cycles used)
+It's best to start with a fresh install of Ubuntu 16.04. If you have dependency issues with other software you will need to work through it then come back. You can always boot into a Linux live persistent USB or similar and run the mining node on the computer without modifying the PC (other than the CPU cycles used)
 
 
 #### Update 
 
 ```bash
 # Issue the following command to update software
+
 sudo apt update && sudo apt upgrade -y
 ```
 
@@ -48,27 +49,26 @@ sudo apt update && sudo apt upgrade -y
 ## Install the required packages for QRL
 
 sudo apt-get -y install swig3.0 python3-dev python3-pip build-essential 
+
 sudo apt-get -y cmake pkg-config libssl-dev libffi-dev libhwloc-dev libboost-dev
 ```
 
-#### Install
+#### pip3
 
 ```bash
 # Install the QRL Package.
 
 pip3 install -U qrl
 ```
-#### pip3
 
 If your having issues runnning the above command there are a few things to do that will help diagnose the issue. The `pip3` function comes with a logging capibility to see where the issues are happening.  
-
-Run the command above again with  
-
 ```bash
+# Add Logging for pip3 
+
 pip3 install -U qrl --log ~/pip3-Qrl.log
 ```
 
-It will print details of the install to your home directory with the file name pip3-qrl.log. Read it!
+This will print details of the install to your home directory with the file name pip3-qrl.log. Read it!
 The error should be inside.
 
 #### Git
