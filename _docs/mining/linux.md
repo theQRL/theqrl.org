@@ -95,7 +95,7 @@ Before we start there are a few things to know about.
 * If you installed with `pip3 install -U qrl` you will use the `qrl` command.
 *   If you installed from source via GitHub you will be invoking the `~/QRL/start_qrl.py` and the `~/QRL/qrl/cli.py` commands.
 
-Steps to creating a wallet:
+##### Steps to creating a wallet:
 
 * Create Wallet
 * Get the recovery seed / phrase
