@@ -233,6 +233,7 @@ We can add the flag `--seed-type [hexseed|mnemonic]` to change the type of recov
 # With pip3
 
 qrl --seed-type mnemonic
+# OR
 qrl --seed-type hexseed
 ```
 
@@ -240,6 +241,7 @@ qrl --seed-type hexseed
 # From Sources
 
 ~/QRL/qrl/cli.py --seed-type mnemonic
+# OR
 ~/QRL/qrl/cli.py --seed-type hexseed
 ```
 This will prompt up to enter the key or phrase. This should recover the wallet and ask if we want to save it. Enter `y` when prompted.
