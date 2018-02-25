@@ -99,7 +99,7 @@ Steps to creating a wallet:
 
 1) Create Wallet
 2) Get the recovery seed / phrase
-3) 
+3) Generate New S=slaves.json file
 
 #### Create New Wallet
 
@@ -141,36 +141,7 @@ It will respond with a question `Wallet idx [0]:` **Enter** will select the defa
 
 > **Fix Me** - Add command to get `hexseed` from wallet 
 
-* * *
-
-### Recover Your Wallet
-
-If you loose your wallet, the mining rig catches fire, or worse, you still have the ability to recover your Quanta as long as you've saved the hexseed or mnemonic phrase.  
-```bash
-qrl wallet_recover` 
-```
-Or  
-```
-~/QRL/qrl/cli.py wallet_recover
-```
-Without any other flags this will look for the hexseed you generated before.  
-
-We can add the flag `--seed-type [hexseed|mnemonic]` to change the type of recovery method we want to use.
-
-```bash
-# Built with pip3
-qrl --seed-type mnemonic
-qrl --seed-type hexseed
-
-# Built from source
-~/QRL/qrl/cli.py --seed-type mnemonic
-~/QRL/qrl/cli.py --seed-type hexseed
-```
-This will prompt up to enter the key or phrase. This should recover the wallet and ask if we want to save it. Enter `y` when prompted.
-
-* * *
-
-### Generate New `slaves.json` File
+#### Generate New slaves.json File
 
 Using the wallet we just created lets create some files we can use to mine with.  
 
@@ -207,6 +178,35 @@ If you are running from `git clone`
 ./qrl/cli.py -r --host 104.251.219.215 --wallet_dir /home/qrl/QRL/.qrl/ slave_tx_generate
 ```
 It will ask the same questions as above.
+
+
+
+* * *
+
+### Recover Your Wallet
+
+If you loose your wallet, the mining rig catches fire, or worse, you still have the ability to recover your Quanta as long as you've saved the hexseed or mnemonic phrase.  
+```bash
+qrl wallet_recover` 
+```
+Or  
+```
+~/QRL/qrl/cli.py wallet_recover
+```
+Without any other flags this will look for the hexseed you generated before.  
+
+We can add the flag `--seed-type [hexseed|mnemonic]` to change the type of recovery method we want to use.
+
+```bash
+# Built with pip3
+qrl --seed-type mnemonic
+qrl --seed-type hexseed
+
+# Built from source
+~/QRL/qrl/cli.py --seed-type mnemonic
+~/QRL/qrl/cli.py --seed-type hexseed
+```
+This will prompt up to enter the key or phrase. This should recover the wallet and ask if we want to save it. Enter `y` when prompted.
 
 
 * * *
