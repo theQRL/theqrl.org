@@ -80,8 +80,10 @@ git clone https://github.com/theQRL/QRL.git
 ```
 
 
-This allows us to run from a local directory and gives some freedom to change some of the defaults.  
-Also later if we want to update to get the latest changes from the developers it's a simple `git pull` from inside the QRL directory
+This allows you to run from a local directory and gives some freedom to change some of the defaults.  
+Also later if you want to update to get the latest changes from the developers it's a simple 
+`git pull`
+from inside the QRL directory
 
 * * *
 
