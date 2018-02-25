@@ -310,7 +310,9 @@ FIXME - get right link for file download, get hash from file served as well
 If you want to you can of course just create the file.  
 `nano ~/.qrl/config.yml`  
 
-Add the settings you want to override to this file. All the settings shown are default. This file will override the default settings. 
+Add the settings you want to override to this file. All the settings shown are defaults. 
+
+This file will override the default settings if placed in the ~/.qrl folder. 
 
 **Beware that you can break things if you are not careful**
 
