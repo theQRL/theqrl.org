@@ -97,9 +97,9 @@ Before we start there are a few things to know about.
 
 Steps to creating a wallet:
 
-1) Create Wallet
-2) Get the recovery seed / phrase
-3) Generate New S=slaves.json file
+* Create Wallet
+* Get the recovery seed / phrase
+* Generate New S=slaves.json file
 
 #### Create New Wallet
 
