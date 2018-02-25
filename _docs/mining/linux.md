@@ -103,6 +103,8 @@ Steps to creating a wallet:
 
 #### Create New Wallet
 
+* * *
+
 Create a new wallet with:  
 
 **Python Install**
@@ -141,6 +143,8 @@ It will respond with a question `Wallet idx [0]:` **Enter** will select the defa
 
 > **Fix Me** - Add command to get `hexseed` from wallet 
 
+* * *
+
 #### Generate New slaves.json File
 
 Using the wallet we just created lets create some files we can use to mine with.  
@@ -178,8 +182,6 @@ If you are running from `git clone`
 ./qrl/cli.py -r --host 104.251.219.215 --wallet_dir /home/qrl/QRL/.qrl/ slave_tx_generate
 ```
 It will ask the same questions as above.
-
-
 
 * * *
 
