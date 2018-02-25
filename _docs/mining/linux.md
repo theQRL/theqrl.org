@@ -143,7 +143,7 @@ It will respond with a question `Wallet idx [0]:` **Enter** will select the defa
 
 * * *
 
-#### Recover Your Wallet
+### Recover Your Wallet
 
 If you loose your wallet, the mining rig catches fire, or worse, you still have the ability to recover your Quanta as long as you've saved the hexseed or mnemonic phrase.  
 ```bash
