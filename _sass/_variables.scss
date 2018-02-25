@@ -34,7 +34,9 @@ $shadow:0 0 8px rgba(0,0,0,0.4);
 @mixin md {
    @media (min-width: #{$screen-md-min}) { @content; }
 }
-
+@mixin md-max {
+   @media (max-width: #{$screen-md-min}) { @content; }
+}
 // Large devices
 @mixin lg {
    @media (min-width: #{$screen-lg-min}) { @content; }

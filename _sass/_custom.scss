@@ -4,7 +4,7 @@ body {
 }
 .overflow {
 	position:relative;
-	overflow-x:hidden;
+	// overflow-x:hidden;
 }
 .grid > div {
 	padding:10px;
@@ -416,12 +416,33 @@ nav a {
 }
 .docs {
 	.floatmenu {
+		position:sticky;
+		top:0;
 		padding:20px;
 		border:1px solid #222;
 		border-top: 3px solid $quantum_burst;
 		background-color:rgba(255,255,255,0.8);
 		box-shadow: $shadow;
+
+
+		.cta {
+			width:100%;
+			text-align: center;
+		}
+		nav ul {
+			flex-direction:column;
+		}
+		.active {
+			background-color:#EEE;
+			a {
+				border-left:2px solid $quantum_burst;
+			}
+		}
+		ul li {
+			list-style:none;
+		}
 	}
+
 	.document-page {
 		// Firefox: https://bugzilla.mozilla.org/show_bug.cgi?id=1418727
 		min-width: -moz-available;
@@ -430,6 +451,15 @@ nav a {
 		text-decoration: none;
 		color:#000;
 	}
+	@include md-max {
+		.docgrid {
+			grid-template-columns:1fr;
+			> div:last-child {
+				display:none;
+			}
+		}
+	}
+
 }
 .grid.conference {
 	background-color:#160529;

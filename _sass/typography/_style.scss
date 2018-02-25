@@ -45,3 +45,10 @@ h1 {
 	font-size: 60px;
 	line-height: 72px;
 }
+h1 {
+	@include sm-max {
+		font-size: 42px;
+		line-height: 48px;
+		font-weight: 500;	
+	}
+}
