@@ -95,15 +95,14 @@ Before we start there are a few things to know about.
 * If you installed with `pip3 install -U qrl` you will use the `qrl` command.
 *   If you installed from source via GitHub you will be invoking the `~/QRL/start_qrl.py` and the `~/QRL/qrl/cli.py` commands.
 
-##### Steps to creating a wallet:
+##### Steps to creating a new wallet:
 
 * Create Wallet
-* Get the recovery seed / phrase
-* Generate New S=slaves.json file
-
-#### Create New Wallet
+* Get the recovery seed / phrase and save it somewhaere safe
 
 * * *
+
+#### Create New Wallet
 
 Create a new wallet with:  
 
@@ -112,47 +111,65 @@ Create a new wallet with:
 ```bash
 qrl wallet_gen
 ```
+
 **From Source**
 
 ```bash
 ~/QRL/qrl/cli.py wallet_gen
 ```
 
-This creates a wallet file in your 
-`~/.qrl/` folder called `wallet.qrl`
+This creates a wallet file in your `~/.qrl/` folder called `wallet.qrl`
 
 * * *
 
 #### Get Mnemonic and hexseed
 
+In order to recover our wallet later or use this wallet in web wallet, you will need our private keys. You can get these keys in two ways, a hexseed, and a mnemonic phrase. The mnemonic is easier for humans to read, however each will work.
+
 To find your hexseed and recovery information for your wallet you will need to run:
 
 ```bash
+# Get mnemonic phrase pip3 package
+
 qrl wallet_secret
 ```  
 Or if installed from source 
 
 ```bash
+# Get mnemonic phrase from sources
+
 ~/QRL/qrl/cli.py wallet_secret
 ```
 
-It will respond with a question `Wallet idx [0]:` **Enter** will select the default wallet shown, if you have more tahn one select the index that reflects the wallet you are using.
+**Fix Me** - Add command to get `hexseed` from wallet 
+
+This will respond with a question 
+
+```
+Wallet idx [0]:
+``` 
+
+**Enter** will select the default wallet shown, if you have more tahn one select the index that reflects the wallet you are using.
+
 
 *   This will show you the address and secret mnemonic for the wallet you created, stored in `~/.qrl/`
 *   Save it somewhere safe! Anyone with this information can recover your wallet and steal your coins.
 
-> **Fix Me** - Add command to get `hexseed` from wallet 
 
 * * *
 
 #### Generate New slaves.json File
 
-Using the wallet we just created lets create some files we can use to mine with.  
+Using the wallet we just created lets create some files we can use to mine with. We will generate the file against a know working node. You can switch the ip address with a trusted open node
 
 ```bash
+# Generate slaves.json file
+
 qrl -r --host 104.251.219.215 slave_tx_generate` 
 ```
-this will prompt you for some answers.
+
+This will prompt you for some answers.
+
 
 ```bash
 Src []:                 # the wallet you generated identified by #ID
