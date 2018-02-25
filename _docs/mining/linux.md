@@ -176,7 +176,7 @@ qrl -r --host 104.251.219.215 slave_tx_generate`
 
 
 ```bash
-If you are running from `git clone`  
+# If you are running from `git clone`  
 
 ./qrl/cli.py -r --host 104.251.219.215 --wallet_dir /home/qrl/QRL/.qrl/ slave_tx_generate
 ```
@@ -205,24 +205,40 @@ Save the Mmneonic to a cold wallet file and when you need to move coins, restore
 
 ### Recover Your Wallet
 
-If you loose your wallet, the mining rig catches fire, or worse, you still have the ability to recover your Quanta as long as you've saved the hexseed or mnemonic phrase.  
+If you loose your wallet, the mining rig catches fire, or worse... Don't fret! You still have the ability to recover your Quanta as long as you've saved the **hexseed** or **mnemonic phrase** somewhere safe.
+
+To Recover your wallet file:
+
 ```bash
-qrl wallet_recover` 
+# With pip3
+
+qrl wallet_recover
 ```
-Or  
+
+Or
+
 ```
+# From Sources
+
 ~/QRL/qrl/cli.py wallet_recover
 ```
+
 Without any other flags this will look for the hexseed you generated before.  
+
 
 We can add the flag `--seed-type [hexseed|mnemonic]` to change the type of recovery method we want to use.
 
+
 ```bash
-# Built with pip3
+# With pip3
+
 qrl --seed-type mnemonic
 qrl --seed-type hexseed
+```
 
-# Built from source
+```bash
+# From Sources
+
 ~/QRL/qrl/cli.py --seed-type mnemonic
 ~/QRL/qrl/cli.py --seed-type hexseed
 ```
