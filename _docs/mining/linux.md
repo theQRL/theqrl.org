@@ -396,7 +396,7 @@ grep Solution Found ~/.qrl/qrl.log |wc -l
 
 * * *
 
-### qrl --help
+### QRL Help
 
 You can get this list of help from the command line by simply entering
 
