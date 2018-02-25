@@ -23,28 +23,24 @@ $shadow:0 0 8px rgba(0,0,0,0.4);
 
 // Small devices
 @mixin sm {
-   @media (min-width: #{$screen-sm-min}) {
-       @content;
-   }
+   @media (min-width: #{$screen-sm-min}) { @content; }
+}
+// For Things just on mobile devices
+@mixin sm-max {
+   @media (max-width: #{$screen-sm-min}) { @content; }
 }
 
 // Medium devices
 @mixin md {
-   @media (min-width: #{$screen-md-min}) {
-       @content;
-   }
+   @media (min-width: #{$screen-md-min}) { @content; }
 }
 
 // Large devices
 @mixin lg {
-   @media (min-width: #{$screen-lg-min}) {
-       @content;
-   }
+   @media (min-width: #{$screen-lg-min}) { @content; }
 }
 
 // Extra large devices
 @mixin xl {
-   @media (min-width: #{$screen-xl-min}) {
-       @content;
-   }
+   @media (min-width: #{$screen-xl-min}) { @content; }
 }
