@@ -282,81 +282,8 @@ It may take a little while for the slave to become active.
 
 **Be patient!**
 
-* * *
+By default QRL begins mining to the wallet defined in the slaves.json file using all cores. You can change some of the default behavior of the node by utilizing a configuration file. 
 
-### Node Commands
-
-Some Handy Commands to query against your node. 
-
-``` bash
-screen -d -m ~/QRL/start_qrl # This will start QRL in a screen session.
-    screen -r                # To reattach the screen
-    ctl+a d                  # Exit the screen without quitting the program
-tail -f ~/.qrl/qrl.log       # Show activity in qrl.log
-
-# Print found blocks. If empty your node has not found anything yet.
-grep Solution Found ~/.qrl/qrl.log
-# Prints how many blocks you have found (count of won blocks)
-grep Solution Found ~/.qrl/qrl.log |wc -l   
-```
-
-* * *
-
-### Install From Source
-
-If you grabbed the source files from [GitHub](https://github.com/theQRL) the commands will differ a bit. Instead of the `qrl` command we will invoke
-
-```bash
-~/QRL/start_qrl.py # This will start the node up and by default begin mining for us
-
-# You can see your options by running 
-./start_qrl.py --help # This will give the following output.
-
-# usage: start_qrl.py [-h] [--quiet] [--datadir DATA_DIR] [--no-colors] [-l {DEBUG,INFO,WARNING,ERROR,CRITICAL}] [--randomizeSlaveXMSS]
-
-# optional arguments:
--h, --help                                      # show this help message and exit
---quiet, -q                                     # Avoid writing data to the console
---datadir DATA_DIR, -d DATA_DIR                 # Retrieve data from a different path
---no-colors                                     # Disables color output
--l {DEBUG,INFO,WARNING,ERROR,CRITICAL}          # Set the logging level
---loglevel {DEBUG,INFO,WARNING,ERROR,CRITICAL}  # Set the logging level
---randomizeSlaveXMSS                            # Generates random slaves.json file (Warning: For Integration Test only)
-```
-
-```bash
-~/QRL/qrl/cli.py                                # gives us some of the other functions like generating a wallet and such.
-#Running the command 
-./qrl/cli.py --help # will give you the available options
-
-# Usage: cli.py [OPTIONS] COMMAND [ARGS]...
-# QRL Command Line Interface
-# Options:
-    -r, --remote                                # connect to remote node
-    --host TEXT                                 # remote host address [127.0.0.1]
-    --port_pub INTEGER                          # remote port number (public api) [9009]
-    --port_adm INTEGER                          # remote port number (admin api) [9009]* will change
-    --wallet_dir TEXT                           # local wallet dir
-    --help                                      # Show this message and exit.
-# Commands:
-    slave_tx_generate                           # Generates Slave Transaction for the wallet
-    token_list                                  # Create Token Transaction, that results into...
-    tx_inspect                                  # Inspected a transaction blob
-    tx_prepare                                  # Request a tx blob (unsigned) to transfer from...
-    tx_prepare                                  # Request a tx blob (unsigned) to transfer from...
-    tx_prepare                                  # Request a tx blob (unsigned) to transfer from...
-    tx_push
-    tx_sign                                     # Sign a tx blob
-    tx_token                                    # Create Token Transaction, that results into...
-    tx_transfer                                 # Transfer coins from src to dst
-    tx_transfertoken                            # Create Token Transaction, that results into...
-    wallet_add                                  # Adds an address or generates a new wallet...
-    wallet_gen                                  # Generates a new wallet with one address
-    wallet_ls                                   # Lists available wallets
-    wallet_recover                              # Recovers a wallet from a hexseed or mnemonic...
-    wallet_secret                               # Provides the mnemonic/hexseed of the given...
-
-```
 * * *
 
 ### Config File
@@ -366,10 +293,17 @@ The default settings for the code are burried inside of the core directory. Inst
 #### Download config.yml
 
 You can grab a copy of this file directly from here with:  
+
+FIXME - get right link for file download, get hash from file served as well
+
 `wget https://qrl.co.in/public/config.yml`  
+
 Move it to your ~/.qrl folder  
 `mv config.yml ~/.qrl`  
+
 You can download a copy of this file here as well [config.yml](https://qrl.co.in/public/config.yml)  
+
+FIXME - get right link for file download, get hash from file served as well
 
 #### Edit the config.yml
 
@@ -439,12 +373,97 @@ chain_state_broadcast_period : 30 # must be less than ping_timeout
 
 * * *
 
+### Node Commands
 
+Some Handy Commands to query against your node. 
 
+``` bash
+screen -d -m ~/QRL/start_qrl # This will start QRL in a screen session.
+    screen -r                # To reattach the screen
+    ctl+a d                  # Exit the screen without quitting the program
+tail -f ~/.qrl/qrl.log       # Show activity in qrl.log
 
+# Print found blocks. If empty your node has not found anything yet.
+grep Solution Found ~/.qrl/qrl.log
+# Prints how many blocks you have found (count of won blocks)
+grep Solution Found ~/.qrl/qrl.log |wc -l   
+```
 
+* * *
 
+### qrl --help
 
+You can get this list of help from the command line by simply entering
 
+```bash
+qrl --help
+```
 
+You can get more detail from a sub catigory by entering 
 
+```bash
+qrl wallet_seceret --help
+```
+
+**Note**
+
+If you grabbed the source files from [GitHub](https://github.com/theQRL) the commands will differ a bit. Instead of the `qrl` command we will invoke
+
+```bash
+# From the QRL directory
+
+./start_qrl.py # This will start the node up and by default begin mining for us
+
+# You can see your options by running 
+./start_qrl.py --help # This will give the following output.
+
+# usage: start_qrl.py [-h] [--quiet] [--datadir DATA_DIR] [--no-colors] [-l {DEBUG,INFO,WARNING,ERROR,CRITICAL}] [--randomizeSlaveXMSS]
+
+# optional arguments:
+-h, --help                                      # show this help message and exit
+--quiet, -q                                     # Avoid writing data to the console
+--datadir DATA_DIR, -d DATA_DIR                 # Retrieve data from a different path
+--no-colors                                     # Disables color output
+-l {DEBUG,INFO,WARNING,ERROR,CRITICAL}          # Set the logging level
+--loglevel {DEBUG,INFO,WARNING,ERROR,CRITICAL}  # Set the logging level
+--randomizeSlaveXMSS                            # Generates random slaves.json file (Warning: For Integration Test only)
+```
+
+We can access the rest of the tools from the QRL/qrl directory using `cli.py`
+
+```bash
+# From the QRL directory
+
+./qrl/cli.py                                # gives us some of the other functions like generating a wallet and such.
+
+#Running the command 
+./qrl/cli.py --help # will give you the available options
+
+# Usage: cli.py [OPTIONS] COMMAND [ARGS]...
+# QRL Command Line Interface
+# Options:
+    -r, --remote                                # connect to remote node
+    --host TEXT                                 # remote host address [127.0.0.1]
+    --port_pub INTEGER                          # remote port number (public api) [9009]
+    --port_adm INTEGER                          # remote port number (admin api) [9009]* will change
+    --wallet_dir TEXT                           # local wallet dir
+    --help                                      # Show this message and exit.
+# Commands:
+    slave_tx_generate                           # Generates Slave Transaction for the wallet
+    token_list                                  # Create Token Transaction, that results into...
+    tx_inspect                                  # Inspected a transaction blob
+    tx_prepare                                  # Request a tx blob (unsigned) to transfer from...
+    tx_prepare                                  # Request a tx blob (unsigned) to transfer from...
+    tx_prepare                                  # Request a tx blob (unsigned) to transfer from...
+    tx_push
+    tx_sign                                     # Sign a tx blob
+    tx_token                                    # Create Token Transaction, that results into...
+    tx_transfer                                 # Transfer coins from src to dst
+    tx_transfertoken                            # Create Token Transaction, that results into...
+    wallet_add                                  # Adds an address or generates a new wallet...
+    wallet_gen                                  # Generates a new wallet with one address
+    wallet_ls                                   # Lists available wallets
+    wallet_recover                              # Recovers a wallet from a hexseed or mnemonic...
+    wallet_secret                               # Provides the mnemonic/hexseed of the given...
+
+```
