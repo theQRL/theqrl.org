@@ -173,8 +173,9 @@ Src []:                 # the wallet you generated identified by #ID
 Addr from               # (Leave blank in case same as source) []:`
 Number of slaves [0]:   # How many wallet files do we want to slave?
 Access type [0]:        # Do we want to mine or transfer coins?
-                        # 0 <-- gives all permissions from the master wallet to slave wallet, Slave wallet can perform all transactions for master wallet
-                        # 1 <-- Only mining permissions to slave wallet. Slave wallet can sign blocks while mining Will credit the mining reward to the master address only. This setting allows incoming only transfers.
+                        # 0 <-- gives all permissions from the master wallet to slave wallet
+                        # 1 <-- Only mining permissions to slave wallet. 
+                            # This setting allows incoming only transfers (SAFE).
 Fee [0.0]: 0            # how much fee are we paying
 ```
 
