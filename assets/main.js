@@ -1,5 +1,8 @@
 
 $(document).ready(function() {
+    $('#nav-icon').click(function(){
+        $(this).toggleClass('open');
+    });
     // Click
     $('.has-child > a').on('click', function(event) {
       event.preventDefault();
@@ -49,7 +52,7 @@ $(document).ready(function() {
             if (k==0) {
               var maxLength = 600; // maximum number of characters to extract
             } else {
-              var maxLength = 120;
+              var maxLength = 100;
             }
 
 
