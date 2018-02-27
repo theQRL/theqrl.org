@@ -25,10 +25,14 @@ collections:
   docs:
     permalink: "/:collection/:path/"
     output: true
+  conferences:
+    permalink: "/conferences/:year/:month/:path/"
+    output: true
   posts:
     permalink: "/news/:year/:month/:day/:title/"
     output: true
-  tutorials:
+  team:
+    permalink: "/:collection/:path/"
     output: true
 defaults:
 - scope:
@@ -36,6 +40,10 @@ defaults:
     type: docs
   values:
     layout: docs
+- scope:
+   path: _team
+  values:
+    layout: human
 highlighter: rouge
 kramdown:
   input: GFM

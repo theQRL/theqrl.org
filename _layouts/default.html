@@ -2,8 +2,11 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {% include head.html %}
-
-  <body>
+  {% assign pageclass = page.url | replace:'/','' %}
+  {% if pageclass == "" or pageclass == nil %}
+  {% assign pageclass = 'homepage' %}
+  {% endif %}
+  <body class="{{ pageclass }}">
 	<div class="overflow">
     {% include header.html %}
 

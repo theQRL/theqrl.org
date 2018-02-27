@@ -1,50 +1,57 @@
 <div class="wrapper footer">
+  <div class="grid w12">
+    <div>
+      <h3>From the Blog</h3>
+    </div>
+  </div>
   <div class="grid w6 blogroll">
 
   </div>
 </div>
 
 
-<div class="wrapper footernav" style="display: none;">
-  <div class="grid collapse">
-    <div class="logo">
-      <a href="/">
-        <img src="/assets/logo.png" alt="">
-      </a>
-    </div>
-    <div class="menu">
-      {% if page_paths %}
-      <nav>
-        <ul>
-        {% for path in page_paths %}
-          {% assign my_page = site.pages | where: "path", path | first %}
-          {% if my_page.title %}
-          <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
-          {% endif %}
-        {% endfor %}
-        </ul>         
-      </nav>
-      {% endif %}
 
+<div class="wrapper footerlinks">
+  <div class="grid w2">
+    <div class="w4">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mb-2"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
+      <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
     </div>
-    <div class="whitepaper">
-      <nav class="click">
-        <ul>
-          <li><a href="">Whitepaper</a>
-            <ul>
-              <li><a href="">English</a></li>
-              <li><a href="">Chinese</a></li>
-              <li><a href="">German</a></li>
-              <li><a href="">French</a></li>
-              <li><a href="">Japanese</a></li>
-              <li><a href="">Russian</a></li>
-              <li><a href="">Spanish</a></li>
-              <li><a href="">Turkish</a></li>
-              <li><a href="">Vietnamese</a></li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
+    <div>
+      <h3>Features</h3>
+      <ul>
+        <li><a href="#">Cool stuff</a></li>
+        <li><a href="#">Random feature</a></li>
+        <li><a href="#">Team feature</a></li>
+        <li><a href="#">Stuff for developers</a></li>
+        <li><a href="#">Another one</a></li>
+        <li><a href="#">Last time</a></li>
+      </ul>      
+    </div>
+    <div>
+      <h3>Resources</h3>
+      <ul>
+        <li><a href="https://explorer.theqrl.org">Explorer</a></li>
+        <li><a href="https://wallet.theqrl.org">Web Wallet</a></li>
+        <li><a href="https://github.com/theQRL/">Github</a></li>
+      </ul>  
+    </div>
+    <div>
+      <h3>About</h3>
+      <ul>
+        <li><a href="/team">Team</a></li>
+        <li><a href="/privacy">Privacy</a></li>
+        <li><a href="/team">Terms &amp; Conditions</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Social</h3>
+      <ul>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Reddit</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Discord</a></li>
+      </ul>  
     </div>
   </div>
 </div>
