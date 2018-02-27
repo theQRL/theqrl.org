@@ -12,16 +12,16 @@ layout: default
 		    <h2 class="page-heading">{{ page.title }}</h2>
 		  {% endif %}
 
-		  <div class="grid no-padding">
+		  <div class="grid no-padding docgrid">
 		  		<div class="w8 document-page">
 				  {{ content }}		  			
 		  		</div>
 		  		<div class="w4">
 		  			<div class="floatmenu">
-						
+						<nav>
 						<ul id="stickymenu">
 						</ul>
-
+						</nav>
 						<p>Still stuck? There's help over on <a class="cta" href="https://discord.gg/zcGhKpy">Discord!</a></p>		  				
 		  			</div>
 
@@ -31,12 +31,7 @@ layout: default
 		</div>		
 	</div>
 </div>
-<style>
-.floatmenu {
-	position:sticky;
-	top:0;
-}
-</style>
+
 <script>
 var elements = document.querySelectorAll('.document-page h2, .document-page h3');
 

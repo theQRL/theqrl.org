@@ -33,17 +33,25 @@ jQuery(document).ready(function(){
           <img src="/assets/front-slideshow/send.png">
         </a>
       </li>
+      <li>
+        <a href="https://wallet.theqrl.org">
+          <img src="/assets/front-slideshow/transactions.png">
+        </a>
+      </li>
+
 
     </ul>
       
-      <p>See us in action at</p>
+      <div class="header-section">
+        <h2>What is QRL</h2>
+      </div>
       <div class="grid conference">
         <div class="image">
-          
+          <img src="/assets/conferences/apac.jpg" alt="">
         </div>
         <div>
-          <h2>APAC Australia</h2>
-          <p>13 - 15 March 2018</p>
+          <h2>APAC Blockchain Conference</h2>
+          <p>March 13-15, 2018</p>
           <p>Melbourne Convention and Exhibition Centre</p>
         </div>
         <div>
@@ -52,23 +60,30 @@ jQuery(document).ready(function(){
       </div>
       <div class="grid conference">
         <div class="image">
-          
+          <img src="/assets/conferences/blockchain-expo.png" alt="">
         </div>
         <div class="">
-          <h2>Consensus</h2>
-          <p>13 - 15 March 2018</p>
-          <p>Melbourne Convention and Exhibition Centre</p>
+          <h2>Blockchain Expo Global</h2>
+          <p>April 18-19, 2018</p>
+          <p>Olympia, London</p>
         </div>
         <div class="">
-          <a class="cta" href="">Buy Tickets</a>
+          <a class="cta" href="https://gateway.blockchain-expo.com/global/central-grid/register/">Buy Tickets</a>
         </div>
       </div>
       
+
+
+
       <div class="header-section">
         <h2>What is QRL</h2>
         <h3>An intro into QRL</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic voluptatibus error molestias nesciunt beatae doloribus animi consectetur. Odio magni fuga, consectetur. Tenetur architecto facere consectetur soluta incidunt reprehenderit, similique officia?</p>
-        <div class="youtube-player" data-id="V8IxLDxMEb8"></div>
+      </div>
+      <div style="max-width:500px; margin:0 auto">
+        <div class="youtube-player" data-id="V8IxLDxMEb8"></div>        
+      </div>
+
 
 <!--         <div class="video">
 
@@ -94,7 +109,24 @@ jQuery(document).ready(function(){
     </div>
   </div>
   <div class="grid team-members">
-    <div>
+      {% assign membership = site.team | sort: 'hierarchy' | reverse %}
+      {% for team in membership %}
+      <div>
+      <div class="image">
+      <div style="background-image:url('/assets/team/{{ team.image }}');"></div>
+      </div>
+      <div class="name">{{ team.title }}</div>
+      <div class="position">
+        <div class="role">{{ team.role }}</div>
+        <div class="position">{{ team.position }}</div>
+      </div>
+      <div class="profile">
+        <a href="{{ team.url }}" class="cta">View Profile</a>
+      </div>
+      <div class="social"></div>
+      </div>
+      {% endfor %}
+<!--     <div>
       <div class="image">
         <div style="background-image:url('/assets/team/pete.png');"></div>
       </div>
@@ -138,7 +170,7 @@ jQuery(document).ready(function(){
       <div class="name">Filip Radcevic</div>
       <div class="position">Core-Developer</div>
       <div class="social"></div>
-    </div>
+    </div> -->
   </div>
   <div class="grid w12">
     <div>
