@@ -67,8 +67,8 @@ jQuery(document).ready(function(){
 
       <div class="header-section">
         <h2>What is QRL</h2>
-        <h3>An intro into QRL</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic voluptatibus error molestias nesciunt beatae doloribus animi consectetur. Odio magni fuga, consectetur. Tenetur architecto facere consectetur soluta incidunt reprehenderit, similique officia?</p>
+        <h3>The Quantum Resistant Ledger (QRL) will be a first of its kind, future-proof post-quantum value store and decentralized communication layer which tackles the threat Quantum Computing will pose to cryptocurrencies.</h3>
+        <p></p>
       </div>
       <div style="max-width:500px; margin:0 auto">
         <div class="youtube-player" data-id="V8IxLDxMEb8"></div>        
@@ -102,71 +102,19 @@ jQuery(document).ready(function(){
       {% assign membership = site.team | sort: 'hierarchy' | reverse %}
       {% for team in membership %}
       <div>
-      <div class="image">
-      <div style="background-image:url('/assets/team/{{ team.image }}');"></div>
-      </div>
-      <div class="name">{{ team.title }}</div>
-      <div class="position">
-        <div class="role">{{ team.role }}</div>
-        <div class="position">{{ team.position }}</div>
-      </div>
-      <div class="profile">
-        <a href="{{ team.url }}" class="cta">View Profile</a>
-      </div>
-      <div class="social"></div>
+        <div class="image">
+        <div style="background-image:url('/assets/team/{{ team.image }}');"></div>
+        </div>
+        <div class="name">{{ team.title }}</div>
+        <div class="position">
+          <div class="role">{{ team.role }}</div>
+          <div class="position">{{ team.position }}</div>
+        </div>
+        <div class="profile">
+          <a href="{{ team.url }}" class="cta">View Profile</a>
+        </div>
+        <div class="social"></div>
       </div>
       {% endfor %}
-<!--     <div>
-      <div class="image">
-        <div style="background-image:url('/assets/team/pete.png');"></div>
-      </div>
-      <div class="name">Dr. Peter Waterland</div>
-      <div class="position">Founder</div>
-      <div class="social"></div>
-    </div>
-    <div>
-      <div class="image">
-        <div style="background-image:url('/assets/team/jp.png');"></div>
-      </div>
-      <div class="name">Dr. JP Lomas</div>
-      <div class="position">Core-Developer</div>
-      <div class="social"></div>
-    </div>
-    <div>
-      <div class="image">
-        <div style="background-image:url('/assets/team/cyber.png');"></div>
-      </div>
-      <div class="name">Kaushal Kumar Singh</div>
-      <div class="position">Core-developer</div>
-      <div class="social"></div>
-    </div>
-    <div>
-      <div class="image">
-        <div style="background-image:url('/assets/team/leon.png');"></div>
-      </div>
-      <div class="name">Leon Groot Bruinderink</div>
-      <div class="position">Advisor</div>
-      <div class="social"></div>
-    </div>
-    <div>
-      <div class="image">
-      </div>
-      <div class="name">Michael Kolenbrander</div>
-      <div class="position">Core-Developer</div>
-      <div class="social"></div>
-    </div>
-    <div>
-      <div class="image"></div>
-      <div class="name">Filip Radcevic</div>
-      <div class="position">Core-Developer</div>
-      <div class="social"></div>
-    </div> -->
   </div>
-  <div class="grid w12">
-    <div>
-      <a href="/team" class="cta">See The Whole Team</a>      
-    </div>
-  </div>
-
-
 </div>

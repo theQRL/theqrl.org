@@ -1,5 +1,5 @@
 ---
-title: JP Lomas
+title: Dr. JP Lomas
 role: Core-Developer
 position: Full stack developer
 image: jplomas.png

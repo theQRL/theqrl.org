@@ -22,9 +22,6 @@ url: "http://example.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 collections:
-  docs:
-    permalink: "/:collection/:path/"
-    output: true
   conferences:
     permalink: "/conferences/:year/:month/:path/"
     output: true
@@ -35,11 +32,6 @@ collections:
     permalink: "/:collection/:path/"
     output: true
 defaults:
-- scope:
-    path: _docs
-    type: docs
-  values:
-    layout: docs
 - scope:
    path: _team
   values:
