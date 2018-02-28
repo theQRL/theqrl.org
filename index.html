@@ -28,7 +28,7 @@ jQuery(document).ready(function(){
           <img src="/assets/front-slideshow/newwallet.png">
         </a>
       </li>
-            <li>
+      <li>
         <a href="https://wallet.theqrl.org">
           <img src="/assets/front-slideshow/send.png">
         </a>
@@ -45,32 +45,22 @@ jQuery(document).ready(function(){
       <div class="header-section">
         <h2>What is QRL</h2>
       </div>
+      {% assign conference = site.conferences | sort: 'date' %}
+      {% for conf in conference %}
       <div class="grid conference">
         <div class="image">
-          <img src="/assets/conferences/apac.jpg" alt="">
+          <img src="/assets/conferences/{{ conf.image }}" alt="">
         </div>
         <div>
-          <h2>APAC Blockchain Conference</h2>
-          <p>March 13-15, 2018</p>
-          <p>Melbourne Convention and Exhibition Centre</p>
+          <h2>{{ conf.title }}</h2>
+          <p>{{ conf.datestart | date_to_string }} - {{ conf.dateend | date_to_string }}</p>
+          <p>{{ conf.where }}</p>
         </div>
         <div>
-          <a class="cta" href="">Buy Tickets</a>
+          <a class="cta" href="{{ conf.link_tickets }}">Buy Tickets</a>
         </div>
       </div>
-      <div class="grid conference">
-        <div class="image">
-          <img src="/assets/conferences/blockchain-expo.png" alt="">
-        </div>
-        <div class="">
-          <h2>Blockchain Expo Global</h2>
-          <p>April 18-19, 2018</p>
-          <p>Olympia, London</p>
-        </div>
-        <div class="">
-          <a class="cta" href="https://gateway.blockchain-expo.com/global/central-grid/register/">Buy Tickets</a>
-        </div>
-      </div>
+      {% endfor %}
       
 
 
