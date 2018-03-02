@@ -28,11 +28,39 @@ body.homepage {
 }
 
 .wrapper {
-	@include lg {
-		padding-top:90px;
-		padding-bottom:90px;
+	&:before,
+	&:after,
+	> .grid {
+		position:relative;
+	}
+	&:before,
+	&:after {
+		z-index: 1;
+	}
+	
+	@include md-max {
+		&:before,
+		&:after {
+			z-index: 1;
+		    margin: 0 !important;
+		    top: 0 !important;
+		    bottom: 0 !important;
+		    content: unset !important;
+		}		
+	}
+
+	> .grid {
+		z-index: 5;
+	}
+	padding-top:10px;
+	padding-bottom:10px;
+
+	@include md {
+		padding-top:150px;
+		padding-bottom:150px;
 	}
 }
+
 
 /* Stripes */
 .wrapper:nth-child(odd) {
@@ -60,11 +88,14 @@ a {
 // Call-to-action
 a.cta {
 	background-color:#dc255d;
-	padding:10px 20px;
+	padding:10px 25px;
 	color:#FFF;
 	text-decoration: none;
 	box-shadow: $shadow;
 	display: inline-block;
+	text-transform: uppercase;
+	font-size:12px;
+	font-weight:400;
 }
 
 .slideshow {
@@ -74,6 +105,10 @@ a.cta {
 }
 pre.highlight {
 	overflow-x:auto;
+}
+.wrapper.team {
+	padding-top:30px;
+	padding-bottom: 30px;
 }
 .team-members {
 	.image {
@@ -188,32 +223,13 @@ pre.highlight {
 		}
 	}
 }
-.blog-card {
 
-	font-weight: 300;
-	.title a {
-		font-family: $heading_font;
-		color:#FFF;
-		text-decoration: none;
-		font-weight: 500;
-		font-size:20px;
-		line-height: 30px;
-
-	}
-	&:first-child {
-		.title a {
-			font-size:34px;
-			line-height: 34px !important;
-
-		}
-	}
-}
 .header-section {
 	text-align: center;
 	max-width: 600px;
 	margin:0 auto;
 	margin-bottom: 20px;
-	margin-top:50px;
+	// margin-top:50px;
 
 	h2 {
 		color:$quantum_sky;
@@ -258,15 +274,18 @@ nav a {
 .wrapper.hero {
 	text-align:center;
 
-
-
 	h1 {
 		font-weight: 300;
+		color:$quantum_sky;
 	}
 	p {
-		max-width: 400px;
+		max-width: 720px;
+		font-size:21px; line-height: 42px;
+		color:$quantum_deep;
 		margin:0 auto;
-		font-family: $heading_font;
+		font-weight: 400;
+		margin-top: 20px;
+		font-family: $body_font;
 	}
 	.cta {
 		margin-top: 20px;
@@ -278,6 +297,7 @@ nav a {
 .header {
 	// position:relative;
 	padding-bottom: 0;
+	position:relative;
 	z-index: 10;
 
 	.grid {
@@ -456,7 +476,6 @@ nav a {
 		top:100px; margin-top:-100px;
 		@include angle-edge($angle: 2.5, $angle-position-y: 'bottom', $angle-position-x: 'left');		
 	}
-	// @include angle-edge($angle: 2.5, $angle-position-y: 'both', $angle-position-x: 'right', $angle-position-bottom-x: 'left', $angle-bottom:1.5);
 	padding:0px 0;
 	background-color:#F3F3F3;
 }
@@ -566,11 +585,12 @@ nav a {
 
 .events {
 	padding-top:0;
+	padding-bottom: 40px;
 	&:before {
 		content:'';
 		display: block;
 		width:100%;
-		height:130px; position:relative; top:-130px; margin-top:130px; margin-bottom: -130px;
+		height:130px; position:relative; top:-130px; margin-top:130px; margin-bottom: -170px;
 		@include angle-edge($angle: 2, $angle-position-y: 'top', $angle-position-x: 'left');
 	}
 
@@ -612,205 +632,9 @@ nav a {
 	}
 }
 
-.footernav {
-	background-color:#160527;
 
-	a {
-		color:#FFF;
-	}
-}
-.footernav .grid {
-	.whitepaper {
-		nav > ul > li {
-			a {
-				font-family: 'Roboto';
-				background-color: transparent;
-				text-decoration: none;
-				color: #FFF;
-
-				&:hover {
-					background-color:#EEE;
-				}
-			}
-			> a {
-				border:0px solid #000;
-				padding:10px 20px;
-				box-shadow: none;
-			}
-		}
-	}
-}
-.wrapper.footer {
-	background-image:url(/assets/particles/orb.png);
-	background-repeat: no-repeat;
-	background-position: bottom -100px right -40px;
-	background-color:#160527;
-	color:#FFF;
-	
-	h3 {
-		color:#FFF;
-		text-align: center;
-		font-size:18px; 
-		line-height: 24px;
-		text-transform: uppercase;
-	}
-	
-	p {
-		color:#FFF;
-	}
-}
-.wrapper.footerlinks {
-	padding-top:10px; padding-bottom:10px;
-	background-color:#0F031C;
-	color:#FFF;
-
-	@include md-max {
-		.grid > div {
-			grid-column: span 6;
-		}
-		.grid > div:first-child {
-			grid-column: span 12;
-		}
-	}
-	h3 {
-		color:#FFF;
-	}
-	ul {
-		padding-left:0;
-	}
-	ul li {
-		list-style:none;
-	}
-}
-    .youtube-player {
-        position: relative;
-        padding-bottom: 56.23%;
-        /* Use 75% for 4:3 videos */
-        height: 0;
-        overflow: hidden;
-        max-width: 100%;
-        background: #000;
-        margin: 5px;
-    }
-    
-    .youtube-player iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 100;
-        background: transparent;
-    }
-    
-    .youtube-player img {
-        bottom: 0;
-        display: block;
-        left: 0;
-        margin: auto;
-        max-width: 100%;
-        width: 100%;
-        position: absolute;
-        right: 0;
-        top: 0;
-        border: none;
-        height: auto;
-        cursor: pointer;
-        transition: 1s all;
-        filter: brightness(35%);
-        // pointer-events:none;
-    }
-    
-    .youtube-player:hover img {
-        filter: brightness(80%);
-    }
-    .youtube-player .play::before {
-    	content:'';
-    	font-size:41px;
-    	line-height: 69px;
-    	padding:0;
-    	padding-left:2px;
-    	color:#FFF;
-        height: 80px;
-        width: 80px;
-        left: 50%;
-        top: 50%;
-        margin-left: -36px;
-        margin-top: -36px;
-        position: absolute;
-        background: url("/assets/play.png") no-repeat;
-        cursor: pointer;
-    }
-.wrapper.footer-signup {
-	padding-top:0; padding-bottom: 0;
-	background-color:#0F031C;
-	color:#FFF;
-
-	label {
-		font-style: normal;
-		font-weight: normal;
-		line-height: normal;
-		font-size: 14px;
-    margin-bottom: 7px;
-    display: inline-block;
-		text-transform: uppercase;
-	}
-
-	input {
-		padding:5px 10px;
-		line-height: 32px;
-		font-size:14px;
-		border:0;
-		width:100%;
-
-		&[type=submit] {
-			background-color: $quantum_burst;
-
-			color:#FFF;
-		}
-	}
-	@include sm-max {
-		> .grid > div {
-			grid-column: span 12;
-		}
-	}
-	.submit {
-		display: flex;
-		justify-content: flex-end;
-		flex-direction: column;
-	}
-	.social {
-		ul {
-			display:flex;
-			justify-content: flex-end;
-			align-items: flex-end;
-			flex-direction:row;
-			width:100%;
-			    margin: 0;
-    height: 100%;
-    padding-left:0;
-		}
-		li {
-
-			margin:5px;
-			margin-bottom: 0;
-			list-style:none;
-			
-			a {
-				display:block;
-				width:40px; height:40px;
-				padding:7px;
-				color:#FFF;
-				background-color: $quantum_burst;
-				border-radius: 50%;
-				font-size:0;
-				svg {
-					width:25px; height:25px;
-				}
-			}
-		}
-	}
-}
+@import 'layout/footer';
+@import 'includes/youtube';
 
 @import 'pages/downloads';
 @import 'pages/faq';

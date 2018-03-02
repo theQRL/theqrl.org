@@ -4,9 +4,13 @@ layout: default
 <script src="/assets/slippry/slippry.min.js"></script>
 <link rel="stylesheet" href="/assets/slippry/slippry.css" />
 <script>
-jQuery(document).ready(function(){
+$(function() {
   var slideshow = jQuery('.slideshow').slippry();
+  $(window).on('load',function(){
+    slideshow.goToNextSlide();
+  });
 });
+
 </script>
 
 <div class="wrapper hero">

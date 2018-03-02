@@ -8,7 +8,8 @@ permalink: /faq/
   <div class="grid">
     <div class="w12">
       <h1>FAQ's</h1>
-      <p>These are some Frequently asked questions from the community.</p>
+		<p>Common questions <em>and</em> answers to those questions prepared by our team.</p>
+		<p>Have more questions? See our <a href="http://docs.theqrl.org">Documentation</a> or <a href="/contact">Contact Us</a></p>
     </div>
   </div>
 </div> 

@@ -39,9 +39,9 @@ $(document).ready(function() {
     });
 
     // Run through slideshow
-    $(window).on('load resize', function() {
-    
-        $('.slideshow img').css('max-height','none');
+    $(window).on('load resize click', function() {
+        console.log('hi');
+        $('.slideshow img').css('max-height','350px');
 
         var sizes = [];
         $('.slideshow img').each(function() {

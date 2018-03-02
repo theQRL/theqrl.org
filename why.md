@@ -8,7 +8,7 @@ permalink: /why/
   <div class="grid">
     <div class="w12">
       <h1>Why QRL?</h1>
-      <p>QRL is the first blockchain of its kind - a future-proof post quantum value store and decentralized communication layer which tackles the threat Quantum Computing will pose to cryptocurrencies.</p>
+      <p>Based on the understanding that popular means of current encryption (such as ECDSA) in the cryptocurrency space are vulnerable to a sufficiently powerful quantum computer running Shor’s algorithm, QRL is addressing what will be a singular threat to the security of cryptocurrency going forward – the inevitability of quantum computing.</p>
     </div>
   </div>
 </div>
