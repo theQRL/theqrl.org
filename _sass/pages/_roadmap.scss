@@ -1,0 +1,84 @@
+$variance: 500;
+$variance_else: $variance / 2;
+
+@mixin roadmap-item($variance) {
+	
+
+	$roadmap_negative: $variance / 2;
+	$roadmap_x: random($variance) - $roadmap_negative;
+
+	right: $roadmap_x + px; 
+
+	&:before {
+		$orb_size: random(50) + 120;
+		position:absolute;
+		@if($roadmap_x < 0) {
+			left:-($orb_size) - 10 + px;
+		} 
+		@if($roadmap_x > 0) {
+			right:-($orb_size) - 10 + px;  
+		}
+ 		top:5px;
+		content:'';
+		display:block;
+		background-image:url(/assets/particles/particle.w200.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		width:($orb_size) + px;
+		height:($orb_size) + px;
+
+	}
+}
+
+body.roadmap {
+
+	.roadmap-item {
+		
+		max-width: 300px;
+		margin:0 auto;
+		margin-bottom: 100px;
+		position:relative;
+		
+		&.complete {
+			h3:after {
+				content:'';
+				display:inline-block;
+				background-image:url(/assets/pages/roadmap/check.png);
+				width:22px; height:22px;
+				background-size: contain;
+				margin-left:5px;
+				position:relative; top:2px;
+			}
+		}
+ 		.date {
+ 			color:$quantum_burst;
+ 		}
+
+		@include lg {
+			&:nth-child(1) { @include roadmap-item($variance); }
+			&:nth-child(2) { @include roadmap-item($variance); }
+			&:nth-child(3) { @include roadmap-item($variance); }
+			&:nth-child(4) { @include roadmap-item($variance); }
+			&:nth-child(5) { @include roadmap-item($variance); }
+			&:nth-child(6) { @include roadmap-item($variance); }
+			&:nth-child(7) { @include roadmap-item($variance); }
+			&:nth-child(8) { @include roadmap-item($variance); }
+			&:nth-child(9) { @include roadmap-item($variance); }
+		}
+
+		&.take2 { 
+			@include lg {
+				&:nth-child(1) { @include roadmap-item($variance); }
+				&:nth-child(2) { @include roadmap-item($variance); }
+				&:nth-child(3) { @include roadmap-item($variance); }
+				&:nth-child(4) { @include roadmap-item($variance); }
+				&:nth-child(5) { @include roadmap-item($variance); }
+				&:nth-child(6) { @include roadmap-item($variance); }
+				&:nth-child(7) { @include roadmap-item($variance); }
+				&:nth-child(8) { @include roadmap-item($variance); }
+				&:nth-child(9) { @include roadmap-item($variance); }
+			}
+		}
+
+	} 
+}

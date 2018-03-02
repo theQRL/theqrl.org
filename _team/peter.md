@@ -2,7 +2,7 @@
 title: Peter Waterland
 role: Core Developer
 position: Founder
-image: pete.png
+image: pete.small.png
 hierarchy: 10
 ---
 

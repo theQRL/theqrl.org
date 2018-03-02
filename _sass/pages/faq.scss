@@ -1,0 +1,129 @@
+.faq {
+	.arrow {
+		position:relative;
+		&:before {
+			content:'';
+			display:block;
+			width:26px;	height:14px;
+			background-image:url(/assets/pages/faq/arrow.png);
+			background-position: center center;
+			background-repeat:no-repeat;
+			position:absolute;
+			top:0; left:0; right:0; bottom:0;
+			width:100%;
+			height:100%;
+		}
+
+	}
+	.filter {
+		text-align: right;
+		padding:10px;
+		
+
+		input {
+			padding:5px 10px;
+			line-height: 32px;
+			font-size:14px;
+			border:0;
+			max-width:100%;
+			width:100%;
+			border:1px solid $quantum_sky;
+
+			&:focus {
+				box-shadow: $shadow;
+			}
+			+ .filter-results {
+				text-align: left;
+				padding: 5px;
+				color:$quantum_sky;
+				font-size:12px;
+			}
+		}
+	}
+	.btn-group {
+		display:flex;
+		flex-direction:right;
+		input {
+			display:none;
+		}
+		label {
+			padding:10px 15px;
+			background-color:$quantum_burst;
+			color:#FFF;
+			
+			&:hover,
+			&.selected {
+				background-color:#000;
+				cursor:pointer;
+			}
+
+			&:first-child {
+				border-bottom-left-radius: 20px;
+				border-top-left-radius: 20px;
+			}
+			&:last-child {
+				border-bottom-right-radius: 20px;
+				border-top-right-radius: 20px;
+			}
+		}
+
+	}
+	.faqs {
+		> div {
+			background-color: #FFF;
+			box-shadow: $shadow;
+			padding:20px;
+			margin:5px 10px;
+			
+
+		}
+
+		.arrow:before {
+			transform:rotate(180deg);
+			// transition:all 0.5s;
+		}
+		.question {
+			cursor: pointer;
+			h2 {
+				font-size:25px;
+			}
+
+			grid-template-columns: 1fr 100px;
+
+			@include md-max {
+				grid-template-columns: 1fr 50px;				
+
+				h2 {
+					font-size:15px;
+					line-height: 24px;
+					font-weight: 500;
+				}
+			}
+
+			&.active {
+				.arrow:before {
+					transform:rotate(0deg);
+				}
+				& + .answer {
+					height:auto;
+				}
+			}
+
+			& + .answer {
+				overflow:hidden;
+				height:0;
+			}
+		}
+		.question svg {
+			height: 100px;
+		}
+
+		.answer {
+			padding-right:120px;
+			@include md-max {
+				padding-right:10px;
+			}
+		}
+	}
+
+}

@@ -5,16 +5,16 @@ layout: default
 <link rel="stylesheet" href="/assets/slippry/slippry.css" />
 <script>
 jQuery(document).ready(function(){
-  jQuery('.slideshow').slippry()
+  var slideshow = jQuery('.slideshow').slippry();
 });
 </script>
 
 <div class="wrapper hero">
   <div class="grid">
     <div class="w12">
-      <h1>Mainnet is live!</h1>
-      <p>MainNet launch is live visit the downloads page and checkout our new wallets and Node software.</p>
-      <a class="cta" href="/docs">Visit The Downloads Page</a>
+      <h1>The Quantum Resistant Ledger</h1>
+      <p>The Quantum Resistant Ledger (QRL) will be a first of its kind, future-proof post-quantum value store and decentralized communication layer which tackles the threat Quantum Computing will pose to cryptocurrencies</p>
+
     </div>
   </div>
 </div>
@@ -25,17 +25,17 @@ jQuery(document).ready(function(){
       <ul class="slideshow">
       <li>
         <a href="https://explorer.theqrl.org">
-          <img src="/assets/front-slideshow/newwallet.png">
+          <img src="/assets/front-slideshow/newwallet.small.png">
         </a>
       </li>
       <li>
         <a href="https://wallet.theqrl.org">
-          <img src="/assets/front-slideshow/send.png">
+          <img src="/assets/front-slideshow/send.small.png">
         </a>
       </li>
       <li>
         <a href="https://wallet.theqrl.org">
-          <img src="/assets/front-slideshow/transactions.png">
+          <img src="/assets/front-slideshow/transactions.small.png">
         </a>
       </li>
 
@@ -43,7 +43,7 @@ jQuery(document).ready(function(){
     </ul>
       
       <div class="header-section">
-        <h2>What is QRL</h2>
+        <h2>Where you can find us</h2>
       </div>
       {% assign conference = site.conferences | sort: 'date' %}
       {% for conf in conference %}
@@ -67,8 +67,7 @@ jQuery(document).ready(function(){
 
       <div class="header-section">
         <h2>What is QRL</h2>
-        <h3>The Quantum Resistant Ledger (QRL) will be a first of its kind, future-proof post-quantum value store and decentralized communication layer which tackles the threat Quantum Computing will pose to cryptocurrencies.</h3>
-        <p></p>
+        <h3>An introduction</h3>
       </div>
       <div style="max-width:500px; margin:0 auto">
         <div class="youtube-player" data-id="V8IxLDxMEb8"></div>        
@@ -94,7 +93,6 @@ jQuery(document).ready(function(){
       <div class="header-section">
         <h2>About Us</h2>
         <h3>Our Awesome Crew</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic voluptatibus error molestias nesciunt beatae doloribus animi consectetur. Odio magni fuga, consectetur. Tenetur architecto facere consectetur soluta incidunt reprehenderit, similique officia?</p>
       </div>
     </div>
   </div>
@@ -106,12 +104,12 @@ jQuery(document).ready(function(){
         <div style="background-image:url('/assets/team/{{ team.image }}');"></div>
         </div>
         <div class="name">{{ team.title }}</div>
-        <div class="position">
+        <div>
           <div class="role">{{ team.role }}</div>
           <div class="position">{{ team.position }}</div>
         </div>
         <div class="profile">
-          <a href="{{ team.url }}" class="cta">View Profile</a>
+          <!-- <a href="{{ team.url }}" class="cta">View Profile</a> -->
         </div>
         <div class="social"></div>
       </div>

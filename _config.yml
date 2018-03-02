@@ -25,8 +25,14 @@ collections:
   conferences:
     permalink: "/conferences/:year/:month/:path/"
     output: true
+  faq:
+    permalink: "/:collection/:path/"
+    output: true
   posts:
     permalink: "/news/:year/:month/:day/:title/"
+    output: true
+  roadmap:
+    permalink: "/roadmap/:path/"
     output: true
   team:
     permalink: "/:collection/:path/"
@@ -36,10 +42,19 @@ defaults:
    path: _team
   values:
     layout: human
+- scope:
+    path: _faq
+  values:
+    layout: default
+- scope:
+    path: _roadmap
+  values:
+    layout: default
 highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+future: true
 
 # Build settings
 markdown: kramdown

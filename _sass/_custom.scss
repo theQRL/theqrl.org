@@ -2,29 +2,28 @@ body {
 	font-family: $body_font;
 	position:relative;
 	background:
-		url('/assets/particles/dots-topright.png') no-repeat top -20px right -10px;
+		url('/assets/particles/dots-topright.small.png') no-repeat top -20px right -10px;
 }
 body.homepage {
 	background:
-		url('/assets/particles/dots-topright.png') no-repeat top -20px right -10px,
-		url('/assets/particles/on.png') no-repeat top 200px center;
+		url('/assets/particles/dots-topright.small.png') no-repeat top -20px right -10px,
+		url('/assets/particles/on-small.png') no-repeat top 200px center;
 
 	@include lg {
 	background:
-		url('/assets/particles/dots-topright.png') no-repeat top -20px right -10px,
-		url('/assets/particles/on.png') no-repeat top 400px center;
+		url('/assets/particles/dots-topright.small.png') no-repeat top -20px right -10px,
+		url('/assets/particles/on-small.png') no-repeat top 400px center;
 	}
 	
 }
+
 .overflow {
 	position:relative;
-	// overflow-x:hidden;
 }
 .grid > div {
 	padding:10px;
 }
-.header .grid,
-.footernav .grid {
+.header .grid {
 	grid-template-columns: 138px 1fr min-content;
 }
 
@@ -34,8 +33,27 @@ body.homepage {
 		padding-bottom:90px;
 	}
 }
+
+/* Stripes */
+.wrapper:nth-child(odd) {
+	background-color:#F3F3F3;
+	&:before { background-color:#F3F3F3; }
+	&:after { background-color:#F3F3F3; }
+}
+.wrapper:nth-child(1) {
+	background-color:transparent;
+	&:before { background-color:#FFF; }
+	&:after { background-color:#FFF; }
+}
+.wrapper.hero {
+	background-color:transparent;
+	&:before { background-color:transparent; }
+	&:after { background-color:transparent; }
+}
+
+
 a {
-	color:$quantum_burst;
+	color:$quantum_sky;
 }
 
 /* Elements */
@@ -58,7 +76,6 @@ pre.highlight {
 	overflow-x:auto;
 }
 .team-members {
-
 	.image {
 		position:relative;
 		width:100%;
@@ -66,7 +83,7 @@ pre.highlight {
 		border:2px solid #FFF;
 		border-radius: 50%;
 		box-shadow: $shadow;
-		margin:0 auto;
+		margin:31px auto;
 		overflow:hidden;
 		
 		div {
@@ -102,15 +119,41 @@ pre.highlight {
 	}
 	.name {
 		font-family: $heading_font;
-		font-size:28px;
-		max-width:160px;
-		margin:0 auto;
+		font-style: normal;
+		font-weight: normal;
+		line-height: 32px;
+		font-size: 25px;
+		text-align: center;
+		color: #FFFFFF;
+		padding-bottom: 16px;
+	}
+	.role {
+		font-family: Quicksand;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+		font-size: 13px;
+		text-align: center;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+
+		color: #1EE9CB;
 	}
 	.position {
-		padding-top:20px;
-		font-family: $body_font;
-		color:#30aa9a;
+		font-family: Quicksand;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+		font-size: 13px;
+		text-align: center;
+		letter-spacing: 2px;
 		text-transform: uppercase;
+		color: #FFFFFF;
+		mix-blend-mode: normal;
+		opacity: 0.66;
+	}
+	.social {
+		margin-bottom: 31px;
 	}
 }
 .blogroll {
@@ -167,13 +210,14 @@ pre.highlight {
 }
 .header-section {
 	text-align: center;
-			max-width: 600px;
-			margin:0 auto;
-			margin-bottom: 20px;
-			margin-top:50px;
+	max-width: 600px;
+	margin:0 auto;
+	margin-bottom: 20px;
+	margin-top:50px;
 
 	h2 {
-		color:#4A90E2;
+		color:$quantum_sky;
+		font-weight: 400;
 		text-transform: uppercase;
 		font-size:13px;
 	}
@@ -231,33 +275,6 @@ nav a {
 
 
 
-.grid.support {
-	svg {
-		fill: $quantum_burst;
-		max-height: 120px;
-	}
-	div {
-		text-align: center;
-	}
-	> div {
-		padding:20px;
-		border:1px solid #222;
-		border-top: 3px solid $quantum_burst;
-		background-color:rgba(255,255,255,0.8);
-		box-shadow: $shadow;
-		grid-column: span 12;
-
-		@include sm {
-			grid-column: span 12;
-		}
-		@include md {
-			grid-column: span 6;			
-		}
-		@include lg {
-			grid-column: span 4;
-		}
-	}
-}
 .header {
 	// position:relative;
 	padding-bottom: 0;
@@ -443,53 +460,7 @@ nav a {
 	padding:0px 0;
 	background-color:#F3F3F3;
 }
-.docs {
-	.floatmenu {
-		position:sticky;
-		top:0;
-		padding:20px;
-		border:1px solid #222;
-		border-top: 3px solid $quantum_burst;
-		background-color:rgba(255,255,255,0.8);
-		box-shadow: $shadow;
 
-
-		.cta {
-			width:100%;
-			text-align: center;
-		}
-		nav ul {
-			flex-direction:column;
-		}
-		.active {
-			background-color:#EEE;
-			a {
-				border-left:2px solid $quantum_burst;
-			}
-		}
-		ul li {
-			list-style:none;
-		}
-	}
-
-	.document-page {
-		// Firefox: https://bugzilla.mozilla.org/show_bug.cgi?id=1418727
-		min-width: -moz-available;
-	}
-	h2 a {
-		text-decoration: none;
-		color:#000;
-	}
-	@include md-max {
-		.docgrid {
-			grid-template-columns:1fr;
-			> div:last-child {
-				display:none;
-			}
-		}
-	}
-
-}
 .grid.conference {
 	background-color:#160529;
 	color:#FFF;
@@ -596,14 +567,12 @@ nav a {
 .events {
 	padding-top:0;
 	&:before {
-		background-color:#F3F3F3;
 		content:'';
 		display: block;
 		width:100%;
 		height:130px; position:relative; top:-130px; margin-top:130px; margin-bottom: -130px;
 		@include angle-edge($angle: 2, $angle-position-y: 'top', $angle-position-x: 'left');
 	}
-	background-color:#F3F3F3;
 
 	.footer-conferences {
 		@include lg {
@@ -764,7 +733,6 @@ nav a {
     	color:#FFF;
         height: 80px;
         width: 80px;
-        // border-radius: 50%;
         left: 50%;
         top: 50%;
         margin-left: -36px;
@@ -773,3 +741,78 @@ nav a {
         background: url("/assets/play.png") no-repeat;
         cursor: pointer;
     }
+.wrapper.footer-signup {
+	padding-top:0; padding-bottom: 0;
+	background-color:#0F031C;
+	color:#FFF;
+
+	label {
+		font-style: normal;
+		font-weight: normal;
+		line-height: normal;
+		font-size: 14px;
+    margin-bottom: 7px;
+    display: inline-block;
+		text-transform: uppercase;
+	}
+
+	input {
+		padding:5px 10px;
+		line-height: 32px;
+		font-size:14px;
+		border:0;
+		width:100%;
+
+		&[type=submit] {
+			background-color: $quantum_burst;
+
+			color:#FFF;
+		}
+	}
+	@include sm-max {
+		> .grid > div {
+			grid-column: span 12;
+		}
+	}
+	.submit {
+		display: flex;
+		justify-content: flex-end;
+		flex-direction: column;
+	}
+	.social {
+		ul {
+			display:flex;
+			justify-content: flex-end;
+			align-items: flex-end;
+			flex-direction:row;
+			width:100%;
+			    margin: 0;
+    height: 100%;
+    padding-left:0;
+		}
+		li {
+
+			margin:5px;
+			margin-bottom: 0;
+			list-style:none;
+			
+			a {
+				display:block;
+				width:40px; height:40px;
+				padding:7px;
+				color:#FFF;
+				background-color: $quantum_burst;
+				border-radius: 50%;
+				font-size:0;
+				svg {
+					width:25px; height:25px;
+				}
+			}
+		}
+	}
+}
+
+@import 'pages/downloads';
+@import 'pages/faq';
+@import 'pages/roadmap';
+@import 'pages/why';
