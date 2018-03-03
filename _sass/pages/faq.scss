@@ -18,6 +18,7 @@ body.faq {
 	.filter {
 		text-align: right;
 		padding:10px;
+		padding-bottom: 0;
 		
 
 		input {
@@ -131,18 +132,16 @@ body.faq {
 			padding-bottom:0;
 
 			&:before {
-				background-color:#F3F3F3;
 				content:'';
 				display: block;
 				width:100%;
 				position: relative;
-				height:150px; top:-150px; margin-bottom:-150px;
+				height:150px; top:-150px; margin-bottom:-220px;
 				overflow: hidden;
 				@include angle-edge($angle: 1, $angle-position-y: 'top', $angle-position-x: 'right');
 			}
 			&:after {
 				content:'';
-				background-color:#F3F3F3;
 				display: block;
 				width:100%;
 				
@@ -151,6 +150,10 @@ body.faq {
 				overflow: hidden;
 				@include angle-edge($angle: 2.5, $angle-position-y: 'bottom', $angle-position-x: 'left');
 			}
+		}
+		&.events:before {
+			margin-top: 200px;
+			top:0px;
 		}
 	}
 }

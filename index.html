@@ -1,93 +1,87 @@
 ---
 layout: default
 ---
-<script src="/assets/slippry/slippry.min.js"></script>
-<link rel="stylesheet" href="/assets/slippry/slippry.css" />
-<script>
-$(function() {
-  var slideshow = jQuery('.slideshow').slippry();
-  $(window).on('load',function(){
-    slideshow.goToNextSlide();
-  });
-});
 
-</script>
 
 <div class="wrapper hero">
   <div class="grid">
     <div class="w12">
       <h1>The Quantum Resistant Ledger</h1>
       <p>The Quantum Resistant Ledger (QRL) will be a first of its kind, future-proof post-quantum value store and decentralized communication layer which tackles the threat Quantum Computing will pose to cryptocurrencies</p>
-
     </div>
   </div>
+    <script src="/assets/slippry/slippry.min.js"></script>
+  <link rel="stylesheet" href="/assets/slippry/slippry.css" />
+  <script>
+  $(function() {
+    var slideshow = jQuery('.slideshow').slippry();
+    $(window).on('load',function(){
+      slideshow.goToNextSlide();
+    });
+  });
+
+  </script>
 </div>
 
 <div class="wrapper intro">
   <div class="grid w12"> 
+    
+
     <div>
       <ul class="slideshow">
-      <li>
-        <a href="https://explorer.theqrl.org">
-          <img src="/assets/front-slideshow/newwallet.small.png">
-        </a>
-      </li>
-      <li>
-        <a href="https://wallet.theqrl.org">
-          <img src="/assets/front-slideshow/send.small.png">
-        </a>
-      </li>
-      <li>
-        <a href="https://wallet.theqrl.org">
-          <img src="/assets/front-slideshow/transactions.small.png">
-        </a>
-      </li>
-
-
-    </ul>
-      
-      <div class="header-section">
-        <h2>Where you can find us</h2>
-      </div>
-      {% assign conference = site.conferences | sort: 'date' %}
-      {% for conf in conference %}
-      <div class="grid conference">
-        <div class="image">
-          <img src="/assets/conferences/{{ conf.image }}" alt="">
-        </div>
-        <div>
-          <h2>{{ conf.title }}</h2>
-          <p>{{ conf.datestart | date_to_string }} - {{ conf.dateend | date_to_string }}</p>
-          <p>{{ conf.where }}</p>
-        </div>
-        <div>
-          <a class="cta" href="{{ conf.link_tickets }}">Buy Tickets</a>
-        </div>
-      </div>
-      {% endfor %}
-      
-
-
-
-      <div class="header-section">
-        <h2>What is QRL</h2>
-        <h3>An introduction</h3>
-      </div>
-      <div style="max-width:500px; margin:0 auto">
-        <div class="youtube-player" data-id="V8IxLDxMEb8"></div>        
-      </div>
-
-
-<!--         <div class="video">
-
-        <iframe class="youtube" src="https://www.youtube.com/embed/V8IxLDxMEb8?rel=0&modestbranding=0&showinfo=0" allowfullscreen="" frameborder="0"></iframe>               
-        </div> -->
-   
-      </div>
-
-      
-
+        <li>
+          <a href="https://explorer.theqrl.org">
+            <img src="/assets/front-slideshow/newwallet.small.png">
+          </a>
+        </li>
+        <li>
+          <a href="https://wallet.theqrl.org">
+            <img src="/assets/front-slideshow/send.small.png">
+          </a>
+        </li>
+        <li>
+          <a href="https://wallet.theqrl.org">
+            <img src="/assets/front-slideshow/transactions.small.png">
+          </a>
+        </li>
+      </ul>
     </div>
+
+
+
+    <div class="header-section">
+      <h2>What is QRL</h2>
+      <h3>An introduction</h3>
+    </div>
+    <div class="yt-center">
+      <div class="youtube-player" data-id="V8IxLDxMEb8"></div>        
+    </div>
+      
+
+
+    <div class="header-section">
+      <h2>Where you can find us</h2>
+    </div>
+    {% assign conference = site.conferences | sort: 'date' %}
+    {% for conf in conference %}
+    <div class="grid conference">
+      <div class="image">
+        <img src="/assets/conferences/{{ conf.image }}" alt="">
+      </div>
+      <div class="description">
+        <h2>{{ conf.title }}</h2>
+        <p>{{ conf.datestart | date_to_string }} - {{ conf.dateend | date_to_string }}</p>
+        <p>{{ conf.where }}</p>
+      </div>
+      <div>
+        <a class="cta" href="{{ conf.link_tickets }}">Buy Tickets</a>
+      </div>
+    </div>
+    {% endfor %}
+
+
+      
+
   </div>
 </div>
 
@@ -100,23 +94,11 @@ $(function() {
       </div>
     </div>
   </div>
-  <div class="grid team-members">
-      {% assign membership = site.team | sort: 'hierarchy' | reverse %}
-      {% for team in membership %}
-      <div>
-        <div class="image">
-        <div style="background-image:url('/assets/team/{{ team.image }}');"></div>
-        </div>
-        <div class="name">{{ team.title }}</div>
-        <div>
-          <div class="role">{{ team.role }}</div>
-          <div class="position">{{ team.position }}</div>
-        </div>
-        <div class="profile">
-          <!-- <a href="{{ team.url }}" class="cta">View Profile</a> -->
-        </div>
-        <div class="social"></div>
-      </div>
-      {% endfor %}
+  {% include team.md members=6 %}
+  <div class="grid w12">
+  <div class="more">
+    <a href="/team" class="cta">See the whole team</a>
+  </div>    
   </div>
+
 </div>

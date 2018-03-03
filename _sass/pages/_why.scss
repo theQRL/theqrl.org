@@ -6,22 +6,17 @@ body.why {
 
 	.wrapper {
 		&:nth-child(3) {
-			padding-top:0;
-			padding-bottom:0;
-
 			&:before {
-				background-color:#F3F3F3;
 				content:'';
 				display: block;
 				width:100%;
 				position: relative;
-				height:150px; top:-150px; margin-bottom:-150px;
+				height:150px; top:-150px; margin-bottom: -220px;
 				overflow: hidden;
 				@include angle-edge($angle: 2, $angle-position-y: 'top', $angle-position-x: 'left');
 			}
 			&:after {
 				content:'';
-				background-color:#F3F3F3;
 				display: block;
 				width:100%;
 				
@@ -30,6 +25,10 @@ body.why {
 				overflow: hidden;
 				@include angle-edge($angle: 2.5, $angle-position-y: 'bottom', $angle-position-x: 'left');
 			}
+		}
+		&:nth-child(4) {
+			padding-top: 100px;
+			padding-bottom: 80px;
 		}
 	}
 

@@ -41,11 +41,11 @@ body.homepage {
 	@include md-max {
 		&:before,
 		&:after {
-			z-index: 1;
-		    margin: 0 !important;
-		    top: 0 !important;
-		    bottom: 0 !important;
-		    content: unset !important;
+			// z-index: 1;
+		 //    margin: 0 !important;
+		 //    top: 0 !important;
+		 //    bottom: 0 !important;
+		 //    content: unset !important;
 		}		
 	}
 
@@ -56,8 +56,8 @@ body.homepage {
 	padding-bottom:10px;
 
 	@include md {
-		padding-top:150px;
-		padding-bottom:150px;
+		// padding-top:150px;
+		// padding-bottom:150px;
 	}
 }
 
@@ -68,15 +68,22 @@ body.homepage {
 	&:before { background-color:#F3F3F3; }
 	&:after { background-color:#F3F3F3; }
 }
+.wrapper:nth-child(even) {
+	background-color:#FFF;
+	&:before { background-color:#FFF; }
+	&:after { background-color:#FFF; }
+}
 .wrapper:nth-child(1) {
 	background-color:transparent;
 	&:before { background-color:#FFF; }
 	&:after { background-color:#FFF; }
 }
 .wrapper.hero {
+	padding-top: 50px;
+	padding-bottom: 200px;
 	background-color:transparent;
-	&:before { background-color:transparent; }
-	&:after { background-color:transparent; }
+	&:before { background-color:#FFF; }
+	&:after { background-color:#FFF; }
 }
 
 
@@ -106,10 +113,7 @@ a.cta {
 pre.highlight {
 	overflow-x:auto;
 }
-.wrapper.team {
-	padding-top:30px;
-	padding-bottom: 30px;
-}
+
 .team-members {
 	.image {
 		position:relative;
@@ -229,7 +233,7 @@ pre.highlight {
 	max-width: 600px;
 	margin:0 auto;
 	margin-bottom: 20px;
-	// margin-top:50px;
+	margin-top:50px;
 
 	h2 {
 		color:$quantum_sky;
@@ -445,83 +449,9 @@ nav a {
 	}
 }
 
-.wrapper.intro {
-	min-height: 300px;
-	@include lg {
-		background:
-			#F3F3F3 url('/assets/particles/speechbubbles.w300.png') no-repeat calc(50% - 500px) 200px;
-	}
 
-	&:before {
-		background-color:#F3F3F3;
-		content:'';
-		display: block;
-		width:100%;
-		height:150px;
-		position: relative;
-		top:-150px; margin-bottom: -420px; margin-top:300px;
-		overflow: hidden;
-		@include angle-edge($angle: 3, $angle-position-y: 'top', $angle-position-x: 'right');
-		z-index: -1;
 
-	}
-	&:after {
-		background-color:#F3F3F3;
-		content:'';
-		display: block;
-		width:100%;
-		height:100px;		
-		margin-bottom: 100px;
-		position: relative;
-		top:100px; margin-top:-100px;
-		@include angle-edge($angle: 2.5, $angle-position-y: 'bottom', $angle-position-x: 'left');		
-	}
-	padding:0px 0;
-	background-color:#F3F3F3;
-}
 
-.grid.conference {
-	background-color:#160529;
-	color:#FFF;
-	margin-bottom: 20px;
-	box-shadow: $shadow;
-	grid-template-columns: 1fr;
-
-	@include md {
-		grid-template-columns: 275px 1fr 175px;
-	}
-
-	> div:last-child {
-		display: grid;
-		align-items: center;
-		text-align: center;
-
-	}
-	.cta {
-		margin:0 auto;
-		white-space: nowrap;
-	}
-
-	.image {
-		text-align: center;
-		background-color:#FFF;
-		img {
-			width:100%;
-			max-width: 100%;
-		}
-	}
-	h2 {
-		color:#FFF;
-		font-weight: 500;
-		margin:0;
-	}
-	p {
-		color:#FFF;
-		margin:0;
-		font-family: $heading_font;
-		font-weight: 400;
-	}
-}
 .whitepaper {
 	.has-child {
 		> ul {
@@ -586,11 +516,19 @@ nav a {
 .events {
 	padding-top:0;
 	padding-bottom: 40px;
+	@include lg {
+		padding-top:0px;
+		padding-bottom: 200px;
+	}
 	&:before {
 		content:'';
 		display: block;
 		width:100%;
-		height:130px; position:relative; top:-130px; margin-top:130px; margin-bottom: -170px;
+		height:130px; position:relative; top:-130px; margin-top:130px; 
+		margin-bottom: -280px;
+		@include lg {
+			margin-bottom: -200px;
+		}
 		@include angle-edge($angle: 2, $angle-position-y: 'top', $angle-position-x: 'left');
 	}
 
@@ -603,6 +541,10 @@ nav a {
 		.footer-conference {
 			@include sm-max {
 				grid-column: span 12;
+
+				.cta {
+					width:100%;
+				}
 			}
 		}
 	}
@@ -612,6 +554,9 @@ nav a {
 		background-color:#FFF;
 		box-shadow: $shadow;
 		text-align: center;
+		h2 {
+			font-size:25px;
+		}
 		.image {
 			min-height: 200px;
 			position: relative;
@@ -639,4 +584,6 @@ nav a {
 @import 'pages/downloads';
 @import 'pages/faq';
 @import 'pages/roadmap';
+@import 'pages/homepage';
 @import 'pages/why';
+@import 'pages/team';

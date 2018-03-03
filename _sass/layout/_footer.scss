@@ -32,8 +32,11 @@
 	background-position: bottom -100px right -40px;
 	background-color:#160527;
 	color:#FFF;
-	padding-top:10px;
-	padding-bottom: 10px;
+	@include md {
+		padding-top:100px;
+		padding-bottom: 100px;
+	}
+
 
 	h3 {
 		color:#FFF;
@@ -72,7 +75,12 @@
 }
 
 .wrapper.footer-signup {
-	padding-top:0; padding-bottom: 0;
+
+	padding-top:10px; padding-bottom: 10px;
+	@include md {
+		padding-top:40px; padding-bottom: 40px;
+	}
+
 	background-color:#0F031C;
 	color:#FFF;
 
