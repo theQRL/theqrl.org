@@ -17,3 +17,18 @@ permalink: /team/
 <div class="wrapper team">
   {% include team.md %}
 </div>
+
+
+{% comment %}<div class="wrapper jobs">
+	<div class="grid w12">
+	    <div>
+	      <div class="header-section">
+	        <h2>We're Hiring</h2>
+	        <h3>Our Awesome Crew</h3>
+	      </div>
+	    </div>
+  	</div>
+  	<div class="listing">
+		
+  	</div>
+</div>{% endcomment %}

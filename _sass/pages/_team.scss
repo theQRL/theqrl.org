@@ -21,9 +21,9 @@ body.team {
 			@include angle-edge($angle: 2.5, $angle-position-y: 'bottom', $angle-position-x: 'right');
 		}
 	}
-			.wrapper.events:before {
+	.wrapper.events:before {
 			margin-top: 250px;
 			top:0px;
-		}
+	}
 	
 }

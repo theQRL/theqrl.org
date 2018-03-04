@@ -1,5 +1,107 @@
 
 $(document).ready(function() {
+    // Particles
+    $(window).on('load resize', function () {
+
+    $('.particles div').each(function() {
+            var scroll_top = window.scrollY || window.scrollTop || 0;
+            var attach_class = $(this).attr('data-attach-class');
+            var attach_position = $(this).attr('data-attach-position').split(' '); // TODO, not flexible
+            var attach_child_anchor = $(this).attr('data-child-anchor').split(' '); // TODO, not flexible
+            var attach_child_zindex = $(this).attr('data-child-zindex');
+            var offset_top = $(this).data('offset-top') || 0;
+            var offset_left = $(this).data('offset-left') || 0;
+
+            console.log(offset_top);
+
+            var parent_position = document.querySelector(attach_class).getBoundingClientRect();
+            var child_position = this.getBoundingClientRect();
+
+            var parent = {
+                top: parent_position.y + scroll_top,
+                right: parent_position.left + parent_position.width,
+                left: parent_position.left,
+                bottom: parent_position.y + scroll_top + parent_position.height,
+                height: parent_position.height,
+                width: parent_position.width
+            }
+
+            var child = {
+                top: child_position.y + scroll_top,
+                right: child_position.left + child_position.width,
+                left: child_position.left,
+                bottom: child_position.y + scroll_top + child_position.height ,
+                width: child_position.width,
+                height: child_position.height               
+            }
+
+
+                // Where are we going to attach this?
+            var top = parent.top;
+            var left = parent.left;
+
+            switch(attach_position[0]) {
+                case 'top':
+                    top = top;
+                break;
+                case 'center':
+                    top = top + parent.height / 2;
+                break;
+                case 'bottom':
+                    top = top + parent.height;
+                break;
+            }
+            switch(attach_position[1]) {
+                case 'left':
+                    left = left;
+                break;
+                case 'center':
+                    left = left + parent.width / 2;
+                break;
+                case 'right':
+                    left = left + parent.width;
+                break;
+            }
+
+            // Adjust for 
+            switch(attach_child_anchor[0]) {
+                case 'top':
+                    top = top;
+                break;
+                case 'center':
+                    top = top - child.height / 2;
+                break;
+                case 'bottom':
+                    top = top - child.height;
+                break;
+            }
+            // Adjust for 
+            switch(attach_child_anchor[1]) {
+                case 'left':
+                    left = left;
+                break;
+                case 'center':
+                    left = left - child.width / 2;
+                break;
+                case 'right':
+                    left = left - child.width;
+                break;
+            }
+            console.log(offset_top);
+            // Add offsets
+            top = top + offset_top;
+            left = left + offset_left;
+            // console.log(attach_position[0]+": "+top+" "+attach_position[1]+": "+left);
+            // console.table(parent);
+            // Position the element
+            $(this).css({
+                "top":top+"px",
+                "left":left+"px"
+            });
+        });
+    });
+
+
     // FAQ filter 
     $(".filter input").on("keyup", function() {
         var value = $(this).val().toLowerCase();
@@ -40,7 +142,6 @@ $(document).ready(function() {
 
     // Run through slideshow
     $(window).on('load resize click', function() {
-        console.log('hi');
         $('.slideshow img').css('max-height','350px');
 
         var sizes = [];

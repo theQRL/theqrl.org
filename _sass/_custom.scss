@@ -577,6 +577,18 @@ nav a {
 	}
 }
 
+.particles {
+	> div {
+		position:absolute;
+		top:0; left:0;
+		pointer-events:none;
+	}
+}
+.magnifyingglass {
+	display:block;
+	width:400px; height:355px;
+	background-image:url(/assets/particles/magnifyingglass.png);
+}
 
 @import 'layout/footer';
 @import 'includes/youtube';
