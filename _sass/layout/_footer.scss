@@ -174,7 +174,14 @@
 	}
 	.cta {
 		border:1px solid #FFF;
+		font-weight: 500;
+		color: #FFF;
 		background-color:transparent;
+		
+		&:hover {
+			background-color: transparent;
+			color: $quantum_burst;
+		}
 	}
 	p {
 		line-height: 28px;
@@ -185,12 +192,16 @@
 		.title h2 {
 			font-size:42px;
 			line-height: 56px;
-
 		}
 
 		.cta {
 			border:none;
 			background-color:$quantum_burst;
+			color: #FFF;
+
+			&:hover {
+				background-color: $quantum_hover;
+			}
 		}
 	}
 }

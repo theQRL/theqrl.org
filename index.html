@@ -3,14 +3,25 @@ layout: default
 ---
 <div class="wrapper hero">
   <div class="particles">
-    <div class="magnifyingglass" 
-    data-attach-class=".hero .w12 p" 
-    data-attach-position="bottom right" 
-    data-child-anchor="top left" 
-    data-offset-left="0" 
-    data-offset-top="0" 
-    data-child-zindex="2">
+    <div class="pencil" 
+      data-attach-class=".grid.team-members" 
+      data-attach-position="top left" 
+      data-child-anchor="top right" 
+      data-offset-left="150" 
+      data-offset-top="-200">
     </div>
+    <div class="bw1000" 
+      data-attach-class=".wrapper.events" 
+      data-attach-position="top right" 
+      data-child-anchor="bottom right" 
+      data-offset-left="50" 
+      data-offset-top="-110"
+      data-scalex="-1"
+      data-scale="1">
+    </div>
+  </div>
+  <div class="particles background">
+
   </div>
   <div class="grid">
     <div class="w12">
@@ -24,7 +35,6 @@ layout: default
   $(function() {
     var slideshow = jQuery('.slideshow').slippry();
     $(window).on('load',function(){
-      slideshow.goToNextSlide();
     });
   });
 
@@ -39,17 +49,17 @@ layout: default
       <ul class="slideshow">
         <li>
           <a href="https://explorer.theqrl.org">
-            <img src="/assets/front-slideshow/newwallet.small.png">
+            <img src="/assets/front-slideshow/explorer.small.png" alt="Check out our <a href='https://explorer.theqrl.org'>QRL Explorer</a>">
           </a>
         </li>
         <li>
           <a href="https://wallet.theqrl.org">
-            <img src="/assets/front-slideshow/send.small.png">
+            <img src="/assets/front-slideshow/send.small.png" alt="Check out our <a href='https://explorer.theqrl.org'>Web Wallet</a>">
           </a>
         </li>
         <li>
           <a href="https://wallet.theqrl.org">
-            <img src="/assets/front-slideshow/transactions.small.png">
+            <img src="/assets/front-slideshow/transactions.small.png" alt="Send and receive transactions today">
           </a>
         </li>
       </ul>

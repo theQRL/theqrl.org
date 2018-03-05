@@ -5,6 +5,32 @@ permalink: /roadmap/
 ---
 
 <div class="wrapper hero">
+  <div class="particles">
+    <div class="rocket" 
+      data-attach-class=".wrapper.roadmap" 
+      data-attach-position="top center" 
+      data-child-anchor="bottom left" 
+      data-offset-left="250" 
+      data-offset-top="250">
+    </div>
+    <div class="saturn" 
+      data-attach-class=".wrapper.roadmap" 
+      data-attach-position="bottom left" 
+      data-child-anchor="bottom left" 
+      data-offset-left="50" 
+      data-offset-top="100"
+      data-scalex="-1">
+    </div>
+    <div class="bw1000" 
+      data-attach-class=".wrapper.events" 
+      data-attach-position="top right" 
+      data-child-anchor="bottom right" 
+      data-offset-left="50" 
+      data-offset-top="-110"
+      data-scalex="-1"
+      data-scale="1">
+    </div>
+  </div>
   <div class="grid">
     <div class="w12">
       <h1>Roadmap</h1>

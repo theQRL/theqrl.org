@@ -5,10 +5,19 @@ permalink: /team/
 ---
 
 <div class="wrapper hero">
+  <div class="particles">
+    <div class="pencil" 
+      data-attach-class=".grid.team-members" 
+      data-attach-position="top left" 
+      data-child-anchor="top right" 
+      data-offset-left="150" 
+      data-offset-top="-50">
+    </div>
+  </div>
   <div class="grid">
     <div class="w12">
       <h1>Meet the Team</h1>
-      <p>We are a mission critical organization building enterprise grade software for an advesarial future. Building a great team to achieve this is the lifeblood and cornerstone of QRL.</p>
+      <p>We are a mission critical organization building enterprise grade software for an adversarial future. Building a great team to achieve this is the lifeblood and cornerstone of QRL.</p>
     </div>
   </div>
 </div>

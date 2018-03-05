@@ -3,7 +3,7 @@ body {
 	position:relative;
 	background:
 		url('/assets/particles/dots-topright.small.png') no-repeat top -20px right -10px;
-}
+} 
 body.homepage {
 	background:
 		url('/assets/particles/dots-topright.small.png') no-repeat top -20px right -10px,
@@ -12,7 +12,7 @@ body.homepage {
 	@include lg {
 	background:
 		url('/assets/particles/dots-topright.small.png') no-repeat top -20px right -10px,
-		url('/assets/particles/on-small.png') no-repeat top 400px center;
+		url('/assets/particles/on-small.png') no-repeat top 300px center;
 	}
 	
 }
@@ -24,8 +24,10 @@ body.homepage {
 	padding:10px;
 }
 .header .grid {
-	grid-template-columns: 138px 1fr min-content;
+	grid-template-columns: 80px 1fr min-content;
 }
+
+
 
 .wrapper {
 	&:before,
@@ -63,17 +65,17 @@ body.homepage {
 
 
 /* Stripes */
-.wrapper:nth-child(odd) {
+.wrapper:nth-of-type(odd) {
 	background-color:#F3F3F3;
 	&:before { background-color:#F3F3F3; }
 	&:after { background-color:#F3F3F3; }
 }
-.wrapper:nth-child(even) {
+.wrapper:nth-of-type(even) {
 	background-color:#FFF;
 	&:before { background-color:#FFF; }
 	&:after { background-color:#FFF; }
 }
-.wrapper:nth-child(1) {
+.wrapper:nth-of-type(1) {
 	background-color:transparent;
 	&:before { background-color:#FFF; }
 	&:after { background-color:#FFF; }
@@ -89,7 +91,12 @@ body.homepage {
 
 a {
 	color:$quantum_sky;
+
+	&:hover {
+		color:$quantum_burst;
+	}
 }
+
 
 /* Elements */
 // Call-to-action
@@ -103,6 +110,11 @@ a.cta {
 	text-transform: uppercase;
 	font-size:12px;
 	font-weight:400;
+	transition: background-color 0.3s;
+
+	&:hover {
+		background-color:$quantum_hover;
+	}
 }
 
 .slideshow {
@@ -302,7 +314,7 @@ nav a {
 	// position:relative;
 	padding-bottom: 0;
 	position:relative;
-	z-index: 10;
+	z-index: 9;
 
 	.grid {
 		max-width: 1300px;
@@ -428,8 +440,8 @@ nav a {
 		padding-top: 20px;
 
 		@include sm {	padding-left:0px; }
-		@include md {	padding-left:20px; }
-		@include lg {	padding-left:50px; }
+		@include md {	padding-left:10px; }
+		@include lg {	padding-left:20px; }
 	}
 	.whitepaper nav {
 		padding-top: 10px;
@@ -440,10 +452,10 @@ nav a {
 		font-size:13px;
 		text-transform: uppercase;
 		@include md {
-			padding:5px 20px;
+			padding:5px 25px;
 		}
 		@include lg {
-			padding:5px 30px;
+			padding:5px 40px;
 		}
 
 	}
@@ -518,7 +530,7 @@ nav a {
 	padding-bottom: 40px;
 	@include lg {
 		padding-top:0px;
-		padding-bottom: 200px;
+		padding-bottom: 220px;
 	}
 	&:before {
 		content:'';
@@ -578,17 +590,86 @@ nav a {
 }
 
 .particles {
+	position: absolute;
+	overflow:hidden;
+	top:0;
+	width:100%; height:100%;
+	// background-color:rgba(0,0,0,0.3);
+	z-index: 2;
+	pointer-events:none;
+	&.background {
+		z-index:1;
+	}
 	> div {
+		display:block;
 		position:absolute;
-		top:0; left:0;
+		top:0; left:-500px;
 		pointer-events:none;
+
+		&.fliph {
+			transform: scaleX(-1);
+		}
 	}
 }
-.magnifyingglass {
-	display:block;
-	width:400px; height:355px;
-	background-image:url(/assets/particles/magnifyingglass.png);
+@include md {
+	.magnifyingglass {
+		width:400px; height:355px;
+		background-image:url(/assets/particles/magnifyingglass.png);
+	}
+	.pencil {
+		width:400px; height:458px;
+		background-image:url(/assets/particles/pencil.png);
+	}
+	.speechbubble {
+		width:400px; height:278px;
+		background-image:url(/assets/particles/speechbubbles.png);
+	} 
+	.saturn {
+		width:400px; height:129px;
+		background-image:url(/assets/particles/saturn.png);
+	}
+	.rocket {
+		width:400px; height:487px;
+		background-image:url(/assets/particles/rocket.png);
+	}
+	.hat {
+		width:500px; height:284px;
+		background-image:url(/assets/particles/hat.png);
+	}
+	.bw1000 {
+		width:387px; height:1000px;
+		background-image:url(/assets/particles/bw.h1000.small.png);
+	}
+	.bw500 {
+		width:193px; height:500px;
+		background-image:url(/assets/particles/bw.h500.small.png);
+	}
+
+	@supports (mask-image:url(/assets/particles/hat.png)) or (-webkit-mask-image:url(/assets/particles/hat.png)) {
+		.hat, .rocket {
+			background: linear-gradient(45deg, #3927ee, #1eeacc);
+			background-size: 400% 400%;
+			animation: greatient 3s ease infinite;			
+		}
+		.hat {
+			-webkit-mask-image:url(/assets/particles/hat.png);
+			mask-image:url(/assets/particles/hat.png);
+		}
+		.rocket {
+			-webkit-mask-image:url(/assets/particles/rocket.png);
+			mask-image:url(/assets/particles/rocket.png);			
+		}
+		@keyframes greatient { 
+		    0%{background-position:0% 50%}
+		    50%{background-position:100% 50%}
+		    100%{background-position:0% 50%}
+		}		
+	}
+
 }
+
+
+
 
 @import 'layout/footer';
 @import 'includes/youtube';

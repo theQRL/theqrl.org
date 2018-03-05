@@ -5,6 +5,25 @@ permalink: /faq/
 ---
 
 <div class="wrapper hero">
+  <div class="particles">
+    <div class="hat" 
+      data-attach-class=".wrapper.hero" 
+      data-attach-position="bottom center" 
+      data-child-anchor="top right" 
+      data-offset-left="-200" 
+      data-offset-top="-200"
+      data-rotate="-10">
+    </div>
+    <div class="bw1000" 
+      data-attach-class=".wrapper.events" 
+      data-attach-position="top left" 
+      data-child-anchor="bottom left" 
+      data-offset-left="-50" 
+      data-offset-top="-140"
+      data-scalex="1"
+      data-scale="1">
+    </div>
+  </div>
   <div class="grid">
     <div class="w12">
       <h1>FAQ's</h1>

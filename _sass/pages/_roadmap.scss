@@ -21,7 +21,6 @@ $variance_else: $variance / 2;
  		top:5px;
 		content:'';
 		display:block;
-		background-image:url(/assets/particles/particle.w200.png);
 		background-size: contain;
 		background-repeat: no-repeat;
 		width:($orb_size) + px;
@@ -31,8 +30,9 @@ $variance_else: $variance / 2;
 }
 
 body.roadmap {
- 
+ 	
 	.roadmap-item {
+		
 		max-width: 600px;
 		@include md {
 			max-width: 300px;
@@ -54,6 +54,14 @@ body.roadmap {
 				background-size: contain;
 				margin-left:5px;
 				position:relative; top:2px;
+			}
+			&:before {
+				background-image:url(/assets/particles/particle.bp.small.png);
+			}
+		}
+		&.take2 {
+			&:before {
+				background-image:url(/assets/particles/particle.w200.png);
 			}
 		}
  		.date {
@@ -85,6 +93,7 @@ body.roadmap {
 				&:nth-child(9) { @include roadmap-item($variance); }
 			}
 		}
+
 	} 
 	.wrapper {
 		&:nth-child(3) {

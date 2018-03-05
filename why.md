@@ -5,6 +5,25 @@ permalink: /why/
 ---
 
 <div class="wrapper hero">
+  <div class="particles">
+     <div class="magnifyingglass" 
+      data-attach-class=".wrapper.hero .grid p" 
+      data-attach-position="bottom right" 
+      data-child-anchor="bottom left" 
+      data-offset-left="0" 
+      data-offset-top="100"
+      data-scale="1.1">
+    </div>
+    <div class="bw1000" 
+      data-attach-class=".wrapper.events" 
+      data-attach-position="top right" 
+      data-child-anchor="bottom right" 
+      data-offset-left="50" 
+      data-offset-top="-110"
+      data-scalex="-1"
+      data-scale="1">
+    </div>
+  </div>
   <div class="grid">
     <div class="w12">
       <h1>Why QRL?</h1>

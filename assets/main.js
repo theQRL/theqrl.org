@@ -1,16 +1,22 @@
 
 $(document).ready(function() {
     // Particles
-    $(window).on('load resize', function () {
+    $(window).on('load resize scroll keyup click', function () {
 
     $('.particles div').each(function() {
             var scroll_top = window.scrollY || window.scrollTop || 0;
             var attach_class = $(this).attr('data-attach-class');
             var attach_position = $(this).attr('data-attach-position').split(' '); // TODO, not flexible
             var attach_child_anchor = $(this).attr('data-child-anchor').split(' '); // TODO, not flexible
-            var attach_child_zindex = $(this).attr('data-child-zindex');
+            var attach_scale = $(this).data('scale') || 1;
+            var attach_rotate = $(this).data('rotate') || 0;
+            var attach_scalex = $(this).data('scalex') || 1;
+
+            var attach_child_zindex = $(this).data('child-zindex') || 2;
             var offset_top = $(this).data('offset-top') || 0;
             var offset_left = $(this).data('offset-left') || 0;
+
+
 
             console.log(offset_top);
 
@@ -96,7 +102,9 @@ $(document).ready(function() {
             // Position the element
             $(this).css({
                 "top":top+"px",
-                "left":left+"px"
+                "left":left+"px",
+                "z-index":attach_child_zindex,
+                "transform":"scale("+attach_scale+") rotate("+attach_rotate+"deg) scaleX("+attach_scalex+")"
             });
         });
     });
