@@ -50,6 +50,10 @@ defaults:
     path: _roadmap
   values:
     layout: default
+- scope:
+    path: _conferences
+  values:
+    layout: conference
 highlighter: rouge
 kramdown:
   input: GFM

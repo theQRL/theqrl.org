@@ -1,21 +1,8 @@
 body {
 	font-family: $body_font;
 	position:relative;
-	background:
-		url('/assets/particles/dots-topright.small.png') no-repeat top -20px right -10px;
+	background: url('/assets/particles/dots-topright.small.png') no-repeat top -20px right -10px;
 } 
-body.homepage {
-	background:
-		url('/assets/particles/dots-topright.small.png') no-repeat top -20px right -10px,
-		url('/assets/particles/on-small.png') no-repeat top 200px center;
-
-	@include lg {
-	background:
-		url('/assets/particles/dots-topright.small.png') no-repeat top -20px right -10px,
-		url('/assets/particles/on-small.png') no-repeat top 300px center;
-	}
-	
-}
 
 .overflow {
 	position:relative;
@@ -26,7 +13,9 @@ body.homepage {
 .header .grid {
 	grid-template-columns: 80px 1fr min-content;
 }
-
+img {
+	max-width: 100%;
+}
 
 
 .wrapper {
@@ -636,7 +625,11 @@ nav a {
 		width:500px; height:284px;
 		background-image:url(/assets/particles/hat.png);
 	}
-	.bw1000 {
+	.on {
+		width:459px; height:518px;
+		background-image:url(/assets/particles/on.png);
+	}
+	.bw1000 { 
 		width:387px; height:1000px;
 		background-image:url(/assets/particles/bw.h1000.small.png);
 	}
@@ -646,10 +639,14 @@ nav a {
 	}
 
 	@supports (mask-image:url(/assets/particles/hat.png)) or (-webkit-mask-image:url(/assets/particles/hat.png)) {
-		.hat, .rocket {
+		.hat, .rocket, .on, .pencil {
 			background: linear-gradient(45deg, #3927ee, #1eeacc);
 			background-size: 400% 400%;
 			animation: greatient 3s ease infinite;			
+		}
+		.on {
+			-webkit-mask-image:url(/assets/particles/on.png);
+			mask-image:url(/assets/particles/on.png);			
 		}
 		.hat {
 			-webkit-mask-image:url(/assets/particles/hat.png);
@@ -658,6 +655,10 @@ nav a {
 		.rocket {
 			-webkit-mask-image:url(/assets/particles/rocket.png);
 			mask-image:url(/assets/particles/rocket.png);			
+		}
+		.pencil {
+			-webkit-mask-image:url(/assets/particles/pencil.png);
+			mask-image:url(/assets/particles/pencil.png);				
 		}
 		@keyframes greatient { 
 		    0%{background-position:0% 50%}
@@ -680,3 +681,5 @@ nav a {
 @import 'pages/homepage';
 @import 'pages/why';
 @import 'pages/team';
+@import 'pages/conferences';
+@import 'pages/contact';

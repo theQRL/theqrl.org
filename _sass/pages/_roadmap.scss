@@ -12,7 +12,7 @@ $variance_else: $variance / 2;
 	&:before {
 		$orb_size: random(50) + 120;
 		position:absolute;
-		@if($roadmap_x < 0) {
+		@if($roadmap_x <= 0) {
 			left:-($orb_size) - 10 + px;
 		} 
 		@if($roadmap_x > 0) {

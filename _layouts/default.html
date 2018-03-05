@@ -2,9 +2,9 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {% include head.html %}
-  {% assign pageclass = page.url | replace:'/','' | replace:'.html','' %}
-  {% if pageclass == "" or pageclass == nil %}
-  {% assign pageclass = 'homepage' %}
+  {% assign pageclass = page.url | remove_first:'/' | split:'/' | first %}
+  {% if pageclass == "" or pageclass == nil %} 
+    {% assign pageclass = 'homepage' %}
   {% endif %}
   <body class="{{ pageclass }}">
 	<div class="overflow">

@@ -21,7 +21,13 @@ layout: default
     </div>
   </div>
   <div class="particles background">
-
+    <div class="on" 
+      data-attach-class=".wrapper.hero" 
+      data-attach-position="center center" 
+      data-child-anchor="center center" 
+      data-offset-left="0" 
+      data-offset-top="260">
+    </div>
   </div>
   <div class="grid">
     <div class="w12">
@@ -92,7 +98,7 @@ layout: default
         <p>{{ conf.where }}</p>
       </div>
       <div>
-        <a class="cta" href="{{ conf.link_tickets }}">Buy Tickets</a>
+        <a class="cta" href="{{ conf.url }}">More Info</a>
       </div>
     </div>
     {% endfor %}

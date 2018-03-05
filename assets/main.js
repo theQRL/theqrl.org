@@ -2,7 +2,6 @@
 $(document).ready(function() {
     // Particles
     $(window).on('load resize scroll keyup click', function () {
-
     $('.particles div').each(function() {
             var scroll_top = window.scrollY || window.scrollTop || 0;
             var attach_class = $(this).attr('data-attach-class');
@@ -11,14 +10,14 @@ $(document).ready(function() {
             var attach_scale = $(this).data('scale') || 1;
             var attach_rotate = $(this).data('rotate') || 0;
             var attach_scalex = $(this).data('scalex') || 1;
-
             var attach_child_zindex = $(this).data('child-zindex') || 2;
             var offset_top = $(this).data('offset-top') || 0;
             var offset_left = $(this).data('offset-left') || 0;
 
 
-
-            console.log(offset_top);
+            $(this).css({
+                "transform":"scale("+attach_scale+") rotate("+attach_rotate+"deg) scaleX("+attach_scalex+")"
+            });
 
             var parent_position = document.querySelector(attach_class).getBoundingClientRect();
             var child_position = this.getBoundingClientRect();
@@ -93,12 +92,11 @@ $(document).ready(function() {
                     left = left - child.width;
                 break;
             }
-            console.log(offset_top);
+
             // Add offsets
             top = top + offset_top;
             left = left + offset_left;
-            // console.log(attach_position[0]+": "+top+" "+attach_position[1]+": "+left);
-            // console.table(parent);
+
             // Position the element
             $(this).css({
                 "top":top+"px",
@@ -108,6 +106,7 @@ $(document).ready(function() {
             });
         });
     });
+
 
 
     // FAQ filter 

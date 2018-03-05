@@ -1,11 +1,47 @@
 ---
 layout: default
 ---
-<div class="wrapper">
+<div class="wrapper hero">
 	<div class="grid">
 		<div class="w12">
 			<h1>{{ page.title | escape }}</h1>
-			{{ content }}
+			<p>{{ page.summary }}</p> 
+			<p><img src="/assets/conferences/{{ page.image }}" alt=""></p>
+			<p><a href="{{ page.link_domain }}" class="cta">Visit Site</a> <a href="{{ page.link_tickets }}" class="cta">Buy Tickets</a></p>
 		</div>
 	</div>
 </div>
+
+<div class="wrapper intro">
+	<div class="grid">
+		<div class="w12">
+			    <div>
+      <div class="header-section">
+        <h2>More about</h2>
+        <h3>{{ page.title }}</h3>
+      </div>
+    </div>
+			{{ page.content }}
+		</div>
+	</div>
+</div>
+
+<div class="wrapper team">
+  <div class="grid w12">
+    <div>
+      <div class="header-section">
+        <h2>Who's going</h2>
+        <h3>Meet our team</h3>
+      </div>
+    </div>
+  </div>
+  {% include team.md team_members=page.who %}
+  <div class="grid w12">
+  <div class="more">
+    <a href="/team" class="cta">See the whole team</a>
+  </div>    
+  </div>
+
+</div>
+
+
