@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
     // Particles
-    $(window).on('load resize scroll keyup click', function () {
+    $(window).on('load resize keyup', function () {
     $('.particles div').each(function() {
             var scroll_top = window.scrollY || window.scrollTop || 0;
             var attach_class = $(this).attr('data-attach-class');

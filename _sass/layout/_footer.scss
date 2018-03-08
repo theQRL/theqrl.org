@@ -54,6 +54,11 @@
 	padding-top:10px; padding-bottom:10px;
 	background-color:#0F031C;
 	color:#FFF;
+	.footer-logo img {
+		color:#FFF;
+		fill:#FFF;
+		max-width: 35px;
+	}
 
 	@include md-max {
 		.grid > div {
@@ -105,8 +110,12 @@
 
 		&[type=submit] {
 			background-color: $quantum_burst;
-
+			cursor: pointer;
 			color:#FFF;
+
+			&:hover {
+				background-color: $quantum_hover;
+			}
 		}
 	}
 	@include sm-max {
@@ -144,12 +153,16 @@
 				background-color: $quantum_burst;
 				border-radius: 50%;
 				font-size:0;
+				&:hover {
+					background-color: $quantum_hover;
+				}
 				svg {
 					width:25px; height:25px;
 				}
 			}
 		}
 	}
+
 }
 
 

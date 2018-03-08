@@ -309,7 +309,7 @@ nav a {
 		max-width: 1300px;
 	}
 	@include md {
-		padding-top:20px;
+		padding-top:10px;
 	}
 
 	.logo img {
@@ -426,20 +426,21 @@ nav a {
 				font-size:13px;
 			}
 		}
-		padding-top: 20px;
+		padding-top: 24px;
 
 		@include sm {	padding-left:0px; }
 		@include md {	padding-left:10px; }
 		@include lg {	padding-left:20px; }
 	}
 	.whitepaper nav {
-		padding-top: 10px;
+		padding-top: 19px;
 	}
 	nav a {
 		font-family: 'Quicksand';
 		font-weight: 500;
 		font-size:13px;
 		text-transform: uppercase;
+
 		@include md {
 			padding:5px 25px;
 		}
@@ -473,9 +474,15 @@ nav a {
 				transform: rotate(180deg);
 
 			}
-		}
-		&.active > ul {
-			display:flex;
+			> a {
+							border-color:$quantum_burst;
+			}
+
+
+			> ul {
+				display:flex;
+				border-color:$quantum_burst;
+			}
 		}
 	}
 	svg {
@@ -486,11 +493,13 @@ nav a {
 			font-family: 'Roboto';
 			background-color:#F3F3F3;
 			text-decoration: none;
-			color: #000;
-
+			color: #111;
+			font-weight: 400;
+			letter-spacing: 2px;
 
 			&:hover {
-				background-color:#EEE;
+				background-color:$quantum_burst;
+				color:#FFF;
 			}
 		}
 		> a {
