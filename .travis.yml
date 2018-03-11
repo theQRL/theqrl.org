@@ -1,0 +1,36 @@
+language: ruby
+rvm:
+  - 2.5.0
+
+install:
+  - bundle install
+  - gem install jekyll
+
+branches:
+  only:
+    - master
+
+env:
+  global:
+    - JEKYLL_ENV=production
+
+notifications:
+  email:
+    recipients:
+      - jp@theqrl.org
+    on_success: always
+    on_failure: always
+
+script:
+  - chmod +x _scripts/build.sh
+  - _scripts/build.sh
+
+after_success:
+  - chmod +x _scripts/deploy.sh
+  - _scripts/deploy.sh
+
+sudo: false
+addons:
+  apt:
+    packages:
+      - ncftp
