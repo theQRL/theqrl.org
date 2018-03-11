@@ -152,8 +152,15 @@ body.faq {
 			}
 		}
 		&.events:before {
-			margin-top: 200px;
+			margin-top: 240px;
+			@include md-max {
+				margin-top:280px;
+			}
+
 			top:0px;
 		}
+	}
+	.intro .grid {
+		max-width: 600px;
 	}
 }

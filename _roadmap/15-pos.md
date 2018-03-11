@@ -1,6 +1,6 @@
 ---
 title: Move to PoS
-date: 2018-12-01
+date: 2018-11-01
 complete: false
 ---
 

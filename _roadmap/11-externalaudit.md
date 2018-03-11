@@ -4,4 +4,4 @@ date: 2018-03-15
 complete: false
 ---
 
-External audit performed by a third party
+Audit performed by a third party we are confident will possess the requisite skills to scrutinize a blockchain secured by Post-Quantum Cryptography.

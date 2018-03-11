@@ -78,6 +78,8 @@ permalink: /faq/
 					</div>
 					<div class="answer">
 						{{ faq.content }}
+
+						<a href="{{ faq.url }}" class="cta">Permanent Link</a>
 						<div style="display:none;">
 							{{ faq.search }}
 						</div>

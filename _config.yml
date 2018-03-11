@@ -45,7 +45,7 @@ defaults:
 - scope:
     path: _faq
   values:
-    layout: default
+    layout: faq
 - scope:
     path: _roadmap
   values:

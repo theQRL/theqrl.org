@@ -65,7 +65,6 @@ permalink: /roadmap/
 <div class="wrapper roadmap">
   <div class="grid">
     <div class="w12">
-
       {% assign roadmap = site.roadmap | where:'complete',false | sort: 'date' %}
       {% for item in roadmap %}
 
@@ -73,7 +72,7 @@ permalink: /roadmap/
         <div>
           <h3>{{ item.title }}</h3>
           <span class="date">
-            {{ item.date | date:'%B %Y' }}
+            {% comment %}{{ item.date | date:'%B %Y' }}{% endcomment %}
           </span>
           <div class="content">{{ item.content}} </div>
         </div>

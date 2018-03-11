@@ -15,7 +15,7 @@ h3, h4 {
 p, li {
 	font-family: $body_font;
 	font-size:14px;
-	line-height: 24px;
+	line-height: 28px;
 	color:#444;
 }
 
@@ -26,20 +26,20 @@ p, ul, ol {
 h5 {
 	font-size: 14px;
 	font-weight: 500;
-	line-height: 24px;	
+	line-height: 28px;	
 }
 h4 {
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 24px;
+	line-height: 28px;
 }
 h3 {
-	font-size: 24px;
-	line-height: 48px;
+	font-size: 28px;
+	line-height: 42px;
 }
 h2 {
 	font-size: 32px;
-	line-height: 48px;
+	line-height: 42px;
 }
 h1 {
 	font-size: 60px;
@@ -48,7 +48,7 @@ h1 {
 h1 {
 	@include sm-max {
 		font-size: 42px;
-		line-height: 48px;
+		line-height: 58px;
 		font-weight: 500;	
 	}
 }

@@ -1,16 +1,15 @@
-$variance: 450;
-$variance_else: $variance / 2;
+$variance: 300;
 
 @mixin roadmap-item($variance) {
-	
+		
 
 	$roadmap_negative: $variance / 2;
-	$roadmap_x: random($variance) - $roadmap_negative;
+	$roadmap_x: random($variance) - $roadmap_negative; // 0 to 400 - 200 
 
 	right: $roadmap_x + px; 
 
 	&:before {
-		$orb_size: random(50) + 120;
+		$orb_size: random(70) + 100; // 120 to 170
 		position:absolute;
 		@if($roadmap_x <= 0) {
 			left:-($orb_size) - 10 + px;
@@ -20,16 +19,17 @@ $variance_else: $variance / 2;
 		}
  		top:5px;
 		content:'';
-		display:block;
+		display:block; 
 		background-size: contain;
 		background-repeat: no-repeat;
 		width:($orb_size) + px;
 		height:($orb_size) + px;
+		z-index:1;
 
 	}
 }
 
-body.roadmap {
+body.roadmap { 
  	
 	.roadmap-item {
 		
@@ -67,6 +67,10 @@ body.roadmap {
  		.date {
  			color:$quantum_burst;
  		}
+ 		h3, .date , p {
+ 			position: relative;
+ 			z-index:5;
+ 		} 
 
 		@include md {
 			&:nth-child(1) { @include roadmap-item($variance); }
