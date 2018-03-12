@@ -4,7 +4,7 @@ categories: PoS
 ---
 
 #### Quantum Resistant Store of Value 
-- This should have broad appeal to many different types of people. Building a crypto portfolio that you want to be diverse and resistant to all sorts of market events? We would argue that having something in there that will still be standing after a black swan-type event would be prudent. As would it for anyone who wants to just have their value in as secure an instrument as possible. 
+- This should have broad appeal to many different types of people. Building a cryptocurrency portfolio that you want to be diverse and resistant to all sorts of market events? We would argue that having something in there that will still be standing after a black swan-type event would be prudent. As would it for anyone who wants to just have their value in as secure an instrument as possible. 
 - For those who are Ledger users, our utility may get a bump as we will be compatible with the Ledger Nano S
 
 #### Ephemeral Data Messaging Layer
