@@ -34,7 +34,7 @@ permalink: /roadmap/
   <div class="grid">
     <div class="w12">
       <h1>Roadmap</h1>
-      <p>A clear vision of a resiliant Post Quantum store of value and communication layer is only as good as the plan and perseverance it's backed up by.</p>
+      <p>A clear vision of a resilient Post Quantum store of value and communication layer is only as good as the plan and perseverance it's backed up by.</p>
     </div>
   </div>
 </div>

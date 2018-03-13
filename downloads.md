@@ -32,7 +32,7 @@ permalink: /downloads/
 	<div class="grid w12">
 		<div class="header-section">
 	        <h2>Web Wallet</h2>
-	        <h3>The safest and first future proof mobile crypto wallet</h3>
+	        <h3>The safest and first future proof mobile cryptocurrency wallet</h3>
 	        <p>[#2 Need copy here]</p>
 	    </div>
 	    <div>
