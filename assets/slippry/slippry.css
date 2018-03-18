@@ -224,12 +224,15 @@
   .sy-caption-wrap .sy-caption {
     position: relative;
     left: -50%;
-    background-color: rgba(0, 0, 0, 0.54);
-    color: #fff;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000;
     padding: 0.4em 1em;
-    border-radius: 1.2em; }
+    border-radius: 1.2em;
+    box-shadow: 0px 3px 10px rgba(10, 22, 55, 0.3);
+    border:1px solid #4A90E2;
+     }
     .sy-caption-wrap .sy-caption a:link, .sy-caption-wrap .sy-caption a:visited {
-      color: #e24b70;
+      color: #4A90E2;
       font-weight: 600;
       text-decoration: none; }
     .sy-caption-wrap .sy-caption a:hover, .sy-caption-wrap .sy-caption a:focus {

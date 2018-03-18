@@ -1,0 +1,391 @@
+.header {
+	// position:relative;
+	padding-bottom: 0;
+	position:relative;
+	z-index: 9;
+
+	.grid {
+		max-width: 1300px;
+	}
+	@include md {
+		padding-top:5px;
+	}
+
+	.logo img {
+		max-width: 100%;
+		height:auto;
+	}
+	li svg {
+		max-height:12px;
+	}
+	.menu {
+
+	}
+	.menu nav {
+		padding-top: 5px;
+		@include lg { padding-top: 5px; } // 18px
+		li.dropdown {
+			> a {
+				position: relative;
+				
+				&:after {
+					position: absolute;
+					right:0px; top:9px;
+					@include sm {
+						right:0px;
+					}
+					@include md {
+						right:5px;
+					}
+					@include lg {
+						right:15px;
+					}
+					display:block;
+					content: url('https://icons.simplesvg.com/ion-ios-arrow-down.svg?color=%23FF0000&height=16');
+					vertical-align: -0.125em;
+					width:18px; height:18px;
+					transition: all 0.3s;
+				}
+
+			}
+			&.active {
+				> a {
+					&:after {
+						transform:rotate(180deg);
+					}
+				}				
+			}
+			@include md {
+				&:hover {
+					> a {
+						&:after {
+							transform:rotate(180deg);
+						}
+					}	
+				}
+			}
+		}
+		ul li {
+			position: relative;
+			
+			&.active {
+				> a {
+					color:$quantum_burst;
+				}
+				> ul {
+					display: flex;
+					border:1px solid $quantum_burst;
+
+					a:hover {
+						background-color: $quantum_burst;
+						color:#FFF;
+					}
+
+				} 
+			}
+
+			@include md {
+				&:hover {
+					> a {
+						color:$quantum_burst;
+					}
+					> ul {
+						display: flex;
+						border:1px solid $quantum_burst;
+
+						a:hover {
+							background-color: $quantum_burst;
+							color:#FFF;
+						}
+
+					} 
+				}
+			}
+			ul {
+				min-width: 150px;
+				display:none;
+				border:1px solid #000;
+				position: absolute;
+				left:0;
+				flex-direction: column;
+				text-align: left;
+				background-color: #F3F3F3;
+				a {
+					padding:5px 10px;
+				}
+			}
+		}
+
+		// Hamburger on small menus
+		#nav-icon {
+			display:none;
+		}
+		@include md-max {
+			z-index: 100;
+
+			> ul {
+				position:fixed;
+				z-index: 100;
+				top:0px; right:-100vw;
+				background-color:#FFF;
+				width:100%; height:100vh;
+				transition: all 0.6s;
+				flex-direction:column;
+
+				a {
+					display:block;
+					width:100%;
+					font-size:30px;
+					padding-bottom: 20px;
+					padding-top: 20px;
+				}
+
+
+
+
+				li {
+					position: relative;
+					> a {
+						padding-left: 5px;
+						&:after {
+							content:'' !important;
+							background: url('https://icons.simplesvg.com/ion-ios-arrow-down.svg?color=%23dc255d&height=16') no-repeat center center / contain;
+							height:18px;
+							top:23px !important;
+							right:5px !important;
+						}
+					}
+					&:hover,
+					&.active {
+						> a {
+							color:$quantum_burst;
+						}
+						> ul {
+							// display: flex;
+							border:1px solid $quantum_burst;
+
+							a:hover {
+								background-color: $quantum_burst;
+								color:#FFF;
+							}
+
+						} 
+					}
+					ul {
+						min-width: 150px;
+						display:none;
+						border:1px solid #000;
+						position: relative;
+						left:0;
+						flex-direction: column;
+						text-align: left;
+						background-color: #F3F3F3;
+						a {
+							padding:10px 10px;
+							font-size: 15px;
+						}
+					}
+				}
+			}
+
+			#nav-icon {
+				display:block;
+				width: 80px;
+				height: 80px;
+				position: fixed;
+				bottom:20px; right:20px;
+				margin: 0px auto;
+				transform: rotate(0deg);
+				border-radius:50%;
+				padding:10px;
+				transition: .5s ease-in-out;
+				cursor: pointer;
+				background-color:$quantum_burst;
+				z-index: 200;
+
+				span:nth-child(1) {
+					top: 20px;
+				}
+				span {
+					display: block;
+					position: absolute;
+					height: 4px;
+
+					width: 50%;
+					background: #FFF;
+					border-radius: 9px;
+					opacity: 1;
+					left:20px;
+					transform: rotate(0deg);
+					transition: .25s ease-in-out;
+				}
+				span:nth-child(2),
+				span:nth-child(3) {
+				  top: 38px;
+				}
+
+				span:nth-child(4) {
+				  top: 56px;
+				}
+
+				&.open span:nth-child(1) {
+				  top: 38px;
+				  width: 0%;
+				  left: 50%;
+				}
+
+				&.open span:nth-child(2) {
+				  transform: rotate(45deg);
+				}
+
+				&.open span:nth-child(3) {
+				  transform: rotate(-45deg);
+				}
+
+				&.open span:nth-child(4) {
+				  top: 28px;
+				  width: 0%;
+				  left: 50%;
+				}
+				&.open + ul {
+					right:0;
+				}
+			}
+		}
+		
+		svg {
+			display:block;
+			@include sm {
+				display:none;
+			}
+		}
+		a {
+			@include sm {
+				font-size:13px;
+			}
+		}
+		padding-left: 0px;
+		@include sm {	padding-left:0px; }
+		@include md {	padding-left:10px; }
+		@include lg {	padding-left:20px; }
+	}
+	.whitepaper nav {
+		padding-top: 0px;
+		@include lg {	padding-top:0px; } // 13px
+
+	}
+	nav a {
+		font-family: 'Quicksand';
+		font-weight: 500;
+		font-size:13px;
+		text-transform: uppercase;
+		padding:5px 20px;
+
+		@include md {
+			padding:5px 25px;
+		}
+		@include lg {
+			padding:5px 40px;
+		}
+
+	}
+}
+.whitepaper {
+	.has-child {
+		> ul {
+			display:none;
+		}
+		> a {
+			white-space: nowrap;
+			svg {
+				transition: all 0.4s;
+				width: 12px;
+				margin-right: -2px;
+				position: relative;
+				top: 2px;
+			}
+		}
+		&.active {
+			svg {
+				transform: rotate(180deg);
+
+			}
+			> a {
+				border-color:$quantum_burst;
+				background-color: $quantum_burst;
+				color:#FFF;
+			}
+
+
+			> ul {
+				display:flex;
+				border-color:$quantum_burst;
+			}
+		}
+		@include md {
+			&:hover {
+				svg {
+					transform: rotate(180deg);
+
+				}
+				> a {
+					border-color:$quantum_burst;
+					background-color: $quantum_burst;
+					color:#FFF;
+				}
+
+
+				> ul {
+					display:flex;
+					border-color:$quantum_burst;
+				}
+			}
+		}
+	}
+	svg {
+		display:inline-block;
+	}
+	nav > ul > li {
+		a {
+			font-family: 'Roboto';
+			background-color:#F3F3F3;
+			text-decoration: none;
+			color: #111;
+			font-weight: 400;
+			letter-spacing: 0px;
+
+			&:hover {
+				background-color:$quantum_burst;
+				color:#FFF;
+			}
+		}
+		> a {
+			border:1px solid #000;
+			padding:10px 20px;
+						letter-spacing: 2px;
+
+			box-shadow: $shadow;
+		}
+
+		@include sm-max {
+			> a {
+				letter-spacing: 0px;
+				padding:3px 9px;			
+			}
+
+		}
+
+		> ul {
+			margin-top:-1px;
+			flex-direction:column;
+			border:1px solid #000;
+			border-top:0px;
+
+			a {
+				padding:5px 10px;			
+			}
+		}
+
+
+	}
+}

@@ -1,90 +1,108 @@
 ---
 layout: default
 ---
-<script src="/assets/slippry/slippry.min.js"></script>
-<link rel="stylesheet" href="/assets/slippry/slippry.css" />
-<script>
-jQuery(document).ready(function(){
-  jQuery('.slideshow').slippry()
-});
-</script>
-
 <div class="wrapper hero">
-  <div class="grid">
-    <div class="w12">
-      <h1>Mainnet is live!</h1>
-      <p>MainNet launch is live visit the downloads page and checkout our new wallets and Node software.</p>
-      <a class="cta" href="/docs">Visit The Downloads Page</a>
+  <div class="particles">
+    <div class="pencil" 
+      data-attach-class=".grid.team-members" 
+      data-attach-position="top left" 
+      data-child-anchor="top right" 
+      data-offset-left="150" 
+      data-offset-top="-200">
+    </div>
+    <div class="bw1000" 
+      data-attach-class=".wrapper.events" 
+      data-attach-position="top right" 
+      data-child-anchor="bottom right" 
+      data-offset-left="50" 
+      data-offset-top="-110"
+      data-scalex="-1"
+      data-scale="1">
     </div>
   </div>
+  <div class="particles background">
+    <div class="on" 
+      data-attach-class=".wrapper.hero" 
+      data-attach-position="center center" 
+      data-child-anchor="center center" 
+      data-offset-left="0" 
+      data-offset-top="260">
+    </div>
+  </div>
+  <div class="grid">
+    <div class="w12">
+      <h1>The Quantum Resistant Ledger</h1>
+      <p>The Quantum Resistant Ledger (QRL) will be a first of its kind, future-proof post-quantum value store and decentralized communication layer which tackles the threat Quantum Computing will pose to cryptocurrencies</p>
+    </div>
+  </div>
+    <script src="/assets/slippry/slippry.min.js"></script>
+  <link rel="stylesheet" href="/assets/slippry/slippry.css" />
+  <script>
+  $(function() {
+    var slideshow = jQuery('.slideshow').slippry();
+    $(window).on('load',function(){
+    });
+  });
+
+  </script>
 </div>
 
 <div class="wrapper intro">
   <div class="grid w12"> 
-    <div>
+    
+
+    <div class="banner">
       <ul class="slideshow">
-      <li>
-        <a href="https://explorer.theqrl.org">
-          <img src="/assets/front-slideshow/newwallet.png">
-        </a>
-      </li>
-      <li>
-        <a href="https://wallet.theqrl.org">
-          <img src="/assets/front-slideshow/send.png">
-        </a>
-      </li>
-      <li>
-        <a href="https://wallet.theqrl.org">
-          <img src="/assets/front-slideshow/transactions.png">
-        </a>
-      </li>
-
-
-    </ul>
-      
-      <div class="header-section">
-        <h2>What is QRL</h2>
-      </div>
-      {% assign conference = site.conferences | sort: 'date' %}
-      {% for conf in conference %}
-      <div class="grid conference">
-        <div class="image">
-          <img src="/assets/conferences/{{ conf.image }}" alt="">
-        </div>
-        <div>
-          <h2>{{ conf.title }}</h2>
-          <p>{{ conf.datestart | date_to_string }} - {{ conf.dateend | date_to_string }}</p>
-          <p>{{ conf.where }}</p>
-        </div>
-        <div>
-          <a class="cta" href="{{ conf.link_tickets }}">Buy Tickets</a>
-        </div>
-      </div>
-      {% endfor %}
-      
-
-
-
-      <div class="header-section">
-        <h2>What is QRL</h2>
-        <h3>An intro into QRL</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic voluptatibus error molestias nesciunt beatae doloribus animi consectetur. Odio magni fuga, consectetur. Tenetur architecto facere consectetur soluta incidunt reprehenderit, similique officia?</p>
-      </div>
-      <div style="max-width:500px; margin:0 auto">
-        <div class="youtube-player" data-id="V8IxLDxMEb8"></div>        
-      </div>
-
-
-<!--         <div class="video">
-
-        <iframe class="youtube" src="https://www.youtube.com/embed/V8IxLDxMEb8?rel=0&modestbranding=0&showinfo=0" allowfullscreen="" frameborder="0"></iframe>               
-        </div> -->
-   
-      </div>
-
-      
-
+        <li>
+          <a href="https://explorer.theqrl.org">
+            <img src="/assets/front-slideshow/explorer.small.png" alt="Check out our <a href='https://explorer.theqrl.org'>QRL Explorer</a>">
+          </a>
+        </li>
+        <li>
+          <a href="https://wallet.theqrl.org">
+            <img src="/assets/front-slideshow/send.small.png" alt="Check out our <a href='https://wallet.theqrl.org'>Web Wallet</a>">
+          </a>
+        </li>
+        <li>
+          <a href="https://wallet.theqrl.org">
+            <img src="/assets/front-slideshow/transactions.small.png" alt="Send and receive transactions today">
+          </a>
+        </li>
+      </ul>
     </div>
+
+
+
+    <div class="header-section">
+      <h2>What is QRL</h2>
+      <h3>A video introduction</h3>
+    </div>
+    <div class="yt-center">
+      <div class="youtube-player" data-id="V8IxLDxMEb8"></div>        
+    </div>
+      
+
+
+    <div class="header-section">
+      <h2>Where you can find us</h2>
+      <h3>Conferences we are attending</h3>
+    </div>
+    {% assign conference = site.conferences | sort: 'date' %}
+    {% for conf in conference %}
+    <div class="grid conference">
+      <div class="image">
+        <img src="/assets/conferences/{{ conf.image }}" alt="">
+      </div>
+      <div class="description">
+        <h2>{{ conf.title }}</h2>
+        <p>{{ conf.datestart | date_to_string }} - {{ conf.dateend | date_to_string }}</p>
+        <p>{{ conf.where }}</p>
+      </div>
+      <div>
+        <a class="cta" href="{{ conf.url }}">More Info</a>
+      </div>
+    </div>
+    {% endfor %}
   </div>
 </div>
 
@@ -92,81 +110,16 @@ jQuery(document).ready(function(){
   <div class="grid w12">
     <div>
       <div class="header-section">
-        <h2>About Us</h2>
-        <h3>Our Awesome Crew</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic voluptatibus error molestias nesciunt beatae doloribus animi consectetur. Odio magni fuga, consectetur. Tenetur architecto facere consectetur soluta incidunt reprehenderit, similique officia?</p>
+        <h2>Who we are</h2>
+        <h3>More about the team</h3>
       </div>
     </div>
   </div>
-  <div class="grid team-members">
-      {% assign membership = site.team | sort: 'hierarchy' | reverse %}
-      {% for team in membership %}
-      <div>
-      <div class="image">
-      <div style="background-image:url('/assets/team/{{ team.image }}');"></div>
-      </div>
-      <div class="name">{{ team.title }}</div>
-      <div class="position">
-        <div class="role">{{ team.role }}</div>
-        <div class="position">{{ team.position }}</div>
-      </div>
-      <div class="profile">
-        <a href="{{ team.url }}" class="cta">View Profile</a>
-      </div>
-      <div class="social"></div>
-      </div>
-      {% endfor %}
-<!--     <div>
-      <div class="image">
-        <div style="background-image:url('/assets/team/pete.png');"></div>
-      </div>
-      <div class="name">Dr. Peter Waterland</div>
-      <div class="position">Founder</div>
-      <div class="social"></div>
-    </div>
-    <div>
-      <div class="image">
-        <div style="background-image:url('/assets/team/jp.png');"></div>
-      </div>
-      <div class="name">Dr. JP Lomas</div>
-      <div class="position">Core-Developer</div>
-      <div class="social"></div>
-    </div>
-    <div>
-      <div class="image">
-        <div style="background-image:url('/assets/team/cyber.png');"></div>
-      </div>
-      <div class="name">Kaushal Kumar Singh</div>
-      <div class="position">Core-developer</div>
-      <div class="social"></div>
-    </div>
-    <div>
-      <div class="image">
-        <div style="background-image:url('/assets/team/leon.png');"></div>
-      </div>
-      <div class="name">Leon Groot Bruinderink</div>
-      <div class="position">Advisor</div>
-      <div class="social"></div>
-    </div>
-    <div>
-      <div class="image">
-      </div>
-      <div class="name">Michael Kolenbrander</div>
-      <div class="position">Core-Developer</div>
-      <div class="social"></div>
-    </div>
-    <div>
-      <div class="image"></div>
-      <div class="name">Filip Radcevic</div>
-      <div class="position">Core-Developer</div>
-      <div class="social"></div>
-    </div> -->
-  </div>
+  {% include team.md members=6 %}
   <div class="grid w12">
-    <div>
-      <a href="/team" class="cta">See The Whole Team</a>      
-    </div>
+  <div class="more">
+    <a href="/team" class="cta">See the whole team</a>
+  </div>    
   </div>
-
 
 </div>

@@ -1,0 +1,130 @@
+$variance: 300;
+
+@mixin roadmap-item($variance) {
+		
+
+	$roadmap_negative: $variance / 2;
+	$roadmap_x: random($variance) - $roadmap_negative; // 0 to 400 - 200 
+
+	right: $roadmap_x + px; 
+
+	&:before {
+		$orb_size: random(70) + 100; // 120 to 170
+		position:absolute;
+		@if($roadmap_x <= 0) {
+			left:-($orb_size) - 10 + px;
+		} 
+		@if($roadmap_x > 0) {
+			right:-($orb_size) - 10 + px;  
+		}
+ 		top:5px;
+		content:'';
+		display:block; 
+		background-size: contain;
+		background-repeat: no-repeat;
+		width:($orb_size) + px;
+		height:($orb_size) + px;
+		z-index:1;
+
+	}
+}
+
+body.roadmap { 
+ 	
+	.roadmap-item {
+		
+		max-width: 600px;
+		@include md {
+			max-width: 300px;
+		}
+
+		margin:0 auto;
+		@include md {
+			margin-bottom: 100px;
+		}
+
+		position:relative;
+		
+		&.complete {
+			h3:after {
+				content:'';
+				display:inline-block;
+				background-image:url(/assets/pages/roadmap/check.png);
+				width:22px; height:22px;
+				background-size: contain;
+				margin-left:5px;
+				position:relative; top:2px;
+			}
+			&:before {
+				background-image:url(/assets/particles/particle.bp.small.png);
+			}
+		}
+		&.take2 {
+			&:before {
+				background-image:url(/assets/particles/particle.w200.png);
+			}
+		}
+ 		.date {
+ 			color:$quantum_burst;
+ 		}
+ 		h3, .date , p {
+ 			position: relative;
+ 			z-index:5;
+ 		} 
+
+		@include md {
+			&:nth-child(1) { @include roadmap-item($variance); }
+			&:nth-child(2) { @include roadmap-item($variance); }
+			&:nth-child(3) { @include roadmap-item($variance); }
+			&:nth-child(4) { @include roadmap-item($variance); }
+			&:nth-child(5) { @include roadmap-item($variance); }
+			&:nth-child(6) { @include roadmap-item($variance); }
+			&:nth-child(7) { @include roadmap-item($variance); }
+			&:nth-child(8) { @include roadmap-item($variance); }
+			&:nth-child(9) { @include roadmap-item($variance); }
+		}
+
+		&.take2 { 
+			@include md {
+				&:nth-child(1) { @include roadmap-item($variance); }
+				&:nth-child(2) { @include roadmap-item($variance); }
+				&:nth-child(3) { @include roadmap-item($variance); }
+				&:nth-child(4) { @include roadmap-item($variance); }
+				&:nth-child(5) { @include roadmap-item($variance); }
+				&:nth-child(6) { @include roadmap-item($variance); }
+				&:nth-child(7) { @include roadmap-item($variance); }
+				&:nth-child(8) { @include roadmap-item($variance); }
+				&:nth-child(9) { @include roadmap-item($variance); }
+			}
+		}
+
+	} 
+	.wrapper {
+		&:nth-child(3) {
+			padding-top:0;
+			padding-bottom:0;
+
+			&:before {
+				background-color:#F3F3F3;
+				content:'';
+				display: block;
+				width:100%;
+				position: relative;
+				height:150px; top:-150px; margin-bottom:-150px;
+				overflow: hidden;
+				@include angle-edge($angle: 2, $angle-position-y: 'top', $angle-position-x: 'right');
+			}
+			&:after {
+				content:'';
+				background-color:#F3F3F3;
+				display: block;
+				width:100%;
+				
+				position: relative;
+				height:150px; bottom:-150px; margin-top:-150px; margin-bottom: 170px;
+				overflow: hidden;
+				@include angle-edge($angle: 2.5, $angle-position-y: 'bottom', $angle-position-x: 'left');
+			}
+		}
+	}
+}
