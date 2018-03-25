@@ -1,7 +1,7 @@
 ---
 title: Elliott Gregory Dehnbostel
-role: Marketing & Community
-position: Community Engagement
+role: Developer
+position: Junior Developer
 keybase: elliottdehn
 image: elliott.png
 ---
