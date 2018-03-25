@@ -36,6 +36,20 @@ body.conferences {
 	.wrapper.events:before {
 		top:-120px; height:200px;
 	}
+	.wrapper.followup {
+		padding-top:150px;
+		padding-bottom: 100px;
+		&:after {
+			content:'';
+			display: block;
+			width:100%;
+			
+			position: relative;
+			height:150px; bottom:-210px; margin-top:-80px;
+			overflow: hidden;
+			@include angle-edge($angle: 2, $angle-position-y: 'bottom', $angle-position-x: 'right');
+		}
+	}
 	.more {
 		text-align: center;
 	}
