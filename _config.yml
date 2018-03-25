@@ -23,7 +23,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 collections:
   conferences:
-    permalink: "/conferences/:year/:month/:slug" 
+    permalink: "/conferences/:year/:month/:slug/" 
     output: true
   faq:
     permalink: "/:collection/:path/"
