@@ -23,7 +23,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 collections:
   conferences:
-    permalink: "/conferences/:year/:month/:path/"
+    permalink: "/conferences/:year/:month/:slug" 
     output: true
   faq:
     permalink: "/:collection/:path/"
@@ -59,6 +59,7 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 future: true
+safe: false
 
 # Build settings
 markdown: kramdown

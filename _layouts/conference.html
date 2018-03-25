@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
+{% assign now = site.time | date: '%s' | plus: 0 %}
+{% assign dateend = page.dateend | date: '%s' | plus: 0  %}
+
+
+
 <div class="wrapper hero">
 	<div class="grid">
 		<div class="w12">
@@ -30,8 +35,13 @@ layout: default
   <div class="grid w12">
     <div>
       <div class="header-section">
-        <h2>Who's going</h2>
-        <h3>Meet our team</h3>
+        {% if now < dateend %}
+          <h2>Who's going</h2>
+          <h3>Meet our team</h3>
+        {% else %}
+          <h2>Who was there</h2>
+          <h3>Meet our team</h3>
+        {% endif %}
       </div>
     </div>
   </div>
@@ -41,7 +51,25 @@ layout: default
     <a href="/team" class="cta">See the whole team</a>
   </div>    
   </div>
-
 </div>
+
+{% if now > dateend and page.videos %}
+<div class="wrapper followup">
+  <div class="grid w12">
+    <div>
+      <div class="header-section">
+          <h2>Following Up</h2>
+          <h3>Media and Content</h3>
+      </div>
+    </div>
+
+    <div>
+      {% for video in page.videos %}
+        <div class="youtube-player" data-id="{{ video }}"></div>        
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endif %}
 
 
