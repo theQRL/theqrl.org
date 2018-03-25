@@ -1,5 +1,6 @@
 ---
 title: APAC Blockchain Conference
+slug: APAC Blockchain Conference
 who: ['scott', 'adam', 'juan']
 date: 2018-03-15 
 datestart: 2018-03-13 
@@ -9,6 +10,7 @@ image: apac.w400.png
 link_tickets: 'http://www.apacblockchain.com.au/'
 link_domain: 'http://www.apacblockchain.com.au/'
 summary: Seizing the opportunities and realizing the commercial potential of this revolutionary technology
+videos: ['w3WCV0jlGwk']
 ---
 
 The APAC Blockchain Conference, developed in partnership with the Australian Digital Commerce Association (ADCA), looks beyond the hype at the real impacts and potential of blockchain technologies in Australia.

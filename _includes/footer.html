@@ -6,8 +6,12 @@
       </div>
   </div>
   <div class="grid w6 footer-conferences">
+        {% assign now = site.time | date: '%s' | plus: 0 %}
+
       {% assign conference = site.conferences | sort: 'date' %}
       {% for conf in conference %}
+      {% assign date = conf.dateend | date: '%s' | plus: 0  %}
+      {% if date > now %}  
       <div class="footer-conference">
         <div class="image">
           <img src="/assets/conferences/{{ conf.image }}" alt="">
@@ -21,6 +25,7 @@
           <a class="cta" href="{{ conf.url }}">More Information</a>
         </div>
       </div>
+      {% endif %}
       {% endfor %}
   </div>
 </div>

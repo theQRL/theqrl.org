@@ -1,5 +1,6 @@
 ---
 title: Blockchain Expo Global
+slug: Blockchain Expo Global
 who: ['scott']
 date: 2018-04-18 
 datestart: 2018-04-18 
