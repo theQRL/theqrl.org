@@ -8,8 +8,8 @@ categories: PoS
 - For those who are Ledger users, our utility may get a bump as we will be compatible with the Ledger Nano S
 
 #### Ephemeral Data Messaging Layer
-- Ephemerals' place in the ecosystem is to drive integrations, add functionality, and draw in more users that way, more than be a direct burning reasons to stock up on QRL in a utilitarian sense
+- Ephemeral's place in the ecosystem is to drive integrations, add functionality, and draw in more users, rather than to be a direct burning reason to stock up on QRL in a utilitarian sense
 
 #### QRTs. 
-- What is a QRT? A Quantum Resistant Token (QRT) is a categorical name for the tokens that can be created/transferred on the QRL blockchain.
+- What is a QRT? A Quantum Resistant Token (QRT) is a categorical name for the tokens that can be created/transferred on the QRL blockchain. QRTs will inherit the quantum-resistant properties of the QRL network, removing the need for developers of potential future projects to worry about a quantum threat to their project's tokens. 
 - Like tokens on other networks, to create/transfer QRTs will require QRL. I know that I keep ETH in part to allow me to access and easily transfer ERC20's
