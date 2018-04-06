@@ -202,8 +202,11 @@
 				cursor: pointer;
 				background-color:$quantum_burst;
 				z-index: 200;
-				box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.16), 4px 8px 8px 0 rgba(0, 0, 0, 0.32);
+				box-shadow: $shadow;
 
+				&:hover {
+					background-color: $quantum_hover!important;
+				}
 				span:nth-child(1) {
 					top: 20px;
 				}
@@ -251,9 +254,6 @@
 				&.open + ul {
 					right:0;
 				}
-			}
-			#nav-icon:hover {
-				background-color: $quantum_hover!important;
 			}
 		}
 		
