@@ -95,6 +95,13 @@ body.homepage {
 		}
 
 	}
+	.news-header {
+		max-width: 500px;
+		margin-top:25px;
+		h2 {
+			color:$quantum_burst;
+		}
+	}
 	.yt-center {
 		 max-width:800px; 
 		 margin:0 auto;
