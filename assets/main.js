@@ -236,63 +236,65 @@ $(document).ready(function() {
 
 
     $(function() {
-      // This is a bit silly - but medium has CORS.
       var $content = $(".blogroll");
-      var data = {
-        rss_url: "https://medium.com/feed/the-quantum-resistant-ledger",
-      };
-      $.get("https://api.rss2json.com/v1/api.json", data, function(response) {
-        if (response.status === "ok") {
-          var output = "";
-          $.each(response.items, function(k, item) {
-            output += "<div class=\"blog-card\">";
-            // output += "<h4 class=\"date\">" + $.format.date(item.pubDate, "dd<br>MMM") + "</h4>";
+      // for offline testing, use this URL:
+      // var rss_url = "https://cors-anywhere.herokuapp.com/https://medium.com/feed/the-quantum-resistant-ledger";
+      var rss_url = "https://medium.com/feed/the-quantum-resistant-ledger";
 
-            
-            // output += "<div class=\"ui fluid image\"><a href=\"" + item.link + "\"><img src=\"" + src + "\"></a></div>";
-            output += "<div class=\"title\"><h2><a href=\"" + item.link + "\">" + item.title + "</a></h2></div>";
-            output += "<div class=\"author\"><span>By " + item.author + "</span></div>";
+      $.get(rss_url, function(response) {
+            var xmlDoc = response.documentElement;
+            console.log(xmlDoc);
+            var x2js = new X2JS();
+            var jsonObj = x2js.xml2json( xmlDoc );
+            console.log(jsonObj.channel.item);
+                  var output = "";
+                  $.each(jsonObj.channel.item, function(k, item) {
+                    console.log(item);
+                    output += "<div class=\"blog-card\">";
+                    output += "<div class=\"title\"><h2><a href=\"" + item.link + "\">" + item.title + "</a></h2></div>";
+                    output += "<div class=\"author\"><span>By " + item.author + "</span></div>";
 
-            // console.log(output);
-            var yourString = item.description.replace(/<img[^>]*>/g, ""); //replace with your string.
-            var html = yourString;
-            var div = document.createElement("div");
-            div.innerHTML = html;
-            var text = div.textContent || div.innerText || "";
-            yourString = text;
+                    // console.log(output);
+                    var safeString = item.encoded.__cdata.replace(/<img[^>]*>/g, "");
+                    safeString = safeString.replace(/<script[^>]*>/g, "");
+                    var html = safeString;
+                    var div = document.createElement("div");
+                    div.innerHTML = html;
+                    var text = div.textContent || div.innerText || "";
+                    safeString = text;
 
-            if (k==0) {
-              var maxLength = 600; // maximum number of characters to extract
-            } else {
-              var maxLength = 100;
-            }
+                    if (k==0) {
+                      var maxLength = 600;
+                    } else {
+                      var maxLength = 100;
+                    }
 
+                    var sentence_index= 0;
 
-            var sentence_index= 0;
-            // var sentences_index = yourString.indexOf('. ');
+                    while (safeString.substr(0, sentence_index).length < maxLength) {
+                      sentence_index = safeString.indexOf('.', sentence_index+1);
+                    }
 
-            while (yourString.substr(0, sentence_index).length < maxLength) {
-              sentence_index = yourString.indexOf('.', sentence_index+1);
-            }
+                    var trimmedString = safeString.substr(0, sentence_index);            
 
-            var trimmedString = yourString.substr(0, sentence_index);            
-
-            // //trim the string to the maximum length
-            // var trimmedString = yourString.substr(0, maxLength);
-
-            // //re-trim if we are in the middle of a word
-            // trimmedString = trimmedString.substr(0, Math.min(trimmedString.length, trimmedString.lastIndexOf(" ")));
-            
-
-
-            output += "<p>" + trimmedString + ".</p>";
-            output += "<div><a class='cta' href=\""+item.link+"\">Read More</a></div>"
-            output += "</div>";
-            return k < 2;
-          });
-          $content.html(output);
-        }
+                    output += "<p>" + trimmedString + ".</p>";
+                    output += "<div><a class='cta' href=\""+item.link+"\">Read More</a></div>"
+                    output += "</div>";
+                    return k < 2;
+                  });
+                  $content.html(output);
       });
+
+
+
+      // var x2js = new X2JS();
+      // var xmlText = "<MyRoot><test>Success</test><test2><item>val1</item><item>val2</item></test2></MyRoot>";
+      // var jsonObj = x2js.xml_str2json( xmlText );
+
+
+      // $.get("https://api.rss2json.com/v1/api.json", data, function(response) {
+      //   
+      // });
     });
     
   });
