@@ -1,7 +1,7 @@
 ---
 title: Crypto Valley Conference 2018
 slug: Crypto Valley Conference 2018
-who: ['jplomas', 'peter', 'michaelk', 'juan']
+who: ['jplomas', 'peter', 'michaelk', 'juan', 'scott']
 date: 2018-06-20 
 datestart: 2018-06-20 
 dateend: 2018-06-22
