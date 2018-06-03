@@ -249,14 +249,26 @@ $(document).ready(function() {
             console.log(jsonObj.channel.item);
                   var output = "";
                   $.each(jsonObj.channel.item, function(k, item) {
-                    console.log(item);
+
+                    // secure link/title/author elements from Medium's XML using Salesforce's secure-filters.js
+                    item.link = secureFilters.html(item.link);
+                    item.title = secureFilters.html(item.title);
+                    item.author = secureFilters.html(item.creator.__cdata);
+
+                    // scaffold HTML output
                     output += "<div class=\"blog-card\">";
                     output += "<div class=\"title\"><h2><a href=\"" + item.link + "\">" + item.title + "</a></h2></div>";
                     output += "<div class=\"author\"><span>By " + item.author + "</span></div>";
 
-                    // console.log(output);
-                    var safeString = item.encoded.__cdata.replace(/<img[^>]*>/g, "");
-                    safeString = safeString.replace(/<script[^>]*>/g, "");
+                    // take out the image from blog content - this is only stylistic change to the HTML
+                    // and not intended to secure the content (secureFilters is used for this)
+                    var unsafeString = item.encoded.__cdata.replace(/<figure[^>]*>/g, "");
+                    unsafeString = unsafeString.replace(/<img[^>]*>/g, "");
+                    
+                    // secure rest of blog content using Salesforce's secure-filters.js
+                    var safeString = secureFilters.html(unsafeString);
+                    
+                    // create HTML
                     var html = safeString;
                     var div = document.createElement("div");
                     div.innerHTML = html;
@@ -276,25 +288,13 @@ $(document).ready(function() {
                     }
 
                     var trimmedString = safeString.substr(0, sentence_index);            
-
-                    output += "<p>" + trimmedString + ".</p>";
+                    output += trimmedString + ".";
                     output += "<div><a class='cta' href=\""+item.link+"\">Read More</a></div>"
                     output += "</div>";
                     return k < 2;
                   });
                   $content.html(output);
       });
-
-
-
-      // var x2js = new X2JS();
-      // var xmlText = "<MyRoot><test>Success</test><test2><item>val1</item><item>val2</item></test2></MyRoot>";
-      // var jsonObj = x2js.xml_str2json( xmlText );
-
-
-      // $.get("https://api.rss2json.com/v1/api.json", data, function(response) {
-      //   
-      // });
     });
     
   });
