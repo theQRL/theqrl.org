@@ -52,9 +52,10 @@ $(document).ready(function() {
     
     // Particles
     $(window).on('load resize keyup', function () {
-    $('.particles div').each(function() {
+        $('.particles div').each(function() {
             var scroll_top = window.scrollY || window.scrollTop || 0;
             var attach_class = $(this).attr('data-attach-class');
+            console.log(this);
             var attach_position = $(this).attr('data-attach-position').split(' '); // TODO, not flexible
             var attach_child_anchor = $(this).attr('data-child-anchor').split(' '); // TODO, not flexible
             var attach_scale = $(this).data('scale') || 1;
