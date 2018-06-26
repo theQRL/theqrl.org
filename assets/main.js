@@ -296,6 +296,13 @@ $(document).ready(function() {
                   $content.html(output);
       });
     });
+
+    // Downloads on the downloads page
+    $.getJSON("https://api.github.com/repos/theQRL/qrl-wallet/tags").done(function (data) {
+        $ ('#dl-linux').attr ('href', 'https://github.com/theQRL/qrl-wallet/releases/download/'+data[0].name+'/QRL-Wallet-linux-x64-'+data[0].name+'.zip'); 
+        $ ('#dl-ios').attr ('href', 'https://github.com/theQRL/qrl-wallet/releases/download/'+data[0].name+'/QRL-Wallet-macos-'+data[0].name+'.zip'); 
+        $ ('#dl-windows').attr ('href', 'https://github.com/theQRL/qrl-wallet/releases/download/'+data[0].name+'/QRL-Wallet-win32-x64-'+data[0].name+'.zip'); 
+    })
     
   });
     /* Light YouTube Embeds by @labnol */

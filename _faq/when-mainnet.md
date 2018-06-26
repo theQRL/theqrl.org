@@ -3,11 +3,13 @@ title:  "When is mainnet launching?"
 categories: PoS
 ---
 
-The launch of Mainnet has, from the outset, been at the mercy of two main factors - internal testing, and external auditing. Right now we are in the **External Auditing** stage, which is the final technical stage before Mainnet. As we get closer to the end of our external audits, a launch date of mainnet will be announced on [Twitter](https://twitter.com/qrledger), [Medium](https://medium.com/the-quantum-resistant-ledger), and [Reddit](https://reddit.com/r/QRL).
+The launch of Mainnet has, from the outset, been at the mercy of two main factors - internal testing, and external auditing. We have completed these factors and are pleased to announce
 
-For those interested. On testnet, you can:
+## Mainnet has been released!
 
-- Create a [wallet](https://wallet.theqrl.org): From there you create tokens & send and receive Quanta.
+You can now:
+
+- Create a wallet on our [web wallet](https://wallet.theqrl.org), or download our [Windows, Mac, or Linux](https://github.com/theQRL/qrl-wallet/releases) clients
 - See transactions on the [explorer](https://explorer.theqrl.org)
 - Run a [node](https://docs.theqrl.org/mining/full-node/)
-- Join a [testnet pool](https://mineqrl.org)
+- Develop using our [gRPC API](http://qrltest.readthedocs.io/en/latest/api/modules.html) or [much more](https://docs.theqrl.org/)
