@@ -3,3 +3,4 @@ layout: none
 permalink: .htaccess
 ---
 ErrorDocument 404 /404.html
+Header set Access-Control-Allow-Origin "https://medium.com"
