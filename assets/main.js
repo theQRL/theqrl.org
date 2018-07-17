@@ -55,7 +55,6 @@ $(document).ready(function() {
         $('.particles div').each(function() {
             var scroll_top = window.scrollY || window.scrollTop || 0;
             var attach_class = $(this).attr('data-attach-class');
-            console.log(this);
             var attach_position = $(this).attr('data-attach-position').split(' '); // TODO, not flexible
             var attach_child_anchor = $(this).attr('data-child-anchor').split(' '); // TODO, not flexible
             var attach_scale = $(this).data('scale') || 1;
@@ -298,11 +297,28 @@ $(document).ready(function() {
       });
     });
 
-    // Downloads on the downloads page
-    $.getJSON("https://api.github.com/repos/theQRL/qrl-wallet/tags").done(function (data) {
-        $ ('#dl-linux').attr ('href', 'https://github.com/theQRL/qrl-wallet/releases/download/'+data[0].name+'/QRL-Wallet-linux-x64-'+data[0].name+'.zip'); 
-        $ ('#dl-ios').attr ('href', 'https://github.com/theQRL/qrl-wallet/releases/download/'+data[0].name+'/QRL-Wallet-macos-'+data[0].name+'.zip'); 
-        $ ('#dl-windows').attr ('href', 'https://github.com/theQRL/qrl-wallet/releases/download/'+data[0].name+'/QRL-Wallet-win32-x64-'+data[0].name+'.zip'); 
+    // Github releases API
+    $.getJSON("https://api.github.com/repos/theQRL/qrl-wallet/releases").done(function (data) {
+
+        // Walk through releases until there's a release that has assets to download
+        for (var i = 0; i < data.length; i++) {
+            if(data[i].assets.length != 0) {
+
+                // When there's assets to download, do a string search and fill in the blanks
+                data[i].assets.forEach(function(release) {
+                    if(release.browser_download_url.indexOf('linux') !== -1) {
+                        $('#dl-linux').attr('href',release.browser_download_url);
+                    }
+                    if(release.browser_download_url.indexOf('macos') !== -1) {
+                        $('#dl-ios').attr('href',release.browser_download_url);
+                    }
+                    if(release.browser_download_url.indexOf('win') !== -1) {
+                        $('#dl-windows').attr('href',release.browser_download_url);
+                    }
+                });
+                break;
+            }
+        }
     })
     
   });
