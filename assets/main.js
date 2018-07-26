@@ -15,6 +15,7 @@ $(document).ready(function() {
 
     teamShuffle();
 
+
     function hasTouch() {
         return 'ontouchstart' in document.documentElement
                || navigator.maxTouchPoints > 0
@@ -240,13 +241,12 @@ $(document).ready(function() {
       // for offline testing, use this URL:
       // var rss_url = "https://cors-anywhere.herokuapp.com/https://medium.com/feed/the-quantum-resistant-ledger";
       var rss_url = "https://medium.com/feed/the-quantum-resistant-ledger";
+      var rss_url = "/assets/medium.rss"
 
       $.get(rss_url, function(response) {
             var xmlDoc = response.documentElement;
-            console.log(xmlDoc);
             var x2js = new X2JS();
             var jsonObj = x2js.xml2json( xmlDoc );
-            console.log(jsonObj.channel.item);
                   var output = "";
                   $.each(jsonObj.channel.item, function(k, item) {
 
@@ -320,8 +320,64 @@ $(document).ready(function() {
             }
         }
     })
-    
-  });
+
+    var filterizd = $('.filtr-container').filterizr({
+       animationDuration: 0.35, // in seconds
+       filter: 'all', // Initial filter
+       callbacks: { 
+          onFilteringStart: function() { },
+          onFilteringEnd: function() { },
+          onShufflingStart: function() { },
+          onShufflingEnd: function() { },
+          onSortingStart: function() { },
+          onSortingEnd: function() { }
+       },
+       controlsSelector: '', // Selector for custom controls
+       delay: 0.1, // Transition delay in ms
+       delayMode: 'progressive', // 'progressive' or 'alternate'
+       easing: 'ease-out',
+       filterOutCss: { // Filtering out animation
+          opacity: 0,
+          transform: 'scale(0.5)'
+       },
+       filterInCss: { // Filtering in animation
+          opacity: 0,
+          transform: 'scale(1)'
+       },
+       layout: 'vertical', // See layouts
+       multifilterLogicalOperator: 'or',
+       selector: '.filtr-container',
+       setupControls: true // Should be false if controlsSelector is set 
+    } );
+
+
+      $('#filteringModeSingle li').click(function() {
+        $('.filters-filteringModeSingle .filtr').removeClass('filtr-active');
+        $(this).addClass('filtr-active');
+        var filter = $(this).data('fltr');
+        filteringModeSingle.filterizr('filter', filter);
+      });
+        $('#filteringModeMulti li').click(function() {
+            var targetFilter = $(this).data('multifltr');
+            if (targetFilter === 'all') {
+                $('#filteringModeMulti li').removeClass('filtr-active');
+                $(this).addClass('filtr-active');
+                filteringModeMulti.filterizr('filter', 'all');
+                filteringModeMulti._fltr._toggledCategories = { };
+            }
+            else {
+                $('#filteringModeMulti li[data-multifltr="all"]').removeClass('filtr-active');
+                $(this).toggleClass('filtr-active');
+                filteringModeMulti.filterizr('toggleFilter', targetFilter);
+            }
+            if (!filteringModeMulti._fltr._multifilterModeOn()) {
+                $('#filteringModeMulti li[data-multifltr="all"]').addClass('filtr-active');
+            }
+      });
+});
+
+
+
     /* Light YouTube Embeds by @labnol */
     /* Web: http://labnol.org/?p=27941 */
 
