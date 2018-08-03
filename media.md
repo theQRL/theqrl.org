@@ -52,7 +52,7 @@ permalink: /media/
       
 
       <ul class="filtr-container">
-        {% assign sorted = (site.media | sort: 'date') | reverse %}
+        {% assign sorted = site.media | sort: 'date' | reverse %}
         {% for item in sorted %}
           <li class="filtr-item" data-category="{{ item.tags | join:"," }}" data-sort="value">
             <a href="{{ item.link }}" target="_blank" class="media type-{{ item.media }}">
