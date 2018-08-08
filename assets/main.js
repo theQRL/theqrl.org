@@ -3,6 +3,10 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'UA-123414102-1');
 
+
+
+
+
 $(document).ready(function() {
 
     function teamShuffle() {
@@ -69,6 +73,10 @@ $(document).ready(function() {
             var offset_top = $(this).data('offset-top') || 0;
             var offset_left = $(this).data('offset-left') || 0;
 
+            // Catch if there's no element to attach to.
+            if(document.querySelector(attach_class)==null) {
+                return;
+            }
 
             $(this).css({
                 "transform":"scale("+attach_scale+") rotate("+attach_rotate+"deg) scaleX("+attach_scalex+")"
@@ -222,6 +230,14 @@ $(document).ready(function() {
 
     $('.faq .question').on('click', function() {
         $(this).toggleClass('active');
+        var faq_selection = $.trim($(this).find('> div > h2').text());
+
+        if($(this).hasClass('active')) {
+            gtag('event', 'filter', {
+              'event_category': 'faq-selection',
+              'event_label': faq_selection
+            });
+        }
     });
     $(window).on('load', function() {
         $('[data-filter] input').each(function() {
@@ -233,11 +249,6 @@ $(document).ready(function() {
             $(this).parent().addClass('selected');
         });
     });
-    // $('[data-filter] input').on('load click', function() {
-    //     // Disable
-    //     $(this).closest('[data-filter]').find('label').removeClass('selected');
-    //     $(this).parent().addClass('selected');
-    // });
 
 
     $(function() {
@@ -300,42 +311,36 @@ $(document).ready(function() {
                   $content.html(output);
       });
     });
+    if($('body').hasClass('homepage')) {
+        // Github releases API
+        $.getJSON("https://api.github.com/repos/theQRL/qrl-wallet/releases").done(function (data) {
 
-    // Github releases API
-    $.getJSON("https://api.github.com/repos/theQRL/qrl-wallet/releases").done(function (data) {
+            // Walk through releases until there's a release that has assets to download
+            for (var i = 0; i < data.length; i++) {
+                if(data[i].assets.length != 0) {
 
-        // Walk through releases until there's a release that has assets to download
-        for (var i = 0; i < data.length; i++) {
-            if(data[i].assets.length != 0) {
-
-                // When there's assets to download, do a string search and fill in the blanks
-                data[i].assets.forEach(function(release) {
-                    if(release.browser_download_url.indexOf('linux') !== -1) {
-                        $('#dl-linux').attr('href',release.browser_download_url);
-                    }
-                    if(release.browser_download_url.indexOf('macos') !== -1) {
-                        $('#dl-ios').attr('href',release.browser_download_url);
-                    }
-                    if(release.browser_download_url.indexOf('win') !== -1) {
-                        $('#dl-windows').attr('href',release.browser_download_url);
-                    }
-                });
-                break;
+                    // When there's assets to download, do a string search and fill in the blanks
+                    data[i].assets.forEach(function(release) {
+                        if(release.browser_download_url.indexOf('linux') !== -1) {
+                            $('#dl-linux').attr('href',release.browser_download_url);
+                        }
+                        if(release.browser_download_url.indexOf('macos') !== -1) {
+                            $('#dl-ios').attr('href',release.browser_download_url);
+                        }
+                        if(release.browser_download_url.indexOf('win') !== -1) {
+                            $('#dl-windows').attr('href',release.browser_download_url);
+                        }
+                    });
+                    break;
+                }
             }
-        }
-    })
+        });
+    }
 
-    var filterizd = $('.filtr-container').filterizr({
+    if($('body').hasClass('media')) {
+        var filterizd = $('.filtr-container').filterizr({
        animationDuration: 0.35, // in seconds
        filter: 'all', // Initial filter
-       callbacks: { 
-          onFilteringStart: function() { },
-          onFilteringEnd: function() { },
-          onShufflingStart: function() { },
-          onShufflingEnd: function() { },
-          onSortingStart: function() { },
-          onSortingEnd: function() { }
-       },
        controlsSelector: '', // Selector for custom controls
        delay: 0.1, // Transition delay in ms
        delayMode: 'progressive', // 'progressive' or 'alternate'
@@ -352,7 +357,7 @@ $(document).ready(function() {
        multifilterLogicalOperator: 'or',
        selector: '.filtr-container',
        setupControls: true // Should be false if controlsSelector is set 
-    } );
+        } );
 
 
       $('#filteringModeSingle li').click(function() {
@@ -378,6 +383,7 @@ $(document).ready(function() {
                 $('#filteringModeMulti li[data-multifltr="all"]').addClass('filtr-active');
             }
       });
+    }
 });
 
 
