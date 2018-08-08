@@ -4,3 +4,4 @@ permalink: .htaccess
 ---
 
 ErrorDocument 404 /404.html
+Header set Cache-Control "public, max-age=7200"
