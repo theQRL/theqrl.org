@@ -1,4 +1,25 @@
 body.homepage {
+	.mentions {
+		grid-column: span 12;
+		text-align:center;
+		padding-left: 0;
+		li {
+			display: inline;
+			list-style: none;
+		}
+		a {
+			&:hover img {
+				filter:grayscale(0%);
+			}
+		}
+		img {
+			height:50px;
+			margin:15px;
+			filter:grayscale(0%);
+			width:auto;
+			max-width: none;
+		}
+	}
 	.wrapper.intro {
 		padding:0px 0;
 		min-height: 300px;
