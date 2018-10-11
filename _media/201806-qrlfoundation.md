@@ -4,7 +4,7 @@ date: 2018-06-28
 tags: ["mentions"]
 link: https://youtu.be/lU9jYQZ97z0
 media: video
-media_company: 'Decentralized TV'
+media_company: 'decentralized-tv'
 ---
 
 YouTube video from channel Decentralized TV. 5:06 runtime.

@@ -1,7 +1,7 @@
 ---
 title: "QRL Launches Quantum Resistant Blockchain"
 date: 2018-06-29
-tags: ["mentions"]
+tags: ["mentions","featured"]
 link: https://www.the-blockchain.com/2018/06/29/qrl-launches-quantum-resistant-blockchain/
 media: article
 media_company: 'the-blockchain'
