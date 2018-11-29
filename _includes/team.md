@@ -1,7 +1,7 @@
 
   <div class="grid team-members">
-      {% assign membership = site.team | sort:'title' | reverse | reverse %}
-      {% for team in membership limit:include.members %}
+      {% assign membership = site.team | sort:'title' | reverse | sort: 'hierarchy' | reverse %}
+      {% for team in membership limit:100 %}
         {% assign show_team = true %}
 
         {% if include.team_members %}

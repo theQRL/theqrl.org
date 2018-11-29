@@ -1,10 +1,15 @@
 ---
-title:  "How QRL ERC20 tokens turn into Quanta for Mainnet?"
+title:  "What will the QRL token migration process look like?"
 categories: PoS
 ---
 
-A user will generate a QRL wallet, the address of which will be used by a team-made application that converts the address to an ERC20 burn address. The application will watch for a deposit, at which point it will insert that balance into the Genesis block of QRL.
+Before the commencement of our token migration there will be a blog and video guide outlining everything in detail on converting your QRL ERC20 tokens into QRL Quanta. 
 
-If you do not do this process prior to mainnet, you will still be able to do this, but there will need to be a transaction made and sent to your wallet, paying a small QRL fee as a result. This is why we recommend using the web application, in order to gauruntee your full balance upon mainnet launch.
+With that said, the process in *general* will be as follows:
 
-It would be ideal for you to send your QRL to this wallet from your personal ERC20 wallet, that way, all of the funds are coming from a single source
+1. Make your QRL Wallet and QRL Address. This can be done from our [webwallet](https://wallet.theqrl.org), your Ledger, or your node.
+2. Go to The QRL Token Migration Web Page and put in your fresh QRL address created from step #1 (The Token migration page will be revealed at a later date)
+3. Get your Ethereum Burn Address to send QRL ERC20 to.
+4. Anytime you send QRL ERC20 to the reusable Ethereum Burn Address, QRL Coins are deposited 1:1 into your QRL Wallet.
+
+![ERC20 Conversion Process](/assets/pages/faq/qrlerc20migration.png)

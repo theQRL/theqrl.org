@@ -6,4 +6,4 @@ image: pete.small.png
 hierarchy: 10
 ---
 
-Peter waterland knows things you don't
+Peter Waterland knows things you don't

@@ -1,5 +1,5 @@
 ---
-title: ecdsa
+title: ECDSA
 difficulty: advanced  
 title: What is ECDSA?
 ---
@@ -14,7 +14,7 @@ The security of ECDSA is broken when the private key can be computed from the pu
 
 This private key can be computed when the public key is given by solving the Elliptic Curve Discrete Logarithm Problem (ECDLP), which can be stated as follows:
 
-Given the public key that is represented by point 'Q’ on the elliptic curve and a standardised base point 'P' on the elliptic curve, find the private key that is represented by the integer 'a', such that Q=a\*P
+Given the public key that is represented by point 'Q’ on the elliptic curve and a standardized base point 'P' on the elliptic curve, find the private key that is represented by the integer 'a', such that Q=a\*P
 
 In which '\*' represents an elliptic curve point multiplication.
 

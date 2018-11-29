@@ -105,7 +105,7 @@ a.cta {
 	font-size:12px;
 	font-weight:400;
 	transition: background-color 0.3s;
-
+	font-style: normal;
 	&:hover {
 		background-color:$quantum_hover;
 	}
@@ -299,74 +299,13 @@ nav a {
 	}
 	.cta {
 		margin-top: 20px;
-	}
-}
-
-
-
-.events {
-	padding-top:0;
-	padding-bottom: 40px;
-	@include lg {
-		padding-top:0px;
-		padding-bottom: 220px;
-	}
-	&:before {
-		content:'';
-		display: block;
 		width:100%;
-		height:130px; position:relative; top:-130px; margin-top:130px; 
-		margin-bottom: -280px;
-		@include lg {
-			margin-bottom: -200px;
-		}
-		@include angle-edge($angle: 2, $angle-position-y: 'top', $angle-position-x: 'left');
-	}
-
-	.footer-conferences {
-		@include lg {
-			grid-column-gap: 3em;
-		}
-
-
-		.footer-conference {
-			@include sm-max {
-				grid-column: span 12;
-
-				.cta {
-					width:100%;
-				}
-			}
-		}
-	}
-
-	.footer-conference {
-		margin:10px;
-		background-color:#FFF;
-		box-shadow: $shadow;
-		text-align: center;
-		h2 {
-			font-size:25px;
-		}
-		.image {
-			min-height: 200px;
-			position: relative;
-		}
-		img {
-			position: absolute;
-			top: 0; left: 0; bottom: 0; right: 0;
-			margin: auto;
-			width:100%;
-			max-width: 100%;
-			// left:50%;
-			// transform: translateY(-50%);
-		}
-		.cta {
-			text-transform: uppercase;
-			font-size:12px;
-		}
 	}
 }
+
+
+
+
 
 .particles {
 	position: absolute;
@@ -473,3 +412,4 @@ nav a {
 @import 'pages/team';
 @import 'pages/conferences';
 @import 'pages/contact';
+@import 'pages/media';

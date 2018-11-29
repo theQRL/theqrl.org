@@ -198,11 +198,15 @@
 				transform: rotate(0deg);
 				border-radius:50%;
 				padding:10px;
-				transition: .5s ease-in-out;
+				transition: .25s ease-in-out;
 				cursor: pointer;
 				background-color:$quantum_burst;
 				z-index: 200;
+				box-shadow: $shadow;
 
+				&:hover {
+					background-color: $quantum_hover!important;
+				}
 				span:nth-child(1) {
 					top: 20px;
 				}

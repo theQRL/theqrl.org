@@ -4,4 +4,4 @@ date: 2018-11-01
 complete: false
 ---
 
-Hard fork to POS in Q3 2018
+Hard fork to POS.

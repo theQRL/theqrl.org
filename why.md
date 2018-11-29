@@ -27,7 +27,7 @@ permalink: /why/
   <div class="grid">
     <div class="w12">
       <h1>Why QRL?</h1>
-      <p>Based on the understanding that popular means of current encryption (such as ECDSA) in the cryptocurrency space are vulnerable to a sufficiently powerful quantum computer running Shor’s algorithm, QRL is addressing what will be a singular threat to the security of cryptocurrency going forward – the inevitability of quantum computing.</p>
+      <p>Based upon the understanding that popular existing cryptographic signature schemes (such as ECDSA) in the cryptocurrency space are vulnerable to a sufficiently powerful quantum computer running Shor’s algorithm, QRL is addressing what will be a singular threat to the security of cryptocurrency going forward – the inevitability of quantum computing.</p>
     </div>
   </div>
 </div>
@@ -54,7 +54,7 @@ permalink: /why/
 				<h2>QRL and our solution</h2>
 				<h3>Future proofing the blockchain</h3>
 			</div>
-			<p>QRL will provide a blockchain that is resistant to both conventional and quantum computing attacks. The future of the internet will be built on decentralised protocols and abstraction layers, and we plan on being ready for that future, as well as any sudden quantum computing development (“Y2Q”) that may usher in that reality sooner than expected.</p>
+			<p>QRL provides a blockchain that is resistant to both conventional and quantum computing attacks. The future of the internet will be built on decentralized protocols and abstraction layers, and we plan on being ready for that future, as well as any sudden quantum computing development (“Y2Q”) that may usher in that reality sooner than expected.</p>
 			<p>Our blockchain will utilize the previously vetted, provably secure Extended Merkle Signature Scheme (XMSS) to ensure that our network is resistant to quantum computing attacks. We aim to secure our network against not only the inevitability of quantum computing, and all that implies for the blockchain and cryptocurrency space, but also the potential for a black swan event to rapidly and irreversibly advance the technology with no immediate warning.</p>
 			<p>By utilizing an address format that allows us to change hash functions down the line if necessary, we have created a blockchain that is both secure today and adaptable tomorrow.</p>
 		</div>

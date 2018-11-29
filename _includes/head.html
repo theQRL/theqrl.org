@@ -1,4 +1,7 @@
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123414102-1"></script>
+
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -6,11 +9,15 @@
 	{% if page.title %}	
 		{{ page.title }} -
 	{% endif %} 
-	{{ site.title }}</title>
+	{{ site.title }}
+	</title>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="/assets/jquery.filterizr.min.js"></script>
+
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500|Roboto:300,400,500" rel="stylesheet">
-	<script src="//code.simplesvg.com/1/1.0.0-beta5/simple-svg.min.js"></script>
-	<!-- <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> 	 -->
+	<script type="text/javascript" src="/assets/xml2json.min.js"></script>
+		<script type="text/javascript" src="/assets/secure-filters.js"></script>
 	<script src="/assets/main.js"></script>
 	<link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
 	<link rel="shortcut icon" type="image/png" href="{{ "/assets/favicon.png" | prepend: site.baseurl }}" >

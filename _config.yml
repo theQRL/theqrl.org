@@ -18,12 +18,12 @@ email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   The Quantum Resistant Ledger
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site
+url: "https://theqrl.org" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 collections:
   conferences:
-    permalink: "/conferences/:year/:month/:path/"
+    permalink: "/conferences/:year/:month/:slug/" 
     output: true
   faq:
     permalink: "/:collection/:path/"
@@ -36,12 +36,19 @@ collections:
     output: true
   team:
     permalink: "/:collection/:path/"
+    output: false
+  media:
+    permalink: "/:collection/:path/"
     output: true
 defaults:
 - scope:
    path: _team
   values:
     layout: human
+- scope:
+   path: _media
+  values:
+    layout: media
 - scope:
     path: _faq
   values:
@@ -59,6 +66,7 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 future: true
+safe: false
 
 # Build settings
 markdown: kramdown

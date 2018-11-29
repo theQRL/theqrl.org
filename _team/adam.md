@@ -1,7 +1,7 @@
 ---
 title: Adam Koltun
-role: Marketing & Community
-position: Marketing Manager
+role: Business Development
+position: Lead Business Strategist
 keybase: alkoltun
 image: adam.small.png
 ---

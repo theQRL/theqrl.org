@@ -1,31 +1,3 @@
-.footernav {
-	background-color:#160527;
-
-	a {
-		color:#FFF;
-	}
-}
-.footernav .grid {
-	.whitepaper {
-		nav > ul > li {
-			a {
-				font-family: 'Roboto';
-				background-color: transparent;
-				text-decoration: none;
-				color: #FFF;
-
-				&:hover {
-					background-color:#EEE;
-				}
-			}
-			> a {
-				border:0px solid #000;
-				padding:10px 20px;
-				box-shadow: none;
-			}
-		}
-	}
-}
 .wrapper.footer {
 	background-image:url(/assets/particles/orb.png);
 	background-repeat: no-repeat;
@@ -159,6 +131,9 @@
 				svg {
 					width:25px; height:25px;
 				}
+				path {
+					fill:#FFF;
+				}
 			}
 		}
 	}
@@ -170,6 +145,9 @@
 .blog-card {
 	.author {
 		display:none;
+	}
+	li {
+		color:#FFF;
 	}
 
 	font-weight: 300;
@@ -217,6 +195,69 @@
 			&:hover {
 				background-color: $quantum_hover;
 			}
+		}
+	}
+}
+.events {
+	padding-top:0;
+	padding-bottom: 40px;
+	@include lg {
+		padding-top:0px;
+		padding-bottom: 220px;
+	}
+	&:before {
+		content:'';
+		display: block;
+		width:100%;
+		height:130px; position:relative; top:-130px; margin-top:130px; 
+		margin-bottom: -280px;
+		@include lg {
+			margin-bottom: -200px;
+		}
+		@include angle-edge($angle: 2, $angle-position-y: 'top', $angle-position-x: 'left');
+	}
+
+	.footer-conferences {
+		@include lg {
+			grid-column-gap: 3em;
+		}
+
+
+		.footer-conference {
+			@include sm-max {
+				grid-column: span 12;
+
+				.cta {
+					width:100%;
+				}
+			}
+		}
+	}
+
+	.footer-conference {
+		margin:10px;
+		background-color:#FFF;
+		box-shadow: $shadow;
+		text-align: center;
+		h2 {
+			font-size:25px;
+		}
+		.image {
+			min-height: 200px;
+			position: relative;
+		}
+		img {
+			position: absolute;
+			top: 0; left: 0; bottom: 0; right: 0;
+			margin: auto;
+			
+			max-width: 100%; max-height: 100%;
+			// left:50%;
+			// transform: translateY(-50%);
+		}
+		.cta {
+			text-transform: uppercase;
+			font-size:12px;
 		}
 	}
 }

@@ -10,15 +10,7 @@ layout: default
       data-offset-left="150" 
       data-offset-top="-200">
     </div>
-    <div class="bw1000" 
-      data-attach-class=".wrapper.events" 
-      data-attach-position="top right" 
-      data-child-anchor="bottom right" 
-      data-offset-left="50" 
-      data-offset-top="-110"
-      data-scalex="-1"
-      data-scale="1">
-    </div>
+
   </div>
   <div class="particles background">
     <div class="on" 
@@ -26,15 +18,48 @@ layout: default
       data-attach-position="center center" 
       data-child-anchor="center center" 
       data-offset-left="0" 
-      data-offset-top="260">
+      data-offset-top="300"
+      data-scalex="-1"
+      data-scale="1">
     </div>
   </div>
   <div class="grid">
     <div class="w12">
       <h1>The Quantum Resistant Ledger</h1>
-      <p>The Quantum Resistant Ledger (QRL) will be a first of its kind, future-proof post-quantum value store and decentralized communication layer which tackles the threat Quantum Computing will pose to cryptocurrencies</p>
+
+      <div class="grid w6 news-header">
+        <div class="w12">
+            <h2>Mainnet is released!</h2>    
+        </div>
+
+        <div>
+          <a href="https://wallet.theqrl.org" class="cta">Web Wallet</a>
+        </div>
+                <div> 
+          <a href="https://explorer.theqrl.org" class="cta">Explorer</a>
+        </div>
+      </div>
+
     </div>
+
   </div>
+    <div class="grid">
+      <div class="w12">
+        <h2>Wallet Download</h2>
+
+        <div class="grid w4 downloads-list">
+          <div>
+            <a href="https://github.com/theQRL/qrl-wallet/releases" class="cta" id="dl-ios">Mac</a>
+          </div>
+          <div>
+            <a href="https://github.com/theQRL/qrl-wallet/releases" class="cta" id="dl-windows">Windows</a>
+          </div>
+          <div>
+            <a href="https://github.com/theQRL/qrl-wallet/releases" class="cta" id="dl-linux">Linux</a>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="/assets/slippry/slippry.min.js"></script>
   <link rel="stylesheet" href="/assets/slippry/slippry.css" />
   <script>
@@ -54,18 +79,13 @@ layout: default
     <div class="banner">
       <ul class="slideshow">
         <li>
+          <a href="https://wallet.theqrl.org">
+            <img src="/assets/pages/home/wallet.mainnet.small2.png" alt="Send and receive with our <a href='https://wallet.theqrl.org'>Web Wallet</a>">
+          </a>
+        </li>
+        <li>
           <a href="https://explorer.theqrl.org">
-            <img src="/assets/front-slideshow/explorer.small.png" alt="Check out our <a href='https://explorer.theqrl.org'>QRL Explorer</a>">
-          </a>
-        </li>
-        <li>
-          <a href="https://wallet.theqrl.org">
-            <img src="/assets/front-slideshow/send.small.png" alt="Check out our <a href='https://explorer.theqrl.org'>Web Wallet</a>">
-          </a>
-        </li>
-        <li>
-          <a href="https://wallet.theqrl.org">
-            <img src="/assets/front-slideshow/transactions.small.png" alt="Send and receive transactions today">
+            <img src="/assets/pages/home/explorer.mainnet.small2.png" alt="Browse with our <a href='https://explorer.theqrl.org'>QRL Explorer</a>">
           </a>
         </li>
       </ul>
@@ -75,37 +95,50 @@ layout: default
 
     <div class="header-section">
       <h2>What is QRL</h2>
-      <h3>An introduction</h3>
+      <h3>A video introduction</h3>
     </div>
     <div class="yt-center">
       <div class="youtube-player" data-id="V8IxLDxMEb8"></div>        
     </div>
       
-
-
     <div class="header-section">
-      <h2>Where you can find us</h2>
+      <h3>As mentioned in</h3>
     </div>
+    <ul class="mentions">
+    {% assign mentions = site.media | sort: 'date' | reverse | where:"tags","mentions" | where:"tags","featured" %}
+    {% for item in mentions %}
+          <li>
+            <a href="{{ item.link }}" target="_blank">
+              <img src="/assets/media/{{ item.media_company }}.png">
+            </a>
+          </li>
+    {% endfor %}
+    </ul>
+
+   <div class="header-section">
+      <h2>Where we were</h2>
+      <h3>Conferences we attended</h3>
+    </div>
+    {% assign now = site.time | date: '%s' | plus:0 %}
     {% assign conference = site.conferences | sort: 'date' %}
     {% for conf in conference %}
-    <div class="grid conference">
-      <div class="image">
-        <img src="/assets/conferences/{{ conf.image }}" alt="">
-      </div>
-      <div class="description">
-        <h2>{{ conf.title }}</h2>
-        <p>{{ conf.datestart | date_to_string }} - {{ conf.dateend | date_to_string }}</p>
-        <p>{{ conf.where }}</p>
-      </div>
-      <div>
-        <a class="cta" href="{{ conf.url }}">More Info</a>
-      </div>
-    </div>
+      {% assign date = conf.dateend | date: '%s' | plus: 0  %}
+      {% if date < now %}  
+        <div class="grid conference">
+          <div class="image">
+            <img src="/assets/conferences/{{ conf.image }}" alt="">
+          </div>
+          <div class="description">
+            <h2>{{ conf.title }}</h2>
+            <p>{{ conf.datestart | date_to_string }} - {{ conf.dateend | date_to_string }}</p>
+            <p>{{ conf.where }}</p>
+          </div>
+          <div>
+            <a class="cta" href="{{ conf.url }}">More Info</a>
+          </div>
+        </div>
+      {% endif %}
     {% endfor %}
-
-
-      
-
   </div>
 </div>
 
@@ -113,8 +146,8 @@ layout: default
   <div class="grid w12">
     <div>
       <div class="header-section">
-        <h2>About Us</h2>
-        <h3>Our Awesome Crew</h3>
+        <h2>Who we are</h2>
+        <h3>More about the team</h3>
       </div>
     </div>
   </div>

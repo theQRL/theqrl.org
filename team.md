@@ -16,6 +16,9 @@ permalink: /team/
   </div>
   <div class="grid">
     <div class="w12">
+      {% if page.url == "/team/" %}
+         <span class="teamPageId">OUR TEAM</span>
+      {% endif %}
       <h1>Meet the Team</h1>
       <p>We are a mission critical organization building enterprise grade software for an adversarial future. Building a great team to achieve this is the lifeblood and cornerstone of QRL.</p>
     </div>

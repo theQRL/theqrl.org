@@ -3,3 +3,6 @@ _site/
 .jekyll-metadata
 Gemfile.lock
 /.ruby-version
+.idea
+.bundle
+vendor
