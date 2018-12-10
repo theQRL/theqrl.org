@@ -27,7 +27,7 @@ permalink: /why/
   <div class="grid">
     <div class="w12">
       <h1>Why QRL?</h1>
-      <p>Based upon the understanding that popular existing cryptographic signature schemes (such as ECDSA) in the cryptocurrency space are vulnerable to a sufficiently powerful quantum computer running Shor’s algorithm, QRL is addressing what will be a singular threat to the security of cryptocurrency going forward – the inevitability of quantum computing.</p>
+      <p>Popular cryptographic signature schemes (such as ECDSA) in the cryptocurrency space are vulnerable to a sufficiently powerful quantum computer running Shor’s algorithm. QRL is directly addressing and building a solution for this inevitable threat to the security of cryptocurrencies and blockchain technologies.</p>
     </div>
   </div>
 </div>
@@ -40,7 +40,7 @@ permalink: /why/
 				<h2>The problem with current blockchains</h2>
 				<h3>A look into the future</h3>
 			</div>
-			<p><strong>We never like to bet against the future.</strong> The development of Quantum Computing has been non-linear up to this point, and we believe that is a trend that will continue into the future. With this in mind, we believe that there is no time like the present to prepare. The current state of Quantum Computing would have been hard to predict 5 years ago, and near impossible to predict 10 years ago. This is good to keep in mind whenever reading overly specific predictions about the technology that project out that far into the future.
+			<p><strong>We never like to bet against the future.</strong> The advancement of quantum computing has unquestionably progressed at a non-linear rate. In other words, the current state of quantum computing would have been hard to predict just 5 years ago and nearly impossible to predict a decade ago. We believe that this trend will continue into the future, and therefore, that there is no time like the present to prepare.
 			</p>
 		</div>
 	</div>
@@ -54,9 +54,9 @@ permalink: /why/
 				<h2>QRL and our solution</h2>
 				<h3>Future proofing the blockchain</h3>
 			</div>
-			<p>QRL provides a blockchain that is resistant to both conventional and quantum computing attacks. The future of the internet will be built on decentralized protocols and abstraction layers, and we plan on being ready for that future, as well as any sudden quantum computing development (“Y2Q”) that may usher in that reality sooner than expected.</p>
-			<p>Our blockchain will utilize the previously vetted, provably secure Extended Merkle Signature Scheme (XMSS) to ensure that our network is resistant to quantum computing attacks. We aim to secure our network against not only the inevitability of quantum computing, and all that implies for the blockchain and cryptocurrency space, but also the potential for a black swan event to rapidly and irreversibly advance the technology with no immediate warning.</p>
-			<p>By utilizing an address format that allows us to change hash functions down the line if necessary, we have created a blockchain that is both secure today and adaptable tomorrow.</p>
+			<p>QRL provides a blockchain that is resistant to both conventional and quantum computing attacks. </p>
+			<p>Our blockchain utilizes the previously vetted and provably secure Extended Merkle Signature Scheme (XMSS) to ensure that our network is resistant to quantum computing attacks. We aim to secure our network against the inevitability of quantum computing and all that implies for the blockchain and cryptocurrency space.</p>
+			<p>By utilizing an address format that allows us to change hash functions down the line if necessary, we have created a blockchain that is adaptable and secure both today and in the future.</p>
 		</div>
 	</div>
 </div>

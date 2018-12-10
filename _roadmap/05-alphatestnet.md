@@ -6,4 +6,4 @@ complete: true
 
 Launch of the Alpha testnet with nodes running on MacOS, Linux, Windows on hardware including Raspberry Pi. 
 
-Private seed presale round opens.
+Private seed pre-sale round opens.

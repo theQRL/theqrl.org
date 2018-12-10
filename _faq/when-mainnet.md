@@ -3,8 +3,6 @@ title:  "When is mainnet launching?"
 categories: PoS
 ---
 
-The launch of Mainnet has, from the outset, been at the mercy of two main factors - internal testing, and external auditing. We have completed these factors and are pleased to announce
-
 ## Mainnet has been released!
 
 You can now:
