@@ -250,7 +250,6 @@ $(document).ready(function() {
         });
     });
 
-
     $(function() {
       var $content = $(".blogroll");
       // for offline testing, use this URL:
@@ -302,8 +301,12 @@ $(document).ready(function() {
                       sentence_index = safeString.indexOf('.', sentence_index+1);
                     }
 
-                    var trimmedString = safeString.substr(0, sentence_index);            
-                    output += trimmedString + ".";
+                    // Close tags
+                    var div = document.createElement('div')
+                    div.innerHTML = safeString.substr(0, sentence_index+1);
+                    var trimmedString = div.innerHTML;
+
+                    output += trimmedString;
                     output += "<div><a class='cta' href=\""+item.link+"\">Read More</a></div>"
                     output += "</div>";
                     return k < 2;
@@ -319,15 +322,16 @@ $(document).ready(function() {
             for (var i = 0; i < data.length; i++) {
                 if(data[i].assets.length != 0) {
 
+                    console.log(data[i].assets);
                     // When there's assets to download, do a string search and fill in the blanks
                     data[i].assets.forEach(function(release) {
-                        if(release.browser_download_url.indexOf('linux') !== -1) {
+                        if(release.browser_download_url.indexOf('.deb') !== -1) {
                             $('#dl-linux').attr('href',release.browser_download_url);
                         }
-                        if(release.browser_download_url.indexOf('macos') !== -1) {
+                        if(release.browser_download_url.indexOf('.dmg') !== -1) {
                             $('#dl-ios').attr('href',release.browser_download_url);
                         }
-                        if(release.browser_download_url.indexOf('win') !== -1) {
+                        if(release.browser_download_url.indexOf('.msi') !== -1) {
                             $('#dl-windows').attr('href',release.browser_download_url);
                         }
                     });
@@ -360,13 +364,13 @@ $(document).ready(function() {
         } );
 
 
-      $('#filteringModeSingle li').click(function() {
+    $('#filteringModeSingle li').click(function() {
         $('.filters-filteringModeSingle .filtr').removeClass('filtr-active');
         $(this).addClass('filtr-active');
         var filter = $(this).data('fltr');
         filteringModeSingle.filterizr('filter', filter);
-      });
-        $('#filteringModeMulti li').click(function() {
+    });
+    $('#filteringModeMulti li').click(function() {
             var targetFilter = $(this).data('multifltr');
             if (targetFilter === 'all') {
                 $('#filteringModeMulti li').removeClass('filtr-active');
