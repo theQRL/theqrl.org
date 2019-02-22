@@ -9,7 +9,11 @@
             <link>https://medium.com/the-quantum-resistant-ledger?source=rss----507e55639b6c---4</link>
         </image>
         <generator>Medium</generator>
+<<<<<<< HEAD
         <lastBuildDate>Thu, 21 Feb 2019 19:35:43 GMT</lastBuildDate>
+=======
+        <lastBuildDate>Fri, 22 Feb 2019 17:54:10 GMT</lastBuildDate>
+>>>>>>> master
         <atom:link href="https://medium.com/feed/the-quantum-resistant-ledger" rel="self" type="application/rss+xml"/>
         <webMaster><![CDATA[yourfriends@medium.com]]></webMaster>
         <atom:link href="http://medium.superfeedr.com" rel="hub"/>
