@@ -1,7 +1,10 @@
+div {
+   // outline:1px solid rgba(0,0,0,0.1);
+}
+
 body {
 	font-family: $body_font;
 	position:relative;
-	background: url('/assets/particles/dots-topright.small.png') no-repeat top -20px right -10px;
 } 
 
 .overflow {
@@ -48,8 +51,16 @@ img {
 	> .grid {
 		z-index: 5;
 	}
-	padding-top:10px;
-	padding-bottom:10px;
+	padding-top:50px;
+	padding-bottom:50px;
+
+	&.header {
+		padding-top:5px;
+	}
+	&.hero {
+		position: relative;
+		z-index: 1;
+	}
 
 	@include md {
 		// padding-top:150px;
@@ -59,12 +70,12 @@ img {
 
 
 /* Stripes */
-.wrapper:nth-of-type(odd) {
+.wrapper:nth-of-type(even) {
 	background-color:#F3F3F3;
 	&:before { background-color:#F3F3F3; }
 	&:after { background-color:#F3F3F3; }
 }
-.wrapper:nth-of-type(even) {
+.wrapper:nth-of-type(odd) {
 	background-color:#FFF;
 	&:before { background-color:#FFF; }
 	&:after { background-color:#FFF; }
@@ -108,6 +119,8 @@ a.cta {
 	font-style: normal;
 	&:hover {
 		background-color:$quantum_hover;
+		cursor: pointer;
+
 	}
 }
 
@@ -239,7 +252,7 @@ pre.highlight {
 	max-width: 600px;
 	margin:0 auto;
 	margin-bottom: 20px;
-	margin-top:50px;
+	// margin-top:50px;
 
 	h2 {
 		color:$quantum_sky;
@@ -283,10 +296,11 @@ nav a {
 
 .wrapper.hero {
 	text-align:center;
+	padding-top: 100px;
 
 	h1 {
 		font-weight: 300;
-		color:$quantum_sky;
+		color:$quantum_deep;
 	}
 	p {
 		max-width: 720px;
@@ -299,7 +313,7 @@ nav a {
 	}
 	.cta {
 		margin-top: 20px;
-		width:100%;
+		// width:100%;
 	}
 }
 
@@ -312,9 +326,9 @@ nav a {
 	overflow:hidden;
 	top:0;
 	width:100%; height:100%;
-	// background-color:rgba(0,0,0,0.3);
 	z-index: 2;
 	pointer-events:none;
+
 	&.background {
 		z-index:1;
 	}
@@ -398,7 +412,33 @@ nav a {
 
 }
 
+.grid.support {
+	svg {
+		fill: $quantum_burst;
+		max-height: 120px;
+	}
+	div {
+		text-align: center;
+	}
+	> div {
+		padding:20px;
+		border:1px solid #222;
+		border-top: 3px solid $quantum_burst;
+		background-color:rgba(255,255,255,0.8);
+		box-shadow: $shadow;
+		grid-column: span 12;
 
+		@include sm {
+			grid-column: span 12;
+		}
+		@include md {
+			grid-column: span 6;			
+		}
+		@include lg {
+			grid-column: span 4;
+		}
+	}
+}
 
 
 @import 'layout/footer';

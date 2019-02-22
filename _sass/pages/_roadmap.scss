@@ -1,4 +1,4 @@
-$variance: 300;
+$variance: 500;
 
 @mixin roadmap-item($variance) {
 		
@@ -101,8 +101,8 @@ body.roadmap {
 	} 
 	.wrapper {
 		&:nth-child(3) {
-			padding-top:0;
-			padding-bottom:0;
+			// padding-top:0;
+			// padding-bottom:0;
 
 			&:before {
 				background-color:#F3F3F3;
@@ -110,9 +110,9 @@ body.roadmap {
 				display: block;
 				width:100%;
 				position: relative;
-				height:150px; top:-150px; margin-bottom:-150px;
+				// height:150px; top:-150px; margin-bottom:-150px;
 				overflow: hidden;
-				@include angle-edge($angle: 2, $angle-position-y: 'top', $angle-position-x: 'right');
+				// @include angle-edge($angle: 2, $angle-position-y: 'top', $angle-position-x: 'right');
 			}
 			&:after {
 				content:'';
@@ -121,9 +121,9 @@ body.roadmap {
 				width:100%;
 				
 				position: relative;
-				height:150px; bottom:-150px; margin-top:-150px; margin-bottom: 170px;
+				// height:150px; bottom:-150px; margin-top:-150px; margin-bottom: 170px;
 				overflow: hidden;
-				@include angle-edge($angle: 2.5, $angle-position-y: 'bottom', $angle-position-x: 'left');
+				// @include angle-edge($angle: 2.5, $angle-position-y: 'bottom', $angle-position-x: 'left');
 			}
 		}
 	}

@@ -3,21 +3,18 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'UA-123414102-1');
 
-
-
-
-
 $(document).ready(function() {
 
     function teamShuffle() {
-        var parent = $(".team-members");
+        var total = 3;
+        var parent = $(".team-members:not(.contributors)");
 
         var divs = parent.children();
         while (divs.length) {
             parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
         }
         if (!$('.teamPageId').length) {
-            while ($(".team-members > div").length > 6) { $(".team-members > div")[0].remove(); }
+            while ($(".team-members:not(.contributors) > div").length > total) { $(".team-members:not(.contributors) > div")[0].remove(); }
         }
     }
 
@@ -183,7 +180,6 @@ $(document).ready(function() {
             text = $(this).text();
             title = $(this).find('h2').text().trim();
             
-
             console.log("Checking "+title+" for "+value);
 
             if(text.toLowerCase().indexOf(value) !== -1) {
@@ -200,19 +196,7 @@ $(document).ready(function() {
         $('.filter .filter-results').html('Filtered: '+count+" of "+total+" FAQ's");
     });
 
-
-    // Run through slideshow
-    $(window).on('load resize click', function() {
-        $('.slideshow img').css('max-height','350px');
-
-        var sizes = [];
-        $('.slideshow img').each(function() {
-          sizes.push($(this).height());
-        });
-        var minsize = Math.min.apply(null, sizes);
-        $('.slideshow img').css('max-height',minsize+"px");
-    });
-    
+  
     var sections = $('.document-page h2, .document-page h3'), nav = $('.floatmenu nav ul'), nav_height = nav.outerHeight();
  
     $(window).on('scroll load', function () {
@@ -322,22 +306,49 @@ $(document).ready(function() {
             for (var i = 0; i < data.length; i++) {
                 if(data[i].assets.length != 0) {
 
-                    console.log(data[i].assets);
-                    // When there's assets to download, do a string search and fill in the blanks
+                    // apply them to the specific link
                     data[i].assets.forEach(function(release) {
                         if(release.browser_download_url.indexOf('.deb') !== -1) {
-                            $('#dl-linux').attr('href',release.browser_download_url);
+                            $('.dl-linux').attr('href',release.browser_download_url);
                         }
                         if(release.browser_download_url.indexOf('.dmg') !== -1) {
-                            $('#dl-ios').attr('href',release.browser_download_url);
+                            $('.dl-mac').attr('href',release.browser_download_url);
                         }
                         if(release.browser_download_url.indexOf('.msi') !== -1) {
-                            $('#dl-windows').attr('href',release.browser_download_url);
+                            $('.dl-windows').attr('href',release.browser_download_url);
                         }
                     });
                     break;
                 }
             }
+
+            // Generic download with system discovery
+            // Walk through releases until there's a release that has assets to download
+            for (var i = 0; i < data.length; i++) {
+                if(data[i].assets.length != 0) {
+
+                    // When there's assets to download, do a string search and fill in the blanks
+                    data[i].assets.forEach(function(release) {
+                        if(release.browser_download_url.indexOf('.deb') !== -1 && navigator.appVersion.indexOf("Linux") != -1) {
+                            $('#wallet-download').attr('href', release.browser_download_url);
+                            $('#wallet-download').text($('#wallet-download').text() + ' (.deb)');
+                        }
+                        if(release.browser_download_url.indexOf('.dmg') !== -1 && navigator.appVersion.indexOf("Mac") != -1) {
+                            $('#wallet-download').attr('href', release.browser_download_url);
+                            $('#wallet-download').text($('#wallet-download').text() + ' (.dmg)');
+
+                        }
+                        if(release.browser_download_url.indexOf('.msi') !== -1 && navigator.appVersion.indexOf("Win") != -1) {
+                            $('#wallet-download').attr('href', release.browser_download_url);
+                            $('#wallet-download').text($('#wallet-download').text() + ' (.msi)');
+
+                        }
+                    });
+                    break;
+                }
+            }
+
+
         });
     }
 
@@ -389,36 +400,3 @@ $(document).ready(function() {
       });
     }
 });
-
-
-
-    /* Light YouTube Embeds by @labnol */
-    /* Web: http://labnol.org/?p=27941 */
-
-    document.addEventListener("DOMContentLoaded",
-        function() {
-            var div, n,
-                v = document.getElementsByClassName("youtube-player");
-            for (n = 0; n < v.length; n++) {
-                div = document.createElement("div");
-                div.setAttribute("data-id", v[n].dataset.id);
-                div.innerHTML = labnolThumb(v[n].dataset.id);
-                div.onclick = labnolIframe;
-                v[n].appendChild(div);
-            }
-        });
-
-    function labnolThumb(id) {
-        var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
-            play = '<div class="play"></div>';
-        return thumb.replace("ID", id) + play;
-    }
-
-    function labnolIframe() {
-        var iframe = document.createElement("iframe");
-        var embed = "https://www.youtube.com/embed/ID?autoplay=1";
-        iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
-        iframe.setAttribute("frameborder", "0");
-        iframe.setAttribute("allowfullscreen", "1");
-        this.parentNode.replaceChild(iframe, this);
-    }
