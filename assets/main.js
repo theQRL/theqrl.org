@@ -57,7 +57,7 @@ $(document).ready(function() {
     });
     
     // Particles
-    $(window).on('load resize keyup', function () {
+    $(window).on('load resize keyup scroll', function () {
         $('.particles div').each(function() {
             var scroll_top = window.scrollY || window.scrollTop || 0;
             var attach_class = $(this).attr('data-attach-class');
@@ -66,6 +66,7 @@ $(document).ready(function() {
             var attach_scale = $(this).data('scale') || 1;
             var attach_rotate = $(this).data('rotate') || 0;
             var attach_scalex = $(this).data('scalex') || 1;
+            var attach_parallax = $(this).data('parallax') || 1; // 1 = none. Higher = closer, Lower = further
             var attach_child_zindex = $(this).data('child-zindex') || 2;
             var offset_top = $(this).data('offset-top') || 0;
             var offset_left = $(this).data('offset-left') || 0;
@@ -81,6 +82,14 @@ $(document).ready(function() {
 
             var parent_position = document.querySelector(attach_class).getBoundingClientRect();
             var child_position = this.getBoundingClientRect();
+
+            $(attach_class).css({
+                "border":"1px solid #F00"
+            });
+            $(this).css({
+                "border":"1px solid #F00"
+            });
+
 
             var parent = {
                 top: parent_position.y + scroll_top,
@@ -101,7 +110,7 @@ $(document).ready(function() {
             }
 
 
-                // Where are we going to attach this?
+            // Where are we going to attach this?
             var top = parent.top;
             var left = parent.left;
 
@@ -164,6 +173,8 @@ $(document).ready(function() {
                 "z-index":attach_child_zindex,
                 "transform":"scale("+attach_scale+") rotate("+attach_rotate+"deg) scaleX("+attach_scalex+")"
             });
+            console.log($(this).parent());
+            console.log("Top: " + $(this).css('top') + ", Left: "+$(this).css('left'));
         });
     });
 

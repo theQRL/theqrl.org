@@ -4,11 +4,12 @@ layout: default
   <div class="wrapper hero">
     <div class="particles">
       <div class="pencil" 
-        data-attach-class=".grid.team-members" 
+        data-attach-class=".wrapper.features" 
         data-attach-position="top left" 
         data-child-anchor="top right" 
-        data-offset-left="150" 
-        data-offset-top="-200">
+        data-offset-left="0" 
+        data-offset-top="0"
+        data-parralax="1">
       </div>
     </div>
     <div class="grid">
@@ -28,9 +29,107 @@ layout: default
       </div>
     </div>
 
-      
+
   </div>
+  <canvas id='globe' width='1920' height='1920'></canvas>
+
+
 </div><!-- Close .wrapper.header -->
+
+
+
+
+
+
+
+
+  <script type='text/javascript' src='http://d3js.org/d3.v3.min.js'></script>
+  <script type='text/javascript' src='http://d3js.org/topojson.v1.min.js'></script>
+  <script type='text/javascript' src='/assets/planetaryjs.min.js'></script>
+  <style type="text/css">
+    #globe {
+      position: absolute;
+      top:0; left:0;
+      width:100%; height:auto;
+    }
+  </style>
+  <script type="text/javascript">
+  (function() {
+    var globe = planetaryjs.planet();
+    var width = document.getElementById('globe').width;
+    var height = document.getElementById('globe').height;
+
+    globe.loadPlugin(autorotate(10));
+
+    globe.loadPlugin(planetaryjs.plugins.earth({
+      topojson: { file:   '/assets/world-110m.json' },
+      oceans:   { fill:   '#F8F8F8' },
+      land:     { fill:   '#FFF' },
+      borders:  { stroke: '#FFF' }
+    }));
+
+    // The `pings` plugin draws animated pings on the globe.
+    globe.loadPlugin(planetaryjs.plugins.pings());
+
+    // Set up the globe's initial scale, offset, and rotation.
+    globe.projection.scale(width / 1.5).translate([width / 2, width / 1.2 ]);
+
+    // Every few hundred milliseconds, we'll draw another random ping.
+    var colors = ['red', 'yellow', 'white', 'orange', 'green', 'cyan', 'pink'];
+    // setInterval(function() {
+    //   var lat = Math.random() * 170 - 85;
+    //   var lng = Math.random() * 360 - 180;
+    //   var color = colors[Math.floor(Math.random() * colors.length)];
+    //   globe.plugins.pings.add(lng, lat, { color: color, ttl: 2000, angle: Math.random() * 10 });
+    // }, 100);
+
+    var canvas = document.getElementById('globe');
+
+    // Draw that globe!
+    // globe.draw(canvas);
+
+    // This plugin will automatically rotate the globe around its vertical
+    // axis a configured number of degrees every second.
+    function autorotate(degPerSec) {
+      // Planetary.js plugins are functions that take a `planet` instance
+      // as an argument...
+      return function(planet) {
+        var lastTick = null;
+        var paused = false;
+        planet.plugins.autorotate = {
+          pause:  function() { paused = true;  },
+          resume: function() { paused = false; }
+        };
+        // ...and configure hooks into certain pieces of its lifecycle.
+        planet.onDraw(function() {
+          if (paused || !lastTick) {
+            lastTick = new Date();
+          } else {
+            var now = new Date();
+            var delta = now - lastTick;
+            // This plugin uses the built-in projection (provided by D3)
+            // to rotate the globe each time we draw it.
+            var rotation = planet.projection.rotate();
+            rotation[0] += degPerSec * delta / 5000;
+            if (rotation[0] >= 180) rotation[0] -= 360;
+            planet.projection.rotate(rotation);
+            lastTick = now;
+          }
+        });
+      };
+    };
+
+
+  })();
+  </script>
+
+
+
+
+
+
+
+
 
 <div class="wrapper mentionedin">
   <div class="grid">
@@ -235,7 +334,7 @@ layout: default
     <div>
       <div class="header-section">
         <h2>Who we are</h2>
-        <h3>Our many contributors</h3>
+        <h3>Open source protocol contributors</h3>
       </div>
     </div>
   </div>
