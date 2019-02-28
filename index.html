@@ -1,17 +1,52 @@
 ---
 layout: default
 ---
+
+<div class="particles background">
+  <div class="particle" 
+    data-attach-class=".wrapper.header" 
+    data-attach-position="bottom left" 
+    data-child-anchor="bottom left" 
+    data-offset-left="50" 
+    data-offset-top="-350"
+    data-scale="0.5"
+    data-parallax="2.1">
+  </div>    
+</div>
+<div class="particles">
+  <div class="particle" 
+    data-attach-class=".wrapper.header" 
+    data-attach-position="bottom left" 
+    data-child-anchor="bottom left" 
+    data-offset-left="0" 
+    data-offset-top="0"
+    data-scale="0.9"
+    data-parallax="1">
+  </div>
+</div>
+<div class="particles">
+  <div class="on" 
+    data-attach-class=".wrapper.header" 
+    data-attach-position="bottom right" 
+    data-child-anchor="bottom right" 
+    data-offset-left="0" 
+    data-offset-top="0"
+    data-parallax="1">
+  </div>  
+</div>
+<div class="particles">
+  <div class="pencil" 
+    data-attach-class=".wrapper.features" 
+    data-attach-position="top left" 
+    data-child-anchor="top left" 
+    data-offset-left="0" 
+    data-offset-top="0"
+    data-parralax="1">
+  </div>
+</div>
+
   <div class="wrapper hero">
-    <div class="particles">
-      <div class="pencil" 
-        data-attach-class=".wrapper.features" 
-        data-attach-position="top left" 
-        data-child-anchor="top right" 
-        data-offset-left="0" 
-        data-offset-top="0"
-        data-parralax="1">
-      </div>
-    </div>
+    
     <div class="grid">
       <div class="w12">
         <h1>The Quantum Resistant Ledger</h1>
@@ -31,7 +66,10 @@ layout: default
 
 
   </div>
-  <canvas id='globe' width='1920' height='1920'></canvas>
+  <div id="globe-wrapper">
+    <canvas id='globe' width='1920' height='1920'></canvas>    
+  </div>
+
 
 
 </div><!-- Close .wrapper.header -->
@@ -68,25 +106,15 @@ layout: default
       borders:  { stroke: '#FFF' }
     }));
 
-    // The `pings` plugin draws animated pings on the globe.
-    globe.loadPlugin(planetaryjs.plugins.pings());
-
     // Set up the globe's initial scale, offset, and rotation.
     globe.projection.scale(width / 1.5).translate([width / 2, width / 1.2 ]);
 
     // Every few hundred milliseconds, we'll draw another random ping.
     var colors = ['red', 'yellow', 'white', 'orange', 'green', 'cyan', 'pink'];
-    // setInterval(function() {
-    //   var lat = Math.random() * 170 - 85;
-    //   var lng = Math.random() * 360 - 180;
-    //   var color = colors[Math.floor(Math.random() * colors.length)];
-    //   globe.plugins.pings.add(lng, lat, { color: color, ttl: 2000, angle: Math.random() * 10 });
-    // }, 100);
-
     var canvas = document.getElementById('globe');
 
     // Draw that globe!
-    // globe.draw(canvas);
+    globe.draw(canvas);
 
     // This plugin will automatically rotate the globe around its vertical
     // axis a configured number of degrees every second.
@@ -96,6 +124,7 @@ layout: default
       return function(planet) {
         var lastTick = null;
         var paused = false;
+        var total_rotated = 0;
         planet.plugins.autorotate = {
           pause:  function() { paused = true;  },
           resume: function() { paused = false; }
@@ -107,19 +136,30 @@ layout: default
           } else {
             var now = new Date();
             var delta = now - lastTick;
+
             // This plugin uses the built-in projection (provided by D3)
             // to rotate the globe each time we draw it.
             var rotation = planet.projection.rotate();
-            rotation[0] += degPerSec * delta / 5000;
-            if (rotation[0] >= 180) rotation[0] -= 360;
-            planet.projection.rotate(rotation);
+            // rotation[0] += degPerSec * delta / 5000;
+            rotation[1] += degPerSec * delta / 1500;
+
+            if (rotation[0] >= 180) {
+              rotation[0] -= 360;
+            }
+            if (rotation[1] >= 180) {
+              rotation[1] -= 360;
+            } 
+
             lastTick = now;
+            total_rotated+= (degPerSec * delta / 1500);
+            if(total_rotated<=12) {
+              planet.projection.rotate(rotation);
+            }
+
           }
         });
       };
     };
-
-
   })();
   </script>
 
@@ -155,35 +195,40 @@ layout: default
     </div>
     <div class="grid w12">
       <div>
-        <h2>Secure</h2>
-        <p>Not just against todays computers, but <em>tomorrows</em> quantum-computers as well. </p>
-        <p>QRL is the first industrial implementation to utilize <a href="https://tools.ietf.org/html/rfc8391">IETF standardised</a> <a href="https://eprint.iacr.org/2011/484.pdf">XMSS</a>, a hash-based, <abbr title="Even after a key compromise all signatures created before remain valid">forward secure</abbr> signature scheme with minimal security assumptions.</p> 
+        <h2>Foundational Security</h2>
+        <p>Not just against today's computers, but <em>tomorrow's</em> quantum-computers as well. </p>
+        <p>QRL is the first industrial implementation to utilize <a href="https://tools.ietf.org/html/rfc8391">IETF standardised</a> <a href="https://eprint.iacr.org/2011/484.pdf">XMSS</a>; a hash-based, <abbr title="Even after a key compromise all signatures created before remain valid">forward secure</abbr> signature scheme with minimal security assumptions.</p> 
         <p>An extensible <a href="https://docs.theqrl.org/developers/address">address format</a> ensures we are ready for anything out of <a href="https://csrc.nist.gov/Projects/Post-Quantum-Cryptography">NIST</a>.</p>
         <p>Implementation has been verified with two audits, one by <a href="https://medium.com/the-quantum-resistant-ledger/red4sec-security-audit-concludes-a-summary-563ecfe04c75">red4sec</a> and another by <a href="https://www.x41-dsec.de">x41 D-sec</a>.</p>
       </div>
 
       <div>
-        <h2>Developer friendly</h2>
-        <p>Extensive <a href="https://docs.theqrl.org">documentation</a> and an <a href="https://api.theqrl.org">API reference</a> gives the tools to build anything today on an industrial grade platform that will survive tomorrow.</p>
+        <h2>Developer<br> Friendly</h2>
+        <p>Extensive <a href="https://docs.theqrl.org">documentation</a> and an <a href="https://api.theqrl.org">API reference</a> gives the tools to build anything, today, on an industrial grade platform that will survive tomorrow.</p>
 
-        <p>Some features either already available or will be available are:</p>
+        <p>Some features already available:</p>
 
         <ul>
-          <li>Easy to secure smart-contracts</li>
           <li>On-chain messages (80 bytes)</li>
+          <li>Full-featured <a href="https://api.theqrl.org">API</a></li>
+        </ul>
+
+        <p>Features under development are:</p>        
+        <ul>
+          <li>Easy to secure smart-contracts</li>
           <li>Ephemeral messaging ultilising <a href="https://pq-crystals.org/dilithium/">Dilithium</a> and <a href="https://pq-crystals.org/kyber/">Kyber</a></li>
           <li>Multisignature wallet capability</li>
         </ul>
       </div>
       <div>
-        <h2>User friendly</h2>
-        <p>A consistent UI throughout the whole product space gives a uniform experience.</p>
-        <p>A full suite of products with binaries that have 99.9% coverage means anyone has access to:</p>
+        <h2>User<br> Orientated</h2>
+        <p>A consistent UI throughout the whole product space gives a uniform experience accompanied by a full suite of products with binaries that have 99.9% coverage means anyone has access to:</p>
         <ul>
           <li>Desktop (<a class="dl-windows" href="https://github.com/theQRL/qrl-wallet/">Windows</a>, <a class="dl-mac" href="https://github.com/theQRL/qrl-wallet/">Mac</a>, <a class="dl-linux" href="https://github.com/theQRL/qrl-wallet/">Linux</a>)</li>
           <li>Mobile (iOS, Android)</li>
           <li>Web (<a href="https://wallet.theqrl.org">wallet</a>, <a href="https://explorer.theqrl.org">explorer</a>)</li>
         </ul>
+        <p>Just a click away is helpful <a href="https://docs.theqrl.org/">documentation</a> accompanied by a supportive community and email assistance 24/7 at <a href="mailto:support@theqrl.org">support@theqrl.org</a>.</p>
       </div>
   </div>
 </div>
@@ -269,8 +314,6 @@ layout: default
             <li><a href="https://docs.theqrl.org/developers/integrationTests">Integration Tests</a></li>
             <li><a href="https://docs.theqrl.org/developers/knownIssues">Known Issues</li>
           </ul>
-
-          <p>Work off of the QRL API and build the next big thing</p>
         </div> 
         <div class="w12 get-involved">
           <h1>Get Involved</h1>
@@ -284,7 +327,7 @@ layout: default
           <ul>
             <li><a href="https://migration.theqrl.org/"">Token Migration Web App</a></li>
             <li><a href="https://docs.theqrl.org/tokenmigration/video">Video Guide</a></li>
-            <li><a href="https://docs.theqrl.org/tokenmigration/guide">Text Migration Guide</a> </li>
+            <li><a href="https://docs.theqrl.org/tokenmigration/guide">Text Guide</a> </li>
           </ul>
         </div>
       </div>
@@ -304,7 +347,7 @@ layout: default
       <h3>Conferences we attended</h3>
     </div>
     {% assign now = site.time | date: '%s' | plus:0 %}
-    {% assign conference = site.conferences | sort: 'date' %}
+    {% assign conference = site.conferences | sort: 'date' | reverse %}
     {% for conf in conference %}
       {% assign date = conf.dateend | date: '%s' | plus: 0  %}
       {% if date < now %}  

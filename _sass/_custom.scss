@@ -1,7 +1,3 @@
-div {
-   // outline:1px solid rgba(0,0,0,0.1);
-}
-
 body {
 	font-family: $body_font;
 	position:relative;
@@ -59,7 +55,7 @@ img {
 	}
 	&.hero {
 		position: relative;
-		z-index: 1;
+		z-index: 4;
 	}
 
 	@include md {
@@ -116,7 +112,16 @@ a.cta {
 	font-size:12px;
 	font-weight:400;
 	transition: background-color 0.3s;
+	margin-bottom:5px;
 	font-style: normal;
+	&.inactive {
+		background-color: grayscale(#dc255d);
+
+		&:hover {
+			background-color: grayscale(#dc255d);
+			cursor: default;
+		}
+	}
 	&:hover {
 		background-color:$quantum_hover;
 		cursor: pointer;
@@ -323,14 +328,15 @@ nav a {
 
 .particles {
 	position: absolute;
-	overflow:hidden;
+	overflow: visible;
 	top:0;
 	width:100%; height:100%;
-	z-index: 2;
+	z-index: 3;
 	pointer-events:none;
 
 	&.background {
-		z-index:1;
+		z-index:0;
+		overflow:hidden;
 	}
 	> div {
 		display:block;
@@ -380,16 +386,16 @@ nav a {
 		width:193px; height:500px;
 		background-image:url(/assets/particles/bw.h500.small.png);
 	}
+	.particle {
+		width:400px; height:395px;
+		background-image:url(/assets/particles/particle.png);		
+	}
 
 	@supports (mask-image:url(/assets/particles/hat.png)) or (-webkit-mask-image:url(/assets/particles/hat.png)) {
-		.hat, .rocket, .on, .pencil {
+		.hat, .rocket, .pencil, .on {
 			background: linear-gradient(45deg, #3927ee, #1eeacc);
 			background-size: 400% 400%;
 			animation: greatient 3s ease infinite;			
-		}
-		.on {
-			-webkit-mask-image:url(/assets/particles/on.png);
-			mask-image:url(/assets/particles/on.png);			
 		}
 		.hat {
 			-webkit-mask-image:url(/assets/particles/hat.png);
@@ -402,6 +408,10 @@ nav a {
 		.pencil {
 			-webkit-mask-image:url(/assets/particles/pencil.png);
 			mask-image:url(/assets/particles/pencil.png);				
+		}
+		.on {
+			-webkit-mask-image:url(/assets/particles/on.png);
+			mask-image:url(/assets/particles/on.png);				
 		}
 		@keyframes greatient { 
 		    0%{background-position:0% 50%}
@@ -453,3 +463,4 @@ nav a {
 @import 'pages/conferences';
 @import 'pages/contact';
 @import 'pages/media';
+@import 'pages/qip';
