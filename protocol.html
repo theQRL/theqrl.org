@@ -1,0 +1,154 @@
+---
+layout: default
+title: Protocol Updates
+permalink: /protocol-updates/
+---
+
+<div class="particles background">
+  <div class="particle" 
+    data-attach-class=".wrapper.header" 
+    data-attach-position="bottom left" 
+    data-child-anchor="bottom left" 
+    data-offset-left="200" 
+    data-offset-top="0"
+    data-scale="0.5"
+    data-parallax="2.1">
+  </div>    
+</div>
+<div class="particles">
+  <div class="particle" 
+    data-attach-class=".wrapper.header" 
+    data-attach-position="bottom left" 
+    data-child-anchor="bottom left" 
+    data-offset-left="0" 
+    data-offset-top="100"
+    data-scale="0.9"
+    data-parallax="1">
+  </div>
+</div>
+<div class="particles">
+  <div class="pencil" 
+    data-attach-class=".wrapper.hero h2" 
+    data-attach-position="bottom right" 
+    data-child-anchor="center right" 
+    data-offset-left="0" 
+    data-offset-top="30"
+    data-parallax="1">
+  </div>  
+</div>
+<div class="particles">
+  <div class="pencil" 
+    data-attach-class=".wrapper.features" 
+    data-attach-position="top left" 
+    data-child-anchor="top left" 
+    data-offset-left="0" 
+    data-offset-top="0"
+    data-parralax="1">
+  </div>
+</div>
+
+  <div class="wrapper hero">
+    
+    <div class="grid">
+      <div class="w12">
+        <h1>Protocol Updates</h1>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="w12">
+        <a class="cta" id="wallet-download" href="https://github.com/theQRL/qips/">View QRL Improvement Proposals (QIPs)</a>
+      </div>
+    </div>
+  </div>
+</div><!-- Close .wrapper.header -->
+
+
+
+<div class="wrapper">
+  <div class="grid">
+    <div class="w12">
+      <div class="header-section">
+        <h2>Upcoming hard forks</h2>
+        <p>The first planned QRL network hardfork will soon be announced after upcoming Ledger integration.</p>
+        <p>Future forks will follow an annual/biannual planned upgrade schedule based upon community consensus.</p>
+      </div>
+
+      <h3>Upcoming hard fork feature list</h3>
+      <ul>
+        <li>Multisig addresses</li>
+        <li>Deterministic address support</li>
+        <li>Extended message transaction functionality</li>
+        <li>Decentralised on chain poll support</li>
+        <li>Backwards incompatible state upgrades and optimisations</li>
+      </ul>
+
+      <h3>Features anticipated for 2019/2020 hard forks include</h3>
+      <ul>
+        <li>Project Silicon</li>
+        <li>Ephemeral messaging</li>
+        <li>Consensus mechanism change (PoS, dPoS)</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="wrapper qips">
+  <div class="grid">
+    <div class="w12">
+      <div class="header-section">
+        <h2>Current QRL improvement proposal (QIPs)</h2>
+      </div>
+
+      {% assign qips = site.qips %} 
+
+      {% for qip in qips %}
+        <div class="qip">
+          <div class="title">
+            <h3>{{ qip.title }}</h3>
+            {{ qip.author }}<br>
+            Created: {{ qip.created | date: "%Y-%m-%d" }}
+            {% if qip.updated %}
+              , updated: {{ qip.updated | date: "%Y-%m-%d" }}
+            {% endif %}
+            {% if qip.status %}
+              , status: {{ qip.status }}
+            {% endif %}
+          </div>
+          <div class="readmore">
+              {{ qip.content }}
+          </div>        
+          <div class="more">
+            {% if qip.comments-uri %}
+            <a class="cta" href="{{ qip.comments-uri }}">
+              Comments {% if qip.comments-count %}
+                ({{ qip.comments-count }})
+              {% endif %}
+            </a> 
+            {% endif %}
+            <a class="cta" href="{{ qip.url }}">Read More</a>
+            <a class="cta inactive" id="wallet-download" href="#">Vote</a>
+          </div>
+        </div>
+        
+      {% endfor %}
+
+      <style type="text/css">
+        .qip {
+          padding:5px;
+          margin-bottom:10px;
+        }
+        .title {
+
+        }
+        .readmore > * {
+          display:none;
+        }
+        .readmore > p:first-of-type {
+          display:block !important;
+        }
+      </style>
+
+    </div>
+  </div>
+</div>

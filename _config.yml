@@ -40,11 +40,18 @@ collections:
   media:
     permalink: "/:collection/:path/"
     output: true
+  qips:
+    permalink: "/qip/:title/"
+    output: true
 defaults:
 - scope:
    path: _team
   values:
     layout: human
+- scope:
+   path: _qips
+  values:
+    layout: qip
 - scope:
    path: _media
   values:

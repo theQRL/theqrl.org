@@ -6,17 +6,17 @@ layout: default
 
 
 
-<div class="wrapper hero">
-	<div class="grid">
-		<div class="w12">
-			<h1>{{ page.title | escape }}</h1>
-			<p>{{ page.summary }}</p> 
-			<p><img src="/assets/conferences/{{ page.image }}" alt=""></p>
-			<p><a href="{{ page.link_domain }}" class="cta">Visit Site</a> <a href="{{ page.link_tickets }}" class="cta">Buy Tickets</a></p>
-		</div>
-	</div>
+  <div class="wrapper hero">
+  	<div class="grid">
+  		<div class="w12">
+  			<h1>{{ page.title | escape }}</h1>
+  			<p>{{ page.summary }}</p> 
+  			<p><img src="/assets/conferences/{{ page.image }}" alt=""></p>
+  			<p><a href="{{ page.link_domain }}" class="cta">Visit Site</a> <a href="{{ page.link_tickets }}" class="cta">Buy Tickets</a></p>
+  		</div>
+  	</div>
+  </div>
 </div>
-
 <div class="wrapper intro">
 	<div class="grid">
 		<div class="w12">
@@ -47,9 +47,9 @@ layout: default
   </div>
   {% include team.md team_members=page.who %}
   <div class="grid w12">
-  <div class="more">
+<!--   <div class="more">
     <a href="/team" class="cta">See the whole team</a>
-  </div>    
+  </div>     -->
   </div>
 </div>
 

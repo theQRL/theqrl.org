@@ -1,8 +1,14 @@
 .header {
-	// position:relative;
+	.shadow {
+		position:absolute; width:100%; height:100%;
+		z-index: 2;
+		box-shadow: inset 0px -23px 32px 6px #F3F3F3;
+	}
 	padding-bottom: 0;
-	position:relative;
 	z-index: 9;
+	position: relative;
+	// overflow: hidden;
+	
 
 	.grid {
 		max-width: 1300px;
@@ -18,11 +24,13 @@
 	li svg {
 		max-height:12px;
 	}
-	.menu {
 
-	}
 	.menu nav {
 		padding-top: 5px;
+		ul {
+			justify-content: flex-end;
+		}
+
 		@include lg { padding-top: 5px; } // 18px
 		li.dropdown {
 			> a {
@@ -124,20 +132,26 @@
 			z-index: 100;
 
 			> ul {
+				justify-content: flex-start ;
 				position:fixed;
 				z-index: 100;
-				top:0px; right:-100vw;
-				background-color:#FFF;
-				width:100%; height:100vh;
-				transition: all 0.6s;
+				top:0px; right:-110%;
+				width:90%; height:100vh;
+				transition: all 0.5s;
+				background-color: darken($quantum_deep, 2%);
 				flex-direction:column;
-
+				box-shadow: $shadow;
+				background-image: url(/assets/particles/orb.png);
+				background-repeat: no-repeat;
+				background-position: bottom -100px right -40px;
+				
 				a {
 					display:block;
 					width:100%;
 					font-size:30px;
 					padding-bottom: 20px;
 					padding-top: 20px;
+					color: #FFF;
 				}
 
 
@@ -146,13 +160,14 @@
 				li {
 					position: relative;
 					> a {
-						padding-left: 5px;
+						padding-left: 15px;
+
 						&:after {
 							content:'' !important;
 							background: url('https://icons.simplesvg.com/ion-ios-arrow-down.svg?color=%23dc255d&height=16') no-repeat center center / contain;
 							height:18px;
 							top:23px !important;
-							right:5px !important;
+							right:15px !important;
 						}
 					}
 					&:hover,
@@ -162,11 +177,14 @@
 						}
 						> ul {
 							// display: flex;
-							border:1px solid $quantum_burst;
+							border:0px solid $quantum_burst;
+							background-color: $quantum_deep;
+
 
 							a:hover {
 								background-color: $quantum_burst;
 								color:#FFF;
+
 							}
 
 						} 
@@ -179,9 +197,11 @@
 						left:0;
 						flex-direction: column;
 						text-align: left;
-						background-color: #F3F3F3;
+						background-color: transparent;
 						a {
 							padding:10px 10px;
+														padding-left:25px;
+
 							font-size: 15px;
 						}
 					}

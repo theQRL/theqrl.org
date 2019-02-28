@@ -1,7 +1,8 @@
-    {% assign default_paths = site.pages | map: "path" %}
-    {% assign page_paths = site.header_pages | default: default_paths %}
+  {% assign default_paths = site.pages | map: "path" %}
+  {% assign page_paths = site.header_pages | default: default_paths %}
 
   <div class="wrapper header">
+    <div class="shadow"></div>
     <div class="grid collapse">
       <div class="logo">
         <a href="/">
@@ -18,37 +19,22 @@
             <span></span>
           </div>
           <ul>
-          {% for path in page_paths %}
-            {% assign my_page = site.pages | where: "path", path | first %}
-            {% if my_page.menulink != null %}  
-            <!-- <li><a href="{{ my_page.url | relative_url }}">{{ my_page.menulink | escape }}</a></li> -->
-            {% elsif my_page.title %}
-            <!-- <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li> -->
-            {% endif %}
-          {% endfor %}
-            <li><a href="/why">Why QRL</a></li>
-            <li><a href="/faq">FAQ</a></li>
-            <li><a href="/roadmap">Roadmap</a></li>
-            <li><a href="/media">Media</a></li>
-            <li><a href="/team">Team</a></li>
+            <li><a href="/#getting-started">Getting started</a></li>
+            <li class="dropdown">
+              <a href="/faq">Developers</a>
+              <ul>
+                <li><a href="https://github.com/theQRL/">Github</a></li>
+                <li><a href="https://api.theqrl.org">API Documentation</a></li>
+                <li><a href="https://api.theqrl.org/#wallet-api">Wallet API</a></li>
+                <li><a href="https://api.theqrl.org/#explorer-api">Explorer API</a></li>   
+                <li><a href="https://docs.theqrl.org">Documentation</a></li>
+                <li><a href="/#contributors">Contributors</a></li>
+              </ul>
+            </li>
+            <li><a href="https://medium.com/the-quantum-resistant-ledger">Announcements</a></li>
+            <li><a href="/protocol-updates/">Protocol Updates</a></li>
           </ul>         
         </nav>
         {% endif %}
-
-      </div>
-      <div class="whitepaper">
-        <nav>
-          <ul>
-            <li class="has-child"><a href="">QRL Network <svg class="svg-inline--fa fa-angle-down fa-w-10" aria-hidden="true" data-prefix="fas" data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg></a>
-              <ul>
-                <li><a href="https://qrl.foundation/">Foundation</a></li>
-                <li><a href="https://docs.theqrl.org/">Documentation</a></li>
-                <li><a href="https://explorer.theqrl.org">Explorer</a></li>
-                <li><a href="https://wallet.theqrl.org">Web Wallet</a></li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
       </div>
     </div>
-  </div>

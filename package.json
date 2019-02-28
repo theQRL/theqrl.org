@@ -21,5 +21,8 @@
 	},
 	"browserslist": [
 		"last 2 versions"
-	]
+	],
+	"dependencies": {
+		"rss-parser": "^3.6.2"
+	}
 }
