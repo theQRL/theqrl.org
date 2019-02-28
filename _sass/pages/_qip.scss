@@ -1,0 +1,15 @@
+body.qip {
+	table {
+		border:1px solid #000;
+	}
+
+	.qip-content h1 {
+		display:none;
+	}
+	.qip-content p, .qip-content pre {
+		overflow-y: auto;
+	}
+	.hero h1 {
+		overflow-y: hidden;
+	}
+}
