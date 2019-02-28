@@ -1,7 +1,16 @@
 <head>
+	<script type="text/javascript">
+	var pathname = window.location.pathname;
+
+	if(pathname.indexOf('/roadmap') === 0) {
+			window.location.href="/protocol-updates/";
+	}
+	if(pathname.indexOf('/team') === 0) {
+			window.location.href="/#contributors";
+	}
+	</script>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123414102-1"></script>
-
 	<meta charset="utf-8">
 	<meta name="description" content="The Quantum Resistant Ledger (QRL) is a first-of-its-kind, post-quantum value store and decentralized communication layer proactively tackling the threat advanced Quantum Computers pose to cryptocurrencies.">
   	<meta name="keywords" content="quantum resistant, quantum proof, blockchain, crypto-currency, cryptocurrency, quantum blockchain, quantum computer bitcoin">
@@ -13,6 +22,8 @@
 	{% endif %} 
 	{{ site.title }}
 	</title>
+
+
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="/assets/jquery.filterizr.min.js"></script>
