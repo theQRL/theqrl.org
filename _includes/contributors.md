@@ -9,7 +9,7 @@ assign unique_contributions = ""
   {% if tracked contains contributor.login %}
 
   {% else %}
-    {% if contributor.login != "jomarip" %}
+    {% if contributor.contributions >= 3 %}
       {% assign tracked = tracked | append: contributor.login | append:":" | append:contributor.id | append: ","%}
     {% endif %}
   {% endif %}

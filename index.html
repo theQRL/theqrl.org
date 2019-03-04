@@ -55,7 +55,7 @@ layout: default
     </div>
     <div class="grid">
       <div class="w12">
-        <a class="cta" id="wallet-download" href="https://github.com/theQRL/qrl-wallet/">Download Wallet</a>
+        <a class="cta" id="wallet-download" href="https://github.com/theQRL/qrl-wallet/releases/">Download Wallet</a>
 
         <ul class="downloads-list">
           <li><a class="cta" href="https://explorer.theqrl.org">Explorer</a></li>
@@ -97,7 +97,9 @@ layout: default
     var width = document.getElementById('globe').width;
     var height = document.getElementById('globe').height;
 
-    globe.loadPlugin(autorotate(10));
+    globe.loadPlugin(
+      autorotate(10)
+    );
 
     globe.loadPlugin(planetaryjs.plugins.earth({
       topojson: { file:   '/assets/world-110m.json' },
