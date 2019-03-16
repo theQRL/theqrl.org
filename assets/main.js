@@ -3,28 +3,8 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'UA-123414102-1');
 
-$( window ).on( "load", function() { 
-    // $('html').addClass('loaded');
-})
 $(document).ready(function() {
     $('html').addClass('loaded');
-
-    // When things load
-    function teamShuffle() {
-        var total = 3;
-        var parent = $(".team-members:not(.contributors)");
-
-        var divs = parent.children();
-        while (divs.length) {
-            parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
-        }
-        if (!$('.teamPageId').length) {
-            while ($(".team-members:not(.contributors) > div").length > total) { $(".team-members:not(.contributors) > div")[0].remove(); }
-        }
-    }
-
-    teamShuffle();
-
 
     function hasTouch() {
         return 'ontouchstart' in document.documentElement
@@ -76,7 +56,6 @@ $(document).ready(function() {
             var offset_top = $(this).data('offset-top') || 0;
             var offset_left = $(this).data('offset-left') || 0;
 
-            console.log(attach_parallax);
             // Catch if there's no element to attach to.
             if(document.querySelector(attach_class)==null) {
                 return;
@@ -88,9 +67,6 @@ $(document).ready(function() {
 
             var parent_position = document.querySelector(attach_class).getBoundingClientRect();
             var child_position = this.getBoundingClientRect();
-
-
-
 
             var parent = {
                 top: parent_position.y + scroll_top,
@@ -311,7 +287,7 @@ $(document).ready(function() {
     });
     if($('body').hasClass('homepage')) {
         // Github releases API
-        $.getJSON("https://api.github.com/repos/theQRL/qrl-wallet/releases").done(function (data) {
+        $.getJSON("/assets/qrlwallet.json").done(function (data) {
 
             // Walk through releases until there's a release that has assets to download
             for (var i = 0; i < data.length; i++) {
