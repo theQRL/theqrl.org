@@ -1,0 +1,118 @@
+---
+layout: default
+title: Research
+permalink: /research/
+---
+
+<div class="particles background">
+  <div class="particle" 
+    data-attach-class=".wrapper.header" 
+    data-attach-position="bottom left" 
+    data-child-anchor="bottom left" 
+    data-offset-left="200" 
+    data-offset-top="0"
+    data-scale="0.5"
+    data-parallax="2.1">
+  </div>    
+</div>
+<div class="particles">
+  <div class="particle" 
+    data-attach-class=".wrapper.header" 
+    data-attach-position="bottom left" 
+    data-child-anchor="bottom left" 
+    data-offset-left="0" 
+    data-offset-top="100"
+    data-scale="0.9"
+    data-parallax="1">
+  </div>
+</div>
+<div class="particles">
+  <div class="pencil" 
+    data-attach-class=".wrapper.hero h2" 
+    data-attach-position="bottom right" 
+    data-child-anchor="center right" 
+    data-offset-left="0" 
+    data-offset-top="30"
+    data-parallax="1">
+  </div>  
+</div>
+<div class="particles">
+  <div class="pencil" 
+    data-attach-class=".wrapper.features" 
+    data-attach-position="top left" 
+    data-child-anchor="top left" 
+    data-offset-left="0" 
+    data-offset-top="0"
+    data-parralax="1">
+  </div>
+</div>
+
+  <div class="wrapper hero">
+    
+    <div class="grid">
+      <div class="w12">
+        <h1>Research</h1>
+      </div>
+    </div>
+  </div>
+</div><!-- Close .wrapper.header -->
+
+
+
+<div class="wrapper research">
+  <div class="grid">
+    <div class="w12">
+      <div class="header-section">
+        <h2>Citations</h2>
+      </div>
+
+      <ul>
+      {% for paper in site.data.papers %}
+        {% if paper.category == 'citations' %}
+          <li>
+            <strong>{{ paper.name }}</strong>
+            <a href="{{ paper.link }}">{{ paper.link }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+      </ul>
+
+
+      <div class="header-section">
+        <h2>Cryptographic Fundamentals</h2>
+        <p></p>
+      </div>      
+
+      <ul>
+      {% for paper in site.data.papers %}
+        {% if paper.category == 'cryptography' %}
+          <li>
+            <strong>{{ paper.name }}</strong>
+            <a href="{{ paper.link }}">{{ paper.link }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+      </ul>
+
+
+      <div class="header-section">
+        <h2>Seminal Papers</h2>
+      </div>
+      <ul>
+      {% for paper in site.data.papers %}
+        {% if paper.category == 'seminal' %}
+          <li>
+            <strong>{{ paper.name }}</strong>
+            <a href="{{ paper.link }}">{{ paper.link }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+<style type="text/css">
+.research .header-section + ul strong {
+  display:block;
+}
+</style>

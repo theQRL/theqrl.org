@@ -10,7 +10,5 @@ if [[ -n "$1" ]]; then
 	PORT="$1"
 fi
 
-curl -o assets/medium.rss "https://medium.com/feed/the-quantum-resistant-ledger/"
-
 # Because `bundle exec jekyll serve` isn't the same as `bundle exec jekyll build` - apparently.
 bundle exec jekyll build --watch & php -S localhost:"$PORT" -t _site/ && fg
