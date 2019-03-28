@@ -108,6 +108,20 @@ permalink: /research/
         {% endif %}
       {% endfor %}
       </ul>
+
+    <div class="header-section">
+        <h2>Further Reading</h2>
+      </div>
+      <ul>
+      {% for paper in site.data.papers %}
+        {% if paper.category == 'further-reading' %}
+          <li>
+            <strong>{{ paper.name }}</strong>
+            <a href="{{ paper.link }}">{{ paper.link }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+      </ul>
     </div>
   </div>
 </div>
