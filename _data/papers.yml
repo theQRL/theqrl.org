@@ -29,3 +29,23 @@
 - name: "Bitcoin: A Peer-to-Peer Electronic Cash System"
   category: seminal
   link: https://bitcoin.org/bitcoin.pdf
+
+- name: "Cryptography Lecture 8"
+  category: further-reading
+  link: https://www.icg.isy.liu.se/courses/tsit03/forelasningar/cryptolecture08.pdf
+
+- name: "SPHINCS: practical stateless hash-based signatures"
+  category: further-reading
+  link: https://sphincs.cr.yp.to/papers.html
+
+- name: "Summer School on Post-Quantum Cryptography 2017"
+  category: further-reading
+  link: https://2017.pqcrypto.org/school/schedule.html
+
+- name: "Andreas Hülsing - Hash-Based Signatures"
+  category: further-reading
+  link: https://www.youtube.com/watch?v=qkqtsnXTMQM
+
+- name: "Hash-based Signatures: An illustrated Primer"
+  category: further-reading
+  link: https://blog.cryptographyengineering.com/2018/04/07/hash-based-signatures-an-illustrated-primer/
