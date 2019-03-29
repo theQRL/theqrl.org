@@ -6,11 +6,22 @@ rm -rf _qips/
 echo "Cloning repo and extracting qips through the header 'QIP: ' - sure hope this doesn't change."
 mkdir _qips
 git clone https://github.com/theQRL/qips/
-grep -r 'QIP: ' qips/ | cut -d: -f1 | cat -n | while read n f; do 
+
+grep -lr 'QIP: ' qips/ | sort -r | cat -n | while read n f; do 
 	if [[ $f != *"TEMPLATE"* ]]; then
-		cp "$f" `printf "_qips/%03d.md" $n`; 
+		# Get QIP number
+		qipid=$(cat "$f" | grep 'QIP:' | grep -Eo '[0-9]+')
+		qipid=$(printf "%03d" "$qipid")
+
+		# If there's no QIP Id...
+		if [[ $qipid == "000" ]]; then
+			qipid=$(cat "$f" | grep -i 'title:' | sed 's/.*://' | sed 's/^ //' | sed 's/\s/\_/g' | sed 's/.*/\L&/g')
+		fi
+
+		cp "$f" `printf "_qips/%s.md" $qipid`; 
 	fi
 done
+
 rm -rf qips/
 
 echo "Composing header into frontmatter"
