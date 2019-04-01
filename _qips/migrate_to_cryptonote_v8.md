@@ -1,5 +1,5 @@
 ---
-qip: Migrate to Cryptonote V8
+qip: 
 layer: Node
 title: Migrate to Cryptonote v8
 author: Andrew Chiw
