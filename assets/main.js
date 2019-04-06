@@ -4,6 +4,20 @@ gtag('js', new Date());
 gtag('config', 'UA-123414102-1');
 
 $(document).ready(function() {
+
+    (function() {
+        var parent = $(".team-members");
+
+        var divs = parent.children();
+        while (divs.length) {
+            parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
+        }
+        if (!$('.teamPageId').length) {
+            while ($(".team-members > div").length > 6) { $(".team-members > div")[0].remove(); }
+        }        
+    })();
+
+
     $('html').addClass('loaded');
 
     function hasTouch() {
