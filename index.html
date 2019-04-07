@@ -184,7 +184,7 @@ layout: default
       {% for item in mentions %}
             <li>
               <a href="{{ item.link }}" target="_blank">
-                <img src="/assets/media/{{ item.media_company }}.png">
+                <img data-src="/assets/media/{{ item.media_company }}.png">
               </a>
             </li>
       {% endfor %}
@@ -327,7 +327,7 @@ layout: default
         <div class="w12 get-involved">
           <h1>Token Migration</h1>
           <ul>
-            <li><a href="https://migration.theqrl.org/"">Token Migration Web App</a></li>
+            <li><a href="https://migration.theqrl.org/">Token Migration Web App</a></li>
             <li><a href="https://docs.theqrl.org/tokenmigration/video">Video Guide</a></li>
             <li><a href="https://docs.theqrl.org/tokenmigration/guide">Text Guide</a> </li>
           </ul>
@@ -355,7 +355,7 @@ layout: default
       {% if date < now %}  
         <div class="grid conference">
           <div class="image">
-            <img src="/assets/conferences/{{ conf.image }}" alt="">
+            <img data-src="/assets/conferences/{{ conf.image }}" alt="">
           </div>
           <div class="description">
             <h2>{{ conf.title }}</h2>

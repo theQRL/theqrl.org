@@ -1,9 +1,7 @@
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'UA-123414102-1');
-
 $(document).ready(function() {
+    // Unveil.
+    $("img").unveil(100);
+    $(".lazy-bg").unveil(100, true);
 
     (function() {
         var parent = $(".team-members");
@@ -216,13 +214,6 @@ $(document).ready(function() {
     $('.faq .question').on('click', function() {
         $(this).toggleClass('active');
         var faq_selection = $.trim($(this).find('> div > h2').text());
-
-        if($(this).hasClass('active')) {
-            gtag('event', 'filter', {
-              'event_category': 'faq-selection',
-              'event_label': faq_selection
-            });
-        }
     });
     $(window).on('load', function() {
         $('[data-filter] input').each(function() {

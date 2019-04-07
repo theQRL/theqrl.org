@@ -16,7 +16,7 @@
         {% if show_team == true %}
         <div>
           <div class="image">
-          <div style="background-image:url('/assets/team/{{ team.image }}');"></div>
+            <div class="lazy-bg" data-src="/assets/team/{{ team.image }}"></div>
           </div>
           <div class="name">{{ team.title }}</div>
           <div>
