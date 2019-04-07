@@ -5,9 +5,7 @@ body.team {
 			display: block;
 			width:100%;
 			position: relative;
-			height:150px; top:-150px; margin-bottom:-200px;
 			overflow: hidden;
-			@include angle-edge($angle: 1.5, $angle-position-y: 'top', $angle-position-x: 'right');
 		}
 
 		&:after {
@@ -16,14 +14,15 @@ body.team {
 			width:100%;
 			
 			position: relative;
-			height:150px; bottom:-150px; margin-top:-150px;
 			overflow: hidden;
-			@include angle-edge($angle: 2.5, $angle-position-y: 'bottom', $angle-position-x: 'right');
 		}
 	}
 	.wrapper.events:before {
 			margin-top: 250px;
 			top:0px;
+	}
+	.team-members {
+		z-index: 10;
 	}
 	
 }

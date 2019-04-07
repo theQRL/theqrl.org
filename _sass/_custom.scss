@@ -36,11 +36,7 @@ img {
 	@include md-max {
 		&:before,
 		&:after {
-			// z-index: 1;
-		 //    margin: 0 !important;
-		 //    top: 0 !important;
-		 //    bottom: 0 !important;
-		 //    content: unset !important;
+
 		}		
 	}
 
@@ -58,10 +54,6 @@ img {
 		z-index: 4;
 	}
 
-	@include md {
-		// padding-top:150px;
-		// padding-bottom:150px;
-	}
 }
 
 
@@ -191,7 +183,6 @@ pre.highlight {
 		padding-bottom: 16px;
 	}
 	.role {
-		font-family: Quicksand;
 		font-style: normal;
 		font-weight: 500;
 		line-height: normal;
@@ -203,7 +194,6 @@ pre.highlight {
 		color: #1EE9CB;
 	}
 	.position {
-		font-family: Quicksand;
 		font-style: normal;
 		font-weight: 500;
 		line-height: normal;

@@ -184,7 +184,7 @@ layout: default
       {% for item in mentions %}
             <li>
               <a href="{{ item.link }}" target="_blank">
-                <img src="/assets/media/{{ item.media_company }}.png">
+                <img data-src="/assets/media/{{ item.media_company }}.png">
               </a>
             </li>
       {% endfor %}
@@ -229,6 +229,7 @@ layout: default
           <li>Desktop (<a class="dl-windows" href="https://github.com/theQRL/qrl-wallet/">Windows</a>, <a class="dl-mac" href="https://github.com/theQRL/qrl-wallet/">Mac</a>, <a class="dl-linux" href="https://github.com/theQRL/qrl-wallet/">Linux</a>)</li>
           <li>Mobile (iOS, Android)</li>
           <li>Web (<a href="https://wallet.theqrl.org">wallet</a>, <a href="https://explorer.theqrl.org">explorer</a>)</li>
+          <li>Hardware wallet support with <a href="https://support.ledger.com/hc/en-us/articles/360019184453">Ledger Nano S</a></li>
         </ul>
         <p>Just a click away is helpful <a href="https://docs.theqrl.org/">documentation</a> accompanied by a supportive community and email assistance 24/7 at <a href="mailto:support@theqrl.org">support@theqrl.org</a>.</p>
       </div>
@@ -326,7 +327,7 @@ layout: default
         <div class="w12 get-involved">
           <h1>Token Migration</h1>
           <ul>
-            <li><a href="https://migration.theqrl.org/"">Token Migration Web App</a></li>
+            <li><a href="https://migration.theqrl.org/">Token Migration Web App</a></li>
             <li><a href="https://docs.theqrl.org/tokenmigration/video">Video Guide</a></li>
             <li><a href="https://docs.theqrl.org/tokenmigration/guide">Text Guide</a> </li>
           </ul>
@@ -354,7 +355,7 @@ layout: default
       {% if date < now %}  
         <div class="grid conference">
           <div class="image">
-            <img src="/assets/conferences/{{ conf.image }}" alt="">
+            <img data-src="/assets/conferences/{{ conf.image }}" alt="">
           </div>
           <div class="description">
             <h2>{{ conf.title }}</h2>
@@ -369,6 +370,7 @@ layout: default
     {% endfor %}
   </div>
 </div>
+
 
 
 
@@ -389,6 +391,21 @@ layout: default
     </div>
   
   </div>
+</div>
 
+<div class="wrapper team">
+  <div class="grid w12">
+    <div>
+      <div class="header-section">
+        <h3>Core contributors</h3>
+      </div>
+    </div>
+  </div>
+  {% include team.md members=6 %}
+  <div class="grid w12">
+  <div class="more">
+    <a href="/team" class="cta">See full core-contributors</a>
+  </div>    
+  </div>
 
 </div>
