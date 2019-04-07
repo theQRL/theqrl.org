@@ -24,7 +24,7 @@ assign unique_contributions = ""
     {% if user[0] %}
       <li>
         <a href="https://github.com/{{ user[0] }}">
-        <img src="https://avatars3.githubusercontent.com/u/{{ user[1] }}?s=187">
+        <img src="https://avatars3.githubusercontent.com/u/{{ user[1] }}?s=26">
         <span>{{ user[0] }}</span>
         </a>
       </li>
