@@ -93,7 +93,7 @@ body.homepage {
 		img {
 			height:50px;
 			margin:15px;
-			filter:grayscale(0%);
+			filter:grayscale(100%);
 			width:auto;
 			max-width: none;
 		}
@@ -290,7 +290,7 @@ body.homepage {
 				img {
 					display: block; float:left;
 					width:26px;
-					filter: grayscale(20%);
+					filter: grayscale(100%);
 				}		
 			}
 		}
