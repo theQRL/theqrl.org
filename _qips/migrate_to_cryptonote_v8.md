@@ -11,6 +11,7 @@ created: 2018-10-30
 comments-count: 81
 slug: Migrate to Cryptonote v8
 ---
+
 # QIP 1: Migrate to Cryptonote v8 (Cryptonote Variant 2)
 
 ## Abstract

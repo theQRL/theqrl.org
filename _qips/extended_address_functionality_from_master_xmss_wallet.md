@@ -7,7 +7,7 @@ comments-summary:
 comments-uri: https://github.com/theQRL/qips/pull/5
 status: draft
 type: improvement
-created: 4/11/2018
+created: 2018-11-04
 comments-count: 2
 slug: Extended address functionality from master XMSS wallet
 ---
