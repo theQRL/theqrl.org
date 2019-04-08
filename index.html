@@ -37,10 +37,10 @@ layout: default
 <div class="particles">
   <div class="pencil" 
     data-attach-class=".wrapper.features" 
-    data-attach-position="top left" 
-    data-child-anchor="top left" 
-    data-offset-left="0" 
-    data-offset-top="0"
+    data-attach-position="top center" 
+    data-child-anchor="top right" 
+    data-offset-left="-450" 
+    data-offset-top="100"
     data-parralax="1">
   </div>
 </div>
@@ -50,7 +50,9 @@ layout: default
     <div class="grid">
       <div class="w12">
         <h1>The Quantum Resistant Ledger</h1>
-        <h2>Secure digital assets for an adversarial future</h2>    
+        <h2>Secure digital assets for an adversarial future</h2>
+        <p>Externally audited enterprise grade blockchain secure against quantum computers today, ready for tomorrow.</p>
+        <p><a href="/research/">Citations & Research</a>, <a href="https://github.com/theQRL/Whitepaper/blob/master/QRL_whitepaper.pdf">Whitepaper &raquo;</a></p>
       </div>
     </div>
     <div class="grid">
@@ -63,8 +65,6 @@ layout: default
         </ul>
       </div>
     </div>
-
-
   </div>
   <div id="globe-wrapper">
     <canvas id='globe' width='1920' height='1920'></canvas>    
@@ -103,7 +103,7 @@ layout: default
 
     globe.loadPlugin(planetaryjs.plugins.earth({
       topojson: { file:   '/assets/world-110m.json' },
-      oceans:   { fill:   '#F8F8F8' },
+      oceans:   { fill:   '#FBFBFB' },
       land:     { fill:   '#FFF' },
       borders:  { stroke: '#FFF' }
     }));
