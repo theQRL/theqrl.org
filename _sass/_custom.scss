@@ -121,11 +121,7 @@ a.cta {
 	}
 }
 
-.slideshow {
-	img {
-		box-shadow: $shadow;
-	}
-}
+
 pre.highlight {
 	overflow-x:auto;
 }
@@ -414,17 +410,17 @@ nav a {
 
 .grid.support {
 	svg {
-		fill: $quantum_burst;
+		fill: $quantum_dark_gray;
 		max-height: 120px;
 	}
 	div {
 		text-align: center;
 	}
 	> div {
+		background-color: $quantum_white;
 		padding:20px;
-		border:1px solid #222;
-		border-top: 3px solid $quantum_burst;
-		background-color:rgba(255,255,255,0.8);
+		border:1px solid rgba(0,0,0,0);
+		border-top: 3px solid $quantum_green;
 		box-shadow: $shadow;
 		grid-column: span 12;
 
