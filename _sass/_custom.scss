@@ -94,7 +94,7 @@ a {
 /* Elements */
 // Call-to-action
 a.cta {
-	background-color:#dc255d;
+	background-color: $quantum_burst;
 	padding:10px 25px;
 	color:#FFF;
 	text-decoration: none;
@@ -121,11 +121,7 @@ a.cta {
 	}
 }
 
-.slideshow {
-	img {
-		box-shadow: $shadow;
-	}
-}
+
 pre.highlight {
 	overflow-x:auto;
 }
@@ -414,17 +410,17 @@ nav a {
 
 .grid.support {
 	svg {
-		fill: $quantum_burst;
+		fill: $quantum_dark_gray;
 		max-height: 120px;
 	}
 	div {
 		text-align: center;
 	}
 	> div {
+		background-color: $quantum_white;
 		padding:20px;
-		border:1px solid #222;
-		border-top: 3px solid $quantum_burst;
-		background-color:rgba(255,255,255,0.8);
+		border:1px solid rgba(0,0,0,0);
+		border-top: 3px solid $quantum_green;
 		box-shadow: $shadow;
 		grid-column: span 12;
 
@@ -442,15 +438,15 @@ nav a {
 
 
 @import 'layout/footer';
-@import 'includes/youtube';
+// @import 'includes/youtube';
 @import 'components/header';
-@import 'pages/downloads';
+// @import 'pages/downloads';
 @import 'pages/faq';
 @import 'pages/roadmap';
 @import 'pages/homepage';
 @import 'pages/why';
 @import 'pages/team';
 @import 'pages/conferences';
-@import 'pages/contact';
-@import 'pages/media';
+// @import 'pages/contact';
+// @import 'pages/media';
 @import 'pages/qip';

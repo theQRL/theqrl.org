@@ -100,7 +100,7 @@ permalink: /protocol-updates/
         <h2>Current QRL improvement proposal (QIPs)</h2>
       </div>
 
-      {% assign qips = site.qips %} 
+      {% assign qips = site.qips | sort:'created' | reverse %} 
 
       {% for qip in qips %}
         <div class="qip">
