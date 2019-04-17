@@ -21,39 +21,54 @@ img {
 	max-width: 100%;
 }
 
-
 .wrapper {
+	padding-top:50px;
+	padding-bottom:50px;
+
 	&:before,
 	&:after,
 	> .grid {
 		position:relative;
+		
 	}
 	&:before,
 	&:after {
-		z-index: 1;
 	}
 	
-	@include md-max {
-		&:before,
-		&:after {
-
-		}		
-	}
-
-	> .grid {
-		z-index: 5;
-	}
-	padding-top:50px;
-	padding-bottom:50px;
-
 	&.header {
-		padding-top:5px;
+		display:flex;
+		flex-direction: column;
+		min-height:100vh;
+		padding-top: 0;
+
+		.menu-items {
+			width:100%;
+			flex-shrink:0;
+			z-index: 5;
+		}
+
+	}
+	.shadow {
+		$depth: 8px;
+	    box-shadow: inset 0px -#{$depth} $depth -#{$depth} $quantum_gray;
 	}
 	&.hero {
-		position: relative;
-		z-index: 4;
-	}
+		text-align: center;
+		display: flex;
+		flex-grow: 1;
+		flex-shrink: 0;
+		justify-content: center;
+		flex-direction:column;
+		padding:0;
 
+		position: relative;
+
+		> .grid {
+			display:block;
+			margin: 0 auto;
+			width: 100%;
+		}
+	}
 }
 
 
@@ -74,9 +89,8 @@ img {
 	&:after { background-color:#FFF; }
 }
 .wrapper.hero {
-	padding-top: 50px;
-	padding-bottom: 200px;
 	background-color:transparent;
+
 	&:before { background-color:#FFF; }
 	&:after { background-color:#FFF; }
 }
@@ -260,23 +274,6 @@ pre.highlight {
 		margin:0 auto;
 		font-weight: 400;
 	}
-	.video {
-		position: relative;
-		padding-bottom: 56.25%; /* 16:9 */
-		height: 0;
-		width:100%;
-		margin-top: 30px;
-
-	}
-	.video iframe {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		box-shadow: $shadow;
-	}
-
 }
 nav a {
 	padding:5px 10px;
@@ -287,7 +284,6 @@ nav a {
 
 .wrapper.hero {
 	text-align:center;
-	padding-top: 100px;
 
 	h1 {
 		font-weight: 300;
@@ -304,108 +300,7 @@ nav a {
 	}
 	.cta {
 		margin-top: 20px;
-		// width:100%;
 	}
-}
-
-
-
-
-
-.particles {
-	position: absolute;
-	overflow: visible;
-	top:0;
-	width:100%; height:100%;
-	z-index: 3;
-	pointer-events:none;
-
-	&.background {
-		z-index:0;
-		overflow:hidden;
-	}
-	> div {
-		display:block;
-		position:absolute;
-		top:0; left:-500px;
-		pointer-events:none;
-
-		&.fliph {
-			transform: scaleX(-1);
-		}
-	}
-}
-@include md {
-	.magnifyingglass {
-		width:400px; height:355px;
-		background-image:url(/assets/particles/magnifyingglass.png);
-	}
-	.pencil {
-		width:400px; height:458px;
-		background-image:url(/assets/particles/pencil.png);
-	}
-	.speechbubble {
-		width:400px; height:278px;
-		background-image:url(/assets/particles/speechbubbles.png);
-	} 
-	.saturn {
-		width:400px; height:129px;
-		background-image:url(/assets/particles/saturn.png);
-	}
-	.rocket {
-		width:400px; height:487px;
-		background-image:url(/assets/particles/rocket.png);
-	}
-	.hat {
-		width:500px; height:284px;
-		background-image:url(/assets/particles/hat.png);
-	}
-	.on {
-		width:459px; height:518px;
-		background-image:url(/assets/particles/on.png);
-	}
-	.bw1000 { 
-		width:387px; height:1000px;
-		background-image:url(/assets/particles/bw.h1000.small.png);
-	}
-	.bw500 {
-		width:193px; height:500px;
-		background-image:url(/assets/particles/bw.h500.small.png);
-	}
-	.particle {
-		width:400px; height:395px;
-		background-image:url(/assets/particles/particle.png);		
-	}
-
-	@supports (mask-image:url(/assets/particles/hat.png)) or (-webkit-mask-image:url(/assets/particles/hat.png)) {
-		.hat, .rocket, .pencil, .on {
-			background: linear-gradient(45deg, #3927ee, #1eeacc);
-			background-size: 400% 400%;
-			animation: greatient 3s ease infinite;			
-		}
-		.hat {
-			-webkit-mask-image:url(/assets/particles/hat.png);
-			mask-image:url(/assets/particles/hat.png);
-		}
-		.rocket {
-			-webkit-mask-image:url(/assets/particles/rocket.png);
-			mask-image:url(/assets/particles/rocket.png);			
-		}
-		.pencil {
-			-webkit-mask-image:url(/assets/particles/pencil.png);
-			mask-image:url(/assets/particles/pencil.png);				
-		}
-		.on {
-			-webkit-mask-image:url(/assets/particles/on.png);
-			mask-image:url(/assets/particles/on.png);				
-		}
-		@keyframes greatient { 
-		    0%{background-position:0% 50%}
-		    50%{background-position:100% 50%}
-		    100%{background-position:0% 50%}
-		}		
-	}
-
 }
 
 .grid.support {
@@ -438,15 +333,15 @@ nav a {
 
 
 @import 'layout/footer';
-// @import 'includes/youtube';
+
 @import 'components/header';
-// @import 'pages/downloads';
+@import 'components/particles';
+@import 'components/conferences';
+
 @import 'pages/faq';
 @import 'pages/roadmap';
 @import 'pages/homepage';
 @import 'pages/why';
 @import 'pages/team';
 @import 'pages/conferences';
-// @import 'pages/contact';
-// @import 'pages/media';
 @import 'pages/qip';

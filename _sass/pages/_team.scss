@@ -1,28 +1,4 @@
 body.team {
-	div.team {
-		&:before {
-			content:'';
-			display: block;
-			width:100%;
-			position: relative;
-			overflow: hidden;
-		}
-
-		&:after {
-			content:'';
-			display: block;
-			width:100%;
-			
-			position: relative;
-			overflow: hidden;
-		}
-	}
-	.wrapper.events:before {
-			margin-top: 250px;
-			top:0px;
-	}
 	.team-members {
-		z-index: 10;
 	}
-	
 }

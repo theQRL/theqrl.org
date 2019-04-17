@@ -1,0 +1,95 @@
+.particles {
+	position: absolute;
+	overflow: visible;
+	top:0;
+	width:100%; height:100%;
+	pointer-events:none;
+	z-index: 2;
+
+	&.background {
+		overflow:hidden;
+		z-index: 0;
+	}
+	> div {
+		display:block;
+		position:absolute;
+		top:0; left:-500px;
+		pointer-events:none;
+
+		&.fliph {
+			transform: scaleX(-1);
+		}
+	}
+}
+@include lg {
+	.magnifyingglass {
+		width:400px; height:355px;
+		background-image:url(/assets/particles/magnifyingglass.png);
+	}
+	.pencil {
+		width:400px; height:458px;
+		background-image:url(/assets/particles/pencil.png);
+	}
+	.speechbubble {
+		width:400px; height:278px;
+		background-image:url(/assets/particles/speechbubbles.png);
+	} 
+	.saturn {
+		width:400px; height:129px;
+		background-image:url(/assets/particles/saturn.png);
+	}
+	.rocket {
+		width:400px; height:487px;
+		background-image:url(/assets/particles/rocket.png);
+	}
+	.hat {
+		width:500px; height:284px;
+		background-image:url(/assets/particles/hat.png);
+	}
+	.on {
+		width:459px; height:518px;
+		background-image:url(/assets/particles/on.png);
+	}
+	.bw1000 { 
+		width:387px; height:1000px;
+		background-image:url(/assets/particles/bw.h1000.small.png);
+	}
+	.bw500 {
+		width:193px; height:500px;
+		background-image:url(/assets/particles/bw.h500.small.png);
+	}
+	.particle {
+		width:400px; height:395px;
+		background-image:url(/assets/particles/particle.png);		
+	}
+
+	@supports (mask-image:url(/assets/particles/hat.png)) or (-webkit-mask-image:url(/assets/particles/hat.png)) {
+		.hat, .rocket, .pencil, .on {
+			background: linear-gradient(45deg, #3927ee, #1eeacc);
+			background-size: 400% 400%;
+			animation: greatient 3s ease infinite;			
+		}
+		.hat {
+			-webkit-mask-image:url(/assets/particles/hat.png);
+			mask-image:url(/assets/particles/hat.png);
+		}
+		.rocket {
+			-webkit-mask-image:url(/assets/particles/rocket.png);
+			mask-image:url(/assets/particles/rocket.png);			
+		}
+		.pencil {
+			-webkit-mask-image:url(/assets/particles/pencil.png);
+			mask-image:url(/assets/particles/pencil.png);				
+		}
+		.on {
+			-webkit-mask-image:url(/assets/particles/on.png);
+			mask-image:url(/assets/particles/on.png);				
+		}
+		@keyframes greatient { 
+		    0%{background-position:0% 50%}
+		    50%{background-position:100% 50%}
+		    100%{background-position:0% 50%}
+		}		
+	}
+
+}
