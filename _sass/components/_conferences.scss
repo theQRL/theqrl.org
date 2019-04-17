@@ -1,7 +1,7 @@
 $grid_gap: $grid_margin;
 
 .grid > .component-conferences {
-			padding:0;
+	padding:0;
 }
 
 .component-conferences {
@@ -40,49 +40,3 @@ $grid_gap: $grid_margin;
 		}
 	}
 }
-
-
-	// .grid.conference {
-	// 	color:#FFF;
-	// 	padding:$grid_padding;
-
-
-	// 	> div {
-	// 		box-shadow: $shadow;
-	// 		background-color:#160529;
-	// 		grid-template-columns: 1fr;
-	// 		width:100%;
-
-	// 		@include md {
-	// 			grid-template-columns: 275px 1fr 175px;
-	// 		}
-	// 	}
-	// 	> div > div:last-child {
-	// 		display: grid;
-	// 		align-items: center;
-	// 		text-align: center;
-
-	// 	}
-	// 	.cta {
-	// 		margin:0 auto;
-	// 		white-space: nowrap;
-			
-	// 		@include sm-max {
-	// 			width:100%;
-	// 		}
-	// 	}
-	// 	.description {
-
-	// 	}
-	// 	h2 {
-	// 		color:#FFF;
-	// 		font-weight: 500;
-	// 		margin:0;
-	// 	}
-	// 	p {
-	// 		color:#FFF;
-	// 		margin:0;
-	// 		font-family: $heading_font;
-	// 		font-weight: 400;
-	// 	}
-	// }
