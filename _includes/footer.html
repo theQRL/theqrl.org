@@ -1,35 +1,3 @@
-<!-- <div class="wrapper events">
-  <div class="grid w12">
-      <div class="header-section">
-        <h2>Catch the team talking at</h2>
-        <h3>Events and Conferences</h3>
-      </div>
-  </div>
-  <div class="grid w6 footer-conferences">
-        {% assign now = site.time | date: '%s' | plus: 0 %}
-
-      {% assign conference = site.conferences | sort: 'date' %}
-      {% for conf in conference %}
-      {% assign date = conf.dateend | date: '%s' | plus: 0  %}
-      {% if date > now %}  
-      <div class="footer-conference">
-        <div class="image">
-          <img src="/assets/conferences/{{ conf.image }}" alt="">
-        </div>
-        <div>
-          <h2>{{ conf.title }}</h2>
-          <p>{{ conf.datestart | date_to_string }} - {{ conf.dateend | date_to_string }}</p>
-          <p>{{ conf.where }}</p>
-        </div>
-        <div>
-          <a class="cta" href="{{ conf.url }}">More Information</a>
-        </div>
-      </div>
-      {% endif %}
-      {% endfor %}
-  </div>
-</div> -->
-
 <div class="wrapper footer">
   <div class="grid w12">
     <div>

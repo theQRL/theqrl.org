@@ -49,3 +49,7 @@
 - name: "Hash-based Signatures: An illustrated Primer"
   category: further-reading
   link: https://blog.cryptographyengineering.com/2018/04/07/hash-based-signatures-an-illustrated-primer/
+
+- name: '"Oops, I did it again" -- Security of One-Time Signatures under Two-Message Attacks'
+  category: cryptography
+  link: https://eprint.iacr.org/2016/1042

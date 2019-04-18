@@ -1,0 +1,42 @@
+$grid_gap: $grid_margin;
+
+.grid > .component-conferences {
+	padding:0;
+}
+
+.component-conferences {
+	margin: $grid_margin;
+	display: grid;
+	align-items: stretch;
+	background-color: $quantum_deep;
+    grid-column-gap: $grid_gap;
+    grid-row-gap: $grid_gap;
+
+	grid-template-columns: 1fr;
+	box-shadow: $shadow;
+
+	@include md {
+		grid-template-columns: 275px 1fr 175px;
+	}
+
+	h1, h2, p {
+		color:#FFF;
+	}
+
+	> div {
+		display:flex;
+		justify-content: center;
+		flex-direction: column;
+		text-align: center;
+		padding: $grid_gap;
+	}
+
+	.image {
+		background-color:#FFF;
+
+		img {
+			width:100%;
+			max-width: 100%;
+		}
+	}
+}

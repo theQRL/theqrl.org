@@ -24,8 +24,6 @@ $variance: 500;
 		background-repeat: no-repeat;
 		width:($orb_size) + px;
 		height:($orb_size) + px;
-		z-index:1;
-
 	}
 }
 
@@ -69,7 +67,6 @@ body.roadmap {
  		}
  		h3, .date , p {
  			position: relative;
- 			z-index:5;
  		} 
 
 		@include md {
@@ -99,32 +96,4 @@ body.roadmap {
 		}
 
 	} 
-	.wrapper {
-		&:nth-child(3) {
-			// padding-top:0;
-			// padding-bottom:0;
-
-			&:before {
-				background-color:#F3F3F3;
-				content:'';
-				display: block;
-				width:100%;
-				position: relative;
-				// height:150px; top:-150px; margin-bottom:-150px;
-				overflow: hidden;
-				// @include angle-edge($angle: 2, $angle-position-y: 'top', $angle-position-x: 'right');
-			}
-			&:after {
-				content:'';
-				background-color:#F3F3F3;
-				display: block;
-				width:100%;
-				
-				position: relative;
-				// height:150px; bottom:-150px; margin-top:-150px; margin-bottom: 170px;
-				overflow: hidden;
-				// @include angle-edge($angle: 2.5, $angle-position-y: 'bottom', $angle-position-x: 'left');
-			}
-		}
-	}
 }

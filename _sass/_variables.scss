@@ -1,12 +1,13 @@
 /* Layout */
 $grid: 12;
-$grid_margin: 1em;
+$grid_margin: 0.5em;
+$grid_padding: 0.5em;
 $grid_maxwidth: 960px;
 
-$screen-sm-min: 576px;
-$screen-md-min: 768px;
-$screen-lg-min: 992px;
-$screen-xl-min: 1200px;
+$screen-sm: 576px;
+$screen-md: 718px;
+$screen-lg: 992px;
+$screen-xl: 1320px;
 
 /* Style */
 $heading_font: 'Roboto';
@@ -31,30 +32,27 @@ $shadow:0px 3px 10px rgba(0, 0, 0, 0.3);
 
 
 // Small devices
-@mixin sm {
-   @media (min-width: #{$screen-sm-min}) { @content; }
+@mixin sm { 
+	@media (min-width: #{$screen-sm}) { @content; } 
 }
-// For Things just on mobile devices
 @mixin sm-max {
-   @media (max-width: #{$screen-sm-min}) { @content; }
+   @media (max-width: #{$screen-sm}) { @content; }
 }
 
-// Medium devices
 @mixin md {
-   @media (min-width: #{$screen-md-min}) { @content; }
+   @media (min-width: #{$screen-md}) { @content; }
 }
 @mixin md-max {
-   @media (max-width: #{$screen-md-min}) { @content; }
-}
-// Large devices
-@mixin lg {
-   @media (min-width: #{$screen-lg-min}) { @content; }
-}
-@mixin lg-max {
-   @media (max-width: #{$screen-lg-min}) { @content; }
+   @media (max-width: #{$screen-md}) { @content; }
 }
 
-// Extra large devices
+@mixin lg {
+   @media (min-width: #{$screen-lg}) { @content; }
+}
+@mixin lg-max {
+   @media (max-width: #{$screen-lg}) { @content; }
+}
+
 @mixin xl {
-   @media (min-width: #{$screen-xl-min}) { @content; }
+   @media (min-width: #{$screen-xl}) { @content; }
 }
