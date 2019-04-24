@@ -53,3 +53,7 @@
 - name: '"Oops, I did it again" -- Security of One-Time Signatures under Two-Message Attacks'
   category: cryptography
   link: https://eprint.iacr.org/2016/1042
+
+- name: "ISSA Journal: Application of Quantum Technologies for Practical Tasks"
+  category: citations
+  link: https://issa-cos.org/wp-content/uploads/2017/11/ISSA_Journal_November_2017.pdf
