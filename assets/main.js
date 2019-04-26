@@ -89,7 +89,7 @@ $(document).ready(function() {
                 width: parent_position.width
             }
 
-            var child = {
+            var child = { 
                 top: child_position.y + scroll_top,
                 right: child_position.left + child_position.width,
                 left: child_position.left,
@@ -99,14 +99,14 @@ $(document).ready(function() {
             }
 
 
-            // Where are we going to attach this?
-            var top = parent.top;
-            var left = parent.left;
+            // Where are we going to attach this? 
+            var top = parent.top; 
+            var left = parent.left; 
 
             switch(attach_position[0]) {
                 case 'top':
                     top = top;
-                break;
+                break; 
                 case 'center':
                     top = top + parent.height / 2;
                 break;
@@ -293,54 +293,23 @@ $(document).ready(function() {
     if($('body').hasClass('homepage')) {
         // Github releases API
         $.getJSON("/assets/qrlwallet.json").done(function (data) {
-
-            // Walk through releases until there's a release that has assets to download
             for (var i = 0; i < data.length; i++) {
-                if(data[i].assets.length != 0) {
-
-                    // apply them to the specific link
-                    data[i].assets.forEach(function(release) {
-                        if(release.browser_download_url.indexOf('.deb') !== -1) {
-                            $('.dl-linux').attr('href',release.browser_download_url);
-                        }
-                        if(release.browser_download_url.indexOf('.dmg') !== -1) {
-                            $('.dl-mac').attr('href',release.browser_download_url);
-                        }
-                        if(release.browser_download_url.indexOf('.msi') !== -1) {
-                            $('.dl-windows').attr('href',release.browser_download_url);
-                        }
-                    });
-                    break
+                if(data[i].indexOf('.deb') !== -1 && navigator.appVersion.indexOf("Linux") != -1) {
+                    $('#wallet-download').attr('href', data[i]);
+                    $('#wallet-download').text($('#wallet-download').text() + ' (.deb)');
+                    break;
                 }
-            }
-
-            // Generic download with system discovery
-            // Walk through releases until there's a release that has assets to download
-            for (var i = 0; i < data.length; i++) {
-                if(data[i].assets.length != 0) {
-
-                    // When there's assets to download, do a string search and fill in the blanks
-                    data[i].assets.forEach(function(release) {
-                        if(release.browser_download_url.indexOf('.deb') !== -1 && navigator.appVersion.indexOf("Linux") != -1) {
-                            $('#wallet-download').attr('href', release.browser_download_url);
-                            $('#wallet-download').text($('#wallet-download').text() + ' (.deb)');
-                        }
-                        if(release.browser_download_url.indexOf('.dmg') !== -1 && navigator.appVersion.indexOf("Mac") != -1) {
-                            $('#wallet-download').attr('href', release.browser_download_url);
-                            $('#wallet-download').text($('#wallet-download').text() + ' (.dmg)');
-
-                        }
-                        if(release.browser_download_url.indexOf('.msi') !== -1 && navigator.appVersion.indexOf("Win") != -1) {
-                            $('#wallet-download').attr('href', release.browser_download_url);
-                            $('#wallet-download').text($('#wallet-download').text() + ' (.msi)');
-
-                        }
-                    });
+                if(data[i].indexOf('.dmg') !== -1 && navigator.appVersion.indexOf("Mac") != -1) {
+                    $('#wallet-download').attr('href', data[i]);
+                    $('#wallet-download').text($('#wallet-download').text() + ' (.dmg)');
+                    break;
+                }
+                if(data[i].indexOf('.msi') !== -1 && navigator.appVersion.indexOf("Win") != -1) {
+                    $('#wallet-download').attr('href', data[i]);
+                    $('#wallet-download').text($('#wallet-download').text() + ' (.msi)');
                     break;
                 }
             }
-
-
         });
     }
 
