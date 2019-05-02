@@ -8,7 +8,7 @@ comments-uri: https://github.com/theQRL/qips/pull/2
 status: Open
 type: Mining
 created: 2018-10-30
-comments-count: 81
+comments-count: 82
 slug: Migrate to Cryptonote v8
 ---
 

@@ -2,15 +2,16 @@
 qip: 008
 layer: qrl-node
 title: Ephemeral message format proposal
-slug: Ephemeral message format proposal
-author: Kaushal Singh, Peter Waterland
-comments-summary:
-comments-count: 5 
+author: Peter Waterland, Kaushal Singh
+comments-summary: 
 comments-uri: https://github.com/theQRL/qips/pull/17
 status: draft
 type: extension
 created: 2019-04-24
+comments-count: 11
+slug: Ephemeral message format proposal
 ---
+
 
 # Ephemeral message format proposal 
 
@@ -19,11 +20,12 @@ To extend functionality of the QRL beyond the ledger an off-chain network messag
 
 A simple initial format with some DDOS protection is suggested, allowing custom implementations from users or applications wishing to interact with the QRL ledger/network.
 
+
 ## Specification
 
 A suggested message format is: 
 
-Ephemeral message | ID | PAYLOAD | TTL | BLOCKHASH | POW
+Ephemeral message | ID | PAYLOAD |TTL |BLOCKHASH | POW
 --- | --- | --- | --- | --- | ---
 
 The **ID** field is a 64 byte identifier. It may be accessed as a complete ID field or two 32 byte separate identifiers (ID0 and ID1). The ID is intended to be a unique nonce.
@@ -35,6 +37,8 @@ The **payload** is the body of the message containing user data. The precise con
 The first 4 bytes of a recent QRL **block-header hash** must be supplied as a rough message timestamp. The chance of a random 4 byte guess being successful is `allowed_ephemeral_message_blockdepth/2^32`. In combination with POW this prevents a determined attacker grinding out a huge number of messages over a long period of time which are then used to flood the network.
 
 **POW**. Any broadcast protocol is susceptible to spam and each message passed through the network will require a variable amount of 'work' to be performed and verified via a supplied pow hash prepended by a byte pow algorithm identifier. This adds a small amount of computation time to confirm message validity. Furthermore, the amount of work required is linked to the TTL expiry timestamp - the longer the shelf-life of the message, the greater work must be expended to attain validity. The pow is performed on a cryptographic hash digest of the message `(SHA2_256(ID+PAYLOAD+TTL+BLOCKHASH))`, with the resultant pow hash (and prepended byte) appended as the final field of the message. 
+
+
 
 ## Implementation
 
@@ -48,7 +52,7 @@ New qrl-node configuration parameters for:
 1.  valid ephemeral message block depth limit (integer value from current blockheight) 
 1.  specific pow algorithm support flag
 1.  proof of work variables for each algorithm in specification
-	- numerical value for minimum valid computed work per message prior to adjustment
-	- numerical factor applied based upon TTL timestamp
+- numerical value for minimum valid computed work per message prior to adjustment
+- numerical factor applied based upon TTL timestamp
 
 Furthermore, to allow encrypted data channels via ephemeral messages across the network, lattice tx featuring embedded Dilithium and Kyber pk's must be activated. This requires a hard fork upgrade to all network nodes. Specific end-end data channel cryptographic implementations will be discussed in future QIPs.
