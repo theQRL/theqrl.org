@@ -57,3 +57,11 @@
 - name: "ISSA Journal: Application of Quantum Technologies for Practical Tasks"
   category: citations
   link: https://issa-cos.org/wp-content/uploads/2017/11/ISSA_Journal_November_2017.pdf
+
+- name: "Comments in 2012 about the 1979 paper: A Certified Digital Signature"
+  category: further-reading
+  link: http://www.merkle.com/papers/Certified1979.pdf
+
+- name: "The Impact of Quantum Computing on Present Cryptography"
+  category: cryptography
+  link: https://arxiv.org/pdf/1804.00200.pdf
