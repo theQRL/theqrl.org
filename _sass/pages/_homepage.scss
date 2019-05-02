@@ -118,6 +118,10 @@ body.homepage {
 			width:auto;
 			max-width: none;
 		}
+		&.minor img {
+			height:30px;
+			filter:grayscale(100%);
+		}
 	}
 	.downloads-list {
 		padding-left:0;
