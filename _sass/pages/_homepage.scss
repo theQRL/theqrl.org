@@ -25,6 +25,11 @@ body.homepage {
 	.wrapper.hero {
 		z-index: 4;
 	}
+	.wrapper {
+		&.header {
+			min-height: 100vh;
+		}
+	}
 	#globe {
 		position: absolute;
 		transition: all 2s;
