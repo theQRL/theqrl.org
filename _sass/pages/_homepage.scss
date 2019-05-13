@@ -107,6 +107,7 @@ body.homepage {
 		grid-column: span 12;
 		text-align:center;
 		padding-left: 0;
+
 		li {
 			display: inline;
 			list-style: none;
@@ -117,7 +118,7 @@ body.homepage {
 			}
 		}
 		img {
-			height:50px;
+			height:36px;
 			margin:15px;
 			filter:grayscale(50%);
 			width:auto;
@@ -126,6 +127,10 @@ body.homepage {
 		&.minor img {
 			height:30px;
 			filter:grayscale(100%);
+		}
+		&.major img {
+			height:43px;
+			filter:grayscale(0%)
 		}
 	}
 	.downloads-list {

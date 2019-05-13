@@ -168,7 +168,20 @@ layout: default
   <div class="grid asmentionedin">
     <div class="w12">
       <div class="header-section">
-      <h3>Featured in</h3>
+      <h4>Integrated with</h4>
+      </div>
+      <ul class="mentions major">
+      {% for item in site.data.integrations %}
+            <li>
+              <a href="{{ item.link }}" target="_blank">
+                <img data-src="/assets/integrations/{{ item.image }}">
+              </a>
+            </li>
+      {% endfor %}
+      </ul>
+
+      <div class="header-section">
+      <h4>Featured in</h4>
       </div>
       <ul class="mentions">
       {% assign mentions = site.media | sort: 'date' | reverse | where:"tags","mentions" | where:"tags","featured" %}
@@ -197,6 +210,8 @@ layout: default
         {% endif %}
       {% endfor %}
       </ul>
+
+
     </div>
   </div>
 <a name="features"></a>
