@@ -58,8 +58,8 @@
   category: citations
   link: https://issa-cos.org/wp-content/uploads/2017/11/ISSA_Journal_November_2017.pdf
 
-- name: "Comments in 2012 about the 1979 paper: A Certified Digital Signature"
-  category: further-reading
+- name: "Ralph Merkle - A Certified Digital Signature (1979)"
+  category: seminal
   link: http://www.merkle.com/papers/Certified1979.pdf
 
 - name: "The Impact of Quantum Computing on Present Cryptography"
