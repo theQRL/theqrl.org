@@ -8,7 +8,7 @@ comments-uri: https://github.com/theQRL/qips/pull/17
 status: draft
 type: extension
 created: 2019-04-24
-comments-count: 11
+comments-count: 12
 slug: Ephemeral message format proposal
 ---
 
