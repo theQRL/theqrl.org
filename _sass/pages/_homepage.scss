@@ -75,6 +75,10 @@ body.homepage {
 
 	.asmentionedin {
 		padding:10px;
+
+		a {
+			text-decoration:none;
+		}
 	}
 	.asmentionedin > div {
 		grid-column: span 12 !important;
