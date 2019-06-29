@@ -65,3 +65,7 @@
 - name: "The Impact of Quantum Computing on Present Cryptography"
   category: cryptography
   link: https://arxiv.org/pdf/1804.00200.pdf
+
+- name: "A survey of blockchain from security perspective"
+  category: citations
+  link: https://link.springer.com/article/10.1007/s42786-018-00002-6
