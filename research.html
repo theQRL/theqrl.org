@@ -77,7 +77,22 @@ permalink: /research/
       {% endfor %}
       </ul>
 
+      <div class="header-section">
+        <h2>NIST</h2>
+        <p></p>
+      </div>      
 
+      <ul>
+      {% for paper in site.data.papers %}
+        {% if paper.category == 'NIST' %}
+          <li>
+            <strong>{{ paper.name }}</strong>
+            <a href="{{ paper.link }}">{{ paper.link }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+      </ul>
+      
       <div class="header-section">
         <h2>Cryptographic Fundamentals</h2>
         <p></p>
