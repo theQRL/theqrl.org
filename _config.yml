@@ -74,7 +74,8 @@ kramdown:
   syntax_highlighter: rouge
 future: true
 safe: false
-
+plugins:
+  - jekyll-sitemap
 # Build settings
 markdown: kramdown
 theme: minima
