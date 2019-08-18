@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://theqrl.org/sitemap.xml

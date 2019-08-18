@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: QRL - The Quantum Resistant Ledger
-email: your-email@domain.com
+title: "QRL: The Quantum Resistant Ledger"
+email: info@theqrl.org
 description: > # this means to ignore newlines until "baseurl:"
   The Quantum Resistant Ledger
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -74,7 +74,8 @@ kramdown:
   syntax_highlighter: rouge
 future: true
 safe: false
-
+plugins:
+  - jekyll-sitemap
 # Build settings
 markdown: kramdown
 theme: minima
