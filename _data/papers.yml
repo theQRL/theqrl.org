@@ -1,3 +1,7 @@
+- name: A survey of blockchain from security perspective
+  category: citations
+  link: https://doi.org/10.1007/s42786-018-00002-6
+
 - name: Post-quantum blockchain using one-time signature chains
   category: citations
   link: https://pdfs.semanticscholar.org/f38c/562c21fa1a94871e5f577669f7c4b9520632.pdf 
