@@ -71,7 +71,7 @@ keywords:
     <div class="w12">
       <ul class="markets">
       {% for market in site.data.markets %}
-        <li><a href="{{ market.url }}">
+        <li><a href="{{ market.link }}">
           <img src="/assets/markets/{{ market.name | downcase }}.png" alt="{{ market.name }}">
         </a></li>
       {% endfor %}
@@ -83,13 +83,13 @@ keywords:
 
 
 <style>
-.markets {
+ul.markets {
     text-align:center;
 }
-.markets li {
+ul.markets li {
   display: inline-block;
 }
-.markets li img {
+ul.markets li img {
   max-height: 30px;
   margin:10px;
 }
