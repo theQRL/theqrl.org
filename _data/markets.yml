@@ -1,0 +1,15 @@
+- name: Cointiger
+  markets: BTC-QRL
+  link: https://www.cointiger.com/en-us/#/trade_center?coin=qrl_btc
+
+- name: Bittrex
+  markets: BTC-QRL
+  link: https://international.bittrex.com/Market/Index?MarketName=BTC-QRL
+
+- name: Cryptofacil
+  markets: BTC-QRL
+  link: https://cryptofacil.com/trading-view/167/BTC-QRL
+
+- name: Upbit
+  markets: BTC-QRL
+  link: https://sg.upbit.com/exchange?code=CRIX.UPBIT.BTC-QRL
