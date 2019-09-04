@@ -1,33 +1,13 @@
-{% 
-assign tracked = "" 
-assign total_contributions = ""
-assign unique_contributions = ""
-%}
-
-
-{% for contributor in site.data.contributors %}
-  {% if tracked contains contributor.login %}
-
-  {% else %}
-    {% if contributor.contributions >= 3 %}
-      {% assign tracked = tracked | append: contributor.login | append:":" | append:contributor.id | append: ","%}
-    {% endif %}
-  {% endif %}
-{% endfor %}
-
-
-{% assign contributors = tracked | replace:',,',',' | replace:',,',',' | split:',' %}
-
 <ul class="contributors list">
-  {% for contributor in contributors %}
-    {% assign user = contributor | split:':' %}
-    {% if user[0] %}
+  {% assign users = site.data.contributions | sort:'contributions' | reverse %}
+  {% for user in users %}
+
       <li>
-        <a href="https://github.com/{{ user[0] }}">
-        <img data-src="https://avatars3.githubusercontent.com/u/{{ user[1] }}?s=26">
-        <span>{{ user[0] }}</span>
-        </a>
-      </li>
-    {% endif %}
+        <a href="https://github.com/{{ user.login }}">
+        <img data-src="https://avatars3.githubusercontent.com/u/{{ user.id }}?s=26">
+        <span>{{ user.login }}</span>
+        </a> 
+      </li> 
   {% endfor %}
 </ul>
+<p style="text-align: center">7,888 total contributions between {{ users | size }} contributors over 29 repositories</p>
