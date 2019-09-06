@@ -78,7 +78,8 @@ keywords:
 
       <ul>
       {% for paper in site.data.papers %}
-        {% if paper.category == 'citations' %}
+        {% assign category = paper.category | downcase %}
+        {% if category == 'citations' %}
           <li>
             <strong>{{ paper.name }}</strong>
             <a href="{{ paper.link }}">{{ paper.link }}</a>
@@ -94,7 +95,8 @@ keywords:
 
       <ul>
       {% for paper in site.data.papers %}
-        {% if paper.category == 'NIST' %}
+        {% assign category = paper.category | downcase %}
+        {% if category == 'nist' %}
           <li>
             <strong>{{ paper.name }}</strong>
             <a href="{{ paper.link }}">{{ paper.link }}</a>
@@ -110,7 +112,8 @@ keywords:
 
       <ul>
       {% for paper in site.data.papers %}
-        {% if paper.category == 'cryptography' %}
+        {% assign category = paper.category | downcase %}
+        {% if category == 'cryptography' %}
           <li>
             <strong>{{ paper.name }}</strong>
             <a href="{{ paper.link }}">{{ paper.link }}</a>
@@ -125,7 +128,8 @@ keywords:
       </div>
       <ul>
       {% for paper in site.data.papers %}
-        {% if paper.category == 'seminal' %}
+        {% assign category = paper.category | downcase %}
+        {% if category == 'seminal' %}
           <li>
             <strong>{{ paper.name }}</strong>
             <a href="{{ paper.link }}">{{ paper.link }}</a>
@@ -139,7 +143,8 @@ keywords:
       </div>
       <ul>
       {% for paper in site.data.papers %}
-        {% if paper.category == 'further-reading' %}
+        {% assign category = paper.category | downcase %}
+        {% if category == 'further-reading' %}
           <li>
             <strong>{{ paper.name }}</strong>
             <a href="{{ paper.link }}">{{ paper.link }}</a>
