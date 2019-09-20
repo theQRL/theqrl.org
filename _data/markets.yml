@@ -13,3 +13,7 @@
 - name: Upbit
   markets: BTC-QRL
   link: https://sg.upbit.com/exchange?code=CRIX.UPBIT.BTC-QRL
+
+- name: Biteeu
+  markets: BTC-QRL
+  link: https://trade.biteeu.com/search
