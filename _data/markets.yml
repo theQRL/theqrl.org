@@ -17,3 +17,8 @@
 - name: Biteeu
   markets: BTC-QRL
   link: https://trade.biteeu.com/search
+
+- name: "VCC.exchange"
+  markets: BTC-QRL
+  link: https://vcc.exchange/exchange/basic?currency=btc&coin=qrl
+  logo: "vcc.exchange.svg"
