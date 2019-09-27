@@ -22,3 +22,13 @@
   markets: BTC-QRL
   link: https://vcc.exchange/exchange/basic?currency=btc&coin=qrl
   logo: "vcc.exchange.svg"
+
+- name: "Changenow.io"
+  markets: BTC-QRL
+  link: https://changenow.io/exchange?amount=1&to=qrl
+  logo: "changenow.svg"
+
+- name: "Coinswitch"
+  markets: BTC-QRL
+  link: https://coinswitch.co/coins/bitcoin/bitcoin-to-quantum-resistant-ledger
+  logo: "coinswitch.svg"
