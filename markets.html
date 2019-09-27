@@ -72,7 +72,11 @@ keywords:
       <ul class="markets">
       {% for market in site.data.markets %}
         <li><a href="{{ market.link }}">
-          <img src="/assets/markets/{{ market.name | downcase }}.png" alt="{{ market.name }}">
+          {% if market.logo %}
+            <img src="/assets/markets/{{ market.logo }}" alt="{{ market.name }}">
+          {% else %}
+            <img src="/assets/markets/{{ market.name | downcase }}.png" alt="{{ market.name }}">
+          {% endif %}
         </a></li>
       {% endfor %}
         
@@ -90,7 +94,10 @@ ul.markets li {
   display: inline-block;
 }
 ul.markets li img {
-  max-height: 30px;
-  margin:10px;
+  margin: 10px;
+  height: 90px;
+  background-color: #FFF;
+  padding: 15px;
+  border: 1px solid #EEF;
 }
 </style>
