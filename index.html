@@ -378,35 +378,9 @@ keywords:
 </div>
 
 
-<div class="wrapper intro">
-  <div class="grid w12"> 
-   <div class="header-section">
-      <h3>Conferences we attended</h3>
-    </div>
 
-    {% assign now = site.time | date: '%s' | plus:0 %}
-    {% assign conference = site.conferences | sort: 'date' | reverse %}
-    {% for conf in conference %}
-      {% assign date = conf.dateend | date: '%s' | plus: 0  %}
-      {% if date < now %}  
-        <div class="component-conferences">
-            <div class="image">
-              <img data-src="/assets/conferences/{{ conf.image }}" alt="">
-            </div>
-            <div class="description">
-              <h2>{{ conf.title }}</h2>
-              <p>{{ conf.datestart | date_to_string }} - {{ conf.dateend | date_to_string }}</p>
-              <p>{{ conf.where }}</p>
-            </div>
-            <div>
-              <a class="cta" href="{{ conf.url }}">More Info</a>
-            </div>
-        </div>
-      {% endif %}
-    {% endfor %}
 
-  </div>
-</div>
+
 
 
 
