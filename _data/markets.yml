@@ -32,3 +32,13 @@
   markets: BTC-QRL
   link: https://coinswitch.co/coins/bitcoin/bitcoin-to-quantum-resistant-ledger
   logo: "coinswitch.svg"
+
+- name: "stealthEX.io"
+  markets: "BTC-QRL"
+  link: https://stealthex.io/
+  logo: "stealthex.svg"
+
+- name: "SimpleSwap"
+  markets: "BTC-QRL"
+  link: https://simpleswap.io/
+  logo: "simpleswap.svg"
