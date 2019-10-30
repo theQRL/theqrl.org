@@ -1,3 +1,22 @@
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Light'), local('Roboto-Light'), url('/assets/fonts/roboto-light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), local('Roboto-Regular'), url('/assets/fonts/roboto.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Medium'), local('Roboto-Medium'), url('/assets/fonts/roboto-medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
 body {
 	font-family: $body_font;
 	position:relative;
@@ -346,3 +365,4 @@ nav a {
 @import 'pages/conferences';
 @import 'pages/qip';
 @import 'pages/research';
+@import 'pages/markets';
