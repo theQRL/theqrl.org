@@ -1,0 +1,1 @@
+Header set Content-Security-Policy  "default-src 'self'; img-src 'self' www.google-analytics.com avatars3.githubusercontent.com; script-src 'self' www.google-analytics.com; style-src 'self'; object-src 'none'"
