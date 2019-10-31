@@ -54,7 +54,7 @@
 						right:15px;
 					}
 					display:block;
-					content: url('https://icons.simplesvg.com/ion-ios-arrow-down.svg?color=%23dc255d&height=16');
+					content: url('/assets/ion-ios-arrow-down.pink.svg');
 					vertical-align: -0.125em;
 					width:18px; height:18px;
 					transition: all 0.3s;
@@ -168,7 +168,7 @@
 
 						&:after {
 							content:'' !important;
-							background: url('https://icons.simplesvg.com/ion-ios-arrow-down.svg?color=%23dc255d&height=16') no-repeat center center / contain;
+							background: url('/assets/ion-ios-arrow-down.pink.svg') no-repeat center center / contain;
 							height:18px;
 							top:23px !important;
 							right:15px !important;
