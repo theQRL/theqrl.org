@@ -21,7 +21,14 @@ body {
 	font-family: $body_font;
 	position:relative;
 } 
-
+.hero404 div.grid {
+  grid-template-columns: repeat(12, 1fr);
+}
+.hero404 div.main p {
+  text-align: left;
+  margin-left:0; margin-right:0;
+  max-width: initial;
+}
 .overflow {
 	position:relative;
 }
@@ -366,3 +373,4 @@ nav a {
 @import 'pages/qip';
 @import 'pages/research';
 @import 'pages/markets';
+@import 'pages/protocol';

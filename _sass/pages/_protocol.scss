@@ -1,0 +1,12 @@
+body.protocol-updates {
+	.qip {
+		padding:5px;
+		margin-bottom:10px;
+	}
+	.readmore > * {
+		display:none;
+	}
+	.readmore > p:first-of-type {
+		display:block !important;
+	}
+}
