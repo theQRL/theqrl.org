@@ -34,6 +34,9 @@ collections:
   roadmap:
     permalink: "/roadmap/:path/"
     output: true
+  grants:
+    permalink: "/grant/:path/"
+    output: true
   team:
     permalink: "/:collection/:path/"
     output: false
@@ -57,9 +60,9 @@ defaults:
   values:
     layout: media
 - scope:
-    path: _faq
+   path: _grants
   values:
-    layout: faq
+    layout: grant
 - scope:
     path: _roadmap
   values:
