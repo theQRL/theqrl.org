@@ -42,3 +42,8 @@
   markets: "BTC-QRL"
   link: https://simpleswap.io/
   logo: "simpleswap.svg"
+
+- name: "swapspace"
+  markets: "BTC-QRL"
+  link: https://swapspace.co
+  logo: "swapspace.png"

@@ -48,9 +48,11 @@ keywords:
       </div>
 
       <div class="grants">
-        <div class="grant">
+        {% assign grant = site.grants | sort: 'date' %}
+        {% for item in grant %}
 
-          <h2>Lattice-based threshold cryptography research grant</h2>
+        <div class="grant">
+          <h2>{{ item.title }}</h2>
 
           <div class="info">
             <ul>
@@ -61,52 +63,13 @@ keywords:
               <li>Positions: 2</li>
             </ul>
           </div>
-
-          <p>The QRL Foundation is seeking post-quantum cryptographers interested in studying lattice-based threshold cryptography and furthering cryptographic standards.</p>
-
-          <p>To apply, please send expressions of interest to <a href="mailto:hello@qrl.foundation">hello@qrl.foundation</a></p>
-
+          {{ item.content}}
+          
+          <a href="{{ item.url }}" class="cta">Direct Link</a>
+        
         </div>
+        {% endfor %}
 
-        <div class="grant">
-
-          <h2>Lattice-based ZK systems</h2>
-
-          <div class="info">
-            <ul>
-              <li>Application deadline: TBC</li>
-              <li>Funding start date: TBD</li>
-              <li>Funding type: Research</li>
-              <li>Compensation: Competitive</li>
-              <li>Positions: 2</li>
-            </ul>
-          </div>
-
-          <p>The QRL Foundation is seeking post-quantum cryptographers interested in studying lattice-based zero knowledge systems and furthering cryptographic standards.</p>
-
-          <p>To apply, please send expressions of interest to <a href="mailto:hello@qrl.foundation">hello@qrl.foundation</a></p>
-
-        </div>
-
-        <div class="grant">
-
-          <h2>ZK-STARKS</h2>
-
-          <div class="info">
-            <ul>
-              <li>Application deadline: TBC</li>
-              <li>Funding start date: TBD</li>
-              <li>Funding type: Research</li>
-              <li>Compensation: Competitive</li>
-              <li>Positions: 2</li>
-            </ul>
-          </div>
-
-          <p>The QRL Foundation is seeking cryptographers/mathematicians interested in studying zero knowledge scalable transparent arguments of knowledge (ZK-STARKS) constructions and direct applications to a post-quantum blockchain environment.</p>
-
-          <p>To apply, please send expressions of interest to <a href="mailto:hello@qrl.foundation">hello@qrl.foundation</a></p>
-
-        </div>
       </div>
 
     </div>

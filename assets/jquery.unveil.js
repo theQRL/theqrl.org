@@ -6,8 +6,9 @@
  * Licensed under the MIT license.
  * Copyright 2013 Luís Almeida
  * https://github.com/luis-almeida
+ *
+ * Modified by Jack Matier to include background sources
  */
-
 ;(function($) {
 
   $.fn.unveil = function(threshold, bg, callback) {

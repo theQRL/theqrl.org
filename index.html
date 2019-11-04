@@ -129,11 +129,15 @@ keywords:
       <ul class="mentions">
       {% assign mentions = site.media | sort: 'date' | reverse | where:"tags","mentions" | where:"tags","featured" %}
       {% for item in mentions %}
+        {% unless item.tags contains 'hidden' %}
+
             <li>
               <a href="{{ item.link }}" target="_blank">
                 <img data-src="/assets/media/{{ item.media_company }}.png">
               </a>
             </li>
+        {% endunless %}
+
       {% endfor %}
       </ul>
 
@@ -144,12 +148,15 @@ keywords:
       {% assign mentions = site.media | sort: 'date' | reverse | where:"tags","mentions" %}
       {% for item in mentions %}
         {% if item.tags contains "featured" %}
+
         {% else %}
+        {% unless item.tags contains 'hidden' %}
             <li>
               <a href="{{ item.link }}" target="_blank">
                 <img data-src="/assets/media/{{ item.media_company }}.png">
               </a>
             </li>
+        {% endunless %}
         {% endif %}
       {% endfor %}
       </ul>
