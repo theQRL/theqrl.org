@@ -7,6 +7,6 @@ compensation: "competitive"
 positions: 2
 ---
 
-The QRL Foundation is seeking cryptographers/mathematicians interested in studying zero knowledge scalable transparent arguments of knowledge (ZK-STARKS) constructions and direct applications to a post-quantum blockchain environment.</p>
+The QRL Foundation is seeking cryptographers/mathematicians interested in studying zero knowledge scalable transparent arguments of knowledge (ZK-STARKS) constructions and direct applications to a post-quantum blockchain environment.
 
 To apply, please send expressions of interest to [hello@qrl.foundation](mailto:hello@qrl.foundation)
