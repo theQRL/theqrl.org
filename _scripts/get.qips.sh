@@ -1,5 +1,14 @@
 #!/bin/bash
 
+echo "WAIT! This only works if all QIPS are merged to the main branch."
+echo "- If you manually added a QIP, this WILL remove current QIPS and lead to broken links outside of theqrl.org ecosystem"
+echo "- If they've been merged after, this could lead to a different url structure it's STRONGLY recommended double check the url structure first"
+
+read -p "Are you sure you want to proceed? " -n 1 -r
+echo    # (optional) move to a new line
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+
 echo "Removing current QIPS"
 rm -rf _qips/
 
@@ -48,3 +57,5 @@ unset IFS
 echo "- Removing front tab and spaces"
 find _qips -name '*.md' -exec sed -i 's/^\t*//g' {} \;
 find _qips -name '*.md' -exec sed -i 's/^\s*//g' {} \;
+
+fi
