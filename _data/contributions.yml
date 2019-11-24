@@ -1,13 +1,13 @@
 ---
 - id: 13854791
   login: cyyber
-  contributions: 2549
+  contributions: 2568
 - id: 13698520
   login: jleni
   contributions: 1826
 - id: 13877236
   login: surg0r
-  contributions: 381
+  contributions: 398
 - id: 9956122
   login: randomshinichi
   contributions: 217
@@ -19,13 +19,13 @@
   contributions: 46
 - id: 2139011
   login: jplomas
-  contributions: 898
+  contributions: 951
 - id: 30975753
   login: bidulemachin
   contributions: 14
 - id: 22141056
   login: fr1t2
-  contributions: 236
+  contributions: 246
 - id: 1280059
   login: bmoscon
   contributions: 7
@@ -58,13 +58,13 @@
   contributions: 2
 - id: 1199588
   login: ademcan
-  contributions: 182
+  contributions: 192
 - id: 22973130
   login: aidanbeale
   contributions: 1
 - id: 232510
   login: jackalyst
-  contributions: 373
+  contributions: 423
 - id: 23704769
   login: codacy-badger
   contributions: 3
@@ -82,10 +82,13 @@
   contributions: 1
 - id: 48735572
   login: hadacnot
-  contributions: 3
+  contributions: 4
 - id: 1894487
   login: ubidefeo
   contributions: 1
+- id: 39670406
+  login: herominers
+  contributions: 2
 - id: 34376228
   login: 1rV1N-git
   contributions: 1
@@ -112,7 +115,7 @@
   contributions: 1
 - id: 32208642
   login: doctor-gonzo
-  contributions: 4
+  contributions: 7
 - id: 31810306
   login: puck342
   contributions: 3
@@ -130,6 +133,9 @@
   contributions: 1
 - id: 19733683
   login: snyk-bot
+  contributions: 1
+- id: 49699333
+  login: dependabot[bot]
   contributions: 1
 - id: 53553783
   login: JSmithCrypto
