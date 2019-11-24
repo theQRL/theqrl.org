@@ -8,7 +8,7 @@ comments-uri: https://github.com/theQRL/qips/pull/21
 status: open
 type: extension
 created: 2019-11-09
-comments-count: 6
+comments-count: 13
 slug: Change Quanta emission to 2
 ---
 

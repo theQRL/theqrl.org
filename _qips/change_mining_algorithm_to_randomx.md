@@ -8,7 +8,7 @@ comments-uri: https://github.com/theQRL/qips/pull/20
 status: draft
 type: extension
 created: 2019-11-07
-comments-count: 8
+comments-count: 16
 slug: Change mining algorithm to RandomX
 ---
 
