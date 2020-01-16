@@ -20,6 +20,9 @@ grep -lr 'QIP: ' qips/ | sort -r | cat -n | while read n f; do
 	if [[ $f != *"TEMPLATE"* ]]; then
 		# Get QIP number
 		qipid=$(cat "$f" | grep 'QIP:' | grep -Eo '[0-9]+')
+		## trim all 0's
+		qipid=$(echo $qipid | sed 's/^0*//')
+		echo $qipid
 		qipid=$(printf "%03d" "$qipid")
 
 		# If there's no QIP Id...
