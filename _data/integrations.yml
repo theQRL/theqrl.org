@@ -1,15 +1,19 @@
 - name: Keybase
   link: https://keybase.io/
   image: keybase.png
+  alt: Keybase Logo
 
 - name: Ledger
   link: https://www.ledger.com/
   image: ledger.svg
+  alt: Ledger Logo
 
 - name: Google Play
   link: https://play.google.com/store/apps/details?id=com.theqrl
   image: google-play.svg
+  alt: Google Play Logo
 
 - name: iOS
   link: https://itunes.apple.com/us/app/qrl-wallet/id1458620542?ls=1&mt=8
   image: appstore.svg
+  alt: Appstore Logo

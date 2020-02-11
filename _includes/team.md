@@ -16,7 +16,7 @@
         {% if show_team == true %}
         <div>
           <div class="image">
-            <div class="lazy-bg" data-src="/assets/team/{{ team.image }}"></div>
+            <div class="lazy-bg" data-src="/assets/team/{{ team.image }}" alt="{{team.image}} logo"></div>
           </div>
           <div class="name">{{ team.title }}</div>
         </div>  

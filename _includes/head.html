@@ -1,14 +1,17 @@
 <head>
 	<meta charset="utf-8">
-  	{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-  	{% if page.keywords %}<meta name="keywords" content="{{ page.keywords | join: ', ' | escape }}">{% endif %}
+	{% if page.description %}
+	<meta name="description" content="{{ page.description }}">{% endif %}
+	{% if page.keywords %}
+	<meta name="keywords" content="{{ page.keywords | join: ', ' | escape }}">{% endif %}
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#0A0724" />
 	<title>
-	{% if page.title %}	{{ page.title }} - {% endif %} 
-	{{ site.title }}
+		{% if page.title %} {{ page.title }} - {% endif %}
+		{{ site.title }}
 	</title>
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
-	<link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-	<link rel="shortcut icon" type="image/png" href="{{ "/assets/favicon.png" | prepend: site.baseurl }}" >
+	<link rel="stylesheet" media='all' href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+	<link rel="stylesheet" media='all' href="{{ "/assets/main.css" | relative_url }}" media="all" async>
+	<link rel="shortcut icon" media='all' type="image/png" href="{{ "/assets/favicon.png" | prepend: site.baseurl }}">
 </head>
