@@ -90,3 +90,7 @@
 - name: "A survey of blockchain from security perspective"
   category: citations
   link: https://link.springer.com/article/10.1007/s42786-018-00002-6
+
+- name: "Novel One Time Signatures (NOTS): A CompactPost-Quantum Digital Signature Scheme"
+  category: citations
+  link: https://ieeexplore.ieee.org/document/8959230
