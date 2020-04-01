@@ -9,10 +9,21 @@
             <link>https://medium.com/the-quantum-resistant-ledger?source=rss----507e55639b6c---4</link>
         </image>
         <generator>Medium</generator>
-        <lastBuildDate>Mon, 30 Mar 2020 18:23:54 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 01 Apr 2020 12:14:28 GMT</lastBuildDate>
         <atom:link href="https://medium.com/feed/the-quantum-resistant-ledger" rel="self" type="application/rss+xml"/>
         <webMaster><![CDATA[yourfriends@medium.com]]></webMaster>
         <atom:link href="http://medium.superfeedr.com" rel="hub"/>
+        <item>
+            <title><![CDATA[QRL mobile & Desktop wallet updates]]></title>
+            <link>https://medium.com/the-quantum-resistant-ledger/qrl-mobile-desktop-wallet-updates-f2e16628d3af?source=rss----507e55639b6c---4</link>
+            <guid isPermaLink="false">https://medium.com/p/f2e16628d3af</guid>
+            <category><![CDATA[updates]]></category>
+            <category><![CDATA[wallet]]></category>
+            <dc:creator><![CDATA[Jack Matier]]></dc:creator>
+            <pubDate>Tue, 31 Mar 2020 23:04:21 GMT</pubDate>
+            <atom:updated>2020-03-31T23:04:21.353Z</atom:updated>
+            <content:encoded><![CDATA[<h3>QRL mobile &amp; desktop wallet updates</h3><h4>Fixes an issue with wallets unable to load transactions, account balances, or send funds.</h4><figure><img alt="" src="https://cdn-images-1.medium.com/max/1000/1*ktsrUYItUTQUioH1ppda9w.png" /></figure><p>A node API update has unexpectedly caused people to be unable to load transactions, account balances with mobile, desktop, and web wallet clients.</p><p>While <em>alarming</em>, all funds <strong>were and continue to be completely safe</strong>.</p><p>The web wallet has been fixed and can be used in the meantime as workaround at <a href="https://wallet.theqrl.org">https://wallet.theqrl.org</a></p><p>Mobile and desktop clients aren’t far behind for being updated. <em>This post will be updated as they become available</em>.</p><h4>Online (fixed and available)</h4><ul><li><a href="https://wallet.theqrl.org/">https://wallet.theqrl.org/</a></li></ul><h4>Mobile (fixed, pending appstore review)</h4><ul><li>iOS: <a href="https://apps.apple.com/us/app/qrl-wallet/id1458620542">https://apps.apple.com/us/app/qrl-wallet/id1458620542</a></li><li>Android: <a href="https://play.google.com/store/apps/details?id=com.theqrl">https://play.google.com/store/apps/details?id=com.theqrl</a></li></ul><h4>Desktop (fixing)</h4><ul><li>Mac, Windows, Linux: <a href="https://github.com/theQRL/qrl-wallet/releases/latest">https://github.com/theQRL/qrl-wallet/releases/latest</a></li></ul><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=f2e16628d3af" width="1" height="1"><hr><p><a href="https://medium.com/the-quantum-resistant-ledger/qrl-mobile-desktop-wallet-updates-f2e16628d3af">QRL mobile &amp; Desktop wallet updates</a> was originally published in <a href="https://medium.com/the-quantum-resistant-ledger">The Quantum Resistant Ledger</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[QRL Mainnet v2.0.1 is Released]]></title>
             <link>https://medium.com/the-quantum-resistant-ledger/qrl-mainnet-v2-0-1-is-released-17ca97d0f2e1?source=rss----507e55639b6c---4</link>
@@ -130,20 +141,6 @@
             <pubDate>Sun, 15 Dec 2019 11:16:02 GMT</pubDate>
             <atom:updated>2019-12-15T11:17:25.710Z</atom:updated>
             <content:encoded><![CDATA[<figure><img alt="" src="https://cdn-images-1.medium.com/max/318/1*2Wep1olQzSWKjv6sd_KIKg.png" /></figure><p>This is a short but very important update for the project.</p><p>In mid-2016 the idea for a fully post-quantum secure ledger was conceived and one of the really tough decisions was which signature scheme to use.</p><p>Eventually <a href="https://link.springer.com/chapter/10.1007%2F978-3-642-25405-5_8">XMSS</a> was chosen for it’s cryptographic properties — but this was not an easy choice given it is stateful and requires significant computation prior to first use.</p><p>A small number of other projects utilise variants of one-time <a href="https://en.wikipedia.org/wiki/Hash-based_cryptography">hash-based signatures</a> but QRL is the only crypto asset or blockchain which uses XMSS to protect the entire ledger.</p><p>Being unique in that respect it is exciting to see NIST have <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-208-draft.pdf">draft approved</a> hash-based signature families XMSS and LMS for usage. In practice this means that currently QRL is the only crypto asset using (soon to be) NIST-approved post-quantum cryptography.</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=6f132be3e41c" width="1" height="1"><hr><p><a href="https://medium.com/the-quantum-resistant-ledger/first-post-quantum-cryptography-approval-from-nist-6f132be3e41c">First post-quantum cryptography approval from NIST..</a> was originally published in <a href="https://medium.com/the-quantum-resistant-ledger">The Quantum Resistant Ledger</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Video Interview with Know The Coin]]></title>
-            <link>https://medium.com/the-quantum-resistant-ledger/video-interview-with-know-the-coin-fc8f9d8445bc?source=rss----507e55639b6c---4</link>
-            <guid isPermaLink="false">https://medium.com/p/fc8f9d8445bc</guid>
-            <category><![CDATA[cryptocurrency]]></category>
-            <category><![CDATA[quantum-resistant-ledger]]></category>
-            <category><![CDATA[blockchain]]></category>
-            <category><![CDATA[quantum-computing]]></category>
-            <category><![CDATA[qrl]]></category>
-            <dc:creator><![CDATA[Adam Koltun]]></dc:creator>
-            <pubDate>Mon, 09 Dec 2019 19:21:21 GMT</pubDate>
-            <atom:updated>2019-12-09T19:21:21.306Z</atom:updated>
-            <content:encoded><![CDATA[<h3>Video Interview with ChangeNOW</h3><p><em>Adam sat down with Pauline from ChangeNOW to discuss QRL and Blockchain</em></p><h3>Video Interview With ChangeNOW — Know The Coin</h3><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*55PwLZQRy61N8TRRQ9ahDQ.jpeg" /></figure><p>Earlier this month, I had the opportunity to sit down with Pauline from <a href="https://changenow.io/">ChangeNOW</a> to record a video interview for their YouTube series <a href="https://www.youtube.com/playlist?list=PLXY0gJl_qhdFpaewjzHn6Syf7EkaIF0VS"><em>Know The Coin</em></a>. Here’s the interview:</p><iframe src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FYTW0FauLZu8%3Ffeature%3Doembed&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DYTW0FauLZu8&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FYTW0FauLZu8%2Fhqdefault.jpg&amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;type=text%2Fhtml&amp;schema=youtube" width="854" height="480" frameborder="0" scrolling="no"><a href="https://medium.com/media/2c2ef1bc344ce054458da74f3d4ef5fc/href">https://medium.com/media/2c2ef1bc344ce054458da74f3d4ef5fc/href</a></iframe><p>Additionally, here’s a link to the <a href="https://www.youtube.com/watch?v=YTW0FauLZu8&amp;">interview</a> on their YouTube channel.</p><p>The interview runs 48 minutes and in it we cover topics ranging from the basics of what QRL is, to blockchain security issues, the threat posed to blockchain and cryptocurrency technology from quantum computers, as well as the importance of open-source solutions in security in general, and in today’s blockchain industry in particular. We at QRL always enjoy the opportunity to share a bit about ourselves and our perspective in interviews like this.</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=fc8f9d8445bc" width="1" height="1"><hr><p><a href="https://medium.com/the-quantum-resistant-ledger/video-interview-with-know-the-coin-fc8f9d8445bc">Video Interview with Know The Coin</a> was originally published in <a href="https://medium.com/the-quantum-resistant-ledger">The Quantum Resistant Ledger</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
