@@ -180,18 +180,20 @@ $(document).ready(function() {
     if($('body').hasClass('homepage')) {
         // Github releases API
         $.getJSON("/assets/qrlwallet.json").done(function (data) {
+
             for (var i = 0; i < data.length; i++) {
-                if(data[i].indexOf('.deb') !== -1 && navigator.appVersion.indexOf("Linux") != -1) {
+                if(data[i].indexOf('.deb') !== -1 && window.navigator.platform.indexOf("Linux") != -1) {
+                    console.log("Linux");
                     $('#wallet-download').attr('href', data[i]);
                     $('#wallet-download').text($('#wallet-download').text() + ' (.deb)');
                     break;
                 }
-                if(data[i].indexOf('.dmg') !== -1 && navigator.appVersion.indexOf("Mac") != -1) {
+                if(data[i].indexOf('.dmg') !== -1 && window.navigator.platform.indexOf("Mac") != -1) {
                     $('#wallet-download').attr('href', data[i]);
                     $('#wallet-download').text($('#wallet-download').text() + ' (.dmg)');
                     break;
                 }
-                if(data[i].indexOf('.msi') !== -1 && navigator.appVersion.indexOf("Win") != -1) {
+                if(data[i].indexOf('.msi') !== -1 && window.navigator.platform.indexOf("Win") != -1) {
                     $('#wallet-download').attr('href', data[i]);
                     $('#wallet-download').text($('#wallet-download').text() + ' (.msi)');
                     break;
