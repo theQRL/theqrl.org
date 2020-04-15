@@ -46,6 +46,9 @@
   category: ietf
   link: https://tools.ietf.org/html/rfc8391
 
+- name: "Towards Post-Quantum Blockchain: A Review on Blockchain Cryptography Resistant to Quantum Computing Attacks"
+  category: citations
+  link: https://ieeexplore.ieee.org/abstract/document/8967098
 
 - name: "Cryptography Lecture 8"
   category: further-reading
