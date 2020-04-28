@@ -18,3 +18,8 @@
   markets: BTC-QRL
   link: https://vcc.exchange/exchange/basic?currency=btc&coin=qrl
   logo: "vcc.exchange.svg"
+
+- name: "simpleswap"
+  markets: BTC-QRL
+  link: https://simpleswap.io/coins/quantum-resistant-ledger?utm_source=twitter&utm_medium=post&utm_content=qrl_reminder
+  logo: "simpleswap.svg"
