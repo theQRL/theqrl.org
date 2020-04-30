@@ -21,6 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://theqrl.org" # the base hostname & protocol for your site
 social:
   youtube: https://www.youtube.com/channel/UCS2PP3kR9APyRUa9kRH8-uA
+  telegram: https://t.me/QRLedgerOfficial
 collections:
   conferences:
     permalink: "/conferences/:year/:month/:slug/" 
