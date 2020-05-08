@@ -28,3 +28,8 @@
   markets: BTC-QRL
   link: https://swapzone.io/?to=qrl
   logo: swapzone.io.svg
+
+- name: "Bitvoiceex"
+  markets: BTC-QRL
+  link: https://bitvoicex.net/markets/qrl_btc
+  logo: bitvoicex.net.jpeg
