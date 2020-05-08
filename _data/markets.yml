@@ -21,5 +21,15 @@
 
 - name: "simpleswap"
   markets: BTC-QRL
-  link: https://simpleswap.io/coins/quantum-resistant-ledger?utm_source=twitter&utm_medium=post&utm_content=qrl_reminder
+  link: https://simpleswap.io/coins/quantum-resistant-ledger
   logo: "simpleswap.svg"
+
+- name: "swapzone.io"
+  markets: BTC-QRL
+  link: https://swapzone.io/?to=qrl
+  logo: swapzone.io.svg
+
+- name: "Bitvoiceex"
+  markets: BTC-QRL
+  link: https://bitvoicex.net/markets/qrl_btc
+  logo: bitvoicex.net.jpeg
