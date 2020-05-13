@@ -93,3 +93,11 @@
 - name: "Novel One Time Signatures (NOTS): A CompactPost-Quantum Digital Signature Scheme"
   category: citations
   link: https://ieeexplore.ieee.org/document/8959230
+
+- name: "Smart Digital Signatures (SDS): A Post-quantum Digital Signature Scheme for Distributed Ledgers"
+  category: citations
+  link: https://www.researchgate.net/publication/340934583_Smart_Digital_Signatures_SDS_A_Post-quantum_Digital_Signature_Scheme_for_Distributed_Ledgers
+
+- name: "Quantum Computing and Blockchain in Business: Exploring the applications, challenges, and collision of quantum computing and blockchain"
+  category: reference-book
+  link: https://www.amazon.com/Quantum-Computing-Blockchain-Business-applications/dp/1838647767
