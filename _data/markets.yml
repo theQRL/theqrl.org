@@ -33,3 +33,8 @@
   markets: BTC-QRL
   link: https://bitvoicex.net/markets/qrl_btc
   logo: bitvoicex.net.jpeg
+
+- name: "StealthEx"
+  markets: BTC-QRL
+  link: https://stealthex.io/coin/qrl
+  logo: stealthex.svg
