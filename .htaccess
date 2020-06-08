@@ -1,1 +1,23 @@
-Header set Content-Security-Policy  "default-src 'self'; img-src 'self' www.google-analytics.com avatars3.githubusercontent.com; script-src 'self' cdnjs.cloudflare.com www.google-analytics.com; style-src 'self'; object-src 'none'"
+Header set Content-Security-Policy "
+      default-src 'self';
+      img-src 'self' https://www.google-analytics.com https://avatars3.githubusercontent.com;
+      script-src 'self' https://cdnjs.cloudflare.com https://www.google-analytics.com;
+      style-src 'self';
+      object-src 'none'"
+
+Header set Feature-Policy "
+      accelerometer 'none';
+      ambient-light-sensor 'none';
+      autoplay 'none';
+      battery 'none';
+      camera 'none' ;
+      display-capture 'none' ;
+      document-domain 'self';
+      encrypted-media 'self' ;
+      fullscreen 'self';
+      geolocation 'none';
+      gyroscope 'none';
+      magnetometer 'none';
+      microphone 'none';
+      payment 'none' ;
+      vr 'none'"
