@@ -1,8 +1,3 @@
-
-- name: "A survey of blockchain from security perspective"
-  category: citations
-  link: https://doi.org/10.1007/s42786-018-00002-6
-
 - name: "Post-quantum blockchain using one-time signature chains"
   category: citations
   link: https://pdfs.semanticscholar.org/f38c/562c21fa1a94871e5f577669f7c4b9520632.pdf 
@@ -39,9 +34,9 @@
   category: seminal
   link: https://bitcoin.org/bitcoin.pdf
   
-- name: "XMSS intended to be approved in 2019 (see page 21)"
+- name: "Draft Recommendation for Stateful Hash-Based Signature Schemes (XMSS)"
   category: nist
-  link: https://csrc.nist.gov/CSRC/media/Presentations/the-2nd-round-of-the-nist-pqc-standardization-proc/images-media/moody-opening-remarks.pdf
+  link: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-208-draft.pdf
 
 - name: "Request for Public Comments on Stateful Hash-Based Signatures (HBS) "
   category: nist
@@ -50,6 +45,10 @@
 - name: "RFC 8391 - XMSS: eXtended Merkle Signature Scheme"
   category: ietf
   link: https://tools.ietf.org/html/rfc8391
+
+- name: "Towards Post-Quantum Blockchain: A Review on Blockchain Cryptography Resistant to Quantum Computing Attacks"
+  category: citations
+  link: https://ieeexplore.ieee.org/abstract/document/8967098
 
 - name: "Cryptography Lecture 8"
   category: further-reading
@@ -90,3 +89,15 @@
 - name: "A survey of blockchain from security perspective"
   category: citations
   link: https://link.springer.com/article/10.1007/s42786-018-00002-6
+
+- name: "Novel One Time Signatures (NOTS): A CompactPost-Quantum Digital Signature Scheme"
+  category: citations
+  link: https://ieeexplore.ieee.org/document/8959230
+
+- name: "Smart Digital Signatures (SDS): A Post-quantum Digital Signature Scheme for Distributed Ledgers"
+  category: citations
+  link: https://www.researchgate.net/publication/340934583_Smart_Digital_Signatures_SDS_A_Post-quantum_Digital_Signature_Scheme_for_Distributed_Ledgers
+
+- name: "Quantum Computing and Blockchain in Business: Exploring the applications, challenges, and collision of quantum computing and blockchain"
+  category: reference-book
+  link: https://www.amazon.com/Quantum-Computing-Blockchain-Business-applications/dp/1838647767

@@ -19,8 +19,9 @@ description: > # this means to ignore newlines until "baseurl:"
   The Quantum Resistant Ledger
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://theqrl.org" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+social:
+  youtube: https://www.youtube.com/channel/UCS2PP3kR9APyRUa9kRH8-uA
+  telegram: https://t.me/QRLedgerOfficial
 collections:
   conferences:
     permalink: "/conferences/:year/:month/:slug/" 

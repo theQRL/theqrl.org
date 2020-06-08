@@ -152,6 +152,22 @@ keywords:
         {% endif %}
       {% endfor %}
       </ul>
+
+
+    <div class="header-section">
+        <h2>Books</h2>
+      </div>
+      <ul>
+      {% for paper in site.data.papers %}
+        {% assign category = paper.category | downcase %}
+        {% if category == 'reference-book' %}
+          <li>
+            <strong>{{ paper.name }}</strong>
+            <a href="{{ paper.link }}">{{ paper.link }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+      </ul>
     </div>
   </div>
 </div>

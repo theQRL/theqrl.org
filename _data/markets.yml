@@ -6,10 +6,6 @@
   markets: BTC-QRL
   link: https://international.bittrex.com/Market/Index?MarketName=BTC-QRL
 
-- name: Cryptofacil
-  markets: BTC-QRL
-  link: https://cryptofacil.com/trading-view/167/BTC-QRL
-
 - name: Upbit
   markets: BTC-QRL
   link: https://sg.upbit.com/exchange?code=CRIX.UPBIT.BTC-QRL
@@ -18,32 +14,22 @@
   markets: BTC-QRL
   link: https://trade.biteeu.com/search
 
-- name: "VCC.exchange"
+- name: "vcc.exchange"
   markets: BTC-QRL
   link: https://vcc.exchange/exchange/basic?currency=btc&coin=qrl
   logo: "vcc.exchange.svg"
 
-- name: "Changenow.io"
+- name: "simpleswap"
   markets: BTC-QRL
-  link: https://changenow.io/exchange?amount=1&to=qrl
-  logo: "changenow.svg"
-
-- name: "Coinswitch"
-  markets: BTC-QRL
-  link: https://coinswitch.co/coins/bitcoin/bitcoin-to-quantum-resistant-ledger
-  logo: "coinswitch.svg"
-
-- name: "stealthEX.io"
-  markets: "BTC-QRL"
-  link: https://stealthex.io/
-  logo: "stealthex.svg"
-
-- name: "SimpleSwap"
-  markets: "BTC-QRL"
-  link: https://simpleswap.io/
+  link: https://simpleswap.io/coins/quantum-resistant-ledger
   logo: "simpleswap.svg"
 
-- name: "swapspace"
-  markets: "BTC-QRL"
-  link: https://swapspace.co
-  logo: "swapspace.png"
+- name: "swapzone.io"
+  markets: BTC-QRL
+  link: https://swapzone.io/?to=qrl
+  logo: swapzone.io.svg
+
+- name: "Bitvoiceex"
+  markets: BTC-QRL
+  link: https://bitvoicex.net/markets/qrl_btc
+  logo: bitvoicex.net.jpeg

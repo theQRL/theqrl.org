@@ -10,4 +10,4 @@
       </li> 
   {% endfor %}
 </ul>
-<p>7,888 total contributions between {{ users | size }} contributors over 29 repositories</p>
+<p>8,542 total contributions between {{ users | size }} contributors over 29 repositories</p>

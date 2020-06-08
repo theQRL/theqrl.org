@@ -1,31 +1,31 @@
 ---
 - id: 13854791
   login: cyyber
-  contributions: 2568
+  contributions: 2699
 - id: 13698520
   login: jleni
   contributions: 1826
 - id: 13877236
   login: surg0r
-  contributions: 401
+  contributions: 409
 - id: 9956122
   login: randomshinichi
   contributions: 217
+- id: 2139011
+  login: jplomas
+  contributions: 1219
 - id: 6901778
   login: scottdonaldau
   contributions: 1056
 - id: 36388483
   login: som-dev
   contributions: 46
-- id: 2139011
-  login: jplomas
-  contributions: 954
 - id: 30975753
   login: bidulemachin
   contributions: 14
 - id: 22141056
   login: fr1t2
-  contributions: 246
+  contributions: 276
 - id: 1280059
   login: bmoscon
   contributions: 7
@@ -56,15 +56,18 @@
 - id: 552662
   login: r41d
   contributions: 2
+- id: 57887371
+  login: fungibly
+  contributions: 2
 - id: 1199588
   login: ademcan
-  contributions: 192
+  contributions: 200
 - id: 22973130
   login: aidanbeale
   contributions: 1
 - id: 232510
   login: jackalyst
-  contributions: 426
+  contributions: 456
 - id: 23704769
   login: codacy-badger
   contributions: 3
@@ -115,7 +118,7 @@
   contributions: 1
 - id: 32208642
   login: doctor-gonzo
-  contributions: 7
+  contributions: 11
 - id: 31810306
   login: puck342
   contributions: 3
@@ -130,6 +133,9 @@
   contributions: 4
 - id: 42574567
   login: "0xFF0"
+  contributions: 1
+- id: 45665822
+  login: Ottslayer
   contributions: 1
 - id: 19733683
   login: snyk-bot
