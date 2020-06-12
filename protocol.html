@@ -76,29 +76,48 @@ keywords:
   <div class="grid">
     <div class="w12">
       <div class="header-section">
-        <h2>Upcoming hard forks</h2>
-        <p>The first planned QRL network hardfork is preliminarily announced for 25/02/2020, with a further suggested hard fork to follow once testing of on-chain-voting and on-chain governance through consensus changing voting proposals has been completed.</p>
+        <h2>A quick glimpse<h2>
+        <h3>Our road map</h3>
       </div>
 
-      <h3>February 2020 hard fork feature list:</h3>
-      <ul>
-        <li>RandomX mining algorithm upgrade</li>
-        <li>Multisig addresses</li>
-        <li>Extended message transaction functionality</li>
-        <li>Ephemeral messaging stub functionality</li>
-      </ul>
-      
-      <h3>Subsequent 2020 fork upgrade feature list:</h3>
-      <ul>        
-        <li>Deterministic address support</li>
-        <li>Decentralised on-chain poll support (further testing required)</li>
-        <li>On-chain governance allowing <a href="https://medium.com/the-quantum-resistant-ledger/decentralised-voting-and-trustless-autonomous-hard-forking-269d024f4edb">vote-based</a> hard fork changes to existing network parameters (further testing required).</li>
-      </ul>
+      <img src="/assets/timeline-min.png">
 
-      <h3>Roadmap for future hard forks 2020/1 and beyond include:</h3>
+      <div class="header-section">
+        <h2>what we've done</h2>
+        <h3>Current features</h3>
+      </div>
       <ul>
-        <li>Smart Contracts (Project Silicon)</li>
-        <li>Consensus mechanism change (PoS, dPoS)</li>
+        <li><a href="https://qrl.foundation/assets/QRLF-PR-20180626.pdf">Quantum Secure Blockchain using XMSS</a> with a 100% pq-secure address space.</li>
+        <li><a href="https://github.com/theQRL/qrl-wallet">GUI wallet for Mac, Windows, and Linux</a></li>
+        <li><a href="https://docs.theqrl.org/tools/notarisation/">Notarisation</a></li>
+        <li><a href="https://github.com/theQRL/block-explorer">Full block explorer functionality</a></li>
+        <li><a href="https://docs.theqrl.org/wallet/create-tokens/">Quantum Resistant Tokens (QRT’s)</a></li>
+        <li>Multiple external audits <a href="https://medium.com/the-quantum-resistant-ledger/red4sec-security-audit-concludes-a-summary-563ecfe04c75">red4sec</a> and <a href="https://www.x41-dsec.de/">x41 D-sec</a></li>
+        <li><a href="https://docs.theqrl.org/developers/address/">Extensible address format</a></li>
+        <li><a href="https://github.com/theQRL/QRL">Multi-platform QRL node release</a></li>
+        <li><a href="https://medium.com/the-quantum-resistant-ledger/the-qrl-bromine-hardfork-a-look-inside-2eed61ea90fd">Multisignature transactions</a></li>
+        <li><a href="https://github.com/tevador/RandomX">RandomX</a></li>
+        <li><a href="https://github.com/theQRL/ephemeral">Ephemeral Messaging System (EMS) Stub and Tooling</a></li>
+        <li><a href="https://medium.com/the-quantum-resistant-ledger/qrl-and-keybase-84968003bca2">Keybase Integration</a></li>
+        <li><a href="https://api.theqrl.org/">Multiple API’s</a></li>
+        <li><a href="https://support.ledger.com/hc/en-us/articles/360019184453-Quantum-Resistant-Ledger-QRL-">Hardware wallet support with Ledger Nano S/X</a></li>
+        <li>Mobile wallets for <a href="https://apps.apple.com/ca/app/qrl-wallet/id1458620542">iOS</a> and <a href="https://medium.com/the-quantum-resistant-ledger/the-qrl-mobile-wallet-is-officially-launched-e3014dd79d8e">Android</a></li>
+        <li><a href="https://github.com/theQRL/offline-wallet-generator">Off-line wallet generator</a></li>
+        <li><a href="https://docs.theqrl.org/node/docker/">Docker QRL Node Support</a></li>
+    </ul>
+
+    <div class="header-section">
+      <h2>Things to look forward to</h2>
+      <h3>Upcoming features</h3>
+    </div>
+      <ul>
+        <li><a href="https://www.enqlave.io/">enQlave: The quantum safe for your crypto assets</a></li>
+        <li><a href="https://github.com/theQRL/go-qrl">GO-QRL</a></li>
+        <li>QRL Tipbot</li>
+        <li>Proof-of-Stake</li>
+        <li>Smart contracts</li>
+        <li>Deterministic address support</li>
+        <li>Full <a href="https://github.com/theQRL/ephemeral/">Ephemeral Messaging System (EMS)</a> with decentralized network support</li>
       </ul>
     </div>
   </div>
@@ -109,7 +128,8 @@ keywords:
   <div class="grid">
     <div class="w12">
       <div class="header-section">
-        <h2>Current QRL improvement proposal (QIPs)</h2>
+        <h2>Get involved</h2>
+        <h3>Current QRL improvement proposal (QIPs)</h3>
       </div>
 
       {% assign qips = site.qips | sort:'created' | reverse %} 

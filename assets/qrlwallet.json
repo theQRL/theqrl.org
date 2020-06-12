@@ -1,1 +1,5 @@
-[ "https://github.com/theQRL/qrl-wallet/releases/download/v1.5.0/LINUX-qrl-wallet_1.5.0_amd64.deb", "https://github.com/theQRL/qrl-wallet/releases/download/v1.5.0/MACOS-qrl-wallet_1.5.0_x64.dmg", "https://github.com/theQRL/qrl-wallet/releases/download/v1.5.0/WINDOWS-qrl-wallet_1.5.0_x64.msi", "https://github.com/theQRL/qrl-wallet/releases/download/v1.4.0/qrl-wallet-linux-1.4.0.deb", "https://github.com/theQRL/qrl-wallet/releases/download/v1.4.0/qrl-wallet-macos-1.4.0.dmg", "https://github.com/theQRL/qrl-wallet/releases/download/v1.4.0/qrl-wallet-windows-1.4.0.msi" ]
+[ 
+	"https://github.com/theQRL/qrl-wallet/releases/download/v1.5.0/LINUX-qrl-wallet_1.5.0_amd64.deb", 
+	"https://github.com/theQRL/qrl-wallet/releases/download/v1.5.0/MACOS-qrl-wallet_1.5.0_x64.dmg", 
+	"https://github.com/theQRL/qrl-wallet/releases/download/v1.5.0/WINDOWS-qrl-wallet_1.5.0_x64.msi"
+]
