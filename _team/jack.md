@@ -1,7 +1,7 @@
 ---
 title: Jack Matier
 role: Marketing & Community
-position: Community Support
+position: Director of Communications
 keybase: jackalyst
-image: jack.png
+image: jack.small.png
 ---
