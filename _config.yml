@@ -20,8 +20,9 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://theqrl.org" # the base hostname & protocol for your site
 social:
-  youtube: https://www.youtube.com/channel/UCS2PP3kR9APyRUa9kRH8-uA
+  youtube: https://www.youtube.com/c/QRLedger
   telegram: https://t.me/QRLedgerOfficial
+  kakaotalk: https://open.kakao.com/o/gffKNhWb
 collections:
   conferences:
     permalink: "/conferences/:year/:month/:slug/" 
