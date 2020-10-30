@@ -6,10 +6,6 @@
   markets: BTC-QRL
   link: https://international.bittrex.com/Market/Index?MarketName=BTC-QRL
 
-- name: Upbit
-  markets: BTC-QRL
-  link: https://sg.upbit.com/exchange?code=CRIX.UPBIT.BTC-QRL
-
 - name: Biteeu
   markets: BTC-QRL
   link: https://trade.biteeu.com/search
