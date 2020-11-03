@@ -34,14 +34,6 @@
   category: seminal
   link: https://bitcoin.org/bitcoin.pdf
   
-- name: "Draft Recommendation for Stateful Hash-Based Signature Schemes (XMSS)"
-  category: nist
-  link: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-208-draft.pdf
-
-- name: "Request for Public Comments on Stateful Hash-Based Signatures (HBS) "
-  category: nist
-  link: https://csrc.nist.gov/News/2019/stateful-hbs-request-for-public-comments
-
 - name: "RFC 8391 - XMSS: eXtended Merkle Signature Scheme"
   category: ietf
   link: https://tools.ietf.org/html/rfc8391
@@ -102,6 +94,6 @@
   category: reference-book
   link: https://www.amazon.com/Quantum-Computing-Blockchain-Business-applications/dp/1838647767
 
-- name: "Recommendation for stateful hash-based signature schemes"
-  category: cryptography
+- name: "Recommendation for Stateful Hash-Based Signature Schemes"
+  category: NIST
   link: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-208.pdf
