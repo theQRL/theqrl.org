@@ -1,0 +1,111 @@
+
+.article-content {
+    // margin: 25px 0 85px;
+    overflow: hidden;
+    padding-top: 10px;
+    position: relative;
+    @include mobile{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    &__fixed-aside {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        right: 0;
+        pointer-events: none;
+        @include mobile{
+            position: inherit;
+        }
+        &.nav-sticky {
+            position: fixed;
+            top:96px;
+            .article-aside__item--back{
+                margin-bottom: 28px;
+            }
+            @include tablet{
+                left: 30px;
+            }
+        }
+        .container{
+            @include tablet{
+                padding: 0;
+            }
+        }
+    }
+}
+
+.article-aside {
+    padding-top: 10px;
+    @include mobile{
+         display: flex;
+         padding-top: 40px;
+         flex-direction: column-reverse;
+    }
+    &__items{
+        @include mobile{
+            display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        }
+        
+    }
+    &__item {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // margin-bottom: 18px;  
+        width: 38px;
+        pointer-events: auto;  
+        @include mobile{
+            margin: 0px 10px 10px;
+        }   
+        &--back{
+            width: 38px;
+            background-color: $color-white;
+            height: 38px;
+            display: flex;
+            border-radius: 50%;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid $color-black;
+            transition: $time-3;
+            margin-bottom: 195px;
+            margin-top:10px;  
+            
+            &:hover{
+                background-color: $color-yellow;
+                border-color: $color-yellow;
+                svg path{
+                    fill: $color-white;
+                }
+            }
+            @include tablet{
+                margin-bottom: 130px;
+            }
+            @include mobile{
+                
+                min-width: 38px;
+                margin:13px auto 0;
+                // display: none;
+            }
+            svg{
+                margin-left: -2px;
+            }
+        }
+        svg{
+            path{
+                transition: $time-3;
+            }
+            
+        }
+        &:hover{
+            path{
+                fill: $color-yellow;
+            }
+        }
+    }
+}
+

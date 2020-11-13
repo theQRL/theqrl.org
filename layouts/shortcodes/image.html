@@ -1,0 +1,5 @@
+{{ $file :=  (path.Join (path.Dir .Page.File.Path) (.Get 0)) }}
+{{ $file := print "content/" $file }}
+{{ $img := resources.Get $file }}
+{{ $after := $img }}
+<img src="{{ $after.RelPermalink }}">

@@ -1,0 +1,117 @@
+html,
+body {
+  font-family: $f-ProR;
+  font-weight: 400;
+  color: $color-1;
+  background-color: $color-black;
+  font-size: 16px;
+  line-height: 1.6rem;
+}
+
+h1 {
+  font-size: 54px;
+}
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+footer {
+  background-color: $color-black;
+}
+.title {
+  font-size: rem-calc(32);
+  font-weight: 600;
+  line-height: 1.2em;
+  margin-bottom: 1.05em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.text-container {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.45em;
+  letter-spacing: 0;
+
+  p,
+  ul,
+  ol {
+    margin-bottom: 1em;
+  }
+}
+.text-yellow {
+  color: $color-yellow;
+}
+.text-black {
+  color: $color-black;
+}
+.text-white {
+  color: $color-white;
+}
+.text-blue {
+  color: $color-blue;
+}
+.big-padding {
+  padding: 70px 0;
+  @include tablet {
+    padding: 50px 30px;
+  }
+}
+
+.default-padding {
+  padding: 100px 0;
+  @include tablet {
+    padding: 75px 30px;
+  }
+}
+.bg-white {
+  background-color: $color-white;
+}
+.section-title {
+  font-family: $f-DinM;
+  font-size: 24px;
+  @include tablet {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  &-header {
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $color-black;
+    position: relative;
+    font-family: $f-DinB;
+    margin-top: 20px;
+    font-weight: 600;
+    margin-bottom: 100px;
+    @include tablet {
+      font-size: 32px;
+      line-height: 41px;
+      margin-top: 13px;
+    }
+    @include mobile {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    &:after {
+      content: "";
+      display: block;
+      height: 3px;
+      width: 36px;
+      background-color: $color-black;
+      position: absolute;
+      left: 0;
+      bottom: -20px;
+    }
+    .read-more-button {
+      float: right;
+      position: relative;
+      bottom: -8px;
+      @include tablet {
+        display: none;
+      }
+    }
+  }
+}

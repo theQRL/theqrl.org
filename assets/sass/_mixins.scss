@@ -1,0 +1,117 @@
+$rem-base: 16px;
+
+// media query mixins
+@mixin laptop {
+  @media (max-width: $xxl){
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: $xl){
+    @content;
+  }
+}
+
+@mixin small-tablet {
+  @media (max-width: $lg){
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: $md){
+    @content;
+  }
+}
+
+
+@function strip-unit($num) {
+  @return $num / ($num * 0 + 1);
+}
+
+@function convert-to-rem($value, $base-value: $rem-base) {
+  $value: strip-unit($value) / strip-unit($base-value) * 1rem;
+  @if ($value == 0rem) {
+    $value: 0;
+  }
+  // Turn 0rem into 0
+  @return $value;
+}
+
+@function rem-calc($values, $base-value: $rem-base) {
+  $max: length($values);
+  @if $max == 1 {
+    @return convert-to-rem(nth($values, 1), $base-value);
+  }
+  $remValues: ();
+  @for $i from 1 through $max {
+    $remValues: append($remValues, convert-to-rem(nth($values, $i), $base-value));
+  }
+  @return $remValues;
+}
+
+@mixin target-ie11 {
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    @content;
+  }
+}
+
+@mixin target-edge {
+  @supports (-ms-ime-align: auto) {
+    @content
+  }
+}
+
+@mixin object-fit($fit: fill, $position: null){
+  -o-object-fit: $fit;
+     object-fit: $fit;
+  @if $position {
+    -o-object-position: $position;
+       object-position: $position;
+    font-family: 'object-fit: #{$fit}; object-position: #{$position}';
+  } @else {
+    font-family: 'object-fit: #{$fit}';
+  }
+}
+
+@mixin target-safari {
+  @media not all and (min-resolution: .001dpcm) {
+    @content
+  }
+}
+
+@mixin object-fit($fit: fill, $position: null){
+  -o-object-fit: $fit;
+  object-fit: $fit;
+  @if $position {
+    -o-object-position: $position;
+    object-position: $position;
+    font-family: 'object-fit: #{$fit}; object-position: #{$position}';
+  } @else {
+    font-family: 'object-fit: #{$fit}';
+  }
+}
+
+//Mixins for all sizes
+
+@mixin media($media)
+{
+  @media only screen and (max-width: $media) {
+    @content
+  }
+}
+@mixin media-min($media)
+{
+  @media only screen and (min-width: $media) {
+    @content
+  }
+}
+
+@mixin media-h($media)
+{
+  @media only screen and (max-height: $media) {
+    @content
+  }
+}
+

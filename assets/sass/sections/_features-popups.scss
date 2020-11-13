@@ -1,0 +1,373 @@
+.popup-wrap{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 25;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,.8);
+  &--feature1, &--feature2, &--feature3, &--contact{
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .3s ease-in-out;
+  }
+  &--active{
+    opacity: 1;
+    pointer-events: all;
+  }
+  &__helper{
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .container{
+    @include mobile{
+      padding: 0;
+      height: 100%;
+    }
+  }
+  &--contact{
+    // .features-popup{
+      
+    // }
+    // .features-popup
+    // }
+    .features-popup__inner{
+      min-height: 100%;
+      
+      @include tablet{
+        flex-wrap: nowrap;
+        width: 100%;
+        flex-direction: row;
+        padding: 89px 55px;
+      }
+      @include mobile{
+        flex-direction: column;
+        padding: 80px 30px;
+      }
+    }
+    .features-popup__col--title{
+      @include tablet{
+        flex-direction: column;
+        padding-right: 20px;
+        margin-bottom: 0;
+      }
+      @include mobile{
+        padding-right: 0;
+      }
+      
+    }
+    .features-popup__title{
+      @include tablet{
+        margin-right: 0;
+        font-size: 28px;
+        line-height: 1.4;
+      }
+    }
+    .close-btn{
+      @include tablet{
+        right: 54px;
+      }
+      @include mobile{
+        right: 35px;
+      }
+    }
+    
+  }
+}
+
+.features-popup{
+  position: relative;
+  background-color: $color-black;
+  color: $color-white;
+  display: flex;
+  align-items: center;
+  height: 548px;
+  z-index: 1;
+  @include mobile{
+    height: 100%;
+    align-items: normal;
+  }
+  &::before{
+    content: '';
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+    // transform: ;
+    background-image: url('../img/icons/circles.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 44%;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    @include tablet{
+      background-size: 77%;
+    }
+    @include mobile{
+      background-size: 125%;
+    }
+  }
+  // &__close-btn{}
+  &__inner{
+    padding: 110px;
+    overflow-y: auto;
+    display: flex;
+    max-height: 100%;
+    @include laptop{
+      padding: 100px;
+    }
+    @include small-tablet{
+      padding: 75px 55px 25px;
+      flex-direction: column;
+      width: 100%;
+    }
+    @include mobile{
+      padding: 88px 30px 25px;
+    }
+  }
+  &__col{
+    &--title{
+      width: 330px;
+      padding-right: 50px;
+      @include tablet{
+        width: 250px;
+        padding-right: 30px;
+      }
+      @include small-tablet{
+        display: flex;
+        margin-bottom: 40px;
+        width: 100%;
+      }
+      @include mobile{
+        display: block;
+        margin-bottom: 57px;
+      }
+      p{
+        margin-top: 35px;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: $f-ProR;
+        margin-right: 45px;
+        a{
+          text-decoration: underline;
+          transition: color .3s ease-in-out;
+        }
+        a:hover{
+          color: $color-yellow
+        }
+        @include tablet{
+          margin-top: 63px;
+          margin-right: 0;
+          a{
+            text-decoration: underline;
+            transition: color .3s ease-in-out;
+          }
+          a:hover{
+            color: $color-yellow
+          }
+        }
+        @include mobile{
+          margin: 42px 0;
+          a{
+            text-decoration: underline;
+            transition: color .3s ease-in-out;
+          }
+          a:hover{
+            color: $color-yellow
+          }
+        }
+      }
+    }
+    &--content{
+      width: calc(100% - 330px);
+      display: flex;
+      @include tablet{
+        width: calc(100% - 250px);
+      }
+      @include small-tablet{
+        width: 100%;
+      }
+      @include mobile{
+        flex-direction: column;
+      }
+    }
+    form{
+      @include tablet{
+        width: 100%;
+        padding-top: 10px;
+      }
+    }
+    &-formline{
+      margin-bottom: 25px;
+      
+      line-height: 40px;
+      display: flex;
+      font-family: $f-ProR;
+      font-size: 16px;
+      @include tablet{
+        flex-direction: column;
+        margin-bottom: 6px;
+      }
+      &.last-formline{
+        margin-bottom: 0;
+        justify-content: flex-end;
+        @include tablet{
+          margin-top: 45px;
+          flex-direction: row;
+        }
+      }
+      label{
+        width: 122px;
+        margin-right: 26px;
+        color: $color-white;
+        @include tablet{
+          font-size: 14px;
+          margin-right: 0;
+          line-height: 20px;
+        }
+        
+      }
+      input, textarea{
+        flex: 1;
+        height: 40px;
+        border: 1px solid rgba($color-white, .5);
+        border-radius: 4px;
+        min-width: 440px;
+        width: 100%;
+        color: $color-white;
+        padding:0 5px;
+        -ms-overflow-style: none;
+        @include tablet{
+          min-width: 406px;
+        }
+        @include mobile{
+          min-width: 100%;
+        }
+      }
+      textarea{
+        margin-bottom: 19px;
+        height: 100px;
+        line-height: 24px;
+        @include tablet{
+          margin-bottom: 15px;
+        }
+        @include tablet{
+          margin-bottom: 9px;
+        }
+
+      }
+      p{
+        font-size: 14px;
+        line-height: 20px;
+        color: rgba($color-white, .5);
+        
+      }
+    }
+  }
+  &__title{
+    max-width: 195px;
+    font-family: $f-DinM;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $color-yellow;
+    @include small-tablet{
+      margin-right: 70px;
+    }
+    @include mobile{
+      margin-right: auto;
+      font-size: 28px;
+    }
+  }
+  &__text{
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 27px;
+    font-family: $f-ProR;
+    @include small-tablet{
+      margin-top: 0;
+    }
+    @include mobile{
+      margin-top: 40px;
+    }
+  }
+  &__content-col{
+    max-width: 330px;
+    padding-right: 22px;
+    @include small-tablet{
+      max-width: none;
+      width: 50%;
+    }
+    @include mobile{
+      width: 100%;
+      padding-right: 0;
+      margin-bottom: 16px;
+    }
+    &:last-child{
+      @include small-tablet{
+        padding-right: 0;
+      }
+      @include mobile{
+        margin-bottom: 0;
+      }
+    }
+  }
+  &__content-title{
+    color: $color-yellow;
+    font-family: $f-DinM;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  &__content-text{
+    font-size: 16px;
+    line-height: 24px;
+    p{
+      margin-bottom: 16px;
+    }
+    a{
+      color: $color-blue;
+      transition: color .3s ease-in-out;
+      &:hover{
+        color: $color-yellow;
+      }
+    }
+  }
+}
+
+.close-btn{
+  position: absolute;
+  top: 54px;
+  right: 69px;
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-image: url("../img/icons/x.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: opacity .3s ease-in-out;
+  cursor: pointer;
+  @include media(767px){
+    top: 41px;
+    right: 35px;
+    width: 14px;
+    height: 14px;
+  }
+  &:hover{
+    opacity: .7;
+  }
+}

@@ -1,0 +1,108 @@
+$ss-line-height: 19px !default;
+$ss-border-width: 1px !default;
+$ss-spacing: 24px !default;
+
+$ss-highlight-color: rgb(242, 244, 248) !default;
+$ss-selected-option-background: linear-gradient(to bottom, #fefefe, #f2f2f2) !default;
+$ss-dropdown-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !default;
+
+$ss-standard-border: $ss-border-width solid #d0d0d0 !default;
+
+$ss-spacing-small: $ss-spacing / 2 !default;
+$ss-spacing-tiny: $ss-spacing / 4 !default;
+
+// Hide real select boxes which have seen styled.
+select[data-ss-uuid] {
+  display: none;
+  pointer-events: none;
+}
+
+.style-select {
+  position: relative;
+  z-index: 3;
+  user-select: none;
+  color: $color-1;
+
+  .ss-selected-option {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    // The down arrow
+    &::after {
+      content: "";
+      position: absolute;
+      top: 10px;
+      right: $ss-spacing-small;
+      display: block;
+      width: 8px;
+      height: 8px;
+      border-left: 1px solid $color-1;
+      border-bottom: 1px solid $color-1;
+      transform: rotate(-45deg);
+
+      @media (max-width: $sm) {
+        width: 6px;
+        height: 6px;
+      }
+    }
+  }
+
+  .ss-dropdown {
+    top: calc(100% - 1px);
+    left: -25px;
+    right: -25px;
+    padding: 0 25px 30px;
+    position: absolute;
+    float: left;
+    display: none;
+    background: $color-3;
+    border-radius: 3px;
+
+    .ss-option {
+      width: 100%;
+      padding: 0;
+      background-color: $color-3;
+      cursor: pointer;
+      font-family: $font-1;
+      font-size: 14px;
+      line-height: 30px;
+      letter-spacing: 0.5px;
+      font-weight: 200;
+      transition: background $time-sm;
+      // We don't use :hover as that's only for mouse
+      // and we want keyboard highlighting too
+
+      &:first-child {
+        display: none;
+      }
+
+      @media (max-width: $sm) {
+        font-size: 13px;
+        line-height: 20px;
+      }
+
+      &.highlighted {
+        background: #F4F0F7;
+      }
+
+      &.disabled {
+        color: #d0d0d0;
+      }
+
+      &.ticked {
+        color: $color-2;
+      }
+    }
+  }
+
+  &.open {
+    .ss-dropdown {
+      display: block;
+    }
+
+    .ss-selected-option::after {
+      transform: rotate(133deg);
+    }
+  }
+
+}

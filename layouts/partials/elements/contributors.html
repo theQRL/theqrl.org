@@ -1,0 +1,29 @@
+<section id="contributors" class="contributors default-padding bg-white">
+  <div class="animate-fade">
+    <div class="container-mini">
+      <p class="text-yellow section-title">{{ .Scratch.Get "section_title" }}</p>
+      <h2 class="section-title-header">{{ .Scratch.Get "section_title_header" }}</h2>
+    </div>
+    <div class="container-mini">
+      <ul id="contributors-list" class="list contributors-list" style="overflow: visible; height: fit-content;">
+        {{ $counter := 0 }}
+        {{ range sort .Site.Data.contributions "contributions" "desc" }}
+        {{ $counter = add $counter .contributions }}
+        <li>
+          <a href="https://github.com/{{.login}}" class="contrib">
+            <span> {{ .login }}</span>
+<!--             <img height="48" width="48" src="https://github.com/{{.login}}.png?size=32" alt="{{ .login }}"> -->
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+    <div class="container-mini">
+      <p class="contributors-p">
+        <strong>{{ $counter }}</strong> total contributions between 
+        <strong>{{ len .Site.Data.contributions }}</strong> contributors over 
+        <strong>29</strong> repositories.
+      </p>
+    </div>
+  </div>
+</section>

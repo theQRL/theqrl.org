@@ -1,0 +1,183 @@
+.features{
+  padding: 100px 0 60px;
+  @include laptop{}
+  @include tablet{
+    padding: 100px 0 0px;
+  }
+  @include mobile{
+    padding: 100px 0 0px;
+  }
+  &__inner{
+    max-width: 1220px;
+    margin: 0 auto;
+    @include laptop{
+      max-width: 1090px;
+    }
+  }
+  &__title{
+    margin: 0 0 52px 80px;
+    font-size: 32px;
+    line-height: 141%;
+    font-family: $f-ProR;
+    font-weight: 500;
+    color: $color-yellow;
+    width: 100%;
+    max-width: 680px;
+    @include laptop{
+      margin: 0 0 52px 116px;
+      max-width: 600px;
+    }
+    @include small-tablet{
+      margin: 0 0 33px 61px;
+      max-width: 68%;
+      font-size: 28px;
+    }
+    @include mobile{
+      max-width: 380px;
+      margin: 0 auto 38px;
+      font-size: 24px;
+      line-height: 142%;
+    }
+  }
+  &__list{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    @include tablet{
+      width: calc(100% + 20px);
+      left: -10px;
+    }
+    @include mobile{
+      width: 100%;
+      left: auto;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  &__item{
+    border-radius: 6px;
+    position: relative;
+    width: calc(33.33%);
+    border: 1px solid transparent;
+    padding: 68px 0;
+    transition: border-color .5s ease-in-out;
+    @include tablet{
+      padding: 68px 10px;
+      border: none;
+    }
+    @include mobile{
+      width: 100%;
+      max-width: 380px;
+      padding: 10px 0;
+      margin-bottom: 90px
+    }
+    &:hover{
+      border-color: $color-blue;
+    }
+    &:hover .features__img--hover{
+      opacity: 1;
+    }
+    &:last-child{
+      @include tablet{
+        margin-bottom: 0;
+      }
+    }
+    .read-more-button{
+      position: absolute;
+      bottom: 0;
+    }
+  }
+  &__item-inner{
+    height: 100%;
+    position: relative;
+    max-width: 347px;
+    padding: 0 0 20px;
+    margin: 0 auto;
+    @include laptop{
+      max-width: 312px;
+    }
+    @include mobile{
+      max-width: unset;
+    }
+  }
+  &__img-wrap{
+    overflow: hidden;
+    display: block;
+    margin-bottom: 52px;
+    width: 100%;
+    height: 188px;
+    position: relative;
+    @include laptop{
+      margin-bottom: 53px;
+    }
+    @include small-tablet{
+      height: 168px;
+    }
+  }
+  &__img{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    width: 100%;
+    &--hover{
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
+    &--active{
+      @include mobile{
+        opacity: 1;
+      }
+    }
+    @include tablet{
+      height: 100%;
+      @include object-fit(cover);
+    }
+  }
+  &__item-content{
+    padding: 0 22px;
+    @include laptop{
+      padding: 0 18px;
+    }
+  }
+  &__item-title{
+    display: block;
+    margin-bottom: 29px;
+    font-size: 32px;
+    line-height: 140%;
+    font-family: $f-ProL;
+    color: $color-blue;
+    transition: color .3s ease-in-out;
+    &:hover{
+      color: $color-yellow;
+    }
+    @include laptop{}
+    @include tablet{
+      margin-bottom: 24px;
+      font-size: 28px;
+    }
+    @include mobile{
+      margin-bottom: 29px;
+    }
+  }
+  &__item-text{
+    margin-bottom: 46px;
+    font-family: $f-ProR;
+    color: $color-white;
+    font-size: 16px;
+    line-height: 24px;
+    @include laptop{
+      margin-bottom: 49px;
+    }
+    @include tablet{
+      margin-bottom: 43px;
+    }
+    @include mobile{
+      padding-right: 2px;
+    }
+  }
+}

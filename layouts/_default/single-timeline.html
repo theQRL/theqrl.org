@@ -1,0 +1,119 @@
+{{ partial "head/prerender.html" . }}
+  <body data-page-name="coreTeam" class="coreTeam">
+    {{ partial "elements/menu.html" . }}
+    <main>
+      <div class="core-team-head" style="min-height: 540px;">
+        <div class="container-mini">
+          <div class="core-team-head__inner">
+            <p class="section-title">{{ .Params.layout_single_header.sectionsubtitle }}</p>
+            <h1 class="section-title-header text-yellow ">{{ .Params.layout_single_header.sectiontitle }}</h1>
+            <p> {{ .Params.layout_single_header.blurb }}</p>
+            <p></p>
+          </div>
+          <div class="welcome__btn-area">
+              <a href="#timeline" class="welcome__btn welcome__btn--blue">Change the future</a>
+              <a href="#qips" class="welcome__btn welcome__btn--text">Explore our QRL Improvement Proposals</a>
+          </div>
+        </div>
+      </div>
+      <section class="core core-page bg-white">
+        <div class="core-page-gray"></div>
+        <div class="container-mini" style="padding-top: 50px;">
+          <div class="grid">
+
+
+            <div class="timeline-content" id="timeline">
+              <div class="container-mini">
+                <p class="text-yellow section-title">Looking Back</p>
+                <h2 class="section-title-header">Project Milestones</h2>
+              </div>
+              <ul class="timeline">
+                {{ range .Site.Data.roadmap }}
+
+                {{ if eq .magnitude "major" }}
+                <li class="event" id="date" data-date="{{ dateFormat "January 2006" .date }}">
+                  <span class="date">{{ dateFormat "January 2006" .date }}</span>
+
+                  <h3>{{ .event }}</h3>
+                  <p>{{ .blurb | markdownify }}</p> 
+
+                  {{ if .link }}
+                  <a href="{{ .link }}">Read More</a>
+                  {{ end }}
+                </li>
+                {{ end }}
+
+                {{ end }}
+            </ul> 
+
+            <div class="timeline-content future">
+              <div class="container-mini">
+                <p class="text-yellow section-title">The next fork</p>
+                <h2 class="section-title-header">Features Slated for Next Fork, Cesium</h2>
+              </div>
+              <ul class="timeline">
+  
+                <li class="event" id="date">
+                  <!-- <span class="date">Proof-of-Stake</span> -->
+                  <h3>Proof-of-Stake</h3>
+                  <p></p>  
+                </li>
+  
+                <li class="event" id="date">
+                  <!-- <span class="date">Proof-of-Stake</span> -->
+                  <h3>Falcon</h3>
+                  <p></p>  
+                </li>
+
+                <li class="event" id="date">
+                  <!-- <span class="date">Proof-of-Stake</span> -->
+                  <h3>GoLang Node</h3>
+                  <p></p>  
+                </li>
+              </ul>             
+            </div>
+
+            <div class="timeline-content future">
+              <div class="container-mini">
+                <p class="text-yellow section-title">Keeping Busy</p>
+                <h2 class="section-title-header">Other Key Projects</h2>
+              </div>
+              <ul class="timeline">
+  
+                <li class="event" id="date">
+                  <!-- <span class="date">Proof-of-Stake</span> -->
+                  <h3>enQlave: Quantum Security for Ethereum</h3>
+                  <p></p>  
+                </li>
+              </ul>             
+            </div>  
+
+            <div class="timeline-content future" id="qips">
+              <div class="container-mini">
+                <p class="text-yellow section-title">Planning Ahead</p>
+                <h2 class="section-title-header">Current QRL improvement proposal (QIPs)</h2>
+              </div>
+              <ul class="timeline">
+  
+                {{ range .Site.Data.qips }}
+
+                <li class="event" id="date" data-date="QIP {{ printf "%03d" .qip }}">
+                  <span class="date">QIP {{ printf "%03d" .qip }}</span>
+                  <h3>{{ .title }}</h3>
+                  <p>Status: {{ .status }}</p>  
+                </li>
+
+                {{ end }}
+  
+              </ul>             
+            </div>  
+
+            {{ .Content }}
+          </div>
+        </div>
+      </section>
+      {{ partial "elements/follow.html"}}
+      {{ partial "footer/popup.html" }}
+    </main>
+  {{ partial "footer/nav.html" }}
+{{ partial "footer/end.html" }}

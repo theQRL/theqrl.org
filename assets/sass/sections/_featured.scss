@@ -1,0 +1,53 @@
+.featured{
+    padding-top: 100px;
+    @include tablet{
+        padding-top: 75px;
+    }
+    &__el{
+        height: 148px;
+        background-color: #eceded;
+        display: block;
+        position: relative;
+        img{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transition: $time-sm;
+        }
+       
+        .color-img{
+            opacity: 0;
+            visibility: hidden;
+        }
+        .bw-img{
+            opacity: 1;
+            visibility: visible;
+        }
+        @include tablet{
+            height: 118px;
+        }
+        @include mobile{
+            height: 80px;
+        }
+        &:hover{
+            @media (min-width: 1201px){
+                .color-img{
+                    opacity: 1;
+                    visibility: visible;
+                }
+                .bw-img{
+                    opacity: 0;
+                    visibility: hidden;
+                }
+            }
+            
+        }
+        
+    }
+    &__container{
+        @include tablet{
+            padding: 0;
+        }
+    }
+}

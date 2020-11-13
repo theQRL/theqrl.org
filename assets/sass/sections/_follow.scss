@@ -1,0 +1,159 @@
+.follow{
+    background-color: $color-blue;
+    padding: 85px 0;
+    @include tablet{
+        padding: 67px 30px;
+    }
+    @include mobile{
+        padding: 50px 30px;
+    }
+    p{
+        margin-right: 83px;
+        color: $color-white;
+        font-size: 24px;
+        font-family: $f-DinM;
+        @include tablet{
+            font-size: 20px;
+            margin-right: 80px;
+        }
+        @include mobile{
+            display: none;
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 30px;
+        }
+    }
+    &__links{
+        display: flex;
+        flex-wrap: nowrap;
+
+        @include mobile{
+            justify-content: space-between;
+            width: 100%;
+        }
+        a{
+            margin-right: 64px;
+            display: flex;
+            align-items: center;
+            transition: $time-sm;
+            height: 40px;
+            &:last-child{
+                margin-right: 0;
+            }
+            path{
+                transition: $time-sm;
+            }
+            &:hover{
+                path{
+                    fill: $color-black;
+                }
+            }
+            @include laptop{
+                margin-right: 30px;
+            }
+            // @include tablet{
+            //     height: 18px;
+            // }
+            
+            @include mobile{
+                margin-right: 0;
+                justify-content: center;
+                
+            }
+        }
+        img{
+            height: 100%;
+            // filter: invert(1);
+            
+            // @include tablet{
+            //     height: 18px;
+            // }
+        }
+    }
+    &__inner{
+        @include mobile{
+            justify-content: flex-start;
+        }
+        
+    }
+    
+}
+.foll{
+    padding: 85px 0;
+    @include tablet{
+        padding: 67px 30px;
+    }
+    @include mobile{
+        padding: 50px 30px;
+    }
+    p{
+        margin-right: 83px;
+        color: $color-yellow;
+        font-size: 24px;
+        font-family: $f-DinM;
+        @include tablet{
+            font-size: 20px;
+            margin-right: 80px;
+        }
+        @include mobile{
+            display: none;
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 30px;
+        }
+    }
+    &__linx{
+        display: flex;
+        flex-wrap: nowrap;
+
+        @include mobile{
+            justify-content: space-between;
+            width: 100%;
+        }
+        a{
+            margin-right: 64px;
+            display: flex;
+            align-items: center;
+            transition: $time-sm;
+            height: 40px;
+            &:last-child{
+                margin-right: 0;
+            }
+            path{
+                transition: $time-sm;
+            }
+            &:hover{
+                path{
+                    fill: $color-yellow;
+                }
+            }
+            @include laptop{
+                margin-right: 30px;
+            }
+            // @include tablet{
+            //     height: 18px;
+            // }
+            
+            @include mobile{
+                margin-right: 0;
+                justify-content: center;
+                
+            }
+        }
+        img{
+            height: 100%;
+            // filter: invert(1);
+            
+            // @include tablet{
+            //     height: 18px;
+            // }
+        }
+    }
+    &__inner{
+        @include mobile{
+            justify-content: flex-start;
+        }
+        
+    }
+    
+}

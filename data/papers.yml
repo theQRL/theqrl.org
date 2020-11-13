@@ -1,0 +1,103 @@
+- name: "Post-quantum blockchain using one-time signature chains"
+  category: citations
+  link: https://pdfs.semanticscholar.org/f38c/562c21fa1a94871e5f577669f7c4b9520632.pdf 
+
+- name: "Blockchained Post-Quantum Signatures"
+  category: citations
+  link: https://eprint.iacr.org/2018/658.pdf
+
+- name: "Application and Implementation of Multivariate Public Key Cryptosystem in Blockchain (Short Paper)"
+  category: citations
+  link: https://link.springer.com/chapter/10.1007%2F978-3-030-30146-0_29
+
+- name: "Bazo–A Cryptocurrency from Scratch"
+  category: citations
+  link: https://files.ifi.uzh.ch/CSG/staff/bocek/extern/theses/BA-Livio-Sgier.pdf
+
+- name: "XMSS – A Practical Forward Secure Signature Scheme based on Minimal Security Assumptions"
+  category: cryptography
+  link: https://eprint.iacr.org/2011/484.pdf
+
+- name: "CRYSTALS – Dilithium: A Lattice-Based Digital Signature Scheme"
+  category: cryptography
+  link: https://eprint.iacr.org/2017/633.pdf
+
+- name: "CRYSTALS – Kyber: a CCA-secure module-lattice-based KEM"
+  category: cryptography
+  link: https://eprint.iacr.org/2017/634.pdf
+
+- name: "W-OTS+ – Shorter Signatures for Hash-BasedSignature Schemes"
+  category: cryptography
+  link: https://huelsing.files.wordpress.com/2013/05/wotsspr.pdf
+
+- name: "Bitcoin: A Peer-to-Peer Electronic Cash System"
+  category: seminal
+  link: https://bitcoin.org/bitcoin.pdf
+  
+- name: "Draft Recommendation for Stateful Hash-Based Signature Schemes (XMSS)"
+  category: nist
+  link: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-208-draft.pdf
+
+- name: "Request for Public Comments on Stateful Hash-Based Signatures (HBS) "
+  category: nist
+  link: https://csrc.nist.gov/News/2019/stateful-hbs-request-for-public-comments
+
+- name: "RFC 8391 - XMSS: eXtended Merkle Signature Scheme"
+  category: ietf
+  link: https://tools.ietf.org/html/rfc8391
+
+- name: "Towards Post-Quantum Blockchain: A Review on Blockchain Cryptography Resistant to Quantum Computing Attacks"
+  category: citations
+  link: https://ieeexplore.ieee.org/abstract/document/8967098
+
+- name: "Cryptography Lecture 8"
+  category: further-reading
+  link: https://www.icg.isy.liu.se/courses/tsit03/forelasningar/cryptolecture08.pdf
+
+- name: "SPHINCS: practical stateless hash-based signatures"
+  category: further-reading
+  link: https://sphincs.cr.yp.to/papers.html
+
+- name: "Summer School on Post-Quantum Cryptography 2017"
+  category: further-reading
+  link: https://2017.pqcrypto.org/school/schedule.html
+
+- name: "Andreas Hülsing - Hash-Based Signatures"
+  category: further-reading
+  link: https://www.youtube.com/watch?v=qkqtsnXTMQM
+
+- name: "Hash-based Signatures: An illustrated Primer"
+  category: further-reading
+  link: https://blog.cryptographyengineering.com/2018/04/07/hash-based-signatures-an-illustrated-primer/
+
+- name: '"Oops, I did it again" -- Security of One-Time Signatures under Two-Message Attacks'
+  category: cryptography
+  link: https://eprint.iacr.org/2016/1042
+
+- name: "ISSA Journal: Application of Quantum Technologies for Practical Tasks"
+  category: citations
+  link: https://issa-cos.org/wp-content/uploads/2017/11/ISSA_Journal_November_2017.pdf
+
+- name: "Ralph Merkle - A Certified Digital Signature (1979)"
+  category: seminal
+  link: http://www.merkle.com/papers/Certified1979.pdf
+
+- name: "The Impact of Quantum Computing on Present Cryptography"
+  category: cryptography
+  link: https://arxiv.org/pdf/1804.00200.pdf
+
+- name: "A survey of blockchain from security perspective"
+  category: citations
+  link: https://link.springer.com/article/10.1007/s42786-018-00002-6
+
+- name: "Novel One Time Signatures (NOTS): A CompactPost-Quantum Digital Signature Scheme"
+  category: citations
+  link: https://ieeexplore.ieee.org/document/8959230
+
+- name: "Smart Digital Signatures (SDS): A Post-quantum Digital Signature Scheme for Distributed Ledgers"
+  category: citations
+  link: https://www.researchgate.net/publication/340934583_Smart_Digital_Signatures_SDS_A_Post-quantum_Digital_Signature_Scheme_for_Distributed_Ledgers
+
+- name: "Quantum Computing and Blockchain in Business: Exploring the applications, challenges, and collision of quantum computing and blockchain"
+  category: reference-book
+  link: https://www.amazon.com/Quantum-Computing-Blockchain-Business-applications/dp/1838647767

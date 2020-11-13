@@ -1,0 +1,220 @@
+// #region container
+	.container {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1300px;
+
+	@include laptop {
+		max-width: 1170px;
+	}
+
+	@include tablet {
+		max-width: 100%;
+		padding: 0 30px;
+	}
+	}
+	.container-medium{
+		max-width: 975px;
+		margin: 0 auto;
+	}
+	.container-mini{
+		max-width: 780px;
+		margin: 0 auto;
+		@include tablet{
+			max-width: 588px;
+		}
+	}
+// #endregion
+
+// #region flex
+  .flex_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .flex_jc_center {
+    justify-content: center;
+  }
+  .flex_jc_start {
+    justify-content: flex-start;
+  }
+  .flex_jc_end {
+    justify-content: flex-end;
+  }
+  .flex_jc_beetween {
+    justify-content: space-between;
+  }
+  .flex_jc_around {
+    justify-content: space-around;
+  }
+  .flex_ai_center {
+    align-items: center;
+  }
+  .flex_ai_start {
+    align-items: flex-start;
+  }
+  .flex_ai_end {
+    align-items: flex-end;
+  }
+  .flex_as_start {
+    align-self: flex-start;
+  }
+  .flex_dir_col{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .nowrap{
+    flex-wrap: nowrap;
+  }
+  .flex_mob_column_reverse {
+    @media (max-width: $md) {
+      flex-direction: column-reverse;
+    }
+  }
+  .flex1 {
+    flex: 1;
+  }
+// #endregion flex
+
+// #region grid
+	.grid{
+    display: grid;
+    display: -ms-grid;
+	}
+	.grid-four-cols{
+    grid-template-columns: repeat(4, 1fr);
+    -ms-grid-columns: 1fr 17px 1fr 17px 1fr 17px 1fr;    
+    -ms-grid-rows: 1fr 17px 1fr;
+		grid-column-gap: 17px;
+    grid-row-gap: 17px;
+    a:nth-child(1){
+      -ms-grid-column: 1;
+      -ms-grid-row: 1;
+      margin-bottom: 17px;
+    }
+    a:nth-child(2){
+      -ms-grid-column: 3;
+      -ms-grid-row: 1;
+      margin-bottom: 17px;
+    }
+    a:nth-child(3){
+      -ms-grid-column: 5;
+      -ms-grid-row: 1;
+      margin-bottom: 17px;
+    }
+    a:nth-child(4){
+      -ms-grid-column: 7;
+      -ms-grid-row: 1;
+      margin-bottom: 17px;
+    }
+    a:nth-child(5){
+      -ms-grid-column: 1;
+      -ms-grid-row: 2;
+    }
+    a:nth-child(6){
+      -ms-grid-column: 3;
+      -ms-grid-row: 2;
+    }
+    
+		@include tablet{
+			grid-template-columns: repeat(3, 1fr);
+		}
+		@include mobile{
+			grid-template-columns: repeat(2, 1fr);
+		}
+  }
+  .grid-three-cols{
+    grid-template-columns: repeat(3, 1fr);
+		grid-column-gap: 42px;
+    grid-row-gap: 42px;
+    -ms-grid-columns: 1fr 42px 1fr 42px 1fr;    
+    -ms-grid-rows: 1fr 42px 1fr;
+    
+    .core__el:nth-child(1){
+      -ms-grid-column: 1;
+      -ms-grid-row: 1;
+      // margin-bottom: 42px;
+    }
+    .core__el:nth-child(2){
+      -ms-grid-column: 3;
+      -ms-grid-row: 1;
+      // margin-bottom: 42px;
+    }
+    .core__el:nth-child(3){
+      -ms-grid-column: 5;
+      -ms-grid-row: 1;
+      // margin-bottom: 42px;
+    }
+    .core__el:nth-child(4){
+      -ms-grid-column: 1;
+      -ms-grid-row: 3;
+      
+    }
+    .core__el:nth-child(5){
+      -ms-grid-column: 3;
+      -ms-grid-row: 3;
+    }
+    .core__el:nth-child(6){
+      -ms-grid-column: 5;
+      -ms-grid-row: 3;
+    }
+    .core__el:nth-child(7){
+      -ms-grid-column: 1;
+      -ms-grid-row: 5;
+    }
+    .core__el:nth-child(8){
+      -ms-grid-column: 3;
+      -ms-grid-row: 5;
+    }
+    .core__el:nth-child(9){
+      -ms-grid-column: 5;
+      -ms-grid-row: 5;
+    }
+    .core__el:nth-child(10){
+      -ms-grid-column: 1;
+      -ms-grid-row: 7;
+    }
+    .core__el:nth-child(11){
+      -ms-grid-column: 3;
+      -ms-grid-row: 7;
+    }
+    .core__el:nth-child(12){
+      -ms-grid-column: 5;
+      -ms-grid-row: 7;
+    }
+    .core__el:nth-child(13){
+      -ms-grid-column: 1;
+      -ms-grid-row: 9;
+    }
+    .core__el:nth-child(14){
+      -ms-grid-column: 3;
+      -ms-grid-row: 9;
+    }
+    .core__el:nth-child(15){
+      -ms-grid-column: 5;
+      -ms-grid-row: 9;
+    }
+    .core__el:nth-child(16){
+      -ms-grid-column: 1;
+      -ms-grid-row: 11;
+    }
+    .core__el:nth-child(17){
+      -ms-grid-column: 3;
+      -ms-grid-row: 11;
+    }
+    .core__el:nth-child(18){
+      -ms-grid-column: 5;
+      -ms-grid-row: 11;
+    }
+    @include tablet {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-column-gap: 17px;
+      grid-row-gap: 17px;
+    }
+    @include mobile {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-column-gap: 30px;
+      grid-row-gap: 30px;
+    }
+  }
+// #endregion

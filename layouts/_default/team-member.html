@@ -1,0 +1,42 @@
+{{ partial "head/prerender.html" . }}
+  <body data-page-name="blogPageInner" class="blogPageInner">
+{{ partial "elements/menu.html" . }}
+    <main>
+      <section class="blogPage__inner big-padding bg-white">
+        <div class="article-content" id="article-container">
+          <div class="article-content__fixed-aside" id="article-aside">
+            <div class="container">
+              <div class="article-aside">
+                <a href="/team" class="article-aside__item article-aside__item--back">
+                  <svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.45534 -7.25446e-08L10.2852 1.07539L3.22495 6.49319L10.2852 11.9246L9.45534 13L0.993982 6.49319L9.45534 -7.25446e-08Z" fill="#0B181E" />
+                  </svg>
+                </a>
+                {{ partial "elements/aside.html" . }}
+              </div>
+            </div>
+          </div>
+          <div class="container-mini blog-article">
+            <h1>{{ .Param "name" }}</h1>
+            <div class="center date-box">
+              <span>
+                {{ if eq (.Param "role") "advisor" }}
+                {{ .Param "position" }}<br>
+                Advisor
+                {{else}}
+                {{ .Param "position" }}
+                {{end}}
+              </span>
+              <p><img src='{{ .Param "profile" }}' alt=""></p>
+            </div>
+            <div class="blog-article__inner">
+              {{ .Content }}
+            <hr>
+          </div>
+        </div>
+      </section>
+      {{ partial "elements/follow.html"}}
+      {{ partial "footer/popup.html" }}
+    </main>
+  {{ partial "footer/nav.html" }}
+{{ partial "footer/end.html" }}

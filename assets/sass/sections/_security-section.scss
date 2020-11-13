@@ -1,0 +1,117 @@
+.security{
+  padding-top: 200px;
+  padding-bottom: 130px;
+  position: relative;
+  background-color: $color-black;
+  @include laptop{
+    padding-top: 148px;
+  }
+  @include small-tablet{
+    padding-top: 95px;
+    padding-bottom: 90px;
+  }
+  @include mobile{
+    padding-top: 140px;
+    padding-bottom: 60px;
+  }
+  .container{
+    position: relative;
+    z-index: 1;
+  }
+  &__inner{
+    position: relative;
+    display: flex;
+    @include small-tablet{
+      justify-content: space-around;
+    }
+    @include media(800px){
+      justify-content: normal;
+    }
+    @include mobile{
+      display: block;
+    }
+  }
+  &__column{
+    width: 50%;
+    &--img{
+      width: 525px;
+      @include laptop{
+        width: 478px;
+      }
+      @include small-tablet{
+        width: 340px;
+      }
+      @include mobile{
+        margin: 0 auto 53px;
+        width: 100%;
+        max-width: 360px;
+      }
+    }
+    &--content{
+      padding: 132px 0 0 135px;
+      width: 615px;
+      @include laptop{
+        padding: 105px 0 0 116px;
+        width: 575px;
+      }
+      @include small-tablet{
+        max-width: 44%;
+        width: calc(100% - 340px);
+        padding: 0 0 0 24px;
+      }
+      @include mobile{
+        width: 100%;
+        max-width: 600px;
+        padding: 0;
+      }
+    }
+  }
+  &__bg-img{
+    width: 100%;
+  }
+  &__pre-title{
+    margin-bottom: 29px;
+    font-family: $f-DinM;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $color-yellow;
+    @include laptop{
+      margin-bottom: 26px;
+    }
+    @include small-tablet{
+      margin-bottom: 22px
+    }
+    @include mobile{
+      margin-bottom: 12px;
+      font-size: 20px;
+      line-height: 26px;
+    }
+  }
+  &__title{
+    max-width: 355px;
+    margin-bottom: 48px;
+    font-family: $f-ProL;
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 140%;
+    @include small-tablet{
+      margin-bottom: 42px
+    }
+    @include mobile{
+      margin-bottom: 20px;
+      width: 85%;
+      font-size: 28px;
+    }
+  }
+  &__text{
+    color: $color-white;
+    font-size: 16px;
+    line-height: 24px;
+    @include mobile{
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}

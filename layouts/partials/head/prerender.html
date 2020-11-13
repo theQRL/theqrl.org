@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>QRL: The Quantum Resistant Ledger</title>
+    <meta name="description" content="The Quantum Resistant Ledger (QRL) is a first-of-its-kind, post-quantum value store and decentralized communication layer proactively tackling the threat advanced Quantum Computers pose to cryptocurrencies">
+    <meta name="keywords" content="quantum resistant, quantum proof, blockchain, crypto-currency, cryptocurrency, quantum blockchain, quantum computer, bitcoin">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="google-site-verification" content="kpNDf1jcs5t12PcEr3SnoX1pzclVezxfystHfJgbvuk" />
+    <!-- Google Analytics -->
+    <script>
+      if ( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', 'UA-123414102-1', {
+          'cookieFlags': 'SameSite=Strict'
+        });
+        ga('send', 'pageview');
+      }
+    </script>
+    <script async src='/js/analytics.js'></script>
+    <!-- End Google Analytics -->
+    <link rel="shortcut icon" type="image/svg" href="/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ffa729">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#0b181e">
+    {{ $options := (dict "targetPath" "css/app.css" "outputStyle" "compressed" "enableSourceMap" true "includePaths" (slice "node_modules/myscss")) }}
+    {{ $style := resources.Get "sass/app.scss" | resources.ToCSS $options }} 
+    <link rel="stylesheet" href="{{ $style.Permalink }}" />
+    <link rel="stylesheet" href="/css/overrides.css" />
+    <script crossorigin="anonymous" nomodule src="https://polyfill.io/v3/polyfill.min.js?features=blissfuljs%2Cdefault%2Ces2015%2Ces2016%2Ces2017%2Ces2018%2Ces5%2Ces6%2Ces7%2CNodeList.prototype.forEach%2CIntersectionObserver%2CIntersectionObserverEntry"></script>
+  </head>

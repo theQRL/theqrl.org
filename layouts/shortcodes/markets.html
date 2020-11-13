@@ -1,0 +1,35 @@
+{{ $output := "ul" }}
+
+{{ if .Get 0 }}
+	{{ $output = .Get 0 }}
+{{ end }}
+
+{{ if or (eq $output "ol") }}<ol>{{ end }}
+{{ if or (eq $output "ul") }}<ul>{{ end }}
+	{{ if or (eq $output "ul") (eq $output "ol") }}
+		{{ range $.Site.Data.markets }}
+			<li>
+				<a href="{{ .link }}">{{ .name }}</a>
+			</li>
+		{{ end }}
+	{{ end }}
+{{ if or (eq $output "ul") }}</ul>{{ end }}
+{{ if or (eq $output "ol") }}</ol>{{ end }}
+
+{{ if or (eq $output "csv") }}
+	{{ range $i, $e := $.Site.Data.markets }}{{ if $i }}, {{ end }}<a href="{{ .link }}">{{ .name }}</a>{{ end }}
+{{ end }}
+
+
+{{ if or (eq $output "grid") }}<div id="markets" class="grid grid-markets grid-three-cols">{{ end }}
+	{{ range $.Site.Data.markets }}
+		<a href="{{ .link }}" class="no-ul">
+          <div class="core__el animate-fade" style="opacity: 1; visibility: inherit;">
+            <div class="core__el__img">
+              <img src="/img/markets/{{ .logo }}" alt="{{ .name }}">
+            </div>
+            <div class="core__el__inner">{{ .name }}<br><p>{{ .type }}</p></div>
+          </div>
+		</a>
+	{{ end }}
+{{ if or (eq $output "grid") }}</div>{{ end }}

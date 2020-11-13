@@ -1,0 +1,73 @@
+{{ partial "head/prerender.html" . }}
+  <body data-page-name="blogPageInner" class="blogPageInner">
+{{ partial "elements/menu.html" . }}
+    <main>
+<section class="blogPage__inner big-padding bg-white">
+  <div class="article-content" id="article-container">
+    <div class="article-content__fixed-aside" id="article-aside">
+      <div class="container">
+        <div class="article-aside">
+          <a href='{{ if .Params.parent }}{{ if eq .Params.parent "/" }}{{.Site.BaseURL}}{{else}}{{.Site.BaseURL}}{{.Params.parent}}{{end}}{{else}}{{.Site.BaseURL}}articles{{end}}'
+          class="article-aside__item article-aside__item--back">
+            <svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9.45534 -7.25446e-08L10.2852 1.07539L3.22495 6.49319L10.2852 11.9246L9.45534 13L0.993982 6.49319L9.45534 -7.25446e-08Z" fill="#0B181E" />
+            </svg>
+          </a>
+          {{ partial "elements/aside.html" . }}
+        </div>
+      </div>
+    </div>
+    <div class="container-mini blog-article">
+      <h1>{{ .Params.Title }}</h1>
+      {{ if .Params.tldr }}
+      <div class="center date-box">
+        <span>{{ .Params.tldr }}</span>
+      </div>
+      {{ end }}
+      {{ if .Params.image }}
+      <img src="{{.Site.BaseURL}}{{.Params.image}}" alt="">
+      {{ end }}
+      <div class="place-date flex_wrapper flex_jc_beetween">
+        <p>{{ range .Params.categories }}<a href="/categories/{{ . }}">{{ . }}</a>&nbsp;&nbsp;{{ end }}</p>
+        {{ if not .Date.IsZero }}
+        <p>{{ .Date.Format "2" }}{{ if in (slice 1 21 31) .Date.Day}}st{{ else if in (slice 2 22) .Date.Day}}nd{{ else if in (slice 3 23) .Date.Day}}rd{{ else }}th{{ end }} {{ .Date.Format "January 2006" }}</p>
+        {{ end }}
+      </div>
+      <div class="blog-article__inner">
+        {{ .Content }}
+      </div>
+      {{ if not .Date.IsZero }}
+      <div class="place-date flex_wrapper flex_jc_beetween mt0">
+        <p>{{ range .Params.categories }}<a href="/categories/ {{ . }}">{{ . }}</a>&nbsp;&nbsp;{{ end }}</p>
+        <p>{{ .Date.Format "2" }}{{ if in (slice 1 21 31) .Date.Day}}st{{ else if in (slice 2 22) .Date.Day}}nd{{ else if in (slice 3 23) .Date.Day}}rd{{ else }}th{{ end }} {{ .Date.Format "January 2006" }}</p>
+      </div>
+      {{end}}
+      <hr>
+      {{ if .Params.author }}
+      <div class="author-box flex_wrapper">
+        <div class="author-box-img">
+          {{ $a := .Params.author }}
+          {{ $t := .Site.GetPage "/team" }}
+          {{ range $t.Data.Pages }}
+          {{ if eq .Params.name $a }}
+            <a href="{{.Site.BaseURL}}team/{{ .Params.slug }}"><img src="{{.Site.BaseURL}}/{{ .Params.profile }}" alt="{{$a}}"></a>
+          {{ end }}
+          {{end}}
+        </div>
+        <div class="author-box-text flex_dir_col flex_jc_center">
+          <p>WRITTEN BY </p>
+          {{ range $t.Data.Pages }}
+          {{ if eq .Params.name $a }}
+          <p><a href="{{.Site.BaseURL}}team/{{ .Params.slug }}" style="text-decoration: none;">{{ $a }}</a></p>
+          {{ end }}
+          {{end}}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ partial "footer/popup.html" }}
+</main>
+{{ partial "footer/nav.html" }}
+{{ partial "footer/end.html" }}

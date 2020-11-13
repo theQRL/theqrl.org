@@ -1,0 +1,75 @@
+.contributors{
+    .list {
+        text-align: left;
+        list-style: none;
+        padding-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        // height: 384px;
+        overflow: hidden;
+        margin-bottom: 25px;
+            
+        li {      
+            border-left: 3px solid $color-blue;
+            line-height: 0;
+            margin:5px;
+            background-color: #ECEDED;
+            width: calc(33% - 10px);
+            border-radius: 3px;
+
+            @include tablet {
+                width: calc(50% - 10px);
+            }
+            @include mobile {
+                width: calc(50% - 10px);
+            }
+
+            a{
+                color: $color-black;
+                width: 100%; height:48px;
+                display: flex;
+                text-decoration: none;
+                position: relative;
+                font-size: 18px;
+                line-height: 0px;
+                border-bottom: none;
+                font-family: $f-ProR;
+                transition: $time-3;
+                border-bottom: 1px solid $color-black;
+                &:hover{
+                    color: $color-yellow;
+                    border-color: $color-yellow;
+                }
+                @include tablet {
+                    font-size: 16px;
+                    line-height: 28px;
+                }
+                span {
+                    flex: auto;                
+                    line-height: 48px;
+                    padding-left: 8px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+            }
+            img {
+                width: 48px;
+                max-height: 48px;
+                filter: grayscale(1);
+            }
+        }
+    }
+    .contributors-p {
+        font-size: 16px;
+        line-height: 32px;
+        color:$color-black;
+        font-family: $f-ProR;
+        max-width: 373px;
+        @include mobile {
+            max-width: 178px;
+        }
+        strong {
+            font-family: $f-ProB;
+        }
+    }
+}

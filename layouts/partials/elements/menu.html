@@ -1,0 +1,86 @@
+<header class="header" id="header">
+  <div class="container">
+    <div class="header__inner">
+      <div class="header__logo-wrap">
+        <a href="/" class="header__logo-link">
+          <img src="/img/icons/qrl-logo.svg" alt="" class="header__logo">
+        </a>
+      </div>
+      <div class="header__naw-cta-wrap">
+        <div class="header__nav">
+          <ul>
+            <li>
+              <a href="{{ if not .IsHome }}/{{ end }}markets">Markets</a>
+            </li>
+            <li>
+              <a href="{{ if not .IsHome }}/{{ end }}#features">Features</a>
+            </li>
+            <li>
+              <a href="{{ if not .IsHome }}/downloads{{else}}#tabs{{ end }}">Downloads</a>
+            </li>
+            <li>
+              <a href="/roadmap">Roadmap</a>
+            </li>
+            <li>
+              <a href="/team">Team</a>
+            </li>
+            <li>
+              <a href="/blog">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header__cta">
+          <a href="#" class="header__cta-link show-popup" data-popup="contact">Contact us</a>
+        </div>
+      </div>
+      <button id="mobile-menu-btn" class="header__hamburger">
+        <svg class="hamburger__wrapper" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 23 16.3" style="enable-background:new 0 0 23 16.3;" xml:space="preserve">
+          <rect class="hamburger__top" width="23" height="2.1" />
+          <rect y="7.2" class="hamburger__center" width="23" height="1.9" />
+          <rect x="0" y="14.3" class="hamburger__bottom" width="11.5" height="1.9" />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-menu__wrapper">
+    <div class="mobile-menu__container">
+      <div class="mobile-menu__inner">
+        <ul class="mobile-menu__list">
+          <li>
+            <a href="{{ if not .IsHome }}/{{ end }}markets">Markets</a>
+          </li>
+          <li>
+            <a href="{{ if not .IsHome }}/{{ end }}#features">Features</a>
+          </li>
+          <li>
+            <a href="{{ if not .IsHome }}/downloads{{else}}#tabs{{ end }}">Downloads</a>
+          </li>
+          <li>
+            <a href="/roadmap">Roadmap</a>
+          </li>
+          <li>
+            <a href="/team">Team</a>
+          </li>
+          <li>
+            <a href="/blog">Blog</a>
+          </li>
+        </ul>
+        <div class="header__cta">
+          <a href="#" class="header__cta-link show-popup" data-popup="contact">Contact us</a>
+        </div>
+      </div>
+      <div class="mobile-menu__footer">
+        <div class="lower-footer__container">
+          <span class="lower-footer__copyright">© 2020 The QRL Foundation</span>
+          <div class="lower-footer__extra-info">
+            <a class="lower-footer__link" href="/privacy">Privacy Policy</a>
+            <a class="lower-footer__link" href="/terms">Terms of Service</a>
+            <div class="lower-footer__designed">
+              <img src="/img/icons/copyright.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

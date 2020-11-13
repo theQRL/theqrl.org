@@ -1,0 +1,20 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "QRL: The Quantum Resistant Ledger"
+timeout = 300000
+
+[params]
+  telegram="QRLedgerOfficial"
+  twitter="QRLedger"
+  youtube="QRLedger"
+
+[taxonomies]
+  author = "team"
+  tag = "tags"
+  category = "categories"
+  feature = "features"
+  fork = "forks"
+
+[permalinks]
+  "/blog/" = "/blog/:slug/"
+  "/pages/" = "/:slug/"

@@ -1,0 +1,199 @@
+.welcome{
+  position: relative;
+  //height: calc(100vh + 100px);
+  //padding-bottom: 100px;
+  &__bg-wrap{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    min-height: 1080px;
+    @include mobile{
+      opacity: .5;
+      height: 100%;
+      min-height: auto;
+    }
+    video{
+      @include object-fit(cover);
+      object-position: 100% center;
+      min-width: 100%;
+      min-height: 100%;
+      @include tablet{
+        object-position: 69% center;
+      }
+    }
+  }
+  &__inner{
+    padding-top: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+    max-width: 640px;
+    @media (min-width: 1200px){
+      height: 100vh;
+    }
+    @include small-tablet{
+      max-width: none;
+      padding-top: 96px;
+    }
+    @include mobile{
+      min-height: auto;
+      justify-content: normal;
+      padding-top: 155px;
+    }
+  }
+  &__pre-title{
+    margin-bottom: 9px;
+    font-size: 36px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: $color-yellow;
+    font-family: $f-DinL;
+    @include laptop{
+      font-size: 32px;
+      line-height: 41px;
+    }
+    @include small-tablet{
+      max-width: 50%;
+      font-size: 28px;
+      line-height: 36px;
+    }
+    @include mobile{
+      margin-bottom: 11px;
+      width: 100%;
+      font-size: 24px;
+    }
+  }
+  &__title{
+    margin-bottom: 45px;
+    font-size: 54px;
+    line-height: 70px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $color-yellow;
+    font-family: $f-DinB;
+    font-weight: 600;
+    @include laptop{
+      margin-bottom: 42px;
+      font-size: 48px;
+      line-height: 62px;
+    }
+    @include small-tablet{
+      max-width: 50%;
+      margin-bottom: 49px;
+      font-size: 44px;
+      line-height: 57px;
+    }
+    @include mobile{
+      margin-bottom: 45px;
+      max-width: 400px;
+      font-size: 36px;
+      line-height: 47px;
+    }
+    @include media(450px){
+      max-width: unset;
+    }
+  }
+  &__text{
+    margin-bottom: 49px;
+    font-family: $f-ProL;
+    color: $color-white;
+    font-size: 26px;
+    line-height: 140%;
+    @include laptop{
+      font-size: 24px;
+    }
+    @include small-tablet{
+      margin-bottom: 62px;
+      max-width: 50%;
+      font-size: 20px;
+    }
+    @include mobile{
+      margin-bottom: 54px;
+      max-width: 76%;
+      font-size: 16px;
+    }
+  }
+  &__btn-area{
+    display: flex;
+    @include mobile{
+      display: block;
+    }
+  }
+  &__btn{
+    position: relative;
+    display: block;
+    height: 48px;
+    line-height: 48px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: $f-DinM;
+    margin-right: 47px;
+    transition: opacity .5s ease-in-out, color .5s ease-in-out, background-color .5s ease-in-out;
+    &:last-child{
+      margin-right: 0;
+    }
+    &--blue{
+      padding: 0 15px;
+      width: 194px;
+      border-radius: 4px;
+      color: $color-black;
+      background-color: $color-blue;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      @include mobile{
+        margin-bottom: 23px;
+      }
+      &:hover{
+        background-color: $color-yellow;
+      }
+    }
+    &--text{
+      padding-right: 38px;
+      color: $color-white;
+      @include laptop{
+        padding-right: 45px;
+      }
+      @include small-tablet{
+        padding-right: 39px;
+      }
+      @include mobile{
+        text-align: left;
+        padding-right: 35px;
+        display: inline-block;
+      }
+      &:before{
+        content: '';
+        display: block;
+        width: 21px;
+        height: 14px;
+        background-image: url("../img/icons/arrow-1-w.svg");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: transform .3s ease-in-out;
+        @include mobile{
+          right: 0;
+        }
+      }
+      &:hover{
+        color: $color-yellow;
+      }
+      &:hover:before{
+        transform: translate(5px, -50%);
+        background-image: url(../img/icons/arrow-1-y.svg);
+      }
+    }
+  }
+}

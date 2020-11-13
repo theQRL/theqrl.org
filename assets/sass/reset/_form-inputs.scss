@@ -1,0 +1,31 @@
+input,
+select,
+textarea,
+label {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: normal;
+  background: none;
+  line-height: inherit;
+  border:none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  font-family: inherit;
+  font-size: inherit;
+
+  &::placeholder {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+}

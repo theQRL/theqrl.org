@@ -1,0 +1,131 @@
+- qip: 1
+  layer: Node
+  title: Migrate to Cryptonote v8
+  author: Andrew Chiw
+  comments-summary: 
+  comments-uri: https://github.com/theQRL/qips/pull/2
+  status: Open
+  type: Mining
+  created: 2018-10-30
+  comments-count: 82
+  slug: Migrate to Cryptonote v8
+
+- qip: 2
+  layer: 2
+  title: MessageTransaction Encoded Message Standard
+  author: Scott Donald
+  comments-summary: 
+  comments-uri: https://github.com/theQRL/qips/pull/4
+  status: Open
+  type: Proposal
+  created: 2018-11-03
+  updated: 2018-11-12
+  comments-count: 13
+  slug: MessageTransaction Encoded Message Standard
+
+- qip: 3
+  layer: qrl-node, webwallet
+  title: Extended address functionality from master XMSS wallet
+  author: Peter Waterland, Kaushal Singh
+  comments-summary: 
+  comments-uri: https://github.com/theQRL/qips/pull/5
+  status: draft
+  type: improvement
+  created: 2018-11-04
+  comments-count: 2
+  slug: Extended address functionality from master XMSS wallet
+
+- qip: 4
+  layer: qrl-node, web-wallet, explorer
+  title: Multi-Signature Wallet
+  author: Kaushal Singh, Peter Waterland
+  comments-summary: 
+  comments-uri: https://github.com/theQRL/qips/pull/7
+  status: Open
+  type: Proposal
+  created: 2019-02-11
+  comments-count: 15
+  slug: Multi-Signature Wallet
+
+- qip: 5
+  layer: qrl-node
+  title: Extending message transaction functionality 
+  author: Peter Waterland
+  comments-summary: 
+  comments-uri: https://github.com/theQRL/qips/pull/8
+  status: draft
+  type: 
+  created: 2019-02-21
+  comments-count: 1
+  slug: Extending message transaction functionality 
+
+- qip: 6
+  layer: 
+  title: Implement dPoW
+  author: Machin
+  comments-summary: 
+  comments-uri: https://github.com/theQRL/qips/pull/10
+  status: draft
+  type: Proposal
+  created: 2019-03-27
+  comments-count: 27
+  slug: Implement dPoW
+
+- qip: 7
+  layer: 
+  title: "Support Tokenization of Securities"
+  author: IMac318
+  comments-summary: 
+  comments-uri: https://github.com/theQRL/qips/pull/15
+  status: draft
+  type: 
+  created: 2019-04-19
+  comments-count: 6
+  slug: "Support Tokenization of Securities"
+
+- qip: 8
+  layer: qrl-node
+  title: Ephemeral message format proposal
+  author: Peter Waterland, Kaushal Singh
+  comments-summary: 
+  comments-uri: https://github.com/theQRL/qips/pull/17
+  status: draft
+  type: extension
+  created: 2019-04-24
+  comments-count: 12
+  slug: Ephemeral message format proposal
+
+- qip: 9
+  layer: node
+  title: Change mining algorithm to RandomX
+  author: doctor-gonzo
+  comments-summary: 
+  comments-uri: https://github.com/theQRL/qips/pull/20
+  status: complete
+  type: extension
+  created: 2019-11-07
+  comments-count: 16
+  slug: "Change mining algorithm to RandomX"
+
+- qip: 10  
+  layer: Node
+  title: Change Quanta emission to 2
+  slug: Change Quanta emission to 2
+  author: Ottslayer
+  comments-summary: 
+  comments-uri: https://github.com/theQRL/qips/pull/21
+  status: Open  
+  type: emission
+  created: 2019-11-09
+
+- qip: 11
+  slug: Denomination ideograms for Quanta and Shor as svg, webfonts
+  layer: 
+  title: Denomination ideograms for Quanta and Shor as svg, webfonts
+  author: Jack Matier
+  comments-summary: 
+  comments-uri: https://github.com/theQRL/qips/pull/23
+  status: draft
+  type: Proposal
+  created: 2020-01-16
+  comments-count: 1

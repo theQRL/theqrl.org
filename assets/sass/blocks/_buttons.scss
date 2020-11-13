@@ -1,0 +1,44 @@
+.read-more-button {
+  color: $color-blue;
+  font-family: $f-DinM;
+  font-size: 14px;
+  position: relative;
+  text-transform: uppercase;
+  transition: $time-3;
+  &::after {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 15px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -32px;
+    transition: $time-3;
+    background-image: url("../img/icons/arrow-more.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  &:hover {
+    color: $color-yellow;
+    &::after {
+      background-image: url("../img/icons/arrow-more-w.svg");
+      width: 40px;
+      right: -40px;
+    }
+  }
+  &__block {
+    text-align: center;
+    margin-top: 40px;
+    display: none;
+    @include tablet {
+      display: block;
+      .read-more-button {
+        padding-right: 32px;
+        &:after {
+          right: 0;
+        }
+      }
+    }
+  }
+}

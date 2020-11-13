@@ -1,0 +1,47 @@
+- name: Cointiger
+  markets: BTC-QRL
+  link: https://www.cointiger.com/en-us/#/trade_center?coin=qrl_btc
+  logo: cointiger.png
+  type: Exchange / Centralized
+
+- name: Bittrex
+  markets: BTC-QRL
+  link: https://international.bittrex.com/Market/Index?MarketName=BTC-QRL
+  logo: bittrex.png
+  type: Exchange / Centralized
+
+- name: Biteeu
+  markets: BTC-QRL
+  link: https://trade.biteeu.com/search
+  logo: biteeu.png
+  type: Exchange / Centralized
+
+- name: "vcc.exchange"
+  markets: BTC-QRL
+  link: https://vcc.exchange/exchange/basic?currency=btc&coin=qrl
+  logo: "vcc.exchange.svg"
+  type: Exchange Aggregator
+
+- name: "simpleswap"
+  markets: BTC-QRL
+  link: https://simpleswap.io/coins/quantum-resistant-ledger
+  logo: "simpleswap.svg"
+  type: Exchange Aggregator
+
+- name: "swapzone.io"
+  markets: BTC-QRL
+  link: https://swapzone.io/?to=qrl
+  logo: swapzone.io.svg
+  type: Exchange Aggregator
+
+- name: "Bitvoiceex"
+  markets: BTC-QRL
+  link: https://bitvoicex.net/markets/qrl_btc
+  logo: bitvoicex.net.jpeg 
+  type: Exchange / Centralized
+
+- name: "StealthEx"
+  markets: BTC-QRL
+  link: https://stealthex.io/coin/qrl
+  logo: stealthex.svg
+  type: Exchange Aggregator

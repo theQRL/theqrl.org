@@ -1,0 +1,107 @@
+.get-involved{
+    h2{
+        text-align: center;
+        font-size: 36px;
+        line-height: 46px;
+        color: $color-yellow;
+        font-family: $f-DinB;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+    }
+    &__list{
+        display: grid;
+        display: -ms-grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 22px;
+        -ms-grid-columns: 1fr 22px 1fr 22px 1fr 22px 1fr;    
+        .get-involved__el:nth-child(1){
+        -ms-grid-column: 1;
+        -ms-grid-row: 1;
+        }
+        .get-involved__el:nth-child(2){
+        -ms-grid-column: 3;
+        -ms-grid-row: 1;
+        }
+        .get-involved__el:nth-child(3){
+        -ms-grid-column: 5;
+        -ms-grid-row: 1;
+        }
+        .get-involved__el:nth-child(4){
+        -ms-grid-column: 7;
+        -ms-grid-row: 1;
+        }
+        @include tablet{
+            grid-template-columns: repeat(2, 1fr);
+            max-width: 588px;
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+            margin: 0 auto;
+        }
+        @media (max-width:600px){
+            grid-template-columns: repeat(1, 1fr);
+            grid-row-gap: 35px;
+            max-width: 250px;
+        }
+    }
+    &__el{
+        border-radius: 6px;
+        border-top: 6px solid $color-yellow;
+        height: 334px;
+        background-color: $color-black;
+        color: #FFF;
+        &-img{
+            max-width: 63px;
+            width: 100%;
+            height:47px;
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            img{
+                // filter: invert(1);
+                max-height: 100%;
+            }
+            .no-filter{
+                filter:none;
+            }
+        }
+        &-title{
+            font-family: $f-ProR;
+            font-size: 24px;
+            line-height: 1.4;
+        }
+        &-text{
+            font-family: $f-ProR;
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 34px;
+            @include mobile{
+                margin-bottom: 55px;
+            }
+            padding-left: 20px;
+            padding-right: 20px;
+            text-align: center;
+        }
+        &-button{
+            width: 156px;
+            height: 40px;
+            line-height: 40px;
+            text-transform: uppercase;
+            color:$color-white;
+            text-align: center;
+            border-radius: 4px;
+            display: block;
+            background-color: $color-yellow;
+            font-size: 14px;
+            font-family: $f-DinM;
+            transition: $time-3;
+            &:hover{
+                background-color: #f2920c;
+            }
+            @include tablet{
+                width: 163px;
+            }
+        }
+    }
+}

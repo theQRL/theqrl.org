@@ -1,0 +1,78 @@
+.coreTeam{
+    
+    .header{
+        background-color: #0a1720;
+    }
+    .core-page{
+        padding-bottom: 110px;
+        position: relative;
+        @include mobile{
+            padding: 0 30px 75px;
+        }
+        .grid-three-cols{
+           grid-row-gap: 40px;
+            -ms-grid-columns: 1fr 42px 1fr 42px 1fr;    
+            -ms-grid-rows: 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr;
+        }
+        // &-gray{
+        //     height: 160px;
+        //     position: absolute;
+        //     top:0;
+        //     left: 0;
+        //     width: 100%;
+        //     background-color: #ECEDED;
+        //     z-index: -1;
+        // }  
+        .core__el{
+            margin-top: -20px;
+            margin-bottom: 20px;
+            overflow: hidden;
+            @include mobile{
+                margin-bottom: 30px;
+            }
+        }
+        .core__el:hover .core__el__inner {
+            background-color: #4AAFFF;
+         }
+    }
+    .core-team-head{
+        padding-top: 96px;
+        background-color: $color-black;
+        min-height: 740px;
+        background-image: url('../img/icons/circles.png');
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        @include mobile{
+            padding: 30px 30px 75px;
+            background-size: 100%;
+        }
+        &__inner{
+            margin-top: 80px;
+            .section-title{
+                font-size: 24px;
+                font-family: $f-DinM;
+                line-height: 31px;
+            }
+            p{
+                font-family: $f-ProR;
+                font-size: 16px;
+                line-height: 24px;
+                color:$color-white;
+            }
+            h1{
+                color:$color-yellow;
+                margin-bottom: 68px;
+                letter-spacing: 0.04em;
+                &::after{
+                    background-color: $color-yellow;
+                }
+            }
+        }
+        
+    }
+    .container-mini .contributors-p {
+        span {
+            font-family: $f-ProB;
+        }
+    }  
+}
