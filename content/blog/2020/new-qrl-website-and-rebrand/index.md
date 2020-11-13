@@ -11,6 +11,7 @@ images:
   - logorefresh.png
 categories:
   - technical
+draft: true
 ---
 
 
@@ -70,4 +71,3 @@ For media/press outlets, our new Press Kit page is an easy place to quickly grab
 
 With the launch of the new website, we're bringing back our QRL email newsletter. To abide by GDPR regulations, we need those of you that subscribed to our previous newsletter to re-optin so we can have consent. If you haven't done so already, be sure to subscribe below to stay informed on the latest QRL news.
 
-note: Insert CTA here which leads to email optin.
