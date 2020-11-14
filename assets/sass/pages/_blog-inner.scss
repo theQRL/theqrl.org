@@ -92,6 +92,7 @@
         }
         a{
             text-decoration: underline;
+            overflow-wrap: anywhere;
             transition: $time-3;
             &:hover{
                 color: $color-yellow;
