@@ -27,7 +27,7 @@
                 line-height: 41px;
                 margin-bottom: 27px;
             }
-            @include mobile{
+            @include mobile {
                 font-size: 28px;
                 line-height: 36px;
                 margin-bottom: 34px;
@@ -92,6 +92,9 @@
         }
         a{
             text-decoration: underline;
+            display: inline-block;
+            word-break: break-all;
+
             transition: $time-3;
             &:hover{
                 color: $color-yellow;
