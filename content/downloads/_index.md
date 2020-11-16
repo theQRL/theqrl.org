@@ -21,11 +21,11 @@ layout_single_header:
 
 ### Desktop wallets
 
-**MacOS** > [MACOS-qrl-wallet_1.6.0_x64.dmg](https://github.com/theQRL/qrl-wallet/releases/download/v1.6.0/MACOS-qrl-wallet_1.6.0_x64.dmg)
+**MacOS** > [MACOS-qrl-wallet_1.6.1_x64.dmg](https://github.com/theQRL/qrl-wallet/releases/download/v1.6.1/MACOS-qrl-wallet_1.6.1_x64.dmg)
 
-**Windows** > [WINDOWS-qrl-wallet_1.6.0_x64.msi](https://github.com/theQRL/qrl-wallet/releases/download/v1.6.0/WINDOWS-qrl-wallet_1.6.0_x64.msi)
+**Windows** > [WINDOWS-qrl-wallet_1.6.1_x64.msi](https://github.com/theQRL/qrl-wallet/releases/download/v1.6.1/WINDOWS-qrl-wallet_1.6.1_x64.msi)
 
-**Linux** > [LINUX-qrl-wallet_1.6.0_amd64.deb](https://github.com/theQRL/qrl-wallet/releases/download/v1.6.0/LINUX-qrl-wallet_1.6.0_amd64.deb)
+**Linux** > [LINUX-qrl-wallet_1.6.1_amd64.deb](https://github.com/theQRL/qrl-wallet/releases/download/v1.6.1/LINUX-qrl-wallet_1.6.1_amd64.deb)
 
 &nbsp;
 
