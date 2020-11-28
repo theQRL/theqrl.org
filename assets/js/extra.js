@@ -15,7 +15,7 @@ if(document.querySelector('body')) {
     loadjson("/_data/downloads.json", function(data){
             data = JSON.parse(data);
             for (var i = 0; i < data.length; i++) {
-                console.log(data[i]);
+                // console.log(data[i]);
                 if(data[i].indexOf('.deb') !== -1 && window.navigator.platform.indexOf("Linux") != -1) {
                     document.getElementById('downloads-text').innerText = "Desktop (Linux)";
                     break;

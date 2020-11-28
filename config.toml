@@ -18,3 +18,12 @@ timeout = 300000
 [permalinks]
   "/blog/" = "/blog/:slug/"
   "/pages/" = "/:slug/"
+
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+  minifyOutput = true
