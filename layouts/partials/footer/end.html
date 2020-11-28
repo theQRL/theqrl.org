@@ -1,4 +1,8 @@
-<script src="/js/app.js"></script>
-<script src="/js/extra.js"></script>
+{{ $jsa := resources.Get "js/app.js" }}
+{{ $secureJSa := $jsa | resources.Fingerprint "sha256" }}
+<script type="text/javascript" src="{{ $secureJSa.Permalink }}" integrity="{{ $secureJSa.Data.Integrity }}"></script>
+{{ $jsb := resources.Get "js/extra.js" }}
+{{ $secureJSb := $jsb | resources.Fingerprint "sha256" }}
+<script type="text/javascript" src="{{ $secureJSb.Permalink }}" integrity="{{ $secureJSb.Data.Integrity }}"></script>
 </body>
 </html>

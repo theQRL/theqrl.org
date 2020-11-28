@@ -19,7 +19,9 @@
         ga('send', 'pageview');
       }
     </script>
-    <script async src='/js/analytics.js'></script>
+    {{ $js := resources.Get "js/analytics.js" }}
+    {{ $secureJS := $js | resources.Fingerprint "sha256" }}
+    <script type="text/javascript" src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
     <!-- End Google Analytics -->
     <link rel="shortcut icon" type="image/svg" href="/favicon.svg">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
