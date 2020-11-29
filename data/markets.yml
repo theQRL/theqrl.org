@@ -16,12 +16,6 @@
   logo: biteeu.png
   type: Exchange / Centralized
 
-- name: "vcc.exchange"
-  markets: BTC-QRL
-  link: https://vcc.exchange/exchange/basic?currency=btc&coin=qrl
-  logo: "vcc.exchange.svg"
-  type: Exchange Aggregator
-
 - name: "simpleswap"
   markets: BTC-QRL
   link: https://simpleswap.io/coins/quantum-resistant-ledger
