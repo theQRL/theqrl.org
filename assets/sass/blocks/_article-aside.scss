@@ -38,21 +38,43 @@
 
 .article-aside {
     padding-top: 10px;
-    @include mobile{
+    @include mobile {
          display: flex;
          padding-top: 40px;
          flex-direction: column-reverse;
     }
-    &__items{
+    &__items {
         @include mobile{
             display: flex;
         justify-content: center;
         flex-wrap: wrap;
         }
-        
+        > * {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            // margin-bottom: 18px;  
+            width: 38px;
+            pointer-events: auto;  
+            @include mobile{
+                margin: 0px 10px 10px;
+            }   
+            svg {
+
+                path {
+                    fill: $color-black;
+                    transition: $time-3;
+                }
+                
+            }
+            &:hover{
+                path{
+                    fill: $color-yellow;
+                }
+            }            
+        }
     }
     &__item {
-        
         display: flex;
         align-items: center;
         justify-content: center;
@@ -62,7 +84,7 @@
         @include mobile{
             margin: 0px 10px 10px;
         }   
-        &--back{
+        &--back {
             width: 38px;
             background-color: $color-white;
             height: 38px;
@@ -105,7 +127,8 @@
             path{
                 fill: $color-yellow;
             }
-        }
+        }           
+
     }
 }
 
