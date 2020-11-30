@@ -21,7 +21,7 @@
     </script>
     {{ $js := resources.Get "js/analytics.js" }}
     {{ $secureJS := $js | resources.Fingerprint "sha512" }}
-    <script type="text/javascript" src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
+    <script type="text/javascript" src="{{ $secureJS.Permalink }}" integrity="sha256-uK55K6vOf48ZQQ7L2X/NOlYUT09U7HJatPPqB4Omw7o=" crossorigin="anonymous"></script>
     <!-- End Google Analytics -->
     <link rel="shortcut icon" type="image/svg" href="/favicon.svg">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
