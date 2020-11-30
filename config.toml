@@ -22,7 +22,7 @@ timeout = 300000
 [minify]
   disableCSS = false
   disableHTML = false
-  disableJS = false
+  disableJS = true
   disableJSON = false
   disableSVG = false
   disableXML = false
