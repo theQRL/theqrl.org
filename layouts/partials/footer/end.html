@@ -3,6 +3,6 @@
 <script type="text/javascript" src="{{ $secureJSa.Permalink }}" integrity="sha256-xSZKz0yVVgnAV1WoCtQm08wmrWlR7Jyw2XUax5+1kOg=" crossorigin="anonymous"></script>
 {{ $jsb := resources.Get "js/extra.js" }}
 {{ $secureJSb := $jsb | resources.Fingerprint "sha512" }}
-<script type="text/javascript" src="{{ $secureJSb.Permalink }}" integrity="qSlsBALr0OwbhJwAPF9VkoHxwYmOsDaby3b6KsY5LRA=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="{{ $secureJSb.Permalink }}" integrity="sha256-qSlsBALr0OwbhJwAPF9VkoHxwYmOsDaby3b6KsY5LRA=" crossorigin="anonymous"></script>
 </body>
 </html>
