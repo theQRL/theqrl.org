@@ -20,6 +20,7 @@
 	.container-mini{
 		max-width: 780px;
 		margin: 0 auto;
+    width: 100%;
 		@include tablet{
 			max-width: 588px;
 		}

@@ -32,7 +32,7 @@ Finally there’s the **Mainnet** network, which represents our final release.
 
 As mentioned, **devnet** is a hot-off-the-repo network with frequent updates and breakages. Right now joining the devnet network is exclusive to The QRL Core Contributors in order to reduce the support load to the core development team. 
 
-Opening up the *devnet* repository is significant milestone as it means that the wider QRL Core Contributors have begun testing the network ensuring for a smoother operation for the upcoming Testnet. This also allows for the core team to prepare documentation and understand the architecture more intimately to be able to support a wider userbase.
+Opening up the *devnet* repository is a significant milestone as it means that the wider QRL Core Contributors have begun testing the network ensuring for a smoother operation for the upcoming Testnet. This also allows for the core team to prepare documentation and understand the architecture more intimately to be able to support a wider userbase.
 
 ```bash
 # Everything working fine so far (on my machine)
@@ -85,9 +85,9 @@ While Proof-of-Stake hardware requirements are minimal, especially when compared
 
 **Stake Transactions and Validators**
 
-In order to stake, a Stake transaction is made through the use of a Dilithium address associated with a QRL address. This stake transaction can create up to 100 Dilithium public keys, each corresponding to a fixed staking amount (presently 10000 QRL). Each of these Dilithium public keys in a Stake transaction equivalent to a ***validator*** on the network, and now that the underlying cryptography is understood, ***validator*** will be the terminology used going forward.
+In order to stake, a Stake transaction is made through the use of a Dilithium address associated with a QRL address. This stake transaction can create up to 100 Dilithium public keys, each corresponding to a fixed staking amount (presently 10000 QRL). Each of these Dilithium public keys in a Stake transaction is equivalent to a ***validator*** on the network, and now that the underlying cryptography is understood, ***validator*** will be the terminology used going forward.
 
-If the QRL Address contains an out-of-step balance, the nearest step down worth of validators will be issued. For example, a QRL address with a QRL balance of 12000 would issue a single validator in the Stake transaction, meaning 10000 QRL will be Staked and locked until another Stake transaction is performed to unlock the funds. This lock time is further effected by the QRL blockchain *epoch *of 100 blocks, which instructs when the validators will be added or removed from the network.
+If the QRL Address contains an out-of-step balance, the nearest step down worth of validators will be issued. For example, a QRL address with a QRL balance of 12000 would issue a single validator in the Stake transaction, meaning 10000 QRL will be Staked and locked until another Stake transaction is performed to unlock the funds. This lock time is further effected by the QRL blockchain *epoch* of 100 blocks, which instructs when the validators will be added or removed from the network.
 
 **Epochs and Locked times**
 
@@ -101,13 +101,13 @@ For example, if your Stake transaction was accepted in block 8, the validators w
 
 **Validator Roles**
 
-As discussed above, before the beginning of an epoch we update the list of validators. There are two roles of validators in an epoch. A validator may have a role of **Attestor** or a **Block Proposer**. These roles are assigned randomly before the beginning of the epoch, with a single **Block Proposer **assigned per block. 
+As discussed above, before the beginning of an epoch we update the list of validators. There are two roles of validators in an epoch. A validator may have a role of **Attestor** or a **Block Proposer**. These roles are assigned randomly before the beginning of the epoch, with a single **Block Proposer** assigned per block. 
 
-A **block proposer** first needs to create the block and broadcast it the network so that **attestors** may vote for the block. After collecting all attestation transactions or after hitting a threshold of 45 seconds, the **block proposer** needs to add all collected **attestor transactions** into the block and need to sign the CoinBase transaction.
+A **block proposer** first needs to create the block and broadcast it the network so that **attestors** may vote for the block. After collecting all attested transactions or after hitting a threshold of 45 seconds, the **block proposer** needs to add all collected **attestor transactions** into the block and will then need to sign the CoinBase transaction.
 
 **Attestors** need to wait for the block created by block proposer. Once the block is *received* by the **attestor** it needs to verify the block and attest the block by signing an **attestor** transaction and broadcasting the transaction to the network. These attested transactions are then collected by the block proposer.
 
-There is a possibility that a **Block Proposer** goes offline when it turns comes up, we may not see any block proposed for specific slot number. In such a case, the block for that specific slot number will be skipped. This means you can see the chain may look like Block #10 → Block #11 → Block #15. The blocks 12, 13, 14 are skipped as the block proposer for these slot numbers were offline and didn’t propose the block. In such case the parent header hash stored in Block #15 will be equal to the block header hash of Block #11.
+There is a possibility that a **Block Proposer** goes offline when it's turn comes up, we may not see any block proposed for specific slot number. In such a case, the block for that specific slot number will be skipped. This means you can see the chain may look like Block #10 → Block #11 → Block #15. The blocks 12, 13, 14 are skipped as the block proposer for these slot numbers were offline and didn’t propose the block. In such case the parent header hash stored in Block #15 will be equal to the block header hash of Block #11.
 
 *Simply speaking*, a **Block Proposer **puts together the block with transactions**, **and the** Attestors **sign off on those transactions, ensuring their integrity. The **Block Proposer** then collects all the signatures and finalizes the block.
 
