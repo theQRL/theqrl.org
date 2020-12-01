@@ -2,8 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>QRL: The Quantum Resistant Ledger</title>
-    <meta name="description" content="The Quantum Resistant Ledger (QRL) is a first-of-its-kind, post-quantum value store and decentralized communication layer proactively tackling the threat advanced Quantum Computers pose to cryptocurrencies">
+    <title>{{ .Title }}</title>
+
+    <meta name="description"
+     content="{{ if .Summary }}{{ .Summary }}{{ else }}The Quantum Resistant Ledger (QRL) is a first-of-its-kind, post-quantum value store and decentralized communication layer proactively tackling the threat advanced Quantum Computers pose to cryptocurrencies{{ end }}">
     <meta name="keywords" content="quantum resistant, quantum proof, blockchain, crypto-currency, cryptocurrency, quantum blockchain, quantum computer, bitcoin">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,5 +37,12 @@
     {{ $style := resources.Get "sass/app.scss" | resources.ToCSS $options }} 
     <link rel="stylesheet" href="{{ $style.Permalink }}" />
     <link rel="stylesheet" href="/css/overrides.css" />
+
+    {{ if .Page.Params.featured_image }}
+      {{ $resource := printf "/content/%simages/%s" .File.Dir .Page.Params.featured_image }}
+      {{ $image := resources.Get $resource -}}
+      {{ $after := $image.Resize "1200x" }}
+        <meta property="og:image" content="{{ $after.Permalink }}" />
+    {{ end }}
     <script crossorigin="anonymous" nomodule src="https://polyfill.io/v3/polyfill.min.js?features=blissfuljs%2Cdefault%2Ces2015%2Ces2016%2Ces2017%2Ces2018%2Ces5%2Ces6%2Ces7%2CNodeList.prototype.forEach%2CIntersectionObserver%2CIntersectionObserverEntry"></script>
   </head>
