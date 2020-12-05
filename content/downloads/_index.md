@@ -25,7 +25,7 @@ layout_single_header:
 
 **Windows** > [WINDOWS-qrl-wallet_1.6.6_x64.msi](https://github.com/theQRL/qrl-wallet/releases/download/v1.6.6/WINDOWS-qrl-wallet_1.6.6_x64.msi)
 
-**Linux** > [LINUX-qrl-wallet_1.6.6_amd64.deb](https://github.com/theQRL/qrl-wallet/releases/download/v1.6.6/LINUX-qrl-wallet_1.6.6_amd64.deb)
+**Linux** > [LINUX-qrl-wallet_1.6.6_amd64.deb](https://github.com/theQRL/qrl-wallet/releases/download/v1.6.6/LINUX-qrl-wallet_1.6.6_amd64.deb) | [LINUX-qrl-wallet_1.6.6_x64.rpm](https://github.com/theQRL/qrl-wallet/releases/download/v1.6.6/LINUX-qrl-wallet_1.6.6_x64.rpm)
 
 &nbsp;
 
