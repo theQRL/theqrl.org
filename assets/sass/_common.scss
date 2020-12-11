@@ -40,6 +40,11 @@ footer {
     margin-bottom: 1em;
   }
 }
+sup {
+  position: relative; 
+  top: -0.5em; 
+  font-size: 80%;
+}
 .text-yellow {
   color: $color-yellow;
 }
