@@ -93,7 +93,7 @@ And looking ahead, future forks such as **Cesium** and **Dysprosium** are slated
 
 Where we've been and where we're heading can be seen on [our refreshed roadmap page](/roadmap), and none of this would be possible without the support [of open-source contributors from our community](/#contributors). As of the date of this post, we've had a total of **8540** contributions between **48** contributors over **29** public MIT open-sourced repositories.
 
-### The refresh
+## The refresh
 
 {{< image "./images/newbrand.png" >}}
 
