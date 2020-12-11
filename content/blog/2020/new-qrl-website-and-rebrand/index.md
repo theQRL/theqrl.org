@@ -33,7 +33,7 @@ Finally, XMSS is a *stateful* signature scheme, and the blockchain is too, makin
 
 ## Why Acknowledge the threat? Quantum computing is not just coming, but accelerating as well
 
-As quantum computing presents revolutionary opportunities for AI[^AI], chemistry[^CHEM], materials science[^MATERIALS], finance[^FINANCE], security[^QSEC], and more, the USA[^USA], China[^CHINA], EU[^EU] and other nation states are investing heavily into quantum computing. Beyond that, 8 out of the top 10 tech giants (by marketshare)[^TOPTEN] such as Google[^GOOGLE], IBM[^IBM], Intel[^INTEL], Rigetti[^RIGETTI] and Microsoft[^MICROSOFT] are already competing for market dominance. Needless to say, quantum computing is finally on the verge of becoming commercially useful[^COMM][^NISQ] and are being developed at an accelerating pace[^PACE]. The takeaway here is that this is real, and it presents exciting opportunities, but also important precautions that we should be taking.
+As quantum computing presents revolutionary opportunities for AI[^AI], chemistry[^CHEM], materials science[^MATERIALS], finance[^FINANCE], security[^QSEC], and more, the USA[^USA], China[^CHINA], EU[^EU] and other nation states are investing heavily into quantum computing. Beyond that, 8 out of the top 10 tech giants (by marketshare)[^TOPTEN] such as Google[^GOOGLE], IBM[^IBM], Intel[^INTEL], Rigetti[^RIGETTI] and Microsoft[^MICROSOFT] are either competing for market dominance or involved in some capacity. Needless to say, quantum computing is finally on the verge of becoming commercially useful[^COMM][^NISQ] and are being developed at an accelerating pace[^PACE]. The takeaway here is that this is real, and it presents exciting opportunities, but also important precautions that we should be taking.
 
 ### And blockchain needs to be ready, early. Period.
 
@@ -93,7 +93,7 @@ And looking ahead, future forks such as **Cesium** and **Dysprosium** are slated
 
 Where we've been and where we're heading can be seen on [our refreshed roadmap page](/roadmap), and none of this would be possible without the support [of open-source contributors from our community](/#contributors). As of the date of this post, we've had a total of **8540** contributions between **48** contributors over **29** public MIT open-sourced repositories.
 
-### The refresh
+## The refresh
 
 {{< image "./images/newbrand.png" >}}
 

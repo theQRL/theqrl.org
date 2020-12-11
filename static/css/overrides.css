@@ -2,6 +2,11 @@
 .blogPageInner .blog-article ul p {
   margin: 0 0 10px 0px;
 }
+
+
+.twitter-tweet {
+  margin: 10px auto;
+}
 /* .blogPageInner .blog-article img:first-of-type {
   text-align: center;
   margin-left: auto;
