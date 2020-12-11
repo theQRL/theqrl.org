@@ -14,6 +14,9 @@
         @include tablet{
             max-width: 466px;
         }
+        em {
+            font-family: "source_sans_proitalic", sans-serif;
+        }
         h1{
             text-align: center;
             letter-spacing: -0.02em;
@@ -92,8 +95,8 @@
         }
         a{
             text-decoration: underline;
-            display: inline-block;
-            word-break: break-all;
+            // display: inline-block;
+            // word-break: break-all;
 
             transition: $time-3;
             &:hover{

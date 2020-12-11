@@ -92,3 +92,12 @@
        url('/fonts/SourceSansPro/source-sans-pro-v14-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
        url('/fonts/SourceSansPro/source-sans-pro-v14-latin-900.svg#SourceSansPro') format('svg'); /* Legacy iOS */
 }
+
+@font-face {
+    font-family: 'source_sans_proitalic';
+    src: url('/fonts/SourceSansPro/sourcesanspro-it-webfont.woff2') format('woff2'),
+         url('/fonts/SourceSansPro/sourcesanspro-it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
