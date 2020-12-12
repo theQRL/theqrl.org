@@ -10,66 +10,64 @@ images:
   - ann.banner.png
   - logorefresh.png
 categories:
-  - technical
+  - advocacy
 features:
   - enqlave
 ---
 
 ## A look at NIST's approval of the XMSS signature scheme 
 
-On **October 29th, 2020**, The National Institute of Science and Technology (NIST) announced the release of Special Publication (SP) 800-208, aptly titled "[Recommendation for Stateful Hash-Based Signature Schemes](https://csrc.nist.gov/publications/detail/sp/800-208/final)". 
+On **October 29th, 2020**, [The National Institute of Science and Technology (NIST)](https://www.nist.gov/) announced the release of Special Publication (SP) 800-208, aptly titled "[Recommendation for Stateful Hash-Based Signature Schemes](https://csrc.nist.gov/publications/detail/sp/800-208/final)". 
 
 [XMSS](https://tools.ietf.org/html/rfc8391) is a big part of that recommendation, which the Quantum Resistant Ledger (QRL) foresaw by outlining in their [QRL whitepaper](https://github.com/theQRL/Whitepaper/blob/master/QRL_whitepaper.pdf) and bringing their first testnet node online in 2016, *four years ago*, after discussions with developers, post-quantum cryptographers, and research into the existing roadmap of blockchain technology. Along with this, a core technical team with members that includes core blockchain developer [Kaushal Kumar Singh](/team/kaushal), PhD post-quantum cryptographer [Leon Groot Bruinderink](/team/leon/), and full-stack developer [JP Lomas](/team/jp) was assembled. 
 
-Fast forward to **June 2018**, *and after 2 years of testing*, [mainnet (actinium) was released](https://qrl.foundation/assets/QRLF-PR-20180626.pdf). **This foresight and focus on unparalleled security would cement QRL as a blockchain for visionaries, academics, and enterprises alike.**
+Fast forward to **June 2018**, *and after 2 years of testing* and [multiple external audits](https://github.com/theQRL/audits/), [mainnet (actinium) was released](https://qrl.foundation/assets/QRLF-PR-20180626.pdf). **This foresight and focus on unparalleled security would cement QRL as a blockchain for visionaries, academics, and enterprises alike.**
 
 Outside of the blockchain space, QRL wasn't alone in recognizing XMSS's capabilities. [PQ-CRYPTO](https://pqcrypto.org/), a consortium lead by a steering committee of post-quantum cryptographers such as Daniel J. Bernstein and Tanja Lange, also recognized this, recommending [XMSS as part of their initial recommendations as far back as 2015](https://pqcrypto.eu.org/docs/initial-recommendations.pdf). 
 
-The reasoning for XMSS was multi-fold. First, hash-based cryptosystems are really old, dating back as far as 1979, so are well understood from an implementation perspective. We know how they tick, how to integrate them successfully and what to look for from a security standpoint. *Secondly*, the primitives that XMSS are built from are minimal and well understood as being post-quantum secure. These things makes XMSS the [first provably (forward) secure and  practical  signature  scheme  with  minimal  security  requirements](https://eprint.iacr.org/2011/484.pdf). 
+The reasoning for XMSS was multi-fold. *First*, hash-based cryptosystems are really old, dating back as far as 1979, so are well understood from an implementation perspective. We know how they tick, how to integrate them successfully and what to look for from a security standpoint. *Secondly*, the primitives that XMSS are built from are minimal and well understood as being post-quantum secure. These things makes XMSS the [first provably (forward) secure and  practical  signature  scheme  with  minimal  security  requirements](https://eprint.iacr.org/2011/484.pdf). 
 
-Finally, XMSS is a *stateful* signature scheme, and the blockchain is too, making the fit natural - though no small feat!
+*Finally*, XMSS is a *stateful* signature scheme, and with the blockchain being stateful as well, the fit is natural - though no small feat!
 
 {{< twitter "1323800175219888129" >}}
 
-## Why Acknowledge the threat? Quantum computing is not just coming, but accelerating as well
+## Why acknowledge the threat? Because commercially available quantum computers are here now, and progress is accelerating to bring them to scale
 
-As quantum computing presents revolutionary opportunities for AI[^AI], chemistry[^CHEM], materials science[^MATERIALS], finance[^FINANCE], security[^QSEC], and more, the USA[^USA], China[^CHINA], EU[^EU] and other nation states are investing heavily into quantum computing. Beyond that, 8 out of the top 10 tech giants (by marketshare)[^TOPTEN] such as Google[^GOOGLE], IBM[^IBM], Intel[^INTEL], Rigetti[^RIGETTI] and Microsoft[^MICROSOFT] are either competing for market dominance or involved in some capacity. Needless to say, quantum computing is finally on the verge of becoming commercially useful[^COMM][^NISQ] and are being developed at an accelerating pace[^PACE]. The takeaway here is that this is real, and it presents exciting opportunities, but also important precautions that we should be taking.
+As quantum computing presents revolutionary opportunities for AI[^AI], chemistry[^CHEM], materials science[^MATERIALS], finance[^FINANCE], security[^QSEC], and more, the USA[^USA], China[^CHINA], EU[^EU] and other nation states are investing heavily into quantum computing. Beyond that, with 8 out of the top 10 tech giants (by marketshare)[^TOPTEN] such as Google[^GOOGLE], IBM[^IBM], Intel[^INTEL], Rigetti[^RIGETTI] and Microsoft[^MICROSOFT] are either competing for market dominance or involved in some capacity. Needless to say, quantum computing is finally on the verge of becoming commercially useful[^COMM][^NISQ] and is being developed at an accelerating pace[^PACE]. The takeaway here is that this is real, and while it presents exciting opportunities, it also brings with it important security considerations and precautions that we should be taking.
 
 ### And blockchain needs to be ready, early. Period.
 
-The National Institute of Science and Technology (NIST), along with Cloudflare, QRL, and others are preparing in advance[^PREPARE]. 
+The National Institute of Science and Technology (NIST), along with Cloudflare, QRL, and others are preparing in advance[^PREPARE]. Banks are preparing as well[^BANKS], and most services you use have the benefit of being centralized, leading to fast migrations in the case of a [black swan](https://en.wikipedia.org/wiki/Black_swan_theory) event. To put it as a simple metaphor, banks have the keys to their users' assets, and can update everyone's keys in a weekend. With blockchain, everyone has their own set of keys that will need updating individually, and that will take **years**.
 
-Banks are preparing as well[^BANKS], and most services you use have the benefit of being centralized, leading to fast migrations in the case of a [black swan](https://en.wikipedia.org/wiki/Black_swan_theory) event. To put it as a simple metaphor, banks have the keys to their users assets, and can update everyones keys in a weekend. With blockchain, everyone has their own set of keys that will need updating individually, and that will take **years**.
-
-**All things considered, it's not likely to be an easy migration**. A closer look at difficulties can be found in our recent video "No! You can't just Quantum Soft fork Bitcoin! Or can you???"
+**All things considered, it's not likely to be an easy or quick migration for blockchain systems**. A closer look at difficulties can be found in our recent video "No! You can't just Quantum Soft fork Bitcoin! Or can you???"
 
 {{< youtube "cbP2ejgSxcA" >}}
 
-**Risk tolerance, and opportunity, needs to be considered as well.** Even if quantum computers can't break the cryptography of Bitcoin, Ethereum, and other alt coins as they exist today, *it will be able to break it someday*, and it's important to apply Mosca's Theorem[^MOSCAT] and work backwards. That is, **If it takes 10 years for people to migrate, then blockchain systems need to be ready 10 years before quantum computers can break things**, and that's not including the time to develop and reach consensus. The paper, "[Quantum Attacks on Bitcoin and How to Protect Against them](https://arxiv.org/pdf/1710.10377.pdf)", models that it could be as early as 2027. 
+**Risk tolerance, and opportunity, needs to be considered as well.** Even if quantum computers can't break the cryptography of Bitcoin, Ethereum, and other altcoins as they exist today, *they will be able to break it someday*, and it's important to apply Mosca's Theorem[^MOSCAT] and work backwards. That is, **if it takes 10 years for people to migrate, then blockchain systems need to be ready 10 years before quantum computers can break things**, and that's not including the time to develop and reach consensus. The paper, "[Quantum Attacks on Bitcoin and How to Protect Against them](https://arxiv.org/pdf/1710.10377.pdf)", models that it could be as early as 2027. 
 
-Other models exist, such as one created by a QRL Community member.
+Other models exist, such as [QCCalc](https://github.com/theqrl-community/QCcalc) created by a QRL Community member.
 
 {{< twitter "1159125977387208704" >}}
 
-**Bottom line is, with a total marketcap of over $500 Billion as of this post and something most of us wish to be much higher, risk tolerances needs to be much lower and security needs to be paramount.**
+**The bottom line is, with a total marketcap of over $500 Billion as of this post and something most of us wish to be much higher, risk tolerances needs to be much lower and security needs to be paramount.**
 
 At QRL, we're not willing to wait around.
 
 ## Introducing project enQlave: Securing Ethereum Crypto Assets and Saving Blockchain
 
-Outside of the threat of governments, Quantum Computing remains as the second biggest perceived risk to Bitcoin.
+Outside of the threat of governments, quantum computers remain the second biggest perceived risk to Bitcoin.
 
 {{< twitter "1336980583201861638" >}}
 
-The Quantum Resistant Ledger is ready, today.
+The Quantum Resistant Ledger is ready. Today.
 
-For the rest of the blockchain space, earlier this year we announced [enQlave: The quantum safe for your crypto assets](https://enqlave.io), an initiative that integrates the XMSS signature scheme and our experience to help protect any users digital assets of any blockchain with expressive enough smart contracts. The blockchain we're starting with is Ethereum, and when Ethereum 2.0 enables expressive enough smart contracts (like we're sure they will), then Ethereum 2.0 as well.
+For the rest of the blockchain space, earlier this year we announced [enQlave: The quantum safe for your crypto assets](https://enqlave.io), an initiative that integrates the XMSS signature scheme and our experience to help protect any users digital assets of any blockchain with expressive enough smart contracts. The blockchain we're starting with is Ethereum, and when Ethereum 2.0 enables expressive enough smart contracts (like we're sure they will), then you'll be able to protect your Ethereum 2.0 assets as well.
 
-This will be possible through a simple UI using a non-custodial hybrid post-quantum secure multisig Ethereum wallet. EnQlave is complete and is presently under an audit through [x41 D-Sec](https://www.x41-dsec.de/), though will undergoing further improvements before release. Be sure to check out our [introduction](/blog/enqlave-the-quantum-safe-for-your-crypto-assets) post or a [deeper dive](/blog/the-qrl-enqlave-project-bringing-post-quantum-security-to-ethereum-and-other-blockchain-platforms)
+This will be possible through a simple UI using a non-custodial hybrid post-quantum secure multisig Ethereum wallet. EnQlave is complete and is presently under an audit through [x41 D-Sec](https://www.x41-dsec.de/), though will undergoing further improvements before release. Be sure to check out our [introduction](/blog/enqlave-the-quantum-safe-for-your-crypto-assets) post or take a [deeper dive](/blog/the-qrl-enqlave-project-bringing-post-quantum-security-to-ethereum-and-other-blockchain-platforms).
 
 While enQlave will allow people to protect their Ethereum digital assets from the quantum threat, **the most efficient and complete ecosystem built from the ground up with security as a foundation will always be QRL.**
 
-## Enter the Quantum Resistant Ledger: A feature rich visionary blockchain for digital asset security with continuous progress. 
+## Enter the Quantum Resistant Ledger: A feature rich visionary blockchain for digital asset security with continuous progress 
 
 **With a quantum secure foundation**, mainnet (actinium) was completed with a full suite of functionality that has formed the bedrock for additional features down the road. That included:
 
@@ -105,7 +103,9 @@ We hope you enjoy the update.
 
 ## Stay informed with our QRL newsletter
 
-With the launch of the new website, we're bringing back our QRL email newsletter. To abide by GDPR regulations, we need those of you that subscribed to our previous newsletter to re-optin so we can have consent. 
+With the launch of the new website, we're bringing back our QRL email newsletter. 
+
+To abide by the new GDPR regulations, for those that are subscribed to our previous newsletter and would like to keep hearing from us, you'll need to opt in again.
 
 If you haven't done so already, be sure to [subscribe to stay informed on the latest QRL news](/#subscribe).
 
@@ -150,7 +150,7 @@ If you haven't done so already, be sure to [subscribe to stay informed on the la
 
 	- [Crypto agility - How to determine your timeline for post-quantum preparation](https://content.hsm.utimaco.com/blog/how-to-determine-your-timeline-for-post-quantum-preparation)
 
-[^TOPTEN]: TOP 10 tech companies by marketcap and their into Quantum Computing
+[^TOPTEN]: TOP 10 tech companies by marketcap and their involvement with quantum computing
 
 	- 1100 billion: Apple (No current move into quantum computing)
 	- 962 billion: Amazon [Amazon Quantum Solutions Lab](https://aws.amazon.com/quantum-solutions-lab/)
