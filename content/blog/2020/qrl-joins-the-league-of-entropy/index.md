@@ -18,7 +18,7 @@ categories:
 
 **Randomness** is defined as the lack of pattern or predictability[^RANDEF]. It is used in everything from light entertainment such as the act of shuffling in card games to more serious cryptographic systems[^CRYPTO]. **Entropy** (in cryptography) is fundamentally the *measurement* of randomness[^ENTROPY] where more is better. Card dealers increase the entropy of a deck with proper shuffling technique often with multiple rounds. 
 
-This is great, unfortunately it's possible for things to *appear* random which actually aren't. Poor shuffling technique can lead to very probabilistic results that might seem random at first glance, for example. Magicians take this a step further and use purely [deterministic shuffling](https://www.gcsu.edu/sites/files/page-assets/node-808/attachments/amason.pdf), leaving spectactors in awe.
+Simple enough right? *Unfortunately* it's possible for things to *appear* random which actually aren't. Poor shuffling technique can lead to very probabilistic results that might seem random at first glance, for example. Magicians take this a step further and use purely [deterministic shuffling](https://www.gcsu.edu/sites/files/page-assets/node-808/attachments/amason.pdf), leaving spectators in awe.
 
 {{< youtube "T8JH-TRo3oE" >}}
 
@@ -26,9 +26,9 @@ While entertaining in a magic performance, having things not be truly random can
 
 {{< youtube "1cUUfMeOijg" >}}
 
-Unfortunately, while CloudFlare's LavaRand and other similar projects creates sufficiently high entropy, the setup costs are high, and the nature of them being centralized makes it vulnerable to manipulation from insiders. Similar to how magicians can use deterministic shuffling to manipulate card decks without anyone (else) realizing it, it's possible to manipulate the source, and therefor gain an advantage in cryptographic systems. This type of attack isn't just hypothetical but has already happened such as in the [IOWA lottery fraud mystery](https://www.nytimes.com/interactive/2018/05/03/magazine/money-issue-iowa-lottery-fraud-mystery.html). 
+*Unfortunately*, while CloudFlare's LavaRand and other similar projects creates sufficiently high entropy, the setup costs are high, and the nature of them being centralized makes it vulnerable to manipulation from insiders. Similar to how magicians can use deterministic shuffling to manipulate card decks without anyone (else) realizing it, it's possible to manipulate the source, and therefore gain an advantage in cryptographic systems. This type of attack isn't just hypothetical but has already happened such as in the [IOWA lottery fraud mystery](https://www.nytimes.com/interactive/2018/05/03/magazine/money-issue-iowa-lottery-fraud-mystery.html). 
 
-Work on such a system create a public randomness goes back to over a decade ago in the [DEDIS](https://dedis.ch) lab at [EPFL](https://epfl.ch) and resulted in a project called drand (for *distributed* randomness)[^DRANDORIGIN]. [Drand](https://drand.love/) is able to generate verifiable, unpredictable and unbiased random numbers as a service in a very simple and efficient manner and to deliver it in a reliable way to the client. This later gave birth to…
+Work on a system to create a public randomness beacon with these attributes goes back to over a decade ago in the [DEDIS](https://dedis.ch) lab at [EPFL](https://epfl.ch) and resulted in a project called drand (for *distributed* randomness)[^DRANDORIGIN]. [Drand](https://drand.love/) is able to generate verifiable, unpredictable and unbiased random numbers as a service in a very simple and efficient manner and to deliver it in a reliable way to the client. This later gave birth to…
 
 {{< image "./images/loelogo.png" >}}
 
