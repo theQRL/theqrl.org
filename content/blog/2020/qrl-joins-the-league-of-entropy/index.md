@@ -11,7 +11,7 @@ images:
   - loelogo.png
   - loemembers.png
 categories:
-  - technical
+  - advocacy
 ---
 
 ## Understanding the importance of randomness and entropy
