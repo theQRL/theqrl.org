@@ -10,7 +10,7 @@ A large number of QRL design assets are available on a dedicated [GitHub reposit
 ### Logo
 
 [Yellow .PNG](https://github.com/theQRL/assets/blob/master/logo/yellow.png) | [Dark .PNG](https://github.com/theQRL/assets/blob/master/logo/black.png) | [White .PNG](https://github.com/theQRL/assets/blob/master/logo/white.png)\
-[Yellow .SVG](https://github.com/theQRL/assets/blob/master/logo/yellow.svg) | [Dark .SVG](https://github.com/theQRL/assets/blob/master/logo/black.png) | [White .SVG](https://github.com/theQRL/assets/blob/master/logo/white.png)
+[Yellow .SVG](https://github.com/theQRL/assets/blob/master/logo/yellow.svg) | [Dark .SVG](https://github.com/theQRL/assets/blob/master/logo/black.svg) | [White .SVG](https://github.com/theQRL/assets/blob/master/logo/white.svg)
 
 ![Logo](/img/icons/yellow.png)
 ![Logo](/img/icons/black.png)
