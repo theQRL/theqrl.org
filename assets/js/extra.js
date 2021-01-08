@@ -10,9 +10,57 @@ function loadjson(file, callback) {
     rawFile.send(null);
 }
 
+
 if(document.querySelector('body')) {
+
+    if (document.getElementById('status-uptime')) {
+            var start = luxon.DateTime.fromSeconds(1530004179);
+            var end = luxon.DateTime.local();
+
+            var uptime = end.diff(start, ['years','days','hours','minutes','seconds','milliseconds']);
+            var ud = uptime.toObject();
+
+            document.getElementById('status-uptime').innerText = ud.years+"y"+ud.days+"d";
+    }
+
+    if(document.getElementById('status-tx')) {
+        // https://analytics.quantascan.io/api/network-transactions
+
+        loadjson("/_data/networktx.json", function(data) {
+            data = JSON.parse(data);
+
+            var totaltx = 0;
+            for (var i = 0; i < data.chart_data_point_list_transfer.length; i++) {
+                totaltx += data.chart_data_point_list_transfer[i]['total_number_of_transactions'] ;
+            }
+            console.log(totaltx)
+
+            document.getElementById('status-tx').innerText = totaltx.toLocaleString();
+        });
+
+
+    }
+
+        if(document.getElementById('status-wallets')) {
+        // https://analytics.quantascan.io/api/network-transactions
+
+        loadjson("/_data/numberwallets.json", function(data) {
+            data = JSON.parse(data);
+
+            var totaltx = 0;
+            for (var i = 0; i < data.chart_data_point_list.length; i++) {
+                totaltx += data.chart_data_point_list[i]['daily_new_wallets_found'] ;
+            }
+            console.log(totaltx)
+
+            document.getElementById('status-wallets').innerText = totaltx.toLocaleString();
+        });
+
+
+    }
+
     if (document.getElementById('downloads-text')) {
-    loadjson("/_data/downloads.json", function(data){
+        loadjson("/_data/downloads.json", function(data){
             data = JSON.parse(data);
             for (var i = 0; i < data.length; i++) {
                 // console.log(data[i]);

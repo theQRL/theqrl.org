@@ -20,22 +20,62 @@
         <div class="core-page-gray"></div>
         <div class="container-mini" style="padding-top: 50px;">
           <div class="grid">
+  
+            <div class="grid grid-three-cols metrics">
+                <a href='https://explorer.theqrl.org/'>
+                  <div class="core__el animate-fade">
+                  <div class="core__el__indicator">
+                    <div class="indicator" id="status-uptime"></div>
+                  </div>
+                    <div class="core__el__inner">Uptime</div>
+                  </div>
+                </a>
+                <a href='/'>
+                  <div class="core__el animate-fade">
+                    <div class="core__el__indicator">
+                      <div class="indicator" id="status-tx"></div>
+                    </div>
+                    <div class="core__el__inner">Transactions</div>
+                  </div>
+                </a>
+                <a href='/'>
+                  <div class="core__el animate-fade">
+                    <div class="core__el__indicator">
+                      <div class="indicator" id="status-wallets"></div>
+                    </div>
+                    <div class="core__el__inner">Wallets</div>
+                  </div>
+                </a>
+            </div>
+
+
 
 
             <div class="timeline-content" id="timeline">
               <div class="container-mini">
-                <p class="text-yellow section-title">Looking Back</p>
-                <h2 class="section-title-header">Project Milestones</h2>
+                <p class="text-yellow section-title">Looking at what we've built</p>
+                <h2 class="section-title-header">Our Current Features</h2>
               </div>
-              <ul class="timeline">
+              <ul class="timeline blogPageInner">
                 {{ range .Site.Data.roadmap }}
 
                 {{ if eq .magnitude "major" }}
-                <li class="event" id="date" data-date="{{ dateFormat "January 2006" .date }}">
+                <li class="event" id="date" >
                   <span class="date">{{ dateFormat "January 2006" .date }}</span>
 
                   <h3>{{ .event }}</h3>
-                  <p>{{ .blurb | markdownify }}</p> 
+                  <div class="blog-article">
+
+                    {{ with .blurb }}
+                          {{ $markdown := . | markdownify }}
+                          {{ if not ( strings.Contains $markdown "<p>" ) }}
+                                <p>{{ $markdown }}</p>
+                          {{ else }}
+                                {{ $markdown }}
+                          {{ end }}
+                    {{ end }}
+                                  
+                  </div>
 
                   {{ if .link }}
                   <a href="{{ .link }}">Read More</a>
