@@ -43,6 +43,8 @@ The selected winners will have their design placed on our teespring store ([EU](
 
 - https://teespring.com/nync-qrl
 - https://teespring.com/new-qrl
+- https://teespring.com/enqlave-qrl
+- https://teespring.com/qrl2021
 
 ### Discord/B-B
 
@@ -52,6 +54,7 @@ The selected winners will have their design placed on our teespring store ([EU](
 
 - https://teespring.com/100-premium-quanta
 - https://teespring.com/quantum-greek
+- https://teespring.com/XMSS-wiseman
 
 ### Discord/Anomaly
 
@@ -64,6 +67,23 @@ The selected winners will have their design placed on our teespring store ([EU](
 ### Reddit/Ompanime
 
 - https://teespring.com/stores/ompanime
+
+### Discord/You
+
+- https://teespring.com/nl/qrl-quantum-resistant-ledger
+- https://teespring.com/nl/qrl-it-s-a-shor-thing-blue
+- https://teespring.com/nl/qrl-it-s-a-shor-thing
+- https://teespring.com/nl/qrl-security-by-design
+
+### Discord/JohnTitor
+
+- https://teespring.com/new-sqrl
+- https://teespring.com/qrl-2021
+
+### Discord/Asuomy
+
+- https://teespring.com/new-when-is-my-turn
+- https://teespring.com/shop/qffee
 
 If we have missed anyone, please get in touch by either messaging someone on the team in one of our communities or emailing support@theqrl.org
 
