@@ -23,6 +23,23 @@ if(document.querySelector('body')) {
             document.getElementById('status-uptime').innerText = ud.years+"y"+ud.days+"d";
     }
 
+    if (document.getElementById('status-hashrate')) {
+        loadjson("https://qrlmining.com/api/live_stats", function(data) {
+            data = JSON.parse(data);
+
+            var hashrate = 1610482564 / 60;
+            document.getElementById('status-hashrate').innerText = hashrate.toLocaleString();
+        });
+    }
+
+
+    
+
+    if (document.getElementById('status-emission')) {
+        var emission = parseFloat(document.getElementById('status-emission').innerText);
+        document.getElementById('status-emission').innerText = emission.toLocaleString();
+    }
+
     if(document.getElementById('status-tx')) {
         // https://analytics.quantascan.io/api/network-transactions
 
@@ -30,12 +47,17 @@ if(document.querySelector('body')) {
             data = JSON.parse(data);
 
             var totaltx = 0;
+            var totaltr = 0;
+
             for (var i = 0; i < data.chart_data_point_list_transfer.length; i++) {
-                totaltx += data.chart_data_point_list_transfer[i]['total_number_of_transactions'] ;
+                totaltx += data.chart_data_point_list_transfer[i]['total_number_of_transactions'];
+                totaltr += data.chart_data_point_list_transfer[i]['total_amount_transfered'] * 10**-9;
             }
             console.log(totaltx)
 
             document.getElementById('status-tx').innerText = totaltx.toLocaleString();
+
+            document.getElementById('status-volume').innerText = totaltr.toLocaleString();
         });
 
 

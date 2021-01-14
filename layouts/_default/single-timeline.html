@@ -19,34 +19,137 @@
       <section class="core core-page bg-white">
         <div class="core-page-gray"></div>
         <div class="container-mini" style="padding-top: 50px;">
-          <div class="grid">
+          <div>
   
+                <div class="container-mini">
+                  <h2 class="section-title-header">Network Stats</h2>
+                </div>
             <div class="grid grid-three-cols metrics">
+
                 <a href='https://explorer.theqrl.org/'>
                   <div class="core__el animate-fade">
                   <div class="core__el__indicator">
-                    <div class="indicator" id="status-uptime"></div>
+                    <div class="indicator" id="status-blockheight">{{ .Site.Data.miningstats.block }}</div>
                   </div>
-                    <div class="core__el__inner">Uptime</div>
-                  </div>
-                </a>
-                <a href='/'>
-                  <div class="core__el animate-fade">
-                    <div class="core__el__indicator">
-                      <div class="indicator" id="status-tx"></div>
-                    </div>
-                    <div class="core__el__inner">Transactions</div>
+                    <div class="core__el__inner">Blockheight
+                      <p>60s blocktime</p></div>
                   </div>
                 </a>
                 <a href='/'>
                   <div class="core__el animate-fade">
                     <div class="core__el__indicator">
-                      <div class="indicator" id="status-wallets"></div>
+                      <div class="indicator" id="status-tx">Loading...</div>
                     </div>
-                    <div class="core__el__inner">Wallets</div>
+                    <div class="core__el__inner">
+                      Transactions
+                      <p>Since Genesis</p>
+                    </div>
+                  </div>
+                </a>
+                <a href='/'>
+                  <div class="core__el animate-fade">
+                    <div class="core__el__indicator">
+                      <div class="indicator" id="status-volume">Loading...</div>
+                    </div>
+                    <div class="core__el__inner">
+                      Volume (QRL)
+                      <p>Since Genesis</p>
+                    </div>
+                  </div>
+                </a>
+                <a href='/'>
+                  <div class="core__el animate-fade">
+                    <div class="core__el__indicator">
+                      <div class="indicator" id="status-wallets">{{ .Site.Data.netstats.wallets }}</div>
+                    </div>
+                    <div class="core__el__inner">Wallets
+                      <p>Since Genesis</p>
+                    </div>
+                  </div>
+                </a>
+                                <a href='/'>
+                  <div class="core__el animate-fade">
+                    <div class="core__el__indicator">
+                      <div class="indicator" id="status-emission">{{ .Site.Data.emission.emission }}</div>
+                    </div>
+                    <div class="core__el__inner">Current Emission
+                      <p>Max population 105,000,000</p>
+                      </div>
+                  </div>
+                </a>
+
+                <a href='/'>
+                  <div class="core__el animate-fade">
+                    <div class="core__el__indicator">
+                      <div class="indicator" id="status-blockreward">{{ .Site.Data.reward.reward }}</div>
+                    </div>
+                    <div class="core__el__inner">Blockreward
+                    <p>Exponential decay over 200y</p></div>
+                  </div>
+                </a>
+
+                <a href='/'>
+                  <div class="core__el animate-fade">
+                    <div class="core__el__indicator">
+                      <div class="indicator" id="status-pools">{{ .Site.Data.netstats.pools }}</div>
+                    </div>
+                    <div class="core__el__inner">Pools</div>
+                  </div>
+                </a>
+                <a href='/'>
+                  <div class="core__el animate-fade">
+                    <div class="core__el__indicator">
+                      <div class="indicator" id="status-hashrate">{{ .Site.Data.miningstats.hashrate }}</div>
+                    </div>
+                    <div class="core__el__inner">Hashrate</div>
+                  </div>
+                </a>
+                <a href='/'>
+                  <div class="core__el animate-fade">
+                    <div class="core__el__indicator">
+                      <div class="indicator" id="status-miners">{{ .Site.Data.netstats.miners }}</div>
+                    </div>
+                    <div class="core__el__inner">Miners</div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="grid">
+                <p><em>Note: Network statistics are pulled periodically and aren't live.</em></p>
+              </div>
+
+                <div class="container-mini">
+                  <h2 class="section-title-header">Github</h2>
+                </div>
+            <div class="grid grid-three-cols metrics">
+
+                <a href='/'>
+                  <div class="core__el animate-fade">
+                    <div class="core__el__indicator">
+                      <div class="indicator" id="status-commits">8,540</div>
+                    </div>
+                    <div class="core__el__inner">Contributions</div>
+                  </div>
+                </a>
+                <a href='/'>
+                  <div class="core__el animate-fade">
+                    <div class="core__el__indicator">
+                      <div class="indicator" id="status-repos">29</div>
+                    </div>
+                    <div class="core__el__inner">Repositories</div>
+                  </div>
+                </a>
+                <a href='https://explorer.theqrl.org/'>
+                  <div class="core__el animate-fade">
+                  <div class="core__el__indicator">
+                    <div class="indicator" id="status-contributors">48</div>
+                  </div>
+                    <div class="core__el__inner">Contributors</div>
                   </div>
                 </a>
             </div>
+
+
 
 
 
@@ -61,8 +164,6 @@
 
                 {{ if eq .magnitude "major" }}
                 <li class="event" id="date" >
-                  <span class="date">{{ dateFormat "January 2006" .date }}</span>
-
                   <h3>{{ .event }}</h3>
                   <div class="blog-article">
 
