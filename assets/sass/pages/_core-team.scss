@@ -6,28 +6,24 @@
     .core-page{
         padding-bottom: 110px;
         position: relative;
-        @include mobile{
+
+        @include mobile {
             padding: 0 30px 75px;
         }
+
         .grid-three-cols{
            grid-row-gap: 40px;
             -ms-grid-columns: 1fr 42px 1fr 42px 1fr;    
             -ms-grid-rows: 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr;
+            margin-bottom: 40px;
         }
-        // &-gray{
-        //     height: 160px;
-        //     position: absolute;
-        //     top:0;
-        //     left: 0;
-        //     width: 100%;
-        //     background-color: #ECEDED;
-        //     z-index: -1;
-        // }  
+
         .core__el{
             margin-top: -20px;
             margin-bottom: 20px;
             overflow: hidden;
-            @include mobile{
+
+            @include mobile {
                 margin-bottom: 30px;
             }
         }
@@ -35,7 +31,7 @@
             background-color: #4AAFFF;
          }
     }
-    .core-team-head{
+    .core-team-head {
         padding-top: 96px;
         background-color: $color-black;
         min-height: 740px;
@@ -46,7 +42,7 @@
             padding: 30px 30px 75px;
             background-size: 100%;
         }
-        &__inner{
+        &__inner {
             margin-top: 80px;
             .section-title{
                 font-size: 24px;
@@ -74,5 +70,37 @@
         span {
             font-family: $f-ProB;
         }
-    }  
+    }
+
+    .metrics {
+
+        &.grid-three-cols {
+            margin-bottom:0;
+            
+            @include mobile {
+                    grid-template-columns: repeat(1, minmax(0, 1fr));
+            }            
+                }
+        .core {
+            &__el {
+                min-height: 90px;
+                &__indicator {
+                    background-color: #FCFCFC;
+                    font-family: $f-DinB;
+                    text-align: center;
+                    font-size:1.4em;
+                    line-height: 1.5em;
+                    padding: 20px 10px;
+                }
+                &__inner {
+                    min-height: initial;
+                    text-align: center;
+
+                    span {
+                        background-color:#F00;
+                    }
+                }
+            }
+        }
+    }
 }

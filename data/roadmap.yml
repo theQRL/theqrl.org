@@ -1,96 +1,54 @@
 - date: 2016-10-16
-  event: Initial QRL Commit
-  link: https://github.com/theQRL/QRL/commit/1f2de1cd469f0415ea6d9ff7a6dffe39d3f3ac62
-  blurb: ''
-  magnitude: major
-
-- date: 2016-11-01
-  event: "Whitepaper released"
-  link: https://web.archive.org/web/20170313124113/http://theqrl.org/whitepaper/QRL_whitepaper.pdf
-  blurb: 'After discussion with developers, post-quantum cryptographers and research into existing roadmap of blockchain technology, the QRL whitepaper was written to provide an overview of quantum resistant methodologies. The Winternitz OTS+ and Extended Merkle Signature Scheme (XMSS) were identified as the optimal solutions. This investigation also revealed the necessity of QRL to stand alone as a network with interoperability in the later pipeline.'
-  magnitude: major
-
-- date: 2016-12-01
-  event: "Design of a Proof-of-Stake (PoS) Commenced"
-  blurb: ''
-  magnitude: minor
-
-- date: 2017-01-01
-  event: "Prototype node"
-  blurb: "Prototype node development with basic POS algorithm and integration of XMSS signatures"
-  magnitude: minor
-
-- date: 2017-02-01
-  event: "Block Explorer"
-  blurb: "Prototype node development with basic POS algorithm and integration of XMSS signatures"
-  magnitude: minor
-
-- date: 2017-04-01
-  event: "Alpha Testnet"
-  blurb: "Launch of the Alpha testnet with nodes running on MacOS, Linux, Windows on hardware including Raspberry Pi."
-  magnitude: major
-
-- date: 2017-08-01
-  event: "Public Testnet"
-  blurb: "Node optimization with C++. Inter-node encrypted communication (‘new hope’ lattice-based cryptography)"
-  magnitude: major
-
-- date: 2017-12-01
-  event: "Move to PoW"
-  blurb: "Not willing to compromise a launch with an immature PoS protocol given how much value the project currently carries — and more importantly how much value it will hold in the future, QRL announces a move to temporary Proof of Work model."
-  link: /blog/get-ready-for-qrl-launch
-  magnitude: major
-
-- date: 2018-01-01
-  event: "PoW Testnet"
-  blurb: "Proof of Work public testnet is released to the public"
-  magnitude: major
-
-- date: 2018-02-01
-  event: "Future Proofing"
-  blurb: "The introduction and solidification of variable key heights and signature space allows us to ensure future compatibility with almost anything. Our blockchain now includes the possibility to upgrade signature schemes (XMSS, SPHINCS, + future) and through an address format update, support different cryptographic hash functions (SHA2_256, SHAKE_128, SHAKE256 etc)."
-  magnitude: major
-
-- date: 2018-03-01
-  event: "Internal Code review"
-  blurb: "Our internal code review also compliments the more general internal security review we are currently in the process of conducting."
-  magnitude: minor
-
-- date: 2018-03-01
-  event: "External Audits"
-  blurb: "Third party audits completed by [red4sec](https://github.com/theQRL/audits/) and [x41 D-Sec](https://github.com/theQRL/audits/) doing a secondary audit for further scrutiny."
-  link: https://github.com/theQRL/audits/
-  magnitude: major
-
-- date: 2018-06-26
-  event: "QRL Mainnet (Actinium)"
+  event: A visionary blockchain with digital asset security as a core value
   blurb: |
-    The QRL Mainnet (Actinium) Network is officially Live! New decentralized, open source blockchain network is already resistant to blockchain’s most existential threat: quantum computing
-
-    - 100% ps-secure address space
-    - GUI wallets for Mac, Windows, and Linux
-    - Quantum Resistant Tokens (QRT's)
-    - Quantum Resistant Notarisation
-    - Extensible address format
-  link: https://qrl.foundation/assets/QRLF-PR-20180626.pdf
+    After being built from the ground up with post-quantum security at its foundation, the QRL went through *two years of testing* and [multiple external audits](https://github.com/theQRL/audits/) before the release of mainnet.
   magnitude: major
 
-- date: 2020-04-06
-  event: "QRL Mainnet (Bromine)"
-  link: /blog/the-qrl-hardfork-blockheight-has-been-set-bromine-code-is-released
+- date: 2016-10-16
+  event: Crypto-agility with an extensible address format
   blurb: |
-    The QRL Mainnet (Bromine) Network is officially Live!
-
-    - Multisignature Transations
-    - RandomX Consensus Protocol
-    - Ephemeral Messaging System (EMS) Stub
+    The introduction and solidification of variable key heights and signature space allows QRL to ensure future compatibility with almost anything. Our blockchain includes the 
+    possibility to upgrade signature schemes (XMSS, SPHINCS, Falcon, + future) and through an address format update, support different cryptographic hash functions (SHA2_256, SHAKE_128, SHAKE256 etc).
   magnitude: major
 
-- date: 2020-04-04
-  event: "Announcing QRL enQlave"
-  link: "/blog/the-qrl-enqlave-project-bringing-post-quantum-security-to-ethereum-and-other-blockchain-platforms"
+
+- date: 2016-10-16
+  event: Full multi-platform wallet support
   blurb: |
-    QRL will bring the post-quantum security of XMSS (eXtended Merkle Signature Scheme) to 
-    mainnet Ethereum, and eventually to any other blockchain platform with sufficiently 
-    expressive smart contract capabilities.
+    - Desktop ([Windows](/downloads/), [Mac](/downloads/), and [Linux](/downloads/))
+    - Mobile ([iOS](https://itunes.apple.com/us/app/qrl-wallet/id1458620542?ls=1&mt=8), [Android](https://play.google.com/store/apps/details?id=com.theqrl))
+    - Hardware ([Ledger Nano S/X](https://docs.theqrl.org/wallet/ledger-nano-s/))
+    - [Browser](https://wallet.theqrl.org/)
+  magnitude: major
+
+- date: 2016-10-16
+  event: Weighted threshold multisignature transactions
+  blurb: |
+    Advanced multisignature addresses & transactions allowing for a wide range of custodial scenarios for secure asset management.
+  magnitude: major
+
+- date: 2016-10-16
+  event: Ephemeral messaging system (EMS)
+  blurb: |
+    End-to-end (E2E) quantum secure ephemeral messaging system groundwork to distribute any data using [Dilithium](https://cryptojedi.org/papers/dilithium-20170627.pdf) and [Kyber](https://eprint.iacr.org/2017/634.pdf) which will be expanded at a future date into an globally decentralized network along side the QRL blockchain.
+  magnitude: major
+
+- date: 2016-10-16
+  event: File notarisation 
+  blurb: |
+    
+    Fraud prevention through the use of quantum secure notarisation easy accessible through a clean user interface.
+  
+  magnitude: major
+
+- date: 2016-10-16
+  event: Documentation, API's and Tooling
+  blurb: |
+    Fully documented with API's and tooling to get started building, deploying, and maintaining digital assets.
+
+    - Documentation ([docs.theqrl.org](https://docs.theqrl.org/))
+    - API's ([QRL Core](https://api.theqrl.org/#qrl-api), [Explorer](https://api.theqrl.org/#explorer-api), [[automatic](https://api.theqrl.org/#automatic-wallet-api)][WalletAPI](https://api.theqrl.org/#wallet-api), and [more](https://api.theqrl.org/))
+    - Tools & Helpers ([qrl-cli](https://github.com/theQRL/qrl-cli), [[wallet](https://github.com/theQRL/node-helpers),[node](https://github.com/theQRL/node-helpers),[explorer](https://github.com/theQRL/explorer-helpers)]-helpers)
+    - Project [Zeus](https://github.com/theQRL/zeus/) for rapid multi-platform prototype development
+
   magnitude: major

@@ -16,6 +16,7 @@
         }
         &__img{
             height: 210px;
+
             @include tablet{
                 height: 195px;
             }
@@ -89,17 +90,11 @@
         }         
     }
     &__video{
-        // width: 1222px;
-        // height: 1196px;
-        // left: -427px;
         z-index: -1;
         top:0;
         left: 0;
         position: absolute;
         
-        // background-image: url('../img/icons/img.svg');
-        // background-size: cover;
-        // background-repeat: no-repeat;
         @include laptop{
             left: -182px;
         }
@@ -108,9 +103,6 @@
             top: 16%;
         }
         @include mobile{
-        //     width: 761px;
-        //     height: 754px;
-        //     left: -470px;
             top: 20%;
         }
         video{

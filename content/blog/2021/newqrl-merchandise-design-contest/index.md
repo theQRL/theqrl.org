@@ -33,6 +33,7 @@ The selected winners will have their design placed on our teespring store ([EU](
 ### Discord/EdwardSeslez
 
 - https://teespring.com/qrl-brace-for-the-future
+- https://teespring.com/qrl-splash-logo
 
 ### Discord/globuspallidus
 
@@ -43,8 +44,7 @@ The selected winners will have their design placed on our teespring store ([EU](
 
 - https://teespring.com/nync-qrl
 - https://teespring.com/new-qrl
-- https://teespring.com/enqlave-qrl
-- https://teespring.com/qrl2021
+- https://teespring.com/new-sqrl
 
 ### Discord/B-B
 
@@ -56,11 +56,20 @@ The selected winners will have their design placed on our teespring store ([EU](
 - https://teespring.com/quantum-greek
 - https://teespring.com/XMSS-wiseman
 
-### Discord/Anomaly
+### Discord/ᚲᚨᛈᛁᚦᚨᚾ ᛟᚱᚷᚨᛊᛗᛟ
 
-- https://teespring.com/qrl-splash-logo
+- https://teespring.com/en-GB/stores/qrl-2
 
-### Reddit/BenSHapiro101
+### Discord/You
+
+- https://teespring.com/nl/qrl-quantum-resistant-ledger
+- https://teespring.com/nl/qrl-security-by-design
+
+### Discord/JohnTitor
+
+- https://teespring.com/new-sqrl
+
+### Reddit/BenShapiro101
 
 - https://teespring.com/QuantumComputingNowMerch
 
