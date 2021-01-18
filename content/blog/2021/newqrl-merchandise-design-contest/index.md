@@ -23,14 +23,20 @@ In light of our [recent QRL refresh](/blog/new-qrl-website-and-logo-refresh-in-c
 
 The selected winners will have their design placed on our teespring store ([EU](https://teespring.com/stores/quantum-resistant-ledger-eu), and [NA](https://teespring.com/stores/quantum-resistant-ledger-na)) with a link back to their store to earn passively. Of course, these links will remain here (and be updated with new entries) as the contest 
 
-### Discord/Synpat
+### Discord/ᚲᚨᛈᛁᚦᚨᚾ ᛟᚱᚷᚨᛊᛗᛟ
 
-- https://teespring.com/en-GB/quantum-resistant-ledger-8188
-- https://teespring.com/quantum-resistant-january-2021
-- https://teespring.com/new-quantum-resistant-ledger
-- https://teespring.com/shop/quantum-resistant-ledger-2021
+- https://teespring.com/en-GB/stores/qrl-2
 
-### Discord/EdwardSeslez
+### Discord/Asuomy
+
+- https://teespring.com/new-when-is-my-turn
+- https://teespring.com/shop/qffee
+
+### Discord/B-B
+
+- https://teespring.com/nl/new-my-qr-code
+
+### Discord/Edward_Seslez
 
 - https://teespring.com/qrl-brace-for-the-future
 - https://teespring.com/qrl-splash-logo
@@ -40,15 +46,25 @@ The selected winners will have their design placed on our teespring store ([EU](
 - https://teespring.com/nl/new-quantum-computer
 - https://teespring.com/nl/areyourcoinsquantumsafe
 
+### Discord/JohnTitor
+
+- https://teespring.com/new-sqrl
+- https://teespring.com/qrl-2021
+
+### Discord/Ompanime
+
+- https://teespring.com/stores/ompanime
+
+### Discord/owl-converghub
+
+- https://teespring.com/stores/cnv-2
+
 ### Discord/prophesied
 
 - https://teespring.com/nync-qrl
 - https://teespring.com/new-qrl
-- https://teespring.com/new-sqrl
-
-### Discord/B-B
-
-- https://teespring.com/nl/new-my-qr-code
+- https://teespring.com/enqlave-qrl
+- https://teespring.com/qrl2021
 
 ### Discord/snannerb
 
@@ -56,43 +72,22 @@ The selected winners will have their design placed on our teespring store ([EU](
 - https://teespring.com/quantum-greek
 - https://teespring.com/XMSS-wiseman
 
-### Discord/ᚲᚨᛈᛁᚦᚨᚾ ᛟᚱᚷᚨᛊᛗᛟ
+### Discord/Synpat
 
-- https://teespring.com/en-GB/stores/qrl-2
+- https://teespring.com/en-GB/quantum-resistant-ledger-8188
+- https://teespring.com/quantum-resistant-january-2021
+- https://teespring.com/new-quantum-resistant-ledger
+- https://teespring.com/shop/quantum-resistant-ledger-2021
 
-### Discord/You
-
-- https://teespring.com/nl/qrl-quantum-resistant-ledger
-- https://teespring.com/nl/qrl-security-by-design
-
-### Discord/JohnTitor
-
-- https://teespring.com/new-sqrl
-
-### Reddit/BenShapiro101
-
-- https://teespring.com/QuantumComputingNowMerch
-
-### Reddit/Ompanime
-
-- https://teespring.com/stores/ompanime
-
-### Discord/You
+### Discord/You 
 
 - https://teespring.com/nl/qrl-quantum-resistant-ledger
 - https://teespring.com/nl/qrl-it-s-a-shor-thing-blue
 - https://teespring.com/nl/qrl-it-s-a-shor-thing
 - https://teespring.com/nl/qrl-security-by-design
 
-### Discord/JohnTitor
-
-- https://teespring.com/new-sqrl
-- https://teespring.com/qrl-2021
-
-### Discord/Asuomy
-
-- https://teespring.com/new-when-is-my-turn
-- https://teespring.com/shop/qffee
+Reddit/BenShapiro101
+- https://teespring.com/QuantumComputingNowMerch
 
 If we have missed anyone, please get in touch by either messaging someone on the team in one of our communities or emailing support@theqrl.org
 
