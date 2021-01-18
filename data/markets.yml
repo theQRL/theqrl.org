@@ -16,6 +16,12 @@
   logo: biteeu.png
   type: Exchange / Centralized
 
+- name: "Vinex Exchange"
+  markets: BTC-QRL
+  link: https://vinex.network/market/BTC_QRL
+  logo: vinex.png
+  type: Exchange / Centralized
+
 - name: "simpleswap"
   markets: BTC-QRL
   link: https://simpleswap.io/coins/quantum-resistant-ledger
