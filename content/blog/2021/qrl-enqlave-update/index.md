@@ -77,4 +77,4 @@ With a few key changes, we'll be able to initialize our *second* enQlave audit b
 
 ## Want more updates? Subscribe to our newsletter
 
-All major announcements and updates like this one are distributed through our newsletter. If you haven't done so already, be sure to subscribe to stay informed on the latest QRL news](/#subscribe
+All major announcements and updates like this one are distributed through our newsletter. If you haven't done so already, [be sure to subscribe to stay informed on the latest QRL news](/#subscribe)
