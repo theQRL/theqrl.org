@@ -22,7 +22,7 @@ Since then the code has matured, and later in the year we [announced](/blog/last
 
 While enQlave *worked*, we weren't satisfied as the GAS fees we're prohibitive (\~20x the normal transaction cost) before Proof-of-Stake and further network efficiencies would make their way to Ethereum. By using a commit-reveal time lock scheme which utilises hashchains, we've been able to reduce these gas fees significantly. 
 
-After these changes are completed and tested, there we be another audit performed by x41 D-Sec. Stay tuned for that!
+After these changes are completed and tested, there will be another audit performed by x41 D-Sec. Stay tuned for that!
 
 ## But why enQlave?
 
