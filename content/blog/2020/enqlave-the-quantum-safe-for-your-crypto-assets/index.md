@@ -85,7 +85,8 @@ The first and only planned such post-quantum secure token is QRL. We will be add
 
 {{< image "./images/1LHADqouPalb7gSHLT3RB-w.png" >}}
 
-{{< image "./images/1x4KhWKtk77zovV7l9jLo0w.png" >}}*Unskinned prototype front end*
+{{< image "./images/1x4KhWKtk77zovV7l9jLo0w.png" >}}
+*Unskinned prototype front end*
 
 Here are some screenshots from the latest build which is currently running on a private Ethereum network. Remember this is as yet unskinned and the final appearance will change considerably as we move towards production, beautify things and simplify the UI.
 

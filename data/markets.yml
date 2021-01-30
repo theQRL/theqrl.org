@@ -16,7 +16,7 @@
   logo: biteeu.png
   type: Exchange / Centralized
 
-- name: "Vinex Exchange"
+- name: "Vinex"
   markets: BTC-QRL
   link: https://vinex.network/market/BTC_QRL
   logo: vinex.png
