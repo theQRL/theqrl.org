@@ -18,13 +18,11 @@ toc: true
 
 Back in April of 2020, we [announced](/blog/enqlave-the-quantum-safe-for-your-crypto-assets) that we've been working on project [enQlave](https://enqlave.io), which allows people to secure their assets against quantum computers natively on Ethereum. With enough traction, we will add support to other promising platforms with sufficiently expressive smart contracts such as Tezos, EOS, Stellar, and more.
 
-The first blockchain chosen is none other than **Ethereum**.
+Since then the code has matured, and later in the year we [announced](/blog/last-month-at-qrl-september-2020/) that [x41 D-Sec](https://www.x41-dsec.de/) will be the external auditor to enQlave's codebase, **which we're happy to say that the audit has been completed!**
 
-Since then the code has matured, and later in the year [announced](/blog/last-month-at-qrl-september-2020/) that [x41 D-Sec](https://www.x41-dsec.de/) will be the external auditor to enQlave's codebase, **which we're happy to say that the audit has been completed!**
+While enQlave *worked*, we weren't satisfied as the GAS fees we're prohibitive (\~20x the normal transaction cost) before Proof-of-Stake and further network efficiencies would make their way to Ethereum. By using a commit-reveal time lock scheme which utilises hashchains, we've been able to reduce these gas fees significantly. 
 
-While enQlave *worked*, we weren't satisfied as the GAS fees we're prohibitive (\~20x the normal transaction cost) before Proof-of-Stake and further network efficiencies would make their way to Ethereum. Using a commit-reveal time lock scheme which utilises hashchains, we've been able to reduce these gas fees significantly. 
-
-This *will* mean another audit, which will be performed once again by x41 D-Sec and we'll announce when they commence. 
+After these changes are completed and tested, there we be another audit performed by x41 D-Sec. Stay tuned for that!
 
 ## But why enQlave?
 
@@ -34,7 +32,7 @@ While some things have changed, we've broken down a great deal of how enQlave fi
 
 After two years of testing and [multiple external audits](https://github.com/theQRL/audits/), [mainnet (actinium) was released](https://qrl.foundation/assets/QRLF-PR-20180626.pdf) which uses and had to accommodate [XMSS](https://tools.ietf.org/html/rfc8391), which has since been approved by NIST as a post-quantum secure signature standard. This foresight and focus on unparalleled security is part of what makes QRL a blockchain for visionaries, academics, and enterprises.
 
-For years, the quantum resistant ledger and its community has spoken a great deal *everyday* towards the importance of post-quantum blockchain security especially with the constant beat of [continued advancements and investments in quantum computing development](https://quantumcomputingreport.com/news/). This is no different than what the likes of NIST, PQCRYPTO, and others have been doing. It's really not a matter of if, but when.
+For years, the Quantum Resistant Ledger and its community has spoken a great deal *everyday* towards the importance of post-quantum blockchain security especially with the constant beat of [continued advancements and investments in quantum computing development](https://quantumcomputingreport.com/news/). This is no different than what the likes of NIST, PQCRYPTO, and others have been doing. It's really not a matter of if, but when.
 
 This dialog however can be perceived as a fear tactic that invokes uncertainty and doubt, especially when in the solution presented is to abandon their favourite blockchain project (ie Ethereum), and acquire an altcoin. Naturally things can fall on deaf ears. 
 
@@ -73,10 +71,10 @@ While we'll be providing a way for individuals and institutions to secure their 
 3. With this groundwork in place, and with PoS and Smart Contracts slated, we're looking at a fully equipped batteries-included experience for developers.
 
 
-## But when?
+## When?
 
-With a few key changes, we'll be able to initialize our *second* enQlave audit by x41 D-Sec and subsequently open our codebase, adding it to our other 25+ MIT open-source repositories.
+With a few key changes, we'll be able to initialize our *second* enQlave audit by x41 D-Sec and subsequently open our codebase to the public, adding it to our other 25+ MIT open-source repositories.
 
-## Be sure to subscribe
+## Want more updates? Subscribe to our newsletter
 
-All major announcements and updates like this one are distributed through our newsletter. If you haven't done so already, be sure to [subscribe to stay informed on the latest QRL news](/#subscribe).
+All major announcements and updates like this one are distributed through our newsletter. If you haven't done so already, be sure to subscribe to stay informed on the latest QRL news](/#subscribe
