@@ -20,7 +20,7 @@ Back in April of 2020, we [announced](/blog/enqlave-the-quantum-safe-for-your-cr
 
 Since then the code has matured, and later in the year we [announced](/blog/last-month-at-qrl-september-2020/) that [x41 D-Sec](https://www.x41-dsec.de/) will be the external auditor to enQlave's codebase, **which we're happy to say that the audit has been completed!**
 
-While enQlave *worked*, we weren't satisfied as the GAS fees we're prohibitive (\~20x the normal transaction cost) before Proof-of-Stake and further network efficiencies would make their way to Ethereum. By using a commit-reveal time lock scheme which utilises hashchains, we've been able to reduce these gas fees significantly. 
+While enQlave *worked*, we weren't satisfied as the GAS fees were prohibitive (\~20x the normal transaction cost) before Proof-of-Stake and further network efficiencies would make their way to Ethereum. By using a commit-reveal time lock scheme which utilises hashchains, we've been able to reduce these gas fees significantly. 
 
 After these changes are completed and tested, there will be another audit performed by x41 D-Sec. Stay tuned for that!
 
