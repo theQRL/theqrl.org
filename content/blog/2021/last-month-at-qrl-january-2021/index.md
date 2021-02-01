@@ -20,7 +20,7 @@ toc: true
 
 ### EnQlave a Priority
 
-More resources have shifted to enQlave, which after an initial audit, has been updated to decrease the initial GAS cost (was \~20x of a normal transaction). Another audit will be be prudent after further development and optimisations are completed.
+More resources have shifted to enQlave, which after an initial audit, has been updated to decrease the initial GAS cost (was \~20x of a normal transaction). Another audit will be prudent after further development and optimisations are completed.
 
 Beyond demonstrating that we're serious about digital asset security and opening us up to the entire Ethereum community, enQlave paves the way for EQRT's, which allows QRL to be traded on DEX's like Uniswap for increased liquidity options.
 
@@ -93,7 +93,7 @@ Be sure to check them out below and order some if you're feeling like the style 
 - Discord/snannerb: https://teespring.com/100-premium-quanta
 - Discord/You: https://teespring.com/qrl-it-s-a-shor-thing-blue
 
-Those not your style? Our full entries can be seen in [Merchandise Contest Entries Blog](/blog/newqrl-merchandise-design-contest-entries)
+Those not your style? Our full list of entries can be seen in [Merchandise Contest Entries Blog](/blog/newqrl-merchandise-design-contest-entries)
 
 ### Podcast: Mike Strike and the Quantum Resistant Ledger – Episode 26 [Hybrid]
 
