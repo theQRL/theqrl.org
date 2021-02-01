@@ -88,6 +88,14 @@
             }
             
         }
+        blockquote {
+            border-left: 2px solid #4AAFFF;
+            background-color: #FAFAFA;
+            padding-right: 40px;
+            padding-left: 40px;
+            padding-top: 1px;
+            padding-bottom: 1px;
+        }
         span{
             font-family: $f-ProL;
             font-size: 24px;
@@ -108,6 +116,10 @@
             // font-weight: 500;
         }
         ul{
+            ul {
+                margin-top:0;
+                margin-bottom:0;
+            }
             padding-left: 18px;
             
             p{
