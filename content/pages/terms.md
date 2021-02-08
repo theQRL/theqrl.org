@@ -1,7 +1,7 @@
 ---
 layout: article
 slug: terms
-title: Terms of Service
+title: QRL Terms of Service
 parent: /
 ---
 

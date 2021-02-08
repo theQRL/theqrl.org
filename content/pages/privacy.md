@@ -1,7 +1,7 @@
 ---
 layout: article
 slug: privacy
-title: Privacy Policy
+title: QRL Privacy Policy
 parent: /
 ---
 

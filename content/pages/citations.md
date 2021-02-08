@@ -1,7 +1,7 @@
 ---
 layout: article
 slug: /research/citations
-title: Citations, Standards, Cryptography and Recommended Technical Reading
+title: QRL Citations, Standards, Cryptography and Recommended Technical Reading
 parent: /research
 aliases:
   - /citations
