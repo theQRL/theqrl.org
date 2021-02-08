@@ -4,7 +4,7 @@ slug: qrl-technical-weeks-38-42
 date: 2017-10-23T18:38:45.801Z
 author: "Juan Leni"
 title: "QRL Technical -  Weeks 38–42"
-subtitle: "TL;DR: Tons of improvements: Wallets, Communication Layer, Persistence Layer, Installers. Many more to come."
+summary: "TL;DR: Tons of improvements: Wallets, Communication Layer, Persistence Layer, Installers. Many more to come."
 featured_image: 15EjHu1jLjDC9eiFTn1ZR2w.jpeg
 images:
   - 15EjHu1jLjDC9eiFTn1ZR2w.jpeg

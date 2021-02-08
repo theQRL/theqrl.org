@@ -1,5 +1,5 @@
 ---
-title: "Blog - List"
+title: "QRL Blog - List"
 layout: blog-list
 ---
 

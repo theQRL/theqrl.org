@@ -4,7 +4,7 @@ slug: last-month-at-qrl-september-2020
 date: 2020-10-01
 author: "Jack Matier"
 title: "Last Month at QRL — September 2020"
-subtitle: "EnQlave audit firm X41 D-Sec starts, Insight research joins QRL, Proof-of-Stake Update, Quantum computing/security news, and QRL Mentions"
+summary: "EnQlave audit firm X41 D-Sec starts, Insight research joins QRL, Proof-of-Stake Update, Quantum computing/security news, and QRL Mentions"
 featured_image: 1r-Pj_Hziz25iQcA9-RxXtQ.png
 images:
   - 1r-Pj_Hziz25iQcA9-RxXtQ.png

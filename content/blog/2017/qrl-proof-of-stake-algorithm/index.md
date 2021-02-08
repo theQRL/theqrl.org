@@ -4,7 +4,7 @@ slug: qrl-proof-of-stake-algorithm
 date: 2017-10-22
 author: "Peter Waterland"
 title: "QRL proof-of-stake algorithm"
-subtitle: "QRL proof-of-stake algorithm"
+summary: "QRL proof-of-stake algorithm"
 featured_image: child-1864718_640.jpg
 features:
   - proof-of-stake

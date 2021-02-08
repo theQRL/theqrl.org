@@ -4,7 +4,7 @@ slug: qrl-technical-weeks-37-37
 date: 2017-09-14T10:37:50.146Z
 author: "Juan Leni"
 title: "QRL Technical -  Weeks 36–37 Crypto"
-subtitle: "TL;DR: The crypto module is now in C/C++. Architecture is being reworked. Performance is significantly higher (verification is more than 500 times faster). Lots of improvements in the pipeline."
+summary: "TL;DR: The crypto module is now in C/C++. Architecture is being reworked. Performance is significantly higher (verification is more than 500 times faster). Lots of improvements in the pipeline."
 featured_image: 1STNzxj7TyR6ToFVAvwGlLQ.png
 images:
   - 1STNzxj7TyR6ToFVAvwGlLQ.png

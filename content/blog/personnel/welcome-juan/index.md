@@ -4,7 +4,7 @@ slug: welcome-juan
 date: 2017-09-03T17:07:32.728Z
 author: "Peter Waterland"
 title: "Welcome Juan!"
-subtitle: "It is becoming customary to start the blog with the announcement of a new hire and today is no different. So without further ado, we have a new member — Juan Leni! He goes by the slightly sinister nickname @purpletentacle on the slack, but is a senior developer with project management experience and will be a fantastic asset to the team going forwards."
+summary: "It is becoming customary to start the blog with the announcement of a new hire and today is no different. So without further ado, we have a new member — Juan Leni! He goes by the slightly sinister nickname @purpletentacle on the slack, but is a senior developer with project management experience and will be a fantastic asset to the team going forwards."
 images:
   - 1-jK0Y4XHdH-dLEvTjA87lQ.png
   - 1vx4zevCQzIPYx7jFK9gl1A.png

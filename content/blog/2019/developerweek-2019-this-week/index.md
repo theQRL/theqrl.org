@@ -4,7 +4,7 @@ slug: developerweek-2019-this-week
 date: 2019-02-18T15:55:07.222Z
 author: "Adam Koltun"
 title: "DeveloperWeek 2019 this week!"
-subtitle: "TL;DR — The Who/What/Where/When/Why of DeveloperWeek 2019"
+summary: "TL;DR — The Who/What/Where/When/Why of DeveloperWeek 2019"
 featured_image: 1XN3dz5ajWVr1xNjmFX8tUA.png
 images:
   - 1XN3dz5ajWVr1xNjmFX8tUA.png

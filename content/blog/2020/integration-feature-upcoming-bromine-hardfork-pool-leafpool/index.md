@@ -4,7 +4,7 @@ slug: integration-feature-upcoming-bromine-hardfork-pool-leafpool
 date: 2020-04-06T18:12:26.709Z
 author: "Jack Matier"
 title: "Integration feature -  Upcoming Bromine hardfork pool — Leafpool"
-subtitle: "Multi-algorithm fast mining pool"
+summary: "Multi-algorithm fast mining pool"
 featured_image: 1SJ2M0tCSWdVZHUA9QWgSHA.png
 images:
   - 1SJ2M0tCSWdVZHUA9QWgSHA.png

@@ -4,7 +4,7 @@ slug: communication-and-structure
 date: 2019-03-25
 author: "Adam Koltun"
 title: "Communication and Structure"
-subtitle: "TL;DR — QRL has and will continue to evaluate its communication strategy and overall structure to best address the needs of the project as they continue to evolve."
+summary: "TL;DR — QRL has and will continue to evaluate its communication strategy and overall structure to best address the needs of the project as they continue to evolve."
 featured_image: 1C5d6GQeQIANKC7YbsNK7Cw.png
 images:
   - 1C5d6GQeQIANKC7YbsNK7Cw.png

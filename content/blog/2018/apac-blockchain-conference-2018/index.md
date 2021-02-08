@@ -4,7 +4,7 @@ slug: apac-blockchain-conference-2018
 date: 2018-03-06T19:59:23.921Z
 author: "Adam Koltun"
 title: "APAC Blockchain Conference 2018"
-subtitle: "TL;DR — Who/What/When/Where/Why of APAC Blockchain 2018. We are currently exploring the desire within the community for a meetup during the conference (more at the end of the blog)."
+summary: "TL;DR — Who/What/When/Where/Why of APAC Blockchain 2018. We are currently exploring the desire within the community for a meetup during the conference (more at the end of the blog)."
 featured_image: 1IRYA2CGFxByx8Q8-O5jIvw.jpeg
 images:
   - 1IRYA2CGFxByx8Q8-O5jIvw.jpeg

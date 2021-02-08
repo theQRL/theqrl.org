@@ -4,7 +4,7 @@ slug: last-week-in-qrl-august-6-12
 date: 2019-08-12T16:52:41.338Z
 author: "Adam Koltun"
 title: "Last Week in QRL August 6–12"
-subtitle: "Development Updates, Updates to FAQQ.info"
+summary: "Development Updates, Updates to FAQQ.info"
 featured_image: 1r_nkQQqnPHLHs2eqXs9hTA.png
 images:
   - 1r_nkQQqnPHLHs2eqXs9hTA.png

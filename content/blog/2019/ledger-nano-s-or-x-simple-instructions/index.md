@@ -4,7 +4,7 @@ slug: ledger-nano-s-or-x-simple-instructions
 date: 2019-03-05T20:00:48.544Z
 author: "Jack Matier"
 title: "Ledger Nano S -  Simple Instructions"
-subtitle: "There’s a full instructional video coming, and extensive full text-instructions with pictures already on our documentation site, but for those that want the TL;DR of installing QRL on your ledger device, this is for you."
+summary: "There’s a full instructional video coming, and extensive full text-instructions with pictures already on our documentation site, but for those that want the TL;DR of installing QRL on your ledger device, this is for you."
 featured_image: 1W0hwfGE48qRyj3HhOhzZqg.jpeg
 images:
   - 1W0hwfGE48qRyj3HhOhzZqg.jpeg

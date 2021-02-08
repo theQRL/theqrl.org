@@ -4,7 +4,7 @@ slug: new-exchange-listing-bitvoicex
 date: 2020-03-23T17:15:58.922Z
 author: "Adam Koltun"
 title: "New Exchange Listing — Bitvoicex"
-subtitle: "QRL is now trading on Bitvoicex"
+summary: "QRL is now trading on Bitvoicex"
 featured_image: 1PxJ6HjOz25pGoRKqGhGRfw.png
 images:
   - 1PxJ6HjOz25pGoRKqGhGRfw.png

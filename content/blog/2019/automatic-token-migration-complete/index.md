@@ -4,7 +4,7 @@ slug: automatic-token-migration-complete
 date: 2019-06-15
 author: "Jack Matier"
 title: "Automatic token migration complete!"
-subtitle: "On June 26th, 2018, we launched our QRL mainnet network and opened up our automatic token migration which has operated successfully and without a single incident reported."
+summary: "On June 26th, 2018, we launched our QRL mainnet network and opened up our automatic token migration which has operated successfully and without a single incident reported."
 featured_image: 1zT-9cr4qr_CZ1Wz09kQmYA.jpeg
 images:
   - 1zT-9cr4qr_CZ1Wz09kQmYA.jpeg

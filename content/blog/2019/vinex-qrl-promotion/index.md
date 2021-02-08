@@ -4,7 +4,7 @@ slug: vinex-qrl-promotion
 date: 2019-10-31T15:53:06.951Z
 author: "Adam Koltun"
 title: "Vinex + QRL Promotion"
-subtitle: "You can earn extra QRL for depositing BTC and/or withdrawing QRL from Vinex"
+summary: "You can earn extra QRL for depositing BTC and/or withdrawing QRL from Vinex"
 featured_image: 1ftcfjTDyy_PCEePf-4C5dA.png
 images:
   - 1ftcfjTDyy_PCEePf-4C5dA.png

@@ -4,7 +4,7 @@ slug: qrl-token-migration-begins
 date: 2018-01-27T21:41:39.615Z
 author: "Adam Koltun"
 title: "QRL Token Migration Begins!"
-subtitle: "TL;DR — Token Migration is Live! Step-by-Step instructions, links to additional sources of information"
+summary: "TL;DR — Token Migration is Live! Step-by-Step instructions, links to additional sources of information"
 features:
   - webwallet
 featured_image: 1I9imgFm7VTp8xD0g6f0DNg.png

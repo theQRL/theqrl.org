@@ -4,7 +4,7 @@ slug: qrl-progress-report
 date: 2017-04-19T22:23:54.283Z
 author: "Peter Waterland"
 title: "QRL progress report"
-subtitle: "The Quantum Resistant Ledger (QRL) project is now successfully trialling a private testnet thanks to a dedicated team of alpha-testers spread across the world."
+summary: "The Quantum Resistant Ledger (QRL) project is now successfully trialling a private testnet thanks to a dedicated team of alpha-testers spread across the world."
 categories:
   - technical
 ---

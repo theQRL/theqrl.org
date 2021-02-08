@@ -4,7 +4,7 @@ slug: x41-d-sec-audit
 date: 2018-08-27T15:36:44.370Z
 author: "Jack Matier"
 title: "x41 d-sec audit"
-subtitle: "Project Update"
+summary: "Project Update"
 images:
   - 1EhOqRFAO3PkLna9YzujHWg.png
   - 1BhOu6u5wiJlvbH0cAEzHNQ.gif

@@ -4,7 +4,7 @@ slug: last-week-in-qrl-may-7-13
 date: 2019-05-13T14:00:39.491Z
 author: "Adam Koltun"
 title: "Last Week in QRL May 7–13"
-subtitle: "Development Updates, Keybase Integration, Community Update"
+summary: "Development Updates, Keybase Integration, Community Update"
 featured_image: 1SoG6s0VdLJBW7uoADHY6RA.png
 images:
   - 1SoG6s0VdLJBW7uoADHY6RA.png

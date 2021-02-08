@@ -4,7 +4,7 @@ slug: last-month-at-qrl-august-2020
 date: 2020-08-31
 author: "Jack Matier"
 title: "Last Month at QRL — August 2020"
-subtitle: "EnQlave audit firm selected: x41 D-Sec, QRL AMA 4 part series complete, QRL Quick Qlips Contest, New Korean Social Media Ambassador, Proof-of-Stake devnet approaches: updates, new QRL pool integration, and quantum news updates."
+summary: "EnQlave audit firm selected: x41 D-Sec, QRL AMA 4 part series complete, QRL Quick Qlips Contest, New Korean Social Media Ambassador, Proof-of-Stake devnet approaches: updates, new QRL pool integration, and quantum news updates."
 featured_image: 1jGQaWd9oszSsI4Zmlz_Ucg.png
 images:
   - 1jGQaWd9oszSsI4Zmlz_Ucg.png

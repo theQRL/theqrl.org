@@ -4,7 +4,7 @@ slug: last-week-in-qrl-june-4-10
 date: 2019-06-06T19:36:05.567Z
 author: "Adam Koltun"
 title: "Last Week in QRL June 4–10"
-subtitle: "Development Updates, Token Migration Reminder, Bittrex US Geofencing"
+summary: "Development Updates, Token Migration Reminder, Bittrex US Geofencing"
 featured_image: 1NFSCc6BvXoQBC8RaKWa7Cg.png
 images:
   - 1NFSCc6BvXoQBC8RaKWa7Cg.png

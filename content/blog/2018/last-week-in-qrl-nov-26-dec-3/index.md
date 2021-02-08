@@ -4,7 +4,7 @@ slug: last-week-in-qrl-nov-26-dec-3
 date: 2018-11-29T17:10:19.714Z
 author: "Adam Koltun"
 title: "Last Week in QRL -  Nov 26-Dec 3"
-subtitle: "Last Week in QRL: Nov 26-Dec 3"
+summary: "Last Week in QRL: Nov 26-Dec 3"
 featured_image: 1NMBtNCfJHNtohDtxkznHuw.png
 images:
   - 1NMBtNCfJHNtohDtxkznHuw.png

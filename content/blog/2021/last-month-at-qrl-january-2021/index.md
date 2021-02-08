@@ -4,7 +4,6 @@ slug: last-month-at-qrl-january-2021
 date: 2021-02-01
 author: "Jack Matier"
 title: "Last Month at QRL — January 2021"
-subtitle: "EnQlave a priority. Development Updates: Zeus, QRL-CLI, & QRL-WALLET. The Quantum Daily Podcast Ft. Michael Strike, and QRL Refresh Merchandise Design Contest Winners."
 summary: "EnQlave a priority. Development Updates: Zeus, QRL-CLI, & QRL-WALLET. The Quantum Daily Podcast Ft. Michael Strike, and QRL Refresh Merchandise Design Contest Winners."
 featured_image: eom.jan2021.png
 categories:

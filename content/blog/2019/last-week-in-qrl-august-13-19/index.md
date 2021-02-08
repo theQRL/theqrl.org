@@ -4,7 +4,7 @@ slug: last-week-in-qrl-august-13-19
 date: 2019-08-19T17:02:06.162Z
 author: "Adam Koltun"
 title: "Last Week in QRL August 13–19"
-subtitle: "Development Updates, Ephemeral Messaging System, Tip Bot"
+summary: "Development Updates, Ephemeral Messaging System, Tip Bot"
 featured_image: 14vNUqueeRkGfLcKmui3B5Q.png
 images:
   - 14vNUqueeRkGfLcKmui3B5Q.png

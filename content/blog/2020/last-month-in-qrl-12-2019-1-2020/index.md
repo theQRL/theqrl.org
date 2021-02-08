@@ -4,7 +4,7 @@ slug: last-month-in-qrl-12-2019-1-2020
 date: 2020-01-07T16:50:48.262Z
 author: "Adam Koltun"
 title: "Last Month in QRL 12/2019–1/2020"
-subtitle: "Development Updates, Developer Summit, Hard Fork News"
+summary: "Development Updates, Developer Summit, Hard Fork News"
 featured_image: 18gRonUdQo1443PCCJBQ85A.png
 images:
   - 18gRonUdQo1443PCCJBQ85A.png

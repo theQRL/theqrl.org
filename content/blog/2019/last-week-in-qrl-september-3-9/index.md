@@ -4,7 +4,7 @@ slug: last-week-in-qrl-september-3-9
 date: 2019-09-09T16:10:09.291Z
 author: "Adam Koltun"
 title: "Last Week in QRL September 3–9"
-subtitle: "Development Updates, Community Nomination Blog Incoming"
+summary: "Development Updates, Community Nomination Blog Incoming"
 featured_image: 1dr3gyjnrK8iE89_uqMNT2Q.png
 images:
   - 1dr3gyjnrK8iE89_uqMNT2Q.png

@@ -4,7 +4,7 @@ slug: qip-011-denomination-ideograms-for-quanta-and-shor
 date: 2020-01-16T20:56:42.095Z
 author: "Jack Matier"
 title: "QIP 011 — Denomination ideograms for Quanta and Shor"
-subtitle: "Creative? Have a thought of what the denominations of QRL (Quanta, Shor) should look like? Lets see them!"
+summary: "Creative? Have a thought of what the denominations of QRL (Quanta, Shor) should look like? Lets see them!"
 featured_image: 1OAPFL1PNSbPS6r4oNA392A.png
 images:
   - 1OAPFL1PNSbPS6r4oNA392A.png

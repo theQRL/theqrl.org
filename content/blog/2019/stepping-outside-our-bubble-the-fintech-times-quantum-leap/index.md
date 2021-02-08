@@ -4,7 +4,7 @@ slug: stepping-outside-our-bubble-the-fintech-times-quantum-leap
 date: 2019-02-04T16:55:07.783Z
 author: "Adam Koltun"
 title: "Stepping Outside Our Bubble -  The Fintech Times’ “Quantum Leap”"
-subtitle: "TL;DR — We were approached a few weeks ago by The Fintech Times writer Matthew Dove, who asked us for our opinions on a number of Quantum Computing related issues. We provided quotes, some of which made it into today’s cover story for TFT, “Quantum Leap”"
+summary: "TL;DR — We were approached a few weeks ago by The Fintech Times writer Matthew Dove, who asked us for our opinions on a number of Quantum Computing related issues. We provided quotes, some of which made it into today’s cover story for TFT, “Quantum Leap”"
 featured_image: 15ITCQIlnPRRnEffMSKQT_g.png
 images:
   - 15ITCQIlnPRRnEffMSKQT_g.png

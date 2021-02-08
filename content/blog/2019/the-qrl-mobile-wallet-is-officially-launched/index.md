@@ -4,7 +4,7 @@ slug: the-qrl-mobile-wallet-is-officially-launched
 date: 2019-04-25T16:12:06.110Z
 author: "Adam Koltun"
 title: "The QRL Mobile Wallet is Officially Launched!"
-subtitle: "The QRL Mobile Wallet for both Android and iOS is fully released"
+summary: "The QRL Mobile Wallet for both Android and iOS is fully released"
 featured_image: 1UUu8LlLskFUhNod53NMgWw.png
 images:
   - 1UUu8LlLskFUhNod53NMgWw.png

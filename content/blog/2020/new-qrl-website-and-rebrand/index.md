@@ -4,7 +4,7 @@ slug: new-qrl-website-and-logo-refresh-in-celebration-of-nists-approval-of-xmss
 date: 2020-12-11
 author: "Jack Matier"
 title: "In celebration of NIST's approval of the XMSS signature scheme, we are proud to present a website and logo refresh."
-subtitle: "Today, in celebration of NIST's approval of the XMSS signature scheme, we are proud to present a website and logo refresh"
+summary: "Today, in celebration of NIST's approval of the XMSS signature scheme, we are proud to present a website and logo refresh"
 featured_image: ann.banner.png
 images:
   - ann.banner.png

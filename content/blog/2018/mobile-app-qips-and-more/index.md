@@ -4,7 +4,7 @@ slug: mobile-app-qips-and-more
 date: 2018-07-31T17:53:17.290Z
 author: "Jack Matier"
 title: "Mobile app, QIPs, and More!"
-subtitle: "TLDR — Mobile app technical side complete, the QIP process, In the Media Section, and a P2P exchange network listing commit."
+summary: "TLDR — Mobile app technical side complete, the QIP process, In the Media Section, and a P2P exchange network listing commit."
 featured_image: 1ATPZu7zBl6zry3KEqPZpAA.png
 images:
   - 1ATPZu7zBl6zry3KEqPZpAA.png

@@ -4,7 +4,7 @@ slug: last-week-in-qrl-september-10-16
 date: 2019-09-16T15:44:46.023Z
 author: "Adam Koltun"
 title: "Last Week in QRL September 10–16"
-subtitle: "Development Updates, Thanks to Beta Testers, New Exchange Listing Coming"
+summary: "Development Updates, Thanks to Beta Testers, New Exchange Listing Coming"
 featured_image: 1i3I9iGSFw8J8qPDDEs2XCA.png
 images:
   - 1i3I9iGSFw8J8qPDDEs2XCA.png

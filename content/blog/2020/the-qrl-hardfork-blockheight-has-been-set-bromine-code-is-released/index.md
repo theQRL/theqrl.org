@@ -4,7 +4,7 @@ slug: the-qrl-hardfork-blockheight-has-been-set-bromine-code-is-released
 date: 2020-03-23T14:21:51.130Z
 author: "Jack Matier"
 title: "The QRL Hardfork blockheight has been set! Bromine code is released!"
-subtitle: "Blockheight is set for 942375 — approximately April 6th"
+summary: "Blockheight is set for 942375 — approximately April 6th"
 featured_image: 1Jegpbpg7GqrRjNAHulRz2g.png
 images:
   - 1Jegpbpg7GqrRjNAHulRz2g.png

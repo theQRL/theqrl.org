@@ -4,7 +4,7 @@ slug: last-week-in-qrl-september-1-7
 date: 2019-10-07T16:24:25.333Z
 author: "Adam Koltun"
 title: "Last Week in QRL September 1–7"
-subtitle: "Development Updates, Job Opening for Golang and UI/UX"
+summary: "Development Updates, Job Opening for Golang and UI/UX"
 featured_image: 1qwNSvuGWPEWevyGFOKCJ8g.png
 images:
   - 1qwNSvuGWPEWevyGFOKCJ8g.png

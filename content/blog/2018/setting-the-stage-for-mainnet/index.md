@@ -4,7 +4,7 @@ slug: setting-the-stage-for-mainnet
 date: 2018-03-04T18:42:19.829Z
 author: "Adam Koltun"
 title: "Setting The Stage For Mainnet"
-subtitle: "TL;DR — We have a new website that is soon to launch, mining pool integration has progressed to completion, we are currently undertaking internal code review, we are placing an open call for Token Migration Testers, we have been added to our first Chinese language exchange — 5iquant.com, and we are gauging interest for a supporter meet up during APAC Blockchain 2018."
+summary: "TL;DR — We have a new website that is soon to launch, mining pool integration has progressed to completion, we are currently undertaking internal code review, we are placing an open call for Token Migration Testers, we have been added to our first Chinese language exchange — 5iquant.com, and we are gauging interest for a supporter meet up during APAC Blockchain 2018."
 featured_image: 1HIlwnvGB_A_6xWusyPcm5A.png
 images:
   - 1HIlwnvGB_A_6xWusyPcm5A.png

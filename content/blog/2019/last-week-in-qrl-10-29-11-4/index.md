@@ -4,7 +4,7 @@ slug: last-week-in-qrl-10-29-11-4
 date: 2019-11-04T17:06:49.096Z
 author: "Adam Koltun"
 title: "Last Week in QRL 10/29–11/4"
-subtitle: "Development Updates, QRL on SwapSpace, QRL Community Nomination Update"
+summary: "Development Updates, QRL on SwapSpace, QRL Community Nomination Update"
 featured_image: 1AEhGT4z5iu-TbbD1KChQCw.png
 images:
   - 1AEhGT4z5iu-TbbD1KChQCw.png

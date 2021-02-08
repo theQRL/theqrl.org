@@ -4,7 +4,7 @@ slug: last-week-in-qrl-may-14-20
 date: 2019-05-20T14:56:22.375Z
 author: "Adam Koltun"
 title: "Last Week in QRL May 14–20"
-subtitle: "Development updates, Automatic Migration update"
+summary: "Development updates, Automatic Migration update"
 featured_image: 1JNTI19fdE7AHHJcdLtC1-Q.png
 images:
   - 1JNTI19fdE7AHHJcdLtC1-Q.png

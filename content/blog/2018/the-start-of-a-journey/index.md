@@ -4,7 +4,7 @@ slug: the-start-of-a-journey
 date: 2018-07-03
 author: "Adam Koltun"
 title: "The Start of a Journey"
-subtitle: "TL;DR — We are launched! The QRL network is one week old. Brief overview of media coverage, and a few words on what comes next"
+summary: "TL;DR — We are launched! The QRL network is one week old. Brief overview of media coverage, and a few words on what comes next"
 images:
   - 1-hpTwPBdIofrkUJrmFDHKQ.jpeg
   - 1gpJXbgrYLGGofjqj_5gwGw.jpeg

@@ -4,7 +4,7 @@ date: 2017-03-09
 layout: blog-post
 author: "Peter Waterland"
 title: "Blockchain is here to stay — but for how long?"
-subtitle: "Bitcoin furiously led the charge. Decentralised, trustless, scarce, cryptographically secure digital cash transactions without the need for financial intermediaries available to anyone with an internet connection for the first time. And cool — a better form of money there has never been in the history of mankind."
+summary: "Bitcoin furiously led the charge. Decentralised, trustless, scarce, cryptographically secure digital cash transactions without the need for financial intermediaries available to anyone with an internet connection for the first time. And cool — a better form of money there has never been in the history of mankind."
 categories:
   - column
 ---

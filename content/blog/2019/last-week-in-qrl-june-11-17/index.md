@@ -4,7 +4,7 @@ slug: last-week-in-qrl-june-11-17
 date: 2019-06-17T14:21:24.870Z
 author: "Adam Koltun"
 title: "Last Week in QRL June 11–17"
-subtitle: "Development Updates, Automatic Token Migration Officially Closed"
+summary: "Development Updates, Automatic Token Migration Officially Closed"
 featured_image: 14VaOiIb07ao_DFgn40dFBg.png
 images:
   - 14VaOiIb07ao_DFgn40dFBg.png

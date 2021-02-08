@@ -4,7 +4,7 @@ slug: integration-feature-upcoming-bromine-hardfork-pool-herominers
 date: 2020-04-06T19:01:36.649Z
 author: "Jack Matier"
 title: "Integration feature -  Upcoming Bromine hardfork pool — herominers"
-subtitle: "Cryptonight mining pools"
+summary: "Cryptonight mining pools"
 featured_image: 1JjkSp4QQ2JqpdXwjS1mSbQ.png
 images:
   - 1JjkSp4QQ2JqpdXwjS1mSbQ.png

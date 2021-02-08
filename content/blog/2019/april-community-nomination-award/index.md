@@ -4,7 +4,7 @@ slug: april-community-nomination-award
 date: 2019-05-07T18:35:08.979Z
 author: "Adam Koltun"
 title: "April Community Nomination Award"
-subtitle: "As we noted in our most recent “Last Week in QRL” blog, we had not yet received a statement from this month’s award recipient, so we held off on announcing them in our usual manner. Now, without further ado…"
+summary: "As we noted in our most recent “Last Week in QRL” blog, we had not yet received a statement from this month’s award recipient, so we held off on announcing them in our usual manner. Now, without further ado…"
 featured_image: 1mxCu4J3xHZt-qgs1L62rHA.png
 images:
   - 1mxCu4J3xHZt-qgs1L62rHA.png

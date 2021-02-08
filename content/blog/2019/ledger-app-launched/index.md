@@ -4,7 +4,7 @@ slug: ledger-app-launched
 date: 2019-03-05
 author: "Adam Koltun"
 title: "Ledger App Launched!"
-subtitle: "TL;DR — The QRL Ledger app has been fully approved and launched. You can download, install, and run the application on Ledger Nano S or X today!"
+summary: "TL;DR — The QRL Ledger app has been fully approved and launched. You can download, install, and run the application on Ledger Nano S or X today!"
 featured_image: 1PqEllAcBIH74HXMBt_1dVQ.jpeg
 images:
   - 1PqEllAcBIH74HXMBt_1dVQ.jpeg

@@ -4,7 +4,7 @@ slug: qrl-mainnet-v2-0-1-is-released
 date: 2020-03-30T16:14:53.207Z
 author: "Jack Matier"
 title: "QRL Mainnet v2.0.1 is Released"
-subtitle: "Bug fixes for API GetVoteStats & GetOTS"
+summary: "Bug fixes for API GetVoteStats & GetOTS"
 featured_image: 1sxQvfwrOPXPksMLZqbtJsA.png
 images:
   - 1sxQvfwrOPXPksMLZqbtJsA.png

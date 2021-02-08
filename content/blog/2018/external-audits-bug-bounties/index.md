@@ -4,7 +4,7 @@ slug: external-audits-bug-bounties
 date: 2018-04-27T15:57:39.948Z
 author: "Jack Matier"
 title: "External Audits & Bug Bounties"
-subtitle: "TLDR: Red4Sec has begun our security audit, a tip-of-the-iceberg overview of our own code practices and bug bounties in the cryptocurrency space."
+summary: "TLDR: Red4Sec has begun our security audit, a tip-of-the-iceberg overview of our own code practices and bug bounties in the cryptocurrency space."
 featured_image: 1sti3dCDxJO12cL5lkH_qBw.png
 images:
   - 1sti3dCDxJO12cL5lkH_qBw.png

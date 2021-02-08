@@ -4,7 +4,7 @@ slug: last-month-at-qrl-june-2020
 date: 2020-06-01
 author: "Jack Matier"
 title: "Last Month at QRL — June 2020"
-subtitle: "QRL AMA, Two year mainnet anniversary, Job opening for in-house marketing position, enQlave - audit imminent, Proof-of-Stake is back - devnet soon"
+summary: "QRL AMA, Two year mainnet anniversary, Job opening for in-house marketing position, enQlave - audit imminent, Proof-of-Stake is back - devnet soon"
 featured_image: 1sO2WRuk8qRT2vc-vOWY4Mg.png
 images:
   - 1sO2WRuk8qRT2vc-vOWY4Mg.png

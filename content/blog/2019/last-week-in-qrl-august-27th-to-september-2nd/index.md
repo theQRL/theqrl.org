@@ -4,7 +4,7 @@ slug: last-week-in-qrl-august-27th-to-september-2nd
 date: 2019-09-02T20:10:23.686Z
 author: "Jack Matier"
 title: "Last Week in QRL — August 27th to September 2nd"
-subtitle: "Last Week in QRL — August 27th to September 2nd"
+summary: "Last Week in QRL — August 27th to September 2nd"
 featured_image: 1pRbo9beNhPFGXbeF2_CywA.png
 images:
   - 1pRbo9beNhPFGXbeF2_CywA.png

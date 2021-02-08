@@ -4,7 +4,7 @@ slug: last-week-in-qrl-september-17-23
 date: 2019-09-23T15:53:23.961Z
 author: "Adam Koltun"
 title: "Last Week in QRL September 17–23"
-subtitle: "Development Updates, Google Quantum Supremacy, New Exchange Listing, QRL Mobile Wallet 2.0 Coming Soon"
+summary: "Development Updates, Google Quantum Supremacy, New Exchange Listing, QRL Mobile Wallet 2.0 Coming Soon"
 featured_image: 1vOMa2YhCOF7NZlsLhvPTYA.png
 images:
   - 1vOMa2YhCOF7NZlsLhvPTYA.png

@@ -4,7 +4,7 @@ slug: last-week-in-qrl-september-24th-30th
 date: 2019-10-01T02:58:54.192Z
 author: "Jack Matier"
 title: "Last Week in QRL -  September 24th —  30th"
-subtitle: "Quantum supremacy coverage, development updates, and a call for cryptographers for grant(s) in threshold lattice cryptography."
+summary: "Quantum supremacy coverage, development updates, and a call for cryptographers for grant(s) in threshold lattice cryptography."
 featured_image: 1id4o3CQ7l4MRE9IlkXQ0Og.png
 images:
   - 1id4o3CQ7l4MRE9IlkXQ0Og.png

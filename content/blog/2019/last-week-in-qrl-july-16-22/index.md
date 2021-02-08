@@ -4,7 +4,7 @@ slug: last-week-in-qrl-july-16-22
 date: 2019-07-22T14:37:04.472Z
 author: "Adam Koltun"
 title: "Last Week in QRL July 16–22"
-subtitle: "Development Updates, Development Spotlight — Command Line Interface"
+summary: "Development Updates, Development Spotlight — Command Line Interface"
 featured_image: 1DQi6RXNonqobovCZNSbs3w.jpeg
 images:
   - 1DQi6RXNonqobovCZNSbs3w.jpeg

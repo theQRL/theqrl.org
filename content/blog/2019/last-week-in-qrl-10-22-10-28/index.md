@@ -4,7 +4,7 @@ slug: last-week-in-qrl-10-22-10-28
 date: 2019-10-28T16:04:33.851Z
 author: "Adam Koltun"
 title: "Last Week in QRL 10/22–10/28"
-subtitle: "Development Updates, Research Grants, New Exchange Listing, UpBit Update"
+summary: "Development Updates, Research Grants, New Exchange Listing, UpBit Update"
 featured_image: 1u35SUx9jODupMG69nkwuQQ.png
 images:
   - 1u35SUx9jODupMG69nkwuQQ.png

@@ -4,7 +4,7 @@ slug: cointiger-trading-is-live-today
 date: 2019-08-21
 author: "Adam Koltun"
 title: "CoinTiger Trading is Live Today!"
-subtitle: "Deposits went live 8/21, Trading is live 8/22, Withdrawals live 8/23"
+summary: "Deposits went live 8/21, Trading is live 8/22, Withdrawals live 8/23"
 featured_image: 1F3lPPhKLcWQY0SpK1S67Sg.png
 categories:
   - integrations

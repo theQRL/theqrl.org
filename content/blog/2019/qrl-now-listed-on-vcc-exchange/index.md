@@ -4,7 +4,7 @@ slug: qrl-now-listed-on-vcc-exchange
 date: 2019-09-27T14:02:30.061Z
 author: "Jack Matier"
 title: "QRL Now Listed on VCC Exchange"
-subtitle: "QRL is now trading on VCC Exchange, a Bittrex partner"
+summary: "QRL is now trading on VCC Exchange, a Bittrex partner"
 featured_image: 1_249rM2XPPQeKwSYj4hfeQ.png
 images:
   - 1_249rM2XPPQeKwSYj4hfeQ.png

@@ -4,7 +4,7 @@ slug: last-week-in-qrl-april-23-29
 date: 2019-04-29T15:20:57.282Z
 author: "Adam Koltun"
 title: "Last Week in QRL April 23–29"
-subtitle: "Development updates, introducing QIP 008"
+summary: "Development updates, introducing QIP 008"
 featured_image: 17tteYuvNeH031NCEVMNX4Q.png
 images:
   - 17tteYuvNeH031NCEVMNX4Q.png

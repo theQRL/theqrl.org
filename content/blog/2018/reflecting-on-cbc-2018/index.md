@@ -4,7 +4,7 @@ slug: reflecting-on-cbc-2018
 date: 2018-12-17T17:55:02.395Z
 author: "Adam Koltun"
 title: "Reflecting on CBC 2018"
-subtitle: "TL;DR — Was in Las Vegas last week with Jack for the Crypto Blockchain Conference"
+summary: "TL;DR — Was in Las Vegas last week with Jack for the Crypto Blockchain Conference"
 featured_image: 16iCdt_MWNmIeO4eN1Ai3GQ.png
 images:
   - 16iCdt_MWNmIeO4eN1Ai3GQ.png

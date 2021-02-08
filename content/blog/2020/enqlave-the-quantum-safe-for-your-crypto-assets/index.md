@@ -4,7 +4,7 @@ slug: enqlave-the-quantum-safe-for-your-crypto-assets
 date: 2020-04-11
 author: "Peter Waterland"
 title: "Enqlave — the quantum safe for your crypto assets"
-subtitle: "EnQlave — the quantum safe for your crypto assets"
+summary: "EnQlave — the quantum safe for your crypto assets"
 featured_image: 1Sf9TQYn9L3v2si9DZvePJg.png
 images:
   - 1Sf9TQYn9L3v2si9DZvePJg.png

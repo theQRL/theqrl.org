@@ -4,7 +4,7 @@ slug: bromine-testnet-is-live
 date: 2020-02-29
 author: "Jack Matier"
 title: "Bromine Testnet is LIVE!"
-subtitle: "Overview, installation & running, mining, and testnet incentives/awards"
+summary: "Overview, installation & running, mining, and testnet incentives/awards"
 featured_image: 1P_d8q2XPuaQa-DYPJvN_Ug.png
 images:
   - 1P_d8q2XPuaQa-DYPJvN_Ug.png

@@ -4,7 +4,7 @@ slug: last-week-in-qrl-august-20-26
 date: 2019-08-26T16:44:40.035Z
 author: "Adam Koltun"
 title: "Last Week in QRL August 20 — 26"
-subtitle: "Development Updates, New Exchange Listing"
+summary: "Development Updates, New Exchange Listing"
 featured_image: 1fJuyiylFc6FOZsiBPJg5-w.jpeg
 images:
   - 1fJuyiylFc6FOZsiBPJg5-w.jpeg

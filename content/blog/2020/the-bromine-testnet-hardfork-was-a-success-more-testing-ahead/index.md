@@ -4,7 +4,7 @@ slug: the-bromine-testnet-hardfork-was-a-success-more-testing-ahead
 date: 2020-03-09T17:35:54.476Z
 author: "Jack Matier"
 title: "The Bromine testnet hardfork was a success! — More testing ahead"
-subtitle: "Only you can help prevent bugs on mainnet… by testing on testnet!"
+summary: "Only you can help prevent bugs on mainnet… by testing on testnet!"
 images:
   - 1_eq8iUPNgLv1Iof9dhAuEQ.jpeg
   - 1ke98j6kA_OAk0ocZzHs1Jw.jpeg

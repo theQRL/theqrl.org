@@ -4,7 +4,7 @@ slug: ledger-app-update
 date: 2019-01-16T17:53:08.751Z
 author: "Adam Koltun"
 title: "Ledger App Update!"
-subtitle: "TL;DR — Ledger app is complete, awaiting final review. Automatic migration will close 3 months after Ledger app goes live. Instructional video on YouTube. More tech details to follow in a later blog."
+summary: "TL;DR — Ledger app is complete, awaiting final review. Automatic migration will close 3 months after Ledger app goes live. Instructional video on YouTube. More tech details to follow in a later blog."
 featured_image: 1cQFoUJ7L0whRF8SFLYvXyw.png
 images:
   - 1cQFoUJ7L0whRF8SFLYvXyw.png

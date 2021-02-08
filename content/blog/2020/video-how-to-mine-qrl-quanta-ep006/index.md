@@ -4,7 +4,7 @@ slug: video-how-to-mine-qrl-quanta-ep006
 date: 2020-04-13T04:43:29.698Z
 author: "Jack Matier"
 title: "Video -  How to Mine QRL Quanta — EP006"
-subtitle: "A step-by-step guide on how to mine Quanta on a windows computer"
+summary: "A step-by-step guide on how to mine Quanta on a windows computer"
 featured_image: 1Ebwwj7G-vTx7rHGnFtGpOw.png
 images:
   - 1Ebwwj7G-vTx7rHGnFtGpOw.png

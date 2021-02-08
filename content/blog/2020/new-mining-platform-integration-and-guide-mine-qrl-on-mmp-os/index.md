@@ -4,7 +4,7 @@ slug: new-mining-platform-integration-and-guide-mine-qrl-on-mmp-os
 date: 2020-05-15T19:53:11.281Z
 author: "Jack Matier"
 title: "New mining platform integration and guide -  Mine QRL on MMP OS"
-subtitle: "MMP OS: Miner management made easy"
+summary: "MMP OS: Miner management made easy"
 featured_image: 1GML4ND2rZXw4ij8IRh82EQ.png
 images:
   - 1GML4ND2rZXw4ij8IRh82EQ.png

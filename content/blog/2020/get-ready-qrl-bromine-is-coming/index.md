@@ -4,7 +4,7 @@ slug: get-ready-qrl-bromine-is-coming
 date: 2020-04-06
 author: "Jack Matier"
 title: "Get ready. QRL Bromine is coming"
-subtitle: "In ~24 hours, QRL Bromine will be here. This is a brief overview and reminder of what actions you’ll want to take."
+summary: "In ~24 hours, QRL Bromine will be here. This is a brief overview and reminder of what actions you’ll want to take."
 featured_image: 12HFOUkRsRLt3aIJtU5R2vg.png
 images:
   - 12HFOUkRsRLt3aIJtU5R2vg.png

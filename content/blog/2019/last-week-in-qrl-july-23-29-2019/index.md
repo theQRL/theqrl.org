@@ -4,7 +4,7 @@ slug: last-week-in-qrl-july-23-29-2019
 date: 2019-07-29T17:04:10.964Z
 author: "Adam Koltun"
 title: "Last Week in QRL July 23–29, 2019"
-subtitle: "Development Updates, Confirmed Exchange Listing, QRL Dev Summit next week"
+summary: "Development Updates, Confirmed Exchange Listing, QRL Dev Summit next week"
 featured_image: 1vSRBIwa0NZwRtOk-EfXEAw.png
 images:
   - 1vSRBIwa0NZwRtOk-EfXEAw.png

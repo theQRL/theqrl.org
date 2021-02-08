@@ -4,7 +4,7 @@ slug: the-qrl-developer-meetup
 date: 2019-08-02T18:27:58.759Z
 author: "Jack Matier"
 title: "The QRL Developer Meetup"
-subtitle: ""
+summary: ""
 featured_image: 1UVexxXe47Kv5KYfs7NGz2w.jpeg
 images:
   - 1UVexxXe47Kv5KYfs7NGz2w.jpeg
