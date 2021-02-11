@@ -243,6 +243,7 @@
 }
 .single-md h2 {
   font-size: 32px;
+  line-height: 150%;
   text-transform: uppercase;
   font-family: 'Alte DIN 1451 Mittelschrift';
   font-weight: bold;
@@ -265,7 +266,7 @@
   color: #FFA729;
 }
 .single-md {
-  margin: 50px;
+  /*margin: 50px;*/
 }
 /* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
 #mc_embed_signup {
@@ -285,7 +286,7 @@
   border-radius: 6px;
 }
 #mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
-#mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:36px;}
+#mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:36px; line-height: 48px;}
 #mc_embed_signup input {color:#FFF;border: 1px solid #FFF; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
 
 #mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
@@ -369,4 +370,9 @@
 }
 .checkbox > span {
   margin-left: 20px !important;
+}
+
+
+html {
+  scroll-padding-top: 96px;
 }
