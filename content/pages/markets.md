@@ -13,6 +13,7 @@ layout_single_header:
       text: Coin economics
       link: '#coin-economics'
 slug: markets
+summary: "Trading the QRL Digital Asset"
 title: QRL Markets
 ---
 

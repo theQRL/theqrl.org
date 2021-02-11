@@ -6,6 +6,8 @@ author: "Jack Matier"
 title: "Last Month at QRL — January 2021"
 summary: "EnQlave a priority. Development Updates: Zeus, QRL-CLI, & QRL-WALLET. The Quantum Daily Podcast Ft. Michael Strike, and QRL Refresh Merchandise Design Contest Winners."
 featured_image: eom.jan2021.png
+images: 
+  - eom.jan2021.png
 categories:
   - technical
 features:
