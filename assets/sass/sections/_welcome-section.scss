@@ -121,8 +121,10 @@
   }
   &__btn-area{
     display: flex;
-    @include mobile{
-      display: block;
+
+    @include mobile {
+      // display: block;
+      flex-direction: column;
     }
   }
   &__btn{
@@ -141,6 +143,10 @@
     &--blue{
       padding: 0 15px;
       width: 194px;
+
+      @include mobile {
+        min-width: 100%;
+      }
       border-radius: 4px;
       color: $color-black;
       background-color: $color-blue;
