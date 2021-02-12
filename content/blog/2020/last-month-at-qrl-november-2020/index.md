@@ -4,7 +4,7 @@ slug: last-month-at-qrl-november-2020
 date: 2020-12-01
 author: "Jack Matier"
 title: "Last Month at QRL — November 2020"
-subtitle: "Project Zond: QRL’s Proof-of-Stake code released. Zeus: A codebase for rapid QRL development. New QRL public service status page, two new videos, and more."
+summary: "Project Zond: QRL’s Proof-of-Stake code released. Zeus: A codebase for rapid QRL development. New QRL public service status page, two new videos, and more."
 summary: "Project Zond: QRL’s Proof-of-Stake code released. Zeus: A codebase for rapid QRL development. New QRL public service status page, two new videos, and more."
 featured_image: 1NkKdudBN4YZqKCDcrHJe6Q.png
 images:

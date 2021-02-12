@@ -4,7 +4,7 @@ slug: new-exchange-listing-vinex
 date: 2019-10-28T15:36:52.448Z
 author: "Adam Koltun"
 title: "New Exchange Listing — Vinex"
-subtitle: "QRL is now trading on Vinex against BTC and USDT"
+summary: "QRL is now trading on Vinex against BTC and USDT"
 featured_image: 121SQ2V05-0YalutBb4eeeQ.png
 images:
   - 121SQ2V05-0YalutBb4eeeQ.png

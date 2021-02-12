@@ -4,7 +4,7 @@ slug: qip-007-support-tokenization-of-securities
 date: 2019-04-23T20:48:45.194Z
 author: "Adam Koltun"
 title: "QIP-007 -  Support Tokenization of Securities"
-subtitle: "An introduction to the newest QIP"
+summary: "An introduction to the newest QIP"
 categories:
   - community
 ---

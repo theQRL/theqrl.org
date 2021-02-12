@@ -4,7 +4,7 @@ slug: last-week-in-qrl-june-25-july-1
 date: 2019-07-01T21:17:04.025Z
 author: "Adam Koltun"
 title: "Last Week in QRL June 25 — July 1"
-subtitle: "Development Updates, QRL on Ledger Nano X, QRL Community Q&A"
+summary: "Development Updates, QRL on Ledger Nano X, QRL Community Q&A"
 featured_image: 12SUCK3v7e-pjW-FirnveOQ.png
 images:
   - 12SUCK3v7e-pjW-FirnveOQ.png

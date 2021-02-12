@@ -4,7 +4,7 @@ slug: the-qrl-bromine-hardfork-a-look-inside
 date: 2020-04-07T05:20:50.058Z
 author: "Jack Matier"
 title: "The QRL Bromine Hardfork -  A look inside"
-subtitle: "The QRL Bromine Hardfork: A look inside"
+summary: "The QRL Bromine Hardfork: A look inside"
 featured_image: 1gOrStBxFYBOQaq1yBNkhVA.png
 images:
   - 1gOrStBxFYBOQaq1yBNkhVA.png

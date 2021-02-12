@@ -4,7 +4,7 @@ slug: qrl-token-migration-to-be-announced-shortly
 date: 2018-03-23T21:07:41.642Z
 author: "Peter Waterland"
 title: "QRL Token migration to be announced shortly"
-subtitle: "TLDR — new team members, final hard fork to test token migration successful, GPU Pool mining implemented, feature freeze achieved, extensive bug bounty program to be announced, QIP process, documentation efforts progressing, parallel internal code review & external audit remain."
+summary: "TLDR — new team members, final hard fork to test token migration successful, GPU Pool mining implemented, feature freeze achieved, extensive bug bounty program to be announced, QIP process, documentation efforts progressing, parallel internal code review & external audit remain."
 featured_image: 1uPODGbTAQkA2V5OiKuu7oQ.jpeg
 images:
   - 1uPODGbTAQkA2V5OiKuu7oQ.jpeg

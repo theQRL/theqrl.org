@@ -4,7 +4,7 @@ slug: last-week-in-qrl-october-8-14
 date: 2019-10-14T16:07:26.261Z
 author: "Adam Koltun"
 title: "Last Week in QRL October 8 -14"
-subtitle: "Development Updates, Community Updates"
+summary: "Development Updates, Community Updates"
 featured_image: 1ZoUC-E78qJmoVBDgTETRQA.png
 images:
   - 1ZoUC-E78qJmoVBDgTETRQA.png

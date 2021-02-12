@@ -4,7 +4,7 @@ slug: last-week-in-qrl-april-2-8
 date: 2019-04-08T13:17:52.054Z
 author: "Adam Koltun"
 title: "Last Week in QRL April 2–8"
-subtitle: "News and notes from QRL"
+summary: "News and notes from QRL"
 featured_image: 1c7sWAG2qhrxhNL_SJiJM0w.png
 images:
   - 1c7sWAG2qhrxhNL_SJiJM0w.png

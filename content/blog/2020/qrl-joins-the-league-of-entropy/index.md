@@ -5,7 +5,7 @@ date: 2020-12-18
 author: "Jack Matier"
 title: "The QRL Foundation joins forces with the League of Entropy"
 summary: "The QRL Foundation is happy to join forces with the League of Entropy, a consortium of global organisations and individual members such as CloudFlare, Kudelski Security, Protocol Labs, and the Ethereum Foundation to create heroic high availability, unpredictable, unbiased, and verifiable randomness"
-subtitle: "The QRL Foundation is happy to join forces with the League of Entropy, a consortium of global organisations and individual members such as CloudFlare, Kudelski Security, Protocol Labs, and the Ethereum Foundation to create heroic high availability, unpredictable, unbiased, and verifiable randomness"
+summary: "The QRL Foundation is happy to join forces with the League of Entropy, a consortium of global organisations and individual members such as CloudFlare, Kudelski Security, Protocol Labs, and the Ethereum Foundation to create heroic high availability, unpredictable, unbiased, and verifiable randomness"
 featured_image: qrl.loe.png
 images:
   - loelogo.png

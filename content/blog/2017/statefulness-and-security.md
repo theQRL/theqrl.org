@@ -4,7 +4,7 @@ slug: statefulness-and-security
 date: 2017-12-14
 author: "Peter Waterland"
 title: "Statefulness and security"
-subtitle: "QRL has a highly unusual signature scheme to secure our accounts which is stateful — XMSS."
+summary: "QRL has a highly unusual signature scheme to secure our accounts which is stateful — XMSS."
 categories:
   - column
 ---

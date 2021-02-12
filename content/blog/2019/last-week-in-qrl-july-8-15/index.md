@@ -4,7 +4,7 @@ slug: last-week-in-qrl-july-8-15
 date: 2019-07-15T14:36:38.002Z
 author: "Adam Koltun"
 title: "Last Week in QRL July 8–15"
-subtitle: "Development Updates, The QRL Contributors"
+summary: "Development Updates, The QRL Contributors"
 featured_image: 1eo9zWl1NAd6U76bdB837WA.png
 images:
   - 1eo9zWl1NAd6U76bdB837WA.png

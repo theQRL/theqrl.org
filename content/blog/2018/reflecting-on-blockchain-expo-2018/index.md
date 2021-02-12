@@ -4,7 +4,7 @@ slug: reflecting-on-blockchain-expo-2018
 date: 2018-04-23T20:31:49.335Z
 author: "Adam Koltun"
 title: "Reflecting on Blockchain Expo 2018"
-subtitle: "TL;DR — Blockchain Expo overview, standing out from the crowd, summarizing the presentation, next stops on the conference tour"
+summary: "TL;DR — Blockchain Expo overview, standing out from the crowd, summarizing the presentation, next stops on the conference tour"
 featured_image: 1pMBlDPgaIRwrJ9K6J_3xFg.png
 images:
   - 1tZOQuphigYqiDlofmgmH_Q.jpeg

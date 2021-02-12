@@ -4,7 +4,7 @@ slug: project-zond-qrls-proof-of-stake-code-is-released-to-the-public
 date: 2020-11-30
 author: "Jack Matier"
 title: "Project Zond. QRL’s Proof-of-Stake code, is released to the public."
-subtitle: "And with the partnership and seminal research by the team at Insight Research, it’s only going to get better from here."
+summary: "And with the partnership and seminal research by the team at Insight Research, it’s only going to get better from here."
 featured_image: 1VHGPdYG_QXB7eRb03DxtBg.png
 images:
   - 1VHGPdYG_QXB7eRb03DxtBg.png

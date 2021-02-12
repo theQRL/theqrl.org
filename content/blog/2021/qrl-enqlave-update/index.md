@@ -5,7 +5,6 @@ date: 2021-01-29
 author: "Jack Matier"
 title: "An update on enQlave"
 summary: "EnQlave is coming. The audit has been completed. More efficiencies were discovered which will necessitate another audit."
-subtitle: "EnQlave is coming. The audit has been completed. More efficiencies were discovered which will necessitate another audit."
 featured_image: enqlave.blog.png
 categories:
   - advocacy

@@ -4,7 +4,7 @@ slug: last-week-in-qrl-april-9-15th
 date: 2019-04-15T16:00:35.641Z
 author: "Jack Matier"
 title: "Last Week in QRL -  April 9 — 15th"
-subtitle: "Internationalisation and localisation, Mobile progress, & OTS tracking"
+summary: "Internationalisation and localisation, Mobile progress, & OTS tracking"
 featured_image: 10CjtFKaM3MBIZU-o95vjpA.png
 images:
   - 10CjtFKaM3MBIZU-o95vjpA.png

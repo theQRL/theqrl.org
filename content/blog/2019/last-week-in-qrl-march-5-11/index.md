@@ -4,7 +4,7 @@ slug: last-week-in-qrl-march-5-11
 date: 2019-03-11T17:49:00.640Z
 author: "Adam Koltun"
 title: "Last Week in QRL March 5–11"
-subtitle: "Some of the highlights from QRL the past week"
+summary: "Some of the highlights from QRL the past week"
 featured_image: 1RDck70DrnwYTl5zR1zLM9Q.png
 images:
   - 1RDck70DrnwYTl5zR1zLM9Q.png

@@ -4,7 +4,7 @@ slug: announcing-qrl-ask-me-anything-hosted-by-michael-strike
 date: 2020-06-29
 author: "Jack Matier"
 title: "Announcing QRL Ask Me Anything (AMA), hosted by Michael Strike"
-subtitle: "Including a competition with reward for the most relevant technical QRL question asked, read more to find out!"
+summary: "Including a competition with reward for the most relevant technical QRL question asked, read more to find out!"
 featured_image: 1u86YjdcbL-DJkupe5YOuIg.png
 images:
   - 1u86YjdcbL-DJkupe5YOuIg.png

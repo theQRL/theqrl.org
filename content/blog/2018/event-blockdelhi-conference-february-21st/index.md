@@ -4,7 +4,7 @@ slug: event-blockdelhi-conference-february-21st
 date: 2018-02-10T17:12:19.935Z
 author: "Jack Matier"
 title: "Event -  BlockDelhi Conference — February 21st"
-subtitle: "India’s corporate leaders are looking to embrace blockchain technology to provide solutions to payments, record-keeping, data security, e-governmence, communication and more."
+summary: "India’s corporate leaders are looking to embrace blockchain technology to provide solutions to payments, record-keeping, data security, e-governmence, communication and more."
 featured_image: 1jIMSJrNo0Fwgke0DgzyOlA.png
 images:
   - 1jIMSJrNo0Fwgke0DgzyOlA.png

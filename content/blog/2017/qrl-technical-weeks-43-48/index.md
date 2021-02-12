@@ -4,7 +4,7 @@ slug: qrl-technical-weeks-43-48
 date: 2017-12-09T16:25:21.677Z
 author: "Juan Leni"
 title: "QRL Technical -  Weeks 43–48"
-subtitle: "TL;DR: New processes, deployment packages, etc. Lots of work in testing and related infrastructure. Better persistence scheme. New API, most applications have been updated. A tutorial for third-party developers will be available soon."
+summary: "TL;DR: New processes, deployment packages, etc. Lots of work in testing and related infrastructure. Better persistence scheme. New API, most applications have been updated. A tutorial for third-party developers will be available soon."
 images:
   - 10zLMvJt1veQwBq4yAC149w.png
   - 1IELhyQv7I5ZDQMMrSfcVAA.png

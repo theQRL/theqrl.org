@@ -4,7 +4,7 @@ slug: reflecting-on-my-evening-with-the-financial-services-club-in-london
 date: 2018-05-28T14:52:35.695Z
 author: "Adam Koltun"
 title: "Reflecting on my evening with the Financial Services Club in London"
-subtitle: "TL;DR — Flew to London to speak to the Financial Services Club, met many people in unique FinTech positions, figuring out the second half of 2018"
+summary: "TL;DR — Flew to London to speak to the Financial Services Club, met many people in unique FinTech positions, figuring out the second half of 2018"
 featured_image: 1-Oqaf4bcxnjSJUtb786ufw.jpeg
 images:
   - 1-Oqaf4bcxnjSJUtb786ufw.jpeg

@@ -4,7 +4,7 @@ slug: last-week-in-qrl-november-12-18
 date: 2019-11-18T17:42:30.509Z
 author: "Adam Koltun"
 title: "Last Week in QRL November 12–18"
-subtitle: "Development Updates, QIP 010 — Quanta emission change"
+summary: "Development Updates, QIP 010 — Quanta emission change"
 featured_image: 14btE0CL_8j1lxHSP7olcmQ.png
 images:
   - 14btE0CL_8j1lxHSP7olcmQ.png

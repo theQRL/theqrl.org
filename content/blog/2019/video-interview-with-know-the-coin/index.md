@@ -4,7 +4,7 @@ slug: video-interview-with-know-the-coin
 date: 2019-12-09T16:47:08.695Z
 author: "Adam Koltun"
 title: "Video Interview with Know The Coin"
-subtitle: "Adam sat down with Pauline from ChangeNOW to discuss QRL and Blockchain"
+summary: "Adam sat down with Pauline from ChangeNOW to discuss QRL and Blockchain"
 featured_image: 155PwLZQRy61N8TRRQ9ahDQ.jpeg
 images:
   - 155PwLZQRy61N8TRRQ9ahDQ.jpeg

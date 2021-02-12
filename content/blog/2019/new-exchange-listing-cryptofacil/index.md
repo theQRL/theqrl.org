@@ -4,7 +4,7 @@ slug: new-exchange-listing-cryptofacil
 date: 2019-08-28T16:53:38.097Z
 author: "Adam Koltun"
 title: "New Exchange Listing — Cryptofacil"
-subtitle: "QRL is now trading on Cryptofacil"
+summary: "QRL is now trading on Cryptofacil"
 featured_image: 14ONZdAvc_jE_ut4wJHKkGQ.png
 images:
   - 14ONZdAvc_jE_ut4wJHKkGQ.png

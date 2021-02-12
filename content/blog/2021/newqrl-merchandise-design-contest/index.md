@@ -5,7 +5,6 @@ date: 2021-01-08
 author: "Jack Matier"
 title: "QRL Refresh Merchandise Design Contest Entries"
 summary: "We were seeking passionate designers and designs for QRL merchandise and passion was delivered!"
-subtitle: "We were seeking passionate designers and designs for QRL merchandise and passion was delivered!"
 featured_image: merchandise.contest.header.png
 images:
   - merchandise.contest.header.png
@@ -13,7 +12,6 @@ categories:
   - community
 toc: true
 ---
-
 
 ## Our current entries
 

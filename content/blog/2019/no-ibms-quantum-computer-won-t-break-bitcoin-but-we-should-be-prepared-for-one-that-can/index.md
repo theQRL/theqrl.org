@@ -4,7 +4,7 @@ slug: no-ibms-quantum-computer-won-t-break-bitcoin-but-we-should-be-prepared-for
 date: 2019-01-14T01:22:36.246Z
 author: "Jack Matier"
 title: "No, IBM’s Quantum Computer won’t break Bitcoin, but we should be prepared for one that can."
-subtitle: "Quantum computing that can break blockchain is coming, and it’s time the blockchain community accepts it — so we can prepare ourselves."
+summary: "Quantum computing that can break blockchain is coming, and it’s time the blockchain community accepts it — so we can prepare ourselves."
 featured_image: 1qGNmQ9d_Xw_Tnat1Hs0xDQ.png
 images:
   - 1ehnsou-cfieKcYyPi0niDA.gif

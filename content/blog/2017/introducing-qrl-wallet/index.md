@@ -4,7 +4,7 @@ slug: introducing-qrl-wallet
 date: 2017-10-27
 author: "Scott Donald"
 title: "Introducing QRL Wallet"
-subtitle: "TL;DR — The new QRL Wallet for testnet and mainnet has arrived!"
+summary: "TL;DR — The new QRL Wallet for testnet and mainnet has arrived!"
 featured_image: 1EJoh0987hNhCmHw5TRj0_w.png
 images:
   - 1EJoh0987hNhCmHw5TRj0_w.png

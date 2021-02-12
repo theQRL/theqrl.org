@@ -4,7 +4,7 @@ slug: reflecting-on-discover-blockchains-houston
 date: 2018-09-17T17:39:06.743Z
 author: "Adam Koltun"
 title: "Reflecting on Discover Blockchains Houston"
-subtitle: "TL;DR- Was in Houston over the weekend to speak at the Discover Blockchains Conference."
+summary: "TL;DR- Was in Houston over the weekend to speak at the Discover Blockchains Conference."
 featured_image: 1Ww9mirQyHDSLhKN4SyiYPQ.jpeg
 images:
   - 1Ww9mirQyHDSLhKN4SyiYPQ.jpeg

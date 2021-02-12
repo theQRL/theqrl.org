@@ -4,7 +4,7 @@ date: 2018-08-16T18:44:27.919Z
 author: "Jack Matier"
 title: "Go-QRL"
 layout: blog-post
-subtitle: "Project Update"
+summary: "Project Update"
 categories:
   - technical
 images:

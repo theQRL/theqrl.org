@@ -4,7 +4,7 @@ slug: last-month-at-qrl-october-2020
 date: 2020-11-01
 author: "Jack Matier"
 title: "Last Month at QRL — October 2020"
-subtitle: "Press — Insight Researchers Partners with the Quantum Resistant Ledger, QRL Node Update, Mobile Wallet v3 planning commences, Zeus-proxy, New Director of Advocacy — Ryan Malinowski, Quantum News, and QRL In the media."
+summary: "Press — Insight Researchers Partners with the Quantum Resistant Ledger, QRL Node Update, Mobile Wallet v3 planning commences, Zeus-proxy, New Director of Advocacy — Ryan Malinowski, Quantum News, and QRL In the media."
 featured_image: 1B-pAa0tbWJXG_i1qe_M-6Q.png
 images:
   - 1B-pAa0tbWJXG_i1qe_M-6Q.png

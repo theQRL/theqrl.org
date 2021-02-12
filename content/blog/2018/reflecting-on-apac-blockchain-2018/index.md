@@ -5,7 +5,7 @@ date: 2018-03-20T18:28:36.790Z
 author: "Adam Koltun"
 title: "Reflecting on APAC Blockchain 2018"
 featured_image: 1VMjOmAZHhCtkxEqPThyboQ.jpeg
-subtitle: "TL;DR - APAC overview, Layers (so hot right now), growing awareness of Quantum Computing in the industry, our next stops on the conference tour"
+summary: "TL;DR - APAC overview, Layers (so hot right now), growing awareness of Quantum Computing in the industry, our next stops on the conference tour"
 images:
   - 1VMjOmAZHhCtkxEqPThyboQ.jpeg
   - 1M210k9GBxAr-fz_X9ea50w.jpeg

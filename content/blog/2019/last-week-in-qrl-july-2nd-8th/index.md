@@ -4,7 +4,7 @@ slug: last-week-in-qrl-july-2nd-8th
 date: 2019-07-08T15:02:39.629Z
 author: "Jack Matier"
 title: "Last Week in QRL  July 2nd — 8th"
-subtitle: "Development and community updates as well as a glimpse at some of The QRL Contributor activity over the last week"
+summary: "Development and community updates as well as a glimpse at some of The QRL Contributor activity over the last week"
 featured_image: 123Fc66IuE58V9rQGdRyasw.png
 images:
   - 123Fc66IuE58V9rQGdRyasw.png

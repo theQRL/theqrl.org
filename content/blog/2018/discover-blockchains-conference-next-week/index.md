@@ -4,7 +4,7 @@ slug: discover-blockchains-conference-next-week
 date: 2018-09-04
 author: "Adam Koltun"
 title: "Discover Blockchains Conference Next Week!"
-subtitle: "TL;DR — Who/What/Where/When/Why of Discover Blockchains Conference"
+summary: "TL;DR — Who/What/Where/When/Why of Discover Blockchains Conference"
 featured_image: 1WBRSkJxuWD8UlCnUlQ7PQQ.png
 images:
   - 1WBRSkJxuWD8UlCnUlQ7PQQ.png

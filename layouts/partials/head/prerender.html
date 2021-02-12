@@ -25,6 +25,7 @@
     {{ $secureJS := $js | resources.Fingerprint "sha512" }}
     <script type="text/javascript" src="{{ $js.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
     <!-- End Google Analytics -->
+
     <link rel="shortcut icon" type="image/svg" href="/favicon.svg">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -33,16 +34,15 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ffa729">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#0b181e">
+    
     {{ $options := (dict "targetPath" "css/app.css" "outputStyle" "compressed" "enableSourceMap" true "includePaths" (slice "node_modules/myscss")) }}
     {{ $style := resources.Get "sass/app.scss" | resources.ToCSS $options }} 
     <link rel="stylesheet" href="{{ $style.Permalink }}" />
     <link rel="stylesheet" href="/css/overrides.css" />
 
-    {{ if .Page.Params.featured_image }}
-      {{ $resource := printf "/content/%simages/%s" .File.Dir .Page.Params.featured_image }}
-      {{ $image := resources.Get $resource -}}
-      {{ $after := $image.Resize "1200x" }}
-        <meta property="og:image" content="{{ $after.Permalink }}" />
-    {{ end }}
+    <!-- Start opengraph -->
+    {{ partial "elements/opengraph.html" . }}
+    <!-- End Opengraph -->
+
     <script crossorigin="anonymous" nomodule src="https://polyfill.io/v3/polyfill.min.js?features=blissfuljs%2Cdefault%2Ces2015%2Ces2016%2Ces2017%2Ces2018%2Ces5%2Ces6%2Ces7%2CNodeList.prototype.forEach%2CIntersectionObserver%2CIntersectionObserverEntry"></script>
   </head>

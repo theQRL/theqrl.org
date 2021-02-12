@@ -4,7 +4,7 @@ slug: step-by-step-what-weve-been-up-to
 date: 2018-07-17T20:18:03.750Z
 author: "Jack Matier"
 title: "Step by step, what we’ve been up to"
-subtitle: "tldr; Ledger progress, mobile improvements, API documentation, our new post-quantum notarisation feature, and a brief update on smart contracts!"
+summary: "tldr; Ledger progress, mobile improvements, API documentation, our new post-quantum notarisation feature, and a brief update on smart contracts!"
 featured_image: 1x2IMle4WkmTOEXlYzXfBsA.gif
 images:
   - 1x2IMle4WkmTOEXlYzXfBsA.gif

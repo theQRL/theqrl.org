@@ -4,7 +4,7 @@ slug: last-week-in-qrl-may-28th-june-3rd
 date: 2019-05-30T19:12:28.044Z
 author: "Adam Koltun"
 title: "Last Week in QRL May 28th — June 3rd"
-subtitle: "Development Updates, Community Updates, Token Migration Reminder"
+summary: "Development Updates, Community Updates, Token Migration Reminder"
 featured_image: 1aUi4DIEPy6zXXUqbC5Fk1g.png
 images:
   - 1aUi4DIEPy6zXXUqbC5Fk1g.png

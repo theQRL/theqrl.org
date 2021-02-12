@@ -1,0 +1,33 @@
+<!-- OpenGraph: General -->
+<meta property="og:url" content="{{ .Page.Permalink }}">
+<meta property="og:title" content="{{ .Title }}">
+<meta name="twitter:title" content="{{ .Title }}">
+
+{{ if (eq $.Params.layout "blog-post") }}
+	<meta property="og:type" content="article">
+	<meta property="article:published_time" content="{{ .Page.Date }}">
+{{ end }}
+
+{{-  if .Page.Params.featured_image -}}
+  {{- $resource := printf "/content/%simages/%s" .File.Dir .Page.Params.featured_image -}}
+  {{- $image := resources.Get $resource -}}
+  {{- $after := $image.Resize "1200x" -}}
+  {{- $ogImage := $after.Permalink -}}
+  <meta property="og:image" content="{{ $ogImage | absURL }}">
+  <meta name="twitter:image" content="{{ $ogImage | absURL }}">
+{{- else -}}
+  <meta property="og:image" content="{{ "/logocircle.png" | absURL }}">
+  <meta name="twitter:image" content="{{ "/logocircle.png" | absURL }}">
+{{- end -}}
+
+
+{{ if .Page.Summary }}
+	<meta property="og:description" content="{{ .Page.Summary }}">
+	<meta name="twitter:description" content="{{ .Page.Summary }}">
+{{ else }}
+	<meta property="og:description" content="{{ .Site.Params.description }}">
+	<meta name="twitter:description" content="{{ .Site.Params.description }}">
+{{ end }}
+
+<!-- OpenGraph: Twitter -->
+<meta name="twitter:card" content="summary_large_image">

@@ -4,7 +4,7 @@ slug: last-week-in-qrl-april-16th-23rd
 date: 2019-04-23T01:28:57.664Z
 author: "Jack Matier"
 title: "Last Week in QRL -  April 16th — 22nd"
-subtitle: "News and notes from around QRL"
+summary: "News and notes from around QRL"
 featured_image: 1Bd0lozAnU90-NEyUPZM6AQ.png
 images:
   - 1Bd0lozAnU90-NEyUPZM6AQ.png

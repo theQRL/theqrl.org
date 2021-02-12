@@ -4,7 +4,7 @@ slug: introducing-robby-dermody-qrl-advisor
 date: 2018-01-22T18:47:27.041Z
 author: "Adam Koltun"
 title: "Introducing Robby Dermody, QRL Advisor"
-subtitle: "Robby Dermody"
+summary: "Robby Dermody"
 featured_image: 1nzNH75iT7_6gY0gBl0UgTA.jpeg
 images:
   - 1nzNH75iT7_6gY0gBl0UgTA.jpeg

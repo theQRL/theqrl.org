@@ -4,7 +4,7 @@ slug: last-month-at-qrl-may-2020
 date: 2020-05-01
 author: "Jack Matier"
 title: "Last month at QRL — May 2020"
-subtitle: "EnQlave: Quantum Secure Ethereum Wallets, QRL v2.0.5, qrl-cli updates, OCAML Smart Contracts & QIP012"
+summary: "EnQlave: Quantum Secure Ethereum Wallets, QRL v2.0.5, qrl-cli updates, OCAML Smart Contracts & QIP012"
 featured_image: 14nLD110a9ccjJyUpX4yGeg.png
 images:
   - 14nLD110a9ccjJyUpX4yGeg.png

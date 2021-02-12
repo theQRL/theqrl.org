@@ -4,7 +4,7 @@ slug: automatic-qrl-token-migration-end-date
 date: 2019-04-07
 author: "Jack Matier"
 title: "Automatic QRL Token Migration End-date"
-subtitle: "Mark your calendars for June 15th, 2019 2000 UTC"
+summary: "Mark your calendars for June 15th, 2019 2000 UTC"
 featured_image: deadline-2636259_640.jpg
 images:
   - deadline-2636259_640.jpg

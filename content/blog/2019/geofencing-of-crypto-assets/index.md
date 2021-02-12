@@ -4,7 +4,7 @@ slug: geofencing-of-crypto-assets
 date: 2019-06-08T15:45:33.155Z
 author: "Adam Koltun"
 title: "Geofencing of Crypto Assets"
-subtitle: "Bittrex will be geofencing 32 assets, including QRL, in the coming weeks"
+summary: "Bittrex will be geofencing 32 assets, including QRL, in the coming weeks"
 featured_image: 1zAREr3w_wSv5wAPPZGD8gA.jpeg
 images:
   - 1zAREr3w_wSv5wAPPZGD8gA.jpeg

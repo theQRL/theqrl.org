@@ -4,7 +4,7 @@ slug: qrl-mainnet-v1-1-1-released
 date: 2018-08-10T14:45:12.806Z
 author: "Jack Matier"
 title: "QRL Mainnet v1.1.1 Released"
-subtitle: "TLDR — QRL mainnet v1.1.1 is released and brings a wallet API, wallet daemon, greater stability, and other improvements."
+summary: "TLDR — QRL mainnet v1.1.1 is released and brings a wallet API, wallet daemon, greater stability, and other improvements."
 featured_image: 1jFvqV54R7sQhhQfWBoxdig.png
 images:
   - 1jFvqV54R7sQhhQfWBoxdig.png

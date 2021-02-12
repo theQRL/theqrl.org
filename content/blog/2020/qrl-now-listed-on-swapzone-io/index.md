@@ -4,7 +4,7 @@ slug: qrl-now-listed-on-swapzone-io
 date: 2020-05-06T07:21:46.533Z
 author: "Jack Matier"
 title: "QRL now listed on Swapzone.io"
-subtitle: "Swapzone is an instant cryptocurrency exchange aggregator with 300+ assets for exchange."
+summary: "Swapzone is an instant cryptocurrency exchange aggregator with 300+ assets for exchange."
 featured_image: 1W_uFdE7we5UAPNsOG9pkbA.png
 images:
   - 1W_uFdE7we5UAPNsOG9pkbA.png

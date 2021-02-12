@@ -4,7 +4,7 @@ layout: blog-post
 date: 2018-12-21
 author: "Adam Koltun"
 title: "12 Days of XMaSS"
-subtitle: "TL;DR — This is a cheerful, jovial blog meant to take a fun, non-serious look at where the project is at as 2018 comes to a close, but mostly to have some festive fun before the end of the year. Enjoy!"
+summary: "TL;DR — This is a cheerful, jovial blog meant to take a fun, non-serious look at where the project is at as 2018 comes to a close, but mostly to have some festive fun before the end of the year. Enjoy!"
 featured_image: 1-m3M7AyBdz8OQrSUatYVNw.png
 images:
   - 1-m3M7AyBdz8OQrSUatYVNw.png

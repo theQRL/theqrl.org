@@ -4,7 +4,6 @@ slug: last-month-at-qrl-december-2020
 date: 2021-01-01
 author: "Jack Matier"
 title: "Last Month at QRL — December 2020"
-subtitle: "XMSS NIST Approved. QRL Website and Logo Refresh in Celebration. Merchandise Design Contest with new assets. Quantascan.io released: An analytics explorer. Two new videos. The QRL Foundation joins forces with the League of Entropy. Development updates: PoS, Zeus, qrl-cli"
 summary: "XMSS NIST Approved. QRL Website and Logo Refresh in Celebration. Merchandise Design Contest with new assets. Quantascan.io released: An analytics explorer. Two new videos. The QRL Foundation joins forces with the League of Entropy. Development updates: PoS, Zeus, qrl-cli"
 featured_image: eom.december2020.png
 images:

@@ -1,7 +1,7 @@
 ---
 layout: article
 slug: /research/grants
-title: Research Grants
+title: QRL Research Grants
 parent: /
 aliases:
   - grants

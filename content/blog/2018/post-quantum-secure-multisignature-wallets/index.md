@@ -4,7 +4,7 @@ slug: post-quantum-secure-multisignature-wallets
 date: 2018-10-19T20:51:42.184Z
 author: "Peter Waterland"
 title: "Post-quantum secure multisignature wallets"
-subtitle: "Whilst our current plan is to transition to an abstracted unified transaction format with the release of our ‘silicon’ smart contract platform (pencilled for release mid 2019), we have decided internally to integrate multisignature functionality into the QRL early in our upcoming hard fork."
+summary: "Whilst our current plan is to transition to an abstracted unified transaction format with the release of our ‘silicon’ smart contract platform (pencilled for release mid 2019), we have decided internally to integrate multisignature functionality into the QRL early in our upcoming hard fork."
 featured_image: 1l3D93DHhbZV3A4RTLe8C0A.jpeg
 images:
   - 1l3D93DHhbZV3A4RTLe8C0A.jpeg

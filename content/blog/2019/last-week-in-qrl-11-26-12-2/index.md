@@ -4,7 +4,7 @@ slug: last-week-in-qrl-11-26-12-2
 date: 2019-12-02T18:45:48.680Z
 author: "Adam Koltun"
 title: "Last Week In QRL 11/26–12/2"
-subtitle: "Development Updates, New Interview Released, Changing Format"
+summary: "Development Updates, New Interview Released, Changing Format"
 featured_image: 1B5iXCEipz86PCVo1g_7MLw.png
 images:
   - 1B5iXCEipz86PCVo1g_7MLw.png

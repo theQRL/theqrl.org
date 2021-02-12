@@ -4,7 +4,7 @@ slug: mainnet-v1-1-5-is-released
 date: 2018-08-07T17:14:20.304Z
 author: "Peter Waterland"
 title: "Mainnet v1.1.5 is released"
-subtitle: "This is a minor iterative update including the following changes:"
+summary: "This is a minor iterative update including the following changes:"
 featured_image: 1Ica6A6at2vdRduGQqyw6pw.png
 images:
   - 1Ica6A6at2vdRduGQqyw6pw.png

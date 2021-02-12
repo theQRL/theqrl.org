@@ -1,12 +1,16 @@
-baseURL = "/"
+baseURL = ""
 languageCode = "en-us"
 title = "QRL: The Quantum Resistant Ledger"
 timeout = 300000
 
+
 [params]
-  telegram="QRLedgerOfficial"
-  twitter="QRLedger"
-  youtube="QRLedger"
+telegram="QRLedgerOfficial"
+twitter="QRLedger"
+youtube="QRLedger"
+images = ["/logocircle.png"]
+description = "The Quantum Resistant Ledger (QRL) is a first-of-its-kind, post-quantum value store and decentralized communication layer proactively tackling the threat advanced Quantum Computers pose to cryptocurrencies"
+
 
 [taxonomies]
   author = "team"

@@ -4,7 +4,7 @@ slug: january-qrl-core-contributor-summit-2020-amsterdam
 date: 2020-01-20T10:42:52.840Z
 author: "Jack Matier"
 title: "January -  QRL Core Contributor Summit 2020 — Amsterdam"
-subtitle: "The upcoming hardfork, Ephemeral Messaging SDK & Proof-of-Concept, and A new Foundation Youtube channel"
+summary: "The upcoming hardfork, Ephemeral Messaging SDK & Proof-of-Concept, and A new Foundation Youtube channel"
 featured_image: 1H_z9MNmW7HIMND1oRYPkQA.jpeg
 images:
   - 1H_z9MNmW7HIMND1oRYPkQA.jpeg

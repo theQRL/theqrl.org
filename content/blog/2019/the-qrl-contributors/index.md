@@ -4,7 +4,7 @@ slug: the-qrl-contributors
 date: 2019-06-26T12:34:53.412Z
 author: "Jack Matier"
 title: "The QRL Contributors"
-subtitle: "Contribution is the backbone of any opensource project like The QRL, and is emergent from the community that surrounds it."
+summary: "Contribution is the backbone of any opensource project like The QRL, and is emergent from the community that surrounds it."
 featured_image: 1hCwi5dq-C-nJc2TlccDwZQ.png
 images:
   - 1hCwi5dq-C-nJc2TlccDwZQ.png

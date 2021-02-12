@@ -4,7 +4,7 @@ slug: last-week-in-qrl-april-30-may-6
 date: 2019-04-29T18:42:35.508Z
 author: "Adam Koltun"
 title: "Last Week in QRL April 30-May 6"
-subtitle: "Development updates, Community Nomination delayed, In The News"
+summary: "Development updates, Community Nomination delayed, In The News"
 featured_image: 1D67oCW3UC_WVawujzUGMaw.png
 images:
   - 1D67oCW3UC_WVawujzUGMaw.png

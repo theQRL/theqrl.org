@@ -4,7 +4,7 @@ slug: last-week-in-qrl-october-15-21
 date: 2019-10-21T17:41:39.044Z
 author: "Adam Koltun"
 title: "Last Week in QRL October 15–21"
-subtitle: "Development Update, Community Nomination"
+summary: "Development Update, Community Nomination"
 featured_image: 1sAMrQq5vZmDcgcRLyDYevg.png
 images:
   - 1sAMrQq5vZmDcgcRLyDYevg.png

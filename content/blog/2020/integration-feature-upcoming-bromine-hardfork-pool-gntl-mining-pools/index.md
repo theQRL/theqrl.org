@@ -4,7 +4,7 @@ slug: integration-feature-upcoming-bromine-hardfork-pool-gntl-mining-pools
 date: 2020-04-07T03:43:23.474Z
 author: "Jack Matier"
 title: "Integration feature -  Upcoming Bromine hardfork pool — GNTL Mining Pools"
-subtitle: "GNTL Mining Pools, low fees, great support, all hashrates are welcome"
+summary: "GNTL Mining Pools, low fees, great support, all hashrates are welcome"
 featured_image: 1JFtqAZZ94UPDkQ-qA_d6tg.png
 images:
   - 1JFtqAZZ94UPDkQ-qA_d6tg.png

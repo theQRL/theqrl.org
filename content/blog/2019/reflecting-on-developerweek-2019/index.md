@@ -4,7 +4,7 @@ slug: reflecting-on-developerweek-2019
 date: 2019-02-25T18:00:38.331Z
 author: "Adam Koltun"
 title: "Reflecting on DeveloperWeek 2019"
-subtitle: "TL;DR — Spoke at and attended DeveloperWeek 2019 in Oakland with James"
+summary: "TL;DR — Spoke at and attended DeveloperWeek 2019 in Oakland with James"
 featured_image: 1uqyvUN3A2YYFeX5N8FlPLg.jpeg
 images:
   - 1uqyvUN3A2YYFeX5N8FlPLg.jpeg

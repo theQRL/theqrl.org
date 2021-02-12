@@ -4,7 +4,7 @@ slug: last-week-s-in-qrl-december-4th-17th-2018
 date: 2018-12-10T21:45:26.254Z
 author: "Jack Matier"
 title: "Last week(s) in QRL -  December 4th — 17th, 2018"
-subtitle: "Last Week(s) in QRL: December 4th — 17th, 2018"
+summary: "Last Week(s) in QRL: December 4th — 17th, 2018"
 featured_image: 1klBbafDPyPTSXB3pJiULfw.png
 images:
   - 1Kv7G47q3znR9TZ4zemMHVQ.jpeg

@@ -4,7 +4,7 @@ slug: last-week-in-qrl-november-19-25
 date: 2019-11-25T17:46:58.367Z
 author: "Adam Koltun"
 title: "Last Week in QRL November 19–25"
-subtitle: "Development Updates, Call for Testers, Community Nomination Award"
+summary: "Development Updates, Call for Testers, Community Nomination Award"
 featured_image: 1pkTYlvgdYH6zVIHnGooh1w.png
 images:
   - 1pkTYlvgdYH6zVIHnGooh1w.png

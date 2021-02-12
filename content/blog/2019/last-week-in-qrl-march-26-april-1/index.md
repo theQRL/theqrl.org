@@ -4,7 +4,7 @@ slug: last-week-in-qrl-march-26-april-1
 date: 2019-04-01T17:12:54.290Z
 author: "Adam Koltun"
 title: "Last Week in QRL March 26 — April 1"
-subtitle: "What went on last week"
+summary: "What went on last week"
 featured_image: 1tEy81NY-zdCuXROPuRmIWw.png
 images:
   - 1tEy81NY-zdCuXROPuRmIWw.png

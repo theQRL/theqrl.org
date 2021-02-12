@@ -4,7 +4,7 @@ slug: the-qrl-enqlave-project-bringing-post-quantum-security-to-ethereum-and-oth
 date: 2020-04-04
 author: "Charlie Thompson"
 title: "The QRL Enqlave Project — Bringing Post-Quantum Security to Ethereum and other blockchain platforms"
-subtitle: "QRL’s Smart Contracts will bring the post-quantum security of XMSS (eXtended Merkle Signature Scheme) to mainnet Ethereum, and eventually to any other blockchain platform with sufficiently expressive smart contract capabilities."
+summary: "QRL’s Smart Contracts will bring the post-quantum security of XMSS (eXtended Merkle Signature Scheme) to mainnet Ethereum, and eventually to any other blockchain platform with sufficiently expressive smart contract capabilities."
 featured_image: 1D_kDQt8eZSMue5WjC3IrLQ.gif
 images:
   - 1D_kDQt8eZSMue5WjC3IrLQ.gif

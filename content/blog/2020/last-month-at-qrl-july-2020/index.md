@@ -4,7 +4,7 @@ slug: last-month-at-qrl-july-2020
 date: 2020-08-01
 author: "Jack Matier"
 title: "Last Month at QRL — July 2020"
-subtitle: "NIST enters final ‘Selection Round’, Proof-of-Stake devnet getting closer, QRL AMA part 1 and 2 released, new Chinese social media ambassador, and QRL Fun with memes contest results!"
+summary: "NIST enters final ‘Selection Round’, Proof-of-Stake devnet getting closer, QRL AMA part 1 and 2 released, new Chinese social media ambassador, and QRL Fun with memes contest results!"
 featured_image: 1kgT-W8uiU9OpQMCbRkSdQg.png
 images:
   - 1kgT-W8uiU9OpQMCbRkSdQg.png

@@ -4,7 +4,7 @@ slug: the-final-countdown-mainnet-progress-update
 date: 2018-02-17T15:01:00.637Z
 author: "Jack Matier"
 title: "The Final Countdown -  mainnet progress update"
-subtitle: "After our last update Get Ready for QRL Launch, it has been a hectic month for the developers and a volatile month in the world of crypto! Proof-of-work using cryptonight has been running successfully on our public qrl testnet and has been stable for many days now (blockheight > 23k and counting). Progress has been made in every other area of the project as you can see below."
+summary: "After our last update Get Ready for QRL Launch, it has been a hectic month for the developers and a volatile month in the world of crypto! Proof-of-work using cryptonight has been running successfully on our public qrl testnet and has been stable for many days now (blockheight > 23k and counting). Progress has been made in every other area of the project as you can see below."
 featured_image: 1V1b-bWbebfyPCfUkO34Jyw.png
 images:
   - 1MXS45UT8d_07flQajOYGFw.jpeg

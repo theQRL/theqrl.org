@@ -4,7 +4,7 @@ slug: last-week-in-qrl-june-18-24
 date: 2019-06-24T14:39:05.938Z
 author: "Adam Koltun"
 title: "Last Week in QRL June 18–24"
-subtitle: "Development Updates, One Year Anniversary Coming Soon, Market Availability Update"
+summary: "Development Updates, One Year Anniversary Coming Soon, Market Availability Update"
 featured_image: 1dC5OUM-K2vX7GaNevvJMkw.png
 images:
   - 1dC5OUM-K2vX7GaNevvJMkw.png

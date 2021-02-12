@@ -4,7 +4,7 @@ slug: new-additions-team-update
 date: 2017-08-14T06:30:44.961Z
 author: "Peter Waterland"
 title: "New additions, team update.."
-subtitle: "I’d like to welcome new people to the team who have joined over the last week. Dimitar Christoff has arrived from the professional world of UX/UI/JS and web development. He is hugely experienced and I actually cannot wait to see what he will produce for us going forward."
+summary: "I’d like to welcome new people to the team who have joined over the last week. Dimitar Christoff has arrived from the professional world of UX/UI/JS and web development. He is hugely experienced and I actually cannot wait to see what he will produce for us going forward."
 images:
   - 1F0Wiv_Lb0cWVZ-LXJQlu6A.jpeg
   - 1FwBuzB63BRLhMReodvAggA.png

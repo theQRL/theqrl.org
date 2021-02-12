@@ -4,7 +4,7 @@ slug: integration-feature-bromine-hardfork-pool-fungibly
 date: 2020-04-07
 author: "Jack Matier"
 title: "Integration feature -  Bromine hardfork pool — Fungibly"
-subtitle: "Fair and transparent QRL mining pool"
+summary: "Fair and transparent QRL mining pool"
 featured_image: 1Ld2FGgse0jtwnwZFh2_CFg.png
 images:
   - 1Ld2FGgse0jtwnwZFh2_CFg.png

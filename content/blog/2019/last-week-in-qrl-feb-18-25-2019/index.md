@@ -4,7 +4,7 @@ slug: last-week-in-qrl-feb-18-25-2019
 date: 2019-02-25T18:46:36.138Z
 author: "Adam Koltun"
 title: "Last Week in QRL Feb 19–25, 2019"
-subtitle: "What happened at QRL the past week"
+summary: "What happened at QRL the past week"
 featured_image: 12eNwEKRe-3XWv7ZNEm7tgw.png
 images:
   - 1CiW9ZgDwdARVD_76LwNENw.jpeg

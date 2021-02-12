@@ -4,7 +4,7 @@ slug: 150k-in-100-days
 date: 2018-10-11
 author: "Jack Matier"
 title: "150k in 100 days"
-subtitle: "A small look at our blockchain"
+summary: "A small look at our blockchain"
 featured_image: 1xizQknbpT9ImcT3dRmBZxA.png
 images:
   - 1xizQknbpT9ImcT3dRmBZxA.png

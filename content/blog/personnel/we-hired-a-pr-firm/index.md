@@ -4,7 +4,7 @@ slug: we-hired-a-pr-firm
 date: 2018-06-04T14:16:48.860Z
 author: "Adam Koltun"
 title: "We Hired A PR Firm!"
-subtitle: "TL;DR — We hired TransformPR, a cryptocurrency/blockchain focused PR firm that is going to help us meaningfully advance our marketing efforts"
+summary: "TL;DR — We hired TransformPR, a cryptocurrency/blockchain focused PR firm that is going to help us meaningfully advance our marketing efforts"
 featured_image: 1bODUyD0j7gvZPy_0lmKoeg.png
 images:
   - 1bODUyD0j7gvZPy_0lmKoeg.png

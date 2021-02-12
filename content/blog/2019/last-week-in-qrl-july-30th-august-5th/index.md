@@ -4,7 +4,7 @@ slug: last-week-in-qrl-july-30th-august-5th
 date: 2019-08-05T17:43:30.343Z
 author: "Jack Matier"
 title: "Last Week in QRL -  July 30th — August 5th"
-subtitle: "A review of the QRL core developer meetup summary, a launch of the QRL community github, and the July QRL community nomination."
+summary: "A review of the QRL core developer meetup summary, a launch of the QRL community github, and the July QRL community nomination."
 featured_image: 1A-IGUW98UyLZOkXvOeN6jA.jpeg
 images:
   - 1A-IGUW98UyLZOkXvOeN6jA.jpeg

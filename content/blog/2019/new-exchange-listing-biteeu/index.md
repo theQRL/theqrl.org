@@ -4,7 +4,7 @@ slug: new-exchange-listing-biteeu
 date: 2019-09-18T15:16:03.666Z
 author: "Adam Koltun"
 title: "New Exchange Listing — Biteeu"
-subtitle: "QRL is now trading on Biteeu"
+summary: "QRL is now trading on Biteeu"
 featured_image: 1mRFcim9GR1MdKrJG7jHuqw.png
 images:
   - 1mRFcim9GR1MdKrJG7jHuqw.png

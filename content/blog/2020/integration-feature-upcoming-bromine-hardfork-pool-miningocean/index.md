@@ -4,7 +4,7 @@ slug: integration-feature-upcoming-bromine-hardfork-pool-miningocean
 date: 2020-04-06T17:57:17.344Z
 author: "Jack Matier"
 title: "Integration  feature -  Upcoming Bromine hardfork pool — Miningocean"
-subtitle: "Ultra Stable High Performance Mining Pools"
+summary: "Ultra Stable High Performance Mining Pools"
 featured_image: 17LzUjYMaQG0kJCp046ykCA.png
 images:
   - 17LzUjYMaQG0kJCp046ykCA.png

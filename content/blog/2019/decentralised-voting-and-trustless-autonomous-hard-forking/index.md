@@ -4,7 +4,7 @@ slug: decentralised-voting-and-trustless-autonomous-hard-forking
 date: 2019-12-01
 author: "Peter Waterland"
 title: "Decentralised voting and trustless autonomous hard forking"
-subtitle: "Back in 2012/3 when I first became obsessed with bitcoin it was obvious to me there were many more applications than value transfer for bitcoin-like systems to improve the world. Chief among these was decentralised voting for use in provably fair and secure political elections. This was long before the QRL existed and even before the consensus related issues around bitcoin and the block-size fiasco."
+summary: "Back in 2012/3 when I first became obsessed with bitcoin it was obvious to me there were many more applications than value transfer for bitcoin-like systems to improve the world. Chief among these was decentralised voting for use in provably fair and secure political elections. This was long before the QRL existed and even before the consensus related issues around bitcoin and the block-size fiasco."
 featured_image: 172v61d9U1aXuUPPDU0UA-A.png
 images:
   - 172v61d9U1aXuUPPDU0UA-A.png

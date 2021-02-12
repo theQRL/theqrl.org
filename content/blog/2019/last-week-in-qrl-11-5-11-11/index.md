@@ -4,7 +4,7 @@ slug: last-week-in-qrl-11-5-11-11
 date: 2019-11-11T16:59:05.620Z
 author: "Adam Koltun"
 title: "Last Week in QRL 11/5–11/11"
-subtitle: "Development Updates, QIP 009, New QRL Team Member"
+summary: "Development Updates, QIP 009, New QRL Team Member"
 featured_image: 11QYtSmAfwpbDJoyig1fXwQ.png
 images:
   - 1urUBIFDA6rrLGHfXfrLQKw.png

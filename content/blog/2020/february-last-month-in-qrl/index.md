@@ -4,7 +4,7 @@ slug: february-last-month-in-qrl
 date: 2020-02-10T19:33:53.104Z
 author: "Adam Koltun"
 title: "February -  Last Month in QRL"
-subtitle: "The Bromine HF delay, Development Updates, Bromine Testnet Live"
+summary: "The Bromine HF delay, Development Updates, Bromine Testnet Live"
 featured_image: 1PtKjiBeKZo-2fi4aEREpow.png
 images:
   - 1PtKjiBeKZo-2fi4aEREpow.png

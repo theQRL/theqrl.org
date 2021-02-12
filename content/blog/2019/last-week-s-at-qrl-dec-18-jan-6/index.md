@@ -4,7 +4,7 @@ slug: last-week-s-at-qrl-dec-18-jan-6
 date: 2019-01-07T17:34:41.674Z
 author: "Jack Matier"
 title: "Last Week(s) at QRL -  Dec 18–Jan 6"
-subtitle: "Last Week(s) at QRL: Dec 18–Jan 6"
+summary: "Last Week(s) at QRL: Dec 18–Jan 6"
 featured_image: 1_1tj04T7JUzIsbu7DvkpQA.png
 images:
   - 1v1io_xyLgIhMdT1dkrhdEw.gif

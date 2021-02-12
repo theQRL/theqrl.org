@@ -4,7 +4,7 @@ slug: red4sec-security-audit-concludes-a-summary
 date: 2018-06-06T14:52:40.048Z
 author: "Jack Matier"
 title: "Red4Sec security audit concludes; a summary"
-subtitle: "TL;DR — Red4Sec finished, more audits coming, and an update regarding mainnet"
+summary: "TL;DR — Red4Sec finished, more audits coming, and an update regarding mainnet"
 featured_image: 12_UP8IGhmeUbwSiaN6Gecw.png
 images:
   - 12_UP8IGhmeUbwSiaN6Gecw.png

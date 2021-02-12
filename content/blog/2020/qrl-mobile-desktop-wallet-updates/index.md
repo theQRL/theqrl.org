@@ -4,7 +4,7 @@ slug: qrl-mobile-desktop-wallet-updates
 date: 2020-03-31T14:41:39.609Z
 author: "Jack Matier"
 title: "QRL mobile & Desktop wallet updates"
-subtitle: "Fixes an issue with wallets unable to load transactions, account balances, or send funds."
+summary: "Fixes an issue with wallets unable to load transactions, account balances, or send funds."
 featured_image: 1ktsrUYItUTQUioH1ppda9w.png
 images:
   - 1ktsrUYItUTQUioH1ppda9w.png

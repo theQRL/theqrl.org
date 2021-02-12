@@ -4,7 +4,7 @@ slug: qrl-and-keybase
 date: 2019-04-24T15:22:41.184Z
 author: "The QRL"
 title: "QRL and Keybase"
-subtitle: "A new integration"
+summary: "A new integration"
 featured_image: 19eoHOk0W4yn_9RpgSYfkTg.png
 images:
   - 19eoHOk0W4yn_9RpgSYfkTg.png

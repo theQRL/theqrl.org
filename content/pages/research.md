@@ -1,7 +1,7 @@
 ---
 layout: article
 slug: /research
-title: Research
+title: QRL Research
 parent: /
 ---
 
