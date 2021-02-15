@@ -23,7 +23,7 @@
     </script>
     {{ $js := resources.Get "js/analytics.js" }}
     {{ $secureJS := $js | resources.Fingerprint "sha512" }}
-    <script type="text/javascript" src="{{ $js | relURL }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
+    <script type="text/javascript" src="{{ $js.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
     <!-- End Google Analytics -->
 
     <link rel="shortcut icon" type="image/svg" href="/favicon.svg">
