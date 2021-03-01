@@ -22,26 +22,8 @@
   logo: vinex.png
   type: Exchange / Centralized
 
-- name: "simpleswap"
-  markets: BTC-QRL
-  link: https://simpleswap.io/coins/quantum-resistant-ledger
-  logo: "simpleswap.svg"
-  type: Exchange Aggregator
-
-- name: "swapzone.io"
-  markets: BTC-QRL
-  link: https://swapzone.io/?to=qrl
-  logo: swapzone.io.svg
-  type: Exchange Aggregator
-
 - name: "Bitvoiceex"
   markets: BTC-QRL
   link: https://bitvoicex.net/markets/qrl_btc
   logo: bitvoicex.net.jpeg 
   type: Exchange / Centralized
-
-- name: "StealthEx"
-  markets: BTC-QRL
-  link: https://stealthex.io/coin/qrl
-  logo: stealthex.svg
-  type: Exchange Aggregator
