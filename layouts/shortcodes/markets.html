@@ -28,7 +28,10 @@
             <div class="core__el__img">
               <img src="/img/markets/{{ .logo }}" alt="{{ .name }}">
             </div>
-            <div class="core__el__inner">{{ .name }}<br><p>{{ .type }}</p></div>
+            <div class="core__el__inner">{{ .name }}
+            	<br>
+	            {{ range $i, $e := .markets }}{{ if $i }}{{ end }}<span class="market">{{ .market }}</span>{{ end }}
+            </div>
           </div>
 		</a>
 	{{ end }}

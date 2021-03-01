@@ -1,29 +1,41 @@
 - name: Cointiger
-  markets: BTC-QRL
+  markets: 
+    - market: BTC-QRL
+      link: https://www.cointiger.com/en-us/#/trade_center?coin=qrl_btc
   link: https://www.cointiger.com/en-us/#/trade_center?coin=qrl_btc
   logo: cointiger.png
   type: Exchange / Centralized
 
 - name: Bittrex
-  markets: BTC-QRL
+  markets: 
+    - market: BTC-QRL
+      link: https://international.bittrex.com/Market/Index?MarketName=BTC-QRL
   link: https://international.bittrex.com/Market/Index?MarketName=BTC-QRL
   logo: bittrex.png
   type: Exchange / Centralized
 
 - name: Biteeu
-  markets: BTC-QRL
+  markets: 
+    - market: BTC-QRL
+      link: https://trade.biteeu.com/trades/BTC-QRL
   link: https://trade.biteeu.com/search
   logo: biteeu.png
   type: Exchange / Centralized
 
 - name: "Vinex"
-  markets: BTC-QRL
+  markets: 
+    - market: BTC-QRL
+      link: https://vinex.network/market/BTC_QRL
+    - market: USDT-QRL
+      link: https://vinex.network/market/USDT_QRL
   link: https://vinex.network/market/BTC_QRL
   logo: vinex.png
   type: Exchange / Centralized
 
 - name: "Bitvoiceex"
-  markets: BTC-QRL
+  markets: 
+    - market: BTC-QRL
+      link: https://bitvoicex.net/markets/qrl_btc
   link: https://bitvoicex.net/markets/qrl_btc
   logo: bitvoicex.net.jpeg 
   type: Exchange / Centralized
