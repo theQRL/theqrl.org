@@ -4,9 +4,9 @@ slug: insight-researchers-partners-with-the-quantum-resistant-ledger
 date: 2020-09-22
 author: "Jack Matier"
 title: "Insight Researchers partners with the  Quantum Resistant Ledger"
-featured_image: 1WSgS6fdxW21SZ6CO-YERmA.png
+featured_image: 1WSgS6fdxW21SZ6CO-YERmA.sm.png
 images:
-  - 1WSgS6fdxW21SZ6CO-YERmA.png
+  - 1WSgS6fdxW21SZ6CO-YERmA.sm.png
 categories:
   - press
   - technical
