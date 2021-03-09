@@ -43,6 +43,8 @@
     <!-- Start opengraph -->
     {{ partial "elements/opengraph.html" . }}
     <!-- End Opengraph -->
-
+    {{ range .AlternativeOutputFormats -}}
+        {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
     <script crossorigin="anonymous" nomodule src="https://polyfill.io/v3/polyfill.min.js?features=blissfuljs%2Cdefault%2Ces2015%2Ces2016%2Ces2017%2Ces2018%2Ces5%2Ces6%2Ces7%2CNodeList.prototype.forEach%2CIntersectionObserver%2CIntersectionObserverEntry"></script>
   </head>
