@@ -3,8 +3,8 @@ layout: blog-post
 slug: introducing-the-new-qrl-tipbot
 date: 2021-03-12
 author: "James Gordon"
-title: "Introducing the New QRL tipbot"
-summary: "From the contributors: We're releasing the QRL tipbot with the goal of fostering a positive, rewarding atmosphere to those that have contibuted to, and continue to contribute, to the project."
+title: "Introducing the new QRL Tipbot"
+summary: "From the contributors: We're releasing the QRL tipbot with the goal of fostering a positive, rewarding atmosphere to those that have contributed to, and continue to contribute, to the project."
 featured_image: tipbot.png
 images: 
   - tipbot.png
@@ -64,7 +64,7 @@ For an example of usage below is an example to signup and start tipping QRL.
 
 ## Development 
 
-Developing this bot gave me an opportunity to use some of the tools the contributors've developed for the QRL production. Through this exercise, improvements the contributorsre identified and implemented, and further development of the QRL ecosystem is underway as a result making future integrations even easier!
+Developing this bot gave me an opportunity to use some of the tools the contributors have developed to work with the QRL blockchain in a reliable fashion. Through this exercise, the improvements the contributors identified and implemented, further development of the QRL ecosystem is underway as a result making future integrations even easier!
 
 The Tipbot functions completely *on-chain* and uses our automatic wallet API to maintain One Time Signatures (OTS), ensuring a users Tipbot address never runs out of available keys to send tips from. This is touted as being the biggest hurdle with hash-based quantum resistant cryptography like the eXtended Merkle Signature Scheme (XMSS), maintaining these one-time use keys so they are not reused and dealing with a finite amount available. We've leveled that field for automated systems like this bot to never worry about re-use or limitations.
 
@@ -80,6 +80,6 @@ The QRL Tipbot was written with future platforms in mind. Right now the contribu
 
 If you would like to contribute to the bot or have some ideas for improvement please reach out in the chat to our many communities on [Telegram](/telegram), [Discord](/discord), [Reddit](/reddit), [Facebook](/facebook), or [KakaoTalk](/kakaotalk). 
 
-Want to stay up to date? Follow us on [Youtube](/), Twitter or our Telegram news channel.
+Want to stay up to date? Follow us on [Youtube](https://youtube.com/c/QRLedger), [Twitter](/twitter) or our [Telegram](/telegram) news channel.
 
 Want to dig into our audited, MIT open-source, enterprise-grade codebase? Check out our github at: https://github.com/theQRL/QRL/
