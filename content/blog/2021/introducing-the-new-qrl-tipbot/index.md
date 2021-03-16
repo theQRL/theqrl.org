@@ -11,7 +11,7 @@ images:
 categories:
   - community
 features:
-  - tip-bot
+  - tipbot
 toc: true
 ---
 
@@ -64,9 +64,9 @@ For an example of usage below is an example to signup and start tipping QRL.
 
 ## Development 
 
-Developing this bot gave me an opportunity to use some of the tools the contributors have developed to work with the QRL blockchain in a reliable fashion. Through this exercise, the improvements the contributors identified and implemented, further development of the QRL ecosystem is underway as a result making future integrations even easier!
+Developing this bot gave me an opportunity to use some of the tools the contributors have developed to work with the QRL blockchain in a reliable fashion. Through this exercise, further improvements from the contributors were identified and implemented, with the result of making future integrations even easier!
 
-The Tipbot functions completely *on-chain* and uses our automatic wallet API to maintain One Time Signatures (OTS), ensuring a users Tipbot address never runs out of available keys to send tips from. This is touted as being the biggest hurdle with hash-based quantum resistant cryptography like the eXtended Merkle Signature Scheme (XMSS), maintaining these one-time use keys so they are not reused and dealing with a finite amount available. We've leveled that field for automated systems like this bot to never worry about re-use or limitations.
+The Tipbot functions completely *on-chain* and uses our automatic wallet API to maintain One Time Signatures (OTS), ensuring a users Tipbot address never runs out of available keys to send tips from. This is touted as being the biggest hurdle with hash-based quantum resistant cryptography like the eXtended Merkle Signature Scheme (XMSS), which requires maintaining one-time use keys so they are not reused and dealing with a finite amount of keys available. We've leveled that field for automated systems like this bot to never worry about re-use or limitations.
 
 All tips are sent on-chain to users individual Tipbot wallet addresses the bot maintains. Users can sign-up through the Discord channel and once setup, can start sending and receiving tips through the Tipbot. 
 
