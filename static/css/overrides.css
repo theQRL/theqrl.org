@@ -13,6 +13,14 @@
   margin-right: auto;
 } */
 
+code {
+    border: 1px solid #AAB;
+    background-color: #EFEFEF;
+    padding: 0 3px;
+    margin: 0 1px;
+    border-radius: 4px;
+    word-wrap: anywhere;
+}
 
 .blogPageInner .blog-article ol {
 	font-size: 18px;
