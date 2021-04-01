@@ -4,7 +4,7 @@ slug: last-month-at-qrl-march-2021
 date: 2021-04-01
 author: "Jack Matier"
 title: "Last Month at QRL — March 2021"
-summary: "EnQlave, 'weeks not months'. The QRL Tipbot. On-chain non-fungible token QIP"
+summary: "EnQlave, 'weeks, not months' away. The QRL Tipbot released! QIP014 - Quantum Secure non-fungible Tokens (NFT)'s on the QRL blockchain"
 featured_image: eom.mar2021.png
 images: 
   - eom.mar2021.png
@@ -25,7 +25,7 @@ toc: true
 
 After many long nights, lots of coffee, and countless rounds of testing by the QRL contributors, the Tipbot has been released to the QRL Discord (with more platforms on their way!)
 
-The Tipbot's main goal is to foster a positive and rewarding atmosphere that supports those who contribute to the project, whether that's through a tweet, artwork ([are meme's art?](https://memefest.quanta.city)), or knocking out a few issues on GitHub from one of our too-many-to-count repositories.
+The Tipbot's main goal is to foster a positive and rewarding atmosphere that supports those who contribute to the project, whether that's through a tweet, artwork ([are meme's art?](https://memefest.quanta.city)), or knocking out a few issues on GitHub from one of our countless repositories.
 
 Along with full on-chain tipping functionality (as it should be), there's also a *faucet*, which allows anyone to withdraw from once a day.
 
@@ -37,7 +37,7 @@ Want to get started? Be sure to read more [QRL Tipbot introduction blog](/blog/i
 
 As a refresher, [QRL Improvement Proposal's (QIP's)](https://github.com/theQRL/qips) have been how we've made several improvements to QRL in the past and will remain as an important part of our governance in the future. Outside of our communities, it's the most tangible way to contribute your thoughts and ideas to move QRL forward.
 
-What probably doesn't need a refresher is Non-fungible Tokens (NFT)'s, which has made the headlines recently with artwork going for as much as [$69.3 million](https://onlineonly.christies.com/s/first-open-beeple/beeple-b-1981-1/112924). 
+What probably doesn't need a refresher is [Non-fungible Tokens (NFT)'s](https://en.wikipedia.org/wiki/Non-fungible_token), which has made the headlines recently with artwork going for as much as [$69.3 million](https://onlineonly.christies.com/s/first-open-beeple/beeple-b-1981-1/112924). 
 
 NFT's are unique in that they're *unique* tokens that can't be broken apart. This makes it suitable for a wide range of applications such as collectibles, games, art, and of particular value, other real-world assets.
 
@@ -68,7 +68,9 @@ With the base elements in place, UI re-work has begun to make things as clear as
 
 ### Proof-of-Stake
 
-Geometry Labs have been hard at work bringing *scalable* pq-signatures into our Proof-of-Stake code. Not much can be said on this but there's a blog coming out which will be detailing those technical advancements. 
+[Geometry Labs](https://geometrylabs.io/) (Previously Insight Research) have been hard at work bringing *scalable* pq-signatures into our Proof-of-Stake code. 
+
+At this point not much can be said on this but there's a blog coming out which will be detailing some of their technical advancements. 
 
 ## Advocacy / Education
 
@@ -87,7 +89,7 @@ Geometry Labs have been hard at work bringing *scalable* pq-signatures into our 
 - [9:41](https://www.youtube.com/watch?v=a4U8rwbqV7k&t=581s) Multisig transaction success (threshold was met)
 - [10:06](https://www.youtube.com/watch?v=a4U8rwbqV7k&t=606s) Closing thoughts (starting point for users, upcoming episodes, etc)
 
-## How do you Create a Quantum Resistant Wallet? Full QRL Wallet Walkthrough
+### How do you Create a Quantum Resistant Wallet? Full QRL Wallet Walkthrough
 
 {{< youtube "Q8FeCdww34A" >}}
 
@@ -97,7 +99,6 @@ Geometry Labs have been hard at work bringing *scalable* pq-signatures into our 
 - [6:45](https://www.youtube.com/watch?v=Q8FeCdww34A&t=405s) Creating a QRL Hardware Wallet 
 - [13:30](https://www.youtube.com/watch?v=Q8FeCdww34A&t=810s) Sending QRL Transactions :repeat: 
 - [18:34](https://www.youtube.com/watch?v=Q8FeCdww34A&t=1114s) Closing thoughts + upcoming episodes (multisig, guests, and more)
-
 
 ## Quantum News
 
