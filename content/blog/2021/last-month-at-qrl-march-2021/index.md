@@ -35,11 +35,11 @@ Want to get started? Be sure to read more [QRL Tipbot introduction blog](/blog/i
 
 {{< image "./images/highlight-qip014.png" >}}
 
-As a refresher, [QRL Improvement Proposal's (QIP's)](https://github.com/theQRL/qips) have been how we've made several improvements to QRL in the past and will remain as an important part of our governence in the future. Outside of our communities, it's the most tangible way to contribute your thoughts and ideas to move QRL forward.
+As a refresher, [QRL Improvement Proposal's (QIP's)](https://github.com/theQRL/qips) have been how we've made several improvements to QRL in the past and will remain as an important part of our governance in the future. Outside of our communities, it's the most tangible way to contribute your thoughts and ideas to move QRL forward.
 
 What probably doesn't need a refresher is Non-fungible Tokens (NFT)'s, which has made the headlines recently with artwork going for as much as [$69.3 million](https://onlineonly.christies.com/s/first-open-beeple/beeple-b-1981-1/112924). 
 
-NFT's are unique in that they're *unique* tokens that can't be broken apart. This makes it suitable for a wide range of applications such as collectables, games, art, and of particular value, other real-world assets.
+NFT's are unique in that they're *unique* tokens that can't be broken apart. This makes it suitable for a wide range of applications such as collectibles, games, art, and of particular value, other real-world assets.
 
 ### Implementation
 
