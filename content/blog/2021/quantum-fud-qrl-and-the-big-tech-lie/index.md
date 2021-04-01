@@ -15,7 +15,7 @@ toc: true
 
 ## Coming clean.
 
-**The basic premise goes**, as quantum computing presents revolutionary opportunities for AI[^AI], chemistry[^CHEM], materials science[^MATERIALS], finance[^FINANCE], security[^QSEC], and more, the USA[^USA], China[^CHINA], EU[^EU] and other nation states are investing heavily into quantum computing. With 8 out of the top 10 tech giants (by marketshare)[^TOPTEN] such as Google[^GOOGLE], IBM[^IBM], Intel[^INTEL], Rigetti[^RIGETTI] and Microsoft[^MICROSOFT] either competing for market dominance or involved in some capacity, competition is high! But what if they're in cahoots?
+**The basic premise goes**, as quantum computing presents revolutionary opportunities for AI[^AI], chemistry[^CHEM], materials science[^MATERIALS], finance[^FINANCE], security[^QSEC], and more, the USA[^USA], China[^CHINA], EU[^EU] and other nation states are investing heavily into quantum computing. With 8 out of the top 10 tech giants (by marketshare)[^TOPTEN] such as Google[^GOOGLE], IBM[^IBM], Intel[^INTEL], Rigetti[^RIGETTI] and Microsoft[^MICROSOFT] either competing for market dominance or involved in some capacity, competition is high!
 
 From this we can arrive to the "safe" assumption that quantum computing is finally on the verge of becoming commercially useful[^COMM][^NISQ] and is being developed at an accelerating pace[^PACE]. 
 
