@@ -3,7 +3,7 @@ layout: blog-post
 slug: quantum-fud-qrl-and-the-big-tech-lie
 date: 2021-04-01
 author: "Jack Matier"
-title: "QRL and the truth about why quantum computing is a hoax and all skeptics were right in the first place"
+title: "QRL and the truth about how quantum computing is a hoax and all skeptics were right in the first place"
 summary: "It's true. They were 100% right with no mistakes whatsoever"
 featured_image: quantumfudtitle.png
 images: 
@@ -15,13 +15,11 @@ toc: true
 
 ## Coming clean.
 
-**The basic premise goes**, as quantum computing presents revolutionary opportunities for AI[^AI], chemistry[^CHEM], materials science[^MATERIALS], finance[^FINANCE], security[^QSEC], and more, the USA[^USA], China[^CHINA], EU[^EU] and other nation states are investing heavily into quantum computing. With 8 out of the top 10 tech giants (by marketshare)[^TOPTEN] such as Google[^GOOGLE], IBM[^IBM], Intel[^INTEL], Rigetti[^RIGETTI] and Microsoft[^MICROSOFT] either competing for market dominance or involved in some capacity, competition is high!
+**The basic premise goes**, because quantum computing presents revolutionary opportunities for AI[^AI], chemistry[^CHEM], materials science[^MATERIALS], finance[^FINANCE], security[^QSEC], and more, the USA[^USA], China[^CHINA], EU[^EU] and other nation states are investing heavily into quantum computing. Additionally, 8 out of the top 10 tech giants (by marketshare)[^TOPTEN] such as Google[^GOOGLE], IBM[^IBM], Intel[^INTEL], Rigetti[^RIGETTI] and Microsoft[^MICROSOFT] are either competing for market dominance or involved in some capacity. Needless to say, competition is high!
 
 From this we can arrive to the "safe" assumption that quantum computing is finally on the verge of becoming commercially useful[^COMM][^NISQ] and is being developed at an accelerating pace[^PACE]. 
 
-The takeaway here is that this is real, and while it presents exciting opportunities, it also brings with it important security considerations and precautions that we should be taking.
-
-**But this is a lie Big Tech wants you to believe**, designed to get the population, and the rest of industry to comply with fear tactics and fake news reference dumps. The real ugly truth is we used this fear to create uncertainty and denial (FUD) in the minds of many, and through the advocacy efforts of QRL for the blockchain industry, where it remains as the second most perceived threat to many. 
+**But this is a lie Big Tech wants you to believe**, designed to get the population to comply by fear tactics through fake news and reference dumps such as the above. The **real ugly truth** is the entire industry has been culpable in using Fear, Uncertainty, and Doubt (FUD) to drive a narrative. QRL, through the advocacy efforts has successfully sowed FUD throughout the blockchain industry, where it is now the second most perceived threat to many. 
 
 {{< twitter "1336980583201861638" >}}
 
@@ -41,13 +39,13 @@ What does every organization crave over above all else? They need to increase th
 
 ## The facts: Why quantum computers won't work
 
-[Gil Kalai](https://gilkalai.wordpress.com/) covers this in great depth in his paper ["The Argument against Quantum Computers, the Quantum Laws ofNature, and Google’s Supremacy Claims"](https://arxiv.org/pdf/2008.05188.pdf), but in summary:
+[Gil Kalai](https://gilkalai.wordpress.com/) covers this in great depth in his paper ["The Argument against Quantum Computers, the Quantum Laws of Nature, and Google’s Supremacy Claims"](https://arxiv.org/pdf/2008.05188.pdf), but in summary:
 
-The reason quantum computers won't work is that conservation electance effects are expected in going from single erodible quantum states yielding coaction, with reduction electrode action resolved and reduced quantities further desuperoccupying to existing action technologies, whereas an operation exhibiting impressive enhancement will maintain simultaneity with head=side electrochromic LEDs (required work atop a 90 h battery & among dual types–Caddell simplified progression to stimulating about orbit needing co-operation of tubes pushing centeres). 
+The reason quantum computers will never be able to get beyond 54 qubits is that conservation electance effects are expected in departing from a single quantum coaction state to an erodible multientangled quantum electance state, yielding discordant resonance with reduced electrofermionic action and increased emissions of etheopolerized hyperstatic further desuperoccupying the entangled state. Meanwhile, an operation using electrochromatic nano-LEDs to maintain simultaneity would also fail due to the etheopolerized hyperstasic destabilizing the electrofermionic resonance of the Caddell-Huges simplified progression to the point where it will be impossible to maintain proper Perrier-Hall femtostasis, needed by the quantum registers.
 
-This is why computationally superior quantum computing is not possible, giving a weak front-load to computational gain over many conditions. Qubits without a quantum register cannot calculate an artificial neural network, were given by Hawking 4 at 150 K using the wave bands corresponding to hard hats and electron guns making a form of entanglement implausible today. We do not comprehend the subtleties or algorithm hidden within Boolean completions, therefore this parallel of evolution fumbling 10^-23 of self reconciling incongruous processing available seemingly gives a runtime, and apparently not often enough whereas predominantly most is taken without providing conserved intrinsic information.
+As a counterpoint, it's argued that electrochromatic flux in nano-LED's and other capacitance based hardware emits sterolites which would allow for the reduction in micro-influxitance to the rest of the quantum state. The theory is shaky enough, and further, has never been demonstrated in a lab setting.
 
-Checkmate atheists.
+This is why computationally superior quantum computing is simply impossible, giving almost no computational gain over classical computers in almost all conditions. Qubits without a quantum register cannot calculate an electrofermionic artificial neural network, making it impossible to filter out usable data from the quantum state with enough accuracy to apply the technology to any relevant application. It would not be able to register the subtleties and algorithms hidden within quantum boolean completions, therefore failing at everything that matters. Checkmate, atheists.
 
 ### Scott Aaronson and his bogus arguments.
 
