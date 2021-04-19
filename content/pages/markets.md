@@ -19,21 +19,31 @@ title: QRL Markets
 
 {{< markets "grid" >}}
 
+
+## Other ways to acquire QRL
+
+### Mining
+
+QRL uses the CPU friendly RandomX Proof-of-Work consensus mechanism to mine as can be mined by setting up a [mining node](https://docs.theqrl.org/mining/full-node/), or [mining to a pool](https://docs.theqrl.org/mining/mining/).
+
+Some people like to rent extra hashrate from a service like [nicehash](https://nicehash.com/) and pointing that hashrate to a pool.
+
+### QRL faucet
+
+You can join our discord community and use the bot to get [daily faucet drips](https://theqrl.org/discord). Read more about our [tipbot in our blog](/blog/introducing-the-new-qrl-tipbot/).
+
+### Participating in community lead events
+
+We have frequent community lead puzzles and events in our [discord community](https://theqrl.org/discord) which often have rewards present.
+
 ## Coin economics
 
 - Initial public supply: 52,000,000 Quanta
-
-- Initial reserved supply: 13,000,000 Quanta (of which [8,000,000 Quanta reserved for distribution as determined by QRL Foundation](https://explorer.theqrl.org/a/Q010600648cb22a04edbff712a3fa6d04530453d9a6117fba2ca38a51a3a5b0da742350db0ce225))
-
+- Initial reserved supply: 13,000,000 Quanta (of which [8,000,000 Quanta reserved for distribution as determined by QRL Foundation](https://explorer.theqrl.org/a/Q000500997c93dec6039f0fb6008bbf034bc4f9252f6cfd41a7e01c8cf934036deaa4a832c4f240))
 - Initial total supply: [65,000,000 Quanta](https://explorer.theqrl.org/block/0)
-
 - Emission 40,000,000 Quanta distributed via exponential decay emission schedule over approximately 200 years
-
 - Eventual total supply: 105,000,000 Quanta
-
 - Mining: Proof-of-Work, RandomX (Proof-of-Stake development underway)
-
-## &nbsp;
 
 ## More information
 
