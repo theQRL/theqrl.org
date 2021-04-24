@@ -24,17 +24,25 @@ title: QRL Markets
 
 ### Mining
 
-QRL uses the CPU friendly RandomX Proof-of-Work consensus mechanism to mine as can be mined by setting up a [mining node](https://docs.theqrl.org/mining/full-node/), or [mining to a pool](https://docs.theqrl.org/mining/mining/).
+QRL uses the CPU friendly RandomX Proof-of-Work consensus algorithm to mine and can be mined by setting [mining to a pool](https://docs.theqrl.org/mining/mining/)(easy) or setting up a [mining node](https://docs.theqrl.org/mining/full-node/)(advanced).
 
-Some people like to rent extra hashrate from a service like [nicehash](https://nicehash.com/) and pointing that hashrate to a pool.
+For extra mining power, some people like to rent extra hashrate from a service like [nicehash](https://nicehash.com/) and pointing that hashrate to a pool.
 
-### QRL faucet
+### QRL faucet (Currently in Discord)
 
-You can join our discord community and use the bot to get [daily faucet drips](https://theqrl.org/discord). Read more about our [tipbot in our blog](/blog/introducing-the-new-qrl-tipbot/).
+You can join our [discord community](ttps://theqrl.org/discord) and use the Tipbot to get daily faucet drips. Read more about our [tipbot in our blog](/blog/introducing-the-new-qrl-tipbot/).
+
+### The Discord #OTC (Over-the-counter) channel
+
+You can head over to the Discord [#OTC](https://theqrl.org/discord) channel and put in a `wts` (want to sell) or `wtb` (want to buy) order.
 
 ### Participating in community lead events
 
 We have frequent community lead puzzles and events in our [discord community](https://theqrl.org/discord) which often have rewards present.
+
+### Upcoming: QRL on Uniswap (In progress)
+
+With [enQlave](https://enqlave.io), QRL will be available on Uniswap (V2). See our [enQlave](https://theqrl.org/features/enqlave/) features page to stay up to date.
 
 ## Coin economics
 

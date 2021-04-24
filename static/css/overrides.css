@@ -92,6 +92,7 @@ code {
   margin-right: 3px; margin-top:3px;
   border-radius: 5px;
   font-weight:bold;
+  font-size: 16px;
 }
 
 .coreTeam .grid-markets .core__el {
@@ -283,9 +284,7 @@ code {
 .blog .small-p a:hover {
   color: #FFA729;
 }
-.single-md {
-  /*margin: 50px;*/
-}
+
 /* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
 #mc_embed_signup {
   background-color: #0a1720;
