@@ -4,10 +4,13 @@ slug: last-month-at-qrl-april-2021
 date: 2021-05-01
 author: "Jack Matier"
 title: "Last Month at QRL — April 2021"
-summary: " --- "
+summary: "EnQlave Unabated."
 featured_image: eom.april2021.png
-images: 
-  - eom.april2021.png
+images:
+  - qn.goldmansachs.png
+  - qn.racing.png
+  - qn.awsreveals.png
+  - qn.honeywell.png
 categories:
   - technical
 features:
@@ -17,14 +20,15 @@ toc: true
 
 ## Highlights
 
-### Development: EnQlave
+### EnQlave
+
+EnQlave progress remains unabated. 
+
+On the backend, after many requests, we're integrating support for not just ERC20, but ERC223 (superset of ERC20), ERC721 (NFT)'s, ERC777 (Advanced Tokens), and ERC1155 (Multi-tokens). Functions which allows the initialization of PQAccounts with multiple HashChains & XMSS PK's were updated. Metadata such as Identifier and Index for XMSS PK, which is used by the UI to track the appropriate XMSS PK for an Ethereum address based on the Mnemonic or recovery phrase. On the front-end, there's continued improvements to the QRL mobile application.
+
+Other changes include:
 
 - Changes with the contract Listener to support the three stages of transactions
-- Mobile application side of enQlave is nearly release-ready.
-- Support for ERC20 ERC223 ERC721 ERC777 ERC1155 are being integrated.
-- Continued improvements to the QRL mobile app
-- Updated functions that allows initialization of PQAccounts with multiple HashChains & XMSS PK
-- Added metadata such as Identifier and Index for XMSS PK(Metadata will be used by the UI to track the appropriate XMSS PK for an Ethereum address based on the Mnemonic or recovery phrase)
 - Add experimental ABIEncoderV2 to support emission of event for adding multiple XMSS PKs.
 - More refactoring & updated all Unit tests
 
