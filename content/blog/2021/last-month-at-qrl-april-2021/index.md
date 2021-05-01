@@ -4,7 +4,7 @@ slug: last-month-at-qrl-april-2021
 date: 2021-05-01
 author: "Jack Matier"
 title: "Last Month at QRL — April 2021"
-summary: "EnQlave Unabated."
+summary: "EnQlave progress unabated. Podcast: Bitcoin may be doomed. What can we learn from The QRL? Video: How to Mine QRL in Depth with RandomX"
 featured_image: eom.april2021.png
 images:
   - qn.goldmansachs.png
@@ -36,7 +36,7 @@ Other changes include:
 
 Will continued quantum advancements threaten Bitcoin and other altcoin transactions? 
 
-Listen as we discuss The Quantum Resistant Ledger (QRL) a cryptocurrency taking a post-quantum safe approach to blockchain. While BTC’s value may plummet at even the threat of quantum tampering, QRLs should remain immune. Can Bitcoin learn a thing or two and adapt? Will the value of QRL go up with the growing quantum industry?
+Listen as we discuss The Quantum Resistant Ledger (QRL), a cryptocurrency taking a post-quantum safe approach to blockchain. While BTC’s value may plummet at even the threat of quantum tampering, QRLs should remain immune. Can Bitcoin learn a thing or two and adapt? Will the value of QRL go up with the growing quantum industry?
 
 https://www.protiviti.com/US-en/insights/podcast-bitcoin-may-be-doomed-what-can-we-learn-quantum-resistant-ledger
 
