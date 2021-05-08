@@ -77,7 +77,7 @@
           {{ $t := .Site.GetPage "/team" }}
           {{ range $t.Data.Pages }}
           {{ if eq .Params.name $a }}
-            <a href="{{.Site.BaseURL}}team/{{ .Params.slug }}"><img src="{{ .Params.profile }}" alt="{{$a}}"></a>
+            <a href="{{.Site.BaseURL}}/team/{{ .Params.slug }}"><img src="{{ .Params.profile }}" alt="{{$a}}"></a>
           {{ end }}
           {{end}}
         </div>
