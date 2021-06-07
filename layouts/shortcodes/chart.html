@@ -1,0 +1,13 @@
+{{ $w := default "300" (.Get 0) }}
+{{ $h := default "100" (.Get 1) }}
+{{ $r := ( .Inner | chomp) }}
+{{ $id := index (seq 999 | shuffle) 1 }}
+
+<div class="chart">
+    <canvas id="{{ $id }}"></canvas>
+</div>
+<script type="text/javascript">
+    var ctx = document.getElementById('{{ $id }}').getContext('2d');
+    var options = {{ $r | safeJS }};
+    new Chart(ctx, options);
+</script>
