@@ -30,7 +30,7 @@ For extra mining power, some people like to rent extra hashrate from a service l
 
 ### QRL faucet (Currently in Discord)
 
-You can join our [discord community](ttps://theqrl.org/discord) and use the Tipbot to get daily faucet drips. Read more about our [tipbot in our blog](/blog/introducing-the-new-qrl-tipbot/).
+You can join our [discord community](https://theqrl.org/discord) and use the Tipbot to get daily faucet drips. Read more about our [tipbot in our blog](/blog/introducing-the-new-qrl-tipbot/).
 
 ### The Discord #OTC (Over-the-counter) channel
 
@@ -43,6 +43,9 @@ We have frequent community lead puzzles and events in our [discord community](ht
 ### Upcoming: QRL on Uniswap (In progress)
 
 With [enQlave](https://enqlave.io), QRL will be available on Uniswap (V2). See our [enQlave](https://theqrl.org/features/enqlave/) features page to stay up to date.
+
+
+
 
 ## Coin economics
 
@@ -57,3 +60,5 @@ With [enQlave](https://enqlave.io), QRL will be available on Uniswap (V2). See o
 
 - [QRL Whitepaper](https://github.com/theQRL/Whitepaper/blob/master/QRL_whitepaper.pdf)
 - [QRL Blockchain Explorer](https://explorer.theqrl.org/)
+
+

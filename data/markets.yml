@@ -22,16 +22,6 @@
   logo: biteeu.png
   type: Exchange / Centralized
 
-- name: "Vinex"
-  markets: 
-    - market: BTC-QRL
-      link: https://vinex.network/market/BTC_QRL
-    - market: USDT-QRL
-      link: https://vinex.network/market/USDT_QRL
-  link: https://vinex.network/market/BTC_QRL
-  logo: vinex.png
-  type: Exchange / Centralized
-
 - name: "Bitvoiceex"
   markets: 
     - market: BTC-QRL
