@@ -95,7 +95,7 @@ https://globalfoundries.com/press-release/psiquantum-and-globalfoundries-build-w
 - Trivia & puzzles are worth between 5 and 25 QRL, depending on the difficulty
 - Save your QRL as it's redeemable at the end for merchandise from any QRL merchant.
 - We'll be tracking winners of trivia and puzzles! Top 3 will get free merchandise (up to $100 USD)
-- Active moderators & QRL contributors get topped up daily 25 QRL until the end of August to give away.
+- Active moderators & QRL contributors get topped up daily until the end of August to give away like candy.
 
 ### Part I. Trivia & puzzles - Saturday June 26th to Wednesday June 30th
 
