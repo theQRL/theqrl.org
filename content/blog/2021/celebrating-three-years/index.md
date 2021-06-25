@@ -16,7 +16,7 @@ toc: true
 
 ## Starting from block 0 (genesis) to today
 
-On **June 26th 2018**, we launched QRL, the first batteries-included quantum secure enterprise-grade blockchain backed by the stateful signature scheme XMSS, as opposed to ECDSA found in many blockchains. From the beginning we have been passionate about driving the solutions to prepare for the next revolution by delivering a first-of-its-kind, post-quantum value store and decentralized communication layer that proactively tackled the threat advanced quantum computers pose to cryptocurrencies.
+On **June 26th 2018**, after two years of meticulous development, we launched QRL, the first batteries-included quantum secure enterprise-grade blockchain backed by the stateful signature scheme XMSS, as opposed to ECDSA found in many blockchains including Bitcoin and Ethereum. From the beginning we have been passionate about driving the solutions to prepare for the next revolution by delivering a first-of-its-kind, post-quantum value store and decentralized communication layer that proactively tackled the threat advanced quantum computers pose to cryptocurrencies.
 
 As visionaries, we had the foresight to use [XMSS](https://tools.ietf.org/html/rfc8391) which is currently a [NIST recommendation](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-208-draft.pdf). As security professionals, we refuse to release untested products, only releasing after a multi-year testnet and [multiple external audits](https://github.com/theQRL/audits/), one of which we chose to extend and invariably pushed our launch date out. 
 
