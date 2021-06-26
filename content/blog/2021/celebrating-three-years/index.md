@@ -39,7 +39,7 @@ Other things we improved upon were:
 * Quantum resistant [notarisation](https://docs.theqrl.org/tools/notarisation/)
 * [Keybase integration](https://docs.theqrl.org/tools/keybase/)
 * [Docker QRL node support](https://hub.docker.com/r/qrledger/qrl-docker)
-* Weighted threshold multisignature transactions, and
+* [Weighted threshold multisignature transactions](/features/multisig), and
 * Ephemeral Messaging LatticeTX for post-quantum secure communications
 
 ### In the years ahead
