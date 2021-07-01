@@ -11,6 +11,23 @@ youtube="QRLedger"
 images = ["/logocircle.png"]
 description = "The Quantum Resistant Ledger (QRL) is a first-of-its-kind, post-quantum value store and decentralized communication layer proactively tackling the threat advanced Quantum Computers pose to cryptocurrencies"
 
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4
 
 [taxonomies]
   author = "team"
