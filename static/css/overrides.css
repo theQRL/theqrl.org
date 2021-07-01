@@ -13,13 +13,16 @@
   margin-right: auto;
 } */
 
-code {
+p code {
     border: 1px solid #AAB;
     background-color: #EFEFEF;
     padding: 0 3px;
     margin: 0 1px;
     border-radius: 4px;
     word-wrap: anywhere;
+}
+.highlight code {
+  font-family: monospace;
 }
 
 .blogPageInner .blog-article ol {

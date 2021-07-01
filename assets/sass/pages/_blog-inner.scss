@@ -67,11 +67,24 @@
                 bottom: -37px;
             }
         }
+        h4 + div {
+            margin-bottom: 37px;
+        }
         h3{
             font-family: $f-DinB;
             font-size: 26px;
             line-height: 33px;
             margin-bottom: 50px;
+            @include tablet{
+                font-size: 22px;
+                line-height: 28px;
+            }
+        }
+        h4 {
+            font-family: $f-DinB;
+            font-size: 22px;
+            line-height: 28px;
+            margin-bottom: 25px;
             @include tablet{
                 font-size: 22px;
                 line-height: 28px;
