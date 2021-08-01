@@ -12,6 +12,12 @@ categories:
   - technical
 ---
 
+**Update 2021-**
+
+> [Geometry Labs](https://geometrylabs.io/) is a new company started in early 2021, who the QRL team is now working with. At launch they hired the blockchain R&D team from Insight, though they've since expanded with new members of the team. 
+> 
+> Separately, Insight is still continuing its original mission of education through professional training fellowships.
+
 ***Zug, Switzerland, September 25th, 2020** — [The Quantum Resistant Ledger (QRL) Foundation](https://qrl.foundation/), creator of the world’s leading quantum-secure blockchain network and digital asset platform, has partnered with [Insight’s](https://insightfellows.com/) quantum cryptography research team to continue to set the global standard towards its quantum-secure Proof-of-Stake network, a progression of its quantum-secure Proof-of-Work network presently in place.*
 
 At QRL, we pride ourselves on being a pioneering [open-source](https://github.com/theQRL/QRL/blob/master/LICENSE) blockchain platform backed by [peer-reviewed research](https://theqrl.org/research/#s:citations) and secure, soundly structured, and well-tested code [audited in full by multiple third parties](https://github.com/theQRL/audits).
