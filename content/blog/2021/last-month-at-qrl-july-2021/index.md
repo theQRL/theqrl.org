@@ -21,7 +21,7 @@ Practically, this means they’ve been working on lattice based cryptography and
 
 On the exchange front, Bittrex Global has re-enabled withdraws and deposits for QRL wallets on July 11th, 2021 after being in maintenance for a few months. A special thanks goes out to Bittrex Global for their continued efforts in resolving. 
 
-The mascot program, though exciting for some, posed enough criticism to warrant re-evaluation and discussions with the team and community. QRL's end-goal has always been on-chain governance, and in that spirit, if this isn't something the community feels will push things forward, then it's the community we will listen to.
+The mascot program, though exciting for some, posed enough criticism to warrant re-evaluation and discussions with the team and community. QRL’s end-goal has always been on-chain governance, and in that spirit, we’ve opted not to push things forward on this front at the current moment in time.
 
 And at long last, Kaushal has arrived in Dubai to establish the UAE hub there. This hub aims to create a hub for developers who want to collaborate with their QRL counterparts in the UAE and the rest of the world. As Kaushal gets settled in to kick off the development side, quantum computing progress remains at a steady pace, with PsiQuantum getting granted another $450 million dollars to fully realize the first commercially viable quantum computer. Important to this milestone would be real-time fault-tolerant quantum error correction, which has also been realized by the team at [Honeywell in a paper released on arxiv](https://www.arxiv-vanity.com/papers/2107.07505/).
 
@@ -78,29 +78,22 @@ https://bittrexglobal.zendesk.com/hc/en-us/requests/new
 
 ### Is Bitcoin (BTC) Safe from Grover's Algorithm?
 
-> As you can see, the QRL team is thoroughly preparing for a post-quantum future. Their mission is an increasingly urgent one, as quantum computing continues to advance by leaps and bounds.
-
-https://www.benzinga.com/markets/cryptocurrency/21/07/22200214/is-bitcoin-btc-safe-from-grovers-algorithm
+> As you can see, the QRL team is thoroughly preparing for a post-quantum future. Their mission is an increasingly urgent one, as quantum computing continues to advance by leaps and bounds. - [benzinga](https://www.benzinga.com/markets/cryptocurrency/21/07/22200214/is-bitcoin-btc-safe-from-grovers-algorithm)
 
 ## Advances in quantum computing
 
 ### Honeywell Sets Another Record For Quantum Computing Performance
 
-> The 10-qubit System Model H1 recently achieved a quantum volume of 1024, the highest measured to date.  It is the third time in 10 months the System Model H1 has eclipsed its own record for quantum volume, a measure of the overall capability and performance of a quantum computer.
+> The 10-qubit System Model H1 recently achieved a quantum volume of 1024, the highest measured to date.  It is the third time in 10 months the System Model H1 has eclipsed its own record for quantum volume, a measure of the overall capability and performance of a quantum computer. - [honeywell](https://www.honeywell.com/us/en/news/2021/07/honeywell-sets-another-record-for-quantum-computing-performance)
 
-https://www.honeywell.com/us/en/news/2021/07/honeywell-sets-another-record-for-quantum-computing-performance
 
 ### Realization of real-time fault-tolerant quantum error correction
 
-> Large-scale quantum computers promise to solve classically intractable problems in areas such as quantum simulation, prime factorization, and others. However, these complex quantum computations demand levels of precision that are currently unachievable due to imperfect control and noise in gate operations between physical qubits [...] Using a polynomially scaling number of physical qubits, the probability of a computation being corrupted can be suppressed exponentially, making arbitrarily precise quantum computation feasible.
-
-https://www.arxiv-vanity.com/papers/2107.07505/
+> Large-scale quantum computers promise to solve classically intractable problems in areas such as quantum simulation, prime factorization, and others. However, these complex quantum computations demand levels of precision that are currently unachievable due to imperfect control and noise in gate operations between physical qubits [...] Using a polynomially scaling number of physical qubits, the probability of a computation being corrupted can be suppressed exponentially, making arbitrarily precise quantum computation feasible. - [arxiv](https://www.arxiv-vanity.com/papers/2107.07505/)
 
 ### PsiQuantum Closes $450 Million Funding Round to Build the World’s First Commercially Viable Quantum Computer
 
-> Company on track to build a fault-tolerant quantum computer ready to tackle breakthrough applications in climate, energy, life sciences and beyond
-
-https://www.businesswire.com/news/home/20210727005393/en/PsiQuantum-Closes-450-Million-Funding-Round-to-Build-the-World%E2%80%99s-First-Commercially-Viable-Quantum-Computer
+> Company on track to build a fault-tolerant quantum computer ready to tackle breakthrough applications in climate, energy, life sciences and beyond. - [businesswire](https://www.businesswire.com/news/home/20210727005393/en/PsiQuantum-Closes-450-Million-Funding-Round-to-Build-the-World%E2%80%99s-First-Commercially-Viable-Quantum-Computer)
 
 ## Want to learn more?
 
