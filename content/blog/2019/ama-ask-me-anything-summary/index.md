@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 slug: ama-ask-me-anything-summary
-date: 2019-05-07T18:35:08.979Z
+date: 2018-07-08
 author: "Jack Matier"
 title: "The QRL Core Contributor Ask Me Anything (AMA) Summary"
 summary: "As we noted in our most recent “Last Week in QRL” blog, we had not yet received a statement from this month’s award recipient, so we held off on announcing them in our usual manner. Now, without further ado…"
