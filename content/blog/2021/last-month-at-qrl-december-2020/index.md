@@ -15,18 +15,8 @@ features:
   - zeus
   - qrl-cli
 draft: false
+toc: true
 ---
-
-## Topics
-
-- [2020, at a glance](#2020-at-a-glance)
-- [The QRL Foundation joins forces with the League of Entropy](#the-qrl-foundation-joins-forces-with-the-league-of-entropy)
-- [Quantascan.io released: An analytics website for the Quantum Resistant Ledger(QRL) blockchain](#quantascanio-released-an-analytics-website-for-the-quantum-resistant-ledgerqrl-blockchain)
-- [Development updates: PoS, Zeus, qrl-cli](#development-updates)
-- [Website and logo refresh in celebration of NIST's approval of the XMSS signature scheme](#website-and-logo-refresh-in-celebration-of-nists-approval-of-the-xmss-signature-scheme)
-- [QRL Design Merchandise Contest](#merchandise-design-contest-with-new-assets)
-- [QRL Multimedia](#qrl-multimedia)
-- [Quantum News](#quantum-news)
 
 ## 2020, at a glance
 
