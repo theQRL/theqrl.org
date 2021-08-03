@@ -68,7 +68,7 @@ It is only a few weeks since the last technical article but a lot of things have
 
 The focus has been on a redefinition of the overall architecture. The purpose of this has been removing duplication, looking for efficiency and scalability.
 
-* The C++ qrllib got integrated and it has been running in testnet for a couple of weeks. Verification times have improved [x100 at least](/blog/qrl-improvements-i).
+* The C++ qrllib got integrated and it has been running in testnet for a couple of weeks. Verification times have improved [x100 at least](/blog/qrl-technical-weeks-37-37/).
 
 * In addition, we have a component that can be deployed to almost any platform (including browsers). In the last week, we also moved to multicore xmss tree generation. This was necessary for the new PoS to thrive. More code profiting from multi-core CPUs is about to come.
 

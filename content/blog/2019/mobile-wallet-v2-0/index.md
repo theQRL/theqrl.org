@@ -19,7 +19,7 @@ categories:
   - technical
 ---
 
-The QRL mobile wallet [Version 1.0](/blog/2019/the-qrl-mobile-wallet-is-officially-launched) was released in 5 months ago to the iOS and Android platforms as the first usable quantum-secure blockchain wallet. Needless to say, it was met with a positive response, and a flurry of suggestions.
+The QRL mobile wallet [Version 1.0](/blog/the-qrl-mobile-wallet-is-officially-launched) was released in 5 months ago to the iOS and Android platforms as the first usable quantum-secure blockchain wallet. Needless to say, it was met with a positive response, and a flurry of suggestions.
 
 Those suggestions were appreciated, and Adem Bilican has been hard at work bringing most of those suggestions to materialization. Below are the results of his labours.
 

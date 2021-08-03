@@ -70,7 +70,7 @@ You agree not to (a) interfere with, damage, impair, or disable the Services' op
 
 ## 5. Privacy
 
-The QRL's Privacy Policy applies to the collection and use of "Personal Information," which is defined as information about an individual that (either by itself or when combined with information from other available sources) allows that individual to be identified. The terms of the QRL's privacy policy at "https://www.theqrl.org/privacy" are made a part of these Terms of Service by this reference. You understand that by using the Services you consent to the collection, use and disclosure of your Personal Information as set forth in our Privacy Policy, and to have your Personal Information collected, used, transferred to and processed in any jurisdiction including Europe, Switzerland, the United Kingdom and the United States.
+The QRL's Privacy Policy applies to the collection and use of "Personal Information," which is defined as information about an individual that (either by itself or when combined with information from other available sources) allows that individual to be identified. The terms of the QRL's privacy policy at "https://www.theqrl.org/privacy\" are made a part of these Terms of Service by this reference. You understand that by using the Services you consent to the collection, use and disclosure of your Personal Information as set forth in our Privacy Policy, and to have your Personal Information collected, used, transferred to and processed in any jurisdiction including Europe, Switzerland, the United Kingdom and the United States.
 
 
 
