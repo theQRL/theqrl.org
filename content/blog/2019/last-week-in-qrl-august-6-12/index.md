@@ -13,7 +13,7 @@ images:
 categories:
   - technical
 features: 
-  - qrlcli
+  - node-cli
 ---
 
 ## Introduction
@@ -35,17 +35,11 @@ Following the highly productive QRL Developer’s Summit at the start of the mon
 One of the most productive contributions from the QRL community so far is [FAQQ.info ](https://faqq.info/)(Frequently Asked Quantum Questions). As its title implies, it is an FAQ for questions dealing with the intersection of quantum computing and blockchain. Given the unfortunate regularity with which we still continue to encounter otherwise educated individuals for whom quantum computing is a blind spot, FAQQ.info addresses a very real need in the market; education. The site has continued to be iterated upon, and has recently added information to a few sections, including:
 
 * [Bitcoin has plans for this](https://faqq.info/bitcoin-has-plans-for-this/)
-
 * [Bitcoin will hardfork](https://faqq.info/but-bitcoin-will-hardfork/)
-
 * [Bitcoin will softfork](https://faqq.info/but-bitcoin-will-softfork/)
-
 * [Reusing addresses](https://faqq.info/not-reusing-addresses-not-a-solution/)
-
 * [QC is far away](https://faqq.info/quantum-computing-is-coming/)
-
 * [It’s going to affect Bitcoin](https://faqq.info/quantum-computing-will-affect-bitcoin/)
-
 * [What about the banks](https://faqq.info/what-about-banks/)
 
 As always, you can track the changes made to the site on our [QRL Community GitHub](https://github.com/theqrl-community/faqq/pull/2).
