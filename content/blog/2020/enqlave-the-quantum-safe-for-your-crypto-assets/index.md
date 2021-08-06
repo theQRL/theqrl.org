@@ -98,4 +98,4 @@ A smart contract audit, some ledger integration and lots of testing before we mo
 
 As always our code will be open source and our repo will soon be going public on github in our theqrl repo.
 
-A video detailing the backend mechanics can be seen [here](https://player.vimeo.com/video/420287807). Additionally, [here](/blog/the-qrl-enklave-project-bringing-post-quantum-security-to-ethereum-and-other-blockchain-platforms) is a teaser blog from our new core dev Charlie to wet your appetites before we open up the prototype for public testing at [https://enQlave.io](https://enqlave.io)
+A video detailing the backend mechanics can be seen [here](https://player.vimeo.com/video/420287807). Additionally, [here](/blog/the-qrl-enqlave-project-bringing-post-quantum-security-to-ethereum-and-other-blockchain-platforms) is a teaser blog from our new core dev Charlie to wet your appetites before we open up the prototype for public testing at [https://enQlave.io](https://enqlave.io)

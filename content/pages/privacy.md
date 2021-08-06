@@ -115,11 +115,11 @@ The cookies and local storage we use can be additionally classified as follows:
 
 We use performance cookies from the following services and partners:
 
-- Google Analytics - Tracks user behavior on the Websites, which helps us better understand how users are using the Websites. Learn more at https://www.google.com/policies/privacy/;
+- Google Analytics - Tracks user behavior on the Websites, which helps us better understand how users are using the Websites. Learn more at https://www.google.com/policies/privacy/\;
 
 We also use strictly necessary service cookies from:
 
-- Google - As part of a Content Delivery Network to ensure the correct and secure loading of dependencies. https://www.google.com/policies/privacy/;
+- Google - As part of a Content Delivery Network to ensure the correct and secure loading of dependencies. https://www.google.com/policies/privacy/\;
 - Cloudflare - To ensure a Service loads correctly and securely.  Learn more at https://www.cloudflare.com/en-gb/cookie-policy/
 
 ## Google Analytics

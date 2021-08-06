@@ -19,13 +19,15 @@ features:
   - enqlave
 ---
 
-## Legend
+## Table of Contents
 
-* [2 year mainnet anniversary](#44ba)
-* [QRL AMA — with founder Peter Waterland, hosted by Michael Strike, enter competition on twitter to win 1000 QRL](#a607)
-* [Job opening, in-house marketing](#8188)
-* [enQlave, UI updates, audit is imminent](#6dfb)
-* [PoS is back, devnet soon](#57b2)
+- [Table of Contents](#table-of-contents)
+- [2 year mainnet anniversary](#2-year-mainnet-anniversary)
+- [QRL AMA — with founder Peter Waterland, hosted by Michael Strike, enter competition on twitter to win 1000 QRL](#qrl-ama--with-founder-peter-waterland-hosted-by-michael-strike-enter-competition-on-twitter-to-win-1000-qrl)
+  - [Quick details](#quick-details)
+- [In search of a full-time in-house marketing person](#in-search-of-a-full-time-in-house-marketing-person)
+- [enQlave audit is imminent](#enqlave-audit-is-imminent)
+- [PoS back on track](#pos-back-on-track)
 
 ## 2 year mainnet anniversary
 
@@ -51,7 +53,7 @@ We also heard that you’d like to hear more from the founder of QRL, Peter Wate
 
 * And **a twitter competition!** Post the most technical question that’s relevant to QRL on twitter with the tag #qrlama along with a link to the blog post or twitter mention @qrledger. The person with the most technical question posted that’s relevant* to QRL will be selected to win 1000 QRL.
 
-Be sure to [read the announcement](/blog/announcing-qrl-ask-me-anything-ama-founder-peter-waterland-hosted-by-michael-strike) for more details.
+Be sure to [read the announcement](/blog/announcing-qrl-ask-me-anything-hosted-by-michael-strike) for more details.
 
 ## In search of a full-time in-house marketing person
 

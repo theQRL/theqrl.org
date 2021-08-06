@@ -14,7 +14,7 @@ images:
 categories:
   - technical
 features:
-  - qrlcli
+  - qrl-cli
   - multisig
 ---
 

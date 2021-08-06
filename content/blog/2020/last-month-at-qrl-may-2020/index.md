@@ -12,16 +12,8 @@ images:
   - 1nsXsE3hN0t1kYXKFEb5mYQ.png
 categories:
   - technical
+toc: true
 ---
-
-## Legend
-
-* [Development progress at a glance](#46a8)
-* [EnQlave: The Quantum Safe for your Crypto Assets](#7989)
-* [QRL v2.0.5 release](#cf79)
-* [qrl-cli updates](#5d6d)
-* [Secure smart addresses language foundation chosen: OCAML](#72a0)
-* [QIP012: Suggestion for transaction replay protection](#e895)
 
 ## Development progress at a glance
 
@@ -102,8 +94,8 @@ Deferred for more testing and to further ensure that we cover a wide breadth of 
 
 [The Quantum Resistant Ledger (QRL) Foundation](https://qrl.foundation/) announced last month, [enQlave](https://www.enqlave.io), the worlds *first* Ethereum based post-quantum secure digital wallet.
 
-If you didn’t catch it already, you can read an [introduction to enQlave](/blog/enqlave-the-quantum-safe-for-your-crypto-assets) by Peter Waterland or get more in depth with [Bringing Post-Quantum Security to Ethereum](/blog/the-qrl-enklave-project-bringing-post-quantum-security-to-ethereum-and-other-blockchain-platforms) by Charlie Thompson who summarizes it well with:
-> # QRL enQlave will bring the post-quantum security of XMSS ([eXtended Merkle Signature Scheme](https://tools.ietf.org/html/rfc8391)) to mainnet Ethereum, and eventually to any other blockchain platform with sufficiently expressive smart contract capabilities.
+If you didn’t catch it already, you can read an [introduction to enQlave](/blog/enqlave-the-quantum-safe-for-your-crypto-assets) by Peter Waterland or get more in depth with [Bringing Post-Quantum Security to Ethereum](/blog/the-qrl-enqlave-project-bringing-post-quantum-security-to-ethereum-and-other-blockchain-platforms) by Charlie Thompson who summarizes it well with:
+ QRL enQlave will bring the post-quantum security of XMSS ([eXtended Merkle Signature Scheme](https://tools.ietf.org/html/rfc8391)) to mainnet Ethereum, and eventually to any other blockchain platform with sufficiently expressive smart contract capabilities.
 
 Beyond bringing the ability for any of the almost 100 million [ethereum](https://twitter.com/ethereumproject) unique addresses representing 31 billion in value in ETH alone post-quantum security, enQlave has the possibility to bring post-quantum security to the users of platforms such as [Tezos](https://twitter.com/tezos) and [eosio](https://medium.com/@eosio) with enough interest and sufficiently expressive smart-contract capabilities.
 
