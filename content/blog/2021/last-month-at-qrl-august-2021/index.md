@@ -17,7 +17,7 @@ toc: true
 
 {{< image "./images/highlight-ama.png" >}}
 
-Michael Strike and Ryan Malinowsky sat down with our core blockchain developer Kaushal Kumar Singh over a two part AMA spanning one and a half hours to talk about [EnQlave, which will bring Quantum Security to the Ethereum blockchain](/feature/enqlave), the UAE expansion, and more. 
+Michael Strike and Ryan Malinowski sat down with our core blockchain developer Kaushal Kumar Singh over a two part AMA spanning one and a half hours to talk about [EnQlave, which will bring Quantum Security to the Ethereum blockchain](/feature/enqlave), the UAE expansion, and more. 
 
 Some notable highlights were:
 
@@ -80,9 +80,9 @@ Some notable highlights were:
 
 The reasoning is that a significant portion of miners currently mining on the QRL network ends up selling their QRL on the network. By reducing the rate of emissions, the overall value of QRL could start to rise, which can result in everything from a higher marketcap ranking to a positive feedback loop.
 
-The draft stage is a *great* time to get your feedback in will be used to structure the improvement into a proposal that will be voted on. 
+The draft stage is a *great* time to get your feedback and will be used to structure the improvement into a proposal that will be voted on. 
 
-Have thoughts on the topic? give your feedback on the [QIP](https://github.com/theQRL/qips/pull/32) directly. Want to hash it out more informally first? We have a thread in our [Discord as well](https://theqrl.org/discord).
+Have thoughts on the topic? Give your feedback on the [QIP](https://github.com/theQRL/qips/pull/32) directly. Want to hash it out more informally first? We have a thread in our [Discord as well](https://theqrl.org/discord).
 
 ## Development updates
 
@@ -110,16 +110,16 @@ It covers the following layers
 
 - **core**: Improvements requiring a consensus fork.
   - **networking**: Improvements around network components
-  - **security**: Improvements and upgrades to to the security.
+  - **security**: Improvements and upgrades to to the security
 - **Interface**: Improvements around APIs
-- **Meta**: QIP Process, governance, structure.
+- **Meta**: QIP Process, governance, structure
 
 It's influenced from Ethereum Improvement Proposals (EIPs) and Bitcoin Improvement Proposals (BIPs) in its scope. This has worked, but through observing people going through the process we identified a few key areas missing.
 
 The QRL Improvment Proposal (QIP) refresh is designed to address those issues and more through: 
 
 1. Adding more clarity through specifying a workflow, template, and specification documents. Locally it's possible to preview the QIP on your localmachine through jekyll.  
-2. Adding more programmability parsability through front-matter with correct syntax, 
+2. Adding more programmability parsability through front-matter with correct syntax.
 3. Improve governance by including a process for on-chain voting to take place.
 
 Right now this is complete but will be going through review and further discussions before a PR is issued.
