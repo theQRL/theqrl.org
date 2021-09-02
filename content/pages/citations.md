@@ -9,6 +9,9 @@ aliases:
 
 ## Citations
 
+Aggregating hash-based signatures using STARKs\
+https://eprint.iacr.org/2021/1048.pdf
+
 Post-quantum blockchain using one-time signature chains\
 https://pdfs.semanticscholar.org/f38c/562c21fa1a94871e5f577669f7c4b9520632.pdf
 
