@@ -12,6 +12,7 @@ images:
   - loemembers.png
 categories:
   - advocacy
+toc: true
 ---
 
 ## Understanding the importance of randomness and entropy
@@ -43,9 +44,11 @@ Other heroic members of randomness includes Cloudflare, École polytechnique fé
 
 {{< image "./images/loemembers2.png" >}}
 
-### How QRL Generates Entropy
+### QRL and the League of Entropy
 
-Each node first generates a long-term public/private key pair. Then all of the public keys are written to a group file together with some further metadata required to operate the beacon. After this group file has been distributed, the nodes perform a distributed key generation (DKG) protocol to create the collective public key and one private key share per server. The participants NEVER see/use the actual (distributed) private key explicitly but instead utilize their respective private key shares for the generation of public randomness.
+QRL [runs a drand node](https://drand.love/operator/deploy/) as part of the League of Entropy network
+
+Each node run by League of Entropy network first generates a long-term public/private key pair. Then all of the public keys are written to a group file together with some further metadata required to operate the beacon. After this group file has been distributed, the nodes perform a distributed key generation (DKG) protocol to create the collective public key and one private key share per server. The participants NEVER see/use the actual (distributed) private key explicitly but instead utilize their respective private key shares for the generation of public randomness.
 
 After the setup, the nodes switch to the randomness generation mode. Any of the nodes can initiate a randomness generation round by broadcasting a message which all the other participants sign using a t-of-n threshold version of the Boneh-Lynn-Shacham (BLS) signature scheme and their respective private key shares. Once any node (or third-party observer) has gathered t partial signatures, it can reconstruct the full BLS signature (using Lagrange interpolation). The signature is then hashed using SHA-256 to ensure that there is no bias in the byte representation of the final output. This hash corresponds to the collective random value and can be verified against the collective public key.
 
