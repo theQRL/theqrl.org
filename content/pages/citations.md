@@ -95,6 +95,9 @@ https://blog.cryptographyengineering.com/2018/04/07/hash-based-signatures-an-ill
 Quantum computers and the Bitcoin blockchain\
 https://www2.deloitte.com/nl/nl/pages/innovatie/artikelen/quantum-computers-and-the-bitcoin-blockchain.html
 
+Quantum attacks on Bitcoin, and how to protect against them\
+https://arxiv.org/abs/1710.10377
+
 ## BOOKS
 
 Quantum Computing and Blockchain in Business: Exploring the applications, challenges, and collision of quantum computing and blockchain\
