@@ -92,6 +92,9 @@ https://www.youtube.com/watch?v=qkqtsnXTMQM
 Hash-based Signatures: An illustrated Primer\
 https://blog.cryptographyengineering.com/2018/04/07/hash-based-signatures-an-illustrated-primer/
 
+Quantum computers and the Bitcoin blockchain\
+https://www2.deloitte.com/nl/nl/pages/innovatie/artikelen/quantum-computers-and-the-bitcoin-blockchain.html
+
 ## BOOKS
 
 Quantum Computing and Blockchain in Business: Exploring the applications, challenges, and collision of quantum computing and blockchain\
