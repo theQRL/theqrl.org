@@ -10,7 +10,11 @@
         </div>
       <div class="blogPageInner" id="article-container">
         <div class="container-mini blog-article">
-            {{ .Content }}
+          {{ if .Params.toc }}
+          <h3>Table of Contents</h3>
+          {{ .TableOfContents }}
+        {{ end }}
+            {{ .Content | replaceRE "(<h[1-6] id=\"(.+)\".*>)(.*)(</h[1-6]>)" `${1}<a href="#${2}">${3}${4}</a>` | safeHTML }}
         </div>
       </div>
       {{ end }}
