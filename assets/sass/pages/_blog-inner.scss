@@ -39,7 +39,20 @@
         .center{
             text-align: center;
         }
+        h2, h3, h4, h5 {
+            > a {
+                text-decoration: none;
+                position: relative;
 
+                &:hover:before {
+                    content: "🔗";
+                    color: #AAA;
+                    position: absolute;
+                    left: -1em;
+                    font-size:50%;
+                }
+            }
+        }
         h2{
             font-size: 36px;
             line-height: 46px;
