@@ -1,6 +1,22 @@
 .blogPageInner{
     font-family: $f-ProR;
     padding-top: 96px;
+
+    img {
+        // min-width:100%;
+        display: block;
+        margin:0 auto;
+
+        &.float-right {
+            float:right;
+            min-width: auto;
+            max-width: 50%;
+
+            @include tablet {
+                min-width: 100%;
+            }
+        }    
+    }
     .header{
         background-color: #0a1720;
         
