@@ -2,4 +2,4 @@
 {{ $file := print "content/" $file }}
 {{ $img := resources.Get $file }}
 {{ $after := $img }}
-<img src="{{ $after.RelPermalink }}">
+<img src="{{ $after.RelPermalink }}"{{ with .Get 1 }} class="{{ . }}"{{ end }}>

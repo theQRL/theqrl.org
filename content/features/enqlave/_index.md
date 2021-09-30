@@ -5,7 +5,7 @@ toc: true
 
 ## Overview
 
-EnQlave is a education initiative and ecosystem which brings **trustless on-chain post-quantum security** (the EnQlave wallet) and **cross-chain interoperability with QRL** (wQRL + DEX) to sufficiently scriptable and supported blockchains, starting with Ethereum. 
+EnQlave is an education initiative and ecosystem which brings **trustless on-chain post-quantum security** (the EnQlave wallet) and **cross-chain interoperability with QRL** (wQRL + DEX) to sufficiently scriptable and supported blockchains, starting with Ethereum. 
 
 Quantum computers are heralded as the next big thing in computing, capable of solving complex problems that would take traditional computers too long to crack. This has led to growing concern about how future quantum attacks could steal cryptocurrency by breaking the cryptography. EnQlave is a way for people to secure their assets on second most popular blockchain and learn about this growing threat of quantum computing to the blockchain space in the process.
 
