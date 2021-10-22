@@ -58,10 +58,10 @@ Official discussions which will get recorded for posterity will take place on Gi
 
 Other areas of more informal discussions can be found at:
 
-- Discord: [To be added after blog is released]
-- Reddit: [To be added after blog is released]
-- Twitter: [To be added after blog is released]
-- Telegram: [To be added after blog is released]
+- Discord: https://discord.com/channels/357604137204056065/901213160902627358
+- Reddit: https://www.reddit.com/r/QRL/comments/qdq7dx/qip_016_reduce_emissions_rate_of_the_network/
+- Twitter: https://twitter.com/QRLedger/status/1451653847135424518
+- Telegram: https://web.telegram.org/z/#-1377664830_806
 
 ## General Considerations
 
