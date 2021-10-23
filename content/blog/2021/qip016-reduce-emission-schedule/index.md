@@ -4,7 +4,7 @@ slug: qip016-reduce-emission-rate-of-the-network-prevote-synopsis
 date: 2021-10-22
 author: "Jack Matier"
 title: "QRL Improvement Proposal 016 (QIP-016) Pre-vote Synopsis: Reduce emissions rate of the network"
-summary: "To reduce the emissions rate of the network by a multiplication a factor of 0.4x which has been determined through both network and transaction analysis, and with regards to the future economic incentives of Proof-of-Stake."
+summary: "To reduce the emissions rate of the network by a multiplication factor of 0.4x which has been determined through both network and transaction analysis, and with regards to the future economic incentives of Proof-of-Stake."
 featured_image: blog.qip016.header.png
 categories:
   - technical
@@ -33,7 +33,7 @@ Without further ado,
 
 ### Summary
 
-To reduce the emissions rate of the network by multiplication a factor of 0.4x which has been determined through both network and transaction analysis, and with regards to the future economic incentives of Proof-of-Stake.
+To reduce the emissions rate of the network by a multiplication factor of 0.4x which has been determined through both network and transaction analysis, and with regards to the future economic incentives of Proof-of-Stake.
 
 ### Errata
 
