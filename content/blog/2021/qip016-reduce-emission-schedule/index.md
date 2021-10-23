@@ -39,6 +39,7 @@ To reduce the emissions rate of the network by a multiplication factor of 0.4x w
 
 - QIP-016 GitHub: https://github.com/theQRL/qips/blob/master/qips/QIP016.md
 - Main Discussions To: https://github.com/theQRL/qips/pull/32
+- Vote: https://vote.theqrl.org (note: Will be updated to reflect QIP-016)
 
 ### Vote parameters
 
@@ -47,8 +48,8 @@ To reduce the emissions rate of the network by a multiplication factor of 0.4x w
 - Coordinator: The QRL Foundation
 - Eligibility: Excluded [Exchanges, Foundation]
 - Vote type: Simple proportional vote
-- Snapshot blockheight: 2021-11-02
-- Voting end date: 2021-11-08
+- Snapshot blockheight: 2021-11-02 (Tuesday, November 2nd, 2021)
+- Voting end date: 2021-11-16 (Tuesday, November 16th, 2021)
 
 ### Discussion Locations
 
