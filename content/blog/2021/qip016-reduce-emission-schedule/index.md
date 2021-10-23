@@ -4,7 +4,7 @@ slug: qip016-reduce-emission-rate-of-the-network-prevote-synopsis
 date: 2021-10-22
 author: "Jack Matier"
 title: "QRL Improvement Proposal 016 (QIP-016) Pre-vote Synopsis: Reduce emissions rate of the network"
-summary: "To reduce the emissions rate of the network by multiplication a factor of 0.4x which has been determined through both network and transaction analysis, and with regards to the future economic incentives of Proof-of-Stake."
+summary: "To reduce the emissions rate of the network by a multiplication factor of 0.4x which has been determined through both network and transaction analysis, and with regards to the future economic incentives of Proof-of-Stake."
 featured_image: blog.qip016.header.png
 categories:
   - technical
@@ -33,7 +33,7 @@ Without further ado,
 
 ### Summary
 
-To reduce the emissions rate of the network by multiplication a factor of 0.4x which has been determined through both network and transaction analysis, and with regards to the future economic incentives of Proof-of-Stake.
+To reduce the emissions rate of the network by a multiplication factor of 0.4x which has been determined through both network and transaction analysis, and with regards to the future economic incentives of Proof-of-Stake.
 
 ### Errata
 
@@ -58,10 +58,10 @@ Official discussions which will get recorded for posterity will take place on Gi
 
 Other areas of more informal discussions can be found at:
 
-- Discord: [To be added after blog is released]
-- Reddit: [To be added after blog is released]
-- Twitter: [To be added after blog is released]
-- Telegram: [To be added after blog is released]
+- Discord: https://discord.com/channels/357604137204056065/901213160902627358
+- Reddit: https://www.reddit.com/r/QRL/comments/qdq7dx/qip_016_reduce_emissions_rate_of_the_network/
+- Twitter: https://twitter.com/QRLedger/status/1451653847135424518
+- Telegram: https://web.telegram.org/z/#-1377664830_806
 
 ## General Considerations
 
