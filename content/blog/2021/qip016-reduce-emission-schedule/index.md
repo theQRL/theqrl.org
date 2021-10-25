@@ -47,6 +47,8 @@ To reduce the emissions rate of the network by a multiplication factor of 0.4x w
 - Author: 4d5a
 - Coordinator: The QRL Foundation
 - Eligibility: Excluded [Exchanges, Foundation]
+  - >50% of eligible votes need to vote "Yay" to approve (eligible votes = circulating supply - exchanges - foundation)
+  - 1 QRL = 1 vote
 - Vote type: Simple proportional vote
 - Snapshot blockheight: 2021-11-02 (Tuesday, November 2nd, 2021)
 - Voting end date: 2021-11-16 (Tuesday, November 16th, 2021)
@@ -59,7 +61,7 @@ Official discussions which will get recorded for posterity will take place on Gi
 
 Other areas of more informal discussions can be found at:
 
-- Discord: https://discord.com/channels/357604137204056065/901213160902627358
+- Discord: https://discord.com/channels/357604137204056065/902299172554829914/902311971620265985
 - Reddit: https://www.reddit.com/r/QRL/comments/qdq7dx/qip_016_reduce_emissions_rate_of_the_network/
 - Twitter: https://twitter.com/QRLedger/status/1451653847135424518
 - Telegram: https://web.telegram.org/z/#-1377664830_806
@@ -93,6 +95,10 @@ EnQlave most notably provides:
 - A way to acquire QRL through a wQRL token on Uniswap
 
 Historically, we started off with a [pure XMSS implementation](/blog/announcing-ethereum-enqlave-quantum-security-for-the-ethereum-blockchain) which underwent an audit. After another review of the code during this time, however, we found a significant amount of additional headroom for efficiencies. With gas fees being so expensive at the time and still to this day, EnQlave has been almost entirely reworked. As it stands, there are quite a few moving components, which ends up with an exponential amount of complexity - this has resulted in frequently revisiting interface components (both UX and otherwise).
+
+### QIP 015b (buying hashrate)
+
+QIP 015b proposed to allocate foundation resources to procure mining power until the release of EnQlave. This improvement proposal was closed as it was out of scope for the QIP process and won't be pursued by the foundation.
 
 ## Positive considerations
 
@@ -138,7 +144,9 @@ Decreasing the reward now, allows for increased incentives down the line to acqu
 
 ### Economic mutability
 
-One of the cornerstone aspects of a lot of the blockchain space, is that the emission rate, once defined, isn't changed unless there's a serious reason to - it's technically not entirely immutable, but functionally it's that way. This is one of the driving factors that people have when coming towards Bitcoin, as it gives predictive emission capabilities not seen in other fiat assets. Even gold currently being a finite resource has an emission partly defined by its price and not by some immutable force.
+One of the cornerstone aspects of a lot of the blockchain space, is that the emission rate, once defined, isn't changed unless there's a serious reason to. That is, while the emission rate is technically not entirely immutable, it's often perceived that way. This is one of the driving factors that people have when coming towards Bitcoin, as it gives predictive emission capabilities not seen in other fiat assets. Even gold currently being a finite resource has an emission partly defined by its price and not by some immutable force.
+
+By changing the emission rate for economic reasons, trust may be lost in the immutable nature of the ledger and may bring into question tokenomic viability.
 
 > This is a major decision as the emission schedule is the biggest change possible. It publicly shows that the "immutable ledger" is controlled of a central authority and the total number of future mined coins can be increased as easily as decreased. It will take a long time for the negative vibes of this event to wear-off for investors, especially, if price does not follow like the theory hopes.
 > \- [Coin-runner on GitHub](https://github.com/theQRL/qips/pull/32#issuecomment-899923710)
