@@ -68,6 +68,12 @@ Other areas of more informal discussions can be found at:
 
 ## General Considerations
 
+### Timeline of QIP16 integration
+
+Through discussions, it's estimated that preparation and testing should take two weeks. 
+
+exchange availability to manage a node update can vary depending other obligations, priorities, and staffing situations (such as through seasonal vacations & holidays).
+
 ### Timeline of different roadmap features
 
 Features can provide additional avenues for liquidity (such as the case of [EnQlave through wQRL](/feature/enqlave)), improve market sentiment, or directly impact the change of emission for technical reasons (such as Proof-of-Stake limitation). Understanding where these stand in a chronological manner would help in decision making for the vote.
