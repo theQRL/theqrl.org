@@ -15,6 +15,9 @@
             @include tablet {
                 min-width: 100%;
             }
+        }
+        + h3, h2, h1, h4 {
+            margin-top: $padding-md;
         }    
     }
     .header{
