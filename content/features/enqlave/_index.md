@@ -17,7 +17,9 @@ We want to encourage anyone who is concerned about quantum security to consider 
 
 ### For those with Ethereum 
 
-With the growing concern about quantum attacks, people holding Ethereum and Ethereum assets can create a wallet that's secure from quantum attacks using a simple easy-to-use interface. 
+The threat of quantum attacks against the blockchain is growing greater by the day, and Ethereum is no exception to this worrying trend. Time is running out, and if Ethereum holders fail to protect themselves they risk losing their assets to any malicious person or organization willing to use quantum technology.
+
+With the growing concern about quantum attacks, people holding Ethereum and Ethereum assets can create an EnQlave wallet that's secure from quantum attacks using a simple easy-to-use interface.
 
 ### Other blockchain projects
 
@@ -27,7 +29,9 @@ Depending on due diligence, the success of EnQlave on Ethereum, the coins demand
 
 ### For exchanges
 
-Exchanges who have a strong desire to bring high security to the blockchain space or otherwise wish to remain competitive can offer the ability to secure users assets from quantum attacks.
+It's a tough world out there for cryptocurrency exchanges who want to provide the best possible security but a powerful enough quantum computer could make this a whole different story.
+
+EnQlave is an encryption solution that offers protection from quantum attacks. With the help of EnQlave, exchanges can securely protect user assets from quantum computing by leveraging a unique on-chain self-custody multi-signature process that is more resilient against this emerging technology.
 
 ### For those with QRL
 
