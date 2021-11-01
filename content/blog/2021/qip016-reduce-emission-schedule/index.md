@@ -47,10 +47,10 @@ To reduce the emissions rate of the network by a multiplication factor of 0.4x w
 - Author: 4d5a
 - Coordinator: The QRL Foundation
 - Eligibility: Excluded [Exchanges, Foundation]
-  - >50% of eligible votes need to vote "Yay" to approve (eligible votes = circulating supply - exchanges - foundation)
+  - &gt; 50% of eligible votes need to vote "Yay" to approve (eligible votes = circulating supply - exchanges - foundation)
   - 1 QRL = 1 vote
 - Vote type: Simple proportional vote
-- Snapshot blockheight: 2021-11-02 (Tuesday, November 2nd, 2021)
+- Snapshot block-height: `1,772,100`, roughly **7pm UTC on November 2nd, 2021**
 - Voting end date: 2021-11-16 (Tuesday, November 16th, 2021)
 
 ### Discussion Locations
@@ -67,6 +67,12 @@ Other areas of more informal discussions can be found at:
 - Telegram: https://web.telegram.org/z/#-1377664830_806
 
 ## General Considerations
+
+### Timeline of QIP16 integration
+
+Through discussions, it's estimated that preparation and testing should take two weeks. 
+
+exchange availability to manage a node update can vary depending other obligations, priorities, and staffing situations (such as through seasonal vacations & holidays).
 
 ### Timeline of different roadmap features
 
