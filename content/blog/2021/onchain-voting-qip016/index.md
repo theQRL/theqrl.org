@@ -11,11 +11,13 @@ categories:
 toc: true
 ---
 
-## Quick 1-minute, how-to
+## Quick 1-minute how-to
 
 The snapshot block-height has been set to `1,772,100`, roughly **7pm UTC on November 2nd, 2021**.
 
 0. **Before** the snapshot blockheight, if your funds are on an exchange. Move them from an exchange [one of our wallets](/downloads).
+
+
 
 **After the snapshot happens on the snapshot date**
 
@@ -24,6 +26,10 @@ The snapshot block-height has been set to `1,772,100`, roughly **7pm UTC on Nove
 3. Scroll to the section "Voting options"
 4. Copy the message transaction that you want to vote for (Starts with 0f0f0)
 5. Paste the message transaction to the message field.
+
+> **Special note:** As QIP-016 is a deviation from the whitepaper emission schedule that every coin holder is a part of and involves altering the tokenomics of a project, it's required for there to be a significant level of confidence in the result.
+> 
+> For this reason, during the vote parameter meetings held as part of the QIP process, it was established that **GREATER THAN 50% OF ELIGIBLE VOTERS (WHERE 1 QRL=1 VOTE) NEEDS TO VOTE TO 'Accept' THE PROPOSAL. ANYONE WHO DOESN'T VOTE WILL BE COUNTED AS A 'Reject' VOTE. NO VOTE CAN BE A 'Null' VOTE**
 
 ## Extended guide
 
@@ -49,7 +55,7 @@ On [vote.theqrl.org](https://vote.theqrl.org), you'll be presented by a page tha
 
 {{< image "./images/vote.sendmessage.gif" >}}
 
-With the hash outlined in the vote options on [vote.theqrl.org](https://vote.theqrl.org), open up your wallet at [testnet-wallet.theqrl.org](https://testnet-wallet.theqrl.org) and go to tools -> message transaction.
+With the hash outlined in the vote options on [vote.theqrl.org](https://vote.theqrl.org), open up your wallet at [wallet.theqrl.org](https://wallet.theqrl.org) and go to tools -> message transaction.
 
 ### Step 4: Verify that your vote was successful
 
