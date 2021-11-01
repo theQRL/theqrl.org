@@ -1,6 +1,6 @@
 ---
 layout: blog-post
-slug: a-look-at-onchain-voting-for-qip016
+slug: guide-to-voting-on-qip-016
 date: 2021-10-29
 author: "Jack Matier"
 title: "Guide to voting on QRL Improvement Proposal #016"
@@ -12,6 +12,8 @@ toc: true
 ---
 
 ## Quick 1-minute, how-to
+
+The snapshot block-height has been set to `1,772,100`, roughly **7pm UTC on November 2nd, 2021**.
 
 0. **Before** the snapshot blockheight, if your funds are on an exchange. Move them from an exchange [one of our wallets](/downloads).
 
