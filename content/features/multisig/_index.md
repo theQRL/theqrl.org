@@ -61,3 +61,10 @@ From a working [node installation](https://docs.theqrl.org/node/QRLnode), it's p
 tx_multi_sig_create  Creates Multi Sig Create Transaction, that results...
 tx_multi_sig_spend   Transfer coins from src to dsts
 ```
+
+## Resources
+
+### Video: Creating a quantum resistant multisignature wallet
+
+{{< youtube "a4U8rwbqV7k" >}}
+
