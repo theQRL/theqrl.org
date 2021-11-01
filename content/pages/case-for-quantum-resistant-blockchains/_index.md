@@ -1,11 +1,11 @@
 ---
 layout: single
-url: /case-for-quantum-resistant-blockchain
+url: /the-future-of-post-quantum-resistant-blockchains
 layout_single_header:
-  sectionsubtitle: 'A case for QRL'
-  sectiontitle: 'Why post-quantum resistant blockchain is needed, today'
+  sectionsubtitle: 'Quantum Resistant Ledger'
+  sectiontitle: 'The future of post-quantum resistant blockchains'
   blurb: |
-    Quantum computers are quickly becoming a reality and poses a well understood threat to blockchain systems which QRL solves.
+    The rise of quantum computers poses a world changing threat capable of breaking current blockchain systems, except for QRL, the first full-featured quantum-resistant blockchain protocol.
   cta:
     primary:
       text: View markets
@@ -13,7 +13,8 @@ layout_single_header:
     secondary:
       text: Coin economics
       link: '/markets/#coin-economics'
-title: Why quantum resistant blockchain is needed, today
+summary: "The rise of quantum computers poses a world changing threat capable of breaking current blockchain systems, except for QRL, the first full-featured quantum-resistant blockchain protocol."
+title: "The future of post-quantum resistant blockchains"
 featured_image: header.png
 aliases:
   - /why
