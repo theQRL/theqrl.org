@@ -101,9 +101,9 @@ As per our QIP process, we'll be evaluating the outcome and make a public determ
 
 ### How many votes are required for the Proposal to pass?
 
-QIP voting parameters are evaluated on a case by case basis. As this is dealing with the economics of the QRL blockchain, greater than 50% of the eligible votes (where 1 QRL = 1 vote) are required to pass. 
+QIP voting parameters are evaluated on a case by case basis. As this is dealing with the core economics of the QRL blockchain, greater than 50% of the eligible votes (where 1 QRL = 1 vote) are required to pass ([Qualified majority voting](https://uk.practicallaw.thomsonreuters.com/9-503-0498)).
 
-For QIP 016, eligible votes are `circulating_population-exchanges-foundation`, or about `55.71m` QRL. Half of that would be roughly `27.85m` to pass. Of course, the final values are determined based on the blockheight the snapshot is made.
+For QIP 016, eligible votes are `circulating_population - exchanges - foundation`, or about `55.71m` QRL. Half of that would be roughly `27.85m` to pass. Of course, the final values are determined based on the blockheight the snapshot is made.
 
 ## Want to learn more?
 
