@@ -46,10 +46,12 @@ To reduce the emissions rate of the network by a multiplication factor of 0.4x w
 - Title: QIP 016 - Reduce emissions rate of the network
 - Author: 4d5a
 - Coordinator: The QRL Foundation
+- Options: APPROVE or REJECT QIP 016
 - Eligibility: Excluded [Exchanges, Foundation]
-  - &gt; 50% of eligible votes need to vote "Yay" to approve (eligible votes = circulating supply - exchanges - foundation)
   - 1 QRL = 1 vote
-- Vote type: Simple proportional vote
+- Vote type: [Qualified majority vote](https://uk.practicallaw.thomsonreuters.com/9-503-0498)
+  - &gt; 50% of eligible votes need to vote to approve (`eligible votes = circulating supply - exchanges - foundation`).
+  - Not participating would, effectively, be considered a 'Reject' vote as the status quo is for the emission schedule to remain as it is currently
 - Snapshot block-height: `1,772,100`, roughly **7pm UTC on November 2nd, 2021**
 - Voting end date: 2021-11-16 (Tuesday, November 16th, 2021)
 
