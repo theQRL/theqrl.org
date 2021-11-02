@@ -43,15 +43,11 @@ To reduce the emissions rate of the network by a multiplication factor of 0.4x w
 
 ### Vote parameters
 
-> **Special note:** As QIP-016 is a deviation from the whitepaper emission schedule that every coin holder is a part of and involves altering the tokenomics of a project, it's required for there to be a significant level of confidence in the result.
-> 
-> For this reason, during the vote parameter meetings held as part of the QIP process, it was established that **GREATER THAN 50% OF ELIGIBLE VOTERS (WHERE 1 QRL=1 VOTE) NEEDS TO VOTE TO 'Accept' THE PROPOSAL. ANYONE WHO DOESN'T VOTE WILL BE COUNTED AS A 'Reject' VOTE. NO VOTE CAN BE A 'Null' VOTE**
-
 - Title: QIP 016 - Reduce emissions rate of the network
 - Author: 4d5a
 - Coordinator: The QRL Foundation
 - Eligibility: Excluded [Exchanges, Foundation]
-  - &gt; 50% of eligible votes need to vote "Yay" to approve (eligible votes = circulating supply - exchanges - foundation). 
+  - &gt; 50% of eligible votes need to vote "Yay" to approve (eligible votes = circulating supply - exchanges - foundation). Not participating would be considered a 'Nay' vote.
   - 1 QRL = 1 vote
 - Vote type: Simple proportional vote
 - Snapshot block-height: `1,772,100`, roughly **7pm UTC on November 2nd, 2021**
