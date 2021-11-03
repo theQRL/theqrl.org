@@ -25,7 +25,7 @@ toc: true
 
 Quantum computing is finally on the verge of becoming commercially useful[^COMM][^NISQ] and is being developed at an accelerating pace[^PACE]. As of this article, [two Chinese teams claim to have reached primacy (first stage of being commercially useful) with quantum computers](https://phys.org/news/2021-10-chinese-teams-primacy-quantum.html).
 
-**Seven out of the top ten tech giants are either publicly competing for market dominance or involved in some capacity**[^TOPTEN]. This includes Google[^GOOGLE], Amazon[^AMAZON], Alibaba[^ALIBABA], TSMC[^TCMC], Tencent Holdings[^TENCENT] IBM[^IBM], Intel[^INTEL], Rigetti[^RIGETTI] and Microsoft[^MICROSOFT]. Other notable entrants include GlobalFoundries[^GLOBALFOUNDRIES], PsiQuantum[^PSIQUANTUM], Honeywell[^HONEYWELL], and dMY Technology Group III[^DMYI]. 
+**Seven out of the top ten tech giants are either publicly competing for market dominance or involved in some capacity**[^TOPTEN]. This includes Google[^GOOGLE], Amazon[^AMAZON], Alibaba[^ALIBABA], TSMC[^TSMC], Tencent Holdings[^TENCENT] IBM[^IBM], Intel[^INTEL], Rigetti[^RIGETTI] and Microsoft[^MICROSOFT]. Other notable entrants include GlobalFoundries[^GLOBALFOUNDRIES], PsiQuantum[^PSIQUANTUM], Honeywell[^HONEYWELL], and dMY Technology Group III[^DMYI]. 
 
 Additionally, **every single one of the G7 countries** are either involved in quantum computing like the USA[^USA], China[^CHINA], France[^FR], Canada[^CA], Japan[^JP], and the United Kingdom[^UK], or getting involved such as Italy[^IT]. Some other notable nation states and groups outside of the G7 include the European Union[^EU], and Russia[^RU].
 
@@ -43,17 +43,17 @@ The National Institute of Science and Technology (NIST), along with Cloudflare, 
 
 ### When will quantum computers be an immediate threat?
 
-This is the million (trillion?) dollar question. It's estimated to take between 1,500 and 3000 logical qubits to break most public key cryptography used today[^QBITSNEEDED]. 
+This is the million (trillion?) dollar question. It's estimated to take 2330 logical qubits to break most public key cryptography used today[^QBITSNEEDED]. 
 
 Both PsiQuantum (working with GlobalFoundries) and IBM are vying to have one million qubit computers by the end of this century[^MILLION]. While these aren't logical qubits, they can form logical qubits that are close to the numbers above. Adding to the mix, quantum computers can be networked together[^QNETWORK].
 
-Experts in the field have weighted in from time to time in evaluating the likelihood of a significant quantum threat to public-key cybersecurity, and 77% think there's *at least* a 5% chance of it happening within 10 years.
+Experts in the field have weighed in from time to time in evaluating the likelihood of a significant quantum threat to public-key cybersecurity, and 77% think there's *at least* a 5% chance of it happening within 10 years.
 
 {{< image "./images/quantumbreak.png" >}}
 
 That might not seem like much, but there's two key components missing. 
 
-1. The risk assessment of *cost*. For blockchain, that cost is currently 2.6 Trillion (not including NFT's).
+1. The risk assessment of *cost*. For blockchain, that cost is currently 2.6 Trillion (*not* including NFT's).
 2. The time it takes to prepare, otherwise evaluated as [Mosca's Theorem](https://globalriskinstitute.org/publications/3423-2/)
 
 ### Why waiting for the immediate threat isn't enough
@@ -64,17 +64,19 @@ It's that estimated preparation time that you want to use to work back-words for
 
 Worth a read on this subject is [Allen Walters](https://medium.com/u/ad87280e1b3e?source=post_page-----390fe55daab5--------------------------------) who broke down [Mosca’s Theorem and applied to the blockchain](/altcoin-magazine/an-addition-to-the-bitcoin-wiki-page-on-quantum-computing-and-moscas-theorem-of-risk-f2345e504bb4).
 
-For *everyone*, that preparation time will involve research, development, integration/deployment, and migration. It's no surprise then that we find Google, Cloudflare and others with deployed test implementations by now taking this seriously, even when the immediate danger seems so far off. 
+{{< image "./images/mosca.png" >}}
+
+For *everyone*, that preparation time will involve research, development, integration/deployment, and migration. It's no surprise then that we find Google, Cloudflare and others with deployed test implementations by now taking this seriously, even when the immediate danger might seem so far off[^PREPARE]. 
 
 ### Updating centralized vs decentralized systems
 
-Importantly, there are a lot of critical systems that rely on vulnerable cryptography, but they’re also centralized systems, leading to fast-migrations in the case of a [black swan](https://en.wikipedia.org/wiki/Black_swan_theory) event. This means they don’t face some crucial issues decentralized blockchains do. 
+There are a lot of critical systems that rely on vulnerable cryptography, but they’re also centralized systems, leading to fast-migrations in the case of a [black swan](https://en.wikipedia.org/wiki/Black_swan_theory) event. This means they don’t face some crucial issues decentralized blockchains do. 
 
-For blockchains including Bitcoin, '[not your keys, not your crypto](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters)' is the golden standard, and most people, individually, will need to update their keys. Banks, on the other hand, hold your keys so can upgrade their keys at any-point. They can, for example, centrally change their cryptography without compliance of their users and the whole process can be done without user interface. 
+For blockchains including Bitcoin, '[not your keys, not your crypto](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters)' is the golden standard, and most people will **individually need to update their keys**. Banks, on the other hand, hold and control your keys so can upgrade them at any-point. They can, for example, centrally change their cryptography without compliance of their users and the whole process can be done without user interface. 
 
 ## What does this mean for blockchains like Bitcoin?
 
-If you’re not up to date, most blockchains (including all in the top 10 on CMC) use either Elliptic Curve Digital Signature Algorithm (ECDSA) for public key cryptography, or some variant of it vulnerable to quantum computers[^ECCTOP]. Using a quantum computer, Shor’s algorithm[^SHORS] can be used to break ECDSA[^SHORSBREAK].
+If you’re not up to date, most blockchains (including all in the top 10 on CMC) use either Elliptic Curve Digital Signature Algorithm (ECDSA) for public key cryptography, or some variant of it vulnerable to quantum computers[^ECCTOP]. Using a quantum computer, Shor’s algorithm[^SHORS] can be used to break ECDSA[^SHORS].
 
 What this means is a powerful enough quantum computers can derive the private key from the public key and use that private key to create a transaction and empty your wallet.
 
@@ -84,15 +86,15 @@ More can be read in the paper “[quantum attacks on bitcoin, and how to protect
 
 ## How Quantum Resistant Ledger comes in
 
-Designing secure, impenetrable blockchain systems is becoming increasingly difficult due to the rapidly growing power of quantum computers. As we’ve found in creating our own blockchain, the process of making a blockchain quantum secure wasn’t merely matter of dropping in another signature scheme and opening a github repository. 
+As we’ve found in creating our own blockchain, the process of making a blockchain quantum secure wasn’t merely matter of dropping in another signature scheme and opening a github repository. 
 
-We first needed to consult with experts in the field of post-quantum cryptography and begin work on the structure of our codebase, which was first released to github in 2016\. It wasn’t until 2 years later did we release mainnet in 2018
+We first needed to consult with experts in the field of post-quantum cryptography and begin work on the structure of our codebase, which was first released to github in 2016 and later released as mainnet after a long testnet period in 2018.
 
-And we're safe from future threats too. The QRL includes the possibility to upgrade signature schemes and cryptographic hash functions, and indicate so through an address format. This brings forward the capability of being crypto-agile, something no blockchain should be without.
+And we're safe from future threats too. The QRL includes the possibility to [upgrade signature schemes and cryptographic hash functions](https://docs.theqrl.org/developers/address/), and indicate so through an address format. This brings forward the capability of being crypto-agile, something no blockchain should be without.
 
-Cryptocurrency and blockchain's entire security model rests on the assumption that quantum computers will not exist for at least another decade. When they do emerge and bring with them the ability to break existing protocols, we will be left in a dangerous, high-risk state. We need to address this threat now before it becomes too late.
+This space needs secure, impenetrable blockchain systems more than ever. Right now, cryptocurrency and blockchain's entire security model rests on the assumption that quantum computers will not exist for at least another decade. When they do emerge and bring with them the ability to break existing protocols, we will be left in a dangerous, high-risk state. We need to address this threat now before it becomes too late.
 
-The Quantum Resistant Ledger is a brand new blockchain system that is quantum computer proof and employs post-quantum computing technologies in its design for absolute security. This security has been externally audited from [red4sec](/the-quantum-resistant-ledger/red4sec-security-audit-concludes-a-summary-563ecfe04c75) and [x41 D-sec](https://github.com/theQRL/audits/blob/master/x41%20Audit%20Response.pdf).
+**The Quantum Resistant Ledger** is a brand new blockchain system that is post-quantum secure and employs post-quantum computing technologies in its design for absolute security, audited by [red4sec](/the-quantum-resistant-ledger/red4sec-security-audit-concludes-a-summary-563ecfe04c75) and [x41 D-sec](https://github.com/theQRL/audits/blob/master/x41%20Audit%20Response.pdf).
 
 Current features are:
 
@@ -111,22 +113,26 @@ Along with several methods to interact with the foundation to further expand the
 * [Wallet API (requires node)](https://api.theqrl.org/#wallet-api): If you’re working with wallets (ie. exchanges and other services), this is recommended.
 * [qrl command line (requires node)](https://docs.theqrl.org/wallet/wallet-cli/): Comes equipped with the python node, offers simpler functionality to the wallet API.
 * [qrl-cli](https://github.com/theQRL/qrl-cli): Executable with mac, linux, and osx binaries, for interacting with the QRL blockchain via scripts and applications without requiring a full node.
+* Suitable [documentation](https://docs.theqrl.org) and [API](https://api.theqrl.org) sites.
 
-All of this can be found in our [documentation](https://docs.theqrl.org) and [API](https://api.theqrl.org) sites.
+On the horizon we have smart-contracts and proof-of-stake which are ending their period of research and entering development along with a UAE developer hub that aims to triple our development output. 
 
-And with a roadmap which includes full support for Smart-contracts and Proof-of-Stake.
+This will position QRL as the most secure and feature rich blockchain project that can be counted on for secure digital assets into the future.
 
 ## References
 
-[^SHORS]: [Shors algorithm](https://arxiv.org/abs/quant-ph/0301141)
+[^SHORS]: Shor's algorithm
 
-[^SHORSBREAK]: Shor's algorithm break ECC
-
-	- reference
+	- [Shor's discrete logarithm quantum algorithm for elliptic curves](https://arxiv.org/pdf/quant-ph/0301141.pdf), John Proos, 2008
 
 [^QBITSNEEDED]: Qubits needed
 
+	- 2330 - [Quantum Resource Estimates for ComputingElliptic Curve Discrete Logarithms](https://eprint.iacr.org/2017/598.pdf), Microsoft Research 
+
 [^QNETWORK]: Qubit network
+
+	- [Towards a Distributed Quantum Computing Ecosystem](https://arxiv.org/abs/2002.11808), arxiv, 2020
+	- [Scalable distributed gate-model quantum computers](https://www.nature.com/articles/s41598-020-76728-5), Nature, 2021
 
 [^NISQ]: Noisy Intermediate-Scale Quantum (NISQ) Computers
 
@@ -134,6 +140,18 @@ And with a roadmap which includes full support for Smart-contracts and Proof-of-
 	- [We've Entered a New Era in Quantum Computing](https://gizmodo.com/weve-entered-a-new-era-of-quantum-computing-1821807439), Ryan F. Mandelbaum, May 2018, Gizmodo
 
 [^ECCTOP]: Top blockchain cryptosystems
+
+	- See: http://ethanfast.com/top-crypto.html
+	- Bitcoin, ECDSA (secp256k1): Not quantum secure
+	- Ethereum, ECDSA (secp256k1): Not quantum secure
+	- Binance Coin, ECDSA: Not quantum secure
+	- Tether: Ethereum ERC20 token: Not quantum secure
+	- Solana: EdDSA (curve25519): Not quantum secure
+	- Cardano: EdDSA (curve25519): Not quantum secure
+	- XRP: ECDSA, EdDSA (curve25519, secp256k1): Not quantum secure
+	- Polkadot: ECDSA, Schnorr, EdDSA (curve25519, ristretto25519, secp256k1): Not quantum secure
+	- Shiba Inu: Ethereum ERC20 token: Not quantum secure
+	- Dogecoin: 
 
 [^COMM]: Commercialization
 
@@ -169,7 +187,7 @@ And with a roadmap which includes full support for Smart-contracts and Proof-of-
 
 	- [Crypto agility - How to determine your timeline for post-quantum preparation](https://content.hsm.utimaco.com/blog/how-to-determine-your-timeline-for-post-quantum-preparation)
 
-[^TOPTEN]: [TOP 10 tech companies by marketcap](https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/) and their involvement with quantum computing
+[^TOPTEN]: [Top 10 tech companies by marketcap](https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/) and their involvement with quantum computing
 
     - 2,489 billion: Microsoft. [A scalable, open approach to quantum solutions and development](https://www.microsoft.com/en-us/quantum)
     - 2,476 billion: Apple. No current public move into quantum computing
@@ -182,19 +200,37 @@ And with a roadmap which includes full support for Smart-contracts and Proof-of-
     - 583 billion: Tencent Holdings [Tencent Quantum Lab](https://quantum.tencent.com/en-us/about/)
     - 447 billion: Alibaba [Alibaba puts quantum computing in the public cloud, follows Intel and IBM's lead](https://www.techrepublic.com/article/alibaba-puts-quantum-computing-in-the-public-cloud-follows-intel-and-ibms-lead/)
 
-[^TENCENT]: Tencent slug
+[^TENCENT]: Tencent
 
-[^TCMC]: TCMC slug
+	- [Tencent Quantum Lab](https://quantum.tencent.com/en-us/)
 
-[^PSIQUANTUM]: PSIQuantum slug
+[^TSMC]: TSMC
 
-[^GLOBALFOUNDRIES]: GlobalFoundries slug
+	- [TSMC is working on creating quantum processors](https://hardwaresfera.com/en/noticias/hardware/tsmc-esta-trabajando-en-la-creacion-de-procesadores-cuanticos/)
 
-[^ALIBABA]: Alibaba slug
+[^PSIQUANTUM]: PSIQuantum
 
-[^DMYI]: dMY Technology Group III slug
+	- [psiquantum.com/](https://psiquantum.com/)
 
-[^HONEYWELL]: Honeywell slug
+[^GLOBALFOUNDRIES]: GlobalFoundries
+
+	- [PsiQuantum and GLOBALFOUNDRIES to Build the World’s First Full-scale Quantum Computer](https://gf.com/press-release/psiquantum-and-globalfoundries-build-worlds-first-full-scale-quantum-computer), 2021
+
+[^ALIBABA]: Alibaba
+
+	- [Alibaba Cloud and CAS Launch One of the World’s Most Powerful Public Quantum Computing Services](https://www.alibabacloud.com/press-room/alibaba-cloud-and-cas-launch-one-of-the-worlds-most), 2018
+
+[^DMYI]: dMY Technology Group III
+
+	- [dMY Technology Group III](https://www.dmytechnology.com/)
+
+[^HONEYWELL]: Honeywell
+
+	- [Achieving Quantum Volume 128 on the Honeywell Quantum Computer](https://www.honeywell.com/us/en/news/2020/09/achieving-quantum-volume-128-on-the-honeywell-quantum-computer)
+
+[^AMAZON]: Amazon
+
+	- [Amazon Quantum Solutions Lab](https://aws.amazon.com/quantum-solutions-lab/)
 
 [^MILLION]: Million qubit initiatives
 
@@ -271,10 +307,6 @@ And with a roadmap which includes full support for Smart-contracts and Proof-of-
 	- [“And a million-physical-qubit system, whose general computing applications are still difficult to even fathom? It’s conceivable, says Neven, “on the inside of 10 years.”](https://www.technologyreview.com/s/603495/10-breakthrough-technologies-2017-practical-quantum-computers/), Harmut Nevan, Head of Google's quantum computing effort
 	- ["Five years from now, we will have a commercial quantum computer"](https://www.barrons.com/articles/microsoft-we-have-the-qubits-you-want-1519434417)
 	- [QuantumAI](https://quantumai.google/)
-
-[^AMAZON]: Amazon
-
-	- 
 
 [^IBM]: IBM
 
