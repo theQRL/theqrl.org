@@ -6,3 +6,4 @@ node_modules
 **/.DS_Store
 resources/_gen
 .idea
+.hugo_build.lock
