@@ -29,7 +29,7 @@ The reasoning for XMSS was multi-fold. *First*, hash-based cryptosystems are rea
 
 *Finally*, XMSS is a *stateful* signature scheme, and with the blockchain being stateful as well, the fit is natural - though no small feat!
 
-{{< twitter "1323800175219888129" >}}
+{{< twitter user="QRLedger" id="1323800175219888129" >}}
 
 ## Why acknowledge the threat? Because commercially available quantum computers are here now, and progress is accelerating to bring them to scale
 
@@ -47,7 +47,7 @@ The National Institute of Science and Technology (NIST), along with Cloudflare, 
 
 Other models exist, such as [QCCalc](https://github.com/theqrl-community/QCcalc) created by a QRL Community member.
 
-{{< twitter "1159125977387208704" >}}
+{{< twitter user="JSmith_Crypto" id="1159125977387208704" >}}
 
 **The bottom line is, with a total marketcap of over $500 Billion as of this post and something most of us wish to be much higher, risk tolerances needs to be much lower and security needs to be paramount.**
 
@@ -57,7 +57,7 @@ At QRL, we're not willing to wait around.
 
 Outside of the threat of governments, quantum computers remain the second biggest perceived risk to Bitcoin.
 
-{{< twitter "1336980583201861638" >}}
+{{< twitter user="100trillionUSD" id="1336980583201861638" >}}
 
 The Quantum Resistant Ledger is ready. Today.
 

@@ -23,7 +23,7 @@ From this we can arrive to the "safe" assumption that quantum computing is final
 
 **But this is a lie Big Tech wants you to believe**, designed to get the population to comply by fear tactics through fake news and reference dumps such as the above. The **real ugly truth** is the entire industry has been culpable in using Fear, Uncertainty, and Doubt (FUD) to drive a narrative. QRL, through the advocacy efforts has successfully sowed FUD throughout the blockchain industry, where it is now the second most perceived threat to many. 
 
-{{< twitter "1336980583201861638" >}}
+{{< twitter user="100trillionUSD" id="1336980583201861638" >}}
 
 And all you really need to do is **follow the money trail.**
 
