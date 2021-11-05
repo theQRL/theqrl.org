@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   sodipodi:docname="header.sept2021.svg"
-   inkscape:version="1.1 (1:1.1+202105261517+ce6663b3b7)"
+   sodipodi:docname="header.svg"
+   inkscape:version="1.1.1 (1:1.1+202109281949+c3084ef5ed)"
    inkscape:export-ydpi="230.39999"
    inkscape:export-xdpi="230.39999"
-   inkscape:export-filename="header.sept2021.png"
+   inkscape:export-filename="../images/header.png"
    id="svg8"
    version="1.1"
    viewBox="0 0 211.66667 105.83333"
@@ -95,17 +95,17 @@
   </defs>
   <sodipodi:namedview
      inkscape:document-rotation="0"
-     inkscape:window-maximized="1"
+     inkscape:window-maximized="0"
      inkscape:window-y="27"
-     inkscape:window-x="0"
-     inkscape:window-height="1320"
-     inkscape:window-width="2560"
+     inkscape:window-x="1316"
+     inkscape:window-height="1376"
+     inkscape:window-width="1244"
      units="px"
      showgrid="false"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
-     inkscape:cy="91.150484"
-     inkscape:cx="487.79319"
+     inkscape:cy="98.884464"
+     inkscape:cx="510.99513"
      inkscape:zoom="0.90509668"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
@@ -235,7 +235,7 @@
          style="stroke-width:4.5551" />
       <polygon
          class="st0"
-         points="661.91,180.61 661.91,163.81 583.59,163.81 583.59,47.03 565.85,47.03 565.85,180.61 644.17,180.61 "
+         points="565.85,47.03 565.85,180.61 644.17,180.61 661.91,180.61 661.91,163.81 583.59,163.81 583.59,47.03 "
          id="polygon1473"
          style="stroke-width:4.5551" />
     </g>
@@ -255,7 +255,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:141.55px;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:3.34889"
          id="flowPara1052">QRL-CLI: ADD GENERATE-SHARED-KEYS FOR EPHEMERAL MESSAGING SYSTEM</flowPara></flowRoot>
     <flowRoot
-       transform="matrix(0.13610658,0,0,0.14249121,-172.16628,173.58622)"
+       transform="matrix(0.13266545,0,0,0.13888866,-169.72576,174.56287)"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:134.072px;line-height:1.25;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#ffa729;fill-opacity:1;stroke:none;stroke-width:3.17197"
        id="flowRoot934"
        xml:space="preserve"><flowRegion
@@ -268,7 +268,7 @@
            width="1965.9701"
            id="rect928" /></flowRegion><flowPara
          id="flowPara5244"
-         style="text-align:justify;text-anchor:start">ON-CHAIN VOTING</flowPara></flowRoot>
+         style="text-align:justify;text-anchor:start">VOTE COMMENCES</flowPara></flowRoot>
     <rect
        style="fill:#3992f1;fill-opacity:1;stroke-width:0.264583;stroke-linecap:square;paint-order:markers stroke fill"
        id="rect919"
@@ -292,7 +292,7 @@
              y="112.85714"
              style="fill:#ffa729;fill-opacity:1;stroke-width:1.55931;-inkscape-font-specification:'Alte DIN 1451 Mittelschrift, Bold';font-family:'Alte DIN 1451 Mittelschrift';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:78.95030836px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;" /></flowRegion><flowPara
            id="flowPara912"
-           style="text-align:end;text-anchor:end">SEPT 2021</flowPara><flowPara
+           style="text-align:end;text-anchor:end">OCT 2021</flowPara><flowPara
            id="flowPara914"
            style="text-align:end;text-anchor:end" /></flowRoot>
       <flowRoot
@@ -312,7 +312,7 @@
            style="text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1">LAST MONTH AT QRL</flowPara></flowRoot>
     </g>
     <flowRoot
-       transform="matrix(0.07550228,0,0,0.07550228,-129.72818,200.60205)"
+       transform="matrix(0.07674481,0,0,0.07674481,-130.62087,200.47736)"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:134.072px;line-height:1.25;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.17197"
        id="flowRoot1000"
        xml:space="preserve"><flowRegion
@@ -324,17 +324,15 @@
            height="493.66876"
            width="3017.2336"
            id="rect994" /></flowRegion><flowPara
-         id="flowPara1002"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift'">THE QRL SHOW: INTERVIEW WITH </flowPara><flowPara
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift'"
-         id="flowPara10080" /></flowRoot>
+         id="flowPara10080">UAE DEV EXPANSION KICKS OFF</flowPara></flowRoot>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-109.13343,156.50626)"
        id="text8904"
        style="font-size:37.3334px;line-height:1.25;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift, Normal';text-align:center;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect8906);opacity:0.999906;fill:#ffffff;stroke-width:7;stroke-linejoin:round;stroke-dashoffset:0.2992;paint-order:stroke markers fill" />
     <flowRoot
-       transform="matrix(0.50008961,0,0,0.50124948,-430.94073,118.19299)"
+       transform="matrix(0.46832156,0,0,0.46940775,-408.3789,122.02473)"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:35.3392px;line-height:1.25;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#ffa729;fill-opacity:1;stroke:none;stroke-width:3.17197"
        id="flowRoot37908"
        xml:space="preserve"><flowRegion
@@ -347,9 +345,9 @@
            width="1082.5774"
            id="rect37902" /></flowRegion><flowPara
          id="flowPara37906"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:35.3392px;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift Bold';text-align:justify;text-anchor:start">QUANTUM SECURE</flowPara></flowRoot>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:35.3392px;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift Bold';text-align:justify;text-anchor:start">SEMINAL ON-CHAIN</flowPara></flowRoot>
     <flowRoot
-       transform="matrix(0.07864186,0,0,0.07864186,-130.49284,211.31796)"
+       transform="matrix(0.06641921,0,0,0.06641921,-121.72995,213.04421)"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:134.072px;line-height:1.25;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.17197"
        id="flowRoot20178"
        xml:space="preserve"><flowRegion
@@ -362,7 +360,7 @@
            width="3017.2336"
            id="rect20170" /></flowRegion><flowPara
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift'"
-         id="flowPara20176">QRL ADVISOR ROBBY DERMODY</flowPara></flowRoot>
+         id="flowPara20176">OG DEV CHARLIE RESUMES ENQLAVE</flowPara></flowRoot>
   </g>
   <style
      type="text/css"

@@ -96,7 +96,7 @@
        transform="matrix(0.7570532,0,0,0.7570532,-10.045794,12.207988)"><tspan
          x="26.33773"
          y="218.86018"
-         id="tspan10082">ON-CHAIN VOTING</tspan></text>
+         id="tspan11900">ON-CHAIN VOTING</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,0.40750071,154.43654)"
@@ -145,7 +145,7 @@
        transform="matrix(0.7570532,0,0,0.7570532,-3.8570111,104.09197)"><tspan
          x="26.33773"
          y="218.86018"
-         id="tspan10084">#TESTPILOTS</tspan></text>
+         id="tspan11902">#TESTPILOTS</tspan></text>
     <g
        id="g971"
        transform="matrix(0.49130406,0.49130406,-0.49130406,0.49130406,67.910497,166.91407)"
@@ -1311,11 +1311,11 @@
        transform="matrix(0.7570532,0,0,0.7570532,-10.045794,22.414031)"><tspan
          x="26.33773"
          y="218.86018"
-         id="tspan10090"><tspan
+         id="tspan11908"><tspan
            style="fill:#0b181e"
-           id="tspan10086">PUBLIC TESTNET READY</tspan><tspan
+           id="tspan11904">PUBLIC TESTNET READY</tspan><tspan
            style="fill:#ffffff"
-           id="tspan10088">.</tspan></tspan></text>
+           id="tspan11906">.</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text21280"
@@ -1325,6 +1325,6 @@
        transform="matrix(0.7570532,0,0,0.7570532,-6.5356035,84.751286)"><tspan
          x="26.33773"
          y="218.86018"
-         id="tspan10092">JOIN THE DISCORD</tspan></text>
+         id="tspan11910">JOIN THE DISCORD</tspan></text>
   </g>
 </svg>
