@@ -22,7 +22,10 @@
         <span>{{ .Params.summary }}</span>
       </div>
     <div class="center date-box">
-      {{ if .Params.featured_image }}
+      {{ if .Params.youtube }}
+        {{ partial "elements/youtube.html" . }}
+      
+      {{ else if .Params.featured_image }}
       {{ $resource := printf "/content/%simages/%s" .File.Dir .Params.featured_image }}
       {{- $image := resources.Get $resource -}}
       {{ $after := $image.Resize "800x" }}
