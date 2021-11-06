@@ -20,7 +20,7 @@ toc: true
 
 In August, QIP-016, a proposal to reduce network emissions emerged and established a great amount of *conversation* and some amount of controversy. As it had significant implications for the tokenomics of the QRL project, and the community deemed it as urgent to take it to a vote, work was halted on EnQlave and moved to on-chain voting as well as a proper [QRL Improvement Proposal restructure](https://github.com/theQRL/qips/pull/34) that would successfully work in conjunction with on-chain voting.
 
-In late September, [on-chain voting was released](/blog/decentralized-on-chain-voting-enters-public-testing/) as part of our testpilot program, and later debut as [vote-qrl](https://github.com/theQRL/vote-qrl/) for anyone to hold their own on-chain votes for whatever they wish.
+In late September, [on-chain voting was released](/blog/decentralized-on-chain-voting-enters-public-testing/) as part of our testpilot program, and later debuted as [vote-qrl](https://github.com/theQRL/vote-qrl/) for anyone to hold their own on-chain votes for whatever they wish.
 
 If you haven't already participated, voting is still open until **November 16th, 2021** so vote if you can!
 
@@ -34,9 +34,9 @@ Charlie Thompson, the person who first started work on EnQlave last year and bro
 
 After that, development should resume.
 
-### UAE developer expansion
+### Developer expansion
 
-After landing in the UAE and getting through the paperwork, work has commenced on finding developers. Over the last month we've started the expansion with several interviews and we'll need to evaluate a few candidates before finally on-boarding into development. 
+After landing in the UAE and getting through the paperwork, work has commenced on finding developers. Over the last month we've started the expansion with several interviews and we'll need to further evaluate a few candidates before finally on-boarding into development. 
 
 Right now we're looking to on-board three at a time, with an eventual development team size of 6-10 developers, depending on capacity and resources needed.
 
