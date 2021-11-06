@@ -9,7 +9,7 @@ layout_single_header:
   cta:
     primary:
       text: View markets
-      link: '#markets'
+      link: '/markets'
     secondary:
       text: Coin economics
       link: '/markets/#coin-economics'
@@ -25,11 +25,15 @@ toc: true
 
 Quantum computing is finally on the verge of becoming commercially useful[^COMM][^NISQ] and is being developed at an accelerating pace[^PACE]. As of this article, [two Chinese teams claim to have reached primacy (first stage of being commercially useful) with quantum computers](https://phys.org/news/2021-10-chinese-teams-primacy-quantum.html).
 
+
+
 **Seven out of the top ten tech giants are either publicly competing for market dominance or involved in some capacity**[^TOPTEN]. This includes Google[^GOOGLE], Amazon[^AMAZON], Alibaba[^ALIBABA], TSMC[^TSMC], Tencent Holdings[^TENCENT] IBM[^IBM], Intel[^INTEL], Rigetti[^RIGETTI] and Microsoft[^MICROSOFT]. Other notable entrants include GlobalFoundries[^GLOBALFOUNDRIES], PsiQuantum[^PSIQUANTUM], Honeywell[^HONEYWELL], dMY Technology Group III[^DMYI], and IonQ[^IONQ]. 
+
+{{< image "./images/qcinvolvement.png" >}}
 
 Additionally, **every single one of the G7 countries** are either involved in quantum computing like the USA[^USA], China[^CHINA], France[^FR], Canada[^CA], Japan[^JP], and the United Kingdom[^UK], or getting involved such as Italy[^IT]. Some other notable nation states and groups outside of the G7 include the European Union[^EU], and Russia[^RU].
 
-**Why?** Quantum computers offers advances that aren't currently possible with classical computers, or can be otherwise sped up by quantum computers. This class of problems solvable by a quantum computer are known in computational complexity theory as [bounded-error quantum polynomial time (BQP)](https://www.quantiki.org/wiki/bqp). This additional class of new problems that can be solved will lead to the revolutionary advancement for AI[^AI], chemistry[^CHEM], materials science[^MATERIALS], finance[^FINANCE], and security[^QSEC] sectors, combined worth a total of trillions. Financial motives aside, **quantum computers can break current public key cryptography used for the Internet, Banks, Blockchain, and many other systems.**
+**Why?** Quantum computers offer advances that aren't currently possible with classical computers, or can be otherwise sped up by quantum computers. This class of problems solvable by a quantum computer are known in computational complexity theory as [bounded-error quantum polynomial time (BQP)](https://www.quantiki.org/wiki/bqp). This additional class of new problems that can be solved will lead to the revolutionary advancement for AI[^AI], chemistry[^CHEM], materials science[^MATERIALS], finance[^FINANCE], and security[^QSEC] sectors, combined worth a total of trillions. Financial motives aside, **quantum computers can break current public key cryptography used for the Internet, Banks, Blockchain, and many other systems.**
 
 **There's a lot on the line, and the time is really running out to act - at least for blockchain.**
 
@@ -78,7 +82,7 @@ For blockchains including Bitcoin, '[not your keys, not your crypto](https://www
 
 If you’re not up to date, most blockchains (including all in the top 10 on CMC) use either Elliptic Curve Digital Signature Algorithm (ECDSA) for public key cryptography, or some variant of it vulnerable to quantum computers[^ECCTOP]. Using a quantum computer, Shor’s algorithm[^SHORS] can be used to break ECDSA[^SHORS].
 
-What this means is a powerful enough quantum computers can derive the private key from the public key and use that private key to create a transaction and empty your wallet.
+What this means is powerful enough quantum computers can derive the private key from the public key and use that private key to create a transaction and empty your wallet.
 
 As of June of 2018, it’s been [calculated that 36% of bitcoins reveal their public keys](/@sashagnip/how-many-bitcoins-are-vulnerable-to-a-hypothetical-quantum-attack-3e59e4172e8). Further complicating the above matter, anytime you make a transaction, your public key is revealed to the network. At that point, if the quantum computer is fast enough, (or the network is congested, you pay a low tx fee, etc), a private key can be derived and a new transaction with a higher fee can be made which will process sooner, and empty your wallet.
 
