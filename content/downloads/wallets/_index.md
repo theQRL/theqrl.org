@@ -7,11 +7,11 @@ parent: downloads
 
 ### Desktop wallets
 
-**MacOS** > [MACOS-qrl-wallet_1.7.0_x64.dmg](https://github.com/theQRL/qrl-wallet/releases/download/v1.7.0/MACOS-qrl-wallet_1.7.0_x64.dmg)
+**MacOS** > [MACOS-qrl-wallet_1.7.3_x64.dmg](https://github.com/theQRL/qrl-wallet/releases/download/v1.7.3/MACOS-qrl-wallet_1.7.3_x64.dmg)
 
-**Windows** > [WINDOWS-qrl-wallet_1.7.0_x64.msi](https://github.com/theQRL/qrl-wallet/releases/download/v1.7.0/WINDOWS-qrl-wallet_1.7.0_x64.msi)
+**Windows** > [WINDOWS-qrl-wallet_1.7.3_x64.msi](https://github.com/theQRL/qrl-wallet/releases/download/v1.7.3/WINDOWS-qrl-wallet_1.7.3_x64.msi)
 
-**Linux** > [LINUX-qrl-wallet_1.7.0_amd64.deb](https://github.com/theQRL/qrl-wallet/releases/download/v1.7.0/LINUX-qrl-wallet_1.7.0_amd64.deb) \| [LINUX-qrl-wallet_1.7.0_x64.rpm](https://github.com/theQRL/qrl-wallet/releases/download/v1.7.0/LINUX-qrl-wallet_1.7.0_x64.rpm)
+**Linux** > [LINUX-qrl-wallet_1.7.3_amd64.deb](https://github.com/theQRL/qrl-wallet/releases/download/v1.7.3/LINUX-qrl-wallet_1.7.3_amd64.deb)
 
 &nbsp;
 
