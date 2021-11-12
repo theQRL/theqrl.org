@@ -43,4 +43,4 @@ Speaker: **Ajay S Singh ICAS*
 
 Unfortunately, due to circumstances beyond our control, BlockDelhi 2018 will not be live-streamed. However, we will continue to produce social media content during the conference and will have a wrap-up blog published following the conference, highlighting our activities there.
 
-We hope you can attend, or join the discussion on [reddit](https://www.reddit.com/r/QRL/), [discord](https://discord.gg/BheKAZb), or [twitter](https://twitter.com/qrledger).
+We hope you can attend, or join the discussion on [reddit](https://www.reddit.com/r/QRL/), [discord](/discord), or [twitter](https://twitter.com/qrledger).

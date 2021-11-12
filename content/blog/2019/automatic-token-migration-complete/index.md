@@ -48,4 +48,4 @@ At no point in time will the Quanta be accessible to the Foundation. Anyone that
 
 This automatic token migration couldn’t have happened without you!
 
-If there’s any other questions you might have you can email us at support@theqrl.org or reach us on [Reddit](https://reddit.com/r/QRL/), [Twitter](https://twitter.com/qrledger), or [Discord](https://discord.gg/jBT6BEp).
+If there’s any other questions you might have you can email us at support@theqrl.org or reach us on [Reddit](https://reddit.com/r/QRL/), [Twitter](https://twitter.com/qrledger), or [Discord](/discord).

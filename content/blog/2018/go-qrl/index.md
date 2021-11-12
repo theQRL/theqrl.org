@@ -67,4 +67,4 @@ Some highlights not mentioned in this blog are:
 
 * Audit to start Monday 20th August: scope and logistics discussed
 
-Be sure to read the full summary [here](https://github.com/theQRL/dev-meetings/blob/master/2018/08/16.md). This is something we are trialing so it may not be a permanent feature. If you find you really enjoy it, let us know in our [Discord](https://discord.gg/jBT6BEp) or [Reddit](https://www.reddit.com/r/qrl).
+Be sure to read the full summary [here](https://github.com/theQRL/dev-meetings/blob/master/2018/08/16.md). This is something we are trialing so it may not be a permanent feature. If you find you really enjoy it, let us know in our [Discord](/discord) or [Reddit](https://www.reddit.com/r/qrl).

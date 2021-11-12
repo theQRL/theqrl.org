@@ -48,4 +48,4 @@ Here is what wintermute had to say:
 
 As per their own words, wintermute has been aware of QRL since “it was just an idea.” We value all of our community members, but the perspective of a long-time member such as wintermute is irreplaceable as our community continues to grow. Wintermute has shown themselves to be a productive, positive member of our community and we are pleased that they have received the September Community Nomination.
 
-Know someone who you think deserves a Community Nomination? Write “nominate [platform] [username]” (example: nominate twitter QRLedger) in the [#butler channel](https://discordapp.com/channels/357604137204056065/357607117412106241/510858891706236929) of our [Discord server](https://discord.gg/BheKAZb).
+Know someone who you think deserves a Community Nomination? Write “nominate [platform] [username]” (example: nominate twitter QRLedger) in the [#butler channel](https://discordapp.com/channels/357604137204056065/357607117412106241/510858891706236929) of our [Discord server](/discord).

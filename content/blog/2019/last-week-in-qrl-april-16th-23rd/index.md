@@ -17,7 +17,7 @@ categories:
 
 ### Languages
 
-[Last week](/blog/last-week-in-qrl-april-9-15th) we started rolling out language channels in our [Discord server](https://discord.gg/DfaNhM) with the assistance of qrlbutler and [Google Translate](https://cloud.google.com/translate/docs/). So far we have [Russian](https://discord.gg/qFU3AGW) and [Spanish](https://discord.gg/AcSjhug) channels, with more to come in the following weeks.
+[Last week](/blog/last-week-in-qrl-april-9-15th) we started rolling out language channels in our [Discord server](/discord) with the assistance of qrlbutler and [Google Translate](https://cloud.google.com/translate/docs/). So far we have [Russian](/discord) and [Spanish](/discord) channels, with more to come in the following weeks.
 
 While this is presently landlocked to Discord, the full intent is that it will eventually reach beyond that, to most social media platforms.
 

@@ -88,7 +88,7 @@ July’s nomination goes to discord user ‘Strike Attack’, who has been instr
 
 As an extension to the above statement, he’s written a blog that outlines his full story about how he came to know about quantum computers and QRL in more detail. It’s [well worth a read](https://medium.com/@MichaelStrike1978/i-had-first-heard-about-a-qc-quantum-computer-in-1997-while-speaking-with-a-colleague-8cadc4b16924).
 
-If you know someone that’s contributed to the QRL ecosystem who you’d like to nominate, you can do so by going to The [QRL Discord](https://discord.gg/jBT6BEp) and nominating in the #butler channel.
+If you know someone that’s contributed to the QRL ecosystem who you’d like to nominate, you can do so by going to The [QRL Discord](/discord) and nominating in the #butler channel.
 
 ## The QRL Community github
 
@@ -98,7 +98,7 @@ Right now there’s theQRL github repository which has strict guidelines. The [Q
 * [qrlbutler](https://github.com/theqrl-community/qrlbutler): The modular bot that is in our discord
 * [qccalc](https://github.com/theqrl-community/QCcalc): A MATLAB project that generates a probability distribution for the likelihood that 256-bit ECDSA signatures will be ‘broken’ by quantum computer over the course of the coming years.
 
-Have a project that you’d like to see here or would like to host, get in touch on our [discord](https://discord.gg/jBT6BEp)!
+Have a project that you’d like to see here or would like to host, get in touch on our [discord](/discord)!
 
 ## The QRL Contributors public release
 

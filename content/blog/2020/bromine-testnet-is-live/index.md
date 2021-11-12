@@ -70,7 +70,7 @@ start_qrl --network-type testnet
 
 ### Getting Quanta
 
-You can get Quanta by mining (below), using the [qrl testnet faucet](https://testnet-faucet.qrl.tips/) or by asking in [Discord](https://discord.gg/jBT6BEp) or [Reddit](https://reddit.com/r/qrl) for some.
+You can get Quanta by mining (below), using the [qrl testnet faucet](https://testnet-faucet.qrl.tips/) or by asking in [Discord](/discord) or [Reddit](https://reddit.com/r/qrl) for some.
 
 ## Mining
 
@@ -118,7 +118,7 @@ There are different testnet incentives each worth 100 Quanta (maximum 1 per pers
 * First CNv1 (cryptonight v1) mined block from a node
 * First RandomX mined block from a node
 
-It’s first come first serve, so first one to post a screenshot in [Discord,](https://discord.gg/jBT6BEp) [Reddit](https://reddit.com/r/qrl), or [Twitter](https://twitter.com/qrledger), will get the reward.
+It’s first come first serve, so first one to post a screenshot in [Discord,](/discord) [Reddit](https://reddit.com/r/qrl), or [Twitter](https://twitter.com/qrledger), will get the reward.
 
 ## Issues/bugs/questions?
 
@@ -134,4 +134,4 @@ If you’re not sure where to report it, feel free to come into our discord and 
 
 ### Questions/support
 
-For any other questions or banter, our [Discord](https://discord.gg/jBT6BEp) or [Reddit](https://reddit.com/r/qrl) communities are a good place to ask.
+For any other questions or banter, our [Discord](/discord) or [Reddit](https://reddit.com/r/qrl) communities are a good place to ask.

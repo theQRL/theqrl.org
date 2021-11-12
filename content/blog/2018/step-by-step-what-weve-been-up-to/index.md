@@ -71,7 +71,7 @@ To avoid any potential compromisation of security we will limit the scope of sma
 
 While we have had [documentation](https://docs.theqrl.org/) for various elements of our ecosystem up to this point, James has been hard at work with the API documentation, complete with examples on how to get started. The documentation is now live at [api.theqrl.org](https://api.theqrl.org). This is a major step in facilitating utility that will make it easier for developers, as well as outside organizations that may be interested, to build off our chain.
 
-Now is the time to get started and head over to the [qrl documentation site](https://docs.theqrl.org/), [run a node](https://docs.theqrl.org/node/QRLnode/), and browse the [#qrl-app-ideas](https://discord.gg/KAg5fAm) channel on our [Discord](https://discord.gg/KAg5fAm) for ideas — or share one there yourself!
+Now is the time to get started and head over to the [qrl documentation site](https://docs.theqrl.org/), [run a node](https://docs.theqrl.org/node/QRLnode/), and browse the [#qrl-app-ideas](/discord) channel on our [Discord](/discord) for ideas — or share one there yourself!
 
 ### Our road ahead
 

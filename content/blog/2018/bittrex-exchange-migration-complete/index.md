@@ -27,4 +27,4 @@ As a reminder The QRL is the first fully post-quantum blockchain ecosystem desig
 
 ## Migration deadline
 
-Reminder: We have set a deadline (contingent on Ledger release of version 1.5) for **28th February 2019 **for when we will close our automated migration [portal](http://migration.theqrl.org). If you would like to know how to migrate using the current system, we have a handy how-to video on [YouTube](https://www.youtube.com/watch?v=3YxjMZGxm7A). For further help on this process you can always contact the team via [support@theqrl.org](http://support@theqrl.org) or discuss with the team on [Discord](https://discord.gg/jBT6BEp).
+Reminder: We have set a deadline (contingent on Ledger release of version 1.5) for **28th February 2019 **for when we will close our automated migration [portal](http://migration.theqrl.org). If you would like to know how to migrate using the current system, we have a handy how-to video on [YouTube](https://www.youtube.com/watch?v=3YxjMZGxm7A). For further help on this process you can always contact the team via [support@theqrl.org](http://support@theqrl.org) or discuss with the team on [Discord](/discord).

@@ -105,4 +105,4 @@ Since our last update, we have launched our merchandise storefronts. So far over
 
 Teespring has been a wonderful partner, allowing us to sell merchandise essentially at-cost so that anyone who wants a QRL sticker, or QRL on their shirt, tote, phone case, etc. can have their wish at the lowest cost possible.
 
-As always, feel free to join our [Discord Server](https://discord.gg/BheKAZb) and chat with us and our community about where we are and where we’re going!
+As always, feel free to join our [Discord Server](/discord) and chat with us and our community about where we are and where we’re going!

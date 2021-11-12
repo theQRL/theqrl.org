@@ -103,7 +103,7 @@ This severely limits our advocacy and reach to far less than half of the populat
 
 jdfreshman is going to help moderate messages & answers questions that arise as well as repost announcements in Chinese on platforms such as WeChat and Weibo.
 
-**If you haven’t done so already, head on over to our [Discord](https://discord.gg/jBT6BEp) and give a warm welcome to our new Chinese social media ambassador, jdfreshman! Welcome aboard!**
+**If you haven’t done so already, head on over to our [Discord](/discord) and give a warm welcome to our new Chinese social media ambassador, jdfreshman! Welcome aboard!**
 
 ### QRL Fun with meme contest winner
 

@@ -48,7 +48,7 @@ Our first community nomination winner was Discord user Doney, for their written 
 Statement from Doney on how he came to the QRL
 > I heard about QRL when a friend of mine introduced me to blockchain and crypto. I started reading about blockchain and doing some research on crypto and eventually invested in a few projects. I was looking for unique projects, low market cap, a bit more risk, but higher possible profits. QRL since then became one of the favorite projects for me. So I started to read more and more about the subject. I like to test my opinions and fresh knowledge on reddit. I mean, post something there and you’ll be sure it gets blown to pieces if possible. Talking on reddit about quantum computers and the possible threat for blockchain, always guarantees fireworks, but info from the QRL team and community on slack and now discord has never been proven to be wrong so far. So I really like the technical side of the project and the people involved. The concept of QRL has materialized into a real, technically strong project. I really like the continuing technical development and the extra functionality that is added after launch, and I have a lot of faith in the developers and how they will continue to extend QRL.
 
-Our second community nomination winner was Discord user snannerb, for their artistic contributions. Snannerb has also created a [QRL Community Art Discord Server](https://discord.gg/VFFWbzq) where you can see and contribute artwork about or involving QRL.
+Our second community nomination winner was Discord user snannerb, for their artistic contributions. Snannerb has also created a [QRL Community Art Discord Server](/discord) where you can see and contribute artwork about or involving QRL.
 
 {{< image "./images/1EOfaVw_OZ_6_JlUmCZqhyw.png" >}}*Image created by snannerb*
 
@@ -60,7 +60,7 @@ Our most recent community nomination winner is Discord user dr_gonzo, whose posi
 Statement from dr_gonzo regarding the QRL
 > I became acquainted with QRL in the depths of the r/ethtrader subreddit in early 2017, where I stumbled upon a link Peter posted to his whitepaper. I had previously read a book about the progression of encryption throughout history, and in that book there was a description of the principles behind RSA. The authors noted that it was the hardest challenge yet for would-be code breakers, but that on a long enough timeline there would likely be a quantum computer capable of cracking our public-key infrastructure. I am excited for more people to learn about QRL as quantum computing news continues to accelerate.
 
-Remember, to nominate someone, head over to the main QRL [Discord](https://discord.gg/V5ZDUAr), channel #butler
+Remember, to nominate someone, head over to the main QRL [Discord](/discord), channel #butler
 
 ## Other Updates
 

@@ -100,4 +100,4 @@ The above functionality should be plenty to start developing your post-quantum s
 
 For those building QRL applications and wanting to showcase them, it’s encouraged to request to put them in our [theqrl-community](https://github.com/theqrl-community) github, which will allow projects to get some spotlight from the QRL community.
 
-Need an idea? Head over to [#qrl-app-ideas](https://discord.gg/KAg5fAm) in our Discord and pick one. Stuck? Post in our [#development](https://discord.gg/AmG7659) channel for any help you may need, and finally, don’t forget our [documentation](https://docs.theqrl.org/).
+Need an idea? Head over to [#qrl-app-ideas](/discord) in our Discord and pick one. Stuck? Post in our [#development](/discord) channel for any help you may need, and finally, don’t forget our [documentation](https://docs.theqrl.org/).

@@ -119,7 +119,7 @@ You can follow all proof-of-stake updates by visiting our [proof-of-stake](https
 
 *What do you think?*
 
-Join us in one of our many forums on [Telegram](https://t.me/QRLedgerOfficial), [Discord](https://discord.gg/jBT6BEp), [Reddit](https://www.reddit.com/r/qrl), [Facebook](https://www.facebook.com/theqrl/), or [KakaoTalk](https://open.kakao.com/o/gffKNhWb) and tell us. Or talk about everything else QRL to quantum computers and everything in-between.
+Join us in one of our many forums on [Telegram](https://t.me/QRLedgerOfficial), [Discord](/discord), [Reddit](https://www.reddit.com/r/qrl), [Facebook](https://www.facebook.com/theqrl/), or [KakaoTalk](https://open.kakao.com/o/gffKNhWb) and tell us. Or talk about everything else QRL to quantum computers and everything in-between.
 
 Want to stay up to date? Follow us on [Youtube](https://www.youtube.com/c/QRLedger), [Twitter](https://twitter.com/qrledger) or our [Telegram](https://t.me/TheQRLedger) news channel.
 

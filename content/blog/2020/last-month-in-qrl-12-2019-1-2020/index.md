@@ -61,4 +61,4 @@ While more information will come out regarding the hard fork on the other side o
 * Multisig addresses & transactions
 * LatticeTX (ephemeral messaging stub)
 
-There will be more information regarding the hard fork as we approach the dates for code freeze and ultimately, the fork itself. Watch this space as well as our [Twitter](http://@QRLedger), [Discord](https://discord.gg/BheKAZb), and our [subreddit](https://www.reddit.com/r/QRL/) for more information.
+There will be more information regarding the hard fork as we approach the dates for code freeze and ultimately, the fork itself. Watch this space as well as our [Twitter](http://@QRLedger), [Discord](/discord), and our [subreddit](https://www.reddit.com/r/QRL/) for more information.

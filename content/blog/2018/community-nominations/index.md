@@ -19,7 +19,7 @@ It’s time we recognised these people who go above and beyond, which we will do
 
 ## How it works
 
-One requirement is that nominations are made through Discord, so if you’re not already signed up, do so [here](https://discord.gg/jBT6BEp).
+One requirement is that nominations are made through Discord, so if you’re not already signed up, do so [here](/discord).
 
 Anyone can* *nominate a wide variety of people active in different platforms like Reddit, Medium, Twitter, and Discord (more added as necessary). These people don’t *have* to be active in our community either, as we will reach out.
 

@@ -53,7 +53,7 @@ Until our mainnet coin is listed on an exchange, we have opened an OTC (Over the
 
 It should be emphasized that doing *any* OTC trading is at your own risk, however, much of this can be mitigated by selecting a trustworthy escrow (third party to hold both parties funds and release them upon agreement).
 
-If you would like to take part in trading your Quanta, you can [join](https://discord.gg/vqCwVqH) and do so today.
+If you would like to take part in trading your Quanta, you can [join](/discord) and do so today.
 
 {{< image "./images/1UVxlRS2HOdrllPDYb0OwnQ.png" >}}
 
@@ -61,7 +61,7 @@ If you would like to take part in trading your Quanta, you can [join](https://di
 
 **Tipbots and Faucets**
 
-Work is being initiated on our tipbot and faucet. It’s still in the very early stages so if you have seen a faucet or tipbot that you like, let us know on [Reddit](https://www.reddit.com/r/qrl) or [Discord](https://discord.gg/jBT6BEp).
+Work is being initiated on our tipbot and faucet. It’s still in the very early stages so if you have seen a faucet or tipbot that you like, let us know on [Reddit](https://www.reddit.com/r/qrl) or [Discord](/discord).
 
 {{< image "./images/1SpqBxGHiRkKsoCBRNoCfIw.png" >}}
 
@@ -81,4 +81,4 @@ Basics concepts videos would explain certain aspects of QRL to everyday folks. W
 
 * Token use
 
-What would you like to see first? Have a different suggestion for a Basic Concepts video, let us know on [Reddit](https://www.reddit.com/r/qrl) or [Discord](https://discord.gg/jBT6BEp).
+What would you like to see first? Have a different suggestion for a Basic Concepts video, let us know on [Reddit](https://www.reddit.com/r/qrl) or [Discord](/discord).

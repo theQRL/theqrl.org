@@ -35,7 +35,7 @@ We would like to thank the Bittrex team for their professionalism in working clo
 
 As a project featuring cutting edge post-quantum cryptography, the QRL was not trivial to integrate — our crypto is peculiar and strange! But that is what sets our project apart from every other blockchain in the crypto ecosystem.
 
-After extensive work between our developers and the Bittrex team, we are pleased that further integration with other platforms should now be a far smoother process. We encourage any organisations interested in joining with the QRL to reach out via email or on [Twitter ](https://twitter.com/QRLedger)or [Discord](https://discord.gg/jBT6BEp).
+After extensive work between our developers and the Bittrex team, we are pleased that further integration with other platforms should now be a far smoother process. We encourage any organisations interested in joining with the QRL to reach out via email or on [Twitter ](https://twitter.com/QRLedger)or [Discord](/discord).
 
 On that note we have another exciting future relationship to announce in the coming weeks.
 
@@ -43,7 +43,7 @@ On that note we have another exciting future relationship to announce in the com
 
 Following Bittrex migration our previous token will be officially deprecated.
 
-We will set a hard deadline for **28th February 2019** for users to migrate using our automated migration [portal](http://migration.theqrl.org). For further help on this process you can always contact the team via [support@theqrl.org](http://support@theqrl.org) or discuss with the team on [Discord](https://discord.gg/jBT6BEp).
+We will set a hard deadline for **28th February 2019** for users to migrate using our automated migration [portal](http://migration.theqrl.org). For further help on this process you can always contact the team via [support@theqrl.org](http://support@theqrl.org) or discuss with the team on [Discord](/discord).
 
 {{< image "./images/1uvXxBT9GzqLSuO5Ue_CcTQ.jpeg" >}}*User art from Discord user SnannerB*
 
