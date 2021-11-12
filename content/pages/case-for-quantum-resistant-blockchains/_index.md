@@ -25,13 +25,13 @@ toc: true
 
 Quantum computing is finally on the verge of becoming commercially useful[^COMM][^NISQ] and is being developed at an accelerating pace[^PACE]. As of this article, [two Chinese teams claim to have reached primacy (first stage of being commercially useful) with quantum computers](https://phys.org/news/2021-10-chinese-teams-primacy-quantum.html).
 
-
-
 **Seven out of the top ten tech giants are either publicly competing for market dominance or involved in some capacity**[^TOPTEN]. This includes Google[^GOOGLE], Amazon[^AMAZON], Alibaba[^ALIBABA], TSMC[^TSMC], Tencent Holdings[^TENCENT] IBM[^IBM], Intel[^INTEL], Rigetti[^RIGETTI] and Microsoft[^MICROSOFT]. Other notable entrants include GlobalFoundries[^GLOBALFOUNDRIES], PsiQuantum[^PSIQUANTUM], Honeywell[^HONEYWELL], dMY Technology Group III[^DMYI], and IonQ[^IONQ]. 
 
 {{< image "./images/qcinvolvement.png" >}}
 
 Additionally, **every single one of the G7 countries** are either involved in quantum computing like the USA[^USA], China[^CHINA], France[^FR], Canada[^CA], Japan[^JP], and the United Kingdom[^UK], or getting involved such as Italy[^IT]. Some other notable nation states and groups outside of the G7 include the European Union[^EU], and Russia[^RU].
+
+[In-Q-Tel](https://www.iqt.org/), a corporation that uses [Central Intelligence Agency (CIA)](https://www.cia.gov/) supplied funds to make strategic investments in companies focused on producing commercially focused technology that's of value to the national security for the U.S. and its allies, is also invested in the quantum computing initiatives Rigetti, Q-CTRL, and D-WAVE[^IQT].
 
 **Why?** Quantum computers offer advances that aren't currently possible with classical computers, or can be otherwise sped up by quantum computers. This class of problems solvable by a quantum computer are known in computational complexity theory as [bounded-error quantum polynomial time (BQP)](https://www.quantiki.org/wiki/bqp). This additional class of new problems that can be solved will lead to the revolutionary advancement for AI[^AI], chemistry[^CHEM], materials science[^MATERIALS], finance[^FINANCE], and security[^QSEC] sectors, combined worth a total of trillions. Financial motives aside, **quantum computers can break current public key cryptography used for the Internet, Banks, Blockchain, and many other systems.**
 
@@ -41,9 +41,11 @@ Additionally, **every single one of the G7 countries** are either involved in qu
 
 ### A look at who's preparing
 
-The National Institute of Science and Technology (NIST), along with Cloudflare, Google, and others are preparing in advance[^PREPARE] for this inevitability. 
+[NIST has initiated a process to solicit, evaluate, and standardize one or more quantum-resistant public-key cryptographic algorithms](https://csrc.nist.gov/projects/post-quantum-cryptography/post-quantum-cryptography-standardization), and has put out a [recommendation for Stateful hash-based signature schemes](https://csrc.nist.gov/publications/detail/sp/800-208/final), including [XMSS](https://datatracker.ietf.org/doc/html/rfc8391), which is what Quantum Resistant Ledger uses.
 
-**Yes**, banks are preparing as well[^BANKS]. 
+Other organisations preparing for the quantum threat includes Cloudflare, Google, and others[^PREPARE]. Banks fully realise what's on the line and are preparing as well[^BANKS]. 
+
+
 
 ### When will quantum computers be an immediate threat?
 
@@ -142,6 +144,13 @@ This will position QRL as the most secure and feature rich blockchain project th
 
 	- [Quantum Computing in the NISQ era and beyond](https://arxiv.org/pdf/1801.00862.pdf), John Preskill, July 2018, Institute for Quantum Information and Matter and Walter Burke Institute for Theoretical Physics, California Institute of Technology, Pasadena
 	- [We've Entered a New Era in Quantum Computing](https://gizmodo.com/weve-entered-a-new-era-of-quantum-computing-1821807439), Ryan F. Mandelbaum, May 2018, Gizmodo
+
+[^IQT]: In-Q-Tel quantum computing investments
+
+	- [Quantum computer firm Rigetti to go public via $1.5b offering](https://www.globaltimes.cn/page/202110/1235748.shtml?id=11)
+	- [Jeff Bezos And The CIA Invest In D-Wave's Quantum Computer](https://www.forbes.com/sites/alexknapp/2012/10/05/jeff-bezos-and-the-cia-invest-in-d-waves-quantum-computer/?sh=2703aa477af4)
+	- [In-Q-Tel enters new quantum, synthetic data investments](https://washingtontechnology.com/articles/2020/04/14/inqtel-quantum-data.aspx)
+
 
 [^ECCTOP]: Top blockchain cryptosystems
 
