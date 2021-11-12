@@ -21,7 +21,7 @@ QRL Improvement Proposals (QIPS) can be used for a wide variety of things pertai
 With that out of the way, for this QIP, **we’re looking for two groups of people**:
 
 1. Creatives to design different currency concepts for Quanta and Shor, our two denominations. Please continue reading to the end to better understand submission requirements!
-1. People from all walks of life to act as private judges to evaluate whether a submission resembles like that of a currency. Interested? Please either message jackalyst on [discord](https://discord.gg/jBT6BEp) or through email at jack@theqrl.org.
+1. People from all walks of life to act as private judges to evaluate whether a submission resembles like that of a currency. Interested? Please either message jackalyst on [discord](/discord) or through email at jack@theqrl.org.
 
 ## Motivation
 
@@ -73,4 +73,4 @@ The submission deadline will be determined at the discretion of the judges based
 
 Have an idea yourself that can improve the QRL ecosystem which doesn’t fit as an issue and want to make your own QIP but are too intimidated by the process or not sure if it’s something that would qualify? *Please* reach out to jackalyst on discord or through email at jack@theqrl.org.
 
-Also feel free to first hash the thought out with our friendly community as well either on [discord](https://discord.gg/jBT6BEp) or [reddit](https://reddit.com/r/QRL).
+Also feel free to first hash the thought out with our friendly community as well either on [discord](/discord) or [reddit](https://reddit.com/r/QRL).

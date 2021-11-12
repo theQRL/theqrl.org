@@ -107,6 +107,6 @@ The more our community helps us test, the more confident we can be about a relea
 
 If you think it’s a *bug *or *issue*, report it to its specific repository at https://github.com/theQRL/.
 
-If you don’t have github or don’t want one you can always head over to our [discord](https://discord.gg/jBT6BEp) or [reddit](https://reddit.com/r/qrl) community and post there.
+If you don’t have github or don’t want one you can always head over to our [discord](/discord) or [reddit](https://reddit.com/r/qrl) community and post there.
 
 Finally, if you’re scratching your head trying to figure something out, give us a shout as well. Some bugs might be just in the way we convey something, and we’d like to be as clear as possible.

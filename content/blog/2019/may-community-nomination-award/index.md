@@ -19,4 +19,4 @@ Here’s what Mquantum had to tell us about themselves, and their relationship t
 
 Mquantum has been a member of the QRL community, as he states, since 2017. We value the diversity of knowledge present in our community highly, and are always glad to have that brought to bear in our community discussions. Mquantum has shown themselves to be a productive, positive member of our community and we are pleased that they are receiving the May Community Nomination.
 
-Know someone who you think deserves a Community Nomination? Write “nominate [platform] [username]” (example: nominate twitter QRLedger) in the [#butler channel](https://discordapp.com/channels/357604137204056065/357607117412106241/510858891706236929) of our [Discord server](https://discord.gg/zbAJ9YV).
+Know someone who you think deserves a Community Nomination? Write “nominate [platform] [username]” (example: nominate twitter QRLedger) in the [#butler channel](https://discordapp.com/channels/357604137204056065/357607117412106241/510858891706236929) of our [Discord server](/discord).

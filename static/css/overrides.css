@@ -25,45 +25,6 @@ p code {
   font-family: monospace;
 }
 
-.blogPageInner .blog-article ol {
-	font-size: 18px;
-	line-height: 26px;
-	padding-left: 18px;
-	margin: 40px 0;
-}
-
-.blogPageInner .blog-article ol > li {
-	list-style-type: decimal;
-	font-size: 18px;
-	line-height: 26px;
-}
-.blogPageInner .blog-article ol > li,
-.blogPageInner .blog-article ul > li {
-	margin: 5px;
-}
-.blogPageInner .blog-article ol ul,
-.blogPageInner .blog-article ol ol {
-	margin-bottom: 0px; margin-top: 0px;
-}
-
-.blogPageInner .blog-article ol p {
-	margin: 0;
-}
-
-/* This might have unintended consequences, but I haven't seen any */
-.blogPage .blogPageInner {
-	padding-top: 0;
-}
-
-.blogPageInner .blog-article pre {
-	tab-size: 4;
-	margin: revert;
-}
-
-.blogPageInner .blog-article code span {
-	font-size: unset;
-}
-
 .security__text a {
 	color: #4aafff;
 	-webkit-transition: opacity .3s ease-in-out,color .3s ease-in-out;
@@ -75,9 +36,6 @@ p code {
 	color: #ffa729;
 }
 
-.grid-markets {
-
-}
 .grid-markets .core__el__img img {
 	object-fit: contain;
 }

@@ -37,7 +37,7 @@ Questions can be asked in several different ways up to July 3rd, 2020:
 
 **Or ask in many other places**
 
-1. The QRL Discord channel [#qrlama](https://discord.gg/6STmfFh)
+1. The QRL Discord channel [#qrlama](/discord)
 1. Wherever this announcement is *posted*
 
 **From that**, we’ll compile the questions and do our best to record them in an audio format and put that in a video on our [youtube channel](https://www.youtube.com/channel/UCS2PP3kR9APyRUa9kRH8-uA) which will be posted on July 20th, 2020.

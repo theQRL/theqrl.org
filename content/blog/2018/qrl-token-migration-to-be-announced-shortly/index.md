@@ -57,7 +57,7 @@ If you’ve been following the Quantum Resistant Ledger blog lately, you will ha
 
 Additionally, for token migration, there will be a video on our [youtube](https://www.youtube.com/channel/UCZl6N10P9LNpYkrMwWYtK1w) channel, documentation on our [documentation website](https://docs.theqrl.org), and a blog post with links to everything along with instructions.
 
-Furthermore, there will be human support on high alert assisting in any way they can on d[iscord](https://discord.gg/jBT6BEp), r[eddit](https://www.reddit.com/r/qrl) and email.
+Furthermore, there will be human support on high alert assisting in any way they can on d[iscord](/discord), r[eddit](https://www.reddit.com/r/qrl) and email.
 
 To refresh your memory, here are the three easy steps:
 
@@ -83,7 +83,7 @@ With the latest hard-fork we have also implemented GPU pool support. Community m
 
 {{< image "./images/1Wev6Pr7bB2w8fyEWcuG0GQ.jpeg" >}}
 
-We have a guide soon to be added to our documentation site walking through how to connect to the QRL testnet. [Discord](https://discord.gg/BheKAZb) and [reddit](http://reddit.com/r/qrl) will help users who need additional help pointing their rigs at our testnet.
+We have a guide soon to be added to our documentation site walking through how to connect to the QRL testnet. [Discord](/discord) and [reddit](http://reddit.com/r/qrl) will help users who need additional help pointing their rigs at our testnet.
 
 ### **Documentation**
 

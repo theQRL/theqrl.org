@@ -113,7 +113,7 @@ https://scienceblog.com/521282/ibms-quantum-computer-links-two-quantum-revolutio
 
 Along with our monthly updates, we release weekly updates in our [newsletter](https://www.theqrl.org/subscribe/).
 
-You can be sure to follow these updates in our communities as well on [Telegram](https://t.me/QRLedgerOfficial), [Discord](https://discord.gg/jBT6BEp), [Reddit](https://www.reddit.com/r/qrl), [Facebook](https://www.facebook.com/theqrl/), or [KakaoTalk](https://open.kakao.com/o/gffKNhWb). 
+You can be sure to follow these updates in our communities as well on [Telegram](https://t.me/QRLedgerOfficial), [Discord](/discord), [Reddit](https://www.reddit.com/r/qrl), [Facebook](https://www.facebook.com/theqrl/), or [KakaoTalk](https://open.kakao.com/o/gffKNhWb). 
 
 Videos more you're thing? Be sure to follow us on [Youtube](https://www.youtube.com/c/QRLedger) or [Twitter](https://twitter.com/qrledger).
 

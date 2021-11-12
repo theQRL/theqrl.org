@@ -89,6 +89,6 @@ For a usage demonstration when it’s connected, Scott Donald has created a vide
 
 ## Extra
 
-As a reminder, this is just a brief overview, if you want more information you can always head over to our extensive documentation page on the [Ledger Nano](https://docs.theqrl.org/wallet/ledger-nano-s/) or ask any questions you may have on [Reddit](https://reddit.com/r/QRL), [Twitter](https://twitter.com/QRLedger), [Discord](https://discord.gg/jBT6BEp), or email [support@theqrl.org](mailto:support@theqrl.org).
+As a reminder, this is just a brief overview, if you want more information you can always head over to our extensive documentation page on the [Ledger Nano](https://docs.theqrl.org/wallet/ledger-nano-s/) or ask any questions you may have on [Reddit](https://reddit.com/r/QRL), [Twitter](https://twitter.com/QRLedger), [Discord](/discord), or email [support@theqrl.org](mailto:support@theqrl.org).
 
 For those that are a bit more patient, we also have a video in the works covering this process.

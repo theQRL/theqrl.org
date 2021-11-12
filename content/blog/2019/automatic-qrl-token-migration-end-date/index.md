@@ -28,4 +28,4 @@ Also on this documentation page you will find:
 
 This page can be accessed at: [https://docs.theqrl.org/tokenmigration/countdown/](https://docs.theqrl.org/tokenmigration/countdown/)
 
-As always, we’re here to answer any questions and provide support in [Discord](https://discord.gg/jBT6BEp), [Reddit](https://www.reddit.com/r/qrl), [Twitter](https://twitter.com/qrledger), [Facebook](https://www.facebook.com/theqrl), or through email at [support@theqrl.org](mailto:support@theqrl.org).
+As always, we’re here to answer any questions and provide support in [Discord](/discord), [Reddit](https://www.reddit.com/r/qrl), [Twitter](https://twitter.com/qrledger), [Facebook](https://www.facebook.com/theqrl), or through email at [support@theqrl.org](mailto:support@theqrl.org).

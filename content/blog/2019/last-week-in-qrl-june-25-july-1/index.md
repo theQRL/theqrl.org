@@ -37,6 +37,6 @@ As you may have already seen on our [Twitter](https://twitter.com/QRLedger/statu
 
 {{< image "./images/1y0tjQyU2ZnhN1UaIp233zQ.jpeg" >}}
 
-Today, on the [QRL Discord server](https://discord.gg/zbAJ9YV), the first QRL Community Q&A occurred. You can go check it out in the #qrl channel of the server yourself (for reference: it started today, July 1st, at 1800 UTC). We will also be cleaning up the questions, answers, follow-ups and responses, and putting them in an easy-to-access place. This should be available in a few days.
+Today, on the [QRL Discord server](/discord), the first QRL Community Q&A occurred. You can go check it out in the #qrl channel of the server yourself (for reference: it started today, July 1st, at 1800 UTC). We will also be cleaning up the questions, answers, follow-ups and responses, and putting them in an easy-to-access place. This should be available in a few days.
 
 The Q&A consisted of questions from the community, both sent in previously, as well as asked in the moment. Members from the team answered questions, as well as responded to comments as they occurred, while offering their opinions on a variety of matters. Moving forward, we will try to hold similar Q&As, with some probably being more generalized, like today, with others potentially being more focused on a specific topic or cluster of topics.
