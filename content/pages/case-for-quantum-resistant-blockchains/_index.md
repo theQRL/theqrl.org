@@ -68,7 +68,7 @@ This is best explained in a metaphor: If you have a fleet of boats that can hand
 
 It's that estimated preparation time that you want to use to work back-words for when those 50 foot waves are expected appear. If it takes an estimated 10 years to update a fleet of boats, and you start in the year 2022, your fleet of boats will be ready in the year 2032 to handle 50 foot waves.
 
-Worth a read on this subject is [Allen Walters](https://medium.com/u/ad87280e1b3e?source=post_page-----390fe55daab5--------------------------------) who broke down [Mosca’s Theorem and applied to the blockchain](/altcoin-magazine/an-addition-to-the-bitcoin-wiki-page-on-quantum-computing-and-moscas-theorem-of-risk-f2345e504bb4).
+Worth a read on this subject is [Allen Walters](https://medium.com/u/ad87280e1b3e?source=post_page-----390fe55daab5--------------------------------) who broke down [Mosca’s Theorem and applied to the blockchain](https://medium.com/the-capital/an-addition-to-the-bitcoin-wiki-page-on-quantum-computing-and-moscas-theorem-of-risk-f2345e504bb4).
 
 {{< image "./images/mosca.png" >}}
 
@@ -86,7 +86,9 @@ If you’re not up to date, most blockchains (including all in the top 10 on CMC
 
 What this means is powerful enough quantum computers can derive the private key from the public key and use that private key to create a transaction and empty your wallet.
 
-As of June of 2018, it’s been [calculated that 36% of bitcoins reveal their public keys](/@sashagnip/how-many-bitcoins-are-vulnerable-to-a-hypothetical-quantum-attack-3e59e4172e8). Further complicating the above matter, anytime you make a transaction, your public key is revealed to the network. At that point, if the quantum computer is fast enough, (or the network is congested, you pay a low tx fee, etc), a private key can be derived and a new transaction with a higher fee can be made which will process sooner, and empty your wallet.
+A paper by Deloitte Netherlands found that [25% of all Bitcoin are potentially vulnerable to a quantum attack](https://www2.deloitte.com/nl/nl/pages/innovatie/artikelen/quantum-computers-and-the-bitcoin-blockchain.html), while some estimate [that to be higher at 36%](https://medium.com/@sashagnip/how-many-bitcoins-are-vulnerable-to-a-hypothetical-quantum-attack-3e59e4172e8).
+
+Anytime you make a transaction, your public key is revealed to the network. At that point, if the quantum computer is fast enough, or the network is congested, a private key can be derived and a new transaction with a higher fee can be made which will process sooner, and empty the persons assets.
 
 More can be read in the paper “[quantum attacks on bitcoin, and how to protect against them](https://arxiv.org/pdf/1710.10377.pdf)”.
 
@@ -100,7 +102,7 @@ And we're safe from future threats too. The QRL includes the possibility to [upg
 
 This space needs secure, impenetrable blockchain systems more than ever. Right now, cryptocurrency and blockchain's entire security model rests on the assumption that quantum computers will not exist for at least another decade. When they do emerge and bring with them the ability to break existing protocols, we will be left in a dangerous, high-risk state. We need to address this threat now before it becomes too late.
 
-**The Quantum Resistant Ledger** is a brand new blockchain system that is post-quantum secure and employs post-quantum computing technologies in its design for absolute security, audited by [red4sec](/the-quantum-resistant-ledger/red4sec-security-audit-concludes-a-summary-563ecfe04c75) and [x41 D-sec](https://github.com/theQRL/audits/blob/master/x41%20Audit%20Response.pdf).
+**The Quantum Resistant Ledger** is a brand new blockchain system that is post-quantum secure and employs post-quantum computing technologies in its design for absolute security, audited by [red4sec](/blog/red4sec-security-audit-concludes-a-summary) and [x41 D-sec](https://github.com/theQRL/audits/blob/master/x41%20Audit%20Response.pdf).
 
 Current features are:
 
@@ -110,7 +112,7 @@ Current features are:
 * Hardware wallet support with [Ledger Nano S](https://support.ledger.com/hc/en-us/articles/360019184453)
 * On-chain message support (80 bytes)
 * Notarisation
-* [Keybase](/the-quantum-resistant-ledger/qrl-and-keybase-84968003bca2) ID integration
+* [Keybase](/blog/qrl-and-keybase) ID integration
 
 Along with several methods to interact with the foundation to further expand the ecosystem.
 
@@ -164,7 +166,6 @@ This will position QRL as the most secure and feature rich blockchain project th
 	- XRP: ECDSA, EdDSA (curve25519, secp256k1): Not quantum secure
 	- Polkadot: ECDSA, Schnorr, EdDSA (curve25519, ristretto25519, secp256k1): Not quantum secure
 	- Shiba Inu: Ethereum ERC20 token: Not quantum secure
-	- Dogecoin: 
 
 [^COMM]: Commercialization
 
@@ -268,6 +269,7 @@ This will position QRL as the most secure and feature rich blockchain project th
 	- 2019: [Neven’s law states that quantum computers are improving at a “doubly exponential” rate. If it holds, quantum supremacy is around the corner](https://www.quantamagazine.org/does-nevens-law-describe-quantum-computings-rise-20190618/)
 	- 2020: [China Stakes Its Claim to Quantum Supremacy](https://www.wired.com/story/china-stakes-claim-quantum-supremacy/)
 	- 2020: [Achieving Quantum Volume 128 on the Honeywell Quantum Computer](https://www.honeywell.com/us/en/news/2020/09/achieving-quantum-volume-128-on-the-honeywell-quantum-computer)
+	- 2021: [IBM Advances Quantum Roadmap With **127-Qubit** Eagle Processor](https://www.eetimes.com/ibm-advances-quantum-roadmap-with-127-qubit-eagle-processor/)
 
 [^MATERIALS]: Materials Science
 
