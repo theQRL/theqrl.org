@@ -2,24 +2,37 @@
   <body data-page-name="coreTeam" class="coreTeam">
     {{ partial "elements/menu.html" . }}
     <main>
-      {{ if .Params.layout_single_header.cta }}
-      <div class="core-team-head" style="min-height: 540px;">
-      {{ else }}
-      <div class="core-team-head" style="min-height: 440px;">
-      {{ end }}
+      <div class="core-team-head">
         <div class="container-mini">
           <div class="core-team-head__inner">
+            {{ if .Params.layout_single_header.sectionsubtitle }}
             <p class="section-title">{{ .Params.layout_single_header.sectionsubtitle }}</p>
-            <h1 class="section-title-header text-yellow ">{{ .Params.layout_single_header.sectiontitle }}</h1>
-            <p> {{ .Params.layout_single_header.blurb }}</p>
-          </div>
-          {{ if .Params.layout_single_header.cta }}
-          <div class="welcome__btn-area" style="display: flex;">
-            {{ if .Params.layout_single_header.cta.primary }}
-              <a href="{{ .Params.layout_single_header.cta.primary.link }}" class="welcome__btn welcome__btn--blue" style="width:auto;">{{ .Params.layout_single_header.cta.primary.text }}</a>
+            {{ else }}
+            <p class="section-title">QRL Improvement Proposal (QIP-{{ printf "%03d" .Params.qip }})</p>
             {{ end }}
+
+            {{ if .Params.layout_single_header.sectiontitle }}
+            <h1 class="section-title-header text-yellow ">{{ .Params.layout_single_header.sectiontitle }}</h1>
+            {{ else }}
+            <h1 class="section-title-header text-yellow ">{{ .Title }}</h1>
+            {{ end }}
+            <p>{{ .Params.layout_single_header.blurb }}</p>
+          </div>
+          {{ if or (.Params.layout_single_header.cta) (.Params.qip) }}
+          <div class="welcome__btn-area" style="display: flex;">
+            {{ if .Params.comments_uri }}
+              <a href="{{ .Params.comments_uri }}" class="welcome__btn welcome__btn--blue" style="width:auto;">Discuss</a>
+            {{ end }}
+            
+            {{ if .Params.layout_single_header.cta.primary }}
+            <a href="{{ .Params.layout_single_header.cta.primary.link }}" class="welcome__btn welcome__btn--blue" style="width:auto;">{{ .Params.layout_single_header.cta.primary.text }}</a>
+            {{ end }}
+
             {{ if .Params.layout_single_header.cta.secondary }}
               <a href="{{ .Params.layout_single_header.cta.secondary.link }}" class="welcome__btn welcome__btn--text">{{ .Params.layout_single_header.cta.secondary.text }}</a>
+            {{ end }}
+            {{ if .Params.qip }}
+              <a href="/roadmap/#qips" class="welcome__btn welcome__btn--text">View more QRL Improvement Proposals</a>
             {{ end }}
           </div>
         {{ end }}

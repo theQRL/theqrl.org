@@ -32,9 +32,9 @@
          }
     }
     .core-team-head {
-        padding-top: 96px;
+        padding-top: 96px; padding-bottom:96px;
         background-color: $color-black;
-        min-height: 740px;
+        min-height: 480px;
         background-image: url('../img/icons/circles.png');
         background-position: right bottom;
         background-repeat: no-repeat;

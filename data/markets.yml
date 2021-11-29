@@ -6,12 +6,12 @@
   logo: cointiger.png
   type: Exchange / Centralized
 
-- name: Bittrex
+- name: Bittrex Global
   markets: 
     - market: BTC-QRL
       link: https://international.bittrex.com/Market/Index?MarketName=BTC-QRL
   link: https://international.bittrex.com/Market/Index?MarketName=BTC-QRL
-  logo: bittrex.png
+  logo: bittrex-global.svg
   type: Exchange / Centralized
 
 - name: Biteeu
