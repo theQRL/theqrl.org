@@ -250,16 +250,15 @@
               </div>
               <ul class="timeline">
   
-                {{ range .Site.Data.qips }}
 
-                <li class="event" id="date" data-date="QIP {{ printf "%03d" .qip }}">
-                  <span class="date">QIP {{ printf "%03d" .qip }}</span>
-                  <h3>{{ .title }}</h3>
-                  <p>Status: {{ .status }}</p>  
+                {{ $qips := (where .Site.Pages "Params.qip" "gt" 0) }}
+                {{ range sort $qips ".Params.qip"  }}
+                <li class="event" id="date" data-date="QIP {{ printf "%03d" .Params.qip }}">
+                  <span class="date">QIP {{ printf "%03d" .Params.qip }}</span>
+                  <h3><a href="/qips/qip{{ printf "%03d" .Params.qip }}">{{ .Title }}</a></h3>
+                  <p>Status: {{ .Params.status }}</p>  
                 </li>
-
                 {{ end }}
-  
               </ul>             
             </div>  
 
