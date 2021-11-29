@@ -2,11 +2,12 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: circleci/node:10.16-browsers
+      - image: circleci/golang:1.16-bullseye-node-browsers-legacy
     working_directory: ~/your-project
     steps:
       - run: cd /tmp && wget https://github.com/gohugoio/hugo/releases/download/v0.78.2/hugo_extended_0.78.2_Linux-64bit.deb
       - run: sudo dpkg -i /tmp/hugo_extended_0.78.2_Linux-64bit.deb
+
       - run: cd ~/your-project
       - checkout
       - run: hugo
