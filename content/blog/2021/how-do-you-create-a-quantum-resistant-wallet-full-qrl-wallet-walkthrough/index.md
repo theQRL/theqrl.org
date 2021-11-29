@@ -5,7 +5,7 @@ date: 2021-03-10
 author: "Ryan Malinowski"
 title: "How do you Create a Quantum Resistant Wallet? Full QRL Wallet Walkthrough"
 summary: "In this episode, we walk you through a full step by step guide to creating a quantum resistant wallet. We cover creating a QRL web wallet, a QRL hardware wallet, and how to transact quanta with ease."
-featured_image: maxresdefault.webp
+featured_image: maxresdefault.png
 youtube: Q8FeCdww34A
 categories:
   - technical
