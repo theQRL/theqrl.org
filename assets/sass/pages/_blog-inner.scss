@@ -65,6 +65,10 @@ margin: 40px 0;
     em {
         font-family: "source_sans_proitalic", sans-serif;
     }
+    strong em {
+        font-family: "Source Sans Pro Bold", sans-serif;
+        font-style: italic; // Faux italic
+    }
     h1{
         text-align: center;
         letter-spacing: -0.02em;
