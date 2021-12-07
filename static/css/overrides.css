@@ -56,6 +56,10 @@ p code {
   font-size: 16px;
 }
 
+.grid-markets .market-pairs {
+  padding-top: 7px;
+}
+
 .coreTeam .grid-markets .core__el {
 	/*margin-top: 0;*/
 	margin-bottom: 40px;
@@ -244,6 +248,12 @@ p code {
 }
 .blog .small-p a:hover {
   color: #FFA729;
+}
+
+pre {
+  overflow-x: scroll;
+  padding-bottom: 7px;
+  border: 1px solid #EEE;
 }
 
 /* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
