@@ -95,16 +95,16 @@
   </defs>
   <sodipodi:namedview
      inkscape:document-rotation="0"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      inkscape:window-y="27"
      inkscape:window-x="66"
-     inkscape:window-height="2096"
-     inkscape:window-width="1972"
+     inkscape:window-height="1376"
+     inkscape:window-width="2494"
      units="px"
      showgrid="false"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
-     inkscape:cy="185.0631"
+     inkscape:cy="-256.87864"
      inkscape:cx="298.8631"
      inkscape:zoom="0.90509668"
      inkscape:pageshadow="2"
@@ -151,7 +151,7 @@
        orientation="1,0"
        id="guide904" />
     <sodipodi:guide
-       position="33.072917,92.98214"
+       position="25.346866,348.98511"
        orientation="1,0"
        id="guide915" />
     <sodipodi:guide
@@ -235,7 +235,7 @@
          style="stroke-width:4.5551" />
       <polygon
          class="st0"
-         points="565.85,47.03 565.85,180.61 644.17,180.61 661.91,180.61 661.91,163.81 583.59,163.81 583.59,47.03 "
+         points="565.85,180.61 644.17,180.61 661.91,180.61 661.91,163.81 583.59,163.81 583.59,47.03 565.85,47.03 "
          id="polygon1473"
          style="stroke-width:4.5551" />
     </g>
