@@ -20,7 +20,7 @@ toc: true
 
 {{< image "./images/qrllight.gif" >}}
 
-[Qrllight](https://github.com/successor1/qrllight/) is a community created lightweight and minimalistic desktop QRL wallet developed by James P (prophesied on Discord) and currently supported on the Linux platform.
+[Qrllight](https://github.com/successor1/qrllight/) is a community created lightweight and minimalistic desktop QRL wallet developed by runforest and currently supported on the Linux platform.
 
 It features:
 
@@ -45,7 +45,7 @@ cd qrllight-v1.4.tar.xz/
 ./qrllight
 ```
 
-> Special note: Community projects are the bedrock of any decentralized blockchain project and a measure of both the success of the community member and the value that the blockchain system provides. However, while every project is made with care, the QRL Foundation cannot guarantee or provide a warranty of any kind, about the general fitness and security of the application.
+> Disclaimer: Community projects are the bedrock of any decentralized blockchain project and a measure of both the success of the community member and the value that the blockchain system provides. However, while every project is made with care, the QRL Foundation cannot guarantee or provide a warranty of any kind, about the general fitness and security of the application.
 
 ## What's new in this release?
 
