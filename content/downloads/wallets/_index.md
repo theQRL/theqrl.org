@@ -3,19 +3,24 @@ layout: article
 slug: downloads
 title: Download QRL Wallets
 parent: downloads
+tags: [ "tag1", "tag2", "tag3" ]
 ---
 
-### Desktop wallets
+## Desktop wallets
 
-**MacOS** > [MACOS-qrl-wallet_1.7.3_x64.dmg](https://github.com/theQRL/qrl-wallet/releases/download/v1.7.3/MACOS-qrl-wallet_1.7.3_x64.dmg)
+### MacOS
 
-**Windows** > [WINDOWS-qrl-wallet_1.7.3_x64.msi](https://github.com/theQRL/qrl-wallet/releases/download/v1.7.3/WINDOWS-qrl-wallet_1.7.3_x64.msi)
+{{< downloads "MACOS" >}}
 
-**Linux** > [LINUX-qrl-wallet_1.7.3_amd64.deb](https://github.com/theQRL/qrl-wallet/releases/download/v1.7.3/LINUX-qrl-wallet_1.7.3_amd64.deb)
+### Windows
 
-&nbsp;
+{{< downloads "WINDOWS" >}}
 
-### Mobile wallets
+### Linux 
+
+{{< downloads "LINUX" >}}
+
+## Mobile wallets
 
 **Android** > [Google Play Store](https://play.google.com/store/apps/details?id=com.theqrl)
 

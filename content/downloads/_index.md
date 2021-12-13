@@ -19,15 +19,18 @@ layout_single_header:
 
 ## Wallets
 
-### Desktop wallets
+### MacOS
 
-**MacOS** > [MACOS-qrl-wallet_1.7.3_x64.dmg](https://github.com/theQRL/qrl-wallet/releases/download/v1.7.3/MACOS-qrl-wallet_1.7.3_x64.dmg)
+{{< downloads "MACOS" >}}
 
-**Windows** > [WINDOWS-qrl-wallet_1.7.3_x64.msi](https://github.com/theQRL/qrl-wallet/releases/download/v1.7.3/WINDOWS-qrl-wallet_1.7.3_x64.msi)
+### Windows
 
-**Linux** > [LINUX-qrl-wallet_1.7.3_amd64.deb](https://github.com/theQRL/qrl-wallet/releases/download/v1.7.3/LINUX-qrl-wallet_1.7.3_amd64.deb)
+{{< downloads "WINDOWS" >}}
 
-&nbsp;
+### Linux 
+
+{{< downloads "LINUX" >}}
+
 
 ### Mobile wallets
 
