@@ -47,6 +47,14 @@ cd qrllight-v1.4.tar.xz/
 
 > Disclaimer: Community projects are the bedrock of any decentralized blockchain project and a measure of both the success of the community member and the value that the blockchain system provides. However, while every project is made with care, the QRL Foundation cannot guarantee or provide a warranty of any kind, about the general fitness and security of the application.
 
+### Screenshots
+
+{{< image "./images/screen1.png" >}}
+
+{{< image "./images/sendscreen.png" >}}
+
+{{< image "./images/receivescreen.png" >}}
+
 ## What's new in this release?
 
 NEW:
@@ -74,16 +82,18 @@ History tab:
 
 ## Features slated for a future release
 
-- Windows support
-- Ledger support
-- Mining support
+Work is underway in a joint effort between runforest and 0xFF through this years [hackathon](/blog/qrl-winter-hackathon-2021) on the QRL package for Apple Silicon. Separately, a native Windows support is being worked on with from 0xFF (again through the [hackathon](/blog/qrl-winter-hackathon-2021)).
+
+This will allow the [qrllight wallet](https://github.com/successor1/qrllight) to work on Macs (including Apple Silicon) and Windows.
+
+Other slated features are [Ledger](https://www.ledger.com/) and [Mining support](https://docs.theqrl.org/mining/mining/). Have an idea or issue? [Feedback is requested](#feedback-requested) (more below).
 
 ## Feedback requested!
 
 Community feedback is greatly appreciated!
 
 1. Join the qrllight thread in the [#qrl channel on Discord](https://discord.gg/qrl).
-2. Create an issue at on GitHub with any [feature of bug you might encounter](https://github.com/successor1/qrllight/issues).
+2. Create an issue on GitHub with any [feature request or bug you might encounter](https://github.com/successor1/qrllight/issues).
 
 ## Want to learn more?
 
