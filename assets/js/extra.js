@@ -94,10 +94,11 @@ if(document.querySelector('body')) {
         loadjson("/_data/downloads.json", function(data) {
             data = JSON.parse(data);
             let dlist = document.getElementById("downloads-list");
-            let platform = navigator?.userAgentData?.platform || navigator?.platform || 'unknown'
+            let platform = (navigator?.userAgentData?.platform || navigator?.platform || 'unknown').toLowerCase();
+            console.log(platform);
 
             // If it's linux...
-            if(platform.indexOf("Linux") != -1) {
+            if(platform.indexOf("linux") != -1) {
                 document.getElementById('downloads-text').innerText = "Desktop (Linux)";
                 document.getElementById('downloads-default').remove();
 
@@ -111,7 +112,7 @@ if(document.querySelector('body')) {
             }
             
             // If it's mac...
-            if(platform.indexOf("Mac") != -1) {
+            if(platform.indexOf("mac") != -1) {
                 document.getElementById('downloads-text').innerText = "Desktop (Mac)";
                 document.getElementById('downloads-default').remove();
 
@@ -129,7 +130,7 @@ if(document.querySelector('body')) {
             }
 
             // If it's windows...
-            if(platform.indexOf("Win") != -1) {
+            if(platform.indexOf("win") != -1) {
                 document.getElementById('downloads-text').innerText = "Desktop (Windows)";
                 document.getElementById('downloads-default').remove();
 
