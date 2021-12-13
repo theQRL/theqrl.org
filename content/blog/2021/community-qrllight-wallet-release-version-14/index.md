@@ -1,10 +1,12 @@
 ---
 layout: blog-post
-slug: community-qrllite-wallet-release-version-1.4
+slug: community-qrllight-wallet-release-version-1.4
+aliases:
+  - /blog/community-qrllite-wallet-release-version-1.4
 date: 2021-12-13
 author: "Jack Matier"
-title: "Community qrllite wallet release version 1.4"
-summary: "Qrllite wallet v1.4 is released which features both mainnet/testnet support, a slaves.json implementation, and several bug fixes. Feedback is desired!"
+title: "Community qrllight wallet release version 1.4"
+summary: "qrllight wallet v1.4 is released which features both mainnet/testnet support, a slaves.json implementation, and several bug fixes. Feedback is desired!"
 featured_image: header.png
 categories:
   - technical
