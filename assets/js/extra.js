@@ -81,25 +81,66 @@ if(document.querySelector('body')) {
 
     }
 
-    if (document.getElementById('downloads-text')) {
-        loadjson("/_data/downloads.json", function(data){
+    
+    if (document.getElementById('downloads-list')) {
+        function createButton(name, url) {
+            let link = document.createElement('a');
+            link.textContent = name;
+            link.href = url;
+            link.className = "tabs__line-right__text-link";
+            
+            return link;
+        }
+        loadjson("/_data/downloads.json", function(data) {
             data = JSON.parse(data);
-            for (var i = 0; i < data.length; i++) {
-                // console.log(data[i]);
-                if(data[i].indexOf('.deb') !== -1 && window.navigator.platform.indexOf("Linux") != -1) {
-                    document.getElementById('downloads-text').innerText = "Desktop (Linux)";
-                    break;
-                }
-                if(data[i].indexOf('.dmg') !== -1 && window.navigator.platform.indexOf("Mac") != -1) {
-                    document.getElementById('downloads-text').innerText = "Desktop (Mac)";
-                    break;
-                }
-                if(data[i].indexOf('.msi') !== -1 && window.navigator.platform.indexOf("Win") != -1) {
-                    document.getElementById('downloads-text').innerText = "Desktop (Windows)";
-                    break;
-                }
+            let dlist = document.getElementById("downloads-list");
+            let platform = (navigator?.userAgentData?.platform || navigator?.platform || 'unknown').toLowerCase();
+            console.log(platform);
+
+            // If it's linux...
+            if(platform.indexOf("linux") != -1) {
+                document.getElementById('downloads-text').innerText = "Desktop (Linux)";
+                document.getElementById('downloads-default').remove();
+
+                // Generate linux buttons... (.deb/.rpm)
+                data.filter(function (e) {
+                    if(e.indexOf('LINUX') !== -1) {
+                        dlist.appendChild(createButton( "Download ."+e.split('.').pop() , e));
+                    }
+                })
+                
             }
-            document.getElementById('downloads-url').href=data[i];
+            
+            // If it's mac...
+            if(platform.indexOf("mac") != -1) {
+                document.getElementById('downloads-text').innerText = "Desktop (Mac)";
+                document.getElementById('downloads-default').remove();
+
+                // Generate mac buttons... (Intel/Silicon)
+                data.filter(function (e) {
+                    if(e.indexOf('MACOS') !== -1) {
+                        if(e.indexOf('Intel') !== -1) {
+                            dlist.appendChild(createButton( "Download (Intel)" , e));
+                        }
+                        if(e.indexOf('Silicon') !== -1) {
+                            dlist.appendChild(createButton( "Download (Silicon)" , e));
+                        }
+                    }
+                })
+            }
+
+            // If it's windows...
+            if(platform.indexOf("win") != -1) {
+                document.getElementById('downloads-text').innerText = "Desktop (Windows)";
+                document.getElementById('downloads-default').remove();
+
+                // Generate Win buttons... (Intel/Silicon)
+                data.filter(function (e) {
+                    if(e.indexOf('WINDOWS') !== -1) {
+                        dlist.appendChild(createButton( "Download (msi)" , e));
+                    }
+                })
+            }
         });
     }
 }

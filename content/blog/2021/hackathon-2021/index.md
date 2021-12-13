@@ -87,7 +87,7 @@ Anything, so long as it's QRL related, is acceptable here. Of course, the more i
 
 It can be hard to think of what to do sometimes, so here's some ideas:
 
-1. **Learn something new over the break!** and see how you can apply it to QRL. For 3d design, you can try creating a QRL logo in Blender. Finger-painting with the family? Fingerpaint the QRL logo and some blocks. Want to learn ruby? Try pulling from the API and sharing a code snippet :)
+1. **Learn something new over the break** and see how you can apply it to QRL. For 3d design, you can try creating a QRL logo in Blender. Finger-painting with the family? Fingerpaint the QRL logo and some blocks. Want to learn ruby? Try pulling from the API and sharing a code snippet :)
 2. **Get active on social media** and educate others about QRL, what it can do, and the quantum-threat.
 3. **Look on GitHub**, maybe there's an easy issue that can be fixed. Is something not quite clear with a readme? Suggest a fix!
 4. **Have an idea for a project?** share it in [#hackathon-ideas](/discord)

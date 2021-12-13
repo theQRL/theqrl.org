@@ -1,0 +1,11 @@
+<ul>
+{{ $search := .Get 0 }}
+{{ range .Site.Data.downloads }}
+
+{{ if in . $search }}
+<li>
+    <a href="{{ . }}" class="contrib">{{ path.Base . }}</a>
+</li>
+{{ end }}
+{{ end }}
+</ul>
