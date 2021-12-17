@@ -1,4 +1,13 @@
 #!/bin/bash
+
+# Check whether we're calling this from the root directory
+if [ ! -f "config.toml" ]; then
+	echo "ERROR: Make sure you call this from the root hugo directory"
+	exit 1;
+fi
+
+# Check for jq and yq
+
 filename="static/_data/downloads.json"
 
 curl -s "https://api.github.com/repos/theQRL/qrl-wallet/releases" | jq .[0] > "$filename"
