@@ -40,9 +40,46 @@
       </div>
       <section class="core core-page bg-white">
         <div class="core-page-gray"></div>
-        <div class="container-mini type blog-article" style="padding-top: 50px;">
+        <div class="container-mini type blog-article{{ if .Params.qip }} qip-article{{ end }}" style="padding-top: 50px;">
           <!-- <div class="single-md"> -->
+
+            
+            
+            {{ if .Params.qip }}
+            
+            <h2>Overview & status</h2>
+            <table class="qip-table">
+              <tr>
+                <td>Author</td>
+                <td>{{ .Params.author }}</td>
+              </tr>
+              
+              <tr>
+                <td>Status</td>
+                <td class="qip-status">
+                  {{ range split .Params.status "/" }}
+                    <span class="qip-status-{{ . }}">{{ . }}</span>
+                  {{ end }}
+                </td>
+              </tr>
+              <tr>
+                <td>Created</td>
+                <td>{{ .Params.created }}</td>
+              </tr>
+              {{ if .Params.comments_uri }}
+              <tr>
+                <td>Discussions to</td>
+                <td><a href="{{ .Params.comments_uri }}">{{ .Params.comments_uri }}</a></td>
+              </tr>
+              {{ end }}
+            </table>
+            {{ .TableOfContents }}
+            {{ end }}
+
+
             {{ .Content }}
+
+            
           <!-- </div> -->
         </div>
       </section>

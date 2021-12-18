@@ -254,9 +254,18 @@
                 {{ $qips := (where .Site.Pages "Params.qip" "gt" 0) }}
                 {{ range sort $qips ".Params.qip"  }}
                 <li class="event" id="date" data-date="QIP {{ printf "%03d" .Params.qip }}">
-                  <span class="date">QIP {{ printf "%03d" .Params.qip }}</span>
-                  <h3><a href="/qips/qip{{ printf "%03d" .Params.qip }}">{{ .Title }}</a></h3>
-                  <p>Status: {{ .Params.status }}</p>  
+                  <div>
+                    <span class="date">QIP {{ printf "%03d" .Params.qip }}</span>
+                    <h3><a href="/qips/qip{{ printf "%03d" .Params.qip }}">{{ .Title }}</a></h3>
+                    <div class="qip-status">
+                      {{ range split .Params.status "/" }}
+                        <span class="qip-status-{{ . }}">{{ humanize . }}</span>
+                      {{ end }}
+                    </div>
+                  </div>
+                  <div>
+                    <a class="welcome__btn welcome__btn--blue" href="/qips/qip{{ printf "%03d" .Params.qip }}">Read More</a>
+                  </div>
                 </li>
                 {{ end }}
               </ul>             

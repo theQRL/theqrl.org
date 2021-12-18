@@ -250,10 +250,57 @@ p code {
   color: #FFA729;
 }
 
-pre {
-  overflow-x: scroll;
-  padding-bottom: 7px;
-  border: 1px solid #EEE;
+div.chroma {
+  border:1px solid #000;
+  font-size:13px;
+  line-height: 1.4;
+  font-family: "Source Sans Pro",sans-serif;
+}
+.qip-table {
+  width: 100%;
+  border: 1px solid #DDD;
+
+}
+.qip-table {
+  margin-bottom:20px;
+}
+.qip-table td {
+  padding: 5px;
+  border: 1px solid #DDD;
+
+}
+.qip-table td:first-child {
+  background-color: #EEE;
+}
+
+.chroma table .lntd {
+  padding-left:5px;
+}
+
+.qip-article h1 {
+  display:none;
+}
+
+.qip-status span {
+  font-size: inherit;
+  background-color: #FFA729;
+  color: rgb(255, 255, 255);
+  padding:0 5px;
+}
+.qip-status span.qip-status-proposal,
+.qip-status span.qip-status-completed,
+.qip-status span.qip-status-accepted  {
+  background-color:#529214;
+}
+.qip-status span.qip-status-rejected,
+.qip-status span.qip-status-abandoned,
+.qip-status span.qip-status-withdrawn {
+  background-color: #e85c41;
+}
+
+.qip-status span.qip-status-draft,
+.qip-status span.qip-status-incomplete {
+  background-color: #CCC;
 }
 
 /* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
@@ -363,4 +410,9 @@ pre {
 
 html {
   scroll-padding-top: 96px;
+}
+
+#qips .event {
+  display:flex;
+  justify-content: space-between;
 }
