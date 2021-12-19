@@ -280,7 +280,9 @@ div.chroma {
 .qip-article h1 {
   display:none;
 }
-
+.qip-status {
+  margin-top: 5px;
+}
 .qip-status span {
   font-size: inherit;
   background-color: #FFA729;
@@ -415,4 +417,12 @@ html {
 #qips .event {
   display:flex;
   justify-content: space-between;
+}
+@media all and (max-width: 810px){
+#qips .event {
+  flex-direction: column;
+}
+#qips .event .welcome__btn {
+  margin-top: 5px;
+}
 }
