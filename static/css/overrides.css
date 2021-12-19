@@ -305,6 +305,13 @@ div.chroma {
   background-color: #CCC;
 }
 
+code.has-jax {
+  -webkit-font-smoothing: antialiased;
+  background: inherit !important;
+  border: none !important;
+  font-size: 100%;
+}
+
 /* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
 #mc_embed_signup {
   background-color: #0a1720;
