@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "QRL: The Quantum Resistant Ledger"
 timeout = 300000
 
-
 [params]
 telegram="QRLedgerOfficial"
 twitter="QRLedger"
@@ -29,13 +28,13 @@ description = "The Quantum Resistant Ledger (QRL) is a first-of-its-kind, post-q
   [markup.highlight]
     anchorLineNos = false
     codeFences = true
-    guessSyntax = false
+    guessSyntax = true
     hl_Lines = ""
-    lineAnchors = ""
+    lineAnchors = true
     lineNoStart = 1
     lineNos = true
     lineNumbersInTable = true
-    noClasses = true
+    noClasses = false
     style = "monokai"
     tabWidth = 4
 
