@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 slug: announcing-preliminary-quantum-secure-nfts-and-cta
-date: 2021-12-23
+date: 2021-12-25
 author: "Jack Matier"
 title: "NFT support is coming to QRL - Calling on all NFT artists who wish to be part of the genesis run to apply!"
 summary: "QRL is happy to announce preliminary support for NFT's on the QRL blockchain on devnet and are putting out a call to all NFT artists to be the genesis run of Quantum Secure NFTs"
