@@ -4,7 +4,7 @@ slug: announcing-preliminary-quantum-secure-nfts-and-cta
 date: 2021-12-25
 author: "Jack Matier"
 title: "NFT support is coming to QRL - Calling on all NFT artists who wish to be part of the genesis run to apply!"
-summary: "QRL is happy to announce preliminary support for NFT's on the QRL blockchain on devnet and are putting out a call to all NFT artists to be the genesis run of Quantum Secure NFTs"
+summary: "QRL is happy to announce preliminary support for NFTs on the QRL blockchain on devnet and are putting out a call to all NFT artists to be the genesis run of Quantum Secure NFTs"
 featured_image: header.png
 categories:
   - technical
@@ -17,13 +17,13 @@ toc: true
 
 {{< image "./images/hi.nft.png" >}}
 
-While the community has been busy with the [Winter Hackathon](/blog/qrl-winter-hackathon-2021-projects/), the QRL team has been hard at work developing native post-quantum secure NFT's - so far *a first* in the industry. Today **we're happy to announce that there's now preliminary support for NFT's on the QRL blockchain in devnet**. 
+While the community has been busy with the [Winter Hackathon](/blog/qrl-winter-hackathon-2021-projects/), the QRL team has been hard at work developing native post-quantum secure NFTs - so far *a first* in the industry. Today **we're happy to announce that there's now preliminary support for NFTs on the QRL blockchain in devnet**. 
 
 With **a full NFT genesis launch expected next year** including proper tooling and documentation support, **we're calling for all NFT artists** who would like to be part of this seminal moment to contact us at [info@theqrl.org](mailto:info@theqrl.org) for a chance of being selected to be the **first NFT project launched on the QRL Blockchain**. 
 
 For those interested, please give links to previous work as well as a short bit of what you have in mind for the project.
 
-## About NFT's (Non-Fungible Tokens)
+## About NFTs (Non-Fungible Tokens)
 
 ### What are they, exactly?
 
@@ -41,13 +41,13 @@ The Non-Fungible Token movement can be considered an evolution of Non-Fungible C
 
 ### The importance of identity and ownership in the face of the looming threat of quantum computers
 
-Blockchain allows for self-governance of your own assets and the transmission of those assets to third parties in a trustless environment. This extends to NFT's as well, and allows for the proliferation and trade of any non-fungible digital asset natively. With some extra steps, and in some cases a trusted notary, non-fungible *physical* assets as well. 
+Blockchain allows for self-governance of your own assets and the transmission of those assets to third parties in a trustless environment. This extends to NFTs as well, and allows for the proliferation and trade of any non-fungible digital asset natively. With some extra steps, and in some cases a trusted notary, non-fungible *physical* assets as well. 
 
-By governing your own assets (through the ownership of the private key), you have the ability to send, trade or otherwise transfer those assets to be governed by someone else (or entity). Brilliantly, this makes it possible to facilitate useful governance structures around NFTs as well, such as through the use of multi-signature transactions, or fractional Non-Fungible Tokens to allow owning 'shares' in NFT's.
+By governing your own assets (through the ownership of the private key), you have the ability to send, trade or otherwise transfer those assets to be governed by someone else (or entity). Brilliantly, this makes it possible to facilitate useful governance structures around NFTs as well, such as through the use of multi-signature transactions, or fractional Non-Fungible Tokens to allow owning 'shares' in NFTs.
 
-The downside is if someone gets a hold of your keys, they can transfer the assets to themselves and thereby own that non-fungible asset. The reality of this issue compounds when you think about it in terms of real-estate, diamonds, cars, land, and other such assets. It's important for anyone with governance over NFT's to properly secure their wallets, but in the future, that's not going to be enough.
+The downside is if someone gets a hold of your keys, they can transfer the assets to themselves and thereby own that non-fungible asset. The reality of this issue compounds when you think about it in terms of real-estate, diamonds, cars, land, and other such assets. It's important for anyone with governance over NFTs to properly secure their wallets, but in the future, that's not going to be enough.
 
-This is because **sufficiently powerful enough quantum computers will allow people to steal NFT's on blockchains which are using quantum vulnerable cryptography** by deriving the private key from its public key (emitted when making a transaction). These blockchains includes any blockchain reliant on ECC, which includes Bitcoin, Ethereum, and almost every other blockchain currently in circulation.
+This is because **sufficiently powerful enough quantum computers will allow people to steal NFTs on blockchains which are using quantum vulnerable cryptography** by deriving the private key from its public key (emitted when making a transaction). These blockchains includes any blockchain reliant on ECC, which includes Bitcoin, Ethereum, and almost every other blockchain currently in circulation.
 
 *When* a sufficiently powerful enough quantum computer is the subject of much debate, but with so many industry leaders now involved with quantum computing in some capacity, quantum computing progress has been accelerating at an accelerating rate.
 
@@ -55,9 +55,9 @@ This is because **sufficiently powerful enough quantum computers will allow peop
 
 More about this can be read on our page "[The future of post-quantum resistant blockchains](/the-future-of-post-quantum-resistant-blockchains/)"
 
-### Use cases for Quantum Safe NFT's
+### Use cases for Quantum Safe NFTs
 
-With security as a *prerequisite* to any system that hopes to carry significant value, we can look at some of the use-cases for quantum safe NFT's, which includes:
+With security as a *prerequisite* to any system that hopes to carry significant value, we can look at some of the use-cases for quantum safe NFTs, which includes:
 
 1. **Digital art:** One of the most prominent use-cases seen for crypto, and doesn't really need to be mentioned.
 2. **Real-estate:** Land and titles can be notarized and transferred on the blockchain.
