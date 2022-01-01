@@ -135,6 +135,9 @@ margin: 40px 0;
     h4 + div {
         margin-bottom: 37px;
     }
+    div + h3 {
+        padding-top: 50px;
+    }
     h3{
         font-family: $f-DinB;
         font-size: 26px;
