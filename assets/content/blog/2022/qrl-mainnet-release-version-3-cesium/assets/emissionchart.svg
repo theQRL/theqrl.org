@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="3008.0784"
+   height="2393.0818"
+   viewBox="0 0 795.88743 633.16952"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.1.1 (1:1.1+202109281949+c3084ef5ed)"
+   sodipodi:docname="emissionchart.svg"
+   inkscape:export-filename="../images/emissionchart.png"
+   inkscape:export-xdpi="81.278297"
+   inkscape:export-ydpi="81.278297"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="1324.31"
+     inkscape:cy="1324.31"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     borderlayer="true"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="3768"
+     inkscape:window-height="2096"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="0"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="404.64608,486.17129"
+       orientation="0,-1"
+       id="guide11546" />
+    <sodipodi:guide
+       position="470.39438,469.60058"
+       orientation="0,-1"
+       id="guide11548" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(158.48654,113.05753)">
+    <rect
+       style="fill:#ffffff;stroke-width:4.98417;stroke-linecap:square;stroke-dasharray:9.96836, 19.9366;paint-order:markers stroke fill"
+       id="rect15336"
+       width="795.88739"
+       height="633.16956"
+       x="-158.48654"
+       y="-113.05753" />
+    <rect
+       style="fill:#f1f1f1;fill-opacity:1;stroke:none;stroke-width:10.7607;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:21.5214, 43.0426;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect66476"
+       width="318.2803"
+       height="392.84158"
+       x="290.16718"
+       y="-12.876482" />
+    <rect
+       style="fill:#ffa729;fill-opacity:1;stroke:none;stroke-width:9.4891;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:18.9782, 37.9562;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect66478"
+       width="247.50166"
+       height="392.84158"
+       x="119.23302"
+       y="-13.824127" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:8.1422;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:16.2845, 32.5687;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect66480"
+       width="182.22726"
+       height="392.84158"
+       x="-62.994221"
+       y="-13.824127" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.84131;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.2992;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m -62.994217,-13.03004 v 392.4445 H 607.82965"
+       id="path66482"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.63767;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.2992;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m -78.774657,120.37004 h 15.423485"
+       id="path66484" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.63767;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.2992;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m -78.774657,172.17174 h 15.423485"
+       id="path66486" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.63767;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.2992;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m -78.774657,223.97346 h 15.423485"
+       id="path66488" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.63767;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.2992;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m -78.774657,275.77516 h 15.423485"
+       id="path66490" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.63767;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.2992;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m -78.774657,327.57687 h 15.423485"
+       id="path66492" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.63767;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.2992;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m -78.774657,379.37857 h 15.423485"
+       id="path66494" />
+    <text
+       xml:space="preserve"
+       style="font-size:25.9646px;line-height:1.25;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift';writing-mode:lr-tb;fill:none;stroke:#000000;stroke-width:5.4092;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.2992;stroke-opacity:1;paint-order:markers stroke fill"
+       x="-102.20447"
+       y="388.72076"
+       id="text66498"><tspan
+         sodipodi:role="line"
+         id="tspan66496"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.9646px;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift Bold';fill:#151515;fill-opacity:1;stroke:none;stroke-width:5.4092;stroke-miterlimit:4;stroke-dasharray:none"
+         x="-102.20447"
+         y="388.72076">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:25.9646px;line-height:1.25;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift';writing-mode:lr-tb;fill:none;stroke:#000000;stroke-width:5.4092;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.2992;stroke-opacity:1;paint-order:markers stroke fill"
+       x="-102.20447"
+       y="335.78558"
+       id="text66502"><tspan
+         sodipodi:role="line"
+         id="tspan66500"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.9646px;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift Bold';fill:#151515;fill-opacity:1;stroke:none;stroke-width:5.4092;stroke-miterlimit:4;stroke-dasharray:none"
+         x="-102.20447"
+         y="335.78558">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:25.9646px;line-height:1.25;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift';writing-mode:lr-tb;fill:none;stroke:#000000;stroke-width:5.4092;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.2992;stroke-opacity:1;paint-order:markers stroke fill"
+       x="-102.20447"
+       y="282.8504"
+       id="text66506"><tspan
+         sodipodi:role="line"
+         id="tspan66504"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.9646px;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift Bold';fill:#151515;fill-opacity:1;stroke:none;stroke-width:5.4092;stroke-miterlimit:4;stroke-dasharray:none"
+         x="-102.20447"
+         y="282.8504">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:25.9646px;line-height:1.25;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift';writing-mode:lr-tb;fill:none;stroke:#000000;stroke-width:5.4092;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.2992;stroke-opacity:1;paint-order:markers stroke fill"
+       x="-102.20447"
+       y="229.91518"
+       id="text66510"><tspan
+         sodipodi:role="line"
+         id="tspan66508"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.9646px;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift Bold';fill:#151515;fill-opacity:1;stroke:none;stroke-width:5.4092;stroke-miterlimit:4;stroke-dasharray:none"
+         x="-102.20447"
+         y="229.91518">3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:25.9646px;line-height:1.25;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift';writing-mode:lr-tb;fill:none;stroke:#000000;stroke-width:5.4092;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.2992;stroke-opacity:1;paint-order:markers stroke fill"
+       x="-102.20447"
+       y="176.97998"
+       id="text66514"><tspan
+         sodipodi:role="line"
+         id="tspan66512"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.9646px;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift Bold';fill:#151515;fill-opacity:1;stroke:none;stroke-width:5.4092;stroke-miterlimit:4;stroke-dasharray:none"
+         x="-102.20447"
+         y="176.97998">4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:25.9646px;line-height:1.25;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift';writing-mode:lr-tb;fill:none;stroke:#000000;stroke-width:5.4092;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.2992;stroke-opacity:1;paint-order:markers stroke fill"
+       x="-102.20447"
+       y="124.04479"
+       id="text66518"><tspan
+         sodipodi:role="line"
+         id="tspan66516"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.9646px;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift Bold';fill:#151515;fill-opacity:1;stroke:none;stroke-width:5.4092;stroke-miterlimit:4;stroke-dasharray:none"
+         x="-102.20447"
+         y="124.04479">5</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.64583;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m -49.250236,14.847526 c 0,0 0.86026,34.611365 44.9252915,69.46874 C 29.156409,110.80149 118.5566,124.84874 118.5566,124.84874 v 146.42305 c 0,0 5.35576,19.24498 43.68284,27.36878 53.59063,11.35905 203.36983,8.18135 203.36983,8.18135"
+       id="path66520"
+       sodipodi:nodetypes="csccsc" />
+    <text
+       xml:space="preserve"
+       style="font-size:25.9646px;line-height:1.25;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift';writing-mode:lr-tb;fill:none;stroke:#000000;stroke-width:5.4092;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.2992;stroke-opacity:1;paint-order:markers stroke fill"
+       x="-102.20447"
+       y="77.345482"
+       id="text66524"><tspan
+         sodipodi:role="line"
+         id="tspan66522"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.9646px;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift Bold';fill:#151515;fill-opacity:1;stroke:none;stroke-width:5.4092;stroke-miterlimit:4;stroke-dasharray:none"
+         x="-102.20447"
+         y="77.345482">6</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.63767;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.2992;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m -78.774657,68.56832 h 15.423485"
+       id="path66526" />
+    <text
+       xml:space="preserve"
+       style="font-size:25.9646px;line-height:1.25;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift';writing-mode:lr-tb;fill:none;stroke:#000000;stroke-width:5.4092;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.2992;stroke-opacity:1;paint-order:markers stroke fill"
+       x="-102.20447"
+       y="18.389566"
+       id="text66530"><tspan
+         sodipodi:role="line"
+         id="tspan66528"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.9646px;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift Bold';fill:#151515;fill-opacity:1;stroke:none;stroke-width:5.4092;stroke-miterlimit:4;stroke-dasharray:none"
+         x="-102.20447"
+         y="18.389566">7</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.63767;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.2992;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m -78.774657,9.6123522 h 15.423485"
+       id="path66532" />
+    <rect
+       style="opacity:0.449273;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4.17212;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:8.34422, 16.6884;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect4210"
+       width="616.91388"
+       height="30.467367"
+       x="-62.994221"
+       y="-13.824127" />
+    <text
+       xml:space="preserve"
+       id="text66536"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20.3125px;line-height:1.25;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift Bold';writing-mode:lr-tb;white-space:pre;fill:#0b181e;fill-opacity:1;stroke:none;stroke-width:13.9776;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:27.9552, 55.9103;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       x="-11.693802"
+       y="8.4503298">CURRENT</text>
+    <text
+       xml:space="preserve"
+       id="text66540"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20.3125px;line-height:1.25;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift Bold';writing-mode:lr-tb;white-space:pre;fill:#0b181e;fill-opacity:1;stroke:none;stroke-width:13.9776;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:27.9552, 55.9103;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       x="184.06154"
+       y="8.4503298">HARD FORK</text>
+    <text
+       xml:space="preserve"
+       id="text66546"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20.3125px;line-height:1.25;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift Bold';writing-mode:lr-tb;white-space:pre;fill:#0b181e;fill-opacity:1;stroke:none;stroke-width:13.9776;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:27.9552, 55.9103;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       x="413.61349"
+       y="7.5080996">PROOF-OF-STAKE</text>
+    <text
+       xml:space="preserve"
+       id="text66550"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:27.1785px;line-height:1.25;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift Bold';writing-mode:lr-tb;white-space:pre;fill:#0b181e;fill-opacity:1;stroke:none;stroke-width:18.7023;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:37.4045, 74.8089;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       x="-251.13985"
+       y="-119.02006"
+       transform="rotate(-90)"><tspan
+         id="tspan66548"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift';fill:#0b181e;stroke-width:18.7023">Block Reward</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text66554"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:27.1785px;line-height:1.25;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift Bold';writing-mode:lr-tb;white-space:pre;fill:#0b181e;fill-opacity:1;stroke:none;stroke-width:18.7023;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:37.4045, 74.8089;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       x="226.76953"
+       y="413.47723"><tspan
+         id="tspan66552"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift';fill:#0b181e;stroke-width:18.7023">Time</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#b8b8b8;stroke-width:2.64583;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:5.29167, 10.5833;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 367.44726,305.16968 -0.27648,-120.146 c 0,0 55.54206,29.34435 87.03766,36.92696 C 514.35251,236.4304 607.63433,242.64 607.63433,242.64"
+       id="path95087"
+       sodipodi:nodetypes="ccsc" />
+    <text
+       xml:space="preserve"
+       id="text71946"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.955px;line-height:1.25;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift Bold';writing-mode:lr-tb;white-space:pre;inline-size:692.194;fill:#979797;fill-opacity:1;stroke:none;stroke-width:15.1078;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:30.2156, 60.4311;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       x="-476.22858"
+       y="431.15509"
+       transform="translate(395.91346,25.564081)"><tspan
+         x="-476.22858"
+         y="431.15509"
+         id="tspan14738"><tspan
+           style="font-weight:normal;-inkscape-font-specification:'Alte DIN 1451 Mittelschrift'"
+           id="tspan14734">Chart is for communicating the emission change only and </tspan><tspan
+           style="font-weight:normal;-inkscape-font-specification:'Alte DIN 1451 Mittelschrift'"
+           id="tspan14736">is not produced </tspan></tspan><tspan
+         x="-476.22858"
+         y="458.59884"
+         id="tspan14744"><tspan
+           style="font-weight:normal;-inkscape-font-specification:'Alte DIN 1451 Mittelschrift'"
+           id="tspan14740">from </tspan><tspan
+           style="font-weight:normal;-inkscape-font-specification:'Alte DIN 1451 Mittelschrift'"
+           id="tspan14742">raw data.</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text24266"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:54.1225px;line-height:1.25;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift Bold';writing-mode:lr-tb;white-space:pre;fill:#ffa729;fill-opacity:1;stroke:none;stroke-width:37.243;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:74.4859, 148.972;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       x="-122.80038"
+       y="-44.223083"><tspan
+         sodipodi:role="line"
+         id="tspan24260"
+         x="-122.80038"
+         y="-44.223083"
+         style="stroke-width:37.243">HARD FORK EMISSION CHANGE</tspan><tspan
+         sodipodi:role="line"
+         x="-122.80038"
+         y="23.430044"
+         id="tspan24264"
+         style="stroke-width:37.243" /></text>
+    <text
+       xml:space="preserve"
+       id="text8050"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.4925px;line-height:1.25;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift Bold';writing-mode:lr-tb;white-space:pre;fill:#0b181e;fill-opacity:0.551103;stroke:none;stroke-width:15.4776;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:30.9553, 61.9103;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       x="136.77632"
+       y="50.495216"><tspan
+         sodipodi:role="line"
+         x="136.77632"
+         y="50.495216"
+         id="tspan8048"
+         style="fill:#0b181e;fill-opacity:0.551103;stroke-width:15.4776">BLOCK HEIGHT:</tspan><tspan
+         sodipodi:role="line"
+         x="136.77632"
+         y="78.61084"
+         style="fill:#0b181e;fill-opacity:0.551103;stroke-width:15.4776"
+         id="tspan8274">1,938,000</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text9048"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.4925px;line-height:1.25;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift Bold';writing-mode:lr-tb;white-space:pre;inline-size:259.818;fill:#0b181e;fill-opacity:0.551103;stroke:none;stroke-width:15.4776;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:30.9553, 61.9103;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       x="129.62144"
+       y="131.95744"
+       transform="translate(7.1548756,-20.70658)"><tspan
+         x="129.62144"
+         y="131.95744"
+         id="tspan14746">ESTIMATED DATE:
+</tspan><tspan
+         x="129.62144"
+         y="160.07308"
+         id="tspan14748">FEB 25, 2022</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text2570"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20.3125px;line-height:1.25;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift Bold';writing-mode:lr-tb;white-space:pre;inline-size:206.997;fill:#0b181e;fill-opacity:0.551103;stroke:none;stroke-width:13.9776;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:27.9552, 55.9103;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       x="382.5806"
+       y="44.094761"
+       transform="matrix(1.0913945,0,0,1.0913945,-35.066334,2.1157978)"><tspan
+         x="382.5806"
+         y="44.094761"
+         id="tspan14750">EMISSION </tspan><tspan
+         x="382.5806"
+         y="69.485386"
+         id="tspan14752">UNDETERMINED</tspan></text>
+  </g>
+</svg>
