@@ -4,7 +4,7 @@ slug: qrl-mainnet-release-version-3-cesium
 date: 2022-01-20
 author: "Jack Matier"
 title: "QRL Mainnet v3.0 has been released! (Codename: Cesium)"
-summary: "We're happy to announce that QRL Mainnet Version 3 (cesium) has been released and will be activated at block height 1,938,000 which has an estimated target time of February 25th, 2022"
+summary: "We're happy to announce that QRL Mainnet Version 3 (Cesium) has been released and will be activated at block height 1,938,000 which has an estimated target time of February 25th, 2022"
 featured_image: header.png
 categories:
   - technical
@@ -17,7 +17,7 @@ toc: true
 
 We're pleased to announced that **QRL mainnet version 3 (codenamed Cesium) has been released!**
 
-This mainnet release is the result of [QRL Improvement Proposal #16 (QIP-016)](/qips/qip016/) which proposed to reduce QRL emissions in order to improve the netowrk. As part of the QIP process, many of the [positive and negative considerations](/blog/qip016-reduce-emission-rate-of-the-network-prevote-synopsis/) were discussed at length before being put to our first on-chain vote resulting in the QIPs approval. The final determination can be found on the [QIP GitHub discussion page](https://github.com/theQRL/qips/pull/32#issuecomment-975645693).
+This mainnet release is the result of [QRL Improvement Proposal #16 (QIP-016)](/qips/qip016/) which proposed to reduce QRL emissions in order to improve the network. As part of the QIP process, many of the [positive and negative considerations](/blog/qip016-reduce-emission-rate-of-the-network-prevote-synopsis/) were discussed at length before being put to our first on-chain vote resulting in the QIPs approval. The final determination can be found on the [QIP GitHub discussion page](https://github.com/theQRL/qips/pull/32#issuecomment-975645693).
 
 We would like to thank everyone who participated in the worlds first post-quantum secure on-chain vote, and are happy to be pushing the fruition of that vote in the form of a hard fork.
 
@@ -40,7 +40,7 @@ Along with the emission reduction, there are other minor bug fixes to the QRL no
 
 ## Upgrade instructions
 
-The update involves three general steps
+The update involves three general steps.
 
 1. Stop your QRL node and any related services such as the wallet daemon (`qrl_walletd`).
 
@@ -53,7 +53,7 @@ pip3 install qrl -U
 
 This update needs to be done *before* the hard fork block height of **1,938,000** with an estimated date of **2022-02-25 12:30 UTC**.
 
-We've also broken it out into more detail below
+We've also broken it out into more detail below.
 
 ### Step 1: Stop the QRL Node
 
@@ -87,7 +87,7 @@ Keep in mind that if it's a systemd service that is set to start again, it will.
 
 #### If the QRL node is running as a systemd service
 
-Though undocumented and the least common, some people will have installed QRL as a systemd service. To stop that, you'll want to issue the service to stop
+Though undocumented and the least common, some people will have installed QRL as a systemd service. To stop that, you'll want to issue the service to stop.
 
 ```bash
 sudo systemctl stop qrlnode
@@ -121,7 +121,7 @@ If nothing is returned, move to Step 4 to update the node. If there's still a no
 
 ### Step 4: Update the QRL Node
 
-With the node stopped, upgrade the QRL node
+With the node stopped, upgrade the QRL node.
 
 ```bash
 pip3 install qrl -U
@@ -133,7 +133,7 @@ pip3 install qrl -U
 qrl --version
 ```
 
-### Step 6: Start the QRL node again.
+### Step 6: Start the QRL node again
 
 #### If you want it running as a screen session
 
@@ -159,7 +159,7 @@ nohup start_qrl &
 
 ### Step 7: Start qrl_walletd (if you want it)
 
-It will take some time for the QRL node to upgrade the state (should be less than 10 minutes), after that, you can start the wallet daemon again 
+It will take some time for the QRL node to upgrade the state (should be less than 10 minutes), after that, you can start the wallet daemon again.
 
 ```bash
 qrl_walletd
