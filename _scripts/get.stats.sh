@@ -9,3 +9,4 @@ wget -O data/reward.json https://explorer.theqrl.org/api/reward
 wget -O static/_data/networktx.json https://analytics.quantascan.io/api/network-transactions
 wget -O static/_data/numberwallets.json https://analytics.quantascan.io/api/network-transactions
 wget -O data/miningstats.json https://explorer.theqrl.org/api/miningstats
+wget -O data/zeus_getstats.json https://zeus-proxy.automated.theqrl.org/grpc/mainnet/GetStats

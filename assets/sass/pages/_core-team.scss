@@ -66,6 +66,20 @@
         }
         
     }
+    .network-map {
+        margin-bottom:60px;
+        text-align: center;
+        
+        h2 {
+            font-weight: bold;
+        }
+        a {
+            text-decoration: underline;
+        }
+        img {
+            padding-top:40px;
+        }
+    }
     .container-mini .contributors-p {
         span {
             font-family: $f-ProB;
