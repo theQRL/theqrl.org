@@ -1,6 +1,7 @@
 # Network stats that aren't currently live.
-
-wallets: 12041
+wallets: 13436
 qrlvolume: 291209
-pools: 19
-miners: 370
+pools: 14
+nodes: 601
+miners: 632
+blockheight: 1891664

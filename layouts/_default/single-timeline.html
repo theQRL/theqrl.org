@@ -19,17 +19,21 @@
       <section class="core core-page bg-white">
         <div class="core-page-gray"></div>
         <div class="container-mini" style="padding-top: 50px;">
+          <div class="container-mini">
+            <h2 class="section-title-header">Network Stats</h2>
+          </div>
           <div>
-  
-                <div class="container-mini">
-                  <h2 class="section-title-header">Network Stats</h2>
-                </div>
+            <div class="network-map">
+              <h2>Globally <strong>{{ .Site.Data.zeus_getstats.node_info.num_known_peers }}</strong> active nodes.</h2>
+              <p>Help support the network and <a href="/downloads/">run your own node</a>!</p>
+              <img src="/map.svg" alt="" class="network-map">
+            </div>
             <div class="grid grid-three-cols metrics">
-
+               
                 <a href='https://explorer.theqrl.org/'>
                   <div class="core__el animate-fade">
                   <div class="core__el__indicator">
-                    <div class="indicator" id="status-blockheight">{{ .Site.Data.miningstats.block }}</div>
+                    <div class="indicator" id="status-blockheight">{{ .Site.Data.netstats.blockheight }}</div>
                   </div>
                     <div class="core__el__inner">Blockheight
                       <p>60s blocktime</p></div>
@@ -99,11 +103,11 @@
                 <a href='https://explorer.theqrl.org'>
                   <div class="core__el animate-fade">
                     <div class="core__el__indicator">
-                      <div class="indicator" id="status-hashrate">{{ .Site.Data.miningstats.hashrate }}</div>
+                      <div class="indicator" id="status-nodes">{{ .Site.Data.netstats.nodes }}</div>
                     </div>
-                    <div class="core__el__inner">Hashrate</div>
+                    <div class="core__el__inner">QRL Nodes</div>
                   </div>
-                </a>
+                </a> 
                 <a href='https://miningpoolstats.stream/quantumrl'>
                   <div class="core__el animate-fade">
                     <div class="core__el__indicator">
@@ -126,7 +130,7 @@
                 <a href='https://github.com/theQRL/'>
                   <div class="core__el animate-fade">
                     <div class="core__el__indicator">
-                      <div class="indicator" id="status-commits">8,540</div>
+                      <div class="indicator" id="status-commits">12,060</div>
                     </div>
                     <div class="core__el__inner">Contributions</div>
                   </div>
@@ -134,7 +138,7 @@
                 <a href='https://github.com/theQRL/'>
                   <div class="core__el animate-fade">
                     <div class="core__el__indicator">
-                      <div class="indicator" id="status-repos">29</div>
+                      <div class="indicator" id="status-repos">72</div>
                     </div>
                     <div class="core__el__inner">Repositories</div>
                   </div>
@@ -142,7 +146,7 @@
                 <a href='https://github.com/theQRL/'>
                   <div class="core__el animate-fade">
                   <div class="core__el__indicator">
-                    <div class="indicator" id="status-contributors">48</div>
+                    <div class="indicator" id="status-contributors">57</div>
                   </div>
                     <div class="core__el__inner">Contributors</div>
                   </div>
