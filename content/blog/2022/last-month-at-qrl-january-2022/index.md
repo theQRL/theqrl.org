@@ -17,9 +17,9 @@ toc: true
 
 {{< image "./images/hi.mainnet.png" >}}
 
-We’re pleased to announced that QRL mainnet version 3 (codenamed Cesium) has been released!
+We’re pleased to announced that **QRL mainnet version 3 (codenamed Cesium) has been released!**
 
-This mainnet release is the result of [QRL Improvement Proposal #16 (QIP-016)](/qips/qip016/) which proposed to reduce QRL emissions in order to improve the network. As part of the QIP process, many of the positive and negative considerations were discussed at length before being put to our first on-chain vote resulting in the QIPs approval. The final determination can be found on the QIP GitHub discussion page.
+This mainnet release is the result of [QRL Improvement Proposal #16 (QIP-016)](/qips/qip016/) which proposed to reduce QRL emissions in order to improve the network. As part of the QIP process, many of the [positive and negative considerations](/blog/qip016-reduce-emission-rate-of-the-network-prevote-synopsis/) were discussed at length before being put to our first on-chain vote resulting in the QIPs approval. The final determination can be found on the [QIP GitHub discussion page](https://github.com/theQRL/qips/pull/32#issuecomment-975645693).
 
 The hard fork implements an emission reduction by a multiplication factor of 0.4x of the per block coinbase reward starting at the hard fork block height of **1,938,000**, which has an estimated date time of **2022-02-25 07:30 UTC** as of this blog.
 
@@ -40,7 +40,9 @@ You can read [more detailed instructions](/blog/qrl-mainnet-release-version-3-ce
 
 {{< image "./images/hi.community.png" >}}
 
-We often pride ourselves on maintaining a high level of code-transparency with [55 public and open-source (MIT)](https://github.com/theQRL/) *source* repositories (65 total), but many might not know about the works of the QRL community, which have contributed [14 repositories to date](https://github.com/theqrl-community/). The two most recent from January are **QRLtoSQLite** and **zeus-proxy-advanced**.
+We often pride ourselves on maintaining a high level of code-transparency with [55 public and open-source (MIT)](https://github.com/theQRL/) *source* repositories (65 total), but this month we'd like to highlight the works of the QRL community, which have contributed [14 repositories to date](https://github.com/theqrl-community/). The two most recent from January are **QRLtoSQLite** and **zeus-proxy-advanced**, which we're featuring this month.
+
+Other community code initiatives have included: 
 
 - [QRLtoSQLite](https://github.com/theqrl-community/QRLtoSQLite): SQLite database of the QRL state
 - [zeus-proxy-advanced](https://github.com/theqrl-community/zeus-proxy-advanced): Tool for developers to use GRPC functions via a REST API + a testnet faucet
@@ -53,15 +55,13 @@ We often pride ourselves on maintaining a high level of code-transparency with [
 - [QRL_rpi](https://github.com/theqrl-community/QRL_rpi): Running a QRL node on a Raspberry Pi
 - [faqq](https://github.com/theqrl-community/faqq): Frequently asked quantum questions 
 
-The QRL Community consists of forward-thinking professionals and amateurs of various backgrounds and ages around the world that strives to create an accessible and open environment for everyone to thrive. Without them, the QRL project would not exist as it is today.
-
-With code being the engine that turns gears of a working blockchain and the ecosystem that surrounds it, having a strong community of contributors can ensure that those maintainers who write the code, while individually ephemeral, are collectively eternal. Longevity at its finest.
+The QRL Community consists of forward-thinking professionals and amateurs of various backgrounds and ages around the world that strives to create an accessible and open environment for everyone to thrive. Without them, the QRL project would not exist as it is today. With code being the engine that turns gears of a working blockchain and the ecosystem that surrounds it, having a strong community of contributors can ensure that those maintainers who write the code, while individually ephemeral, are collectively eternal. **Longevity at its finest.**
 
 From the beginning, we've always had [QRL Improvement Proposals (QIPs)](https://github.com/theQRL/qips), where anyone can form a proposal for core protocol changes. Last year, we made headway with [on-chain voting](/features/on-chain-voting/) so that the community can better steer the direction of QRL. That lead to the first on-chain vote, which resulted in [QRL Mainnet v3.0](/blog/qrl-mainnet-release-version-3-cesium/). We also hosted our [first hackathon](/blog/qrl-winter-hackathon-2021/), which we will be doing more of.
 
 In the coming years, we'll be taking this further. Many reading may have heard of the QRL Enhancement Program (tentative title) which is under development, and aims to give a broader focus to community driven initiatives which covers more ground. Anything outside of core protocol updates would apply here, including everything from social media campaigns and graphic design, to the internationalisation of content or local meetups. While it's imperative to do everything right, with the amount of demand from the community that wants to hit the ground running, we're looking at a way we can have an intermediate solution, so stay tuned!
 
-Have a project that's not included in The QRL Community GitHub organisation? Get in touch to a team member in [Discord](/Discord), and we'll be able to add it either as a mirror or as a source copy. 
+Have a development project that's not included in The QRL Community GitHub organisation? Get in touch with a team member in [Discord](/Discord), and we'll be able to add it either as a mirror or as a source. 
 
 #### New Release: QRLtoSQLite
 
@@ -106,6 +106,9 @@ Current methods are:
 {{< image "./images/hi.steampunk.png" >}}
 
 Michael Strike from the core QRL team walks us through the creation of a fully functioning steampunk themed QRL node as well as upgrading the node to the latest mainnet release v3.0 (codnamed Cesium).
+
+You'll be in Michaels capable hands as he goes over why you'd want to update your QRL node, including 
+Areas covered:
 
 - Why should I upgrade my QRL node? 
 - What happens if I don't upgrade my node?
