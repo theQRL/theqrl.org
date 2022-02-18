@@ -3,14 +3,15 @@ layout: blog-post
 slug: lattice-algebra-library
 date: 2022-02-18
 author: "Geometry Labs"
-title: "New lattice algebra library for building post-quantum cryptography"
+title: "Introducing lattice-algebra: An elegant, high-performance post-quantum cryptography library"
+summary: "QRL, in partnership with Geometry Labs, are excited to announce a new lattice-algebra library for efficient, elegant, and high performance post-quantum secure cryptography."
 featured_image: header.png
 categories:
   - technical
   - research
 features:
   - proof-of-stake
-toc: true
+toc: false
 ---
 
 We are excited to announce the public release of our **python implementation** of some of the algebra underlying **lattice-based post-quantum cryptography**. In partnership with [The QRL Foundation](https://qrl.foundation/) and created by [Geometry Labs](https://geometrylabs.io), the code is now available as free and open source software published on [GitHub](https://github.com/geometry-labs/lattice-algebra) and distributed through [PyPi](https://pypi.org/project/lattice-algebra/) (install with: `pip install lattice-algebra`). This library will be used to prototype a variety of new features for the QRL protocol, such as **lattice-based proof-of-stake signatures**, **trustless cross-chain atomic swaps** (QRL&harr;BTC, QRL&harr;ETH, etc), and **‘lightning network’ style payment channels.**
