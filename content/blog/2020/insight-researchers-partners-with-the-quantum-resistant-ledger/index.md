@@ -8,8 +8,10 @@ featured_image: 1WSgS6fdxW21SZ6CO-YERmA.sm.png
 images:
   - 1WSgS6fdxW21SZ6CO-YERmA.sm.png
 categories:
-  - press
   - technical
+  - research
+features:
+  - proof-of-stake
 ---
 
 **Update 2021-**
