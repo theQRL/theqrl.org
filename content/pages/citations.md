@@ -39,6 +39,9 @@ https://ieeexplore.ieee.org/document/8959230
 Smart Digital Signatures (SDS): A Post-quantum Digital Signature Scheme for Distributed Ledgers\
 https://www.researchgate.net/publication/340934583_Smart_Digital_Signatures_SDS_A_Post-quantum_Digital_Signature_Scheme_for_Distributed_Ledgers
 
+Deterministic Wallets in a Quantum World\
+https://eprint.iacr.org/2020/1149
+
 ## PUBLICATIONS FROM STANDARDS BODIES (NIST / IETF)
 
 RFC 8391 - XMSS: eXtended Merkle Signature Scheme\
