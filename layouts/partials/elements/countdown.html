@@ -1,5 +1,5 @@
 <section id="countdown" class="countdown">
-    <a class="flex_wrapper" href="/blog/qrl-mainnet-release-version-3-cesium/">
+    <a class="flex_wrapper" href="/blog/qrl-mainnet-v3-successful/">
         <div class="timer">
             <ul>
                 <li class="days">
@@ -20,7 +20,7 @@
                 </li>
             </ul>
         </div>
-        <div class="countdown-title">
+        <div class="countdown-title flex_wrapper">
             <h2>Countdown to QRL Mainnet v3</h2>
             <span class="welcome__btn welcome__btn--text">Read More & Update your node</span>
         </div>
@@ -144,7 +144,7 @@
         let today = new Date();
         
         
-        let current_blockheight  = 0;
+        let current_blockheight  = 1938001;
         let hardfork_blockheight = 1938000;  
         let remaining_blocks = hardfork_blockheight - current_blockheight;
         var distance = remaining_blocks; 
@@ -158,8 +158,10 @@
         }
         
         // Update every 15 minutes
-        setInterval(updateDistance, 1000 * 60 * 60);
-        updateDistance();
+        if(current_blockheight < hardfork_blockheight) {
+          setInterval(updateDistance, 1000 * 60 * 60);
+          updateDistance();
+        }
       
         x = setInterval(function() {
             if(current_blockheight == 0) {
