@@ -509,3 +509,12 @@ html {
   z-index: -1;
   opacity: .01;
 }
+
+
+.timeline p {
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.timeline strong {
+  font-weight: bold;
+}
