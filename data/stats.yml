@@ -1,16 +1,16 @@
 ---
-volume: 31792888.826660
-transactions: 335931
+volume: "31,792,888"
+transactions: "335,931"
 nodes: 684
-block_height: "1966877"
-coins_emitted: 76082122.229028
+block_height: "1,966,877"
+coins_emitted: "76,082,122"
 block_reward: 1.919328
 hashrate: 28048040.533333
-repositories: 72
+repositories: "85"
 contributors: 57
-commits: 12853
+commits: "12,853"
 miners: 312
-wallets: 13436
+wallets: "13,436"
 pools: 12
 repos: 85
 ...
