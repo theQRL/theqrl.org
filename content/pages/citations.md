@@ -42,6 +42,9 @@ https://www.researchgate.net/publication/340934583_Smart_Digital_Signatures_SDS_
 Deterministic Wallets in a Quantum World\
 https://eprint.iacr.org/2020/1149
 
+Preparation for Post-Quantum era: a survey about blockchain schemes from a post-quantum perspective\
+https://eprint.iacr.org/2022/026.pdf
+
 ## PUBLICATIONS FROM STANDARDS BODIES (NIST / IETF)
 
 RFC 8391 - XMSS: eXtended Merkle Signature Scheme\
