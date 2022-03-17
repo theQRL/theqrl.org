@@ -13,14 +13,16 @@
   margin-right: auto;
 } */
 
-p code {
-    border: 1px solid #AAB;
-    background-color: #EFEFEF;
-    padding: 0 3px;
-    margin: 0 1px;
-    border-radius: 4px;
-    word-wrap: anywhere;
+p code, li code {
+  border: 1px solid #AAB;
+  background-color: #DDDDDF;
+  color: #333;
+  padding: 0 4px;
+  margin: 0 1px;
+  border-radius: 3px;
+  word-wrap: anywhere;
 }
+
 .highlight code {
   font-family: monospace;
 }
