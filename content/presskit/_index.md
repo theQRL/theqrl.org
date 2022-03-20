@@ -5,6 +5,7 @@ title: Press Kit
 url: "/presskit"
 parent: /
 ---
+
 A large number of QRL design assets are available on a dedicated [GitHub repository](https://github.com/theQRL/assets) for use by press outlets or partner integrations.
 
 ### Logo
@@ -27,11 +28,13 @@ A large number of QRL design assets are available on a dedicated [GitHub reposit
 
 ### Explainer
 
-- [QRL Explainer](/press/qrl.pdf)
+- [QRL Explainer](/presskit/qrl.pdf) [[.odp]](/presskit/qrl.odp) [[.pptx]](/presskit/qrl.pptx) 
 
 ## Terms of use
 
-The design Assets offered within this repository are the exclusive property of The Quantum Resistant Ledger or its affiliates ("QRL" or "Our"). As such, QRL owns all rights, title and interest in the Assets, including but not limited to, copyright, moral rights, rights under any statutory protection of creative works, and otherwise, as applicable. Anyone using these Assets acknowledges that they are being provided merely as a convenience and accommodation on an "AS IS" basis without warranty of any kind.
+The design Assets offered are the exclusive property of The Quantum Resistant Ledger and/or its affiliates ("QRL" or "Our"). Whilst these Assets are provided for fair use, their provision does not come with any additional permissions, delegation, approval or endorsement from the QRL for any use thereof.
+
+As such, QRL owns all rights, title and interest in the Assets, including but not limited to, copyright, moral rights, rights under any statutory protection of creative works, and otherwise, as applicable. Anyone using these Assets acknowledges that they are being provided merely as a convenience and accommodation on an "AS IS" basis without warranty of any kind.
 
 As a condition of your use of any asset, you agree to:
 
@@ -44,3 +47,5 @@ As a condition of your use of any asset, you agree to:
 - Indemnify and defend QRL and its affiliates from and against any claim, cost or liability of any kind, including for copyright and trademark infringement, arising out of Your use of any Asset; and
 
 - Waive, release and hold harmless QRL, its affiliates, vendors or customers from any claim or liability based upon Our printing or provision of any materials to any other customer of QRL or its affiliates containing an Asset similar or identical to an Asset selected by You.
+
+For further information, queries or clarification, please contact info@theqrl.org
