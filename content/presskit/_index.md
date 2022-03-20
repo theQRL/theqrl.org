@@ -25,6 +25,10 @@ A large number of QRL design assets are available on a dedicated [GitHub reposit
 [Yellow .PNG](https://github.com/theQRL/assets/blob/master/Icon/yellow/yellow_512x512.png) | [Dark .PNG](https://github.com/theQRL/assets/blob/master/Icon/dark/dark_512x512.png) | [White .PNG](https://github.com/theQRL/assets/blob/master/Icon/white/white_512x512.png)\
 [Yellow .SVG](https://github.com/theQRL/assets/blob/master/Icon/yellow/yellow_512x512.svg) | [Dark .SVG](https://github.com/theQRL/assets/blob/master/Icon/dark/dark_512x512.svg) | [White .SVG](https://github.com/theQRL/assets/blob/master/Icon/white/white_512x512.svg)
 
+### Explainer
+
+- [QRL Explainer](/press/qrl.pdf)
+
 ## Terms of use
 
 The design Assets offered within this repository are the exclusive property of The Quantum Resistant Ledger or its affiliates ("QRL" or "Our"). As such, QRL owns all rights, title and interest in the Assets, including but not limited to, copyright, moral rights, rights under any statutory protection of creative works, and otherwise, as applicable. Anyone using these Assets acknowledges that they are being provided merely as a convenience and accommodation on an "AS IS" basis without warranty of any kind.
