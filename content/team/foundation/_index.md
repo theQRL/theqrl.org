@@ -17,5 +17,6 @@ The Foundation acts as the decision-making body which advises on developmental p
 
 As an organisation, the Foundation does not seek to make a profit or seek to bolster its assets.
 
+-----
 
-
+The Foundation website is located at [qrl.foundation](https://qrl.foundation/).
