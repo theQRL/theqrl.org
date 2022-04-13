@@ -3,8 +3,8 @@ layout: blog-post
 slug: qrl-hackathon-2022
 date: 2022-04-13
 author: "Jack Matier"
-title: "Post-quantum secure Proof-of-Stake and EVM compatible smart contract platform to be revealed at the QRL 2022 hackathon"
-summary: "We are excited to announce that a hackathon event is planned for September 2022 at the end of the summer. The most recent network upgrade will be revealed at this event, along with public devnet POS and EVM-compatible smart contract functionality. Finally, developers and the general public will be able to create and use exciting web3 functionality within the QRL protocol."
+title: "Post-quantum secure Proof-of-Stake (PoS) and EVM compatible smart contract platform to be revealed at the QRL hackathon 2022"
+summary: "We are excited to announce that a hackathon event is planned for September 2022 at the end of the summer. The most recent network upgrade will be revealed at this event, along with public devnet Proof-of-Stake (PoS) and EVM-compatible smart contract functionality. Finally, developers and the general public will be able to create and use exciting web3 functionality within the QRL protocol."
 featured_image: header.png
 categories:
   - community
@@ -23,15 +23,15 @@ As quantum computers scale, post-quantum cryptographic protocols must be impleme
 
 Since our genesis block two million blocks ago, the QRL blockchain has performed uninterrupted. Using [NIST-approved](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-208.pdf) cryptography to secure payments and communication, our chain is always available, open sourced, and fully decentralised. Looking to the future, simply being a reliable completely post-quantum secure means of exchange *isn't enough* within the plurality of the current public blockchain ecosystem.
 
-The future of the QRL protocol is an environmentally friendly proof-of-stake driven public blockchain, a fully decentralised network, offering users provably post-quantum secure transactions and Turing complete smart-contract capabilities. Opening the door to provably-quantum secure Web3 functionality enables new and uniquely secure use-cases such as: dApps, DeFi applications, quantum-secure stablecoins, NFTs, eternal quantum-secure contracts, and metaverse applications. The QRL ecosystem being developed will allow developers to bring quantum-secure blockchain code, limited only by their imagination. Choosing to implement the EVM into the QRL protocol enables smart contract compatibility and interoperability with other EVM chains.
+The future of the QRL protocol is an environmentally friendly proof-of-stake driven public blockchain, a fully decentralised network, offering users provably post-quantum secure transactions and Turing complete smart contract capabilities. Opening the door to provably-quantum secure Web3 functionality enables new and uniquely secure use-cases such as: dApps, DeFi applications, quantum-secure stablecoins, NFTs, eternal quantum-secure contracts, and metaverse applications. The QRL ecosystem being developed will allow developers to bring quantum-secure blockchain code, limited only by their imagination. Choosing to implement the EVM into the QRL protocol enables smart contract compatibility and interoperability with other EVM chains.
 
 After years of research, development, and protocol iterations, we are extremely excited to see what novel decentralised systems and applications will be built on the QRL protocol by... you!
 
-## The QRL Hackathon September 2022
+## The QRL Hackathon 2022
 
 {{< image "./images/build.png" >}}
 
-With the public devnet for our Proof-of-Stake consensus and EVM smart-contracts coming this September we’ll be spearheading an in-person hackathon to build out the QRL ecosystem to be ready for release.
+With the public devnet for our Proof-of-Stake consensus and EVM smart contracts coming this September we’ll be spearheading an in-person hackathon to build out the QRL ecosystem to be ready for release.
 
 This is a chance for developers, designers, both professional and amateur,  or anyone in-between to come together for a multiday event with direct team interaction and to be part of the future of post-quantum resistant blockchain *ecosystems*.
 
