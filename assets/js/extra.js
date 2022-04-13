@@ -88,8 +88,7 @@ if(document.querySelector('body')) {
             data = JSON.parse(data);
             let dlist = document.getElementById("downloads-list");
             let platform = (navigator?.userAgentData?.platform || navigator?.platform || 'unknown').toLowerCase();
-            console.log(platform);
-
+            
             // If it's linux...
             if(platform.indexOf("linux") != -1) {
                 document.getElementById('downloads-text').innerText = "Desktop (Linux)";
@@ -130,7 +129,7 @@ if(document.querySelector('body')) {
                 // Generate Win buttons... (Intel/Silicon)
                 data.filter(function (e) {
                     if(e.indexOf('WINDOWS') !== -1) {
-                        dlist.appendChild(createButton( "Download (msi)" , e));
+                        dlist.appendChild(createButton( "Download ."+e.split('.').pop() , e));
                     }
                 })
             }
