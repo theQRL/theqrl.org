@@ -46,13 +46,15 @@
 } */
 
 p code, li code {
-  border: 1px solid #AAB;
-  background-color: #DDDDDF;
+  border: 1px solid #EEE;
+  background-color: #F0F0F0;
   color: #333;
   padding: 0 4px;
   margin: 0 1px;
-  border-radius: 3px;
+  font-size:86%;
+  border-radius: 0px;
   word-wrap: anywhere;
+  font-family: "Hack", monospace;
 }
 
 .highlight code {

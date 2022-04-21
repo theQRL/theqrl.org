@@ -75,25 +75,34 @@
       <hr>
 
       <div class="author-box flex_wrapper">
-        <div class="author-box-img">
-          {{ $a := .Params.author }}
-          {{ $t := .Site.GetPage "/team" }}
-          {{ range $t.Data.Pages }}
-          {{ if eq .Params.name $a }}
-            <a href="{{.Site.BaseURL}}/team/{{ .Params.slug }}"><img src="{{ .Params.profile }}" alt="{{$a}}"></a>
-          {{ end }}
-          {{end}}
-        </div>
-        <div class="author-box-text flex_dir_col flex_jc_center">
-          <p>WRITTEN BY </p>
-          {{ range $t.Data.Pages }}
-          {{ if eq .Params.name $a }}
-          <p><a href="{{.Site.BaseURL}}/team/{{ .Params.slug }}" style="text-decoration: none;">{{ $a }}</a></p>
-          {{ end }}
-          {{end}}
-        </div>
+        {{ if .Params.guest }}
+          <div class="author-box-img">
+            <img src="/img/guests/guest.png" alt="">
+          </div>
+          <div class="author-box-text flex_dir_col flex_jc_center">
+            <p>GUEST POST WRITTEN BY </p>
+            <p>{{ .Params.guest }}</p>
+          </div>          
+        {{ else }}
+          <div class="author-box-img">
+            {{ $a := .Params.author }}
+            {{ $t := .Site.GetPage "/team" }}
+            {{ range $t.Data.Pages }}
+            {{ if eq .Params.name $a }}
+              <a href="{{.Site.BaseURL}}/team/{{ .Params.slug }}"><img src="{{ .Params.profile }}" alt="{{$a}}"></a>
+            {{ end }}
+            {{end}}
+          </div>
+          <div class="author-box-text flex_dir_col flex_jc_center">
+            <p>WRITTEN BY </p>
+            {{ range $t.Data.Pages }}
+            {{ if eq .Params.name $a }}
+            <p><a href="{{.Site.BaseURL}}/team/{{ .Params.slug }}" style="text-decoration: none;">{{ $a }}</a></p>
+            {{ end }}
+            {{end}}
+          </div>
+        {{ end }}
         <div>
-
         </div>
       </div>
     </div>

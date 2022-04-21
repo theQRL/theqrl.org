@@ -10,7 +10,6 @@ youtube="QRLedger"
 images = ["/logocircle.png"]
 description = "The Quantum Resistant Ledger (QRL) is a first-of-its-kind, post-quantum value store and decentralized communication layer proactively tackling the threat advanced Quantum Computers pose to cryptocurrencies"
 
-
 [module]
   [[module.imports]]
     path = 'github.com/theQRL/qips'
@@ -20,7 +19,27 @@ description = "The Quantum Resistant Ledger (QRL) is a first-of-its-kind, post-q
     source = './qips'
     target = 'content/qips'
 
+[[module.mounts]]
+  source = 'assets/js/mathjax'
+  target = 'static/js/mathjax'
+
+
 [markup]
+  [markup.blackFriday]
+    angledQuotes = false
+    footnoteAnchorPrefix = ''
+    footnoteReturnLinkContents = ''
+    fractions = true
+    hrefTargetBlank = false
+    latexDashes = false
+    nofollowLinks = false
+    noreferrerLinks = false
+    plainIDAnchors = true
+    skipHTML = false
+    smartDashes = true
+    smartypants = false
+    smartypantsQuotesNBSP = false
+    taskLists = true
   [markup.tableOfContents]
     endLevel = 4
     ordered = false
