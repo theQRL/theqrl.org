@@ -19,6 +19,11 @@ description = "The Quantum Resistant Ledger (QRL) is a first-of-its-kind, post-q
     source = './qips'
     target = 'content/qips'
 
+  [[module.mounts]]
+  source = 'assets/js/mathjax'
+  target = 'static/js/mathjax'
+
+
 [markup]
   [markup.blackFriday]
     angledQuotes = false
