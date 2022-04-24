@@ -10,6 +10,7 @@ images:
   - 1VHGPdYG_QXB7eRb03DxtBg.png
 categories:
   - technical
+  - research
 features:
   - proof-of-stake
 ---
