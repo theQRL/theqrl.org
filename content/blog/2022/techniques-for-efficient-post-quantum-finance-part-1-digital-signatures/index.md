@@ -23,7 +23,7 @@ This is the first article in a multipart series from [The QRL Foundation](https:
 
 In the next article, we show how to extend this to [Boneh and Kim](https://github.com/geometry-labs/rsis/blob/dev-end-of-january/lmsigs/agg_ots/agg_ots.py) style signature aggregation, as a potential method for reducing the on-chain footprint for proof-of-stake consensus with many validators. The following article describes our novel one-time adaptor signature scheme, designed to enable payment channels and decentralized trustless cross-chain atomic swaps (inspired by the work of [Esgin, Ersoy, and Erkin](https://eprint.iacr.org/2020/845)). 
 
-**The articles in this series describe the applications and security models; additionally, open-source python implementations of the cryptography are freely available** on [GitHub](https://github.com/geometry-labs/lattice-crypto), built with the [lattice-algebra library](https://github.com/geometry-labs/lattice-algebra) described in a [previous QRL blog post](/blog/lattice-algebra-library/). 
+**The articles in this series describe the applications and security models; additionally, open-source python implementations of the cryptography are freely available** on [GitHub](https://github.com/geometry-labs/lattice-cryptography), built with the [lattice-algebra library](https://github.com/geometry-labs/lattice-algebra) described in a [previous QRL blog post](/blog/lattice-algebra-library/). 
 
 In the final part, we describe a blockchain-agnostic approach for reducing local storage requirements for network participants while keeping bootstrapping costs low.
 
