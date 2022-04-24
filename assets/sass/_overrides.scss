@@ -1,0 +1,643 @@
+@font-face {
+    font-family: 'Hack';
+    src: url('/fonts/Hack/hack-regular-subset.woff2?sha=3114f1256') format('woff2'), url('/fonts/Hack/hack-regular-subset.woff?sha=3114f1256') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Hack';
+    src: url('/fonts/Hack/hack-bold-subset.woff2?sha=3114f1256') format('woff2'), url('/fonts/Hack/hack-bold-subset.woff?sha=3114f1256') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Hack';
+    src: url('/fonts/Hack/hack-italic-subset.woff2?sha=3114f1256') format('woff2'), url('/fonts/Hack/hack-italic-subset.woff?sha=3114f1256') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Hack';
+    src: url('/fonts/Hack/hack-bolditalic-subset.woff2?sha=3114f1256') format('woff2'), url('/fonts/Hack/hack-bolditalic-subset.woff?sha=3114f1256') format('woff');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  /* blog-inner.scss:107 */
+  .blogPageInner .blog-article ul p {
+    margin: 0 0 10px 0px;
+  }
+  
+  
+  .twitter-tweet {
+    margin: 10px auto;
+  }
+  /* .blogPageInner .blog-article img:first-of-type {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  } */
+  
+  p code, li code {
+    border: 1px solid #EEE;
+    background-color: #F0F0F0;
+    color: #333;
+    padding: 0 4px;
+    margin: 0 1px;
+    font-size:86%;
+    border-radius: 0px;
+    word-wrap: anywhere;
+    font-family: "Hack", monospace;
+  }
+  
+  .highlight code {
+    font-family: "Hack", monospace;
+  }
+  .highlight span {
+    font-family: "Hack", monospace;
+  }
+  .security__text a {
+      color: #4aafff;
+      -webkit-transition: opacity .3s ease-in-out,color .3s ease-in-out;
+      -o-transition: opacity .3s ease-in-out,color .3s ease-in-out;
+      transition: opacity .3s ease-in-out,color .3s ease-in-out;
+  }
+  
+  .security__text a:hover {
+      color: #ffa729;
+  }
+  
+  .grid-markets .core__el__img img {
+      object-fit: contain;
+  }
+  
+  .grid-markets .core__el__img {
+      text-align: center;
+      padding: 40px;
+      background-color:#FCFCFC;
+  }
+  
+  .grid-markets span.market {
+    background-color: #4AAFFF;
+    color: #FFF;
+    padding:5px 7px;
+    margin-right: 3px; margin-top:3px;
+    border-radius: 5px;
+    font-weight:bold;
+    font-size: 16px;
+  }
+  
+  .grid-markets .market-pairs {
+    padding-top: 7px;
+  }
+  
+  .coreTeam .grid-markets .core__el {
+      /*margin-top: 0;*/
+      margin-bottom: 40px;
+  }
+  .core-team-head__inner {
+    margin-bottom:20px;
+  }
+  
+  .timeline-content {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .timeline {
+    border-left: 3px solid #FFA729;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background: #ECEDED;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 50px auto;
+    letter-spacing: 0.5px;
+    position: relative;
+    line-height: 1.4em;
+    font-size: 1.03em;
+    padding: 50px;
+    list-style: none;
+    text-align: left;
+    font-weight: 100;
+    max-width: 90%;
+  }
+  .timeline h1 {
+    letter-spacing: 1.5px;
+    font-weight: 100;
+    font-size: 1.4em;
+  }
+  .timeline h2,
+  .timeline h3 {
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-size: 1.4em;
+  }
+  .timeline .event {
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+    position: relative;
+  }
+  
+  .timeline ul {
+    padding-left:20px;
+    list-style: disc;
+  }
+  .timeline .event:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+  }
+  .timeline .event:before,
+  .timeline .event:after {
+    position: absolute;
+    display: block;
+    top: 0;
+  }
+  .timeline .event:before {
+    left: -217.5px;
+    color: #444;
+    content: attr(data-date);
+    text-align: right;
+    font-weight: 100;
+    font-size: 0.9em;
+    min-width: 140px;
+  }
+  .timeline .event:after {
+    left: -56.85px;
+    background: #FFA729;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+    top: 5px;
+  }
+  .future .timeline .event:after {
+    background: #4AAFFF;
+  }
+  .future .timeline {
+    border-left: 3px solid #4AAFFF;
+  }
+  .timeline-content .container-mini > h2:after {
+    display:none;
+  }
+  
+  .timeline .date {
+    display:none;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .grid-markets.grid-three-cols {
+          grid-template-columns: repeat(1, 1fr);
+          grid-column-gap: 30px;
+          grid-row-gap: 30px;
+    }
+    .timeline .event:before {
+      display:none;
+      left: -217.5px;
+      color: #444;
+      content: '';
+      text-align: right;
+      font-weight: 100;
+      font-size: 0.9em;
+      min-width: 140px;
+    }
+  
+    .timeline .date {
+      display: block;
+    }
+  
+  }
+  .popup-edit h3 {
+      margin-bottom: 10px;
+      line-height: 24px;
+  }
+  
+  .contributors .list li a {
+    border-bottom: unset;
+  }
+  
+  .ghover path {
+    transition: 500ms ease-in-out;
+  }
+  
+  .ghover:hover path {
+      fill: #4aafff;
+  }
+  .others {
+    margin-top: -10px;
+  }
+  .others a {
+    display: inline;
+    border-radius: 0;
+    color: rgba(10,23,32,0.5);
+    text-transform: none;
+    background-color: unset;
+  }
+  .others a:hover {
+    color: #ffa729;
+    background-color: unset;
+  }
+  .single-md ul {
+    font-size: 18px;
+    line-height: 26px;
+    margin: 40px 0;
+  }
+  .single-md ul li {
+      list-style-type: disc;
+      font-size: 18px;
+      line-height: 26px;
+      margin-bottom: 10px;
+  }
+  .single-md h2 {
+    font-size: 32px;
+    line-height: 150%;
+    text-transform: uppercase;
+    font-family: 'Alte DIN 1451 Mittelschrift';
+    font-weight: bold;
+  
+  }
+  .single-md a {
+    text-decoration: underline;
+    transition: 500ms ease-in-out;
+  }
+  .single-md a:hover {
+    color: #ffa729;
+  }
+  .no-ul {
+    text-decoration: none !important;
+  }
+  .blog .small-p a {
+    background-color: rgba(255,167,41,0.2);
+  }
+  .blog .small-p a:hover {
+    color: #FFA729;
+  }
+  
+  div.chroma {
+    border:1px solid #000;
+    font-size:13px;
+    line-height: 1.4;
+    /* font-family: "Source Sans Pro",sans-serif; */
+    font-family: "Hack", monospace;
+  }
+  .qip-table {
+    width: 100%;
+    border: 1px solid #DDD;
+  
+  }
+  .qip-table {
+    margin-bottom:20px;
+  }
+  .qip-table td {
+    padding: 5px;
+    border: 1px solid #DDD;
+  
+  }
+  .qip-table td:first-child {
+    background-color: #EEE;
+  }
+  
+  .chroma table .lntd {
+    padding-left:5px;
+  }
+  
+  .qip-article h1 {
+    display:none;
+  }
+  .qip-status {
+    margin-top: 5px;
+  }
+  .qip-status span {
+    font-size: inherit;
+    background-color: #FFA729;
+    color: rgb(255, 255, 255);
+    padding:0 5px;
+  }
+  .qip-status span.qip-status-proposal,
+  .qip-status span.qip-status-completed,
+  .qip-status span.qip-status-accepted  {
+    background-color:#529214;
+  }
+  .qip-status span.qip-status-rejected,
+  .qip-status span.qip-status-abandoned,
+  .qip-status span.qip-status-withdrawn {
+    background-color: #e85c41;
+  }
+  
+  .qip-status span.qip-status-draft,
+  .qip-status span.qip-status-incomplete {
+    background-color: #CCC;
+  }
+  
+  code.has-jax {
+    -webkit-font-smoothing: antialiased;
+    background: inherit !important;
+    border: none !important;
+    font-size: 100%;
+  }
+  
+  /* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
+  #mc_embed_signup {
+    background-color: #0a1720;
+    margin-top: 10px;
+    padding: 20px 26px;
+    transition: .5s ease-in-out;
+    position: relative;
+    transition-property: color,background-color;
+    z-index: 2;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Source Sans Pro",sans-serif;
+    cursor: default;
+    border-top: 6px solid #4AAFFF;
+    border-radius: 6px;
+  }
+  #mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
+  #mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:36px; line-height: 48px;}
+  #mc_embed_signup input {color:#FFF;border: 1px solid #FFF; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+  
+  #mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
+  #mc_embed_signup input:focus {border-color:#4AAFFF;caret-color: #FFF;}
+  #mc_embed_signup .button {
+    border: 0;
+    height: 40px;
+    width: 156px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    display: block;
+    background-color: #4AAFFF;
+    font-size: 14px;
+    font-family: "Alte DIN 1451 Mittelschrift",sans-serif;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+  }
+  #mc_embed_signup .button:hover {    background-color: #0891ff;}
+  #mc_embed_signup .small-meta {font-size: 11px;}
+  #mc_embed_signup .nowrap {white-space:nowrap;}
+  
+  #mc_embed_signup .mc-field-group {clear:left; position:relative; width:96%; padding-bottom:5px;}
+  #mc_embed_signup .size1of2 {clear:none; float:left; width:46%; margin-right:4%;}
+  * html #mc_embed_signup .size1of2 {margin-right:2%; /* Fix for IE6 double margins. */}
+  #mc_embed_signup .mc-field-group label {display:block; margin-bottom:3px;font-weight: bold;}
+  #mc_embed_signup .mc-field-group input {display:block; width:100%; padding:8px 0; text-indent:2%;}
+  #mc_embed_signup .mc-field-group select {display:inline-block; width:99%; padding:5px 0; margin-bottom:2px;}
+  
+  #mc_embed_signup .datefield, #mc_embed_signup .phonefield-us{padding:5px 0;}
+  #mc_embed_signup .datefield input, #mc_embed_signup .phonefield-us input{display:inline; width:60px; margin:0 2px; letter-spacing:1px; text-align:center; padding:5px 0 2px 0;}
+  #mc_embed_signup .phonefield-us .phonearea input, #mc_embed_signup .phonefield-us .phonedetail1 input{width:40px;}
+  #mc_embed_signup .datefield .monthfield input, #mc_embed_signup .datefield .dayfield input{width:30px;}
+  #mc_embed_signup .datefield label, #mc_embed_signup .phonefield-us label{display:none;}
+  
+  #mc_embed_signup .indicates-required {text-align:right; font-size:11px; margin-right:4%;}
+  #mc_embed_signup .asterisk {color:#e85c41; font-size:150%; font-weight:normal; position:relative; top:5px;}     
+  #mc_embed_signup .clear {clear:both;}
+  
+  #mc_embed_signup .mc-field-group.input-group ul {margin:0; padding:5px 0; list-style:none;}
+  #mc_embed_signup .mc-field-group.input-group ul li {display:block; padding:3px 0; margin:0;}
+  #mc_embed_signup .mc-field-group.input-group label {display:inline;}
+  #mc_embed_signup .mc-field-group.input-group input {display:inline; width:auto; border:none;}
+  
+  #mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%; margin: 0 5%; clear: both;}
+  #mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
+  #mc_embed_signup #mce-error-response {display:none;}
+  #mc_embed_signup #mce-success-response {color:#529214; display:none;}
+  #mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
+  
+  #mc-embedded-subscribe {clear:both; width:auto; display:block; margin:0;}
+  #mc_embed_signup #num-subscribers {font-size:1.1em;}
+  #mc_embed_signup #num-subscribers span {padding:.5em; border:1px solid #ccc; margin-right:.5em; font-weight:bold;}
+  
+  #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {display:inline-block; margin:2px 0 1em 0; padding:5px 10px; background-color:rgba(255,255,255,0.85); -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; font-size:14px; font-weight:normal; z-index:1; color:#e85c41;}
+  #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {border:2px solid #e85c41;}
+  #mc_embed_signup .subfield {
+    display: inline;
+    width: fit-content;
+  }
+  #mc_embed_signup input[type=checkbox]{
+    -webkit-appearance:checkbox;height:20px;
+    display: inline;
+  }
+  #mc_embed_signup a {
+    text-decoration: underline;
+    transition: 300ms ease-in-out;
+  }
+  #mc_embed_signup a:hover {
+    color: #FFA729;
+  }
+  
+  .joanclarke {
+    position: inherit;  
+  }
+  .av-checkbox {
+    position: absolute !important;
+    width: auto !important;
+  }
+  .checkbox > span {
+    margin-left: 20px !important;
+  }
+  
+  
+  html {
+    scroll-padding-top: 96px;
+  }
+  
+  #qips .event {
+    display:flex;
+    justify-content: space-between;
+  }
+  @media all and (max-width: 810px){
+  #qips .event {
+    flex-direction: column;
+  }
+  #qips .event .welcome__btn {
+    margin-top: 5px;
+  }
+  }
+  
+  
+  .highlight-wrapper {
+    display: block;
+    
+  }
+  
+  .highlight-wrapper + h4 {
+    margin-top: 20px;
+  }
+  .highlight {
+    position: relative;
+    z-index: 0;
+    padding: 0;
+    margin: 0;
+    border-radius: 4px;
+  }
+  
+  .highlight > .chroma {
+    color: #d0d0d0;
+    background-color: #212121;
+    position: static;
+    z-index: 1;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  
+  .chroma .lntd:first-child {
+    padding: 7px 7px 7px 10px;
+    margin: 0;
+  }
+  
+  .chroma .lntd:last-child {
+    padding: 7px 10px 7px 7px;
+    margin: 0;
+  }
+  
+  .copy-code-button {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 0;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0.5px;
+    width: 65px;
+    color: #232326;
+    background-color: #7f7f7f;
+    border: 1.25px solid #232326;
+    border-top-left-radius: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 4px;
+    white-space: nowrap;
+    padding: 4px 4px 5px 4px;
+    margin: 0 0 0 1px;
+    cursor: pointer;
+    opacity: 0.6;
+  }
+  
+  .copy-code-button:hover,
+  .copy-code-button:focus,
+  .copy-code-button:active,
+  .copy-code-button:active:hover {
+    color: #222225;
+    background-color: #b3b3b3;
+    opacity: 0.8;
+  }
+  
+  .copyable-text-area {
+    position: absolute;
+    height: 0;
+    z-index: -1;
+    opacity: .01;
+  }
+  
+  
+  .timeline p {
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+  .timeline strong {
+    font-weight: bold;
+  }
+
+
+  .mjx-chtml {
+    display: inline-block; 
+    line-height: 0; 
+    text-indent: 0; 
+    text-align: left; text-transform: none; font-style: normal; font-weight: normal; 
+    font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; 
+    float: none; direction: ltr; max-width: none; max-height: none; 
+    min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 5px;
+  }
+  .mjx-chtml span {
+    line-height:0;
+    font-size: 100%;
+    color:rgb(3, 144, 238) !important; 
+  }
+  .article-container div#article-aside .MJXc-TeX-unknown-R {font-family: STIXGeneral,'Cambria Math','Arial Unicode MS',serif; font-style: normal; font-weight: normal}
+  .article-container div#article-aside .MJXc-TeX-unknown-I {font-family: STIXGeneral,'Cambria Math','Arial Unicode MS',serif; font-style: italic; font-weight: normal}
+  .article-container div#article-aside .MJXc-TeX-unknown-B {font-family: STIXGeneral,'Cambria Math','Arial Unicode MS',serif; font-style: normal; font-weight: bold}
+  .article-container div#article-aside .MJXc-TeX-unknown-BI {font-family: STIXGeneral,'Cambria Math','Arial Unicode MS',serif; font-style: italic; font-weight: bold}
+  .blog-article span .MJXc-TeX-ams-R {font-family: MJXc-TeX-ams-R,MJXc-TeX-ams-Rw }
+  .blog-article span .MJXc-TeX-cal-B {font-family: MJXc-TeX-cal-B,MJXc-TeX-cal-Bx,MJXc-TeX-cal-Bw}
+  .blog-article span .MJXc-TeX-frak-R {font-family: MJXc-TeX-frak-R,MJXc-TeX-frak-Rw}
+  .blog-article span .MJXc-TeX-frak-B {font-family: MJXc-TeX-frak-B,MJXc-TeX-frak-Bx,MJXc-TeX-frak-Bw}
+  .blog-article span .MJXc-TeX-math-BI {font-family: MJXc-TeX-math-BI,MJXc-TeX-math-BIx,MJXc-TeX-math-BIw}
+  .blog-article span .MJXc-TeX-sans-R {font-family: MJXc-TeX-sans-R,MJXc-TeX-sans-Rw}
+  .blog-article span .MJXc-TeX-sans-B {font-family: MJXc-TeX-sans-B,MJXc-TeX-sans-Bx,MJXc-TeX-sans-Bw}
+  .blog-article span .MJXc-TeX-sans-I {font-family: MJXc-TeX-sans-I,MJXc-TeX-sans-Ix,MJXc-TeX-sans-Iw}
+  .blog-article span .MJXc-TeX-script-R {font-family: MJXc-TeX-script-R,MJXc-TeX-script-Rw}
+  .blog-article span .MJXc-TeX-type-R {font-family: MJXc-TeX-type-R,MJXc-TeX-type-Rw  !important; }
+  .blog-article span .MJXc-TeX-cal-R {font-family: MJXc-TeX-cal-R,MJXc-TeX-cal-Rw}
+  .blog-article span .MJXc-TeX-main-B {font-family: MJXc-TeX-main-B,MJXc-TeX-main-Bx,MJXc-TeX-main-Bw}
+  .blog-article span .MJXc-TeX-main-I {font-family: MJXc-TeX-main-I,MJXc-TeX-main-Ix,MJXc-TeX-main-Iw}
+  .blog-article span .MJXc-TeX-main-R {font-family: MJXc-TeX-main-R,MJXc-TeX-main-Rw}
+  .blog-article span .MJXc-TeX-math-I {font-family: MJXc-TeX-math-I,MJXc-TeX-math-Ix,MJXc-TeX-math-Iw}
+  .blog-article span .MJXc-TeX-size1-R {font-family: MJXc-TeX-size1-R,MJXc-TeX-size1-Rw}
+  .blog-article span .MJXc-TeX-size2-R {font-family: MJXc-TeX-size2-R,MJXc-TeX-size2-Rw}
+  .blog-article span .MJXc-TeX-size3-R {font-family: MJXc-TeX-size3-R,MJXc-TeX-size3-Rw}
+  .blog-article span .MJXc-TeX-size4-R {font-family: MJXc-TeX-size4-R,MJXc-TeX-size4-Rw}
+  .blog-article span .MJXc-TeX-vec-R {font-family: MJXc-TeX-vec-R,MJXc-TeX-vec-Rw}
+  .blog-article span .MJXc-TeX-vec-B {font-family: MJXc-TeX-vec-B,MJXc-TeX-vec-Bx,MJXc-TeX-vec-Bw}
+  @font-face {font-family: MJXc-TeX-ams-R; src: local('MathJax_AMS'), local('MathJax_AMS-Regular')}
+  @font-face {font-family: MJXc-TeX-ams-Rw; src /*1*/: url('/js/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_AMS-Regular.eot'); src /*2*/: url('/js/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_AMS-Regular.woff') format('woff'), url('/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf') format('opentype')}
+  @font-face {font-family: MJXc-TeX-cal-B; src: local('MathJax_Caligraphic Bold'), local('MathJax_Caligraphic-Bold')}
+  @font-face {font-family: MJXc-TeX-cal-Bx; src: local('MathJax_Caligraphic'); font-weight: bold}
+  @font-face {font-family: MJXc-TeX-cal-Bw; src /*1*/: url('/js/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Caligraphic-Bold.eot'); src /*2*/: url('/js/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Bold.woff') format('woff'), url('/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Bold.otf') format('opentype')}
+  @font-face {font-family: MJXc-TeX-frak-R; src: local('MathJax_Fraktur'), local('MathJax_Fraktur-Regular')}
+  @font-face {font-family: MJXc-TeX-frak-Rw; src /*1*/: url('/js/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Fraktur-Regular.eot'); src /*2*/: url('/js/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Fraktur-Regular.woff') format('woff'), url('/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Fraktur-Regular.otf') format('opentype')}
+  @font-face {font-family: MJXc-TeX-frak-B; src: local('MathJax_Fraktur Bold'), local('MathJax_Fraktur-Bold')}
+  @font-face {font-family: MJXc-TeX-frak-Bx; src: local('MathJax_Fraktur'); font-weight: bold}
+  @font-face {font-family: MJXc-TeX-frak-Bw; src /*1*/: url('/js/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Fraktur-Bold.eot'); src /*2*/: url('/js/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Fraktur-Bold.woff') format('woff'), url('/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Fraktur-Bold.otf') format('opentype')}
+  @font-face {font-family: MJXc-TeX-math-BI; src: local('MathJax_Math BoldItalic'), local('MathJax_Math-BoldItalic')}
+  @font-face {font-family: MJXc-TeX-math-BIx; src: local('MathJax_Math'); font-weight: bold; font-style: italic}
+  @font-face {font-family: MJXc-TeX-math-BIw; src /*1*/: url('/js/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Math-BoldItalic.eot'); src /*2*/: url('/js/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Math-BoldItalic.woff') format('woff'), url('/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Math-BoldItalic.otf') format('opentype')}
+  @font-face {font-family: MJXc-TeX-sans-R; src: local('MathJax_SansSerif'), local('MathJax_SansSerif-Regular')}
+  @font-face {font-family: MJXc-TeX-sans-Rw; src /*1*/: url('/js/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_SansSerif-Regular.eot'); src /*2*/: url('/js/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Regular.woff') format('woff'), url('/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Regular.otf') format('opentype')}
+  @font-face {font-family: MJXc-TeX-sans-B; src: local('MathJax_SansSerif Bold'), local('MathJax_SansSerif-Bold')}
+  @font-face {font-family: MJXc-TeX-sans-Bx; src: local('MathJax_SansSerif'); font-weight: bold}
+  @font-face {font-family: MJXc-TeX-sans-Bw; src /*1*/: url('/js/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_SansSerif-Bold.eot'); src /*2*/: url('/js/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Bold.woff') format('woff'), url('/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Bold.otf') format('opentype')}
+  @font-face {font-family: MJXc-TeX-sans-I; src: local('MathJax_SansSerif Italic'), local('MathJax_SansSerif-Italic')}
+  @font-face {font-family: MJXc-TeX-sans-Ix; src: local('MathJax_SansSerif'); font-style: italic}
+  @font-face {font-family: MJXc-TeX-sans-Iw; src /*1*/: url('/js/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_SansSerif-Italic.eot'); src /*2*/: url('/js/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Italic.woff') format('woff'), url('/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Italic.otf') format('opentype')}
+  @font-face {font-family: MJXc-TeX-script-R; src: local('MathJax_Script'), local('MathJax_Script-Regular')}
+  @font-face {font-family: MJXc-TeX-script-Rw; src /*1*/: url('/js/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Script-Regular.eot'); src /*2*/: url('/js/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Script-Regular.woff') format('woff'), url('/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Script-Regular.otf') format('opentype')}
+  @font-face {font-family: MJXc-TeX-type-R; src: local('MathJax_Typewriter'), local('MathJax_Typewriter-Regular')}
+  @font-face {font-family: MJXc-TeX-type-Rw; src /*1*/: url('/js/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Typewriter-Regular.eot'); src /*2*/: url('/js/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Typewriter-Regular.woff') format('woff'), url('/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Typewriter-Regular.otf') format('opentype')}
+  @font-face {font-family: MJXc-TeX-cal-R; src: local('MathJax_Caligraphic'), local('MathJax_Caligraphic-Regular')}
+  @font-face {font-family: MJXc-TeX-cal-Rw; src /*1*/: url('/js/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Caligraphic-Regular.eot'); src /*2*/: url('/js/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Regular.woff') format('woff'), url('/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf') format('opentype')}
+  @font-face {font-family: MJXc-TeX-main-B; src: local('MathJax_Main Bold'), local('MathJax_Main-Bold')}
+  @font-face {font-family: MJXc-TeX-main-Bx; src: local('MathJax_Main'); font-weight: bold}
+  @font-face {font-family: MJXc-TeX-main-Bw; src /*1*/: url('/js/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Main-Bold.eot'); src /*2*/: url('/js/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff') format('woff'), url('/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf') format('opentype')}
+  @font-face {font-family: MJXc-TeX-main-I; src: local('MathJax_Main Italic'), local('MathJax_Main-Italic')}
+  @font-face {font-family: MJXc-TeX-main-Ix; src: local('MathJax_Main'); font-style: italic}
+  @font-face {font-family: MJXc-TeX-main-Iw; src /*1*/: url('/js/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Main-Italic.eot'); src /*2*/: url('/js/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff') format('woff'), url('/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Italic.otf') format('opentype')}
+  @font-face {font-family: MJXc-TeX-main-R; src: local('MathJax_Main'), local('MathJax_Main-Regular')}
+  @font-face {font-family: MJXc-TeX-main-Rw; src /*1*/: url('/js/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Main-Regular.eot'); src /*2*/: url('/js/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff') format('woff'), url('/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf') format('opentype')}
+  @font-face {font-family: MJXc-TeX-math-I; src: local('MathJax_Math Italic'), local('MathJax_Math-Italic')}
+  @font-face {font-family: MJXc-TeX-math-Ix; src: local('MathJax_Math'); font-style: italic}
+  @font-face {font-family: MJXc-TeX-math-Iw; src /*1*/: url('/js/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Math-Italic.eot'); src /*2*/: url('/js/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff') format('woff'), url('/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf') format('opentype')}
+  @font-face {font-family: MJXc-TeX-size1-R; src: local('MathJax_Size1'), local('MathJax_Size1-Regular')}
+  @font-face {font-family: MJXc-TeX-size1-Rw; src /*1*/: url('/js/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Size1-Regular.eot'); src /*2*/: url('/js/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff') format('woff'), url('/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf') format('opentype')}
+  @font-face {font-family: MJXc-TeX-size2-R; src: local('MathJax_Size2'), local('MathJax_Size2-Regular')}
+  @font-face {font-family: MJXc-TeX-size2-Rw; src /*1*/: url('/js/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Size2-Regular.eot'); src /*2*/: url('/js/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Size2-Regular.woff') format('woff'), url('/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf') format('opentype')}
+  @font-face {font-family: MJXc-TeX-size3-R; src: local('MathJax_Size3'), local('MathJax_Size3-Regular')}
+  @font-face {font-family: MJXc-TeX-size3-Rw; src /*1*/: url('/js/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Size3-Regular.eot'); src /*2*/: url('/js/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Size3-Regular.woff') format('woff'), url('/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf') format('opentype')}
+  @font-face {font-family: MJXc-TeX-size4-R; src: local('MathJax_Size4'), local('MathJax_Size4-Regular')}
+  @font-face {font-family: MJXc-TeX-size4-Rw; src /*1*/: url('/js/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Size4-Regular.eot'); src /*2*/: url('/js/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff') format('woff'), url('/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf') format('opentype')}
+  @font-face {font-family: MJXc-TeX-vec-R; src: local('MathJax_Vector'), local('MathJax_Vector-Regular')}
+  @font-face {font-family: MJXc-TeX-vec-Rw; src /*1*/: url('/js/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Vector-Regular.eot'); src /*2*/: url('/js/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Vector-Regular.woff') format('woff'), url('/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Vector-Regular.otf') format('opentype')}
+  @font-face {font-family: MJXc-TeX-vec-B; src: local('MathJax_Vector Bold'), local('MathJax_Vector-Bold')}
+  @font-face {font-family: MJXc-TeX-vec-Bx; src: local('MathJax_Vector'); font-weight: bold}
+  @font-face {font-family: MJXc-TeX-vec-Bw; src /*1*/: url('/js/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Vector-Bold.eot'); src /*2*/: url('/js/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Vector-Bold.woff') format('woff'), url('/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Vector-Bold.otf') format('opentype')}
