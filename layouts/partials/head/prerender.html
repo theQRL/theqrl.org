@@ -11,45 +11,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no" />
     <meta name="google-site-verification" content="kpNDf1jcs5t12PcEr3SnoX1pzclVezxfystHfJgbvuk" />
-    <!-- Google Analytics -->
-    <script>
-    if ( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
-        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-
-        ga('create', 'UA-123414102-1', {
-          'cookieFlags': 'SameSite=Strict'
-        });
-
-        ga('send', 'pageview');
-
-      
-        var maxscrolldepth=0;
-        
-        // Track max scroll depth.
-        window.onscroll = function() {
-          var h = document.documentElement, b = document.body, st = 'scrollTop', sh = 'scrollHeight';
-
-          scrollpos = (h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight) * 100;
-          scrollpos = Math.round(scrollpos / 25) * 25;
-
-          if(scrollpos > maxscrolldepth) {
-            maxscrolldepth = scrollpos;
-          }
-        };
-      
-        // Send max scroll depth on before unload
-        window.addEventListener('unload', function (e) {
-          ga('send', 'event', 'Scroll Depth', 'Pixel Depth', maxscrolldepth);
-          delete e['returnValue'];
-        });
-    }
-    </script>
-
-    {{ $js := resources.Get "js/analytics.js" }}
-    {{ $secureJS := $js | resources.Fingerprint "sha512" }}
-    <script type="text/javascript" src="{{ $js.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
-    <!-- End Google Analytics -->
-
     <link rel="shortcut icon" type="image/svg" href="/favicon.svg">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -63,8 +24,16 @@
     {{ $options := (dict "targetPath" "css/app.css" "outputStyle" "compressed" "enableSourceMap" true "includePaths" (slice "node_modules/myscss")) }}
     {{ $style := resources.Get "sass/app.scss" | resources.ToCSS $options }} 
     <link rel="stylesheet" href="{{ $style.Permalink }}" />
-    <link rel="stylesheet" href="/css/overrides.css" />
-    
+
+
+    <!-- Google Analytics -->
+    <!-- GA4 Global site tag (gtag.js) - Google Analytics -->
+    {{ $js := resources.Get "js/header.js" }}
+    {{ $secureJS := $js | resources.Fingerprint "sha512" }}
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3GWG6HEE2T"></script>
+    <script type="text/javascript" src="{{ $js.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
+    <!-- END Global site tag (gtag.js) - Google Analytics -->
+
     {{ if .Params.mathjax }}
       {{ partial "elements/mathjax.html" . }}
     {{ end }}
@@ -73,7 +42,7 @@
     {{ partial "elements/opengraph.html" . }}
     <!-- End Opengraph -->
 
-    <!-- Start schema -->
+    <!-- Start schema --> 
     {{ partial "elements/schema.html" . }}
     <!-- End Schema -->
 

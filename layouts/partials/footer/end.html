@@ -1,8 +1,15 @@
-{{ $jsa := resources.Get "js/app.js" }}
-{{ $secureJSa := $jsa | resources.Fingerprint "sha512" }}
-<script type="text/javascript" src="{{ $jsa.Permalink }}" integrity="{{ $secureJSa.Data.Integrity }}"></script>
-{{ $jsb := resources.Get "js/extra.js" }}
-{{ $secureJSb := $jsb | resources.Fingerprint "sha512" }}
-<script type="text/javascript" src="{{ $jsb.Permalink }}" integrity="{{ $secureJSb.Data.Integrity }}"></script>
+    <!-- UA3-->
+    {{ $js := resources.Get "js/analytics.js" }}
+    {{ $secureJS := $js | resources.Fingerprint "sha512" }}
+    <script type="text/javascript" src="{{ $js.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
+    <!-- END UA3 -->
+
+    {{ $jsa := resources.Get "js/app.js" }}
+    {{ $secureJSa := $jsa | resources.Fingerprint "sha512" }}
+    <script type="text/javascript" src="{{ $jsa.Permalink }}" integrity="{{ $secureJSa.Data.Integrity }}"></script>
+    
+    {{ $jsb := resources.Get "js/extra.js" }}
+    {{ $secureJSb := $jsb | resources.Fingerprint "sha512" }}
+    <script type="text/javascript" src="{{ $jsb.Permalink }}" integrity="{{ $secureJSb.Data.Integrity }}"></script>
 </body>
 </html>

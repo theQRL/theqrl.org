@@ -73,6 +73,36 @@ function loadjson(file, callback) {
     rawFile.send(null);
 }
 
+if ( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+
+  ga('create', 'UA-123414102-1', {
+    'cookieFlags': 'SameSite=Strict'
+  });
+
+  ga('send', 'pageview');
+
+
+  var maxscrolldepth=0;
+  
+  // Track max scroll depth.
+  window.onscroll = function() {
+    var h = document.documentElement, b = document.body, st = 'scrollTop', sh = 'scrollHeight';
+
+    scrollpos = (h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight) * 100;
+    scrollpos = Math.round(scrollpos / 25) * 25;
+
+    if(scrollpos > maxscrolldepth) {
+      maxscrolldepth = scrollpos;
+    }
+  };
+
+  // Send max scroll depth on before unload
+  window.addEventListener('unload', function (e) {
+    ga('send', 'event', 'Scroll Depth', 'Pixel Depth', maxscrolldepth);
+    delete e['returnValue'];
+  });
+}
 
 if(document.querySelector('body')) {
     if (document.getElementById('downloads-list')) {
