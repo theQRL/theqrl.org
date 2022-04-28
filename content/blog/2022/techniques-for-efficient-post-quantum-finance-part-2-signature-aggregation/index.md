@@ -4,7 +4,7 @@ slug: techniques-for-efficient-post-quantum-finance-part-2-signature-aggregation
 date: 2022-04-28
 author: "Geometry Labs"
 title: "Techniques for efficient post-quantum finance (Part 2: signature aggregation)"
-summary: "This is the second article in a multipart series from The QRL Foundation and Geometry Labs exploring signature aggregation, a critical component for reducing the on-chain footprint for blockchains using the proof-of-stake conensus with many validators"
+summary: "This is the second article in a multipart series from The QRL Foundation and Geometry Labs exploring signature aggregation, a critical component for reducing the on-chain footprint for blockchains using the proof-of-stake consensus with many validators"
 featured_image: header.png
 categories:
   - technical
@@ -57,7 +57,7 @@ Just like in the previous article, this framework is only secure if both the fun
 
 ### Correctness
 
-Correctness means that honestly computed signatures have to pass aggregate verification. In other words, if $1 \leq N \leq C$ and, for each $i = 0, 1, \ldots, N-1$, each $(sk_i, vk_i) arrow \texttt{Keygen}$, each $\mu_i \in M$, and each $\xi_i arrow \texttt{Sign}((sk_i, vk_i), \mu_i)$, and $\xi\_{ag} arrow \texttt{Aggregate}((\mu_i, vk_i, \xi_i)\_{i=0}^{N-1})$, then $\texttt{AggregateVerify}((\mu_i, vk_i)\_{i=0}^{N-1}, \xi\_{ag}) = 1$.
+Correctness means that honestly computed signatures have to pass aggregate verification. In other words, if $1 \leq N \leq C$ and, for each $i = 0, 1, \ldots, N-1$, each $(sk_i, vk_i) \leftarrow \texttt{Keygen}$, each $\mu_i \in M$, and each $\xi_i \leftarrow \texttt{Sign}((sk_i, vk_i), \mu_i)$, and $\xi\_{ag} \leftarrow \texttt{Aggregate}((\mu_i, vk_i, \xi_i)\_{i=0}^{N-1})$, then $\texttt{AggregateVerify}((\mu_i, vk_i)\_{i=0}^{N-1}, \xi\_{ag}) = 1$.
 
 
 ### Aggregate Existential Unforgeability
