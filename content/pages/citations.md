@@ -104,6 +104,9 @@ https://www2.deloitte.com/nl/nl/pages/innovatie/artikelen/quantum-computers-and-
 Quantum attacks on Bitcoin, and how to protect against them\
 https://arxiv.org/abs/1710.10377
 
+Decrypting Crypto: Cryptocurrencies and the Quantum Computer Threat\
+https://www.hudson.org/research/17770-decrypting-crypto-cryptocurrencies-and-the-quantum-computer-threat
+
 ## BOOKS
 
 Quantum Computing and Blockchain in Business: Exploring the applications, challenges, and collision of quantum computing and blockchain\
