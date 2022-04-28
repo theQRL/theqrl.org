@@ -128,6 +128,12 @@ In particular, the methods of the BKLM scheme take at least $O(N \cdot d \cdot l
 
 This article explored methods for sublinearly aggregating signatures, in the style of [Boneh and Kim](https://github.com/geometry-labs/rsis/blob/dev-end-of-january/lmsigs/agg_ots/agg_ots.py). We presented this idea from the perspective of extending a usual digital signature scheme to an aggregatable one. We noted that one can always trivially aggregate signatures by merely stacking them, which provides a baseline point of reference for assessing when signature aggregation is useful. We provided some back-of-the-napkin computations to ascertain the conditions and algebraic constraints under which signature aggregation is more efficient than stacking. The next article describes our novel one-time adaptor signature scheme, designed to enable payment channels and decentralized trustless cross-chain atomic swaps.
 
+### Writeup contributors
+
+Brandon Goodell, Mitchell "Isthmus" Krawiec-Thayer, Carlos Cid
+
+Correspondence: info@geometrylabs.io
+
 ## References
 
 [[1]](https://eprint.iacr.org/2013/746.pdf)  Lyubashevsky, Vadim, and Daniele Micciancio. "Asymptotically efficient lattice-based digital signatures." Theory of Cryptography Conference. Springer, Berlin, Heidelberg, 2008.
