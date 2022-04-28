@@ -11,11 +11,11 @@ categories:
   - research
 features:
   - proof-of-stake
+series:
+  - techniques-for-efficient-post-quantum-finance
 toc: true
 mathjax: true
 ---
-
-# Techniques for Efficient Post-quantum Finance (Part 1: Digital Signatures)
 
 This is the first article in a multipart series from [The QRL Foundation](https://qrl.foundation/) and  [Geometry Labs](https://www.geometrylabs.io) exploring various methods for constructing scalable post-quantum cryptographic [primitives](https://en.wikipedia.org/wiki/Cryptographic_primitive) and protocols. 
 
