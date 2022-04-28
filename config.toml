@@ -66,6 +66,7 @@ description = "The Quantum Resistant Ledger (QRL) is a first-of-its-kind, post-q
   category = "categories"
   feature = "features"
   fork = "forks"
+  series = "series"
 
 [permalinks]
   "/blog/" = "/blog/:slug/"

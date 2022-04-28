@@ -46,13 +46,41 @@
         </p>
         <p>{{ .Date.Format "2" }}{{ if in (slice 1 21 31) .Date.Day}}st{{ else if in (slice 2 22) .Date.Day}}nd{{ else if in (slice 3 23) .Date.Day}}rd{{ else }}th{{ end }} {{ .Date.Format "January 2006" }}</p>
       </div>
+
       <div class="blog-article__inner">
+        
         {{ if .Params.toc }}
-          <h2>Table of Contents</h2>
-          {{ .TableOfContents }}
+        <h2>Table of Contents</h2>
+        {{ .TableOfContents }}
         {{ end }}
+        
         {{ .Content }}
+
+        {{ if .Params.series }}
+        <div class="place-series">
+          {{ $cslug := .Page.Slug }}
+          {{ $series := index (.Params.series) 0 }}
+          {{ range (.GetTerms "series") }}
+          <p>This article is part of the <strong>{{ .LinkTitle }}</strong> series.</p>
+          {{ end }}
+
+          {{ range $key, $taxonomy := .Site.Taxonomies.series }}
+            {{ if (eq $key $series) }}
+              <ul>
+                  {{ range $taxonomy.Pages.ByDate }}
+                    {{ if (eq .Page.Slug $cslug) }}
+                    <li><strong>{{ .LinkTitle }}</strong></li>
+                    {{ else }}
+                    <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+                    {{ end }}
+                  {{ end }}
+              </ul>
+            {{ end }}
+          {{ end }}
+        </div>
+        {{ end }}
       </div>
+
       <div class="place-date flex_wrapper flex_jc_beetween mt0">
         <p>
           {{ range (.GetTerms "features") }}
@@ -68,8 +96,6 @@
           {{ end }}
         </p>
         <p>{{ .Date.Format "2" }}{{ if in (slice 1 21 31) .Date.Day}}st{{ else if in (slice 2 22) .Date.Day}}nd{{ else if in (slice 3 23) .Date.Day}}rd{{ else }}th{{ end }} {{ .Date.Format "January 2006" }}</p>
-
-
       </div>
 
       <hr>

@@ -28,14 +28,26 @@
     
 }
 .blog-article {
+    .place-series {
+        background-color: #EEE;
+        padding:10px;
+        border-left: 2px solid $color-blue;
+        margin:50px auto; 
+
+        p, ul {
+            margin:10px;
+        }
+
+
+    }
     @include tablet{
         max-width: 466px;
     }
     ol {
         font-size: 18px;
-line-height: 26px;
-padding-left: 18px;
-margin: 40px 0;
+        line-height: 26px;
+        padding-left: 18px;
+        margin: 40px 0;
     }
     ol > li {
         list-style-type: decimal;
