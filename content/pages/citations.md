@@ -107,6 +107,9 @@ https://arxiv.org/abs/1710.10377
 Decrypting Crypto: Cryptocurrencies and the Quantum Computer Threat\
 https://www.hudson.org/research/17770-decrypting-crypto-cryptocurrencies-and-the-quantum-computer-threat
 
+What does the dawn of quantum computing mean for blockchain?\
+https://www.weforum.org/agenda/2022/04/could-quantum-computers-steal-the-bitcoins-straight-out-of-your-wallet/
+
 ## BOOKS
 
 Quantum Computing and Blockchain in Business: Exploring the applications, challenges, and collision of quantum computing and blockchain\
