@@ -14,7 +14,6 @@ features:
 series:
   - techniques-for-efficient-post-quantum-finance
 toc: true
-draft: true
 mathjax: true
 ---
 
