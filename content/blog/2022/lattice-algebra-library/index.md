@@ -11,6 +11,8 @@ categories:
   - research
 features:
   - proof-of-stake
+series:
+  - techniques-for-efficient-post-quantum-finance
 toc: false
 ---
 
