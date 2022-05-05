@@ -18,10 +18,11 @@ mathjax: true
 ---
 
 
-This is the second article in a multipart series from [The QRL Foundation](https://qrl.foundation) and [Geometry Labs](https://www.geometrylabs.io) exploring various methods for constructing scalable post-quantum cryptographic primitives and protocols. In the last article, we describe a lattice-based one-time signature scheme similar to the one published by [Lyubashevsky and Micciancio](https://eprint.iacr.org/2013/746.pdf), with some optimizations for key and signature sizes. **In this article, we show how to extend this to [Boneh and Kim](https://github.com/geometry-labs/rsis/blob/dev-end-of-january/lmsigs/agg_ots/agg_ots.py) style signature aggregation, which has several potential applications such as reducing the on-chain footprint for proof-of-stake consensus with many validators, implementing m-of-n multisignature wallets, and on-chain governance.** The next article describes our novel one-time adaptor signature scheme, designed to enable payment channels and decentralized trustless cross-chain atomic swaps (inspired by the work of [Esgin, Ersoy, and Erkin](https://eprint.iacr.org/2020/845)).
+This is the second article in a multipart series from [The QRL Foundation](https://qrl.foundation) and [Geometry Labs](https://www.geometrylabs.io) exploring various methods for constructing scalable post-quantum cryptographic primitives and protocols. In the [last article](https://www.theqrl.org/blog/techniques-for-efficient-post-quantum-finance-part-1-digital-signatures/), we describe a lattice-based one-time signature scheme similar to the one published by [Lyubashevsky and Micciancio](https://eprint.iacr.org/2013/746.pdf), with some optimizations for key and signature sizes. **In this article, we show how to extend this to [Boneh and Kim](https://crypto.stanford.edu/~skim13/agg_ots.pdf) style signature aggregation, which has several potential applications such as reducing the on-chain footprint for proof-of-stake consensus with many validators, implementing m-of-n multisignature wallets, and on-chain governance.** The next article describes our novel one-time adaptor signature scheme, designed to enable payment channels and decentralized trustless cross-chain atomic swaps (inspired by the work of [Esgin, Ersoy, and Erkin](https://eprint.iacr.org/2020/845)).
 
-**The articles in this series describe the applications and security models; additionally, open-source python implementations of the cryptography are freely available** via [GitHub](https://github.com/geometry-labs/lattice-crypto) and [PyPi](https://pypi.org/project/lattice-cryptography/) (built with the [lattice-algebra library](https://github.com/geometry-labs/lattice-algebra) described in a [previous QRL blog post](/blog/lattice-algebra-library/)).
-> **Note:** While some effort has gone into making everything understandable, the intended audience for this article series are systems integrators and students in cryptography. In order to help aid in understanding, we've added a [further reading and materials](#further-reading-and-materials) section and will have an open [AMA form](https://forms.gle/4ebYXFP8KiSJcT7y6) for the duration of this "Techniques for post-quantum finance" series to ask any questions that may arise, both technical and non-technical.
+**The articles in this series describe the applications and security models; additionally, open-source python implementations of the cryptography are freely available** via [GitHub](https://github.com/geometry-labs/lattice-cryptography) and [PyPI](https://pypi.org/project/lattice-cryptography/) (`pip install lattice-cryptography`), built with the [lattice-algebra library](https://github.com/geometry-labs/lattice-algebra) described in a [previous QRL blog post](/blog/lattice-algebra-library/).
+
+> **Note:** While some effort has gone into making everything understandable, the intended audience for this article series are systems integrators and students in cryptography. In order to help aid in understanding, we've added a [further reading and materials](#further-reading-and-materials) section and will have an open [AMA form](https://forms.gle/4ebYXFP8KiSJcT7y6) for the duration of this "Techniques for post-quantum finance" series to ask any questions that may arise, both technical and non-technical. These writeups are intended to be informational, and the schemes described for illustration are not formal secure specifications.
 
 
 ## Extending Digital Signatures to Aggregatable Signatures
@@ -75,7 +76,7 @@ This game is summarized in the following diagram.
 
 {{< image "./images/game.png" >}}
 
-## When is aggregation advantageous?
+## When is Aggregation Advantageous?
 
 ### Compact Aggregation: To glue or not to glue?
 
@@ -89,7 +90,7 @@ We note that the size of the aggregate signature is exactly $N$ times the size o
 This leads us to the notion of _compact_ aggregatable signatures. These are exactly the aggregate signature schemes such that the size of an aggregate signature is sublinear in $N$. In other words, these are the aggregatable signature schemes for which it is (asymptotically) more efficient to publish aggregated signatures than to publish individual signatures.
 
 
-### Assessing the benefits (or drawbacks)
+### Assessing the Benefits and Drawbacks
 
 
 Even if a scheme is a compact aggregatable signature scheme (say with $|\xi\_{ag}| = O(lg(N))$), then the actual constants wrapped up in the big O notation here critically determine whether the scheme is actually practical.
@@ -128,7 +129,7 @@ In particular, the methods of the BKLM scheme take at least $O(N \cdot d \cdot l
 
 This article explored methods for sublinearly aggregating signatures, in the style of [Boneh and Kim](https://github.com/geometry-labs/rsis/blob/dev-end-of-january/lmsigs/agg_ots/agg_ots.py). We presented this idea from the perspective of extending a usual digital signature scheme to an aggregatable one. We noted that one can always trivially aggregate signatures by merely stacking them, which provides a baseline point of reference for assessing when signature aggregation is useful. We provided some back-of-the-napkin computations to ascertain the conditions and algebraic constraints under which signature aggregation is more efficient than stacking. The next article describes our novel one-time adaptor signature scheme, designed to enable payment channels and decentralized trustless cross-chain atomic swaps.
 
-### Writeup contributors
+### Writeup Contributors
 
 Brandon Goodell, Mitchell "Isthmus" Krawiec-Thayer, Carlos Cid
 
