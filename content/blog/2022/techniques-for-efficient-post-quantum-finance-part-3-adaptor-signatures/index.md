@@ -4,7 +4,7 @@ slug: techniques-for-efficient-post-quantum-finance-part-3-adaptor-signatures
 date: 2022-05-05
 author: "Geometry Labs"
 title: "Techniques for efficient post-quantum finance (Part 3: adaptor signatures)"
-summary: "This is the second article in a multipart series from The QRL Foundation and Geometry Labs exploring novel one-time adaptor signature scheme, designed to enable payment channels and decentralized trustless cross-chain atomic swaps (QRL↔BTC, QRL↔ETH, QRL↔ZEC, etc.)"
+summary: "This is the third article in a multipart series from The QRL Foundation and Geometry Labs exploring novel one-time adaptor signature scheme, designed to enable payment channels and decentralized trustless cross-chain atomic swaps (QRL↔BTC, QRL↔ETH, QRL↔ZEC, etc.)"
 featured_image: header.png
 categories:
   - technical
@@ -37,7 +37,7 @@ As it turns out, we can accomplish both of these styles of collateralized swap u
 
 ## Introduction to Adaptor Signatures
 
-Adaptor signatures, as described by Esgin, Ersoy, and Erkin in [1], were first proposed for use in MimbleWimble by the (presumably) pseudonymous Tom Elvis Jedusor in the white paper [2], and were fleshed out in the presentations [3] "Scriptless Scripts" by Andrew Poelstra (2017, https://download.wpsoftware.net/bitcoin/wizardry/mw-slides/2017-03-mit-bitcoin-expo/slides.pdf). However, the ideas used in adaptor signatures have an earlier basis, as they have some similarities to the verifiably encrypted signatures from the peer-reviewed [4] (see the white paper [5] for some details). More recently, formalizations have been proposed in the peer-reviewed [1, 6, 7, 8, 9]. Our scheme is not quite in accordance with those definitions, but it is in the same family of protocols.
+Adaptor signatures, as described by Esgin, Ersoy, and Erkin in [1], were first proposed for use in MimbleWimble by the (presumably) pseudonymous Tom Elvis Jedusor in the white paper [2], and were fleshed out in the presentations [3] "Scriptless Scripts" by Andrew Poelstra (2017, [https://download.wpsoftware.net/bitcoin/wizardry/mw-slides/2017-03-mit-bitcoin-expo/slides.pdf](https://download.wpsoftware.net/bitcoin/wizardry/mw-slides/2017-03-mit-bitcoin-expo/slides.pdf)). However, the ideas used in adaptor signatures have an earlier basis, as they have some similarities to the verifiably encrypted signatures from the peer-reviewed [4] (see the white paper [5] for some details). More recently, formalizations have been proposed in the peer-reviewed [1, 6, 7, 8, 9]. Our scheme is not quite in accordance with those definitions, but it is in the same family of protocols.
 
 Crytographic schemes for adaptor signatures have all the functionality of usual digital signature schemes, and an additional feature: an adaptor signature scheme produces not just signatures, but also authenticated commitments called _pre-signatures_. These pre-signatures commit to secret witnesses, can be verified to have been computed by a signing key, and can be adapted into valid signatures given the secret witness. However, when pre- signatures are adapted, the commitment is opened, revealing the secret witness. In fact, we require as a subscheme a _hard relation_. Recall that a relation on a pair of sets $S, T$ is a subset of $S \times T$.
 
@@ -81,8 +81,6 @@ Alice and Bob can compute cross-chain atomic swaps using the following approach.
 7. After seeing $\xi_B$ posted on the second blockchain, Bob can download $\xi_B$ and use $\hat{\xi}_B$ to compute $\underline{w} = \texttt{Extract}(\xi_B, \hat{\xi}_B)$. Now, Bob can adapt $\hat{\xi}_A$ with $\underline{w}$ to obtain $\xi_A$, which he can post on the first blockchain to claim his funds.
 
 Note that since the time-lock on Bob's transaction is short, Alice has time to claim her funds before the time-lock elapses. Considering various outcomes, and the fact that Alice or Bob can unilaterally opt out of completing the exchange, we see that either both parties get what they want, or neither party does. By building refund functionality into the transaction protocol, the users can also guarantee they get their funds back if something goes wrong. This protocol is summarized in the following diagram.
-
-TODO: SWAP IMAGE HERE
 
 For example, $\underline{w}$ may be a secret witness that plays a dual role, where it is both a bitwise description of a small-norm vector in a Module-SIS setting, and also a pre-image for a hash in a pay-to-hash-pre-image cryptocurrency.
 
