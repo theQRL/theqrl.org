@@ -1,0 +1,178 @@
+<section id="countdown" class="countdown">
+    <a class="flex_wrapper" href="/features/hackathon/">
+        <div class="timer">
+            <ul>
+                <li class="days">
+                    <span>-</span>
+                    Days
+                </li>
+                <li class="hours">
+                    <span>-</span>
+                    Hours
+                </li>
+                <li class="minutes">
+                    <span>-</span>
+                    Minutes
+                </li>
+                <li class="seconds">
+                    <span>-</span>
+                    Seconds
+                </li>
+            </ul>
+        </div>
+        <div class="countdown-title flex_wrapper">
+            <h2>Until the QRL Hackathon 2022</h2>
+            <span class="welcome__btn welcome__btn--text">Read More & Join Us</span>
+        </div>
+    </a>
+
+</section>
+
+
+<style>
+    .timer li {
+        position:relative;
+        top: -100px;
+        transition: top 0.2s;
+    }
+    .timer li:nth-last-child(1) {
+        transition-delay: 0s;
+    }
+    .timer li:nth-last-child(2) {
+        transition-delay: 0.02s;
+    }
+    .timer li:nth-last-child(3) {
+        transition-delay: 0.04s;
+    }
+    .timer li:nth-last-child(4) {
+        transition-delay: 0.06s;
+    }
+    .timer.active li {
+        top: 0px;
+    }
+    .blogPageInner, .blogPage {
+        padding-top: 0px;
+    }
+    .countdown .flex_wrapper {
+        align-items: center;
+        justify-content: center;
+    }
+    .countdown .countdown-title.flex_wrapper > h2 {
+        padding-right: 10px;
+    }
+    .countdown {
+        background-color: #0202045b;
+    }
+    .countdown .countdown-title span {
+        color: #FFF;
+        text-decoration: underline;
+        height: auto;
+        line-height: 24px;
+    }
+    .countdown .countdown-title h2 {
+        color: #FFA729;
+        font-family: "Alte DIN 1451 Mittelschrift Bold",sans-serif;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    .countdown-title, .timer {
+        vertical-align: middle;
+        padding:10px;
+    }
+   .header {
+       position: relative;
+       top: auto;
+       transition: top 2s;
+    }
+    .header.is-mobile-menu-oppened {
+        position: fixed;
+        top: 0px;
+
+    }
+   .countdown ul {
+        padding-left:0;
+        text-align:center;
+    }
+    .countdown  li {
+        display: inline-block;
+        font-size: 10px;
+        color:#FFF;
+        list-style-type: none;
+        padding: 5px;
+        width:75px;
+        font-family:sans-serif;
+        text-transform: uppercase;
+        text-align:center;
+        border: 1px solid #FFA729;
+        background-color: #FFA729;
+      }
+      .countdown li span {
+        display: block;
+        font-size: 28px;
+        font-weight: bold;
+      }
+</style>
+
+<script>
+    (function() {
+        function pad(num, size) {
+            num = num.toString();
+            while (num.length < size) num = "0" + num;
+            return num;
+        }
+        
+        const second = 1000,
+              minute = second * 60,
+              hour = minute * 60,
+              day = hour * 24;
+        
+        let today = new Date();
+        
+        x = setInterval(function() {
+            document.querySelector('.timer').classList.add("active");
+
+            let future = new Date("2022-09-22");
+            let now = new Date().getTime();
+            let dist = future - now;
+       
+            let days = Math.floor(dist / (day));
+            let hours = Math.floor((dist % (day)) / (hour));
+            let minutes = Math.floor((dist % (hour)) / (minute));
+            let seconds = Math.floor((dist % (minute)) / second);   
+            let ms = Math.floor((dist % (second)) / 10); 
+          
+            if((1000 * 60 * 60 * 24) >= dist) { 
+              if(document.querySelector('li.days')) {
+                document.querySelector('li.days').remove();
+              } 
+            } else {
+              document.querySelector('li.days span').innerHTML = days;
+            }
+            if((1000 * 60 * 60) >= dist) { 
+              if(document.querySelector('li.hours')) {
+                document.querySelector('li.hours').remove(); 
+              }
+            } else {
+              document.querySelector('li.hours span').innerHTML = pad(hours,2);
+            }
+          
+            if((1000 * 59) >= dist) { 
+              if(document.querySelector('li.minutes')) {
+                document.querySelector('li.minutes').remove(); 
+              }
+            } else {
+              document.querySelector('li.minutes span').innerHTML = pad(minutes,2);
+            }
+            if((1000) >= dist) { 
+                if(document.querySelector('li.seconds')) {
+                  document.querySelector('li.seconds').remove(); 
+                  document.querySelector('.countdown-title h2').innerHTML = "QRL Mainnet V3 Released!";
+                  document.querySelector('.countdown-title span').innerHTML = "Read more";
+                  document.querySelector('.countdown-title').classList.add("flex_wrapper");                    
+                }
+                } else {
+                document.querySelector('li.seconds span').innerHTML = pad(seconds,2);
+              }
+        },15);
+      })()
+</script>

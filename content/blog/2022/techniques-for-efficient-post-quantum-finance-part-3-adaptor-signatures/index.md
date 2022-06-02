@@ -80,7 +80,7 @@ Alice and Bob can compute cross-chain atomic swaps using the following approach.
 6. Alice adapts $\hat{\xi}_B$ with $\underline{w}$ to obtain a signature $\xi_B$. Alice can post this on the second blockchain to obtain her funds.
 7. After seeing $\xi_B$ posted on the second blockchain, Bob can download $\xi_B$ and use $\hat{\xi}_B$ to compute $\underline{w} = \texttt{Extract}(\xi_B, \hat{\xi}_B)$. Now, Bob can adapt $\hat{\xi}_A$ with $\underline{w}$ to obtain $\xi_A$, which he can post on the first blockchain to claim his funds.
 
-Note that since the time-lock on Bob's transaction is short, Alice has time to claim her funds before the time-lock elapses. Considering various outcomes, and the fact that Alice or Bob can unilaterally opt out of completing the exchange, we see that either both parties get what they want, or neither party does. By building refund functionality into the transaction protocol, the users can also guarantee they get their funds back if something goes wrong. This protocol is summarized in the following diagram.
+Note that since the time-lock on Bob's transaction is short, Alice has time to claim her funds before the time-lock elapses. Considering various outcomes, and the fact that Alice or Bob can unilaterally opt out of completing the exchange, we see that either both parties get what they want, or neither party does. By building refund functionality into the transaction protocol, the users can also guarantee they get their funds back if something goes wrong. 
 
 For example, $\underline{w}$ may be a secret witness that plays a dual role, where it is both a bitwise description of a small-norm vector in a Module-SIS setting, and also a pre-image for a hash in a pay-to-hash-pre-image cryptocurrency.
 
