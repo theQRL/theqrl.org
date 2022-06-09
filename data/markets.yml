@@ -29,3 +29,19 @@
   link: https://bitvoicex.net/markets/qrl_btc
   logo: bitvoicex.net.jpeg 
   type: Exchange / Centralized
+
+- name: "Tidecoin Exchange"
+  markets: 
+    - market: QRL-DOGE
+      link: https://www.tidecoin.exchange/trading/qrldoge
+    - market: QRL-USDT
+      link: https://www.tidecoin.exchange/trading/qrlusdt
+    - market: QRL-BNB
+      link: https://www.tidecoin.exchange/trading/qrlbnb
+    - market: QRL-TDC
+      link: https://www.tidecoin.exchange/trading/qrltdc
+    - market: QRL-ARL
+      link: https://www.tidecoin.exchange/trading/qrlarl      
+  link: https://www.tidecoin.exchange/trading/qrlusdt
+  logo: tidecoin.png 
+  type: Exchange / Centralized
