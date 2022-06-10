@@ -8,6 +8,12 @@ parent: /
 
 A large number of QRL design assets are available on a dedicated [GitHub repository](https://github.com/theQRL/assets) for use by press outlets or partner integrations.
 
+### QRL Explainer Deck
+
+[![](/presskit/qrl.png)](/presskit/qrl.pdf)
+
+[QRL Explainer [pdf]](/presskit/qrl.pdf) [[.odp]](/presskit/qrl.odp) [[.pptx]](/presskit/qrl.pptx) 
+
 ### Logo
 
 [Yellow .PNG](https://github.com/theQRL/assets/blob/master/logo/yellow.png) | [Dark .PNG](https://github.com/theQRL/assets/blob/master/logo/black.png) | [White .PNG](https://github.com/theQRL/assets/blob/master/logo/white.png)\
@@ -26,9 +32,7 @@ A large number of QRL design assets are available on a dedicated [GitHub reposit
 [Yellow .PNG](https://github.com/theQRL/assets/blob/master/Icon/yellow/yellow_512x512.png) | [Dark .PNG](https://github.com/theQRL/assets/blob/master/Icon/dark/dark_512x512.png) | [White .PNG](https://github.com/theQRL/assets/blob/master/Icon/white/white_512x512.png)\
 [Yellow .SVG](https://github.com/theQRL/assets/blob/master/Icon/yellow/yellow_512x512.svg) | [Dark .SVG](https://github.com/theQRL/assets/blob/master/Icon/dark/dark_512x512.svg) | [White .SVG](https://github.com/theQRL/assets/blob/master/Icon/white/white_512x512.svg)
 
-### Explainer
 
-- [QRL Explainer](/presskit/qrl.pdf) [[.odp]](/presskit/qrl.odp) [[.pptx]](/presskit/qrl.pptx) 
 
 ## Terms of use
 
