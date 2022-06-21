@@ -11,11 +11,11 @@ categories:
 toc: true
 ---
 
-
 ## Introduction
-On 06/02/2022 the QRL network suffered a sophisticated zero-day attack by an adversary using a malformed block containing a second coinbase reward of 25M QRL. This blog will explain in detail how this exploit occurred and how the team and community responded to the QRL's equivalent of the [bitcoin overflow bug](https://en.bitcoin.it/wiki/Value_overflow_incident).
 
-The QRL network is powered by nodes executing fully open source [software](https://github.com/theqrl/) and every function down to a single line of code is visible for all to [inspect](https://github.com/theQRL/QRL/tree/master/src/qrl) and collaborate upon. At the time of writing 58 developers have made 12518 contributions to the core QRL project so far. Security by obscurity is not a concept the open source community support. QRL was created with a completely new codebase and given it is a live financial network this was fully commercially [audited](https://github.com/theQRL/audits/) prior to mainnet release. Being open source means many eyes have examined our codebase and the project has fixed a number of bugs previously (including one critical severity node exploit) prior to their discovery by an adversary.
+On 06/02/2022 the QRL network suffered a sophisticated zero-day attack by an adversary using a malformed block containing a second coinbase reward of 25M QRL. This blog will explain in detail how this exploit occurred and how the team and community responded to the QRL's equivalent of the [Bitcoin overflow bug](https://en.bitcoin.it/wiki/Value_overflow_incident).
+
+The QRL network is powered by nodes executing fully open source [software](https://github.com/theqrl/) and every function down to a single line of code is visible for all to [inspect](https://github.com/theQRL/QRL/tree/master/src/qrl) and collaborate upon. At the time of writing, 58 developers have made 12518 contributions to the core QRL project so far. Security by obscurity is not a concept the open source community supports. QRL was created with a completely new codebase, and given it is a live financial network this was fully commercially [audited](https://github.com/theQRL/audits/) prior to mainnet release. Being open source means many eyes have examined our codebase and the project has fixed a number of bugs previously (including one critical severity node exploit) prior to their discovery by an adversary.
 
 The nature of development is one of iterative improvement and code hardening - no codebase is perfect or free from attack vectors. As the project gains momentum and grows it should be expected that further attempts to attack or exploit the network should be anticipated and we must as a development team and community remain vigilant.
 
@@ -83,7 +83,7 @@ It was a humbling experience after 4 years without any major public exploit to s
 
 It is worth pointing out that further delay in identification of the exploit or an earlier attempt to move significant funds by the attacker could have lead to a far worse outcome. We are most grateful to JohnTitor for his thoughtful report to the core team. 
 
-To better prepare for future eventualities the team has extended our devops processes to include realtime monitoring of unusual network behaviour (penned the 'blockwatcher' internally). Funds were lost in this episode (approximately 65 dollars worth of quanta). As a project we firmly believe in responsible disclosure of software vulnerabilities, and have and will continue to collaborate with security professionals adhering to established white-hat responsible disclosure principles through [security@theqrl.org](mailto:security@theqrl.org) [[PGP/GPG]](https://github.com/theQRL/security/). 
+To better prepare for future eventualities, the team has extended our devops process to include realtime monitoring of unusual network behaviour (penned the ‘blockwatcher’ internally). Funds were lost in this episode (approximately 65 USD worth of quanta). As a team, we firmly believe in responsible disclosure of software vulnerabilities and will continue to collaborate with security professionals, while adhering to responsible, established white-hat disclosure principles. The proper email address to submit security vulnerabilities is [security@theqrl.org](mailto:security@theqrl.org) [[PGP/GPG]](https://github.com/theQRL/security/). 
 
 ## Timeline
 
@@ -99,7 +99,7 @@ To better prepare for future eventualities the team has extended our devops proc
 6. June 2nd, 1713 UTC: Bittrex notified and recommended to pause deposits
 7. June 2nd, 1717 UTC: Cointiger notified and recommended to pause deposits
 8. June 2nd, 1723 UTC: Social network monitoring setup to identify detection in the wild (Twitter: 3 keywords, Discord: 11 servers, Telegram: 4 channels)
-9. June 2nd, 17:31 UTC: All hands meeting
+9. June 2nd, 1731 UTC: All hands meeting
     - Established that: 
         - Announcing early would give the time for exploiter to move funds.
         - Social network monitoring needed to be setup to track coverage in the wild.
@@ -121,3 +121,6 @@ To better prepare for future eventualities the team has extended our devops proc
 24. June 3rd, 0923 UTC: Exploiter messages the community.
 25. June 3rd, 0955 UTC: First contact between the exploiter and a team member.
 26. June 3rd, 1005 UTC: Exploiter referred to security@theqrl.org and dialogue continued there.
+
+
+
