@@ -22,14 +22,6 @@
   logo: biteeu.png
   type: Exchange / Centralized
 
-- name: "Bitvoiceex"
-  markets: 
-    - market: BTC-QRL
-      link: https://bitvoicex.net/markets/qrl_btc
-  link: https://bitvoicex.net/markets/qrl_btc
-  logo: bitvoicex.net.jpeg 
-  type: Exchange / Centralized
-
 - name: "Tidecoin Exchange"
   markets: 
     - market: QRL-DOGE

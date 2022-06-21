@@ -19,7 +19,7 @@
     <div class="container-mini blog-article">
       <h1>{{ .Params.Title }}</h1>
       <div class="center date-box">
-        <span>{{ .Params.summary }}</span>
+        <span>{{ .Params.summary | markdownify }}</span>
       </div>
     <div class="center date-box">
       {{ if .Params.youtube }}
@@ -32,6 +32,13 @@
         <img src="{{ $after.RelPermalink }}" alt="" />
       {{ end }}
     </div>
+    {{ if .Params.guest }}
+    <blockquote>
+      <p><strong>General Disclaimer:</strong> 
+        This post covers topics and/or tools provided by third parties in the hopes of being useful and/or of general interest and are not controlled by the QRL Foundation.
+      </p>
+    </blockquote>
+    {{ end }}
       <div class="place-date flex_wrapper flex_jc_beetween">
         <p>
           {{ range .Params.categories }}
@@ -46,8 +53,22 @@
         </p>
         <p>{{ .Date.Format "2" }}{{ if in (slice 1 21 31) .Date.Day}}st{{ else if in (slice 2 22) .Date.Day}}nd{{ else if in (slice 3 23) .Date.Day}}rd{{ else }}th{{ end }} {{ .Date.Format "January 2006" }}</p>
       </div>
-
       <div class="blog-article__inner">
+        
+        {{ if .Params.guest }}
+        <div class="author-box flex_wrapper">
+          
+          <div class="author-box-img">
+            <img src="/img/guests/guest.png" alt="">
+          </div>
+          <div class="author-box-text flex_dir_col flex_jc_center">
+            <p>GUEST POST WRITTEN BY </p>
+            <p>{{ .Params.guest }}</p>
+          </div>          
+        </div>
+        {{ end }}
+
+
         
         {{ if .Params.toc }}
         <h2>Table of Contents</h2>
@@ -115,7 +136,7 @@
             {{ $t := .Site.GetPage "/team" }}
             {{ range $t.Data.Pages }}
             {{ if eq .Params.name $a }}
-              <a href="{{.Site.BaseURL}}/team/{{ .Params.slug }}"><img src="{{ .Params.profile }}" alt="{{$a}}"></a>
+              <a href="{{.Site.BaseURL}}/team/{{ .Params.slug }}"><img src="{{ .Params.profile | absURL }}" alt="{{$a}}"></a>
             {{ end }}
             {{end}}
           </div>
@@ -131,6 +152,9 @@
         <div>
         </div>
       </div>
+
+
+
     </div>
   </div>
 </section>

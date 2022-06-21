@@ -22,11 +22,11 @@
 
 
 {{ if .Page.Summary }}
-	<meta property="og:description" content="{{ .Page.Summary }}">
-	<meta name="twitter:description" content="{{ .Page.Summary }}">
+	<meta property="og:description" content="{{ .Page.Summary | plainify }}">
+	<meta name="twitter:description" content="{{ .Page.Summary | plainify }}">
 {{ else }}
-	<meta property="og:description" content="{{ .Site.Params.description }}">
-	<meta name="twitter:description" content="{{ .Site.Params.description }}">
+	<meta property="og:description" content="{{ .Site.Params.description | plainify }}">
+	<meta name="twitter:description" content="{{ .Site.Params.description | plainify }}">
 {{ end }}
 
 <!-- OpenGraph: Twitter -->

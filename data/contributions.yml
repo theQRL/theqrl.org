@@ -1,19 +1,19 @@
 ---
 - id: 13854791
   login: cyyber
-  contributions: 3560
+  contributions: 3565
 - id: 13698520
   login: jleni
   contributions: 1938
 - id: 13877236
   login: surg0r
-  contributions: 444
+  contributions: 447
 - id: 9956122
   login: randomshinichi
   contributions: 217
 - id: 2139011
   login: jplomas
-  contributions: 2430
+  contributions: 2508
 - id: 6901778
   login: scottdonaldau
   contributions: 1250
@@ -25,7 +25,7 @@
   contributions: 14
 - id: 22141056
   login: fr1t2
-  contributions: 819
+  contributions: 826
 - id: 1280059
   login: bmoscon
   contributions: 7
@@ -67,7 +67,7 @@
   contributions: 1
 - id: 232510
   login: jackalyst
-  contributions: 930
+  contributions: 1004
 - id: 23704769
   login: codacy-badger
   contributions: 4
@@ -106,7 +106,7 @@
   contributions: 1
 - id: 8989334
   login: liam0215
-  contributions: 31
+  contributions: 40
 - id: 9709134
   login: lgb1t
   contributions: 11
@@ -128,6 +128,9 @@
 - id: 28553263
   login: DominicRoyStang
   contributions: 3
+- id: 21246742
+  login: Mitchellpkt
+  contributions: 2
 - id: 45530642
   login: ScotishFold
   contributions: 1
@@ -163,7 +166,7 @@
   contributions: 5
 - id: 32174276
   login: semantic-release-bot
-  contributions: 4
+  contributions: 5
 - id: 15140091
   login: afilis
   contributions: 2
