@@ -24,11 +24,11 @@
        inkscape:collect="always"
        id="linearGradient6345">
       <stop
-         style="stop-color:#f3f3f3;stop-opacity:1;"
+         style="stop-color:#e4e4e4;stop-opacity:1;"
          offset="0"
          id="stop6341" />
       <stop
-         style="stop-color:#f3f3f3;stop-opacity:0;"
+         style="stop-color:#f3f3f3;stop-opacity:1;"
          offset="1"
          id="stop6343" />
     </linearGradient>
@@ -69,7 +69,7 @@
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      inkscape:cy="201.08349"
-     inkscape:cx="533.64465"
+     inkscape:cx="507.40436"
      inkscape:zoom="1.8101934"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
@@ -212,70 +212,74 @@
        x="-167.24637"
        y="130.20103" />
     <g
-       id="g1475"
-       transform="matrix(0.05178876,0,0,0.05178876,-83.841419,239.85764)"
-       style="stroke-width:4.5551">
-      <path
-         class="st0"
-         d="m 157.67,161.13 c 13.97,0 20.37,-5.31 23.3,-10.39 5.64,-9.77 1.68,-22.49 -11.79,-37.79 -7.46,-8.47 -18.71,-19.55 -26.35,-25.06 -0.49,-4.75 -1.15,-9.4 -1.97,-13.88 2.18,-0.54 4.32,-1 6.38,-1.37 12.74,-2.25 20.1,-0.4 21.73,2.43 1.1,1.91 0.26,5.87 -2.31,10.87 -2.2,4.29 -4.19,6.67 -4.82,7.37 3.97,3.55 7.56,7.26 9.87,9.74 1.17,-1.24 4.15,-4.69 7.28,-10.77 4.98,-9.68 5.65,-17.8 1.99,-24.14 -3.71,-6.43 -12.99,-13.23 -36.14,-9.15 -2.31,0.41 -4.69,0.92 -7.11,1.52 -5.67,-19.71 -15.16,-33.66 -28.27,-33.66 -7.62,0 -18.4,4.87 -26.51,28.18 -0.08,0.26 -2.07,6.37 -3.62,13.26 -1.58,7.01 -3.05,14.54 -4.38,22.41 -4.2,3.01 -8.16,6.1 -11.84,9.24 C 52.2,88.66 47.61,79.1 49.93,75.08 c 1.4,-2.42 5.79,-4.43 12.44,-3.47 3.83,0.55 6.4,1.16 7.5,1.45 1.02,-5.23 2.37,-10.22 3.31,-13.46 -1.61,-0.41 -4.58,-1.09 -8.83,-1.71 -11.68,-1.68 -21.8,2.25 -26.42,10.26 -6.56,11.36 0.77,26.56 15.01,41.32 -1.73,1.8 -3.37,3.6 -4.87,5.4 -15.1,18.01 -13.85,29.45 -10.14,35.87 4.11,7.11 12.61,10.76 23.93,10.76 7.65,0 16.6,-1.67 26.33,-5.07 4.67,-1.63 15.81,-6.13 21.07,-8.28 5.12,2.36 10.19,4.43 15.14,6.19 -4.33,15.07 -10.31,23.83 -14.95,23.83 -3.68,0 -8.11,-5.38 -11.58,-14.05 -0.14,-0.35 -0.38,-1.05 -0.64,-1.82 -4.7,1.85 -9.55,3.35 -13.15,4.38 0.31,0.94 0.65,1.93 0.92,2.59 7.53,18.81 17.45,22.76 24.45,22.76 13.12,0 22.61,-13.95 28.27,-33.66 2.43,0.6 4.8,1.11 7.11,1.52 4.87,0.86 9.12,1.24 12.84,1.24 z M 92.84,71.34 c 1.39,-6.19 3.23,-11.87 3.23,-11.87 0,0 0,0 0,0 4.51,-12.95 9.97,-18.75 13.38,-18.75 4.64,0 10.62,8.76 14.95,23.83 -10.43,3.7 -21.4,8.8 -32.19,15.03 -0.43,0.25 -0.85,0.5 -1.27,0.75 0.61,-3.08 1.25,-6.08 1.9,-8.99 z m -9.23,72.01 c -19.28,6.73 -31.49,4.25 -33.68,0.46 -1.63,-2.83 0.44,-10.12 8.76,-20.04 1.35,-1.61 2.82,-3.23 4.38,-4.84 8.62,7.33 18.64,14.31 29.14,20.38 0.26,0.15 0.53,0.3 0.79,0.45 -3.74,1.48 -7.32,2.87 -9.39,3.59 z m 15.53,-16.04 c -10.08,-5.82 -18.7,-11.94 -25.81,-17.88 7.49,-6.24 16.25,-12.32 25.81,-17.84 9.56,-5.52 19.2,-10.07 28.35,-13.43 1.6,9.13 2.58,19.66 2.58,31.29 0,11.63 -0.98,22.17 -2.58,31.29 -9.15,-3.36 -18.79,-7.91 -28.35,-13.43 z m 44.78,-20.42 c 4.87,4.52 10.27,10.01 14.86,15.22 10.12,11.49 11.9,18.75 10.19,21.7 -1.63,2.83 -8.99,4.67 -21.73,2.43 -2.07,-0.36 -4.2,-0.83 -6.38,-1.37 2.04,-11.13 3.08,-23.3 3.08,-35.43 -0.01,-0.84 -0.01,-1.7 -0.02,-2.55 z"
-         id="path1463"
-         style="stroke-width:4.5551" />
-      <path
-         class="st0"
-         d="m 109.45,95.74 c -7.56,0 -13.71,6.15 -13.71,13.71 0,7.56 6.15,13.71 13.71,13.71 7.56,0 13.71,-6.15 13.71,-13.71 0,-7.56 -6.15,-13.71 -13.71,-13.71 z"
-         id="path1465"
-         style="stroke-width:4.5551" />
-      <path
-         class="st0"
-         d="M 218.9,109.45 C 218.9,48.89 169.46,-0.33 108.83,0 52.02,0.31 3.94,45.39 0.24,102.09 c -2.64,40.56 16.7,78.33 50.68,99.87 l -0.04,15.82 -36.96,0.12 V 192.73 H 0.07 v 38.91 h 64.68 l 0.04,-29.93 c 0.01,-4.63 -2.39,-8.91 -6.42,-11.46 -27.86,-17.61 -44.5,-47.81 -44.5,-80.8 0,-52.52 42.58,-95.28 95.03,-95.59 51.39,-0.3 94.39,40.96 96.09,92.32 1.14,34.25 -15.66,65.88 -44.44,84.07 -4.03,2.55 -6.43,6.83 -6.42,11.46 l 0.07,29.93 h 64.65 v -38.91 h -13.86 l 0.12,25.05 -37.08,0.12 -0.04,-15.95 c 31.87,-20.17 50.91,-54.74 50.91,-92.5 z"
-         id="path1467"
-         style="stroke-width:4.5551" />
-      <path
-         class="st0"
-         d="m 355.91,44.55 c -38.17,0 -69.08,30.72 -69.08,69.27 0,38.36 30.91,69.27 69.08,69.27 13.93,0 26.91,-4.2 37.78,-11.26 l 15.08,15.27 12.21,-11.07 -14.69,-14.69 c 11.64,-12.4 18.89,-29 18.89,-47.52 0,-38.55 -31.1,-69.27 -69.27,-69.27 z m 38.17,104.38 -27.48,-27.48 -12.21,10.88 26.72,26.91 c -7.44,4.2 -16.03,6.49 -25.19,6.49 -28.62,0 -51.52,-22.71 -51.52,-51.9 0,-29.39 22.9,-52.1 51.52,-52.1 28.63,0 51.52,22.71 51.52,52.1 0,13.73 -4.96,25.94 -13.36,35.1 z"
-         id="path1469"
-         style="stroke-width:4.5551" />
-      <path
-         class="st0"
-         d="m 543,88.44 c 0,-22.9 -18.7,-41.41 -41.6,-41.41 h -53.43 v 133.58 h 17.75 v -51.14 h 31.49 l 29.96,51.14 h 19.65 L 515.33,127.18 C 531.36,121.45 543,105.99 543,88.44 Z m -77.28,24.99 v -49.8 h 35.68 c 13.17,0 23.85,11.07 23.85,24.81 0,13.74 -10.69,25 -23.85,25 h -35.68 z"
-         id="path1471"
-         style="stroke-width:4.5551" />
-      <polygon
-         class="st0"
-         points="644.17,180.61 661.91,180.61 661.91,163.81 583.59,163.81 583.59,47.03 565.85,47.03 565.85,180.61 "
-         id="polygon1473"
-         style="stroke-width:4.5551" />
-    </g>
-    <flowRoot
-       transform="matrix(0.15346816,0,0,0.16066721,-193.62522,149.96883)"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:107.049px;line-height:1.05;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#3992f1;fill-opacity:1;stroke:none;stroke-width:3.17197"
-       id="flowRoot934"
-       xml:space="preserve"><flowRegion
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#3992f1;fill-opacity:1;stroke-width:3.17197"
-         id="flowRegion930"><rect
+       id="g6927"
+       transform="translate(0,-1.8962689)">
+      <g
+         id="g1475"
+         transform="matrix(0.05178876,0,0,0.05178876,-83.841419,239.85764)"
+         style="stroke-width:4.5551">
+        <path
+           class="st0"
+           d="m 157.67,161.13 c 13.97,0 20.37,-5.31 23.3,-10.39 5.64,-9.77 1.68,-22.49 -11.79,-37.79 -7.46,-8.47 -18.71,-19.55 -26.35,-25.06 -0.49,-4.75 -1.15,-9.4 -1.97,-13.88 2.18,-0.54 4.32,-1 6.38,-1.37 12.74,-2.25 20.1,-0.4 21.73,2.43 1.1,1.91 0.26,5.87 -2.31,10.87 -2.2,4.29 -4.19,6.67 -4.82,7.37 3.97,3.55 7.56,7.26 9.87,9.74 1.17,-1.24 4.15,-4.69 7.28,-10.77 4.98,-9.68 5.65,-17.8 1.99,-24.14 -3.71,-6.43 -12.99,-13.23 -36.14,-9.15 -2.31,0.41 -4.69,0.92 -7.11,1.52 -5.67,-19.71 -15.16,-33.66 -28.27,-33.66 -7.62,0 -18.4,4.87 -26.51,28.18 -0.08,0.26 -2.07,6.37 -3.62,13.26 -1.58,7.01 -3.05,14.54 -4.38,22.41 -4.2,3.01 -8.16,6.1 -11.84,9.24 C 52.2,88.66 47.61,79.1 49.93,75.08 c 1.4,-2.42 5.79,-4.43 12.44,-3.47 3.83,0.55 6.4,1.16 7.5,1.45 1.02,-5.23 2.37,-10.22 3.31,-13.46 -1.61,-0.41 -4.58,-1.09 -8.83,-1.71 -11.68,-1.68 -21.8,2.25 -26.42,10.26 -6.56,11.36 0.77,26.56 15.01,41.32 -1.73,1.8 -3.37,3.6 -4.87,5.4 -15.1,18.01 -13.85,29.45 -10.14,35.87 4.11,7.11 12.61,10.76 23.93,10.76 7.65,0 16.6,-1.67 26.33,-5.07 4.67,-1.63 15.81,-6.13 21.07,-8.28 5.12,2.36 10.19,4.43 15.14,6.19 -4.33,15.07 -10.31,23.83 -14.95,23.83 -3.68,0 -8.11,-5.38 -11.58,-14.05 -0.14,-0.35 -0.38,-1.05 -0.64,-1.82 -4.7,1.85 -9.55,3.35 -13.15,4.38 0.31,0.94 0.65,1.93 0.92,2.59 7.53,18.81 17.45,22.76 24.45,22.76 13.12,0 22.61,-13.95 28.27,-33.66 2.43,0.6 4.8,1.11 7.11,1.52 4.87,0.86 9.12,1.24 12.84,1.24 z M 92.84,71.34 c 1.39,-6.19 3.23,-11.87 3.23,-11.87 0,0 0,0 0,0 4.51,-12.95 9.97,-18.75 13.38,-18.75 4.64,0 10.62,8.76 14.95,23.83 -10.43,3.7 -21.4,8.8 -32.19,15.03 -0.43,0.25 -0.85,0.5 -1.27,0.75 0.61,-3.08 1.25,-6.08 1.9,-8.99 z m -9.23,72.01 c -19.28,6.73 -31.49,4.25 -33.68,0.46 -1.63,-2.83 0.44,-10.12 8.76,-20.04 1.35,-1.61 2.82,-3.23 4.38,-4.84 8.62,7.33 18.64,14.31 29.14,20.38 0.26,0.15 0.53,0.3 0.79,0.45 -3.74,1.48 -7.32,2.87 -9.39,3.59 z m 15.53,-16.04 c -10.08,-5.82 -18.7,-11.94 -25.81,-17.88 7.49,-6.24 16.25,-12.32 25.81,-17.84 9.56,-5.52 19.2,-10.07 28.35,-13.43 1.6,9.13 2.58,19.66 2.58,31.29 0,11.63 -0.98,22.17 -2.58,31.29 -9.15,-3.36 -18.79,-7.91 -28.35,-13.43 z m 44.78,-20.42 c 4.87,4.52 10.27,10.01 14.86,15.22 10.12,11.49 11.9,18.75 10.19,21.7 -1.63,2.83 -8.99,4.67 -21.73,2.43 -2.07,-0.36 -4.2,-0.83 -6.38,-1.37 2.04,-11.13 3.08,-23.3 3.08,-35.43 -0.01,-0.84 -0.01,-1.7 -0.02,-2.55 z"
+           id="path1463"
+           style="stroke-width:4.5551" />
+        <path
+           class="st0"
+           d="m 109.45,95.74 c -7.56,0 -13.71,6.15 -13.71,13.71 0,7.56 6.15,13.71 13.71,13.71 7.56,0 13.71,-6.15 13.71,-13.71 0,-7.56 -6.15,-13.71 -13.71,-13.71 z"
+           id="path1465"
+           style="stroke-width:4.5551" />
+        <path
+           class="st0"
+           d="M 218.9,109.45 C 218.9,48.89 169.46,-0.33 108.83,0 52.02,0.31 3.94,45.39 0.24,102.09 c -2.64,40.56 16.7,78.33 50.68,99.87 l -0.04,15.82 -36.96,0.12 V 192.73 H 0.07 v 38.91 h 64.68 l 0.04,-29.93 c 0.01,-4.63 -2.39,-8.91 -6.42,-11.46 -27.86,-17.61 -44.5,-47.81 -44.5,-80.8 0,-52.52 42.58,-95.28 95.03,-95.59 51.39,-0.3 94.39,40.96 96.09,92.32 1.14,34.25 -15.66,65.88 -44.44,84.07 -4.03,2.55 -6.43,6.83 -6.42,11.46 l 0.07,29.93 h 64.65 v -38.91 h -13.86 l 0.12,25.05 -37.08,0.12 -0.04,-15.95 c 31.87,-20.17 50.91,-54.74 50.91,-92.5 z"
+           id="path1467"
+           style="stroke-width:4.5551" />
+        <path
+           class="st0"
+           d="m 355.91,44.55 c -38.17,0 -69.08,30.72 -69.08,69.27 0,38.36 30.91,69.27 69.08,69.27 13.93,0 26.91,-4.2 37.78,-11.26 l 15.08,15.27 12.21,-11.07 -14.69,-14.69 c 11.64,-12.4 18.89,-29 18.89,-47.52 0,-38.55 -31.1,-69.27 -69.27,-69.27 z m 38.17,104.38 -27.48,-27.48 -12.21,10.88 26.72,26.91 c -7.44,4.2 -16.03,6.49 -25.19,6.49 -28.62,0 -51.52,-22.71 -51.52,-51.9 0,-29.39 22.9,-52.1 51.52,-52.1 28.63,0 51.52,22.71 51.52,52.1 0,13.73 -4.96,25.94 -13.36,35.1 z"
+           id="path1469"
+           style="stroke-width:4.5551" />
+        <path
+           class="st0"
+           d="m 543,88.44 c 0,-22.9 -18.7,-41.41 -41.6,-41.41 h -53.43 v 133.58 h 17.75 v -51.14 h 31.49 l 29.96,51.14 h 19.65 L 515.33,127.18 C 531.36,121.45 543,105.99 543,88.44 Z m -77.28,24.99 v -49.8 h 35.68 c 13.17,0 23.85,11.07 23.85,24.81 0,13.74 -10.69,25 -23.85,25 h -35.68 z"
+           id="path1471"
+           style="stroke-width:4.5551" />
+        <polygon
+           class="st0"
+           points="661.91,180.61 661.91,163.81 583.59,163.81 583.59,47.03 565.85,47.03 565.85,180.61 644.17,180.61 "
+           id="polygon1473"
+           style="stroke-width:4.5551" />
+      </g>
+      <flowRoot
+         transform="matrix(0.15346816,0,0,0.16066721,-193.62522,149.96883)"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:107.049px;line-height:1.05;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#3992f1;fill-opacity:1;stroke:none;stroke-width:3.17197"
+         id="flowRoot934"
+         xml:space="preserve"><flowRegion
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#3992f1;fill-opacity:1;stroke-width:3.17197"
-           y="112.85714"
-           x="710"
-           height="252.94791"
-           width="1055.8093"
-           id="rect928" /></flowRegion><flowPara
-         id="flowPara5244"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:107.049px;font-family:D-DIN;-inkscape-font-specification:'D-DIN Bold';text-align:start;text-anchor:start;fill:#3992f1;fill-opacity:1">QRL ZERO-DAY EXPLOIT POST-MORTEM</flowPara></flowRoot>
-    <flowRoot
-       transform="matrix(0.15346816,0,0,0.16066721,-192.86129,188.7465)"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:53.5245px;line-height:1.05;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#234b5d;fill-opacity:1;stroke:none;stroke-width:3.17197"
-       id="flowRoot4393"
-       xml:space="preserve"><flowRegion
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#234b5d;fill-opacity:1;stroke-width:3.17197"
-         id="flowRegion4389"><rect
+           id="flowRegion930"><rect
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#3992f1;fill-opacity:1;stroke-width:3.17197"
+             y="112.85714"
+             x="710"
+             height="252.94791"
+             width="1055.8093"
+             id="rect928" /></flowRegion><flowPara
+           id="flowPara5244"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:107.049px;font-family:D-DIN;-inkscape-font-specification:'D-DIN Bold';text-align:start;text-anchor:start;fill:#3992f1;fill-opacity:1">QRL ZERO-DAY EXPLOIT POST-MORTEM</flowPara></flowRoot>
+      <flowRoot
+         transform="matrix(0.15346816,0,0,0.16066721,-192.86129,188.7465)"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:53.5245px;line-height:1.05;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#234b5d;fill-opacity:1;stroke:none;stroke-width:3.17197"
+         id="flowRoot4393"
+         xml:space="preserve"><flowRegion
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#234b5d;fill-opacity:1;stroke-width:3.17197"
-           y="112.85714"
-           x="710"
-           height="220.2596"
-           width="1054.009"
-           id="rect4387" /></flowRegion><flowPara
-         id="flowPara4391"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.5245px;font-family:D-DIN;-inkscape-font-specification:D-DIN;text-align:start;text-anchor:start;fill:#234b5d;fill-opacity:1">A detailed disclosure of the recent zero-day coinbase exploit and emergency network fork response.</flowPara></flowRoot>
+           id="flowRegion4389"><rect
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#234b5d;fill-opacity:1;stroke-width:3.17197"
+             y="112.85714"
+             x="710"
+             height="220.2596"
+             width="1054.009"
+             id="rect4387" /></flowRegion><flowPara
+           id="flowPara4391"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.5245px;font-family:D-DIN;-inkscape-font-specification:D-DIN;text-align:start;text-anchor:start;fill:#234b5d;fill-opacity:1">A detailed disclosure of the recent zero-day coinbase exploit and emergency network fork response.</flowPara></flowRoot>
+    </g>
   </g>
   <style
      type="text/css"
