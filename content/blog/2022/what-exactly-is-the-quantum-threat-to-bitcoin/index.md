@@ -4,7 +4,7 @@ slug: what-exactly-is-the-quantum-threat-to-bitcoin
 date: 2022-06-22
 author: "Ryan Malinowski"
 title: "What exactly is the quantum threat to Bitcoin?"
-summary: 'This article originally stems from a YouTube video series we filmed on our [QRL YouTube channel](https://www.youtube.com/c/QRLedger) titled, "What exactly is the quantum threat to Bitcoin", where we better help you understand what the root of that quantum threat is all about.'
+summary: 'This article originally stems from a YouTube video series we filmed on our [QRL YouTube channel](https://www.youtube.com/c/QRLedger) where we better help you understand what the root of that quantum threat to Bitcoin is all about.'
 featured_image: header.png
 categories:
   - technical
