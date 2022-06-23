@@ -1,6 +1,7 @@
 ---
 layout: team-member
 name: "Geometry Labs"
+slug: geometrylabs
 role: "core"
 profile: /img/feat-logos/geometrylabs.200x200.png
 inactive: true
