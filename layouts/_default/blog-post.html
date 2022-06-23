@@ -87,10 +87,10 @@
 
           {{ range $key, $taxonomy := .Site.Taxonomies.series }}
             {{ if (eq $key $series) }}
-              <ul>
+              <ul class="article-series">
                   {{ range $taxonomy.Pages.ByDate }}
                     {{ if (eq .Page.Slug $cslug) }}
-                    <li><strong>{{ .LinkTitle }}</strong></li>
+                    <li class="current">Selected: {{ .LinkTitle }}</li>
                     {{ else }}
                     <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
                     {{ end }}
