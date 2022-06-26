@@ -3,7 +3,7 @@ layout: blog-post
 slug: last-month-at-qrl-march-2022
 date: 2022-04-01
 author: "Jack Matier"
-title: "Last Month at QRL — March 2021"
+title: "Last Month at QRL — March 2022"
 summary: "Post-quantum safe Non-Fungible Tokens (NFTs) have arrived on the testnet & the significance of post-quantum resistant NFTs. Providers / marketplaces are the missing piece! QRLLIB Rust port nearly complete. JSON output for the QRL-CLI, and a New QRL Explainer deck."
 featured_image: header.png
 categories:
