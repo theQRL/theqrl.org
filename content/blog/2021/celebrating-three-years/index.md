@@ -10,6 +10,7 @@ images:
   - header.png
 categories:
   - community
+  - events
 toc: true
 ---
 
