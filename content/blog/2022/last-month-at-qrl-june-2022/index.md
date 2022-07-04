@@ -64,7 +64,7 @@ If you have questions, and you haven't already filled out our AMA form for the u
 
 4d5a (in [Discord](/discord)) will be sponsoring a contest to find the coolest design the community can produce with our logo. The design will be put onto a batch of QRL shirts, which will be exclusively sold for QRL. For the winning design, there will be a 1000 quanta tip alongside me paying to create an NFT of the design when that happens (for the artist).
 
-Additionally, if 100 unique people order a shirt, 4d5a will get some version of the design tattooed on myself in Amsterdam at the meetup.
+Additionally, if 100 unique people order a shirt, 4d5a will get some version of the design tattooed on himself in Amsterdam at the meetup.
 
 Please submit all designs to [#casual](/discord) (Discord) and 4d5a.
 
