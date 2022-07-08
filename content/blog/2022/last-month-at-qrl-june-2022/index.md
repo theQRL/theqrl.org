@@ -56,7 +56,7 @@ We were happy to release the fourth (and final) part of the "Techniques for effi
 
 Read more: https://www.theqrl.org/blog/techniques-for-efficient-post-quantum-finance-part-4-reducing-storage-requirements/
 
-If you have questions, and you haven't already filled out our AMA form for the upcoming [QRL show AMA with Geometry Labs](https://docs.google.com/forms/d/e/1FAIpQLSfZUnQVspWW49ig8O4OdE7NHWZHJGXQEC3QNPLs1YVXZvU8NA/viewform).
+We'll be hosting a QRL show with geometry labs so if you have questions, and you haven't already filled out our AMA form for the upcoming [QRL show AMA with Geometry Labs](https://docs.google.com/forms/d/e/1FAIpQLSfZUnQVspWW49ig8O4OdE7NHWZHJGXQEC3QNPLs1YVXZvU8NA/viewform), now would be a good time to do so.
 
 ## Community Led Initiatives
 
@@ -66,7 +66,7 @@ If you have questions, and you haven't already filled out our AMA form for the u
 
 Additionally, if 100 unique people order a shirt, 4d5a will get some version of the design tattooed on himself in Amsterdam at the meetup.
 
-Please submit all designs to [#casual](/discord) (Discord) and 4d5a.
+Please submit all designs to [#casual](/discord) (Discord) and tag 4d5a.
 
 ## Quantum news
 

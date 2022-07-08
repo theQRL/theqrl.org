@@ -10,6 +10,7 @@ images:
 categories:
   - technical
   - research
+  - press
 features:
   - proof-of-stake
 ---

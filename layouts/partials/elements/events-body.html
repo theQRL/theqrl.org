@@ -1,0 +1,17 @@
+{{/* Define section... */}}
+{{ $section := .CurrentSection }}
+
+{{ if .Params.dates }}
+    {{ $section = .CurrentSection }}
+{{ else }}
+    {{ $section = .Parent }}
+{{ end }}
+
+<section class="core core-page bg-white event-body">
+    <div class="container-mini blog-article">
+        <div class="content">
+            <h2>{{ .Title }}</h2>
+            {{ .Content }}
+        </div>
+    </div>
+</section>
