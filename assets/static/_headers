@@ -5,5 +5,5 @@
   X-Content-Type-Options: nosniff
   Cache-Control: no-transform
   Access-Control-Allow-Origin: "*"
-  Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' www.youtube.com embed.typeform.com form.typeform.com; script-src 'self' 'unsafe-inline' www.googletagmanager.com; media-src 'self'; font-src 'self'; connect-src 'self' www.google-analytics.com; img-src 'self' www.google-analytics.com; style-src 'self' 'unsafe-inline'; base-uri 'self'
+  Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' www.youtube.com embed.typeform.com form.typeform.com; script-src 'self' 'unsafe-inline' 'unsafe-embed' www.googletagmanager.com embed.typeform.com; media-src 'self'; font-src 'self'; connect-src 'self' www.google-analytics.com; img-src 'self' www.google-analytics.com; style-src 'self' 'unsafe-inline'; base-uri 'self'
   
