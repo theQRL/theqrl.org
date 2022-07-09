@@ -37,7 +37,7 @@ Alongside the Hackathon itself, we'll be launching PoS/Smart contracts in additi
 
 ### Wait, There's More
 
-As part of the Hackathon event, we'll also be hosting an exclusive fireside chat, holding a number of lightning talks throughout each day, providing QRL swag, and you'll get your very own proof-of-attendance coin (yes, you'll be heading home with some QRL hardware).
+As part of the Hackathon event, we’ll also be hosting an exclusive fireside chat, holding a number of lightning talks throughout each day, providing QRL swag, rewards, and you’ll get a chance to have your very own proof-of-attendance coin (limited run).
 
 ### Have A Question About Attending?
 
