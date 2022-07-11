@@ -24,7 +24,8 @@
 {{ if or (eq $output "grid") }}<div id="markets" class="grid grid-markets grid-three-cols">{{ end }}
 	{{ range $.Site.Data.markets }}
 		<a href="{{ .link }}" class="no-ul">
-          <div class="core__el animate-fade" style="opacity: 1; visibility: inherit;">
+          <div class="core__el animate-fade{{ if .maintenance }} maintenance{{ end }}" style="opacity: 1; visibility: inherit;">
+			<div class="core__el__top">Under Maintenance</div>
             <div class="core__el__img">
               <img src="/img/markets/{{ .logo }}" alt="{{ .name }}">
             </div>
