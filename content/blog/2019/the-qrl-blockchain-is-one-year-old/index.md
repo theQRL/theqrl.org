@@ -12,6 +12,7 @@ images:
   - 17r_QrTmNVu1jqLn7h033pA.jpeg
 categories:
   - technical
+  - events
 ---
 
 ## Where We’ve Been

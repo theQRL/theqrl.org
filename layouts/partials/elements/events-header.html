@@ -1,0 +1,114 @@
+{{/* Define section... */}}
+{{ $section := .CurrentSection }}
+
+{{ if .Params.phases }}
+    {{ $section = .CurrentSection }}
+{{ else }}
+    {{ $section = .Parent }}
+{{ end }}
+
+
+{{ $ctasection := .CurrentSection }}
+
+{{ if .Params.cta }}
+    {{ $ctasection = .CurrentSection }}
+{{ else }}
+    {{ $ctasection = .Parent }}
+{{ end }}
+
+
+<div class="event-hero">
+  <div class="menu-header">
+    <div class="container">
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="mobile-menu" for="menu-btn">
+        <span class="menu-icon">
+          <span class="navicon"></span>
+        </span>
+        <span class="menu-text">Event Menu</span>
+      </label>
+  
+      <ul class="menu">
+          {{ $currentPage := .RelPermalink }}
+    
+          {{ if eq "/events/qrl-hackathon-2022/" $currentPage }}
+              <li><a class="current" href="/events/qrl-hackathon-2022/">Home</a></li>
+          {{ else }}
+              <li><a href="/events/qrl-hackathon-2022/">Home</a></li>
+          {{ end }}
+    
+    
+          {{ range $section.Sections }}
+              {{ if eq $currentPage .RelPermalink }}
+              <li><a class="current" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+              {{ else }}
+              <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+              {{ end }}
+          {{ end }}
+      </ul>
+    </div>
+  </div>
+  
+  <div class="core-team-head">
+    <div class="container-mini">
+        
+      
+      <div class="core-team-head__inner">
+        <p class="section-title">{{ .Parent.Params.title }}</p>
+        <h1 class="section-title-header text-yellow ">{{ .Params.title }}</h1>
+        <p>{{ .Params.summary }}</p>
+      </div>
+      <div class="welcome__btn-area" style="display: flex;">
+        {{ if $section.Params.cta }}
+        <a href="{{ $ctasection.Params.cta.primary.url }}" class="welcome__btn welcome__btn--blue" style="width:auto;">{{ $ctasection.Params.cta.primary.text }}</a>
+        {{ end }}
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+<section class="core core-page events-header bg-gray">
+  <div class="container blog-article event-info">
+        <a href="" name="page"></a>
+        <!-- Cycle through each stage -->
+        <div class="stages">
+          <h3>Hackathon Phases</h3>            
+          {{ range $section.Params.phases }}
+          <div class="stage">
+            <ul class="stage-info">
+              <li>
+                <div>
+                  <span class="stage-title">Phase</span>
+                  <span class="stage-data">{{ .name }}</span>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <span class="stage-title">Start Date</span>
+                  <span class="stage-data">{{ .start_date }}</span>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <span class="stage-title">End Date</span>
+                  <span class="stage-data">{{ .end_date }}</span>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <span class="stage-title">Location</span>
+                  <span class="stage-data">{{ .location }}</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+            {{ end }}
+        </div>
+        <div class="cta">
+          <a href="{{ $section.Params.cta.primary.url }}" class="welcome__btn welcome__btn--blue" style="width:auto">{{ $section.Params.cta.primary.text }}</a>
+        </div>
+    </div>
+</section>
+

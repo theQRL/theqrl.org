@@ -4,7 +4,7 @@
       link: https://www.cointiger.com/en-us/#/trade_center?coin=qrl_btc
   link: https://www.cointiger.com/en-us/#/trade_center?coin=qrl_btc
   logo: cointiger.png
-  type: Exchange / Centralized
+  type: Centralized Exchange
 
 - name: Bittrex Global
   markets: 
@@ -12,7 +12,8 @@
       link: https://international.bittrex.com/Market/Index?MarketName=BTC-QRL
   link: https://international.bittrex.com/Market/Index?MarketName=BTC-QRL
   logo: bittrex-global.svg
-  type: Exchange / Centralized
+  type: Centralized Exchange
+  maintenance: true
 
 - name: Biteeu
   markets: 
@@ -20,7 +21,19 @@
       link: https://trade.biteeu.com/trades/BTC-QRL
   link: https://trade.biteeu.com/search
   logo: biteeu.png
-  type: Exchange / Centralized
+  type: Centralized Exchange
+
+- name: "Dex-Trade"
+  markets:
+    - market: QRL-USDT
+      link: https://dex-trade.com/spot/trading/QRLUSDT
+    - market: QRL-BTC
+      link: https://dex-trade.com/spot/trading/QRLBTC
+    - market: QRL-ETH
+      link: https://dex-trade.com/spot/trading/QRLETH
+  link: https://dex-trade.com/
+  logo: dextrade.png
+  type: Centralized Exchange
 
 - name: "Tidecoin Exchange"
   markets: 
@@ -36,4 +49,4 @@
       link: https://www.tidecoin.exchange/trading/qrlarl      
   link: https://www.tidecoin.exchange/trading/qrlusdt
   logo: tidecoin.png 
-  type: Exchange / Centralized
+  type: Centralized Exchange
