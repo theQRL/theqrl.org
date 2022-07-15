@@ -4,7 +4,7 @@ slug: please-give-a-warm-welcome-to-developer-prajjawal-khandelwal
 date: 2022-07-15
 author: "QRL Core Developers"
 title: "Growing the QRL family"
-summary: A warm welcome to Prajjawal who joined the team earlier this month and is working as a Software Development Engineer on the `qrl node`
+summary: A warm welcome to Prajjawal who joined the team earlier this month and is working as a Software Development Engineer on project Zond - the Proof-of-Stake/EVM compatibility upgrade
 featured_image: header.png
 categories:
   - personnel
