@@ -8,6 +8,7 @@ summary: 'This article originally stems from a YouTube video series we filmed on
 featured_image: header.png
 categories:
   - technical
+draft: true
 ---
 
 If you're reading this article, there's a good chance you want to know what the quantum threat to Bitcoin actually is.
