@@ -11,7 +11,7 @@ categories:
 toc: false
 ---
 
-## Welcome
+## Welcome Q & A
 
 A warm welcome to Prajjawal who joined the team earlier this month and is working as a Software Development Engineer on project Zond (Proof-of-Stake/EVM). 
 
@@ -33,6 +33,6 @@ There will be a lot of developments and feature releases in the roadmap and some
 
 Kaushal is a real human being and very supportive. He has been helping and guiding me  along the project so far.
 
-(Ed -- still not convinced, sorry!)
+(Editor's note -- still not convinced, sorry!)
 
 Good luck with those unit tests while you grapple with the new `golang` codebase Prajjawal. 
