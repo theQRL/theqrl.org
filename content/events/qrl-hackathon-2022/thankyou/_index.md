@@ -6,7 +6,7 @@ summary: "You should receive an email from us in the next few days confirming yo
 featured_image: 'header.png'
 cta: 
   primary:
-    url: '/events/qrl-hackathon-2022/register#page'
+    url: '/discord/'
     text: 'Join Discord'
   secondary:
     url: '/events/'
