@@ -39,10 +39,13 @@
     
     
           {{ range $section.Sections }}
-              {{ if eq $currentPage .RelPermalink }}
-              <li><a class="current" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+              {{ if isset .Params "menu" }}
               {{ else }}
-              <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                {{ if eq $currentPage .RelPermalink }}
+                <li><a class="current" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                {{ else }}
+                <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                {{ end }}
               {{ end }}
           {{ end }}
       </ul>
@@ -56,7 +59,7 @@
       <div class="core-team-head__inner">
         <p class="section-title">{{ .Parent.Params.title }}</p>
         <h1 class="section-title-header text-yellow ">{{ .Params.title }}</h1>
-        <p>{{ .Params.summary }}</p>
+        <p>{{ .Params.summary | markdownify }}</p>
       </div>
       <div class="welcome__btn-area" style="display: flex;">
         {{ if $section.Params.cta }}
