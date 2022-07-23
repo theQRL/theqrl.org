@@ -13,7 +13,6 @@
   link: https://international.bittrex.com/Market/Index?MarketName=BTC-QRL
   logo: bittrex-global.svg
   type: Centralized Exchange
-  maintenance: true
 
 - name: Biteeu
   markets: 
