@@ -30,9 +30,18 @@
       link: https://dex-trade.com/spot/trading/QRLBTC
     - market: QRL-ETH
       link: https://dex-trade.com/spot/trading/QRLETH
-  link: https://dex-trade.com/
+  link: https://dex-trade.com/spot/trading/QRLUSDT
   logo: dextrade.png
   type: Centralized Exchange
+
+- name: "Catalyx"
+  markets:
+    - market: QRL-BTC
+      link: https://catalyx.io/trade/QRL-BTC
+  link: https://catalyx.io/trade/QRL-BTC
+  logo: catalyx.png
+  type: Centralized Exchange
+  regions: ['CA']
 
 - name: "Tidecoin Exchange"
   markets: 
