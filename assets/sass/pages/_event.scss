@@ -3,6 +3,7 @@
  * 
  * Consists of four different sections
  */
+$event-width: 65em;
 body.event-page {
 
     // Hide elements not useful to the event page.
@@ -27,7 +28,7 @@ body.event-page {
             order:2;
         }
         
-        @include mobile {
+        @media (max-width: $event-width) {
             .core-team-head {
                 order:2;
             }
@@ -92,7 +93,7 @@ body.event-page {
         align-items: center;
         flex-direction: row;
 
-        @include mobile {
+        @media (max-width: $event-width) {
             padding: 0 20px;
             flex-direction: column;
 
@@ -191,7 +192,7 @@ body.event-page {
             display:none;
 
             &:checked~.menu {
-                max-height: 360px;
+                max-height: 960px;
                 margin-bottom: 20px;
             }
 
@@ -303,17 +304,19 @@ body.event-page {
 
     }
 
-    @media (min-width: 48em) {
+    @media (min-width: $event-width) {
         .menu-header {
             ul.menu {
                 padding-left: 0;
                 padding: 0;
                 margin: 0;
                 display: flex;
-
+                align-items: stretch; 
+                
                 li {
                     list-style: none;
                     margin: 0;
+                    text-align: center;
 
                     a {
                         width: 100%;

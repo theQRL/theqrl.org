@@ -337,4 +337,25 @@
     &__inner{
         padding-bottom: 35px;
     }
+    table.event-agenda {
+        width:100%;
+
+        tr, td {
+            border: 1px solid #EEE;
+        }
+        tr:first-child {
+            background-color:#0a1720;
+            color:#EEE;
+            text-transform: uppercase;
+            font-weight: 400;
+        }
+    }
+    td {
+        > p:first-child, > ul:first-child {
+            margin-top: 0;
+        }
+        > p:last-child, > ul:last-child {
+            margin-bottom: 0;
+        }
+    }
 }

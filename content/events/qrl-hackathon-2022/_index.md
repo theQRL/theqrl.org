@@ -8,7 +8,7 @@ summary: "We are excited to have you join us for our hackathon event in Septembe
 featured_image: 'header.png'
 phases:
   - name: "Idea & Team Building"
-    start_date: "Coming Soon"
+    start_date: 2022-08-30
     end_date: 2022-09-20
     location: "Online"
     type: "In Person"
@@ -19,17 +19,17 @@ phases:
     type: "In Person"
 cta: 
   primary:
-    url: '/events/qrl-hackathon-2022/register#page'
-    text: 'Register Now'
+    url: '/events/qrl-hackathon-2022/start'
+    text: 'Get Started'
   secondary:
     url: '/events/'
     text: 'See other events'
 ---
 
 
-QRL Hackathon 2022 will be a great place for developers, artists, writers, or anyone else alike to come together for an intimate multi-day event with direct team interaction and to be part of the future of post-quantum resistant blockchain ecosystems.
+The QRL Hackathon 2022 is a great place for developers, artists, writers, or anyone else alike to come together for an intimate multi-day event with direct team interaction and to be part of the future of post-quantum resistant blockchain ecosystems.
 
-Whether you're technical or not, there's plenty of projects you can tackle. For project ideas see our [project ideas page](/events/qrl-hackathon-2022/ideas).
+Head on over to our [Getting Started](/events/qrl-hackathon-2022/start/) page to join in the fun today.
 
 ### Key Focuses
 
