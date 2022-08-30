@@ -45,14 +45,14 @@
     margin-right: auto;
   } */
   
-  p code, li code {
-    border: 1px solid #EEE;
+  p > code, li > code {
+    border: 1px solid #DDD;
     background-color: #F0F0F0;
     color: #333;
     padding: 0 4px;
     margin: 0 1px;
     font-size:86%;
-    border-radius: 0px;
+    border-radius: 1px;
     word-wrap: anywhere;
     font-family: "Hack", monospace;
   }

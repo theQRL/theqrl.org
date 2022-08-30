@@ -1,6 +1,6 @@
 ---
 layout: event-page
-title: "Visiting"
+title: "Visiting Amsterdam"
 slug: 'visiting'
 summary: "From it's storied history and museums to art/culture and a growing startup scene, Amsterdam makes for the perfect city to host QRL Hackathon 2022."
 featured_image: 'header.png'

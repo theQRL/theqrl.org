@@ -8,7 +8,7 @@ summary: "We are excited to have you join us for our hackathon event in Septembe
 featured_image: 'header.png'
 phases:
   - name: "Idea & Team Building"
-    start_date: "Coming Soon"
+    start_date: 2022-09-01
     end_date: 2022-09-20
     location: "Online"
     type: "In Person"
@@ -19,8 +19,8 @@ phases:
     type: "In Person"
 cta: 
   primary:
-    url: '/events/qrl-hackathon-2022/register#page'
-    text: 'Register Now'
+    url: '/events/qrl-hackathon-2022/start'
+    text: 'Get Started'
   secondary:
     url: '/events/'
     text: 'See other events'
