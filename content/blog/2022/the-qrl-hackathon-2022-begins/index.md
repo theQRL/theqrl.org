@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 slug: the-qrl-hackathon-2022-begins
-date: 2022-08-28
+date: 2022-08-30
 author: "Ryan Malinowski"
 title: "The QRL Hackathon 2022 Begins"
 summary: ""

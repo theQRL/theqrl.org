@@ -8,7 +8,7 @@ summary: "We are excited to have you join us for our hackathon event in Septembe
 featured_image: 'header.png'
 phases:
   - name: "Idea & Team Building"
-    start_date: 2022-09-01
+    start_date: 2022-08-30
     end_date: 2022-09-20
     location: "Online"
     type: "In Person"
