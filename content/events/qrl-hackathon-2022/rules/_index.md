@@ -20,8 +20,8 @@ Covering this is our [Code-of-Conduct](/coc), which broadly boils down to treati
 3. To be eligible for prizes, at least one individual on the team will need to be in-person (one person can represent *up to* 2 projects).
 4. It's possible to be part of multiple teams, but not to lead multiple teams.
 5. It's possible to work on something on your own, (ie. a team of one)
-6. Team members are eligible to participate in the hackathon independently, but not for any prizes.
-7. No work should be done before the actual date and time of the event (Team building & ideation).
+6. QRL Team members are eligible to participate in the hackathon independently, but not for any prizes.
+7. No work should be done before the start of the event, Team Building & Ideation, on August 30th, 2022.
 8. Project should have a major theme or component be QRL, and is recommended to use the QRL ecosystem. 
 9. Adding new features to existing projects is allowed, such as adding QRL to another ecosystem.
 10. Teams can work on an idea that they have worked on before (as long as they do not re-use code)
