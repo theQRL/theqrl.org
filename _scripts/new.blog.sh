@@ -8,7 +8,7 @@ if [ ! -f "config.toml" ]; then
 	exit 1;
 fi
 
-blogtocopy="last-month-at-qrl-march-2022"
+blogtocopy="last-month-at-qrl-august-2022"
 name=$1
 
 if [[ -z ${1} ]]; then
@@ -16,7 +16,7 @@ if [[ -z ${1} ]]; then
 	exit 1;
 fi
 
-slug=$(echo $name | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
+slug=$(echo $name | tr '[:upper:]' '[:lower:]' | tr -cd '[:alnum:] ._' | tr -s ' ' | tr ' ' '-')
 
 # File locations
 assets_dir=assets/content/blog/"$(date +%Y)"/"$slug"/
