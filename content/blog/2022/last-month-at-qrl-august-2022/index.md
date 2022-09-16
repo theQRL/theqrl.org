@@ -32,7 +32,7 @@ Right now we've started with the Ideation & Team Building part of the hackathon,
 
 If you haven't already, be sure to see what the [QRL Hackathon 2022](/events/qrl-hackathon-2022/start) is all about and get started! 
 
-### Ethereum Virtual Machine (ETM) in Zond
+### Ethereum Virtual Machine (EVM) in Zond
 
 {{< image "./images/h.evm.png" >}}
 
