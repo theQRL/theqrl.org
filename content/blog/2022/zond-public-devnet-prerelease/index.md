@@ -9,7 +9,8 @@ featured_image: header.png
 categories:
   - technical
 features:
-  - pos
+  - proof-of-stake
+  - smart-contracts
 toc: true
 ---
 
