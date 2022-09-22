@@ -1,0 +1,18 @@
+{{ $start := .Get "start" }}
+{{ $end := .Get "end" }}
+
+{{ range .Site.Data.quantum }}
+{{ if and ((time .date).After (time $start )) ((time .date).Before (time $end )) }}
+
+
+### {{ .title }}
+
+![]({{ .base64img }})
+
+
+On **{{ .date }}**: {{ .blurb }} \- [{{ .org }}]({{ .link }})
+
+{{ .blurb_qrl }}
+
+{{ end }}
+{{ end }}

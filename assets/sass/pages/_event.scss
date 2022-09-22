@@ -1,0 +1,356 @@
+/*
+ * Event page
+ * 
+ * Consists of four different sections
+ */
+$event-width: 65em;
+body.event-page {
+
+    // Hide elements not useful to the event page.
+    #countdown {
+        display: none;
+    }
+
+    // Set page padding
+    main .container,
+    .container-mini {
+        padding: 0 20px;
+    }
+
+    .event-hero {
+        display:flex;
+        flex-direction: column;
+
+        .core-team-head {
+            order:1;
+        }
+        .menu-header {
+            order:2;
+        }
+        
+        @media (max-width: $event-width) {
+            .core-team-head {
+                order:2;
+            }
+            .menu-header {
+                order:1;
+            }
+        }
+        
+    }
+    //
+    .core-team-head {
+        position: relative;
+
+        .container-mini {
+            position: relative;
+            z-index: 1;
+        }
+
+        &::after {
+            content: "";
+            background-image: radial-gradient(circle,
+                    rgba(0, 0, 0, 0.4) 0%,
+                    rgba(0, 0, 0, 0.3) 10%,
+                    rgba(0, 0, 0, 0) 50%),
+                linear-gradient(0deg, rgba(0, 19, 36, 0.5) 0%, rgba(0, 39, 56, 0) 30%),
+                url("/events/qrl-hackathon-2022/images/header.png");
+            // background-size: cover;
+            background-position: right bottom, right bottom;
+            background-repeat: no-repeat, no-repeat;
+            position: absolute;
+            z-index: 0;
+            top: 0px;
+            right: 0px;
+            bottom: -48px;
+            left: 0px;
+            opacity: 1;
+        }
+    }
+
+    .core-page {
+        padding: 24px 0;
+
+        &.event-body {
+            padding-top: 50px;
+
+            .blog-article {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .content h2:first-child {
+                margin-top: 0;
+            }
+        }
+    }
+
+    // Middle which displays information about the event
+    .event-info {
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+
+        @media (max-width: $event-width) {
+            padding: 0 20px;
+            flex-direction: column;
+
+            .cta {
+                padding: 0;
+
+                a {
+                    width: 100%;
+                }
+            }
+        }
+
+        >div {
+            // padding:0 20px;
+
+            &:first-child {
+                padding-left: 0;
+            }
+
+            &:last-child {
+                padding-right: 0;
+            }
+        }
+
+        .stages {
+            width: 100%;
+            // flex-grow: 1;
+
+            h3 {
+                margin: 0;
+                padding: 0;
+            }
+        }
+
+        .stage-info {
+            display: flex;
+            padding: 0;
+            margin: 20px 0px;
+            
+            li {
+                > div {
+                    margin:0 12px;
+                }
+                &:first-child, &:last-child {
+                    > div {
+                        margin:0;
+                    }
+                }
+                flex: 1;
+                margin: 0;
+                list-style: none;
+
+                .stage-title {
+                    font-weight: bold;
+                    display: block;
+                    font-size: 14px;
+                }
+
+                .stage-data {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .cta {
+            a {
+                text-decoration: none;
+
+                &:hover {
+                    color: #0a1720;
+                }
+            }
+        }
+    }
+
+    // The MENU
+    $menu-selected: #eee;
+    $menu-item: #fff;
+    $menu-hamburger: $color-yellow;
+    $menu-hamburger-lines: #fff;
+    
+    // Remove padding under menu so it's flush to event details
+    .core-team-head {
+        padding: 0; margin: 0;  // Reset padding
+        padding-top: 24px;      // 1/4 due to compensating for dual menus
+        padding-bottom: 0px;
+    }
+
+    .menu-header {
+        margin-top: 0px;
+        z-index: 6;
+        position: relative;
+
+        // Menu control logic
+        .menu-btn {
+            display:none;
+
+            &:checked~.menu {
+                max-height: 960px;
+                margin-bottom: 20px;
+            }
+
+            &:checked~.mobile-menu .navicon {
+                background: transparent;
+            }
+
+            &:checked~.mobile-menu .navicon:before {
+                transform: rotate(-45deg);
+            }
+
+            &:checked~.mobile-menu .navicon:after {
+                transform: rotate(45deg);
+            }
+
+            &:checked~.mobile-menu:not(.steps) .navicon:before,
+            &:checked~.mobile-menu:not(.steps) .navicon:after {
+                width: 100%;
+                top: 0;
+            }
+        }
+
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            overflow: hidden;
+            background-color: #00000088;
+            max-height: 0;
+            transition: max-height 0.2s ease-out;
+        }
+
+        li a {
+            display: block;
+            padding: 20px 20px;
+            background-color: $menu-item;
+            text-decoration: none;
+        }
+
+        li a:hover,
+        .menu-btn:hover,
+        li a.current {
+            background-color: $menu-selected;
+        }
+
+        /* menu */
+
+        .mobile-menu {
+            // margin-bottom: 24px;
+            display: flex;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #FFF;
+
+            .menu-text {
+                text-transform: uppercase;
+                font-family: $f-DinM;
+                color: $color-yellow;
+                display: inline-block;
+                padding-left: 20px;
+                line-height: 58px;
+                text-decoration: none;
+            }
+        }
+
+        /* menu icon */
+        .menu-icon {
+            cursor: pointer;
+            display: inline-block;
+            // float: right;
+            padding: 28px 20px;
+            position: relative;
+            user-select: none;
+            background-color: $menu-hamburger;
+
+            .navicon {
+                display: block;
+                height: 2px;
+                position: relative;
+                transition: background 0.2s ease-out;
+                width: 18px;
+            }
+
+            .navicon,
+            .navicon::before,
+            .navicon::after {
+                background: $menu-hamburger-lines;
+            }
+            .navicon:before,
+            .navicon:after {
+                content: "";
+                display: block;
+                height: 100%;
+                position: absolute;
+                transition: all 0.2s ease-out;
+                width: 100%;
+            }
+
+            .navicon:before {
+                top: 5px;
+                width: 60%;
+            }
+    
+            .navicon:after {
+                top: -5px;
+            }
+
+        }
+
+    }
+
+    @media (min-width: $event-width) {
+        .menu-header {
+            ul.menu {
+                padding-left: 0;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                align-items: stretch; 
+                
+                li {
+                    list-style: none;
+                    margin: 0;
+                    text-align: center;
+
+                    a {
+                        width: 100%;
+                        padding: 0px 20px;
+                        font-family: $f-DinM;
+                        font-size: 14px;
+                        line-height: 48px;
+                        text-transform: uppercase;
+                        display: inline-block;
+                        text-decoration: none;
+                        color: #333;
+
+                        &.current,
+                        &:hover {
+                            color: #000;
+                        }
+                    }
+                    &:first-child a {
+                        border-top-left-radius: 5px;
+                    }
+                    &:last-child a {
+                        border-top-right-radius: 5px;
+                    }
+                }
+            }
+
+
+            .menu {
+                max-height: none;
+            }
+
+            .mobile-menu {
+                display: none;
+            }
+        }
+    }
+}

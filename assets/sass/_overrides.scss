@@ -45,14 +45,14 @@
     margin-right: auto;
   } */
   
-  p code, li code {
-    border: 1px solid #EEE;
+  p > code, li > code {
+    border: 1px solid #DDD;
     background-color: #F0F0F0;
     color: #333;
     padding: 0 4px;
     margin: 0 1px;
     font-size:86%;
-    border-radius: 0px;
+    border-radius: 1px;
     word-wrap: anywhere;
     font-family: "Hack", monospace;
   }
@@ -83,6 +83,51 @@
       padding: 40px;
       background-color:#FCFCFC;
   }
+  .grid-markets {
+    .core__el {
+      position:relative;
+    }
+    .core__el__top {
+      display:none;
+      text-align:center;
+      background-color: $color-alert-yellow-bg; margin-bottom:-40px;
+      padding: 0 26px;
+      line-height: 40px;
+      flex: 1;
+      transition: .5s ease-in-out;
+      left:0; top:0; right:0;
+      transition-property: color,background-color;
+      z-index: 2;
+      color: $color-alert-yellow-fg;
+      font-size: 19px;
+      font-family: "Source Sans Pro Bold",sans-serif;
+      cursor: default;
+    }
+    .maintenance {
+      &:hover {
+        .core__el__img,
+        .core__el__inner {
+          filter:grayscale(0);
+        }
+      }
+      
+      .core__el__top {
+        
+        display:block;
+      }
+      .core__el__img, 
+      .core__el__inner {
+        filter: grayscale(0.8);
+        transition: 1s all;
+      }
+      .core__el__img {
+        img {
+          position:relative;
+          top: 20px;
+        }
+      }
+    }
+  }
   
   .grid-markets span.market {
     background-color: #4AAFFF;
@@ -92,10 +137,21 @@
     border-radius: 5px;
     font-weight:bold;
     font-size: 16px;
+    display:inline-block;
   }
   
   .grid-markets .market-pairs {
     padding-top: 7px;
+  }
+
+  .grid-markets.grid-three-cols {
+      grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 1199px) {
+    .grid-markets.grid-three-cols {
+      grid-template-columns: repeat(1, 1fr);
+    }    
   }
   
   .coreTeam .grid-markets .core__el {
@@ -641,3 +697,30 @@
   @font-face {font-family: MJXc-TeX-vec-B; src: local('MathJax_Vector Bold'), local('MathJax_Vector-Bold')}
   @font-face {font-family: MJXc-TeX-vec-Bx; src: local('MathJax_Vector'); font-weight: bold}
   @font-face {font-family: MJXc-TeX-vec-Bw; src /*1*/: url('/js/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Vector-Bold.eot'); src /*2*/: url('/js/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Vector-Bold.woff') format('woff'), url('/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Vector-Bold.otf') format('opentype')}
+
+.blog-article .floatleft {
+  clear:both;
+  float: left;
+  margin-right: -250px;
+  margin-top: 0;
+  width: 250px;
+  position: relative;
+  right: 280px;
+
+}
+
+.floatleft, .floatleft + *,
+.floatleft:hover, .floatleft:hover + * {
+  transition: all 2s;
+  
+}
+.floatleft:hover, 
+.floatleft:hover + * {
+  background-color:#FFE;
+  outline:1px solid #DCC;
+  cursor: pointer;
+}
+
+.clearfix {
+  // clear:both;
+}

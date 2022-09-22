@@ -4,7 +4,7 @@
       link: https://www.cointiger.com/en-us/#/trade_center?coin=qrl_btc
   link: https://www.cointiger.com/en-us/#/trade_center?coin=qrl_btc
   logo: cointiger.png
-  type: Exchange / Centralized
+  type: Centralized Exchange
 
 - name: Bittrex Global
   markets: 
@@ -12,7 +12,7 @@
       link: https://international.bittrex.com/Market/Index?MarketName=BTC-QRL
   link: https://international.bittrex.com/Market/Index?MarketName=BTC-QRL
   logo: bittrex-global.svg
-  type: Exchange / Centralized
+  type: Centralized Exchange
 
 - name: Biteeu
   markets: 
@@ -20,12 +20,41 @@
       link: https://trade.biteeu.com/trades/BTC-QRL
   link: https://trade.biteeu.com/search
   logo: biteeu.png
-  type: Exchange / Centralized
+  type: Centralized Exchange
 
-- name: "Bitvoiceex"
+- name: "Dex-Trade"
+  markets:
+    - market: QRL-USDT
+      link: https://dex-trade.com/spot/trading/QRLUSDT
+    - market: QRL-BTC
+      link: https://dex-trade.com/spot/trading/QRLBTC
+    - market: QRL-ETH
+      link: https://dex-trade.com/spot/trading/QRLETH
+  link: https://dex-trade.com/spot/trading/QRLUSDT
+  logo: dextrade.png
+  type: Centralized Exchange
+
+- name: "Catalyx"
+  markets:
+    - market: QRL-BTC
+      link: https://catalyx.io/trade/QRL-BTC
+  link: https://catalyx.io/trade/QRL-BTC
+  logo: catalyx.png
+  type: Centralized Exchange
+  regions: ['CA']
+
+- name: "Tidecoin Exchange"
   markets: 
-    - market: BTC-QRL
-      link: https://bitvoicex.net/markets/qrl_btc
-  link: https://bitvoicex.net/markets/qrl_btc
-  logo: bitvoicex.net.jpeg 
-  type: Exchange / Centralized
+    - market: QRL-DOGE
+      link: https://www.tidecoin.exchange/trading/qrldoge
+    - market: QRL-USDT
+      link: https://www.tidecoin.exchange/trading/qrlusdt
+    - market: QRL-BNB
+      link: https://www.tidecoin.exchange/trading/qrlbnb
+    - market: QRL-TDC
+      link: https://www.tidecoin.exchange/trading/qrltdc
+    - market: QRL-ARL
+      link: https://www.tidecoin.exchange/trading/qrlarl      
+  link: https://www.tidecoin.exchange/trading/qrlusdt
+  logo: tidecoin.png 
+  type: Centralized Exchange

@@ -1,0 +1,22 @@
+{{ $classes := .Get "classes" }}
+{{ $useHeaderRow := .Get "header" }}
+{{ $rows := .Inner | transform.Unmarshal }}
+
+<table  {{ with $classes }}class="{{ . }}"{{ end }}>
+  {{ if $useHeaderRow }}
+    {{ $headerRow := index $rows 0 }}
+    {{ $rows = after 1 $rows }}
+    <tr> {{ range $headerRow }} <th>{{ . }}</th> {{ end }} </tr>
+  {{ end }}
+  {{ range $rows }}
+    <tr>
+      {{ range . }}
+        {{ if (findRE "^\\d+$" .) }}
+          <td>{{ . }}</td>
+        {{ else }}
+          <td>{{ . | markdownify }}</td>
+        {{ end }}
+      {{ end }}
+    </tr>
+  {{ end }}
+</table>

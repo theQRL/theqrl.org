@@ -28,14 +28,26 @@
     
 }
 .blog-article {
+    .place-series {
+        background-color: #EEE;
+        padding:10px;
+        border-left: 2px solid $color-blue;
+        margin:50px auto; 
+
+        p, ul {
+            margin:10px;
+        }
+
+
+    }
     @include tablet{
         max-width: 466px;
     }
     ol {
         font-size: 18px;
-line-height: 26px;
-padding-left: 18px;
-margin: 40px 0;
+        line-height: 26px;
+        padding-left: 18px;
+        margin: 40px 0;
     }
     ol > li {
         list-style-type: decimal;
@@ -324,5 +336,26 @@ margin: 40px 0;
     }
     &__inner{
         padding-bottom: 35px;
+    }
+    table.event-agenda {
+        width:100%;
+
+        tr, td {
+            border: 1px solid #EEE;
+        }
+        tr:first-child {
+            background-color:#0a1720;
+            color:#EEE;
+            text-transform: uppercase;
+            font-weight: 400;
+        }
+    }
+    td {
+        > p:first-child, > ul:first-child {
+            margin-top: 0;
+        }
+        > p:last-child, > ul:last-child {
+            margin-bottom: 0;
+        }
     }
 }

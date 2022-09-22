@@ -51,7 +51,7 @@ Other organisations preparing for the quantum threat includes Cloudflare, Google
 
 This is the million (trillion?) dollar question. It's estimated to take 2330 logical qubits to break most public key cryptography used today[^QBITSNEEDED]. 
 
-Both PsiQuantum (working with GlobalFoundries) and IBM are vying to have one million qubit computers by the end of this century[^MILLION]. While these aren't logical qubits, they can form logical qubits that are close to the numbers above. Adding to the mix, quantum computers can be networked together[^QNETWORK].
+Both PsiQuantum (working with GlobalFoundries) and IBM are vying to have one million qubit computers by the end of this decade[^MILLION]. While these aren't logical qubits, they can form logical qubits that are close to the numbers above. Adding to the mix, quantum computers can be networked together[^QNETWORK].
 
 Experts in the field have weighed in from time to time in evaluating the likelihood of a significant quantum threat to public-key cybersecurity, and 77% think there's *at least* a 5% chance of it happening within 10 years.
 
@@ -82,9 +82,7 @@ For blockchains including Bitcoin, '[not your keys, not your crypto](https://www
 
 ## What does this mean for blockchains like Bitcoin?
 
-If you’re not up to date, most blockchains (including all in the top 10 on CMC) use either Elliptic Curve Digital Signature Algorithm (ECDSA) for public key cryptography, or some variant of it vulnerable to quantum computers[^ECCTOP]. Using a quantum computer, Shor’s algorithm[^SHORS] can be used to break ECDSA[^SHORS].
-
-What this means is powerful enough quantum computers can derive the private key from the public key and use that private key to create a transaction and empty your wallet.
+Most blockchains (including all in the top 10 on CMC) use either Elliptic Curve Digital Signature Algorithm (ECDSA) for public key cryptography, or some variant of it vulnerable to quantum computers[^ECCTOP]. Using a quantum computer, Shor’s algorithm[^SHORS] can be used to break ECDSA[^SHORS].
 
 A paper by Deloitte Netherlands found that [25% of all Bitcoin are potentially vulnerable to a quantum attack](https://www2.deloitte.com/nl/nl/pages/innovatie/artikelen/quantum-computers-and-the-bitcoin-blockchain.html), while some estimate [that to be higher at 36%](https://medium.com/@sashagnip/how-many-bitcoins-are-vulnerable-to-a-hypothetical-quantum-attack-3e59e4172e8).
 
