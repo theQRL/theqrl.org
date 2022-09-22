@@ -16,6 +16,9 @@ Voting will be taking place in our [Discord](/Discord) between 2pm and 3:30pm Am
 
 100,000 QRL is at stake so vote responsibly!
 
+
+## The entries
+
 ### Raspberry Pi / Team Pi Ninja
 
 {{< image "./images/entry.rpi.png" >}}
@@ -29,6 +32,8 @@ Four modules to make the pi compatible with QRL needed to be modified (qrandomx,
 ### QRLPay / 1337 sQuirReLs
 
 {{< youtube hqpkXhJJxAA >}}
+
+QRLPay is a simple, easily deployable, lightweight QRL (https://www.theqrl.org/) payment processor that connects to your own QRL node. You can find out more by watching this video: https://www.youtube.com/watch?v=hqpkXhJJxAA
 
 The goal was to make it easy to add QRL as a payment method for eCommerce. A pre-configured eCommerce website is also includde with the project. QRLPay include:
 
@@ -45,7 +50,6 @@ Source code can be found here: https://github.com/0xFF0/QRLPay
 {{< image "./images/posdash.png" >}}
 
 The POS Dashboard works with validator data to see how much the staking reward and each validator has earned with proposed and attested blocks.
-
 
 This is the Groundwork for node pos dashboard because each node can run multiple validators.
 
