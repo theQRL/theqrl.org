@@ -7,8 +7,13 @@
 
 ### {{ .title }}
 
+{{ if .base64img }}
 ![]({{ .base64img }})
+{{ end }}
 
+{{ if .img }}
+![]({{ .img }}.png)
+{{ end }}
 
 On **{{ .date }}**: {{ .blurb }} \- [{{ .org }}]({{ .link }})
 
