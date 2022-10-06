@@ -757,9 +757,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="206.32366"
-     inkscape:cy="-26.263966"
+     inkscape:zoom="2.8"
+     inkscape:cx="555.17857"
+     inkscape:cy="-23.214286"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1283,7 +1283,7 @@
        transform="matrix(0.55889842,0,0,0.55889842,-3.947263,88.26874)"><tspan
          x="26.33773"
          y="218.86018"
-         id="tspan4246">HACKATHON REGISTRATION OPEN</tspan></text>
+         id="tspan4533">HACKATHON REGISTRATION OPEN</tspan></text>
     <g
        id="g3391"
        clip-path="url(#clipPath3393)"
@@ -1338,7 +1338,7 @@
        transform="matrix(0.85863335,0,0,0.85863335,740.05392,360.06989)"><tspan
          x="-807.36328"
          y="-210.66877"
-         id="tspan4248">HIGHLIGHTS</tspan></text>
+         id="tspan4535">HIGHLIGHTS</tspan></text>
     <g
        id="g1475"
        transform="matrix(0.04740011,0,0,0.04740011,7.0791776,170.69847)"
@@ -1383,16 +1383,16 @@
        transform="matrix(0.55889842,0,0,0.55889842,-8.0933738,74.195945)"><tspan
          x="26.33773"
          y="218.86018"
-         id="tspan4250">ZOND PUBLIC DEVNET RELEASED</tspan></text>
+         id="tspan4537">ZOND PUBLIC DEVNET RELEASED</tspan></text>
     <rect
-       style="fill:#3992f1;fill-opacity:1;stroke-width:0.186542;stroke-linecap:square;paint-order:markers stroke fill"
+       style="fill:#3992f1;fill-opacity:1;stroke-width:0.230727;stroke-linecap:square;paint-order:markers stroke fill"
        id="rect475"
-       width="47.482742"
+       width="72.640259"
        height="9.9221745"
-       x="217.61188"
+       x="192.45436"
        y="170.96765" />
     <flowRoot
-       transform="matrix(0.25296192,0,0,0.25354863,42.808696,142.15326)"
+       transform="matrix(0.25296192,0,0,0.25354863,14.631107,142.15326)"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:35.3392px;line-height:1.25;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#f7f6f5;fill-opacity:1;stroke:none;stroke-width:3.17197"
        id="flowRoot37908"
        xml:space="preserve"><flowRegion
@@ -1405,7 +1405,7 @@
            width="1082.5774"
            id="rect37902" /></flowRegion><flowPara
          id="flowPara37906"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:35.3392px;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift Bold';text-align:justify;text-anchor:start;fill:#f7f6f5;fill-opacity:1">RELEASE</flowPara></flowRoot>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:35.3392px;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift Bold';text-align:justify;text-anchor:start;fill:#f7f6f5;fill-opacity:1">PUBLIC RELEASE</flowPara></flowRoot>
     <text
        xml:space="preserve"
        id="text4744"
@@ -1415,17 +1415,17 @@
        transform="matrix(0.41824658,0,0,0.41824658,-4.0949762,115.55331)"><tspan
          x="26.33773"
          y="218.86018"
-         id="tspan4258"><tspan
+         id="tspan4545"><tspan
    style="font-weight:normal;font-stretch:expanded;font-family:'D-DIN Exp';-inkscape-font-specification:'D-DIN Exp Expanded'"
-   id="tspan4252">The Zond Public devnet was released including </tspan>Staking<tspan
+   id="tspan4539">The Zond Public devnet was released including </tspan>Staking<tspan
    style="font-weight:normal;font-stretch:expanded;font-family:'D-DIN Exp';-inkscape-font-specification:'D-DIN Exp Expanded'"
-   id="tspan4254">, the </tspan><tspan
+   id="tspan4541">, the </tspan><tspan
    style="font-stretch:expanded;font-family:'D-DIN Exp';-inkscape-font-specification:'D-DIN Exp Bold Expanded'"
-   id="tspan4256">Ethereum </tspan></tspan><tspan
+   id="tspan4543">Ethereum </tspan></tspan><tspan
          x="26.33773"
          y="242.55772"
-         id="tspan4262"><tspan
+         id="tspan4549"><tspan
            style="font-stretch:expanded;font-family:'D-DIN Exp';-inkscape-font-specification:'D-DIN Exp Bold Expanded'"
-           id="tspan4260">Virtual Machine (EVM), and Web3 API compatibilities.</tspan></tspan></text>
+           id="tspan4547">Virtual Machine (EVM), and Web3 API compatibilities.</tspan></tspan></text>
   </g>
 </svg>
