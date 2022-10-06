@@ -777,8 +777,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="669.64285"
-     inkscape:cy="115.35714"
+     inkscape:cx="475.35714"
+     inkscape:cy="129.64286"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -787,8 +787,8 @@
      inkscape:showpageshadow="false"
      inkscape:window-width="2021"
      inkscape:window-height="1230"
-     inkscape:window-x="267"
-     inkscape:window-y="485"
+     inkscape:window-x="273"
+     inkscape:window-y="469"
      inkscape:window-maximized="0"
      inkscape:document-rotation="0"
      inkscape:snap-bbox="true"
@@ -843,7 +843,7 @@
        transform="matrix(0.55889842,0,0,0.55889842,-3.9472604,88.268745)"><tspan
          x="26.33773"
          y="218.86018"
-         id="tspan3581">HACKATHON REGISTRATION OPEN</tspan></text>
+         id="tspan4729">HACKATHON REGISTRATION OPEN</tspan></text>
     <g
        id="g1510"
        style="opacity:0.558674;fill:#cbd7e6;fill-opacity:1;stroke-width:0.154963"
@@ -907,7 +907,7 @@
        transform="matrix(0.55889842,0,0,0.55889842,-7.1118554,74.195946)"><tspan
          x="26.33773"
          y="218.86018"
-         id="tspan3583">QRL HACKATHON 2022</tspan></text>
+         id="tspan4731">QRL HACKATHON 2022</tspan></text>
     <text
        xml:space="preserve"
        id="text4744"
@@ -917,7 +917,7 @@
        transform="matrix(0.41824658,0,0,0.41824658,-3.2283679,114.52658)"><tspan
          x="26.33773"
          y="218.86018"
-         id="tspan3585">Amazing entries. Even more amazing people!</tspan></text>
+         id="tspan4733">Amazing entries. Even more amazing people!</tspan></text>
     <path
        id="path3730-3"
        style="fill:#ffa729;fill-opacity:1;stroke-width:0.641356"
@@ -936,7 +936,7 @@
        transform="matrix(0.85863335,0,0,0.85863335,741.42774,361.08985)"><tspan
          x="-807.36328"
          y="-210.66877"
-         id="tspan3587">HIGHLIGHTS</tspan></text>
+         id="tspan4735">HIGHLIGHTS</tspan></text>
     <g
        id="g1475-2"
        transform="matrix(0.04740011,0,0,0.04740011,8.4530069,171.71843)"
@@ -1003,6 +1003,6 @@
        transform="matrix(0.41824658,0,0,0.41824658,-3.2283679,124.88974)"><tspan
          x="26.33773"
          y="218.86018"
-         id="tspan3589">Paving the way for future Hackathons and events.</tspan></text>
+         id="tspan4737">Paving the way for future Hackathons and events.</tspan></text>
   </g>
 </svg>
