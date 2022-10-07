@@ -37,7 +37,6 @@ For those coming from the previous codebase:
 
 - Documentation: https://zond-docs.theqrl.org/
 - Web3 smart contract example: https://github.com/theQRL/zond-contract-example
-- (unofficial) Zond init: https://www.github.com/jackalyst/zond-init/
 - Public API Address/Port: 45.76.43.83:19009
 - RPC API Address/Port: 45.76.43.83:4545
 
@@ -118,9 +117,9 @@ To unstake, you'll want to send a stake transaction with a `0` amount.
 ./zond/zond-cli tx stake --account-index 1 --amount 0 --gas 1000 --gas-price 0 --nonce 0 --broadcast --remote-addr 45.76.43.83:19009
 ```
 
-### 4. Creating QREVM smart contracts
+### 4. Creating QRVM smart contracts
 
-Zond comes with EVM smart contract compatibility known as the Quantum Resistant Ethereum Virtual Machine (QREVM), so any smart contract you've created before should work on the Zond devnet pre-release, but with extra security and longevity built in!
+Zond comes with EVM smart contract compatibility known as the Quantum Resistant Virtual Machine (QRVM), so any smart contract you've created before should work on the Zond devnet pre-release, but with extra security and longevity built in!
 
 For a guide, you'll want to follow through the web3 smart contract example:
 https://github.com/theQRL/zond-contract-example
