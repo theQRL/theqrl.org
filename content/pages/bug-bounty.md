@@ -55,7 +55,7 @@ All valid findings are subject to Hall-of-Fame kudos. Our Hall-of-Fame forms par
 
 The bug bounty program is an experimental and discretionary rewards program for our active QRL community to encourage and reward those who are helping to improve the platform.
 
-You should know that we can cancel the program at any time, and awards are at the sole discretion of QRL Foundation Bug Bounty Panel.
+You should know that we can change or cancel the program at any time, and awards are at the sole discretion of QRL Foundation Bug Bounty Panel.
 
 In addition, we are not able to issue awards to individuals who are on sanctions lists or who are in countries on sanctions lists (e.g. North Korea, Iran, etc). Local laws require us to ask for proof of your identity. You are responsible for all taxes.
 
