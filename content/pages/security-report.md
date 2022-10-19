@@ -1,6 +1,8 @@
 ---
 layout: article
 slug: /security-report
+aliases:
+  - /security
 title: Report a Security Issue
 parent: /
 ---
@@ -12,7 +14,9 @@ Contact us if you have discovered security issues in any of the following:
 
 - QRL protocol design and implementation
 - Services deployed by the QRL team
-- QRL  network and infrastructure
+- QRL network and infrastructure
+
+If in doubt, send a report.
 
 ## How to report
 
@@ -86,4 +90,4 @@ To facilitate reproduction of reported issues, we encourage you to include the f
 
 Upon receiving your report, the QRL team will assess the issue and reach out to ask for additional information and/or provide assessment.
 
-Any reported security issues may be eligible for rewards under the terms of [The QRL Bug Bounty Program](/bug-bounty). 
+Any reported security issues may be eligible for rewards under the terms of [The QRL Bug Bounty Program](/bug-bounty).
