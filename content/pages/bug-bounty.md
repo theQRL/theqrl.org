@@ -3,8 +3,9 @@ layout: article
 slug: /bug-bounty
 title: QRL Bug Bounty Program
 parent: /
+toc: true
+intro: "> Ready to report a bug? Visit the [Security Report Page](/security-report)"
 ---
-> Ready to report a bug? Visit the [Security Report Page](/security-report)
 
 ## General Requirements
 
