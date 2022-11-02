@@ -1,5 +1,5 @@
 <?php
-$start_date = "1 August 2022";
+$start_date = "1 October 2022";
 
 if(!getenv("GITHUB_OAUTH_TOKEN")) {
 	echo "You're going to be limited to 60 calls per hour which this script comes close to. Please set environment variable GITHUB_OAUTH_TOKEN\n";
@@ -38,7 +38,7 @@ function get_commits_from_pr($commit_api) {
 	echo "\n";
 	foreach($commits as $key=>$commit) {
 		?>
-- [[<?php echo substr($commit->sha, -5) ?>](<?php echo $commit->html_url ?>) <?php echo $commit->commit->message ?>
+- [[<?php echo substr($commit->sha, -5) ?>](<?php echo $commit->html_url ?>)] <?php echo $commit->commit->message ?>
 		<?php
         echo "\n";
 	}
@@ -54,7 +54,7 @@ function getrepoprs($repo) {
 	foreach ($prs as $key => $pr) {
 		// print_r($pr);
 
-		if(strtotime($pr->merged_at) > strtotime("1 July 2022")) {
+		if(strtotime($pr->merged_at) > strtotime("1 October 2022")) {
             echo "\n\n"
 			?>
 **[<?php echo $pr->title ?>](<?php echo $pr->html_url ?>)**
@@ -67,24 +67,33 @@ function getrepoprs($repo) {
 
 # TheQRL
 getrepoprs("theQRL/api.theqrl.org");
-getrepoprs("theQRL/block-explorer");
-getrepoprs("theQRL/electrify-qrl");
-getrepoprs("theQRL/explorer-helpers");
-getrepoprs("theQRL/go-libp2p-qrl");
-getrepoprs("theQRL/go-qrllib");
-getrepoprs("theQRL/js-api-bridge");
-getrepoprs("theQRL/mobile-wallet");
-getrepoprs("theQRL/nft-providers");
-getrepoprs("theQRL/node-helpers");
-getrepoprs("theQRL/offline-wallet-generator");
+// getrepoprs("theQRL/block-explorer");
+// getrepoprs("theQRL/electrify-qrl");
+// getrepoprs("theQRL/explorer-helpers");
+// getrepoprs("theQRL/go-libp2p-qrl");
+// getrepoprs("theQRL/go-qrllib");
+// getrepoprs("theQRL/js-api-bridge");
+getrepoprs("theQRL/ledger-qrl-js");
+// getrepoprs("theQRL/mobile-wallet");
+// getrepoprs("theQRL/nft-providers");
+// getrepoprs("theQRL/node-helpers");
+// getrepoprs("theQRL/offline-wallet-generator");
+getrepoprs("theQRL/py-cryptonight");
 getrepoprs("theQRL/QRL");
-getrepoprs("theQRL/qrl-docker");
-getrepoprs("theQRL/qrl-proto-sha256");
+// getrepoprs("theQRL/qrllib");
+// getrepoprs("theQRL/qrl-docker");
+// getrepoprs("theQRL/qrl-proto-sha256");
 getrepoprs("theQRL/qrl-wallet");
-getrepoprs("theQRL/qrllib");
-getrepoprs("theQRL/qrllib-browserify");
+// getrepoprs("theQRL/qrllib");
+// getrepoprs("theQRL/qrllib-browserify");
 getrepoprs("theQRL/qryptonight");
+getrepoprs("theQRL/qrandomx");
+getrepoprs("theQRL/security");
 getrepoprs("theQRL/theqrl.org");
-getrepoprs("theQRL/validate-qrl-address");
-getrepoprs("theQRL/wallet-helpers");
+// getrepoprs("theQRL/validate-qrl-address");
+// getrepoprs("theQRL/wallet-helpers");
+// getrepoprs("theQRL/web3");
 getrepoprs("theQRL/zond");
+
+// getrepoprs("theQRL/zond-contract-example");
+// getrepoprs("theQRL/zond-documentation");
