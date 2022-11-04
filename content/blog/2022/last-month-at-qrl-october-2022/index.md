@@ -32,7 +32,7 @@ More can be read in our [Sleeper Must Awaken](/blog/the-sleeper-must-awaken/) bl
 
 {{< youtube ngHnnnj6bNs >}}
 
-At QRL's first ever in-person [hackathon](/events/qrl-hackathon-2022/), which took place in Amsterdam in September of this year, some really impressive projects were developed, which we've given an overview of on youtube.
+At QRL's first ever in-person [Hackathon](/events/qrl-hackathon-2022/), which took place in Amsterdam in September of this year, some really impressive projects were developed, which we've given an overview of on youtube.
 
 ## In the community
 
@@ -84,7 +84,7 @@ To see more QRL meme's, you'll want to check out the [contest page](https://nude
 
 ### OneQRL: Questions & Answers
 
-Since the launch of [OneQRL.com](https://oneqrl.com) at the [2022 Hackathon](/events/qrl-hackathon-2022/), the OneQRL Team intentially left the FAQ section unfinished.
+Since the launch of [OneQRL.com](https://oneqrl.com) at the [2022 Hackathon](/events/qrl-hackathon-2022/), the OneQRL Team intentionally left the FAQ section unfinished.
 
 Last month, the OneQRL Team got the community involved and gave a 10 Quanta reward to the most voted Questions/Answers each. This event lasted from **October 24th** to **October 31st**
 
