@@ -11,6 +11,10 @@
     <div class="container-mini blog-article">
         <div class="content">
             <h2>{{ .Title }}</h2>
+            {{ if .Params.toc }}
+            <h3>Table of Contents</h3>
+            {{ .TableOfContents }}
+            {{ end }}
             {{ .Content }}
         </div>
     </div>
