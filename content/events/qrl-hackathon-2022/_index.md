@@ -1,9 +1,12 @@
 ---
 layout: event
+theme: dark
 title: "QRL Hackathon 2022"
 slug: 'qrl-hackathon-2022'
-date: '2022-06-01'
-dates: { '2022-09-21', '2022-09-21' }
+date: 2022-06-01
+dates:
+  start: '2022-08-17'
+  end: '2022-09-20'
 summary: "We are excited to have you join us for our hackathon event in September 2022 at the end of the summer. The most recent network upgrade will be revealed, along with public devnet Proof-of-Stake (PoS) and EVM-compatible smart contract functionality."
 featured_image: 'header.png'
 phases:

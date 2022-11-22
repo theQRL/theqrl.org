@@ -1,5 +1,5 @@
 {{ partial "head/prerender.html" . }}
-<body data-page-name="blogPage" class="blogPage">
+<body data-page-name="blogPage" class="blogPage events-list">
   {{ partial "elements/menu.html" . }}
   <main>
 <section class="blogPage__main big-padding bg-white">
@@ -7,33 +7,106 @@
       <div class="container-mini">
           <h1 class="section-title-header">EVENTS</h2>
       </div>
+
+
+
+      {{ $current := newScratch }}
+      {{ $current.Set "index" 0 }}
+
+      {{- $events :=  where .Site.Pages "Params.layout" "event" -}}
+      {{ range $events }}
+      {{ if and ((time .Params.dates.start).Before now) ((time .Params.dates.end).After now) }}
+      {{ $current.Add "index" 1 }}
+      {{ if eq ($current.Get "index") 1 }}
+      <h2 class="title">Current Events</h2>
+      <div class="blogPage__list events__current">
+      {{ end }}
+        <div class="blogPage__item">
+            <a href="{{ .Permalink }}" title="" class="blogPage__item__img-box">
+              <!-- <img src="/content/events/qrl-winter-hackathon-2022/images/header.png" alt=""> -->
+              {{ if .Params.featured_image }}
+              {{ $resource := printf "/content/%simages/%s" .File.Dir .Params.featured_image }}
+              {{- $image := resources.Get $resource -}}
+              {{ $after := $image.Resize "1000x Linear" }}
+                <img src="{{ $after.RelPermalink }}" alt="" />
+              {{ end }}
+            </a>
+            <h2><a href="{{ .Permalink }}" title="">{{ .Param "title" }}</a></h2>
+            <p class="blogPage__item__text">
+                {{ if .Params.subtitle }}
+                    {{ .Params.subtitle }}
+                {{ else }}
+                    {{ .Summary }}
+                {{ end }}
+            </p>
+            <a href="{{ .Permalink }}" class="read-more-button" title="read article">read more</a>
+        </div>
+      {{ if eq ($current.Get "index") 1 }}
+      </div>
+      {{ end }}
+      {{ end }}
+      {{ end }}
+
+
+
+      {{ $upcoming := newScratch }}
+      {{ $upcoming.Set "index" 0 }}
+
+      {{- $current :=  where .Site.Pages "Params.layout" "event" -}}
+      {{ range $current }}
+      {{ if (time .Params.dates.start).After now }}
+      {{ $upcoming.Add "index" 1 }}
+      {{ if eq ($upcoming.Get "index") 1 }}
+      <h2 class="title">Upcoming</h2>
+      <div class="blogPage__list events__upcoming">
+      {{ end }}
+      <div class="blogPage__item">
+
+          <a href="{{ if .Params.external_url }}{{ .Params.external_url }}{{ else }}{{ .Permalink }}{{ end}}" title="" class="blogPage__item__img-box">
+            <!-- <img src="/content/events/qrl-winter-hackathon-2022/images/header.png" alt=""> -->
+            {{ if .Params.featured_image }}
+            {{ $resource := printf "/content/%simages/%s" .File.Dir .Params.featured_image }}
+            {{- $image := resources.Get $resource -}}
+            {{ $after := $image.Resize "1000x Linear" }}
+              <img src="{{ $after.RelPermalink }}" alt="" />
+            {{ end }}
+          </a>
+          <h2><a href="{{ if .Params.external_url }}{{ .Params.external_url }}{{ else }}{{ .Permalink }}{{ end}}" title="">
+            {{ .Param "title" }}</a>
+          </h2>
+          <p class="blogPage__item__text">
+              {{ if .Params.subtitle }}
+                  {{ .Params.subtitle }}
+              {{ else }}
+                  {{ .Summary }}
+              {{ end }}
+          </p>
+          <a href="{{ if .Params.external_url }}{{ .Params.external_url }}{{ else }}{{ .Permalink }}{{ end}}" class="read-more-button" title="read article">read more</a>
+      </div>
+
+      {{ if eq ($upcoming.Get "index") 1 }}
+      </div>
+      {{ end }}
+      {{ end }}
+      {{ end }}
+      
+      
+      <h2 class="title">All Events</h2>
       <div class="blogPage__list">
         {{ $paginator := .Paginate (where .Site.Pages "Params.layout" "event") 9 }}
         {{ range $paginator.Pages }}
           <div class="blogPage__item">
               <a href="{{ .Permalink }}" title="" class="blogPage__item__img-box">
-
+                {{ if .Params.featured_image }}
+                {{ $resource := printf "/content/%simages/%s" .File.Dir .Params.featured_image }}
+                {{- $image := resources.Get $resource -}}
+                {{ $after := $image.Resize "500x Linear" }}
+                  <img src="{{ $after.RelPermalink }}" alt="" />
+                {{ end }}
               </a>
               <h2><a href="{{ .Permalink }}" title="">
                 {{ .Param "title" }}</a>
               </h2>
-              <p class="blogPage__item__overview">
-                {{ $t := .Site.Pages }}
-                {{ range .Params.categories }}
-                {{ $linked := newScratch }}
-                {{ $linked.Set "linked" false }}
-                {{ $a := . }}
-                {{ range $t }}
-                  {{ if eq .Params.tagName $a }}
-                    <a href="{{ .Params.stub }}">{{ $a }}</a>&nbsp;&nbsp;
-                    {{ $linked.Set "linked" true }}
-                  {{ end }}
-                {{end}}
-                {{ if eq ($linked.Get "linked") false }}
-                <a href="/categories/{{ . }}">{{ . }}</a>&nbsp;&nbsp;
-                {{ end }}
-                {{ end }}
-              </p>
               <p class="blogPage__item__text">
                   {{ if .Params.subtitle }}
                       {{ .Params.subtitle }}
@@ -45,6 +118,8 @@
           </div>
           {{ end }}
       </div>
+
+
 
 
 
