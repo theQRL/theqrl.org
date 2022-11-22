@@ -3,7 +3,7 @@ layout: event
 theme: light
 title: "QRL Games | Winter Hackathon 2022"
 slug: 'qrl-winter-hackathon-2022'
-date: 2022-12-14
+date: 2022-11-22
 dates:
   start: '2022-12-14'
   end: '2023-01-04'
