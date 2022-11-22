@@ -27,7 +27,7 @@ With the idea in hand, the project will need to fit a few key requirements:
 
 1. **Relevant to QRL:** Goes without saying, this is a QRL Hackathon.
 2. **Open source:** It’s common to think of code being open source, but graphics can be too.
-3. **Game related:** This can be everything from incorporating QRL into gameplay to quizzes and puzzles. See our [Gaming related ideas](#gaming-related-ideas) section to help brainstorm.
+3. **Game related:** This can be everything from incorporating QRL into gameplay to quizzes and puzzles. See our [gaming related ideas](#gaming-related-ideas) section to help brainstorm.
 
 Other considerations would be to ensure that your project is:
 
