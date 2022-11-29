@@ -48,9 +48,9 @@ The Bug Bounty program does not cover bugs on code bases that are external to or
 
 ## Possible Awards
 
-Complete, validated in-scope reports are eligible for the award of $QRL as reward subject to the legal requirements noted below.
+Complete, validated, in-scope reports are eligible for the award of cash bounty subject to the legal requirements and conditions noted below.
 
-All valid findings are subject to Hall-of-Fame kudos. Our Hall-of-Fame forms part of the award of additional annual bounty to ethical researchers dedicated to improving our protocol.
+All valid findings, even if ineligible for a bounty, are subject to Hall-of-Fame kudos points. Our Hall-of-Fame forms part of the award of additional annual bounty to ethical researchers dedicated to improving our protocol.
 
 ## Special Notes
 
@@ -68,10 +68,17 @@ Issues without a proof-of-concept, that have already been submitted by another u
 
 Public disclosure of a vulnerability makes it ineligible for a bounty.
 
-Employees and contractors of the QRL Foundation or client teams in scope of the bounty program may participate in the program only in the accrual of points and will not receive monetary rewards.
+Employees and contractors of the QRL Foundation or client teams in scope of the bounty program may participate in the program only in the accrual of points/kudos and will not receive monetary rewards.
 
 The QRL Bug Bounty Program considers a number of variables in determining rewards. Determinations of eligibility, score and all terms related to an award are at the sole and final discretion of the QRL Foundation Bug Bounty Panel.
 
 To be eligible for reward, a working PoC and remediation guideline is expected but not required.
 
 > Ready to report a bug? Visit the [Security Report Page](/security-report)
+
+## Hall of Fame
+
+| Position | Points | Bug hunter                                         | Bugs found |
+|----------|--------|----------------------------------------------------|------------|
+| =1       | 10     | [@pqzim](https://github.com/pqzim)                 | 1          |
+| =1       | 10     | [@scottdonaldau](https://github.com/scottdonaldau) | 1          |
