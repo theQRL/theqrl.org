@@ -111,15 +111,15 @@
   <sodipodi:namedview
      inkscape:document-rotation="0"
      inkscape:window-maximized="1"
-     inkscape:window-y="32"
-     inkscape:window-x="3840"
-     inkscape:window-height="2010"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:window-height="2123"
      inkscape:window-width="3840"
      units="px"
      showgrid="false"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
-     inkscape:cy="147.26562"
+     inkscape:cy="147.65625"
      inkscape:cx="429.6875"
      inkscape:zoom="1.28"
      inkscape:pageshadow="2"
@@ -289,11 +289,11 @@
          style="fill:#ffa729;stroke-width:4.5551" />
     </g>
     <rect
-       style="fill:#3992f1;fill-opacity:1;stroke-width:0.337535;stroke-linecap:square;paint-order:markers stroke fill"
+       style="fill:#3992f1;fill-opacity:1;stroke-width:0.365689;stroke-linecap:square;paint-order:markers stroke fill"
        id="rect475"
-       width="104.93553"
+       width="123.17091"
        height="14.699643"
-       x="22.41885"
+       x="-114.80428"
        y="163.13971" />
     <flowRoot
        xml:space="preserve"

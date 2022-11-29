@@ -1,6 +1,12 @@
 {{/* Define section... */}}
 {{ $section := .CurrentSection }}
 
+{{ if .Page.Parent.Params.slug }}
+  {{ $slug := .Page.Parent.Params.slug }}
+{{ else }}
+  {{ $slug := .Page.Params.slug }}
+{{ end }}
+
 {{ if .Params.phases }}
     {{ $section = .CurrentSection }}
 {{ else }}
@@ -17,6 +23,8 @@
 {{ end }}
 
 
+
+
 <div class="event-hero">
   <div class="menu-header">
     <div class="container">
@@ -28,15 +36,15 @@
         <span class="menu-text">Event Menu</span>
       </label>
   
+      <!-- Main Event Menu -->
       <ul class="menu">
           {{ $currentPage := .RelPermalink }}
     
-          {{ if eq "/events/qrl-hackathon-2022/" $currentPage }}
-              <li><a class="current" href="/events/qrl-hackathon-2022/">Home</a></li>
+          {{ if .Page.Parent.Params.slug }}
+            <li><a href="/events/{{ .Page.Parent.Params.slug }}/">Home</a></li>
           {{ else }}
-              <li><a href="/events/qrl-hackathon-2022/">Home</a></li>
+            <li><a class="current" href="/events/{{ .Page.Params.slug }}/">Home</a></li>
           {{ end }}
-    
     
           {{ range $section.Sections }}
               {{ if isset .Params "menu" }}
@@ -49,13 +57,12 @@
               {{ end }}
           {{ end }}
       </ul>
+      <!-- End Main Event Menu -->
     </div>
   </div>
   
-  <div class="core-team-head">
+  <div class="core-team-head dots-light">
     <div class="container-mini">
-        
-      
       <div class="core-team-head__inner">
         <p class="section-title">{{ .Parent.Params.title }}</p>
         <h1 class="section-title-header text-yellow ">{{ .Params.title }}</h1>
@@ -66,8 +73,13 @@
         <a href="{{ $ctasection.Params.cta.primary.url }}" class="welcome__btn welcome__btn--blue" style="width:auto;">{{ $ctasection.Params.cta.primary.text }}</a>
         {{ end }}
       </div>
-      
     </div>
+    <!-- TODO: Background Image (fixed) -->
+    {{ if .Page.Parent.Params.slug }}
+      <img class="events-bg" src="/events/{{ .Page.Parent.Params.slug }}/images/bg.png" alt="">
+    {{ else }}
+      <img class="events-bg" src="/events/{{ .Page.Params.slug }}/images/bg.png" alt="">
+    {{ end }}
   </div>
 </div>
 

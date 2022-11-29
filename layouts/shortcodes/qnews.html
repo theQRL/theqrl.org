@@ -1,13 +1,21 @@
 {{ $start := .Get "start" }}
 {{ $end := .Get "end" }}
 
-{{ range .Site.Data.quantum }}
+{{ range $index, $value := .Site.Data.quantum }}
 {{ if and ((time .date).After (time $start )) ((time .date).Before (time $end )) }}
 
 
 ### {{ .title }}
 
-![]({{ .base64img }})
+{{ if not $index }}
+{{ if .img }}
+![]({{ .img }}-head.png)
+{{ end }}
+{{ else }}
+{{ if .img }}
+![]({{ .img }}.png)
+{{ end }}
+{{ end }}
 
 
 On **{{ .date }}**: {{ .blurb }} \- [{{ .org }}]({{ .link }})

@@ -4,6 +4,30 @@
  * Consists of four different sections
  */
 $event-width: 65em;
+
+body.events-list {
+    .events__current, .events__upcoming {
+        .blogPage__item {
+            flex-basis: unset;
+        }
+        h2 {
+            height:unset;
+        }
+    }
+}
+
+.core-team-head.dots-dark {
+    // background-color:#000;
+}
+.core-team-head.dots-light {
+    // background-color:#FFF;
+}
+
+.events-bg {
+    position:absolute;
+    bottom:-50px; right:0;
+}
+
 body.event-page {
 
     // Hide elements not useful to the event page.
@@ -47,7 +71,7 @@ body.event-page {
             z-index: 1;
         }
 
-        &::after {
+        &.test::after {
             content: "";
             background-image: radial-gradient(circle,
                     rgba(0, 0, 0, 0.4) 0%,
@@ -77,8 +101,11 @@ body.event-page {
             .blog-article {
                 display: flex;
                 flex-direction: column;
+               
+                @media (max-width: $event-width) {
+                    // max-width:unset;
+                }
             }
-
             .content h2:first-child {
                 margin-top: 0;
             }
