@@ -34,6 +34,11 @@
         {{ end }}
       </div>
       <div class="blog-article__inner">
+        {{ .RenderString .Params.intro }}
+        {{ if .Params.toc }}
+        <h2>Table of Contents</h2>
+        {{ .TableOfContents }}
+        {{ end }}
         {{ .Content }}
       </div>
       {{ if not .Date.IsZero }}
