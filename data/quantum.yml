@@ -1,3 +1,48 @@
+- title: A quantum computer has simulated a wormhole for the first time
+  link: https://www.newscientist.com/article/2349118-a-quantum-computer-has-simulated-a-wormhole-for-the-first-time/
+  org: newscientist
+  img: '/quantum_news/2022/1130.newscientist'
+  img_credits: 'inqnet/A. Mueller (Caltech)'
+  img_caption: "Simulations on a quantum computer show how information might travel through a wormhole"
+  blurb: | 
+    A quantum computer has been used to simulate a holographic wormhole for the first time. The simulation used only nine quantum bits, or qubits, so it was very low-resolution.
+
+    Using a more powerful quantum computer could help bring the image into focus. That is crucial because some theories of quantum gravity are difficult or even impossible to completely understand using only classical computing. 
+  orgs:
+    - Google
+  date: 2022-11-30
+
+- title: IBM quantum computer runs largest quantum program yet
+  link: https://www.newscientist.com/article/2347546-ibm-quantum-computer-runs-largest-quantum-program-yet/
+  org: newscientist
+  img: '/quantum_news/2022/1117.newscientist'
+  img_credits: 'IBM Quantum Research Lab'
+  img_caption: "IBM scientist Andreas Fuhrer, takes a closer look at the cryogenic refrigerator which will keep qubits are temperatures colder than the deepest parts of outer space."
+  blurb: | 
+    A quantum computer has run the largest quantum program yet. The computer made errors, but a mathematical method was able to extract a meaningful result anyway. This error-mitigation technique could help quantum computers become more useful than their imperfect hardware would otherwise allow them to be. IBM's quantum computer had qubits made from tiny wires that conduct electricity perfectly. Superconducting qubits are typically programmed by being hit with pulses of microwaves, so running the new program was equivalent to programming a microwave pulse sequence.
+
+    Previously, the team's largest meaningful quantum circuit used 26 qubits and contained 1080 individual operations. Now, the researchers have run a quantum circuit with 127 qubits and over 1700 individual operations.
+  orgs:
+    - IBM
+    - University of Waterloo
+  date: 2022-11-17
+
+- title: IBM unveils its 433 qubit Osprey quantum computer
+  link: https://techcrunch.com/2022/11/09/ibm-unveils-its-433-qubit-osprey-quantum-computer/
+  org: techcrunch
+  weight: 1
+  img: '/quantum_news/2022/1109.techcrunch'
+  img_credits: 'Connie Zhou/IBM'
+  img_caption: "IBM's 433-qubit Osprey quantum processor paves the way for the company's 1,121-qubit Condor processor in 2023."
+  technology:
+    - qubits: 433
+  blurb: | 
+    IBM's Osprey quantum processor has 433 qubits, up from the 127 qubits of its 2021 Eagle processor. The company plans to hit the 4,000-qubit stage with its Kookaburra processor in 2025.
+  blurb_qrl: >
+    Centralized finance will be ready, decentralized finance will be ready [with QRL](/why).
+  orgs:
+    - IBM
+  date: 2022-11-09
 
 - title: SandboxAQ Buys Cryptosense to Deploy Post-Quantum Cryptography
   link: https://www.eetimes.eu/sandboxaq-buys-cryptosense-to-deploy-post-quantum-cryptography/
@@ -34,7 +79,7 @@
     8. March 29, 2022: Quantinuum Announces Updates to Quantum Natural Language Processing Toolkit λambeq, Enhancing Accessibility
     9. March 3, 2022: Quantinuum announces a world record in fidelity for quantum computing qubits
     10. December 29, 2021: Demonstrating Benefits of Quantum Upgradable Design Strategy: System Model H1-2 First to Prove 2,048 Quantum Volume
-    11. December 7, 2021: Introducing Quantum Origin, The world’s first quantum-enhanced cryptographic key generation platform to protect data from cybersecurity threats
+    11. December 7, 2021: Introducing Quantum Origin, The world's first quantum-enhanced cryptographic key generation platform to protect data from cybersecurity threats
     12. November 27, 2021: Quantum Milestone: We Can Now Detect and Correct Quantum Errors in Real Time 
     13. November 29, 2021: LAMBEQ: A Toolkit for Quantum Natural Language Processing
     14. November 29, 2021: How a New Quantum Algorithm Could Help Solve Real-world Problems Sooner
