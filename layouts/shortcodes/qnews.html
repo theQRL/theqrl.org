@@ -1,19 +1,19 @@
 {{ $start := .Get "start" }}
 {{ $end := .Get "end" }}
 
-{{ range $index, $value := .Site.Data.quantum }}
-{{ if and ((time .date).After (time $start )) ((time .date).Before (time $end )) }}
+{{ range $index, $value := sort .Site.Data.quantum "weight" "desc" }}
 
+{{ if and ((time .date).After (time $start )) ((time .date).Before (time $end )) }}
 
 ### {{ .title }}
 
 {{ if not $index }}
 {{ if .img }}
-![]({{ .img }}-head.png)
+![]({{ .img }}-full.webp)
 {{ end }}
 {{ else }}
 {{ if .img }}
-![]({{ .img }}.png)
+![]({{ .img }}-thin.webp)
 {{ end }}
 {{ end }}
 
