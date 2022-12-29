@@ -1,5 +1,5 @@
 <section id="countdown" class="countdown">
-    <a class="flex_wrapper" href="/events/qrl-hackathon-2022/">
+    <a class="flex_wrapper" href="/events/qrl-games-winter-hackathon-2022/">
         <div class="timer">
             <ul>
                 <li class="days">
@@ -21,11 +21,10 @@
             </ul>
         </div>
         <div class="countdown-title flex_wrapper">
-            <h2>Until the QRL Hackathon 2022 in-person event. First stage has begun!</h2>
+            <h2>Until the QRL Games - Winter Hackathon 2022!</h2>
             <span class="welcome__btn welcome__btn--text">Read More & Join Us</span>
         </div>
     </a>
-
 </section>
 
 
@@ -131,7 +130,7 @@
         x = setInterval(function() {
             document.querySelector('.timer').classList.add("active");
 
-            let future = new Date("2022-09-21T09:00:00.000+02:00");
+            let future = new Date("2022-12-14T09:00:00.000+02:00");
             let now = new Date().getTime();
             let dist = future - now;
        
@@ -166,7 +165,7 @@
             if((1000) >= dist) { 
                 if(document.querySelector('li.seconds')) {
                   document.querySelector('li.seconds').remove(); 
-                  document.querySelector('.countdown-title h2').innerHTML = "QRL Mainnet V3 Released!";
+                  document.querySelector('.countdown-title h2').innerHTML = "QRL Games - Winter Hackathon 2022 is LIVE";
                   document.querySelector('.countdown-title span').innerHTML = "Read more";
                   document.querySelector('.countdown-title').classList.add("flex_wrapper");                    
                 }
