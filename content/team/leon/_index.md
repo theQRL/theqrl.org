@@ -1,11 +1,11 @@
 ---
 layout: team-member
 name: "Leon Groot Bruinderink"
-role: "advisor"
 position: "PhD Post-quantum Cryptographer"
 slug: leon
 profile: /img/people/leon-groot-bruinderink.png
 weight: 2
+inactive: true
 ---
 
-Leon Groot Bruinderink has a PhD in cryptography from Eindhoven University of Technology
+Leon was an advisor to the developers 2017-2022.
