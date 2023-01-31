@@ -1,3 +1,51 @@
+- title: SpinQ Introduces Trio of Portable Quantum Computers
+  link: https://www.tomshardware.com/news/spinq-introduces-trio-of-portable-quantum-computers
+  org: mit
+  img: '/quantum_news/2022/1215.tomshardware'
+  img_credits: 'SpinQ'
+  img_caption: "The Gemini Mini is a self-contained quantum coomputer with its own display."
+  blurb: | 
+    Switch-Science has just announced a trio of quantum computing products. The company claims they are the world's first portable quantum computers. SpinQ Technology, a Chinese quantum computing company based in Shenzen, makes them.
+    
+    The new "quantops" - the Gemini Mini, the Gemini and the Triangulum - have differing complexities and designs. Yet all of them feature a fully-integrated quantum computing system that's capable of operating at room temperature.
+  orgs:
+    - SpinQ
+  date: 2022-12-15
+
+- title: "Amazon hosts a first in Quantum computing: Aquila, a neutral-atom Quantum computer"
+  link: https://interestingengineering.com/innovation/amazon-hosts-aquila-quantum-computer?modal-plans
+  org: interestingengineering
+  weight: 1
+  img: '/quantum_news/2022/1211.interestingengineering'
+  img_credits: 'SpinQ'
+  img_caption: "The Gemini Mini is a self-contained quantum coomputer with its own display."
+  blurb: | 
+    Amazon Web Services (AWS) is hosting Aquila by [QuEra](https://www.quera.com/), the first publicly available neutral atom quantum computer on [Amazon Braket](https://aws.amazon.com/braket/).
+
+    For Aquila's 256-bit neutral-atom quantum processor, Qubits are laser developed in a vacuum chamber, where a cloud of rubidium atoms is trapped by magnetic fields. Laser light then is used to capture individual atoms of that cloud, holding them like tweezers, and constraining their motion so that they are effectively chilled to close to absolute zero.
+  orgs:
+    - Amazon
+    - QuEra
+  date: 2022-12-11
+
+
+
+- title: MIT researchers use quantum computing to observe entanglement
+  link: https://news.mit.edu/2022/mit-researchers-use-quantum-computing-observe-entanglement-1201
+  org: mit
+  img: '/quantum_news/2022/1201.mit'
+  img_credits: 'MIT News'
+  img_caption: "Simulations on a quantum computer show how information might travel through a wormhole"
+  blurb: | 
+    Quantum information traveled across a quantum system in what could be understood as traversing a wormhole. A wormhole is a bridge between two remote spacetime regions. This experiment performed on the Sycamore quantum processor device at Google opens the doors to future experiments with quantum computers. The Sycamore 53-qubit quantum processor allows researchers to send signals "through the wormhole". 
+    
+    This opens up the possibility of future quantum gravity experiments with larger quantum computers. The work is supported by a Department of Energy Office of High Energy Physics QuantISED program grant.
+  orgs:
+    - Google
+  date: 2022-12-01
+
+
+
 - title: A quantum computer has simulated a wormhole for the first time
   link: https://www.newscientist.com/article/2349118-a-quantum-computer-has-simulated-a-wormhole-for-the-first-time/
   org: newscientist
