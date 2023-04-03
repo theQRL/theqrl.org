@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 slug: grasping-the-quantum-threat-with-moscas-theorem
-date: 2023-03-31
+date: 2023-04-03
 author: "Ryan Malinowski"
 title: "Michele Mosca and The Power of Mosca's Theorem: How It Helps Us Grasp the Quantum Threat"
 summary: "Michele Mosca is a well-known mathematician and computer scientist who has made important contributions to the field of quantum computing. The theorem that is named after him helps us understand how dangerous quantum computers can be and the timeline to update systems"
