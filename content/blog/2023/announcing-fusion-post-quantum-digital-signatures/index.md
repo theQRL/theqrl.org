@@ -8,8 +8,7 @@ summary: "Geometry Labs has developed highly aggregatable Fusion digital signatu
 featured_image: header.png
 categories:
   - technical
-features:
-  - nfts
+  - research
 toc: true
 ---
 
