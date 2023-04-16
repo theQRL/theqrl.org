@@ -222,14 +222,16 @@
           <h2 class="section-title-header"> <a href="/partners" class="read-more-button">See All Partners</a></h2>
           <div class="grid grid-three-cols">
             {{ range first 9 (where (where .Site.Pages "Params.layout" "partner") ".Params.inactive" "!=" true)}}
-            <div class="core__el">
-              <div class="core__el__img">
-                <img src='{{ .Param "profile" }}' alt='{{ .Param "name" }}' />
+            <a href='{{ .Param "website" }}' target="_blank">
+              <div class="core__el">
+                <div class="core__el__img">
+                  <img src='{{ .Param "profile" }}' alt='{{ .Param "name" }}' />
+                </div>
+                <div class="core__el__inner"> {{ .Param "name" }}<br>
+                  <p>{{ .Param "position" }}</p>
+                </div>
               </div>
-              <div class="core__el__inner"> {{ .Param "name" }}<br>
-                <p>{{ .Param "position" }}</p>
-              </div>
-            </div>
+            </a>
             {{end}}
           </div>
           <div class="read-more-button__block">
