@@ -1,8 +1,8 @@
 ---
 layout: partner
-name: "Quantum Resistant Corporation"
-slug: quantum-resistant-corporation
+name: "Quantum Resistance Corporation"
+slug: quantum-resistance-corporation
 role: "partners"
-profile: /img/feat-logos/the-quantum-resistant-corporation.svg
+profile: /img/feat-logos/the-quantum-resistance-corporation.svg
 website: https://theqrc.com
 ---
