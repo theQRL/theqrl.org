@@ -65,7 +65,7 @@ This allows much of our exciting layer two functionality to now come online!
 
 We will shortly be announcing **three new full-time members of the team** working in UX, mobile and an additional core developer. More on this in the coming days. The QRL remote office is becoming a busy place to reside.
 
-Additionally we are delighted to add** another advisor**, Robby Dermody, to the team. He is a founder of the [Counterparty project](https://counterparty.io) and has already proved an excellent addition to our growing project.
+Additionally we are delighted to add** another advisor**, to the team. He is a founder of the [Counterparty project](https://counterparty.io) and has already proved an excellent addition to our growing project.
 
 ## Conferences 2018
 

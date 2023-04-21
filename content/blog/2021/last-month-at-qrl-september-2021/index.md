@@ -63,9 +63,9 @@ Completing this allows for work to commence on the QRL Enhancement Program, whic
 
 ## Advocacy
 
-### The QRL Show with QRL Advisor Robby Dermody on Crypto, NFT’s, RAREPEPE’s and more
+### The QRL Show with QRL Advisor from Counterparty on Crypto, NFT’s, RAREPEPE’s and more
 
-Robby Dermody is a QRL advisor for QRL and Principal at Stoic Capital, an investment fund in the cryptocurrency space. Previous to this, he co-founded Counterparty, a technology project building advanced functionality on Bitcoin, and Symbiont, a solutions provider of distributed ledger technology to institutional finance. Through his work at Counterparty, he was an early pioneer in the development of smart contracts and financial applications of blockchain technology. 
+QRL advisor for QRL and Principal at Stoic Capital, an investment fund in the cryptocurrency space. Previous to this, he co-founded Counterparty, a technology project building advanced functionality on Bitcoin, and Symbiont, a solutions provider of distributed ledger technology to institutional finance. Through his work at Counterparty, he was an early pioneer in the development of smart contracts and financial applications of blockchain technology. 
 
 {{< youtube "5wJMSK_rNwA" >}}
 
