@@ -1,7 +1,7 @@
 ---
 slug: it-takes-a-community-to-raise-a-crypto
 date: 2018-02-13
-author: "Robby Dermody"
+author: "Counterparty"
 layout: blog-post
 title: "It takes a community to raise a crypto"
 summary: "I’m happy to be formally advising and assisting the QRL project. In late 2013 I co-founded the Counterparty project. Counterparty pioneered the first working decentralized exchange technology, as well as some of the earliest blockchain-based financial contracts, and hosted many of the first Initial Coin Offerings (ICOs). I am also an original pre-sale QRL investor and have not sold a single quanta from my initial investment."

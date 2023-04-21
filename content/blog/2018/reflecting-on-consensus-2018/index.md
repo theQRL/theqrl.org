@@ -29,7 +29,7 @@ While nothing can match the pure attention grab of an on-stage presentation, I w
 
 {{< image "./images/15L5Qw6zY8ySuKmi0oyV2aQ.jpeg" >}}*From left to right: James, Michael, Discord user Terria, Juan, Adam*
 
-The QRL supporter meetup at Connolly’s Pub and Restaurant occurred on the first night of the conference and was, by all accounts, a success. Being able to meet some of our users in person, as well as meeting our adviser Robby Dermody in person for the first time were fulfilling and productive experiences.
+The QRL supporter meetup at Connolly’s Pub and Restaurant occurred on the first night of the conference and was, by all accounts, a success. Being able to meet some of our users in person, as well as meeting our adviser from [counterparty](https://counterparty.io) in person for the first time were fulfilling and productive experiences.
 
 We talked about how we each came to the project, the state of cryptocurrency currently, and the unusually good weather in NYC that day (we were supposed to get rain, which did indeed arrive mid-Tuesday, and stayed for the rest of the conference), and what we had each done during the first day of the conference. While we do not always have time to have supporter meetups when we attend conferences, I was thankful that we had time during Consensus, because it turned out to be, for me at least, the most relaxing evening of the week.
 
