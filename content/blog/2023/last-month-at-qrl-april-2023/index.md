@@ -4,7 +4,7 @@ slug: last-month-at-qrl-april-2023
 date: 2023-05-12
 author: "The QRL Core Contributors"
 title: "Last Month at QRL - April 2023"
-summary: "A substantial amount of effort has been invested in Zond (our forthcoming Proof-of-Stake/smart contract upgrade). Things touched include the consensus engine, validator client, chrome extension, and other tools, improving the system's overall efficiency, security, and developer friendliness"
+summary: "A substantial amount of effort has been invested in Zond (our forthcoming Proof-of-Stake/smart contract upgrade). Areas touched include the consensus engine, validator client, chrome extension, and other tools, improving the system's overall efficiency, security, and developer friendliness"
 featured_image: header.png
 categories:
   - technical
@@ -17,7 +17,7 @@ toc: true
 
 {{< image "./images/h.zond.png" >}}
 
-In [March](/blog/last-month-at-qrl-march-2023/) we saw a lot of work go into [qrypto.js](https://github.com/theQRL/qrypto.js) and the cryptography portions of Zond, including the latest Dilithum5 library working on the node and browser. Since then, lots of work has gone into the consensus engine, validator client, chrome extension, and tooling.
+In [March](/blog/last-month-at-qrl-march-2023/), we saw a lot of work go into [qrypto.js](https://github.com/theQRL/qrypto.js) and the cryptography portions of Zond, including the latest Dilithum5 library working on the node and browser. Since then, lots of work has gone into the consensus engine, validator client, chrome extension, and tooling.
 
 #### Consensus Engine
 
