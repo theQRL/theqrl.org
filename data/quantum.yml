@@ -1,3 +1,36 @@
+- title: Cryptographers bet cash on when quantum computers will beat encryption
+  link: https://www.newscientist.com/article/2370022-cryptographers-bet-cash-on-when-quantum-computers-will-beat-encryption/
+  org: newscientist
+  img: '/quantum_news/2023/output/0430.newscientist'
+  img_credits: 'Andriy Onufriyenko/Getty Images'
+  img_caption: ''
+  blurb: | 
+    It is thought that quantum computers will eventually be able to crack the encryption methods we use today, but exactly when this will happen is an open question. Now, one cryptographer has started a betting pool.
+  date: 2023-04-30
+
+- title: India gives itself a mission to develop a 1000-qubit quantum computer in just eight years
+  link: https://www.theregister.com/2023/04/20/india_quantum_mission/
+  org: theregister
+  img: '/quantum_news/2023/output/0420.theregister'
+  img_credits: ''
+  img_caption: ''
+  blurb: | 
+    India's government has signed off on a ₹6003.65 crore ($730 million) plan to make the nation a quantum computing and communications power by the year 2031.
+  countries:
+    - India
+  date: 2023-04-20
+
+- title:  Physicists take step toward fault-tolerant quantum computing 
+  link: https://news.cornell.edu/stories/2023/04/physicists-take-step-toward-fault-tolerant-quantum-computing
+  org: cornell
+  img: '/quantum_news/2023/output/0412.cornell'
+  img_credits: ''
+  img_caption: ''
+  blurb: | 
+    Cornell researchers have recently taken a step toward fault-tolerant quantum computing: they constructed a simple model containing exotic particles called non-Abelian anyons, compact and practical enough to run on modern quantum hardware. Realizing these particles, which can only exist in two dimensions, is a move towards implementing it in the real world.
+
+    Eun-Ah Kim, professor of physics (A&S), “With this 10-qubit system, we were able to encode multiple non-Abelian anyons, and therefore multiple logical information-carrying qubits, and a precise recipe for what the experimentalists need to do every step of the way.”
+  date: 2023-04-20
 
 
 - title: Japan quantum computer debut sets off scramble for tech breakthroughs
