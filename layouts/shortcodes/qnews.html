@@ -1,5 +1,7 @@
 {{ $start := .Get "start" }}
-{{ $end := .Get "end" }}
+{{ $end := (.Get "end" | time.AsTime).AddDate 0 0 1 }}
+
+
 
 {{ range $index, $value := sort .Site.Data.quantum "weight" "desc" }}
 
