@@ -7,6 +7,8 @@
 # 
 # usage: pconvert [input_folder] [output_folder]
 # example pconvert in/ out/
+# specific hugo example (run from site root):
+# ./_scripts/process.image.sh assets/static/quantum_news/2023/source/ assets/static/quantum_news/2023/output/
 
 # Todo: 
 # - Integrate face detection
@@ -57,7 +59,7 @@ files=$in"*"
 
 mkdir -p "$out"source
 
-for f in $files
+find $files -type f -mtime -10 -print0 | while read -d $'\0' f
 do
     # dir/filename.ext -> filename
     basename=$(basename "$f" | sed 's/\(.*\)\..*/\1/')

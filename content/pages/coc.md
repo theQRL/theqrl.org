@@ -7,9 +7,7 @@ title: QRL Community Code-of-Conduct
 parent: /
 ---
 
-### Effective Date: 2022-03-09
-
-#### Revision: 2023-01-23
+### Effective Date: 2023-02-01
 
 **Code of Conduct** (tl;dr. Be decent)
 
