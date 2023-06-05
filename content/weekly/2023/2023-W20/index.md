@@ -3,8 +3,8 @@ layout: weekly-update
 date: 2023-05-16
 year: "2023"
 author: "The QRL Core Contributors"
-title: "QRL Weekly, 2023-May-06"
-slug: "2023-May-06"
+title: "QRL Weekly, 2023-May-16"
+slug: "2023-May-16"
 ---
 
 ## Weekly Dev Snapshot
