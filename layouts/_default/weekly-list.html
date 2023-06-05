@@ -1,0 +1,154 @@
+{{ partial "head/prerender.html" . }}
+<body data-page-name="listPage" class="listPage">
+  {{ partial "elements/menu.html" . }}
+  <main>
+<section class="listPage__main big-padding bg-white">
+  <div class="container-medium">
+      <div class="container-mini">
+          <h1 class="section-title-header">Weekly Updates</h2>
+      </div>
+      <div class="listPage__list">
+        {{ $paginator := .Paginate (where .Site.Pages "Params.layout" "weekly-update") 9 }}
+        {{ range $paginator.Pages }}
+        
+
+          <div class="listPage__item">
+              <h2><a href="{{ .Permalink }}" title="">
+                {{ .Param "title" }}</a>
+              </h2>
+              <div class="listPage__item__text blog-article">
+                <div class="blog-article__inner">
+
+                  {{ .Summary }}
+                </div>
+              </div>
+              <a href="{{ .Permalink }}" class="read-more-button" title="read article">read more</a>
+          </div>
+          {{ end }}
+      </div>
+
+
+
+    <!--
+//
+//  PAGE NUMBERS
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+-->
+{{ $paginator := .Paginator }}
+
+<!-- Number of links either side of the current page. -->
+{{ $adjacent_links := 2 }}
+
+<!-- $max_links = ($adjacent_links * 2) + 1 -->
+{{ $max_links := (add (mul $adjacent_links 2) 1) }}
+
+<!-- $lower_limit = $adjacent_links + 1 -->
+{{ $lower_limit := (add $adjacent_links 1) }}
+
+<!-- $upper_limit = $paginator.TotalPages - $adjacent_links -->
+{{ $upper_limit := (sub $paginator.TotalPages $adjacent_links) }}
+
+<!-- If there's more than one page. -->
+{{ if gt $paginator.TotalPages 1 }}
+
+<div class="listPage__pag flex_wrapper flex_jc_beetween">
+    
+    <!-- First page. -->
+    {{ if ne $paginator.PageNumber 1 }}
+      <!-- <a class="pagination__link pagination__link--first" href="{{ $paginator.First.URL }}"> -->
+        <!-- «« -->
+      <!-- </a> -->
+    {{ end }}
+
+    <!-- Previous page. -->
+    {{ if $paginator.HasPrev }}
+    <a href="{{ $paginator.Prev.URL }}" title="previous page" class="listPage__pag__button pag__prev">
+        <svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M9.45534 -7.25446e-08L10.2852 1.07539L3.22495 6.49319L10.2852 11.9246L9.45534 13L0.993982 6.49319L9.45534 -7.25446e-08Z" fill="#0B181E"/>
+        </svg>
+    </a>
+    {{ end }}
+  
+    <!-- Page numbers. -->
+    {{ range $paginator.Pagers }}
+    
+      {{ $.Scratch.Set "page_number_flag" false }}
+
+      
+      <!-- Advanced page numbers. -->
+      {{ if gt $paginator.TotalPages $max_links }}
+
+
+        <!-- Lower limit pages. -->
+        <!-- If the user is on a page which is in the lower limit.  -->
+        {{ if le $paginator.PageNumber $lower_limit }}
+
+          <!-- If the current loop page is less than max_links. -->
+          {{ if le .PageNumber $max_links }}
+            {{ $.Scratch.Set "page_number_flag" true }}
+          {{ end }}
+
+
+        <!-- Upper limit pages. -->
+        <!-- If the user is on a page which is in the upper limit. -->
+        {{ else if ge $paginator.PageNumber $upper_limit }}
+
+          <!-- If the current loop page is greater than total pages minus $max_links -->
+          {{ if gt .PageNumber (sub $paginator.TotalPages $max_links) }}
+            {{ $.Scratch.Set "page_number_flag" true }}
+          {{ end }}
+
+
+        <!-- Middle pages. -->
+        {{ else }}
+          
+          {{ if and ( ge .PageNumber (sub $paginator.PageNumber $adjacent_links) ) ( le .PageNumber (add $paginator.PageNumber $adjacent_links) ) }}
+            {{ $.Scratch.Set "page_number_flag" true }}
+          {{ end }}
+
+        {{ end }}
+
+      
+      <!-- Simple page numbers. -->
+      {{ else }}
+
+        {{ $.Scratch.Set "page_number_flag" true }}
+
+      {{ end }}
+
+      <!-- Output page numbers. -->
+      {{ if eq ($.Scratch.Get "page_number_flag") true }}
+      <a href="{{ .URL }}" title="go to page {{ .PageNumber }}" class="listPage__pag__main {{ if eq . $paginator }}inactive{{end}}">{{ .PageNumber }}</a>
+      {{ end }}
+
+    {{ end }}
+
+    <!-- Next page. -->
+    {{ if $paginator.HasNext }}
+    <a href="{{ $paginator.Next.URL }}" title="next page" class="listPage__pag__button pag__next">
+        <svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1.54466 13L0.714844 11.9246L7.77505 6.50681L0.714844 1.07539L1.54466 0L10.006 6.50681L1.54466 13Z" fill="#0B181E"/>
+        </svg>
+    </a>
+    {{ end }}
+
+    <!-- Last page. -->
+    {{ if ne $paginator.PageNumber $paginator.TotalPages }}
+      <!-- <a class="pagination__link pagination__link--last" href="{{ $paginator.Last.URL }}">
+        »»
+      </a> -->
+    {{ end }}
+
+    </div><!-- .pagination -->
+{{ end }}
+
+
+
+
+
+  </div>
+</section>
+{{ partial "footer/popup.html" }}
+</main>
+{{ partial "footer/nav.html" }}
+{{ partial "footer/end.html" }}
