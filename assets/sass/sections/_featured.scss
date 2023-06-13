@@ -1,4 +1,13 @@
-.featured{
+.featured {
+    &.bg-white .section-title-header {
+        color:$color-black;
+    }
+    .section-title-header {
+        color:$color-white;
+    }
+    .featured__container p {
+        color: $color-white;
+    }
     padding-top: 100px;
     @include tablet{
         padding-top: 75px;
@@ -6,8 +15,14 @@
     &__el{
         height: 148px;
         background-color: #eceded;
-        display: block;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
         position: relative;
+        border: 3px solid #eceded;
+
+
         img{
             position: absolute;
             top: 50%;
@@ -15,7 +30,21 @@
             transform: translate(-50%, -50%);
             transition: $time-sm;
         }
-       
+       &.single-img {
+            img {
+                position:relative;
+                top:0; left:0; 
+                height: 50px;
+                transform: none;
+                margin:0;
+                filter: grayscale(100%); 
+            }
+
+            &:hover img {
+                filter: grayscale(0%)
+            }
+        }
+
         .color-img{
             opacity: 0;
             visibility: hidden;
@@ -31,6 +60,7 @@
             height: 80px;
         }
         &:hover{
+            border-color:  $color-yellow;
             @media (min-width: 1201px){
                 .color-img{
                     opacity: 1;
