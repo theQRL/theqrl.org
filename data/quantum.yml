@@ -1,4 +1,4 @@
-- title: Why The White House Says It’s Vital To Modernize Your Cryptography Now
+- title: Why The White House Says It's Vital To Modernize Your Cryptography Now
   org: forbes.com
   link: https://www.forbes.com/sites/forbestechcouncil/2023/06/12/why-the-white-house-says-its-vital-to-modernize-your-cryptography-now/?sh=7b6030b37b78
   date: 2023-06-13
@@ -89,6 +89,14 @@
     Eun-Ah Kim, professor of physics (A&S), “With this 10-qubit system, we were able to encode multiple non-Abelian anyons, and therefore multiple logical information-carrying qubits, and a precise recipe for what the experimentalists need to do every step of the way.”
   date: 2023-04-20
 
+- title: "Prosperity at Risk: The Quantum Computer Threat to the US Financial System"
+  org: hudson.org
+  link: https://www.hudson.org/technology/prosperity-risk-quantum-computer-threat-us-financial-system
+  date: 2023-04-03
+  blurb: |
+    Due to the deep interconnectivity of the financial sector and the vulnerability of equity and credit markets, the US financial system is at risk of a quantum-enabled cyberattack. The consequences of such an attack could be catastrophic for the US and global economy, potentially surpassing the impact of the 2008 financial crisis or the Great Depression.
+  img: /quantum_news/2023/output/0403.hudson.org
+  img_caption: '(Matt Anderson via Getty Images)'
 
 - title: Japan quantum computer debut sets off scramble for tech breakthroughs
   link: https://asia.nikkei.com/Business/Technology/Japan-quantum-computer-debut-sets-off-scramble-for-tech-breakthroughs
