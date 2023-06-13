@@ -11,7 +11,7 @@ slug: "2023-May-23"
 
 - Fixed extra signatures appended in the attestation transaction
 - Currently fixing the unordered signature with respect to the public key of the attestation transaction.
-- Attestation transaction broadcasted by the validator client, doesn't include the 2592 KB of dilithium public key, rather we use bitfield to represent which validator has signed that transaction, which is of just few bytes, this would optimize the network performance.
+- Attestation transaction broadcasted by the validator client, doesn't include the 2592 bytes of dilithium public key, rather we use bitfield to represent which validator has signed that transaction, which is of just few bytes, this would optimize the network performance.
 
 <!--more-->
 

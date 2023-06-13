@@ -1,3 +1,31 @@
+- title: Why The White House Says It’s Vital To Modernize Your Cryptography Now
+  org: forbes.com
+  link: https://www.forbes.com/sites/forbestechcouncil/2023/06/12/why-the-white-house-says-its-vital-to-modernize-your-cryptography-now/?sh=7b6030b37b78
+  date: 2023-06-13
+  blurb: |
+    The advent of quantum computing poses a significant threat to traditional cryptographic systems, emphasising the need for cryptography to be modernised. Migrating to post-quantum cryptography allows organisations to future-proof their security infrastructure. Significant investments in quantum technologies by various countries, as well as the inclusion of the quantum threat in key challenges, highlight the urgency, such as the United States government mandating the transition to post-quantum cryptography.     
+  img: /quantum_news/2023/output/0613.forbes.com
+  img_caption: 'getty'
+
+- title: "Chinese quantum computer is 180 million times faster on AI tasks: paper"
+  link: https://www.scmp.com/news/china/science/article/3223364/chinese-quantum-computer-180-million-times-faster-ai-related-tasks-says-team-led-physicist-pan
+  org: scmp.com
+  date: 2023-06-08
+  blurb: | 
+    Chinese scientists have made a significant breakthrough in quantum computing with their Jiuzhang computer, claiming it can perform AI-related tasks 180 million times faster than the world's fastest classical supercomputer. The researchers believe this development could have applications in data mining, biological information, network analysis, and chemical modeling research.
+  img: /quantum_news/2023/output/0608.scmp.com
+  img_caption: "In research using China's Jiuzhang computer, scientists implemented and accelerated two algorithms – random search and simulated annealing – that are commonly used in the field of AI. Photo: University of Science and Technology of China"
+
+- title: "Scaling Up Quantum Computers: RIKEN Scientists Connect Distant Silicon Qubits"
+  org: scitechdaily
+  link: https://scitechdaily.com/scaling-up-quantum-computers-riken-scientists-connect-distant-silicon-qubits/
+  date: 2023-06-05
+  blurb: |
+    RIKEN scientists have made a significant advancement in quantum computing by successfully connecting two physically distant silicon spin qubits using coherent spin shuttling. This breakthrough overcomes the challenge of linking far-apart quantum dots, paving the way for the development of larger, more complex quantum computers based on silicon quantum dots.
+  img: /quantum_news/2023/output/0605.scitechdaily.com
+  img_caption: ''
+  
+
 - title: IBM wants to build a 100,000-qubit quantum computer
   link: https://www.technologyreview.com/2023/05/25/1073606/ibm-wants-to-build-a-100000-qubit-quantum-computer/
   org: technologyreview
@@ -7,6 +35,15 @@
   blurb: | 
     Late last year, IBM took the record for the largest quantum computing system with a processor that contained 433 quantum bits, or qubits, the fundamental building blocks of quantum information processing. Now, the company has set its sights on a much bigger target: a 100,000-qubit machine that it aims to build within 10 years....
   date: 2023-05-25
+
+- title: NVIDIA, Rolls-Royce and Classiq Announce Quantum Computing Breakthrough for Computational Fluid Dynamics in Jet Engines
+  org: nvidia.com
+  link: https://nvidianews.nvidia.com/news/nvidia-rolls-royce-and-classiq-announce-quantum-computing-breakthrough-for-computational-fluid-dynamics-in-jet-engines
+  date: 2023-05-21
+  blurb: |
+    NVIDIA, Rolls-Royce, and Classiq have achieved a quantum computing breakthrough for computational fluid dynamics (CFD) in jet engines. They have designed and simulated the world's largest quantum computing circuit, measuring 10 million layers deep with 39 qubits. This development paves the way for more efficient modeling of jet engine designs using both classical and quantum computing methods.
+  img: /quantum_news/2023/output/0521.nvidianews.nvidia.com
+  img_caption: ''
 
 - title: AWS launches skill development programme for quantum computing in India
   link: https://www.thehindubusinessline.com/info-tech/aws-launches-skill-development-programme-for-quantum-computing-in-india/article66827064.ece
