@@ -36,17 +36,17 @@ Since its early days, cryptography has advanced greatly, with each new cypher im
 
 Be sure to [Subscribe](https://www.youtube.com/@QRLedger) and stay tuned for further details!
 
-### Geometry Labs AMA
+### Fusion Signatures with Geometry Labs
 
 {{< image "./images/h.fusion.png" >}}
 
-Geometry Labs has developed a highly aggregatable post-Quantum Fusion signatures, one-time signatures that aggregate to scale authentication in a Quantum secure manner, for the QRL ecosystem, with funding from the QRL Foundation. Geometry Labs joins hosts Michael Strike and Ryan Malinowski in the latest episode of The QRL Show to discuss Fusion signatures. 
+Geometry Labs has developed highly aggregatable post-Quantum Fusion signatures, one-time signatures that aggregate to scale authentication in a Quantum secure manner, for the QRL ecosystem, with funding from the QRL Foundation. Geometry Labs joins hosts Michael Strike and Ryan Malinowski in the latest episode of The QRL Show to discuss Fusion signatures. 
 
 The potential applications of Fusion signatures are not restricted to being used only within the QRL ecosystem; rather, they extend to general authentication. Websites and services will need to implement post-quantum authentication in order to protect the security of their customers' online financial transactions as pre-quantum cryptography becomes increasingly susceptible to attack.
 
 Because fusion signatures are able to aggregate signatures from a number of different sources, they are ideally suited for use in financial transactions, which typically involve multiple authentications taking place all at once. Amazon Key Management is another example, which uses thousands of queries every single day, which is why the aggregation of signatures is such a helpful feature for authentication.
 
-Check out our entertaining QRL Show below if you haven't already! Still have questions? Stay tuned for our upcoming Reddit AMA. Want to dig further? Check the associated [Fusion signature blog post](/blog/announcing-fusion-post-quantum-digital-signatures/). 
+Check out our entertaining QRL Show below if you haven't already! Still have questions? Stay tuned for our upcoming Fusion Signatures Reddit AMA. Want to dig further? Check the associated [Fusion signature blog post](/blog/announcing-fusion-post-quantum-digital-signatures/). 
 
 {{< youtube "TfTpGNoNnnU" >}}
 
