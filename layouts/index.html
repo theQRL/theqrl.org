@@ -269,10 +269,6 @@
                 <img class="bw-img" src="img/feat-logos/apple-bw.png" alt="App Store" />
                 <img class="color-img" src="img/feat-logos/apple-col.png" alt="App Store" />
               </a>
-              <a href="https://www.cloudflare.com/leagueofentropy/" class="featured__el" title="App Store" target="_blank">
-                <img class="bw-img" src="img/feat-logos/loe-bw.png" alt="League of Entropy" />
-                <img class="color-img" src="img/feat-logos/loe-col.png" alt="League of Entropy" />
-              </a>
               <a href="/blog/insight-researchers-partners-with-the-quantum-resistant-ledger/" class="featured__el" title="Geometry Labs" target="_blank">
                 <img class="bw-img" src="img/feat-logos/geometrylabs-bw.png" alt="Geometry Labs" />
                 <img class="color-img" src="img/feat-logos/geometrylabs-col.png" alt="Geometry Labs" />
@@ -285,10 +281,29 @@
           </div>
         </div>
       </section>
-      <section id="featured" class="featured big-padding bg-white">
+
+      <section id="membership" class="featured big-padding bg-white">
         <div class="animate-fade">
           <div class="container-mini">
-            <p class="text-yellow section-title">They talk about us</p>
+            <p class="text-yellow section-title">Working with key institutions</p>
+            <h2 class="section-title-header">Memberships of</h2>
+          </div>
+          <div class="container featured__container">
+            <div class="grid grid-four-cols">
+              {{ range (where (where .Site.Pages "Params.layout" "member") ".Params.inactive" "!=" true)}}
+                <a href="'{{ .Param "website" }}" class="featured__el single-img" title="soon" target="_blank">
+                  <img src="{{ .Param "image" }}" alt="soon" />
+                </a>
+              {{end}}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="featured" class="featured big-padding">
+        <div class="animate-fade">
+          <div class="container-mini">
+            <p class="text-yellow section-title">The focal point of discussion</p>
             <h2 class="section-title-header">Featured in</h2>
           </div>
           <div class="container featured__container">
