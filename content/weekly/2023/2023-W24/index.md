@@ -1,22 +1,20 @@
 ---
 layout: weekly-update
-date: 2023-06-13
+date: 2023-06-20
 author: "The QRL Core Contributors"
-title: "QRL Weekly, 2023-June-13"
-slug: "2023-June-13"
+title: "QRL Weekly, 2023-June-20"
+slug: "2023-June-20"
 ---
 
 ## Weekly Dev Snapshot 📸 👇
 
-- Added new API GetPaginatedTransactionsByAddress in WalletAPIService, as well as in Wallet Daemon and released QRL Node v4.0.2
-- Updated documentation for the new API
-- Updated walletd-rest-proxy to support the WalletAPIService
-- Updated dependencies for walletd-rest-proxy
-- Updated documentation for the installation instruction of walletd-rest-proxy based on latest go version
-- Fix for the Beacon node not building on some of the arm architecture
+- QRL Token Indexer indexes all tokens into MongoDB from the Python based QRL blockchain and keeps track of token holders and all transactions associated with a token.
+- Built MongoDB database model for the QRL Token Indexer.
+- Added automatic collection creation code with field indexing in Go based QRL Token Indexer.
+- Added fork recovery / chain reorg handling code in QRL Token Indexer.
 
 <!--more-->
 
 ## Quantum News
 
-{{% qnews start="2023-06-07" end="2023-06-13" %}}
+{{% qnews start="2023-06-14" end="2023-06-20" %}}

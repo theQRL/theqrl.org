@@ -1,26 +1,27 @@
 ---
 layout: weekly-update
-date: 2023-05-23
+date: 2023-05-30
 year: "2023"
 author: "The QRL Core Contributors"
-title: "QRL Weekly, 2023-May-23"
-slug: "2023-May-23"
+title: "QRL Weekly, 2023-May-30"
+slug: "2023-May-30"
 ---
 
-## Weekly Dev Snapshot
+## Weekly Dev Snapshot 📸 👇
 
-- Fixed extra signatures appended in the attestation transaction
-- Currently fixing the unordered signature with respect to the public key of the attestation transaction.
-- Attestation transaction broadcasted by the validator client, doesn't include the 2592 bytes of dilithium public key, rather we use bitfield to represent which validator has signed that transaction, which is of just few bytes, this would optimize the network performance.
+- Found the portion of codes responsible for bugs related to disordered dilithium signature in beacon chain (after it's signed and broadcasted by validator client) with respect to dilithium public keys resulting into failure in block validation. Fix for the same is in progress.
+- Going through the remaining withdrawal code including the smart contract which requires the withdrawal credential when a wallet locks up the fund for staking.
 
 <!--more-->
 
-## New QRL Show YouTube Series 🎬
+## History of Cryptography Series Has Begun 📽️ 🔐 🗺️
 
-We're excited to release a new QRL Show YouTube series...History of Cryptography: Behind The Code 🔐 🗺️ 🔍
+Last week, we released the very first episode of our new QRL Show series, History of Cryptography: Behind the Code - Episode # 1
 
-In Episode #1 of the series, we travel back in time...exploring ancient ciphers from the Atbash Cipher (500BCE) up through the Caesar Cipher (100 BCE) which was used by the Romans to keep military secrets secure.  
+In case you haven't seen it yet, you can check out the first episode below 👇
 
-Check out Episode #1 below 👇 
+{{< youtube "U0m65tUkMj8" >}}
 
-{{< youtube U0m65tUkMj8 >}}
+## Quantum News
+
+{{% qnews start="2023-05-23" end="2023-05-30" %}}
