@@ -291,7 +291,7 @@
           <div class="container featured__container">
             <div class="grid grid-four-cols">
               {{ range (where (where .Site.Pages "Params.layout" "member") ".Params.inactive" "!=" true)}}
-                <a href="'{{ .Param "website" }}" class="featured__el single-img" title="soon" target="_blank">
+                <a href="{{ .Param "website" }}" class="featured__el single-img" title="soon" target="_blank">
                   <img src="{{ .Param "image" }}" alt="soon" />
                 </a>
               {{end}}

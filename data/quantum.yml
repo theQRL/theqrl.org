@@ -1,3 +1,22 @@
+- title: Archer Achieves Qubit Material Functionality at Room Temperature in Air
+  org: azoquantum.com
+  link: https://www.azoquantum.com/News.aspx?newsID=9628
+  date: 2023-06-20
+  blurb: |
+    Archer Materials Limited (“Archer”, the “Company”), a semiconductor company that advances the quantum computing and medical diagnostics industries, has achieved a significant development milestone in the functionality of its cutting-edge qubit material.​​​​​​​
+  img: /quantum_news/2023/output/0620.azoquantum.com
+  img_caption: 'Archer staff in a research and prototyping semiconductor foundry in Sydney, Australia, operating some of the instruments used to encapsulate the qubit material.'
+  img_credits: 'Archer Materials Limited'
+
+- title: IBM says quantum processors are beginning to provide utility beyond classical methods
+  org: techspot.com
+  link: https://www.techspot.com/news/99127-ibm-believes-quantum-processors-beginning-provide-utility-beyond.html
+  date: 2023-06-19
+  blurb: |
+    IBM is one step closer to realizing a quantum computer with true utility that can outperform classical computers in certain workloads. The technology giant recently used its Quantum "Eagle" processor with 127 superconducting qubits to create entangled states that "simulate the dynamics of spins in a model of material and accurately predict properties such as its magnetization." 
+  img: /quantum_news/2023/output/0619.techspot.com
+  img_caption: ''
+
 - title: Why The White House Says It's Vital To Modernize Your Cryptography Now
   org: forbes.com
   link: https://www.forbes.com/sites/forbestechcouncil/2023/06/12/why-the-white-house-says-its-vital-to-modernize-your-cryptography-now/?sh=7b6030b37b78
