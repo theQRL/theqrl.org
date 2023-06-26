@@ -55,4 +55,6 @@ This is the future of the QRL blockchain, a forward-looking, environmentally fri
 
 Since our last anniversary, we've identified a few noteworthy quantum news developments. Companies like IBM continue to meet or exceed their current roadmap objectives, which hasn't gone unnoticed by a number of large organisations that are preparing for the inevitable security threat posed by a sufficiently powerful quantum computer. The US government has called for infrastructure security preparations. Banks are also securing their systems, such as JP Morgan's hiring of Charles Lim to assist in protecting the financial system, or cloudflare protecting a fifth of the internet from the quantum threat.
 
+Internet connectivity, government networks, and centralised financial systems are all approaching readiness for sufficiently powerful quantum computers that can break the underlying encryption. For decentralised finance, QRL is ready; [learn why this is significant](/why) for decision-makers.
+
 {{% qnews start="2022-06-26" end="2023-06-26" notable=true %}}
