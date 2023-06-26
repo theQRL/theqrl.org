@@ -25,7 +25,7 @@ After two years of painstaking development, we released the Quantum Resistant Le
 
 ## Progress over the last year
 
-In the fifth year, the QRL team has shifted its attention to the final project Zond hard fork on the project's roadmap, which involves releasing proof-of-stake as a consensus mechanism and enabling smart contract functionality compatible with Ethereum. 
+**In our fifth year**, the QRL team has shifted its attention to the final project Zond hard fork on the project's roadmap, which involves releasing proof-of-stake as a consensus mechanism and enabling smart contract functionality compatible with Ethereum. 
 
 It has also been a watershed moment in project management and funding, and with that it heralded in the launch of the Foundation Grants Programme and Bug Bounty Programme. 
 
