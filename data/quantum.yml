@@ -247,6 +247,7 @@
   link: https://techcrunch.com/2022/11/09/ibm-unveils-its-433-qubit-osprey-quantum-computer/
   org: techcrunch
   weight: 1
+  notable: true
   img: '/quantum_news/2022/1109.techcrunch'
   img_credits: 'Connie Zhou/IBM'
   img_caption: "IBM's 433-qubit Osprey quantum processor paves the way for the company's 1,121-qubit Condor processor in 2023."
@@ -311,6 +312,7 @@
   link: https://venturebeat.com/security/cloudflare-post-quantum-cryptography/
   org: venturebeat
   img: '/quantum_news/2022/1003.venturebeat'
+  notable: true
   blurb: | 
     Cloudflare has launched post-quantum cryptography support for all websites and APIs served through its network. This will introduce quantum computer-proof encryption for all sites using Cloudflare, which accounts for 19.1% of all websites according to W3Techs. Researchers estimate the market for such solutions will be worth $476.8 million by 2030. 
     
@@ -342,6 +344,7 @@
   link: https://www.reuters.com/technology/chinas-baidu-reveals-its-first-quantum-computer-called-qianshi-2022-08-25/
   org: reuters
   img: '/quantum_news/2022/0825.routers'
+  notable: true
   blurb: |
     Chinese search engine giant Baidu Inc revealed its first quantum computer on Thursday and is ready to make it available to external users, joining the global race to apply the technology to practical uses.
   date: 2022-08-25
@@ -363,6 +366,7 @@
   link: https://www.cnbc.com/2022/07/28/jpmorgan-hires-scientist-charles-lim-to-head-quantum-computing-unit.html
   org: cnbc
   img: '/quantum_news/2022/0728.cnbc'
+  notable: true
   blurb: |
     JPMorgan Chase has hired a quantum-computing expert to be the bank's global head for quantum communications and cryptography, according to a memo obtained by CNBC.
   blurb_qrl: >
