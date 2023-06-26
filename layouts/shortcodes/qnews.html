@@ -1,9 +1,13 @@
 {{ $start := .Get "start" }}
 {{ $end := (.Get "end" | time.AsTime).AddDate 0 0 1 }}
 
+{{ $qnews_collection := .Site.Data.quantum }}
 
+{{ if .Get "notable" }}
+    {{ $qnews_collection = where .Site.Data.quantum "notable" "=" true }}
+{{ end }}
 
-{{ range $index, $value := sort .Site.Data.quantum "weight" "desc" }}
+{{ range $index, $value := sort $qnews_collection "weight" "desc" }}
 
 {{ if and ((time .date).After (time $start )) ((time .date).Before (time $end )) }}
 
