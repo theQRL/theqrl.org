@@ -29,9 +29,9 @@ After two years of painstaking development, we released the Quantum Resistant Le
 
 It has also been a watershed moment in project management and funding, and with that it heralded in the launch of the Foundation Grants Programme and Bug Bounty Programme. 
 
-### Foundation grant programme
+### Foundation Grants Programme
 
-The QRL Foundation Grant programme was established as a means of providing support for the QRL ecosystem. Applications are encouraged in the following areas: open source tools; education; open source infrastructure; post-quantum research; community and public goods; and open source infrastructure.
+The QRL Foundation Grants Programme was established as a means of providing support for the QRL ecosystem. Applications are encouraged in the following areas: open source tools; education; open source infrastructure; post-quantum research; community and public goods; and open source infrastructure.
 
 As the first round of Foundation grants closes, we are pleased to confirm the delivery of several grants and the formation of a few partnerships. These vary from cutting edge post-quantum cryptography research grants to a third party mobile-wallet application. Current grant partnerships include Geometry Labs, the Quantum Resistance Corporation, Singularity Systems, and Volt-Development.
 
