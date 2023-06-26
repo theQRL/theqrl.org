@@ -308,7 +308,7 @@
   - PQShield
   date: 2022-10-03
 
-- title: Cloudflares post-quantum cryptography protects almost a fifth of the internet
+- title: Cloudflare's post-quantum cryptography protects almost a fifth of the internet
   link: https://venturebeat.com/security/cloudflare-post-quantum-cryptography/
   org: venturebeat
   img: '/quantum_news/2022/1003.venturebeat'
