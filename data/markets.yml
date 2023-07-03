@@ -1,3 +1,11 @@
+- name: MEXC
+  markets: 
+    - market: USDT-QRL
+      link: https://www.mexc.com/exchange/QRL_USDT
+  link: https://www.mexc.com/exchange/QRL_USDT
+  logo: mexc.svg
+  type: Centralized Exchange
+
 - name: Cointiger
   markets: 
     - market: BTC-QRL
