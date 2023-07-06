@@ -1,3 +1,45 @@
+- title: Fluxonium Qubit Retains Information For 1.43 Milliseconds - 10x Longer Than Before
+  org: sciencealert.com
+  link: https://www.sciencealert.com/fluxonium-qubit-retains-information-for-1-43-milliseconds-10x-longer-than-before
+  date: 2023-07-06
+  blurb: |
+    Researchers from the University of Maryland have made a significant advancement in superconducting quantum technology by creating fluxonium qubits that can retain information for 1.43 milliseconds, which is a 10x improvement compared to the previous record. This breakthrough brings fluxonium qubits back in competition with transmon qubits, the current favorite for quantum computers developed by companies like Google and IBM.
+  img: /quantum_news/2023/output/0706.sciencealert.com
+  img_caption: ''
+  img_credits: '(da-kuk/E+/Getty Images)'
+
+- title: Quantum computer built by Google can instantly execute a task that would normally take 47 years
+  org: earth.com
+  link: https://www.earth.com/news/quantum-computer-can-instantly-execute-a-task-that-would-normally-take-47-years/
+  date: 2023-07-04
+  blurb: |
+    Google has developed a quantum computer that can perform calculations in a matter of seconds that would take the most advanced supercomputers nearly 50 years to process. 
+  img: /quantum_news/2023/output/0704.earth.com
+  img_caption: ''
+
+- title: Meet Q-silicon, a new magnetic material for spintronic quantum computers
+  org: newatlas.com
+  link: https://newatlas.com/materials/q-silicon-magnetic-spintronic-quantum-computers/
+  date: 2023-07-03
+  blurb: |
+    Engineers at North Carolina State University (NCSU) have discovered a new form of silicon called Q-silicon with properties that could be beneficial for quantum computers and spintronics. Q-silicon exhibits ferromagnetism at room temperature, making it suitable for data storage and potentially enabling advancements in spintronics. It also demonstrates enhanced hardness and superconductivity, which could further aid spintronics and quantum computing.
+  img: /quantum_news/2023/output/0703.newatlas.com
+  img_caption: 'Silicon wafers are a key step in semiconductor manufacturing, but soon they might be replaced by a new material called Q-silicon for quantum computers and spintronic devices'
+  img_credits: 'Depositphotos'
+
+- title: New Device Opens Door to Storing Quantum Information as Sound Waves
+  org: caltech.edu
+  link: https://www.caltech.edu/about/news/new-device-opens-door-to-storing-quantum-information-as-sound-waves
+  date: 2023-06-22
+  blurb: | 
+    Quantum computing, just like traditional computing, needs a way to store the information it uses and processes. On the computer you're using right now, information, whether it be photos of your dog, a reminder about a friend's birthday, or the words you're typing into your browser's address bar, has to be stored somewhere. Quantum computing, being a new field, is still working out where and how to store quantum information.
+
+    Scientists at Caltech have developed a new method for storing quantum information using sound waves. By leveraging phonons, the sound equivalent of photons, they have created a small device capable of efficiently translating electrical quantum states into sound and vice versa, enabling the storage and retrieval of quantum information. 
+  img: /quantum_news/2023/output/0622.caltech.edu
+  img_caption: ''
+  img_credits: 'Maayan Illustration'
+
+
 - title: Archer Achieves Qubit Material Functionality at Room Temperature in Air
   org: azoquantum.com
   link: https://www.azoquantum.com/News.aspx?newsID=9628
@@ -73,6 +115,18 @@
   blurb: | 
     Amazon Web Services (AWS) has launched two skill development programmes for quantum computing in India. The company is collaborating with academic institutions and learning platforms to integrate Amazon Braket — a fully managed quantum computing
   date: 2023-05-09
+
+- title: Australia sets ‘ambitious goal’ to build first complete quantum computer
+  org: smh.com.au
+  link: https://www.smh.com.au/national/australia-sets-ambitious-goal-to-build-first-complete-quantum-computer-20230502-p5d51r.html
+  date: 2023-05-02
+  blurb: |
+    Australia will strive to build the first error-corrected quantum computer within the decade – a huge and expensive goal that, if achieved, would put the country at the forefront of the new technology.
+  img: /quantum_news/2023/output/0502.smh.com.au
+  img_caption: 'Australian researchers are in a global race to make commercial breakthroughs in quantum computing.'
+  countries:
+    - Australia
+  img_credits: 'ISTOCK'
 
 - title: Cryptographers bet cash on when quantum computers will beat encryption
   link: https://www.newscientist.com/article/2370022-cryptographers-bet-cash-on-when-quantum-computers-will-beat-encryption/
