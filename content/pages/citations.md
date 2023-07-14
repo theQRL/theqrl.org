@@ -13,7 +13,7 @@ Aggregating hash-based signatures using STARKs\
 https://eprint.iacr.org/2021/1048.pdf
 
 Post-quantum blockchain using one-time signature chains\
-https://pdfs.semanticscholar.org/f38c/562c21fa1a94871e5f577669f7c4b9520632.pdf
+https://www.semanticscholar.org/paper/Post-quantum-blockchain-using-one-time-signature-Linde/f38c562c21fa1a94871e5f577669f7c4b9520632?p2df
 
 Blockchained Post-Quantum Signatures\
 https://eprint.iacr.org/2018/658.pdf
@@ -82,9 +82,6 @@ Ralph Merkle - A Certified Digital Signature (1979)\
 http://www.merkle.com/papers/Certified1979.pdf
 
 ## FURTHER READING
-
-Cryptography Lecture 8\
-https://www.icg.isy.liu.se/courses/tsit03/forelasningar/cryptolecture08.pdf
 
 SPHINCS: practical stateless hash-based signatures\
 https://sphincs.cr.yp.to/papers.html

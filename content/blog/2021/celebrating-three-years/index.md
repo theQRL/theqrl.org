@@ -31,7 +31,7 @@ This was with a full ecosystem:
 * Two audits by [Red4Sec](/blog/red4sec-security-audit-concludes-a-summary) and [x41 D-sec](https://github.com/theQRL/audits/blob/master/X41-theQRL-Review-2018-Final-Report.pdf)
 * [Flexible address format designed to be extensible and support a wide range of signature schemes and hash functions.](https://docs.theqrl.org/developers/address/)
 
-Over the years, we've continued to improve upon our network by adding things like an [offline wallet generator](https://github.com/theQRL/offline-wallet-generator), Mobile wallets for [iOS](https://apps.apple.com/us/app/qrl-wallet/id1458620542) along with [Android](https://play.google.com/store/apps/details?id=com.theqrl&hl=en), and Hardware wallet support with the [Ledger Nano S/X](https://support.ledger.com/hc/en-us/articles/360019184453-Quantum-Resistant-Ledger-QRL-). 
+Over the years, we've continued to improve upon our network by adding things like an [offline wallet generator](https://github.com/theQRL/offline-wallet-generator), Mobile wallets for [iOS](https://apps.apple.com/us/app/qrl-wallet/id1458620542) along with [Android](https://play.google.com/store/apps/details?id=com.theqrl&hl=en), and Hardware wallet support with the [Ledger Nano S/X](https://support.ledger.com/hc/en-us/articles/360019184453-Quantum-Resistant-Ledger-QRL-?support=true). 
 
 Other things we improved upon were:
 

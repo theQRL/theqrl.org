@@ -169,7 +169,7 @@ Some of our Services use web fonts provided by Google. When you open a page, you
 
 If your browser does not support web fonts, a standard font is used by your computer.
 
-Further information about handling user data, can be found at https://developers.google.com/fonts/faqand in Google's privacy policy at https://www.google.com/policies/privacy/.
+Further information about handling user data, can be found at https://developers.google.com/fonts/faq and in Google's privacy policy at https://www.google.com/policies/privacy/.
 
 ## Changes to this policy
 

@@ -33,7 +33,7 @@ Responsible investigation and reporting include, but is not limited to, the foll
 
 ## Scope
 
-Actively developed public [GitHub repository](https://github.com/theQRL/repositories)
+Actively developed public [GitHub repository](https://github.com/theQRL/)
  code is generally considered in-scope. This includes the [core node](https://github.com/theQRL/QRL) software, [QRLLIB library](https://github.com/theQRL/qrllib), the [web/desktop wallet](https://github.com/theQRL/qrl-wallet) and [mobile wallet](https://github.com/theQRL/mobile-wallet) alongside ancillary libraries, services and tools.
 
 Pre-release software _may_ be considered in-scope although prior to code audit and release a _high_ or _critical_ grading cannot be applied to bug reports.
