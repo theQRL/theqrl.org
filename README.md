@@ -20,6 +20,20 @@ hugo server -D -w
 hugo
 ```
 
+## Testing for broken links
+
+You'll want to install [linkinator](https://github.com/JustinBeckwith/linkinator)
+
+```shell
+npm install -g linkinator
+```
+
+Then run, from the root directory
+
+```shell
+linkinator
+```
+
 ## Caveats
 
 ### Crash of development server under MacOS?
@@ -32,3 +46,4 @@ ulimit -n 65535
 sudo sysctl -w kern.maxfiles=100000
 sudo sysctl -w kern.maxfilesperproc=65535
 ```
+
