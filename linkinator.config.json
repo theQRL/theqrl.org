@@ -1,0 +1,18 @@
+{
+    "path":"http://localhost:1313/",
+    "concurrency":2,
+    "verbosity": "error",
+    "format":"csv",
+    "recurse": true,
+    "skip":[
+        "/twitter",
+        "/discord",
+        "/facebook",
+        "/reddit",
+        "/kakaotalk",
+        "/telegram",
+        "linkedin.com",
+        "wellfound.com",
+        "support.ledger.com"
+    ]
+}

@@ -17,8 +17,8 @@
 - name: Bittrex Global
   markets: 
     - market: BTC-QRL
-      link: https://international.bittrex.com/Market/Index?MarketName=BTC-QRL
-  link: https://international.bittrex.com/Market/Index?MarketName=BTC-QRL
+      link: https://global.bittrex.com/trade/qrl-btc
+  link: https://global.bittrex.com/trade/qrl-btc
   logo: bittrex-global.svg
   type: Centralized Exchange
 

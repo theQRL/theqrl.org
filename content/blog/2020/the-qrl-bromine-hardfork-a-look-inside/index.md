@@ -50,7 +50,7 @@ Which we continued to improve upon our network by adding things like:
 
 * Mobile wallets for [iOS](https://apps.apple.com/us/app/qrl-wallet/id1458620542) and [Android](https://play.google.com/store/apps/details?id=com.theqrl&hl=en)
 
-* Hardware wallet support with the [Ledger Nano S/X](https://support.ledger.com/hc/en-us/articles/360019184453-Quantum-Resistant-Ledger-QRL-)
+* Hardware wallet support with the [Ledger Nano S/X](https://support.ledger.com/hc/en-us/articles/360019184453-Quantum-Resistant-Ledger-QRL-?support=true)
 
 * Multiple API’s documented at [api.theqrl.org](https://api.theqrl.org)
 

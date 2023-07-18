@@ -44,7 +44,7 @@ We’ve delivered on 13 different core features and 6 ecosystem features from a 
 
 * [Keybase Integration](/blog/qrl-and-keybase)
 * [Multiple API’s](https://api.theqrl.org)
-* [Hardware wallet support with Ledger Nano S/X](https://support.ledger.com/hc/en-us/articles/360019184453-Quantum-Resistant-Ledger-QRL-)
+* [Hardware wallet support with Ledger Nano S/X](https://support.ledger.com/hc/en-us/articles/360019184453-Quantum-Resistant-Ledger-QRL-?support=true)
 * Mobile wallets for [iOS](https://apps.apple.com/ca/app/qrl-wallet/id1458620542) and [Android](/blog/the-qrl-mobile-wallet-is-officially-launched)
 * [Offline wallet generator](https://github.com/theQRL/offline-wallet-generator)
 * [Docker QRL Node Support](https://docs.theqrl.org/node/docker/)

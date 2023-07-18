@@ -4,7 +4,7 @@ slug: last-month-at-qrl-november-2022
 date: 2022-12-05
 author: "The QRL Core Contributors"
 title: "Last Month at QRL - November 2022"
-summary: "Don't miss out on the [QRL Games Winter Hackathon 2022](/events/qrl-games-winter-hackathon) happening this month! Find a bug or want to help bug hunt? The QRL Foundation is excited to launch the [QRL Bug Bounty Programme](/bug-bounty/) that aims to encourage and reward platform improvements."
+summary: "Don't miss out on the [QRL Games Winter Hackathon 2022](/events/qrl-games-winter-hackathon-2022) happening this month! Find a bug or want to help bug hunt? The QRL Foundation is excited to launch the [QRL Bug Bounty Programme](/bug-bounty/) that aims to encourage and reward platform improvements."
 featured_image: header.png
 categories:
   - technical

@@ -22,7 +22,7 @@ As we cheer the arrival of 2023 it is worth remembering the peculiar core utilit
 
 With a sense of *deja vu* (Ed - it has been six consecutive years now!), it is still strange to consider that the vast majority of what is still standing in the remnant crypto space remains worryingly insecure to theft during a quantum singularity event. 
 
-With that simple notion in mind we continue to build. 2022 brought a big development push with a developer expansion, a defensive hard fork to fend off an [attack](https://www.theqrl.org/blog/qrl-zero-day-coinbase-exploit-post-mortem/), a bug bounty [programme](https://www.theqrl.org/blog/bug-bounty-programme-released-by-the-qrl-foundation/), a successful Hackathon and latterly the creation of the QRL foundation  [grants programme](https://qrl.foundation/grants.html).
+With that simple notion in mind we continue to build. 2022 brought a big development push with a developer expansion, a defensive hard fork to fend off an attack, a bug bounty [programme](https://www.theqrl.org/blog/bug-bounty-programme-released-by-the-qrl-foundation/), a successful Hackathon and latterly the creation of the QRL foundation  [grants programme](https://qrl.foundation/grants.html).
 
 2023 brings the most anticipated hard fork in the roadmap - activation of post-quantum secure EVM compatible smart contracts and proof of stake consensus. To say we are excited is an understatement. It is time to grow the ecosystem together! 
 
