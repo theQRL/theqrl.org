@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    sodipodi:docname="header.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    inkscape:export-ydpi="192"
    inkscape:export-xdpi="192"
    inkscape:export-filename="../images/header.png"
@@ -113,14 +113,14 @@
      inkscape:window-maximized="1"
      inkscape:window-y="0"
      inkscape:window-x="0"
-     inkscape:window-height="2123"
+     inkscape:window-height="2021"
      inkscape:window-width="3840"
      units="px"
      showgrid="false"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      inkscape:cy="147.65625"
-     inkscape:cx="429.6875"
+     inkscape:cx="430.07812"
      inkscape:zoom="1.28"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
@@ -387,15 +387,6 @@
          x="-103.52041"
          y="225.65154"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:D-DIN;-inkscape-font-specification:D-DIN;fill:#ffa729;fill-opacity:1;stroke-width:1.19953">+</tspan></text>
-    <image
-       width="133.48395"
-       height="40.979572"
-       preserveAspectRatio="none"
-       xlink:href="../../last-month-at-qrl-july-2022/assets/includes/header.png"
-       id="image4617"
-       x="-41.916409"
-       y="221.76149"
-       transform="scale(-1,1)" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;line-height:1.15;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.19953"
