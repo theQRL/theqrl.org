@@ -34,6 +34,14 @@ Then run, from the root directory
 linkinator
 ```
 
+## Updating go modules (for QIPs)
+
+When a QIP is changed, it's good to pull in any changes through a go module update
+
+```shell
+hugo mod get -u
+```
+
 ## Caveats
 
 ### Crash of development server under MacOS?
