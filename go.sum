@@ -6,3 +6,5 @@ github.com/theQRL/qips v0.0.0-20220126192625-ef9af2c7abf4 h1:VvLf51/ik1F8EdGjZBs
 github.com/theQRL/qips v0.0.0-20220126192625-ef9af2c7abf4/go.mod h1:Mjgd1ITETFbQojo0ZIE2jsyq9swanQDLvJo5dtPr+Ys=
 github.com/theQRL/qips v0.0.0-20220324164337-700a2ae038be h1:MILVcOLD17yhEIZZ6uJlXeVKgPMtECIuGCY2kJNS5SE=
 github.com/theQRL/qips v0.0.0-20220324164337-700a2ae038be/go.mod h1:Mjgd1ITETFbQojo0ZIE2jsyq9swanQDLvJo5dtPr+Ys=
+github.com/theQRL/qips v0.0.0-20230728165657-970326babc8c h1:w/IsGOccXRnSEb3nkmTGW9uPl2uRncnBTmfJ8U2faBE=
+github.com/theQRL/qips v0.0.0-20230728165657-970326babc8c/go.mod h1:Mjgd1ITETFbQojo0ZIE2jsyq9swanQDLvJo5dtPr+Ys=
