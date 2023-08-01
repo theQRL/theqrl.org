@@ -1,3 +1,24 @@
+- title: U.S. Must Train Quantum Technology Workforce
+  org: foreignpolicy.com
+  link: https://foreignpolicy.com/2023/07/31/us-quantum-technology-china-competition-security/
+  date: 2023-07-31
+  blurb: |
+    The United States currently lacks the talent required to maintain competitiveness in this field, posing a national security risk. The race to commercialize and deploy quantum systems has become a battleground of U.S.-China competition, with other countries like Australia, Japan, Canada, and the UK also making progress. The United States faces a shortage of quantum talent and a general STEM skills gap. To fill these gaps, international collaboration, initiatives to retain foreign-born workers, and reskilling programs are necessary.
+  img: /quantum_news/2023/output/0731.foreignpolicy.com
+  img_caption: 'U.S. President Joe Biden looks at a quantum computer as he tours the IBM facility in Poughkeepsie, New York, on Oct. 6, 2022.'
+  img_credits: 'Mandel Ngan/AFP via Getty Images'
+
+
+- title: EeroQ Tapes Out "Wonder Lake" Quantum Processing Unit Chip
+  org: tomshardware.com
+  link: https://www.tomshardware.com/news/eeroq-tapes-out-wonder-lake-quantum-processing-unit-chip
+  date: 2023-07-29
+  blurb: |
+    Quantum computing specialist EeroQ has successfully developed a Quantum Processing Unit (QPU) chip named "Wonder Lake" using a CMOS manufacturing approach. The chip is based on helium-electron qubits and has a qubit count of 2,432, making it one of the most densely populated QPU designs. EeroQ's qubits have a high level of coherence and mobility, leading to greater efficiency and reduced overhead for error correction mechanisms. The company aims to achieve high-quality quantum gates and scalability, positioning itself as a leader in the commercial quantum computing future.
+  img: /quantum_news/2023/output/0729.tomshardware.com
+  img_caption: 'Gate electrodes. This metal layer includes wiring, but also electrodes which attract, hold, and move the electrons on the helium surface. In future enhancements of this design, individual electrons comprising the qubits will be moved and controlled by these electrodes. '
+  img_credits: 'EeroQ'
+
 - title: Error Rate Reduced for Scalable Quantum Technology
   org: physics.aps.org
   link: https://physics.aps.org/articles/v16/128
