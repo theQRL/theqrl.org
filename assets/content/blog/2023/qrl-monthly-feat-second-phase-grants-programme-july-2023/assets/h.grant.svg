@@ -704,19 +704,6 @@
        width="132.82318"
        height="21.421627"
        id="rect1281-6-3" />
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter1575"
-       x="-0.176749"
-       y="-0.25069204"
-       width="1.353498"
-       height="1.5013841">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1.8937507"
-         id="feGaussianBlur1577" />
-    </filter>
     <clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath3393">
@@ -777,16 +764,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="709.37962"
-     inkscape:cy="29.546962"
+     inkscape:cx="473.76154"
+     inkscape:cy="90.156114"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      borderlayer="true"
      inkscape:showpageshadow="false"
-     inkscape:window-width="3106"
-     inkscape:window-height="1753"
+     inkscape:window-width="3132"
+     inkscape:window-height="1855"
      inkscape:window-x="26"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
@@ -834,20 +821,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-164.70834)">
-    <text
-       xml:space="preserve"
-       id="text5138"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.6771px;line-height:1.25;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:308.934;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1"
-       x="26.33773"
-       y="218.86018"
-       transform="matrix(0.55889842,0,0,0.55889842,-3.9472604,88.268745)"><tspan
-         x="26.33773"
-         y="218.86018"
-         id="tspan1">HACKATHON REGISTRATION OPEN</tspan></text>
-    <g
-       id="g1510"
-       style="opacity:0.558674;fill:#cbd7e6;fill-opacity:1;stroke-width:0.154963"
-       transform="matrix(0.84102114,0,0,0.84102114,37.152781,-11.52554)" />
     <g
        id="g3391"
        clip-path="url(#clipPath3393)"
@@ -873,6 +846,10 @@
            style="fill:#cbd7e6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0410006" />
       </g>
     </g>
+    <g
+       id="g1510"
+       style="opacity:0.558674;fill:#cbd7e6;fill-opacity:1;stroke-width:0.154963"
+       transform="matrix(0.84102114,0,0,0.84102114,37.152781,-11.52554)" />
     <rect
        style="fill:#ffa729;fill-opacity:1;stroke-width:464.928;stroke-linecap:square;stroke-dasharray:929.855, 929.855;stroke-dashoffset:46.4928;paint-order:fill markers stroke"
        id="rect2643"
@@ -884,11 +861,6 @@
        id="path3703"
        style="opacity:0.155801;fill:#4aafff;fill-opacity:1;stroke-width:0.705312"
        d="m 108.10381,174.40508 -3.36353,10.02324 0.007,0.003 a 1.4030547,1.4030547 0 0 0 0.62964,1.62742 l 6.3337,3.72674 c 0.50251,0.29547 0.95518,0.55856 1.36587,0.79723 3.25318,1.8883 3.59371,2.08598 5.47755,5.17604 a 1.4183883,1.4183883 0 0 0 0.82879,0.62756 l 33.10933,9.18394 a 8.5147947,8.5147947 0 0 0 10.0513,-5.56309 l 1.10224,-3.25694 a 8.4858833,8.4858833 0 0 0 -4.64176,-10.5386 l -31.99518,-12.41566 a 1.4081047,1.4081047 0 0 0 -1.02161,7e-4 c -3.37529,1.31238 -3.76554,1.26287 -7.50392,0.78672 -0.47179,-0.0601 -0.99133,-0.12618 -1.57063,-0.19633 l -7.28727,-0.88558 a 1.408013,1.408013 0 0 0 -1.4914,0.91504 z m 2.32017,2.03409 6.14927,0.74674 c 0.57283,0.0695 1.08718,0.13542 1.5538,0.19424 2.90564,0.36952 4.19189,0.50066 6.1135,-0.008 l -4.90048,14.48665 c -1.21879,-1.57248 -2.31856,-2.24879 -4.8472,-3.71623 -0.40669,-0.23599 -0.85453,-0.49616 -1.35185,-0.78879 l -5.34574,-3.14546 z m 16.93468,0.51746 30.5662,11.85963 a 5.666634,5.666634 0 0 1 3.04869,7.02925 l -1.10153,3.25694 a 5.6908266,5.6908266 0 0 1 -6.68707,3.73374 l -31.61445,-8.77026 z" />
-    <path
-       style="opacity:0.720024;fill:#000c18;fill-opacity:1;stroke-width:0.264583;filter:url(#filter1575)"
-       d="m 174.78635,192.3245 h 25.71444 v 18.12982 h -21.00682 z"
-       id="path3028"
-       transform="matrix(1.3567506,0,0,0.76861507,-75.22458,52.368119)" />
     <text
        xml:space="preserve"
        id="text844-3"
@@ -898,9 +870,9 @@
        transform="matrix(0.55889842,0,0,0.55889842,-7.1118554,74.195946)"><tspan
          x="26.33773"
          y="218.86018"
-         id="tspan3">2<tspan
+         id="tspan7">2<tspan
    style="font-size:65%;baseline-shift:super"
-   id="tspan2">nd</tspan> PHASE GRANTS PROGRAMME LAUNCH</tspan></text>
+   id="tspan1">nd</tspan> PHASE GRANTS PROGRAMME LAUNCH</tspan></text>
     <text
        xml:space="preserve"
        id="text4744"
@@ -910,14 +882,14 @@
        transform="matrix(0.41824658,0,0,0.41824658,-3.2283679,115.58492)"><tspan
          x="26.33773"
          y="218.86018"
-         id="tspan4">Be sure to apply to the second phase of the grants programme from &#10;</tspan><tspan
+         id="tspan8">Be sure to apply to the second phase of the grants programme from &#10;</tspan><tspan
          x="26.33773"
          y="242.05555"
-         id="tspan12">1<tspan
+         id="tspan11">1<tspan
    style="font-size:65%;baseline-shift:super"
-   id="tspan5">st</tspan> August 2023 until 1<tspan
+   id="tspan9">st</tspan> August 2023 until 1<tspan
    style="font-size:65%;baseline-shift:super"
-   id="tspan6">st</tspan> September 2023</tspan></text>
+   id="tspan10">st</tspan> September 2023</tspan></text>
     <path
        id="path3730-3"
        style="fill:#ffa729;fill-opacity:1;stroke-width:0.641356"
@@ -936,7 +908,7 @@
        transform="matrix(0.85863335,0,0,0.85863335,741.42774,361.08985)"><tspan
          x="-807.36328"
          y="-210.66877"
-         id="tspan13">HIGHLIGHTS</tspan></text>
+         id="tspan12">HIGHLIGHTS</tspan></text>
     <g
        id="g1475-2"
        transform="matrix(0.04740011,0,0,0.04740011,8.4530069,171.71843)"
