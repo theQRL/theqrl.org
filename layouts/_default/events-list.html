@@ -4,18 +4,17 @@
   <main>
 <section class="blogPage__main big-padding bg-white">
   <div class="container-medium">
-      <div class="container-mini">
+      <div class="container-mini events-list_header">
           <h1 class="section-title-header">QRL EVENTS</h2>
-            <p>Join QRL builders from around the world. Attend an in-person hackathon, host a QRL meetup, and more.</p>
+
+          <div class="blog-article">
+            <p>There's a place for you here if you're a blockchain enthusiast, aspiring developer, quantum computing specialist, or simply a tech connoisseur interested in the future of technology.</p>
+
+            <p>Interested in hosting a local QRL hackathon, meetup, or event? <a href="mailto:support@theqrl.org">Get in touch</a>.</p>
           </div>
 
-
-
-
-
-      <div class="youtube video" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-        <iframe src="https://www.youtube.com/embed/UZ-m0P0S6rY?controls=0&showinfo=0&modestbranding=1&rel=0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0"></iframe>
       </div>
+
 
 
 
@@ -31,7 +30,7 @@
       <div class="blogPage__list events__current">
       {{ end }}
         <div class="blogPage__item">
-            <a href="{{ .Permalink }}" title="" class="blogPage__item__img-box">
+            <a href="{{ if .Params.external_url }}{{ .Params.external_url }}{{ else }}{{ .Permalink }}{{ end}}" title="" class="blogPage__item__img-box">
               <!-- <img src="/content/events/qrl-winter-hackathon-2022/images/header.png" alt=""> -->
               {{ if .Params.featured_image }}
               {{ $resource := printf "/content/%simages/%s" .File.Dir .Params.featured_image }}
@@ -40,7 +39,7 @@
                 <img src="{{ $after.RelPermalink }}" alt="" />
               {{ end }}
             </a>
-            <h2><a href="{{ .Permalink }}" title="">{{ .Param "title" }}</a></h2>
+            <h2><a href="{{ if .Params.external_url }}{{ .Params.external_url }}{{ else }}{{ .Permalink }}{{ end}}" title="">{{ .Param "title" }}</a></h2>
             <p class="blogPage__item__text">
                 {{ if .Params.subtitle }}
                     {{ .Params.subtitle }}
@@ -48,7 +47,7 @@
                     {{ .Summary }}
                 {{ end }}
             </p>
-            <a href="{{ .Permalink }}" class="read-more-button" title="read article">read more</a>
+            <a href="{{ if .Params.external_url }}{{ .Params.external_url }}{{ else }}{{ .Permalink }}{{ end}}" class="read-more-button" title="read article">read more</a>
         </div>
       {{ if eq ($current.Get "index") 1 }}
       </div>
@@ -83,6 +82,11 @@
           <h2><a href="{{ if .Params.external_url }}{{ .Params.external_url }}{{ else }}{{ .Permalink }}{{ end}}" title="">
             {{ .Param "title" }}</a>
           </h2>
+          {{ if .Params.external_url }}
+          <div class="blog-article">
+          {{ .Content }}
+          </div>
+          {{ else }}
           <p class="blogPage__item__text">
               {{ if .Params.subtitle }}
                   {{ .Params.subtitle }}
@@ -90,6 +94,7 @@
                   {{ .Summary }}
               {{ end }}
           </p>
+          {{ end }}
           <a href="{{ if .Params.external_url }}{{ .Params.external_url }}{{ else }}{{ .Permalink }}{{ end}}" class="read-more-button" title="read article">read more</a>
       </div>
 
@@ -105,7 +110,7 @@
         {{ $paginator := .Paginate (where .Site.Pages "Params.layout" "event") 9 }}
         {{ range $paginator.Pages }}
           <div class="blogPage__item">
-              <a href="{{ .Permalink }}" title="" class="blogPage__item__img-box">
+              <a href="{{ if .Params.external_url }}{{ .Params.external_url }}{{ else }}{{ .Permalink }}{{ end}}" title="" class="blogPage__item__img-box">
                 {{ if .Params.featured_image }}
                 {{ $resource := printf "/content/%simages/%s" .File.Dir .Params.featured_image }}
                 {{- $image := resources.Get $resource -}}
@@ -113,7 +118,7 @@
                   <img src="{{ $after.RelPermalink }}" alt="" />
                 {{ end }}
               </a>
-              <h2><a href="{{ .Permalink }}" title="">
+              <h2><a href="{{ if .Params.external_url }}{{ .Params.external_url }}{{ else }}{{ .Permalink }}{{ end}}" title="">
                 {{ .Param "title" }}</a>
               </h2>
               <p class="blogPage__item__text">
@@ -123,14 +128,14 @@
                       {{ .Summary }}
                   {{ end }}
               </p>
-              <a href="{{ .Permalink }}" class="read-more-button" title="read article">read more</a>
+              <a href="{{ if .Params.external_url }}{{ .Params.external_url }}{{ else }}{{ .Permalink }}{{ end}}" class="read-more-button" title="read article">read more</a>
           </div>
           {{ end }}
       </div>
 
 
 
-
+      <p>The events here are for everyone. You can join in a local hackathon, organise a QRL meetup, and much more.</p>
 
     <!--
 //
