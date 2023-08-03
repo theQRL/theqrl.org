@@ -3,7 +3,7 @@ layout: blog-post
 slug: qrl-monthly-feat-second-phase-grants-programme-july-2023
 date: 2023-08-02
 author: "The QRL Core Contributors"
-title: "QRL Monthly: feat a Second Phase of grants programme - July 2023"
+title: "QRL Monthly: feat second phase of grants programme - July 2023"
 summary: "Introducing Volt Development's QRL Mobile Wallet and the rollout of the second stage of the grants programme. Better wallet address format is proposed, and the Zond beta testnet is almost ready to roll out."
 featured_image: header.png
 categories:
@@ -69,7 +69,7 @@ The development of QRL Zond's next phase, *beta testnet* (currently in devnet), 
 
 The beacon and consensus engine are both operational with major roadblocks eliminated, but a few more bugs, including memory-related ones, must be fixed and P2P must be tested before the launch of the QRL Zond beta testnet release. 
 
-We're thrilled to report that it's getting closer and should be available within the next few months, so L1 developers, get your testing and development gloves (and tunes) ready!
+We’re thrilled to report that the project is extremely close to the launch of our public beta testnet, so L1 developers, get your testing and development gloves (and tunes) ready!
 
 #### QRL Zond changelog
 
