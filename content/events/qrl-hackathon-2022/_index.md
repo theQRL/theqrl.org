@@ -30,6 +30,8 @@ cta:
 ---
 
 
+{{< youtube UZ-m0P0S6rY >}}
+
 The QRL Hackathon 2022 is a great place for developers, artists, writers, or anyone else alike to come together for an intimate multi-day event with direct team interaction and to be part of the future of post-quantum resistant blockchain ecosystems.
 
 Head on over to our [Getting Started](/events/qrl-hackathon-2022/start/) page to join in the fun today.
