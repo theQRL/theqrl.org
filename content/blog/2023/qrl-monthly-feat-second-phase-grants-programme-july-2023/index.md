@@ -3,7 +3,7 @@ layout: blog-post
 slug: qrl-monthly-feat-second-phase-grants-programme-july-2023
 date: 2023-08-02
 author: "The QRL Core Contributors"
-title: "QRL Monthly: feat a Second Phase of grants programme - July 2023"
+title: "QRL Monthly: feat second phase of grants programme - July 2023"
 summary: "Introducing Volt Development's QRL Mobile Wallet and the rollout of the second stage of the grants programme. Better wallet address format is proposed, and the Zond beta testnet is almost ready to roll out."
 featured_image: header.png
 categories:
