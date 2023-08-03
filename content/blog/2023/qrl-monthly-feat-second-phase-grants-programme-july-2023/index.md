@@ -69,7 +69,7 @@ The development of QRL Zond's next phase, *beta testnet* (currently in devnet), 
 
 The beacon and consensus engine are both operational with major roadblocks eliminated, but a few more bugs, including memory-related ones, must be fixed and P2P must be tested before the launch of the QRL Zond beta testnet release. 
 
-We're thrilled to report that it's getting closer and should be available within the next few months, so L1 developers, get your testing and development gloves (and tunes) ready!
+We’re thrilled to report that the project is extremely close to the launch of our public beta testnet, so L1 developers, get your testing and development gloves (and tunes) ready!
 
 #### QRL Zond changelog
 
