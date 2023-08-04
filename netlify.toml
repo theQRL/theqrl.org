@@ -8,10 +8,10 @@ skip_processing = true
 HUGO_VERSION = "0.97.3"
 
 [context.production]
-command = "hugo --gc --minify -b $URL"
+command = "hugo --gc --minify --baseURL $URL --buildFuture"
 
 [context.deploy-preview]
-command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+command = "hugo --gc --minify --baseURL $DEPLOY_PRIME_URL --buildFuture"
 
 [context.branch-deploy]
-command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+command = "hugo --gc --minify --baseURL $DEPLOY_PRIME_URL --buildFuture"
