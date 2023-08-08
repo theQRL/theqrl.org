@@ -1,3 +1,25 @@
+- title: wolfSSL Featuring New Post Quantum Cryptography and country specific cipher support at Black Hat 2023
+  org: prweb.com
+  link: http://www.prweb.com/releases/2023/08/prweb19476887.htm
+  date: 2023-08-08
+  blurb: |
+    wolfSSL has been busy adding support for post-quantum ciphers in all of our products, from TLS to curl to web servers to SSH, we now have solid post-quantum support for users looking to make the move to a higher level of security, or to hedge their way into cryptographic agility with post-quantum.
+  img: /quantum_news/2023/output/0808.prweb.com
+  img_caption: ''
+
+
+- title: SandboxAQ Open Sources Cryptography Tool for Post-Quantum Era
+  org: esecurityplanet.com
+  link: https://www.esecurityplanet.com/trends/sandboxaq-sandwich-cryptography-management/
+  date: 2023-08-08
+  blurb: |
+     The Sandwich framework allows developers to build their own protocols and implementations that can be changed and reconfigured in response to new threats and technologies without rewriting code. The solution, currently used by several US government agencies, global banks, telcos, and tech companies, can be embedded into internal applications and commercial software and supports multiple languages, operating systems, and cryptographic libraries. 
+
+     Future plans for the solution include the ability to create smaller and larger “sandwiches” to access basic or broad functionality, as well as multi-layered “sandwiches” with an array of functions, such as enabling access to cryptography at different abstraction levels.
+  img: /quantum_news/2023/output/0808.esecurityplanet.com
+  img_caption: ''
+
+
 - title: U.S. Must Train Quantum Technology Workforce
   org: foreignpolicy.com
   link: https://foreignpolicy.com/2023/07/31/us-quantum-technology-china-competition-security/
