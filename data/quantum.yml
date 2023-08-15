@@ -1,3 +1,24 @@
+- title: India to get "million qubit" quantum computing-focused data center
+  org: datacenterdynamics.com
+  link: https://www.datacenterdynamics.com/en/news/india-to-get-million-qubit-quantum-computing-focused-data-center/
+  date: 2023-08-14
+  blurb: |
+    The Uttar Pradesh Government in India has signed a Memorandum of Understanding with Innogress and GAN Tech UK to establish the Indraprastha Quantum Data Center (IQDC), a new data center dedicated to quantum computing. The IQDC aims to house a million-qubit-powered quantum computer, although no exact deadline for the project has been given. Innogress and GAN Tech UK are seeking quantum computing technology partners and investors for the project, which is estimated to cost between $300 million and $500 million. The IQDC will be located in Greater Noida, which already houses traditional data centers from companies such as NTT and Yotta.
+  img: /quantum_news/2023/output/0814.datacenterdynamics.com
+  img_caption: 'An IBM quatum computer'
+  img_credits: 'Sebastian Moss'
+
+
+- title: Google Chrome to shield encryption keys from promised quantum computers
+  org: theregister.com
+  link: https://www.theregister.com/2023/08/12/google_chrome_kem/
+  date: 2023-08-12
+  blurb: |
+    Google is deploying a hybrid key encapsulation mechanism (KEM) in its Chrome browser to protect the sharing of encryption secrets during the establishment of secure network connections. The new system, called X25519Kyber768, combines the X25519 elliptic curve algorithm and Kyber-768, a quantum-resistant cryptographic algorithm. The move is in anticipation of future quantum computers that could potentially break existing encryption schemes. Google's early deployment of the technology is also practical for network administrators as it adds extra data to TLS ClientHello messages to strengthen security. The deployment of post-quantum encryption is seen as a necessary step in protecting valuable data shared over networks today and in the future.
+  img: /quantum_news/2023/output/0812.theregister.com
+  img_caption: ''
+
+
 - title: wolfSSL Featuring New Post Quantum Cryptography and country specific cipher support at Black Hat 2023
   org: prweb.com
   link: http://www.prweb.com/releases/2023/08/prweb19476887.htm
