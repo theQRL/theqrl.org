@@ -1,3 +1,33 @@
+- title: Checkmate! Quantum Computing Breakthrough Via Scalable Quantum Dot Chessboard
+  org: scitechdaily.com
+  link: https://scitechdaily.com/checkmate-quantum-computing-breakthrough-via-scalable-quantum-dot-chessboard/
+  date: 2023-09-04
+  blurb: |
+    Researchers at QuTech, a collaboration between the Delft University of Technology and TNO, have developed a new method for addressing quantum dots that could enable the operation of larger gate-defined quantum dot systems. The method uses a chessboard-like approach, where quantum dots are addressed using a combination of horizontal and vertical lines, similar to how chess pieces are addressed with letters and numbers. This approach reduces the number of control lines needed to address multiple qubits, potentially enabling the scaling up of quantum systems. The researchers also highlight the importance of improving the quality of qubits, with recent demonstrations showing a 99.992% fidelity. Additionally, the researchers discuss the potential application of quantum dot systems for quantum simulation, as they have shown that an array of germanium quantum dots can be used for rudimentary simulations of resonating valence bonds. The researchers are now focused on scaling up the chessboard circuits and exploring the possibility of interconnecting them to build even larger quantum circuits.
+  img: /quantum_news/2023/output/0904.scitechdaily.com
+  img_caption: 'Photograph of the quantum chip hosting the 16 quantum dot crossbar array, seamlessly integrated to a chessboard motif. Every quantum dot, like a pawn on a chessboard, is uniquely identifiable and controllable using a coordinate system of letters and numbers.'
+  img_credits: 'Marieke de Lorijn for QuTech. Credit: Marieke de Lorijn for QuTech'
+
+- title: "IBM makes major leap in quantum computing error-detection"
+  org: phys.org
+  link: https://phys.org/news/2023-08-ibm-major-quantum-error-detection.html
+  date: 2023-08-29
+  blurb: |
+    IBM researchers have developed a system that improves error-detection in quantum computing, a major obstacle to its advancement. Quantum computers are highly sensitive to noise and prone to errors in their qubits. Unlike standard computer bits, qubits cannot be cloned without introducing errors. The researchers have developed an improved code and redesigned qubit placement that reduces the number of physical qubits needed for error-correction by one-tenth. While the approach currently only works on quantum memory and not computational power, it is seen as a step towards fault-tolerant quantum computing.
+  img: /quantum_news/2023/output/0829.phys.org
+  img_caption: ''
+
+- title: "Quantum Machines Introduces OPX1000: The Quantum Control Solution for Large-Scale Quantum Computing"
+  org: hpcwire.com
+  link: https://www.hpcwire.com/off-the-wire/quantum-machines-introduces-opx1000-the-quantum-control-solution-for-large-scale-quantum-computing/
+  date: 2023-08-29
+  blurb: |
+    Quantum Machines has launched its new advanced quantum control solution, OPX1000, which offers industry-leading performance metrics including feedback capabilities, runtime, analog performance, and channel density. The modular quantum controller is designed to scale control of quantum computers to 1000 qubits and beyond. The solution is currently being deployed with select customers and will be generally available later this year. OPX1000 is programmed using Quantum Machines' intuitive pulse-level language, QUA, or at the gate level using the OpenQASM3 to QUA compiler extension. The company aims to push the entire field of quantum computing forward and accelerate the realization of useful quantum computers.
+  img: /quantum_news/2023/output/0829.hpcwire.com
+  img_caption: 'Quantum Machines’ OPX1000 is a modular quantum controller that provides industry-leading channel density and analog performance to cost-effectively scale control of quantum computers to 1000 qubits and beyond.'
+
+
+
 - title: "Post-Quantum Cryptography: CISA, NIST, and NSA Recommend How to Prepare Now"
   org: nsa.gov
   link: https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/3498776/post-quantum-cryptography-cisa-nist-and-nsa-recommend-how-to-prepare-now/
