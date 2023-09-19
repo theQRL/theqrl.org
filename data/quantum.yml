@@ -1,3 +1,23 @@
+- title: Physicists Create New Magnetic Material to Unleash Quantum Computing
+  org: sciencealert.com
+  link: https://www.sciencealert.com/physicists-create-new-magnetic-material-to-unleash-quantum-computing
+  date: 2023-09-18
+  blurb: |
+    Researchers from the University of Texas, El Paso have developed a highly magnetic quantum computing material that retains its magnetism at room temperature. The material, which does not contain high-demand rare earth minerals, exhibits superparamagnetic behavior, making it a potential option for creating qubits, the basic unit of quantum information. By synthesizing the material in a sequential process, the researchers were able to produce a material 100 times more magnetic than pure iron. Further testing is needed, but this development offers promising potential for stable qubits and advancements in quantum computing.
+  img: /quantum_news/2023/output/0918.sciencealert.com
+  img_caption: "Ahmed El-Gendy holding the new magnetic material his team developed"
+
+- title: When a Quantum Computer Is Able to Break Our Encryption, It Won't Be a Secret
+  org: rand.org
+  link: https://www.rand.org/blog/2023/09/when-a-quantum-computer-is-able-to-break-our-encryption.html
+  date: 2023-09-13
+  blurb: |
+    There is already more than enough reason to upgrade our communications systems to resist attacks from quantum computers as soon as possible. Even if completely unexpected attacks from a black-swan quantum computer are unlikely, attacks from known or suspected quantum computers would already be plenty bad enough.
+  img: /quantum_news/2023/output/0913.rand.org
+  img_caption: "An Atom Computing's Phoenix quantum computer is seen in Berkeley, California, July 21, 2022"
+  img_credits: 'Jane Lanhee Lee/Reuters'
+
+
 - title: "Laser Precision Qubit Control: Leap in Reliable Quantum Information Processing"
   org: scitechdaily.com
   link: https://scitechdaily.com/laser-precision-qubit-control-leap-in-reliable-quantum-information-processing/
