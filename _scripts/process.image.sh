@@ -59,7 +59,8 @@ files=$in"*"
 
 mkdir -p "$out"source
 
-find $files -type f -mtime -10 -print0 | while read -d $'\0' f
+# Find files modified in the last day to edit
+find $files -type f -mtime -1 -print0 | while read -d $'\0' f
 do
     # dir/filename.ext -> filename
     basename=$(basename "$f" | sed 's/\(.*\)\..*/\1/')
@@ -72,5 +73,5 @@ do
     convert $f -resize "$width"x -gravity center -crop 20:5 -quality $quality "$out""$basename"-thin."$format"
     convert $f -resize "$width"x -gravity center -crop 1:1 -quality $quality "$out""$basename"-square."$format"
     
-    cp $f "$out"source/"$filename"
+    # cp $f "$out"source/"$filename"
 done
