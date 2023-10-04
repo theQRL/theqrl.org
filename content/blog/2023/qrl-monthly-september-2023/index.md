@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 slug: qrl-monthly-september-2023
-date: 2023-10-01
+date: 2023-10-04
 author: "The QRL Core Contributors"
 title: "QRL Monthly: feat. QRL Mobile Wallet Release by Volt Development - September 2023"
 summary: "Volt Development's long-awaited QRL Mobile Wallet is now available. The QRL Zond beta-testnet is nearing completion, and we'd like to welcome Ricardo Geraldes as a Senior Software Engineer."
@@ -17,7 +17,7 @@ toc: true
 
 {{< image "./images/h.volt.png" >}}
 
-The QRL Mobile Wallet, developed by [Volt Development](https://volt-development.com/), has been officially released on the [Google Play store](https://play.google.com/store/apps/details?id=com.volt.qrlmobile&pcampaignid=web_share), while the iOS version is now awaiting evaluation. The blog will be updated with the link after the evaluation has been completed, so stay tuned!
+The QRL Mobile Wallet, developed by [Volt Development](https://volt-development.com/), has been officially released to [Google Play](https://play.google.com/store/apps/details?id=com.volt.qrlmobile&pcampaignid=web_share) and the [Apple App Store](https://apps.apple.com/us/app/qrl-mobile/id6448219494).
 
 Current functionality: 
 
