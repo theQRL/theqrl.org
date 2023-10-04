@@ -1,3 +1,25 @@
+- title: Quantum Computers Could Crack Encryption Sooner Than Expected With New Algorithm
+  org: singularityhub.com
+  link: https://singularityhub.com/2023/10/02/quantum-computers-could-crack-encryption-sooner-than-expected-with-new-algorithm/
+  date: 2023-10-02
+  blurb: |
+    One of the most well-established and disruptive uses for a future quantum computer is the ability to crack encryption. A new algorithm could significantly lower the barrier to achieving this.
+
+    The saving grace has been that today's quantum processors are a long way from the kind of scale required. But according to a report in Science, New York University computer scientist Oded Regev has discovered a new algorithm that could reduce the number of qubits required substantially.
+
+    In Shor's original algorithm, the number of gates required to factor a number is the square of the number of bits used to represent it, which is denoted as n^2. Regev's approach would only require n^1.5
+  img: /quantum_news/2023/output/1002.singularityhub.com
+  img_caption: ''
+
+- title: Post-Quantum Cryptography Coalition Launches
+  org: mitre.org
+  link: https://www.mitre.org/news-insights/news-release/post-quantum-cryptography-coalition-launches
+  date: 2023-09-26
+  blurb: |
+    The data we're encrypting online today—from financial and personal identification information to military operations and intelligence data—could be quickly decrypted in the future by an adversary with access to a cryptographically relevant quantum computer. To drive progress toward broader understanding and public adoption of post-quantum cryptography (PQC) and the National Institute of Standards and Technology's (NIST) PQC algorithms, a community of technologists, researchers, and expert practitioners launched the PQC Coalition. Founding coalition members include IBM Quantum, Microsoft, MITRE, PQShield, SandboxAQ, and University of Waterloo.
+  img: /quantum_news/2023/output/0926.mitre.org
+  img_caption: 
+
 - title: Signal adds quantum-resistant encryption to its E2EE messaging protocol
   org: bleepingcomputer.com
   link: https://www.bleepingcomputer.com/news/security/signal-adds-quantum-resistant-encryption-to-its-e2ee-messaging-protocol/
