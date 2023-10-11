@@ -1,3 +1,28 @@
+- title: Encryption services are sending the right message to the quantum codebreakers | John Naughton
+  org: theguardian.com
+  link: https://www.theguardian.com/commentisfree/2023/oct/07/encryption-services-quantum-computers-cryptography-rsa-signal-whatsapp
+  date: 2023-10-07
+  blurb: |
+    Quantum computers may still be years away, but it's prudent that end-to-end encryption providers are ramping up defences
+
+    A pressing question, then, is when that moment may arrive. At present, nobody really knows. It's a bit like nuclear fusion. Quantum evangelists claim that it's only a few years away. At the high end, some observers think it's 30-plus years away and there are sceptics who find the whole idea implausible. **But then it's not that long since people thought that large language models were pie in the sky. So it may be prudent not to be too complacent.**
+
+    **That's certainly the view taken by Signal**, one of the providers of the encrypted messaging service that I and many of my colleagues use. **“We are not in a position to judge which timeline is most likely,”**
+  img: /quantum_news/2023/output/1007.theguardian.com
+  img_caption: ''
+
+- title: Fujitsu, RIKEN aim for 1000 qbit quantum computer
+  org: eenewseurope.com
+  link: https://www.eenewseurope.com/en/fujitsu-riken-aim-for-1000-qbit-quantum-computer/
+  date: 2023-10-07
+  blurb: |
+    Fujitsu and RIKEN in Japan launched a 64-qubit superconducting quantum computer and are constructing a 1000-qubit one.
+
+    Besides providing this technology on the new hybrid quantum computing platform, Fujitsu will work to create a computing workload broker, an AI-based software that automatically selects computing resources and algorithms to solve customer problems.
+  img: /quantum_news/2023/output/1007.eenewseurope.com
+  img_caption: ''
+
+
 - title: Quantum Computers Could Crack Encryption Sooner Than Expected With New Algorithm
   org: singularityhub.com
   link: https://singularityhub.com/2023/10/02/quantum-computers-could-crack-encryption-sooner-than-expected-with-new-algorithm/
