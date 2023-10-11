@@ -415,9 +415,26 @@
     cursor: default;
     border-top: 6px solid #4AAFFF;
     border-radius: 6px;
+
+    h2, p {
+      color: #FFF;
+    }
+    p {
+      margin: 20px 0;
+    }
+    span {
+      font-size: 18px;
+    }
   }
   #mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
-  #mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:36px; line-height: 48px;}
+  #mc_embed_signup h2 {
+    font-weight:bold; 
+    padding:0; 
+    margin-top:15px;
+    margin-bottom: 80px; 
+    font-size:36px; 
+    line-height: 48px;
+  }
   #mc_embed_signup input {color:#FFF;border: 1px solid #FFF; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
   
   #mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
@@ -481,7 +498,8 @@
     width: fit-content;
   }
   #mc_embed_signup input[type=checkbox]{
-    -webkit-appearance:checkbox;height:20px;
+    -webkit-appearance:checkbox;
+    height:25px;
     display: inline;
   }
   #mc_embed_signup a {
