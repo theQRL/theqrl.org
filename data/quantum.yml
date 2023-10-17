@@ -1,3 +1,26 @@
+- title: Self-correcting quantum computers within reach?
+  org: news.harvard.edu
+  link: https://news.harvard.edu/gazette/story/2023/10/self-correcting-quantum-computers-within-reach-error-correction-entanglement/
+  date: 2023-10-11
+  blurb: |
+    Harvard team's method of reducing errors tackles major barrier to scaling up technology
+    
+    [A new paper in Nature](https://www.nature.com/articles/s41586-023-06481-y) illustrates a Harvard quantum computing platform's potential to solve the longstanding problem known as quantum error correction.
+
+    In the new paper, the team reports near-flawless performance of its two-qubit entangling gates with extremely low error rates. For the first time, they demonstrated the ability to entangle atoms with error rates below 0.5 percent. 
+  img: /quantum_news/2023/output/1011.news.harvard.edu
+  img_caption: ''
+
+- title: Chinese scientists claim record smashing quantum computing breakthrough
+  org: scmp.com
+  link: https://www.scmp.com/news/china/science/article/3237538/chinese-scientists-claim-record-smashing-quantum-computing-breakthrough
+  date: 2023-10-10
+  blurb: |
+    Scientists in China say their latest quantum computer has solved an ultra-complicated mathematical problem within a millionth of a second - more than 20 billion years quicker than the world's fastest supercomputer could achieve the same task.
+  img: /quantum_news/2023/output/1010.scmp.com
+  img_caption: ''
+
+
 - title: Encryption services are sending the right message to the quantum codebreakers | John Naughton
   org: theguardian.com
   link: https://www.theguardian.com/commentisfree/2023/oct/07/encryption-services-quantum-computers-cryptography-rsa-signal-whatsapp
