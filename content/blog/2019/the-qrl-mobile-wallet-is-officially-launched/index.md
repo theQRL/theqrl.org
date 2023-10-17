@@ -35,6 +35,6 @@ A Few Notes:
 * The QRL Mobile Wallet App is not available in China
 * The application may take some time to be added to the search indexes of the Google and Apple stores, respectively. However, you can access them via our links ([Google](https://play.google.com/store/apps/details?id=com.theqrl)) ([Apple](https://itunes.apple.com/us/app/qrl-wallet/id1458620542?ls=1&mt=8)), and they should appear in searches soon.
 
-Between the [web wallet](https://wallet.theqrl.org/), [desktop wallet](https://github.com/theQRL/qrl-wallet/releases/), [Ledger integration](https://shop.ledger.com/pages/ledger-live), and now the mobile wallet, there is a well-rounded variety of options for any given user to access their Quanta.
+Between the [web wallet](https://wallet.theqrl.org/), [desktop wallet](https://github.com/theQRL/qrl-wallet/releases/), [Ledger integration](/ledger), and now the mobile wallet, there is a well-rounded variety of options for any given user to access their Quanta.
 
 We are always looking to improve our current offerings, as well as to identify and pursue those things we have not yet considered. To that end, we are always appreciative of constructive feedback from our wonderful community of users. Please feel free to let us know on [Discord](/discord), [Twitter](https://twitter.com/qrledger), or [GitHub](https://github.com/theQRL/mobile-wallet/issues), how you like the mobile app and if there are any improvements we should consider.
