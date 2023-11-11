@@ -12,6 +12,7 @@
       link: https://www.cointiger.com/en-us/#/trade_center?coin=qrl_btc
   link: https://www.cointiger.com/en-us/#/trade_center?coin=qrl_btc
   logo: cointiger.png
+  maintenance: true
   type: Centralized Exchange
 
 - name: Bittrex Global
