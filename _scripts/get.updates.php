@@ -1,4 +1,7 @@
 <?php
+
+// -1 Produces output for LAST month
+// 0 Produces output for THIS month
 $month_offset = -1;
 
 $start_date = date("Y-m-d", mktime(0, 0, 0, date("m")+($month_offset + 0), 1));
@@ -80,8 +83,10 @@ getrepoprs("theQRL/block-explorer");
 getrepoprs("theQRL/documentation");
 getrepoprs("theQRL/electrify-qrl");
 getrepoprs("theQRL/explorer-helpers");
+getrepoprs("theQRL/grpc-gateway");
 getrepoprs("theQRL/go-libp2p-qrl");
 getrepoprs("theQRL/go-qrllib");
+getrepoprs("theQRL/go-zond");
 getrepoprs("theQRL/go-zond-wallet-encryptor-keystore");
 getrepoprs("theQRL/integration_tests");
 getrepoprs("theQRL/js-api-bridge");
@@ -94,6 +99,7 @@ getrepoprs("theQRL/py-cryptonight");
 getrepoprs("theQRL/QRL");
 getrepoprs("theQRL/qips");
 getrepoprs("theQRL/qrllib");
+getrepoprs("theQRL/qrl-cli");
 getrepoprs("theQRL/qrl-docker");
 getrepoprs("theQRL/qrl-proto-sha256");
 getrepoprs("theQRL/qrl-wallet");
@@ -101,6 +107,7 @@ getrepoprs("theQRL/qrllib");
 getrepoprs("theQRL/qrllib-browserify");
 getrepoprs("theQRL/qrl-rich-list-indexer");
 getrepoprs("theQRL/qrl-provider");
+getrepoprs("theQRL/qrysm");
 getrepoprs("theQRL/qryptonight");
 getrepoprs("theQRL/qrandomx");
 getrepoprs("theQRL/qrypto.js");
@@ -110,6 +117,7 @@ getrepoprs("theQRL/validate-qrl-address");
 getrepoprs("theQRL/wallet-helpers");
 getrepoprs("theQRL/wallet.js");
 getrepoprs("theQRL/web3");
+getrepoprs("theQRL/web3.js");
 getrepoprs("theQRL/zond");
 getrepoprs("theQRL/zond-contract-example");
 getrepoprs("theQRL/zond-documentation");

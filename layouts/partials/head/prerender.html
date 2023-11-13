@@ -20,7 +20,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#0b181e">
     <meta name="ahrefs-site-verification" content="2e997068b41d39416d193d32bd78cfca807df23e7d2a320f52fe7fa309fb3554">
-    
+
     {{ $options := (dict "targetPath" "css/app.css" "outputStyle" "compressed" "enableSourceMap" true "includePaths" (slice "node_modules/myscss")) }}
     {{ $style := resources.Get "sass/app.scss" | resources.ToCSS $options }} 
     <link rel="stylesheet" href="{{ $style.Permalink }}" />
@@ -30,7 +30,7 @@
     <!-- GA4 Global site tag (gtag.js) - Google Analytics -->
     {{ $js := resources.Get "js/header.js" }}
     {{ $secureJS := $js | resources.Fingerprint "sha512" }}
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3GWG6HEE2T"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123414102-1"></script>
     <script type="text/javascript" src="{{ $js.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
     <!-- END Global site tag (gtag.js) - Google Analytics -->
 
