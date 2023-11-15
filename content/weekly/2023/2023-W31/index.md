@@ -8,11 +8,17 @@ slug: "2023-August-08"
 
 ## Weekly Dev Snapshot 📸 👇
 
+### QRL Zond
+
 - Added code to support account with smart contract code while generating genesis state from genesis.json, this will be used to deploy deposit contract for staking in genesis block
 - Resolved memory related issue with the beacon chain causing beacon node to crash
 - Bug fix for the state resumption after node is restarted
 - Tested staking 3000+ blocks
 - P2P testing & bug fixing is in progress
+
+### QRL
+
+- multiple long-standing explorer bugs fixed
 
 <!--more-->
 

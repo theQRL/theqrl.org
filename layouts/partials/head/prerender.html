@@ -30,7 +30,7 @@
     <!-- GA4 Global site tag (gtag.js) - Google Analytics -->
     {{ $js := resources.Get "js/header.js" }}
     {{ $secureJS := $js | resources.Fingerprint "sha512" }}
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123414102-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TMTF29918D"></script>
     <script type="text/javascript" src="{{ $js.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
     <!-- END Global site tag (gtag.js) - Google Analytics -->
 

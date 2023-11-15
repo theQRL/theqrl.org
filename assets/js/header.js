@@ -3,5 +3,5 @@ if ( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNo
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
   
-    gtag('config', 'UA-123414102-1');
+    gtag('config', 'G-TMTF29918D');
 }
