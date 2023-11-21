@@ -1,15 +1,16 @@
 ---
-volume: "208,144,595"
-transactions: "3,414,518"
-nodes: "785"
-block_height: "2,088,662"
-coins_emitted: "76,313,515"
-block_reward: "1.88"
-repositories: "86"
-contributors: "57"
-commits: "12,853"
-miners: "331"
-wallets: "13,436"
-pools: "14"
-repos: "86"
+volume: 245298454.71435302
+transactions: 1752394
+nodes: 900
+block_height: "2846951"
+coins_emitted: 77653406.41253479
+block_reward: 1.657852485
+hashrate: 12818168.533333333
+repositories: 72
+contributors: 57
+commits: 12853
+miners: 312
+wallets: 13436
+pools: 12
+repos: 85
 ...
