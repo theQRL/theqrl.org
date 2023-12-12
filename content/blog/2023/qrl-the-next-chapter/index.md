@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 slug: qrl-the-next-chapter
-date: 2023-12-11
+date: 2023-12-12
 author: "Peter Waterland"
 title: "QRL The Next Chapter"
 summary: "The QRL project has appointed Iain Wood as its new operational manager, entrusting him with strategic goals such as community growth and finalizing the project's roadmap. The original creator reflects on the journey, expressing excitement for QRL's future while transitioning to an administrative role."
