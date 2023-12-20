@@ -2,7 +2,7 @@
 layout: weekly-update
 date: 2023-12-19
 author: "The QRL Core Contributors"
-title: "QRL Weekly: Public Beta-Testnet Date Set, 2023-December-19"
+title: "QRL Weekly: Public Beta-Testnet Date Set"
 slug: "2023-December-19"
 ---
 
