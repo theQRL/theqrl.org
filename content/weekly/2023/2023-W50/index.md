@@ -6,7 +6,7 @@ title: "QRL Weekly: Public beta-testnet v1 date set"
 slug: "2023-December-19"
 ---
 
-## Public Beta-testnet v1 Date Set: January 15th, 2024
+## Public Beta-testnet v1 Date Set for January 15th, 2024
 
 After months of dedication, development, and collaboration, we are delighted to unveil the official launch date for our public beta-testnet v1: **January 15th, 2024!**
 
