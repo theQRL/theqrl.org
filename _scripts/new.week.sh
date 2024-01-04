@@ -6,15 +6,16 @@ if [ ! -f "config.toml" ]; then
 	exit 1;
 fi
 
+year=$(date +%Y)
 
 if [[ -z ${1} ]]; then
-	echo "WARNING: Week Number is not set. Setting"
-	week=$(date +%U); lastweek=$((week-1));
+	lastweek=$(date +%V)
+	echo "WARNING: Week Number is not set. Setting week $lastweek of $year"
 else 
 	lastweek=$1
 fi
 
-dir="content/weekly/2023/2023-W$lastweek"
+dir="content/weekly/$year/$year-W$lastweek"
 file=$dir"/index.md"
 
 mkdir -p $dir

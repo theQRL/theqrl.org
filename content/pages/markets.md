@@ -19,7 +19,6 @@ title: QRL Markets
 
 {{< markets "grid" >}}
 
-
 ## Other ways to acquire QRL
 
 ### Mining
@@ -39,13 +38,6 @@ You can head over to the Discord [#OTC](https://theqrl.org/discord) channel and 
 ### Participating in community lead events
 
 We have frequent community lead puzzles and events in our [discord community](https://theqrl.org/discord) which often have rewards present.
-
-### Upcoming: QRL on Uniswap (In progress)
-
-With [enQlave](https://enqlave.io), QRL will be available on Uniswap (V2). See our [enQlave](https://theqrl.org/features/enqlave/) features page to stay up to date.
-
-
-
 
 ## Coin economics
 
