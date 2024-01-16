@@ -33,7 +33,7 @@
                 <a href='https://explorer.theqrl.org/'>
                   <div class="core__el animate-fade">
                   <div class="core__el__indicator">
-                    <div class="indicator" id="status-blockheight">{{ .Site.Data.stats.block_height }}</div>
+                    <div class="indicator" id="status-blockheight">{{ lang.FormatNumberCustom 0 .Site.Data.stats.block_height }}</div>
                   </div>
                     <div class="core__el__inner">Blockheight
                       <p>60s blocktime</p></div>
@@ -42,7 +42,7 @@
                 <a href='https://quantascan.io/network-transactions'>
                   <div class="core__el animate-fade">
                     <div class="core__el__indicator">
-                      <div class="indicator" id="status-tx">{{ .Site.Data.stats.transactions }}</div>
+                      <div class="indicator" id="status-tx">{{ lang.FormatNumberCustom 0 .Site.Data.stats.transactions }}</div>
                     </div>
                     <div class="core__el__inner">
                       Transactions
@@ -53,7 +53,7 @@
                 <a href='https://quantascan.io/network-transactions'>
                   <div class="core__el animate-fade">
                     <div class="core__el__indicator">
-                      <div class="indicator" id="status-volume">{{ .Site.Data.stats.volume }}</div>
+                      <div class="indicator" id="status-volume">{{ lang.FormatNumberCustom 2 .Site.Data.stats.volume }}</div>
                     </div>
                     <div class="core__el__inner">
                       Volume (QRL)
@@ -64,7 +64,7 @@
                 <a href='https://quantascan.io/wallet-number-of-wallets'>
                   <div class="core__el animate-fade">
                     <div class="core__el__indicator">
-                      <div class="indicator" id="status-wallets">{{ .Site.Data.stats.wallets }}</div>
+                      <div class="indicator" id="status-wallets">{{ lang.FormatNumberCustom 0 .Site.Data.stats.wallets }}</div>
                     </div>
                     <div class="core__el__inner">Wallets
                       <p>Since Genesis</p>
@@ -74,7 +74,7 @@
                 <a href='https://explorer.theqrl.org'>
                   <div class="core__el animate-fade">
                     <div class="core__el__indicator">
-                      <div class="indicator" id="status-emission">{{ .Site.Data.stats.coins_emitted }}</div>
+                      <div class="indicator" id="status-emission">{{ lang.FormatNumberCustom 2 .Site.Data.stats.coins_emitted }}</div>
                     </div>
                     <div class="core__el__inner">Current Emission
                       <p>Max population 105,000,000</p>
@@ -85,7 +85,7 @@
                 <a href='https://explorer.theqrl.org'>
                   <div class="core__el animate-fade">
                     <div class="core__el__indicator">
-                      <div class="indicator" id="status-blockreward">{{ .Site.Data.stats.block_reward }}</div>
+                      <div class="indicator" id="status-blockreward">{{ lang.FormatNumberCustom 9 .Site.Data.stats.block_reward }}</div>
                     </div>
                     <div class="core__el__inner">Blockreward
                     <p>Exponential decay over 200y</p></div>
