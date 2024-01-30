@@ -1,3 +1,36 @@
+- title: Finding and Erasing Quantum Computing Errors in Real-Time
+  org: scitechdaily.com
+  link: https://scitechdaily.com/finding-and-erasing-quantum-computing-errors-in-real-time/
+  date: 2024-01-29
+  blurb: |
+    Researchers, led by Jeff Thompson at Princeton University, have developed a novel method to detect and correct errors in quantum computers in real time, potentially making them up to ten times easier to correct. 
+    
+    This advancement, detailed in a [recent paper in Nature](https://www.nature.com/articles/s41586-023-06438-1), focuses on identifying errors more easily than previous methods, which primarily aimed to reduce error probabilities. By utilizing a different set of energy levels within atoms to store qubits, the team can monitor qubits during computations and detect errors without destroying the qubits.
+  img: /quantum_news/2024/output/0129.scitechdaily.com
+  img_caption: ''
+
+
+- title: Taiwan connects its first home-grown quantum computer to the internet
+  org: theregister.com
+  link: https://www.theregister.com/2024/01/24/taiwan_academica_sinica_quantum_computer/
+  date: 2024-01-24
+  blurb: |
+    A January 19 announcement of the connection reveals that the machine has five qubits and is available as a test bed for the university's project collaborators, with other researchers able to use it as a development platform for their own efforts using the machine's ultra-low temperature CMOS and parametric amplifiers. Collaborators include the University of California, Santa Barbara, and the University of Wisconsin-Madison, so this machine's success may assist US quantum development efforts.
+  img: /quantum_news/2024/output/0124.theregister.com
+  img_caption: ''
+
+
+- title: Breakthrough in quantum computing with stable room temperature qubits -
+    Advanced Science News
+  org: advancedsciencenews.com
+  link: https://www.advancedsciencenews.com/breakthrough-in-quantum-computing-with-stable-room-temperature-qubits/
+  date: 2024-01-19
+  blurb: |
+    Scientists achieve groundbreaking room-temperature quantum coherence for 100 nanoseconds, propelling molecular qubits closer to practical quantum computing.
+  img: /quantum_news/2024/output/0119.advancedsciencenews.com
+  img_caption: ''
+
+
 - title: China uses foreign machines to make quantum computers
   org: asiatimes.com
   link: https://asiatimes.com/2024/01/china-makes-quantum-chips-with-foreign-machines/

@@ -57,7 +57,7 @@ fi
 
 files=$in"*"
 
-mkdir -p "$out"source
+# mkdir -p "$out"source
 
 # Find files modified in the last day to edit
 find $files -type f -mtime -2 -print0 | while read -d $'\0' f
