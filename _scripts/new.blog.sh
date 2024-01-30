@@ -12,7 +12,7 @@ if [ ! -f "config.toml" ]; then
 	exit 1;
 fi
 
-blogtocopy="qrl-monthly-feat-the-history-of-cryptography-may-2023"
+blogtocopy="qrl-monthly-november-2023"
 name=$1
 
 if [[ -z ${1} ]]; then
@@ -32,7 +32,7 @@ _layout="blog-post"
 _slug="$slug"
 _date=$(date +'%Y-%m-%d')
 _title="$name"
-_author="Jack Matier"
+_author="The QRL Core Contributors"
 _summary=""
 
 echo "... copying assets from: $blogtocopy -> $name"
