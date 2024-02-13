@@ -1,3 +1,14 @@
+- title: Breakthrough in single-photon integration holds promise for quantum computing, cryptography
+  org: phys.org
+  link: https://phys.org/news/2024-02-breakthrough-photon-quantum-cryptography.amp
+  date: 2024-02-13
+  blurb: |
+    The recent study highlights a breakthrough in quantum photonics, demonstrating significant progress in integrating single-photon sources on-chip at room temperature, which is crucial for advancing quantum computing, cryptography, and sensing. 
+    
+    By employing a hybrid metal–dielectric bullseye antenna for exceptional photon directionality, the research showcases a method for efficient photon back-excitation and coupling, using either colloidal quantum dots or nanodiamonds as single-photon emitters. Achieving front collection efficiencies of about 70% with low numerical aperture optics, this innovation simplifies the integration of quantum light sources into practical quantum systems, promising to accelerate the development of quantum photonic devices. The research, led by Boaz Lubotzky and Prof. Ronen Rapaport, alongside international collaborators, represents a pivotal advancement in quantum technology applications, as published in Nano Letters.
+  img: /quantum_news/2024/output/0213.phys.org
+  img_caption: 'Credit: Hebrew University of Jerusalem'
+
 - title: US firm plans to build 10,000 qubit quantum computer by 2026
   org: interestingengineering.com
   link: https://interestingengineering.com/innovation/10000-qubit-quantum-computer-2026
@@ -24,7 +35,6 @@
   img: /quantum_news/2024/output/0129.scitechdaily.com
   img_caption: ''
 
-
 - title: Taiwan connects its first home-grown quantum computer to the internet
   org: theregister.com
   link: https://www.theregister.com/2024/01/24/taiwan_academica_sinica_quantum_computer/
@@ -33,7 +43,6 @@
     A January 19 announcement of the connection reveals that the machine has five qubits and is available as a test bed for the university's project collaborators, with other researchers able to use it as a development platform for their own efforts using the machine's ultra-low temperature CMOS and parametric amplifiers. Collaborators include the University of California, Santa Barbara, and the University of Wisconsin-Madison, so this machine's success may assist US quantum development efforts.
   img: /quantum_news/2024/output/0124.theregister.com
   img_caption: ''
-
 
 - title: Breakthrough in quantum computing with stable room temperature qubits -
     Advanced Science News
@@ -44,7 +53,6 @@
     Scientists achieve groundbreaking room-temperature quantum coherence for 100 nanoseconds, propelling molecular qubits closer to practical quantum computing.
   img: /quantum_news/2024/output/0119.advancedsciencenews.com
   img_caption: ''
-
 
 - title: China uses foreign machines to make quantum computers
   org: asiatimes.com
