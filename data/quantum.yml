@@ -1,3 +1,38 @@
+- title: Apple adds PQ3 quantum-resistant encryption to iMessage
+  org: bleepingcomputer.com
+  link: https://www.bleepingcomputer.com/news/security/apple-adds-pq3-quantum-resistant-encryption-to-imessage/
+  date: 2024-02-27
+  blurb: | 
+    Apple has implemented a new post-quantum cryptographic protocol, PQ3, to iMessage, aiming to protect against potential quantum computing threats that could break current encryption methods. This protocol, which combines with the existing Elliptic Curve Cryptography, introduces a hybrid model to ensure robust protection against both current and future quantum attacks. PQ3 features innovations like periodic rekeying to enhance security further, making it one of the most secure at-scale messaging protocols available.
+  img: /quantum_news/2024/output/0227.bleepingcomputer.com
+  img_caption: ''
+
+- title: NVIDIA Accelerates Quantum Computing Exploration at Australia's Pawsey Supercomputing Centre
+  org: nvidianews.nvidia.com
+  link: https://nvidianews.nvidia.com/news/nvidia-accelerates-quantum-computing-exploration-at-australias-pawsey-supercomputing-centre
+  date: 2024-02-18
+  blurb: |
+    NVIDIA and Australia's Pawsey Supercomputing Centre are collaborating to accelerate quantum computing research. This collaboration will leverage NVIDIA's cutting-edge technology, including the CUDA Quantum platform and Grace Hopper Superchips, to conduct research in this field. The goal of this collaboration is to achieve breakthroughs in quantum computing, which has the potential to revolutionize many industries.
+  img: /quantum_news/2024/output/0218.nvidianews.nvidia.com
+  img_caption: ''
+
+- title: Reducing the Number of Qubits in Quantum Factoring
+  org: iacr.org
+  date: 2024-02-13
+  blurb: |
+    The paper presents an optimization for reducing the number of qubits required in quantum factoring, specifically targeting Shor's algorithm. By employing a combination of techniques, including May and Schlieper's truncation and the Ekerå-Håstad variant, the authors achieve a significant reduction in qubit requirement to factor an RSA-2048 instance, potentially using less than 1700 qubits
+  img: '/quantum_news/2024/output/0213.iacr.org'
+  img_caption: 'ChatGPT DALL-E'
+
+- title: Russian Scientists Expect a 50-Qubit Quantum Computer by End of 2024
+  org: thequantuminsider.com
+  link: https://thequantuminsider.com/2024/02/24/russian-scientists-expect-a-50-qubit-quantum-computer-by-end-of-2024/
+  date: 2024-02-24
+  blurb: |
+    Russian scientists have successfully developed a 20-qubit quantum computer and aim to increase this number to between 50 and 100 qubits by the end of 2024. This development signifies a significant advancement in Russia's quantum computing capabilities, surpassing their previous 16-qubit ion-based quantum computer. The initiative is part of a broader, ambitious roadmap to enhance their quantum computing technology, with potential applications ranging from drug discovery to logistics optimization
+  img: /quantum_news/2024/output/0224.thequantuminsider.com
+  img_caption: ''
+
 - title: Breakthrough in single-photon integration holds promise for quantum computing, cryptography
   org: phys.org
   link: https://phys.org/news/2024-02-breakthrough-photon-quantum-cryptography.amp
