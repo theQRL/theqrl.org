@@ -1,4 +1,4 @@
-# QRL Website 2020-2022 🚀
+# QRL Website 2020-2024 🚀
 
 Deployed at [https://theqrl.org](https://theqrl.org) [![Netlify Status](https://api.netlify.com/api/v1/badges/1a6751f4-4aaf-4d1d-bc99-a350509edee8/deploy-status)](https://app.netlify.com/sites/jolly-aryabhata-426be5/deploys)
 
