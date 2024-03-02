@@ -3,8 +3,8 @@ layout: blog-post
 slug: qrl-monthly-february-2024
 date: 2024-03-01
 author: "The QRL Core Contributors"
-title: "QRL Monthly, February 2024"
-summary: "Quantum Resistant Ledger (QRL) is now listed on [LBank Cryptocurrency Exchange](https://www.lbank.com/en-US/trade/qrl_usdt), a major step that expands our blockchain's reach and offers our community exciting new trading opportunities. Dive into the world of cryptography with [\"History of Cryptography: Behind The Code - Episode 5\"](https://www.youtube.com/watch?v=UnApvzz1IAw) exploring the evolution and future of cryptographic security in the age of quantum computing."
+title: "QRL Monthly: feat. QRL Listing on LBank, February 2024"
+summary: "Quantum Resistant Ledger (QRL) is now listed on [LBank Cryptocurrency Exchange](https://www.lbank.com/en-US/trade/qrl_usdt), a major step that expands our blockchain's reach and offers our community exciting new trading opportunities. The QRL Foundation's joins the PQCA in its commitment to advancing post-quantum cryptography, ensuring the security of digital assets against emerging quantum threats. Finally, dive into the world of cryptography with [\"History of Cryptography: Behind The Code - Episode 5\"](https://www.youtube.com/watch?v=UnApvzz1IAw) or listen to the [Twitter/X Spaces with Web3 Global](https://twitter.com/web3globalmedia/status/1763169506023621081), exploring the evolution and future of cryptographic security in the age of quantum computing."
 featured_image: header.png
 categories:
   - technical
@@ -26,7 +26,15 @@ Additional details below:
 - Trading Open: **March 1st, 12:00 UTC**
 - Withdrawal Open: **March 2nd, 12:00 UTC**
 
-See the [listing announcement](https://support.lbank.com/hc/en-gb/articles/29008110794009-QRL-The-Quantum-Resistant-Ledger-Will-Be-Listed-in-LBank-Innovation-Zone), or the [trading event](https://support.lbank.com/hc/en-gb/articles/29363848255001-QRL-The-Quantum-Resistant-Ledger-Trading-Carnival-Holding-Net-buying-to-share-10-000-in-QRL) put on by LBank
+Check out the [listing announcement](https://support.lbank.com/hc/en-gb/articles/29008110794009-QRL-The-Quantum-Resistant-Ledger-Will-Be-Listed-in-LBank-Innovation-Zone) or join the [trading event](https://support.lbank.com/hc/en-gb/articles/29363848255001-QRL-The-Quantum-Resistant-Ledger-Trading-Carnival-Holding-Net-buying-to-share-10-000-in-QRL) hosted by LBank. Plus, keep an eye out for upcoming opportunities with Learn to Earn and Flexible Staking.
+
+### QRL Foundation Joins PQCA to Boost Post-Quantum Cryptography Adoption and Innovation
+
+{{< image "./images/h.pqca.png" >}}
+
+The QRL Foundation is happy to be a member of PQCA, a linux foundation project to advance the adoption of post-quantum cryptography, by producing high-assurance software implementations of standardized algorithms, and supporting the continued development and standardization of new post-quantum algorithms with software for evaluation and prototyping.
+
+This proactive approach ensures that as quantum computing becomes more prevalent, our digital assets, financial transactions, and data remain secure against potentially groundbreaking quantum threats.
 
 ## Media
 
@@ -35,6 +43,12 @@ See the [listing announcement](https://support.lbank.com/hc/en-gb/articles/29008
 {{< youtube "UnApvzz1IAw" >}}
 
 Here in Episode #5, we move all the way from early days of the internet through the how Digital Signature Algorithms work and what the future may look like for cryptographic security once sufficiently powerful enough quantum computers arrive in the future. 
+
+### Twitter/X Web3 Global
+
+{{< twitter user="web3globalmedia" id="1763169506023621081">}}
+
+We have also partnered with Web3 Global - [@web3globalmedia](https://twitter.com/web3globalmedia), and explored engaging topics that resonate with both enthusiasts and skeptics of blockchain technology. Our first episode, we debated the pros and cons of "What Makes Crypto Fun," and delved into the excitement and innovation driving the world of cryptocurrency. In the second episode, we tackled the debate on "Doxxed or Undoxed, Which is Better?", or transparency versus anonymity in blockchain projects.
 
 ## Quantum News
 
