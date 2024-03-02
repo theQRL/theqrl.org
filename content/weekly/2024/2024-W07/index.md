@@ -22,7 +22,8 @@ wallet UI component improvements
 
 ## QRL is now a member of Post-Quantum Cryptography Alliance
 
-The QRL Foundation is happy to be a member of [PQCA](https://pqca.org/), a [linux foundation](https://www.linuxfoundation.org/projects) project to advance the adoption of post-quantum cryptography, by producing high-assurance software implementations of standardized algorithms, and supporting the continued development and standardization of new post-quantum algorithms with software for evaluation and prototyping.
+The QRL Foundation is happy to be a member of [PQCA](https://pqca.org/
+), a [linux foundation](https://www.linuxfoundation.org/projects) project to advance the adoption of post-quantum cryptography, by producing high-assurance software implementations of standardized algorithms, and supporting the continued development and standardization of new post-quantum algorithms with software for evaluation and prototyping.
 
 ## Quantum News
 

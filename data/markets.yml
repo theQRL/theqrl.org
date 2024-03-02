@@ -6,6 +6,14 @@
   logo: mexc.svg
   type: Centralized Exchange
 
+- name: "LBank Cryptocurrency Exchange"
+  markets: 
+    - market: QRL-USDT
+      link: https://www.lbank.com/en-US/trade/qrl_usdt
+  link: https://www.lbank.com/en-US/trade/qrl_usdt
+  logo: lbank.svg 
+  type: Centralized Exchange
+
 - name: "Dex-Trade"
   markets:
     - market: QRL-USDT
