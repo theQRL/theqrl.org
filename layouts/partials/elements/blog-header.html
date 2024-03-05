@@ -1,0 +1,53 @@
+{{ range first 1 .Site.Taxonomies.tags.featured }}
+<section id="countdown" class="countdown">
+    <a class="flex_wrapper" href="{{ .Page.RelPermalink }}">
+        <div class="countdown-title flex_wrapper">
+            <h2>{{ .Page.Title }}</h2>
+            <span class="welcome__btn welcome__btn--text">Read More</span>
+        </div>
+    </a>
+</section>
+{{ end }}
+
+
+<style>
+    .countdown {
+        background-color: rgba(0,0,0,0.3);
+    }
+    .countdown .flex_wrapper {
+        align-items: center;
+        justify-content: center;
+    }
+    .countdown .countdown-title.flex_wrapper > h2 {
+        padding-right: 10px;
+    }
+    .countdown .countdown-title span {
+        color: #FFF;
+        text-decoration: underline;
+        height: auto;
+        line-height: 24px;
+    }
+    .countdown .countdown-title h2 {
+        color: #FFA729;
+        font-family: "Alte DIN 1451 Mittelschrift Bold",sans-serif;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    .countdown-title, .timer {
+        vertical-align: middle;
+        padding:10px;
+    }
+    .header {
+       position: relative;
+       top: auto;
+       transition: top 2s;
+    }
+    .header.is-mobile-menu-oppened {
+        position: fixed;
+        top: 0px;
+
+    }
+    .blogPage, .blogPageInner {
+        padding-top:0px;
+    }
+</style>
