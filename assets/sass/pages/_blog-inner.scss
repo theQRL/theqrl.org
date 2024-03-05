@@ -1,7 +1,9 @@
 .blogPageInner {
     font-family: $f-ProR;
     padding-top: 96px;
-
+    .blog-report {
+        padding-bottom: 48px;
+    }
     img {
         // min-width:100%;
         display: block;

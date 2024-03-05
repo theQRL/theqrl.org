@@ -18,9 +18,16 @@
     </div>
     <div class="container-mini blog-article">
       <h1>{{ .Params.Title }}</h1>
+
       <div class="center date-box">
         <span>{{ .Params.summary | markdownify }}</span>
       </div>
+
+      {{ if .Params.report }}
+      <div class="blog-report">
+      {{ partial "elements/report.html" . }}
+      </div>
+      {{ end }}
     <div class="center date-box">
       {{ if .Params.youtube }}
         {{ partial "elements/youtube.html" . }}
@@ -74,6 +81,8 @@
         <h2>Table of Contents</h2>
         {{ .TableOfContents }}
         {{ end }}
+
+
         
         {{ .Content }}
 
