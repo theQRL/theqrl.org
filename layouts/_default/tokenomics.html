@@ -1,0 +1,132 @@
+{{ partial "head/prerender.html" . }}
+  <body data-page-name="coreTeam" class="coreTeam">
+    {{ partial "elements/menu.html" . }}
+    <main>
+      <div class="core-team-head" style="min-height: 540px;">
+        <div class="container-mini">
+          <div class="core-team-head__inner">
+            <p class="section-title">{{ .Params.layout_single_header.sectionsubtitle }}</p>
+            <h1 class="section-title-header text-yellow ">{{ .Params.layout_single_header.sectiontitle }}</h1>
+            <p> {{ .Params.layout_single_header.blurb }}</p>
+            <p></p>
+          </div>
+          <div class="welcome__btn-area">
+              <a href="{{ .Params.layout_single_header.cta.primary.link }}" class="welcome__btn welcome__btn--blue">{{ .Params.layout_single_header.cta.primary.text }}</a>
+              <a href="{{ .Params.layout_single_header.cta.secondary.link }}" class="welcome__btn welcome__btn--text">{{ .Params.layout_single_header.cta.secondary.text }}</a>
+          </div>
+        </div>
+      </div>
+      <section class="core core-page bg-white">
+        <div class="core-page-gray"></div>
+        <div class="container-mini" style="padding-top: 50px;">
+          <div class="container-mini">
+            <h2 class="section-title-header">Circulating Supply</h2>
+          </div>
+          <div>
+            <div class="grid grid-three-cols metrics">
+                <a href='https://explorer.theqrl.org/'>
+                    <div class="core__el animate-fade">
+                    <div class="core__el__indicator">
+                      <div class="indicator" id="status-blockheight">105,000,000</div>
+                    </div>
+                      <div class="core__el__inner">Max Supply
+                        <p>Exponential decay over 200y</p>
+                      </div>
+                      
+                    </div>
+                </a>
+                <a href='https://explorer.theqrl.org/'>
+                    <div class="core__el animate-fade">
+                    <div class="core__el__indicator">
+                      <div class="indicator" id="status-blockheight">{{ lang.FormatNumberCustom 0 .Site.Data.stats.coins_emitted }}</div>
+                    </div>
+                      <div class="core__el__inner">Circulating Supply
+                      <p>Total in exchanges & wallets</p>
+                    </div>
+                    </div>
+                </a>
+
+                <a href='https://explorer.theqrl.org'>
+                  <div class="core__el animate-fade">
+                    <div class="core__el__indicator">
+                      <div class="indicator" id="status-blockreward">8,450,000</div>
+                    </div>
+                    <div class="core__el__inner">
+                        QRL Foundation Reserves
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="grid">
+                <p><em>Note: Network statistics are pulled periodically and aren't live.</em></p>
+              </div>
+
+              
+              
+              
+              <div>
+                  
+                  
+                  
+                  
+                  
+                  
+                <div class="container-mini" style="padding-top: 50px;">
+                <h2 class="section-title-header">Emission Schedule</h2>
+                </div>
+
+                <div class="grid grid-three-cols metrics">
+                    <a href='https://explorer.theqrl.org/'>
+                        <div class="core__el animate-fade">
+                        <div class="core__el__indicator">
+                          <div class="indicator" id="status-blockheight">1.1443%</div>
+                        </div>
+                          <div class="core__el__inner">Current Inflation</div>
+                        </div>
+                    </a>
+                    <a href='https://explorer.theqrl.org/'>
+                        <div class="core__el animate-fade">
+                        <div class="core__el__indicator">
+                          <div class="indicator" id="status-blockheight">4.9133%</div>
+                        </div>
+                          <div class="core__el__inner">Initial Inflation</div>
+                        </div>
+                    </a>
+    
+                    <a href='https://explorer.theqrl.org'>
+                        <div class="core__el animate-fade">
+                          <div class="core__el__indicator">
+                            <div class="indicator" id="status-blockreward">{{ lang.FormatNumberCustom 9 .Site.Data.stats.block_reward }}</div>
+                          </div>
+                          <div class="core__el__inner">
+                              Blockreward (60s)
+                          </div>
+                        </div>
+                      </a>
+                  </div>
+    
+                  <div class="grid">
+                    <p><em>Note: Network statistics are pulled periodically and aren't live.</em></p>
+                  </div>
+    
+                  
+                  
+                  
+                  <div>
+            <div class="container-mini" style="padding-top: 50px;">
+            <h2 class="section-title-header">Other tokenomics stats</h2>
+            </div>
+            <div class="container-mini type blog-article">
+                <div>
+                    {{ .Content }}
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {{ partial "elements/follow.html"}}
+      {{ partial "footer/popup.html" }}
+    </main>
+  {{ partial "footer/nav.html" }}
+{{ partial "footer/end.html" }}
