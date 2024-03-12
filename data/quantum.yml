@@ -1,3 +1,27 @@
+- title: Tuta Mail adds new quantum-resistant encryption to protect email
+  org: bleepingcomputer.com
+  link: https://www.bleepingcomputer.com/news/security/tuta-mail-adds-new-quantum-resistant-encryption-to-protect-email/
+  date: 2024-03-11
+  blurb: |
+    Tuta Mail has announced TutaCrypt, a new post-quantum encryption protocol to secure communications from powerful and anticipated decryption attacks.
+
+    TutaCrypt combines CRYSTALS-Kyber (Also used in QRL Zond) for post-quantum key encapsulation and X25519 for the Elliptic-Curve-Diffie-Hellmann key exchange.
+  img: /quantum_news/2024/output/0311.bleepingcomputer.com
+  img_caption: ''
+
+- title: "Solid-State Qubits: Artificial Atoms Unlock Quantum Computing Breakthrough"
+  org: scitechdaily.com
+  link: https://scitechdaily.com/solid-state-qubits-artificial-atoms-unlock-quantum-computing-breakthrough/
+  date: 2024-03-11
+  blurb: |
+    JILA breakthrough in integrating artificial atoms with photonic circuits advances quantum computing efficiency and scalability.
+
+    Historically, there have been problems with integrating artificial atoms with photonic circuits. This is because creating the artificial atoms (where atoms are knocked out of a diamond crystal) is a very random process, leading to random placement of the artificial atoms, random number of artificial atoms at each location, and random color each artificial atom emits.
+
+    In a new Nano Letters paper, Sun, his research team, and collaborators from Stanford University proposed a new method that would pave the way to solving these two challenges, enabling a more complicated integrated quantum photonic circuit.
+  img: /quantum_news/2024/output/0311.scitechdaily.com
+  img_caption: ''
+
 - title: Google launches $5m prize to find actual uses for quantum computers
   org: newscientist.com
   link: https://www.newscientist.com/article/2420137-google-launches-5m-prize-to-find-actual-uses-for-quantum-computers/
