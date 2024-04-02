@@ -78,7 +78,7 @@
        xml:space="preserve"
        transform="matrix(0.86387916,0,0,0.86387916,200.14273,145.99584)"
        id="text3837"
-       style="font-weight:bold;font-size:48px;line-height:1.25;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift Bold';text-align:start;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect3839);opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:2;stroke-linecap:square;stroke-dashoffset:0.2992;paint-order:markers stroke fill"
+       style="font-weight:bold;font-size:48px;line-height:1.25;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift Bold';text-align:start;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect3839);display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:2;stroke-linecap:square;stroke-dashoffset:0.2992;paint-order:markers stroke fill"
        x="-799.6145"
        y="0"><tspan
          x="-216.02539"

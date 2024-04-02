@@ -6,6 +6,7 @@ position: "Developer"
 slug: charlie
 profile: /img/people/charlie-thompson.png
 weight: 6
+inactive: true
 ---
 
 Charlie Thompson is a full-stack developer and fourth-year computer science student at Cornell University with a special focus on Ethereum applications.

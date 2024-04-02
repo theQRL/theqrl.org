@@ -1,3 +1,32 @@
+- title: IBM Quantum Computing Blog | Landmark IBM error correction paper on
+    Nature cover
+  org: ibm.com
+  link: https://www.ibm.com/quantum/blog/nature-qldpc-error-correction
+  date: 2024-03-27
+  blurb: |
+    Last year, IBM demonstrated that quantum computers had entered the era of utility, where they are now capable of running quantum circuits better than classical computers can. Over the next few years, they expect to find speedups over classical computing and extract business value from these systems.
+  img: /quantum_news/2024/output/0337.ibm.com
+  img_caption: ''
+
+- title: Think you can ignore quantum computing? Think again.
+  org: cio.com
+  link: https://www.cio.com/article/2074464/think-you-can-ignore-quantum-computing-think-again.html
+  date: 2024-03-27
+  blurb: |
+     While gen AI has captured the attention of virtually every CIO, quantum computing is priming to take center stage. 
+  img: /quantum_news/2024/output/0327.cio.com
+  img_caption: ''
+
+- title: Singtel teams with Cisco, Fortinet and Nokia on quantum-safe solutions
+  org: capacitymedia.com
+  link: https://www.capacitymedia.com/article/2d14xjdf0h5vadz00g8ow/news/singtel-teams-with-cisco-fortinet-and-nokia-on-quantum-safe-solutions
+  blurb: |
+    Singtel will partner with Cisco, Fortinet and Nokia to provide quantum security solutions to enterprises through its Quantum Safe Network (QSN).
+  date: 2024-03-28
+  img: /quantum_news/2024/output/0328.capacitymedia.com
+  img_caption: ''
+
+
 - title: NVIDIA Launches Cloud Quantum-Computer Simulation Microservices
   org: nvidianews.nvidia.com
   link: https://nvidianews.nvidia.com/news/nvidia-launches-cloud-quantum-computer-simulation-microservices

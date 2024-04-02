@@ -23,11 +23,11 @@ categories:
 * Payment Interval: 30 minutes
 * Medium: [fungibly](https://medium.com/@pacificpool)
 * Telegram: [https://t.me/fungibly](https://t.me/fungibly)
-* Discord: [https://discord.gg/PeeK7Br](https://discord.gg/PeeK7Br)
+* Discord: [https://www.theqrl.org/discord](https://www.theqrl.org/discord)
 
 > Our goal at fungibly.xyz is to provide the fairest and most transparent QRL mining pool. With Hashback and our recent [switch to pay per share (PPS)](https://medium.com/@fungibly/monero-pay-per-share-pps-mining-fungibly-xyz-566b7d8be75?source=friends_link&sk=a58dd998538eb4105223e84f04a45ab5) we hope we are on are way to reaching that goal.
 
-> Please contact us with any questions or concerns, we are available on [telegram](https://t.me/fungibly) and [discord](https://discord.gg/PeeK7Br). Stay tuned for more articles on mining [fungibly](https://medium.com/@pacificpool). Happy Mining!
+> Please contact us with any questions or concerns, we are available on [telegram](https://t.me/fungibly) and [discord](https://www.theqrl.org/discord). Stay tuned for more articles on mining [fungibly](https://medium.com/@pacificpool). Happy Mining!
 
 ### Hashback program
 
