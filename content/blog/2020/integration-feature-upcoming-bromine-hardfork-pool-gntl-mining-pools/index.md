@@ -20,4 +20,4 @@ categories:
 * Pool Fee: 0.1%
 * Minimum payout: 1 QRL
 * Payment Interval: 1 hour
-* Discord: [https://discord.gg/bxr3TYQ](https://discord.gg/bxr3TYQ)
+* Discord: [https://www.theqrl.org/discord](https://www.theqrl.org/discord)
