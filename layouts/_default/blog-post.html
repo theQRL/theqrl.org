@@ -23,6 +23,12 @@
         <span>{{ .Params.summary | markdownify }}</span>
       </div>
 
+      {{ if .Params.archived }}
+      <div class="blog-archived">
+      As of {{ .Params.archived }}, this has been archived.
+      </div>
+      {{ end }}
+
       {{ if .Params.report }}
       <div class="blog-report">
       {{ partial "elements/report.html" . }}
