@@ -9,11 +9,12 @@ twitter="QRLedger"
 youtube="QRLedger"
 images = ["/logocircle.png"]
 description = "The Quantum Resistant Ledger (QRL) is a first-of-its-kind, post-quantum value store and decentralized communication layer proactively tackling the threat advanced Quantum Computers pose to cryptocurrencies"
+dateFormat = "02 Jan 2006"
 
 [module]
   [[module.imports]]
     path = 'github.com/theQRL/qips'
-    diable = false
+    disable = false
 
     [[module.imports.mounts]]
     source = './qips'
@@ -72,12 +73,14 @@ feature = "features"
 fork = "forks"
 series = "series"
 weekly = "weekly"
+quantum-news = "quantum-news"
 
 [permalinks]
 blog = "/blog/:slug/"
 events = "/events/:slug/"
 pages = "/:slug/"
 weekly = "/weekly/:slug/"
+quantum = "/quantum/:year/:slug/"
 
 [minify]
   disableCSS = false

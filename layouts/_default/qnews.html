@@ -1,0 +1,143 @@
+{{ partial "head/prerender.html" . }}
+  <body data-page-name="blogPageInner" class="blogPageInner quantum-news">
+{{ partial "elements/menu.html" . }}
+    <main>
+<section class="blogPage__inner big-padding bg-white">
+  <div class="article-content" id="article-container">
+    <div class="article-content__fixed-aside" id="article-aside">
+      <div class="container">
+        <div class="article-aside">
+          <a href="/quantum-news" class="article-aside__item article-aside__item--back">
+            <svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9.45534 -7.25446e-08L10.2852 1.07539L3.22495 6.49319L10.2852 11.9246L9.45534 13L0.993982 6.49319L9.45534 -7.25446e-08Z" fill="#0B181E" />
+            </svg>
+          </a>
+          {{ partial "elements/aside.html" . }}
+        </div>
+      </div>
+    </div>
+    <div class="container-mini blog-article">
+      <h1>{{ .Params.Title }}</h1>
+      <div class="center date-box">
+        <span>{{ .Params.summary | markdownify }}</span>
+      </div>
+    <div class="center date-box img-header">
+        <img src="{{ .Params.img }}-full.webp" alt="" />
+
+        <div class="captions">
+            
+            <div class="img-caption">{{ .Params.img_caption }}</div>
+            {{ if .Params.img_credits }}
+            <div class="img-credits">{{ .Params.img_credits }}</div>
+            {{ end }}
+        </div>
+    </div>
+    {{ if .Params.guest }}
+    <blockquote>
+      <p><strong>General Disclaimer:</strong> 
+        This post covers topics and/or tools provided by third parties in the hopes of being useful and/or of general interest and are not controlled by the QRL Foundation.
+      </p>
+    </blockquote>
+    {{ end }}
+      <div class="place-date flex_wrapper flex_jc_beetween">
+        <p>
+          {{ range .Params.categories }}
+          <a href='{{ "/categories/" | relLangURL }}{{ . | urlize}}'>{{ . }}</a>
+          {{ end }}
+          {{ range .Params.features }}
+          <a href='{{ "/features/" | relLangURL }}{{ . | urlize}}'>{{ . }}</a>
+          {{ end }}
+          {{ range .Params.forks }}
+          <a href='{{ "/forks/" | relLangURL }}{{ . | urlize}}'>{{ . }}</a>
+          {{ end }}
+        </p>
+        <p>{{ .Date.Format "2" }}{{ if in (slice 1 21 31) .Date.Day}}st{{ else if in (slice 2 22) .Date.Day}}nd{{ else if in (slice 3 23) .Date.Day}}rd{{ else }}th{{ end }} {{ .Date.Format "January 2006" }}</p>
+      </div>
+      <div class="blog-article__inner">
+        
+        {{ if .Params.guest }}
+        <div class="author-box flex_wrapper">
+          
+          <div class="author-box-img">
+            <img src="/img/guests/guest.png" alt="">
+          </div>
+          <div class="author-box-text flex_dir_col flex_jc_center">
+            <p>GUEST POST WRITTEN BY </p>
+            <p>{{ .Params.guest }}</p>
+          </div>          
+        </div>
+        {{ end }}
+
+
+        
+        {{ if .Params.toc }}
+        <h2>Table of Contents</h2>
+        {{ .TableOfContents }}
+        {{ end }}
+        
+        {{ .Content }}
+
+        {{ if .Params.series }}
+        <div class="place-series">
+          {{ $cslug := .Page.Slug }}
+          {{ $series := index (.Params.series) 0 }}
+          {{ range (.GetTerms "series") }}
+          <p>This article is part of the <strong>{{ .LinkTitle }}</strong> series.</p>
+          {{ end }}
+
+          {{ range $key, $taxonomy := .Site.Taxonomies.series }}
+            {{ if (eq $key $series) }}
+              <ul class="article-series">
+                  {{ range $taxonomy.Pages.ByDate }}
+                    {{ if (eq .Page.Slug $cslug) }}
+                    <li class="current">Selected: {{ .LinkTitle }}</li>
+                    {{ else }}
+                    <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+                    {{ end }}
+                  {{ end }}
+              </ul>
+            {{ end }}
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+
+      <div class="place-date flex_wrapper flex_jc_beetween mt0">
+        <p>
+          {{ range (.GetTerms "features") }}
+          <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+          {{ end }}
+
+          {{ range .Params.categories }}
+          <a href='{{ "/categories/" | relLangURL }}{{ . | urlize}}'>{{ . }}</a>
+          {{ end }}
+
+          {{ range .Params.forks }}
+          <a href='{{ "/forks/" | relLangURL }}{{ . | urlize}}'>{{ . }}</a>
+          {{ end }}
+        </p>
+        <p>{{ .Date.Format "2" }}{{ if in (slice 1 21 31) .Date.Day}}st{{ else if in (slice 2 22) .Date.Day}}nd{{ else if in (slice 3 23) .Date.Day}}rd{{ else }}th{{ end }} {{ .Date.Format "January 2006" }}</p>
+      </div>
+
+      <hr>
+
+      <div class="author-box flex_wrapper">
+        {{ if .Params.org }}
+          <div class="author-box-img">
+            <img src="/img/guests/guest.png" alt="">
+          </div>
+          <div class="author-box-text flex_dir_col flex_jc_center">
+            <p>READ MORE AT</p>
+            <p><a href="{{ .Params.link }}" style="text-decoration: none;">{{ .Params.org }}</a></p>
+          </div>          
+        {{ end }}
+        <div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ partial "footer/popup.html" }}
+</main>
+{{ partial "footer/nav.html" }}
+{{ partial "footer/end.html" }}
