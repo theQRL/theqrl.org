@@ -16,9 +16,9 @@
               <h2>
                   <a href="{{ .Permalink }}" title="">
                       {{ .Param "title" }}
-                      <img src="{{ .Params.img }}-thin.webp" alt="" />
-                </a>
+                  </a>
               </h2>
+              <img src="{{ .Params.img }}-thin.webp" alt="" />
               <div class="listPage__item__text blog-article">
                 <div class="blog-article__inner">
                   <strong>{{ .Params.date.Format .Site.Params.dateFormat }}</strong>: {{ .Summary }}
