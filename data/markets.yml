@@ -9,8 +9,8 @@
 - name: "Biconomy"
   markets: 
     - market: QRL-USDT
-      link: https://www.biconomy.com/exchange/BTC_USDT
-  link: https://www.biconomy.com/exchange/BTC_USDT
+      link: https://www.biconomy.com/exchange/QRL_USDT
+  link: https://www.biconomy.com/exchange/QRL_USDT
   logo: biconomy.svg 
   type: Centralized Exchange
 
