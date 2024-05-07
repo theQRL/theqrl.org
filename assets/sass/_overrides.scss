@@ -177,7 +177,7 @@
     position: relative;
     line-height: 1.4em;
     font-size: 1.03em;
-    padding: 50px;
+    padding: 0 50px 25px 50px;
     list-style: none;
     text-align: left;
     font-weight: 100;
@@ -197,6 +197,7 @@
   .timeline .event {
     border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
     padding-bottom: 25px;
+    padding-top: 25px;
     margin-bottom: 50px;
     position: relative;
   }
@@ -224,6 +225,7 @@
     font-weight: 100;
     font-size: 0.9em;
     min-width: 140px;
+    top: 20px;
   }
   .timeline .event:after {
     left: -56.85px;
@@ -232,7 +234,7 @@
     height: 11px;
     width: 11px;
     content: "";
-    top: 5px;
+    top: 30px;
   }
   .future .timeline .event:after {
     background: #4AAFFF;

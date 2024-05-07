@@ -1,5 +1,11 @@
 .listPage {
 
+    .button {
+        margin-top:10px;
+        margin-bottom: 0;
+        
+    }
+    
     .header{
         background-color: #0a1720;
     }
@@ -102,6 +108,7 @@
         p{  
             display: -webkit-box;
             font-family: $f-ProR;
+            padding: 10px 0;
         }
         &__overview{
             font-size: 14px;
