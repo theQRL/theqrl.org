@@ -6,6 +6,14 @@
   logo: mexc.svg
   type: Centralized Exchange
 
+- name: "Biconomy"
+  markets: 
+    - market: QRL-USDT
+      link: https://www.biconomy.com/exchange/BTC_USDT
+  link: https://www.biconomy.com/exchange/BTC_USDT
+  logo: biconomy.svg 
+  type: Centralized Exchange
+
 - name: "LBank Cryptocurrency Exchange"
   markets: 
     - market: QRL-USDT
