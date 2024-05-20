@@ -19,6 +19,7 @@ orgs:
 date: "2022-10-03"
 layout: qnews
 slug: cloudflare-s-post-quantum-cryptography-protects-almost-a-fifth-of-the-internet
+companies: [ 'cloudflare' ]
 ---
 
 Cloudflare has launched post-quantum cryptography support for all websites and APIs served through its network. This will introduce quantum computer-proof encryption for all sites using Cloudflare, which accounts for 19.1% of all websites according to W3Techs. Researchers estimate the market for such solutions will be worth $476.8 million by 2030. 
