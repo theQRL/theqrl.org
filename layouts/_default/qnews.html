@@ -44,6 +44,9 @@
           {{ range .Params.categories }}
           <a href='{{ "/categories/" | relLangURL }}{{ . | urlize}}'>{{ . }}</a>
           {{ end }}
+          {{ range .Params.companies }}
+          <a href='{{ "/companies/" | relLangURL }}{{ . | urlize}}'>{{ . }}</a>
+          {{ end }}
           {{ range .Params.features }}
           <a href='{{ "/features/" | relLangURL }}{{ . | urlize}}'>{{ . }}</a>
           {{ end }}
