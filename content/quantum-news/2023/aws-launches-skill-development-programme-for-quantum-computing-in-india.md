@@ -10,6 +10,7 @@ blurb: |
 date: "2023-05-09"
 layout: qnews
 slug: aws-launches-skill-development-programme-for-quantum-computing-in-india
+organizations: [Amazon Web Services (AWS)]
 ---
 
 Amazon Web Services (AWS) has launched two skill development programmes for quantum computing in India. The company is collaborating with academic institutions and learning platforms to integrate Amazon Braket — a fully managed quantum computing

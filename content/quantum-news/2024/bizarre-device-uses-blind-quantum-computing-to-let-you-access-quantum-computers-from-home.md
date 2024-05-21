@@ -13,7 +13,7 @@ summary: Researchers have developed a secure method called "blind quantum
   computing" that allows PCs to connect to quantum computers over the internet
   using fiber-optic cables and quantum memory, potentially making advanced
   quantum computing more accessible.
-companies: [IBM, Amazon Web Services (AWS), Rolls-Royce]
+organizations: [IBM, Amazon Web Services (AWS), Rolls-Royce]
 ---
 
 Researchers have introduced a new method called "blind quantum computing" that enables secure connections between a PC and a quantum computer over the internet using fiber-optic cables and quantum memory. This technique involves a photon-detecting device linked directly to a PC, allowing remote operations on the quantum computer while keeping the computation structure hidden. This approach addresses security concerns associated with current cloud-based quantum computing services offered by companies like IBM and AWS. The system employs an ion trap to control qubits and uses one-time pad encryption for secure data transmission, making it possible to perform computations without the server knowing the data being processed. 

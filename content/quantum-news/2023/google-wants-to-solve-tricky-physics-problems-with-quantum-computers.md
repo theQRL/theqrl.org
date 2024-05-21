@@ -3,7 +3,7 @@ title: Google wants to solve tricky physics problems with quantum computers
 org: newscientist.com
 link: https://www.newscientist.com/article/2409147-google-wants-to-solve-tricky-physics-problems-with-quantum-computers/
 date: "2023-12-19"
-blurb: |
+summary: |
   Ryan Babbush and his colleagues at Google have developed an algorithm to translate a large range of classical problems so that they can be run on quantum computers. “There's an important class of classical systems in which we can get an exponential speed-up in simulating the dynamics of those systems on a quantum computer,” says Babbush.
 
   Babbush and his team realised that the mathematics of these classical spring systems, however complex, could always be expressed as a version of the Schrödinger equation, which describes how any quantum system changes through time.

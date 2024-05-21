@@ -11,6 +11,7 @@ img: /quantum_news/2023/output/0704.earth.com
 img_caption: ""
 layout: qnews
 slug: quantum-computer-built-by-google-can-instantly-execute-a-task-that-would-normally-take-47-years
+organizations: [Google]
 ---
 
 Google has developed a quantum computer that can perform calculations in a matter of seconds that would take the most advanced supercomputers nearly 50 years to process. 

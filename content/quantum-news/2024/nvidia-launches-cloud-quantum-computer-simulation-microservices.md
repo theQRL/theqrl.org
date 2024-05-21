@@ -15,7 +15,7 @@ img: /quantum_news/2024/output/0318.nvidianews.nvidia.com
 img_caption: ""
 layout: qnews
 slug: nvidia-launches-cloud-quantum-computer-simulation-microservices
-companies: [nvidia]
+organizations: [nvidia]
 ---
 
 NVIDIA today launched a cloud service that allows researchers and developers to push the boundaries of quantum computing exploration in key scientific domains, including chemistry, biology and materials science.

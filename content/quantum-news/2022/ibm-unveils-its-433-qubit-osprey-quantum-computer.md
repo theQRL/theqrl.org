@@ -19,7 +19,7 @@ orgs:
 date: "2022-11-09"
 layout: qnews
 slug: ibm-unveils-its-433-qubit-osprey-quantum-computer
-companies: [IBM]
+organizations: [IBM]
 ---
 
 IBM's Osprey quantum processor has 433 qubits, up from the 127 qubits of its 2021 Eagle processor. The company plans to hit the 4,000-qubit stage with its Kookaburra processor in 2025.

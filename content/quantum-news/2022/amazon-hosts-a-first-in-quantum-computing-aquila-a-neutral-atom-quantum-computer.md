@@ -17,6 +17,7 @@ orgs:
 date: "2022-12-11"
 layout: qnews
 slug: amazon-hosts-a-first-in-quantum-computing-aquila-a-neutral-atom-quantum-computer
+organizations: [Amazon]
 ---
 
 Amazon Web Services (AWS) is hosting Aquila by [QuEra](https://www.quera.com/), the first publicly available neutral atom quantum computer on [Amazon Braket](https://aws.amazon.com/braket/).

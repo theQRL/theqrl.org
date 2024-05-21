@@ -16,7 +16,7 @@ orgs:
 date: "2022-11-17"
 layout: qnews
 slug: ibm-quantum-computer-runs-largest-quantum-program-yet
-companies: [IBM]
+organizations: [IBM]
 ---
 
 A quantum computer has run the largest quantum program yet. The computer made errors, but a mathematical method was able to extract a meaningful result anyway. This error-mitigation technique could help quantum computers become more useful than their imperfect hardware would otherwise allow them to be. IBM's quantum computer had qubits made from tiny wires that conduct electricity perfectly. Superconducting qubits are typically programmed by being hit with pulses of microwaves, so running the new program was equivalent to programming a microwave pulse sequence.

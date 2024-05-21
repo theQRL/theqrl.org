@@ -69,7 +69,8 @@ dateFormat = "02 Jan 2006"
 author = "team"
 tag = "tags"
 category = "categories"
-company = "companies"
+organization = "organizations"
+nation = "nations"
 feature = "features"
 fork = "forks"
 series = "series"
@@ -82,6 +83,9 @@ events = "/events/:slug/"
 pages = "/:slug/"
 weekly = "/weekly/:slug/"
 quantum = "/quantum/:year/:slug/"
+organizations = "/quantum-news/organization/:slug"
+nations = "/quantum-news/nation/:slug"
+
 
 [minify]
   disableCSS = false

@@ -16,6 +16,7 @@ countries:
 date: "2023-03-13"
 layout: qnews
 slug: uk-to-invest-2-5bn-in-quantum-computing-drive
+nations: [United Kingdom]
 ---
 
 The UK government is investing £2.5bn in quantum computing to keep the UK competitive in one of the world's fastest-moving fields. The National Quantum Computing Centre will play a leading role in the expanded programme. The UK has the most quantum start-ups in Europe, with a new government programme to boost homegrown companies and address the shortage of qualified workers.

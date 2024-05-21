@@ -9,6 +9,7 @@ blurb: |
 date: "2022-07-23"
 layout: qnews
 slug: continued-progress-at-google-ai-quantum-qvm-cirq-1-0-surface-code-scaling-and-more-sycamore-qubits
+organizations: [Google]
 ---
 
 Google held its Quantum Summer Symposium last week and described a number of new developments that shows they are continuing to progress in their quantum developments.
