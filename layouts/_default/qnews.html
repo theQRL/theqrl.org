@@ -44,9 +44,15 @@
           {{ range .Params.categories }}
           <a href='{{ "/categories/" | relLangURL }}{{ . | urlize}}'>{{ . }}</a>
           {{ end }}
-          {{ range .Params.companies }}
-          <a href='{{ "/companies/" | relLangURL }}{{ . | urlize}}'>{{ . }}</a>
-          {{ end }}
+
+          {{ range .Params.organizations }}
+          <a href="/quantum-news/organization/{{ . | urlize }}">{{ . }}</a>
+        {{ end }}
+
+        {{ range .Params.nations }}
+        <a href="/quantum-news/nation/{{ . | urlize }}">{{ . }}</a>
+      {{ end }}
+          
           {{ range .Params.features }}
           <a href='{{ "/features/" | relLangURL }}{{ . | urlize}}'>{{ . }}</a>
           {{ end }}

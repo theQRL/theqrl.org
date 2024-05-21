@@ -3,30 +3,49 @@
   {{ partial "elements/menu.html" . }}
   <main>
 <section class="blogPage__main big-padding bg-white">
-  <div class="container-medium">
-      {{ if .Content }}
-        <div class="container-mini">
-            <h1 class="section-title-header">{{ .Title }}</h2>
-        </div>
-      <div class="blogPageInner" id="article-container">
-        <div class="container-mini blog-article">
-          {{ if .Params.toc }}
-          <h3>Table of Contents</h3>
-          {{ .TableOfContents }}
-        {{ end }}
-            {{ .Content | replaceRE "(<h[1-6] id=\"(.+)\".*>)(.*)(</h[1-6]>)" `${1}<a href="#${2}">${3}${4}</a>` | safeHTML }}
+  <div class="article-content" id="article-container">
+    <div class="article-content__fixed-aside" id="article-aside">
+      <div class="container">
+        <div class="article-aside">
+          <a href="/quantum-news" class="article-aside__item article-aside__item--back">
+            <svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9.45534 -7.25446e-08L10.2852 1.07539L3.22495 6.49319L10.2852 11.9246L9.45534 13L0.993982 6.49319L9.45534 -7.25446e-08Z" fill="#0B181E" />
+            </svg>
+          </a>
+          {{ partial "elements/aside.html" . }}
         </div>
       </div>
-      {{ end }}
+    </div>
+  
+  <div class="container-medium">
+    
+    
+    
+    {{ if .Content }}
+    <div class="container-mini">
+      <h1 class="section-title-header">{{ .Title }}</h2>
+        </div>
+        <div class="blogPageInner" id="article-container">
+          <div class="container-mini blog-article">
+            {{ if .Params.toc }}
+            <h3>Table of Contents</h3>
+            {{ .TableOfContents }}
+            {{ end }}
+            {{ .Content | replaceRE "(<h[1-6] id=\"(.+)\".*>)(.*)(</h[1-6]>)" `${1}<a href="#${2}">${3}${4}</a>` | safeHTML }}
+          </div>
+        </div>
+        {{ end }}
+        
+        
+        
 
-
-
-
+        
 
       <div class="container-mini">
           <h1 class="section-title-header">{{ .Title }} QUANTUM NEWS AND UPDATES</h2>
       </div>
-      
+
+
       
         {{ $paginator := .Paginate (sort (where .Data.Pages "Params.layout" "qnews") ".Params.date" "desc") 10 }}
         {{ range $paginator.Pages }}
