@@ -12,6 +12,7 @@ img_caption: 'KF-C72-300, a 76-qubit quantum chip, can work only at a temperatur
   close to absolute zero. Photo: Origin Quantum'
 layout: qnews
 slug: china-uses-foreign-machines-to-make-quantum-computers
+nations: [China]
 ---
 
 A Chinese company has made a 72-qubit superconducting quantum chip with foreign machines as the United States's curbs failed to slow China's development in this area.

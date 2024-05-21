@@ -11,6 +11,7 @@ img: /quantum_news/2024/output/0311.bleepingcomputer.com
 img_caption: ""
 layout: qnews
 slug: tuta-mail-adds-new-quantum-resistant-encryption-to-protect-email
+organizations: [Tuta Mail]
 ---
 
 Tuta Mail has announced TutaCrypt, a new post-quantum encryption protocol to secure communications from powerful and anticipated decryption attacks.

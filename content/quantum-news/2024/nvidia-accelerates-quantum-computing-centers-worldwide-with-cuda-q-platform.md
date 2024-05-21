@@ -12,7 +12,7 @@ blurb: NVIDIA's open-source CUDA-Q platform is being adopted by supercomputing
   centers in Germany, Japan, and Poland to integrate quantum processing units
   with classical supercomputers, advancing research in quantum computing and
   enabling breakthroughs in various scientific fields.
-companies: [NVIDIA, IQM Quantum Computers, QuEra, ORCA Computing]
+organizations: [NVIDIA, IQM Quantum Computers, QuEra, ORCA Computing]
 ---
 
 NVIDIA has announced the integration of its open-source CUDA-Q platform to accelerate quantum computing research at supercomputing centers in Germany, Japan, and Poland. These centers will utilize Quantum Processing Units (QPUs) within their NVIDIA-accelerated high-performance computing systems to enhance quantum research capabilities. Germany's Jülich Supercomputing Centre will complement its JUPITER supercomputer with a QPU from IQM Quantum Computers, while Japan’s AIST will use a QuEra QPU in its ABCI-Q supercomputer to advance AI, energy, and biology applications. Poland’s PSNC has installed two photonic QPUs from ORCA Computing to explore applications in biology, chemistry, and machine learning.

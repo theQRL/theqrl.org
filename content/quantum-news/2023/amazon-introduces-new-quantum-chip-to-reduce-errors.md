@@ -10,6 +10,7 @@ img_caption: A superconducting-qubit quantum chip in package assembly developed 
   manufactured at the AWS Center for Quantum Computing in Pasadena, Calif.AWS
 layout: qnews
 slug: amazon-introduces-new-quantum-chip-to-reduce-errors
+organizations: [Amazon]
 ---
 
 Amazon Web Services has unveiled a groundbreaking quantum chip, a custom-designed device fabricated in-house by its quantum team. The chip marks a significant milestone in error-corrected quantum computing, with a passive error correction approach able to **suppress errors by 100x** by using a passive error correction approach.

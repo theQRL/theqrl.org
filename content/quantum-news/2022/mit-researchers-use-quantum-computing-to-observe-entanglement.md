@@ -19,6 +19,7 @@ orgs:
 date: "2022-12-01"
 layout: qnews
 slug: mit-researchers-use-quantum-computing-to-observe-entanglement
+organizations: [MIT]
 ---
 
 Quantum information traveled across a quantum system in what could be understood as traversing a wormhole. A wormhole is a bridge between two remote spacetime regions. This experiment performed on the Sycamore quantum processor device at Google opens the doors to future experiments with quantum computers. The Sycamore 53-qubit quantum processor allows researchers to send signals "through the wormhole". 

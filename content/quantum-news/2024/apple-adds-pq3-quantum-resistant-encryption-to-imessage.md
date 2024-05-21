@@ -9,7 +9,7 @@ img: /quantum_news/2024/output/0227.bleepingcomputer.com
 img_caption: ""
 layout: qnews
 slug: apple-adds-pq3-quantum-resistant-encryption-to-imessage
-companies: [Apple]
+organizations: [Apple]
 ---
 
 Apple has implemented a new post-quantum cryptographic protocol, PQ3, to iMessage, aiming to protect against potential quantum computing threats that could break current encryption methods. This protocol, which combines with the existing Elliptic Curve Cryptography, introduces a hybrid model to ensure robust protection against both current and future quantum attacks. PQ3 features innovations like periodic rekeying to enhance security further, making it one of the most secure at-scale messaging protocols available.

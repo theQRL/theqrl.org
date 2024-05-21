@@ -16,6 +16,7 @@ img_caption: Representational stock image for a quantum computer
 img_credits: bpawesom/iStock
 layout: qnews
 slug: us-firm-plans-to-build-10-000-qubit-quantum-computer-by-2026
+organizations: [QuEra]
 ---
 
 QuEra Computing, a Boston-based company, aims to revolutionize computing with quantum technology. They plan to launch a 10,000 qubit quantum computer by 2026, surpassing the capabilities of today's fastest supercomputers.

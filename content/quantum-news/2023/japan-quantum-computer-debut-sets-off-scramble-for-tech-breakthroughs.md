@@ -17,6 +17,7 @@ countries:
 date: "2023-03-28"
 layout: qnews
 slug: japan-quantum-computer-debut-sets-off-scramble-for-tech-breakthroughs
+nations: [Japan]
 ---
 
 Riken's first homegrown quantum computer could transform auto, finance, chemical, and pharmaceutical industries. The government and Riken plan to connect an over-100-qubit quantum computer to the Fugaku supercomputer in fiscal 2025. Fujitsu plans to finish a 64-qubit quantum computer in fiscal 2023 and 1,000 in 2026. Fujitsu will collaborate with Fujifilm and Tokyo Electron, while Riken will research Japanese businesses and universities.

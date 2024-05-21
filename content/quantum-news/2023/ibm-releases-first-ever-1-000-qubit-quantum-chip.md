@@ -13,6 +13,7 @@ img_caption: A IBM Quantum 133 Qubit HERON chip. One of IBM’s latest quantum p
 img_credits: Ryan Lavine for IBM
 layout: qnews
 slug: ibm-releases-first-ever-1-000-qubit-quantum-chip
+companies: [IBM]
 ---
 
 IBM has announced Condor, its first quantum computer with over 1,000 qubits. However, rather than just focusing on increasing the the number of qubits, IBM intends to make them more error-resistant, shown in simultaneous release of Heron, with 133 qubits and a record-low error rate. 

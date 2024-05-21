@@ -47,7 +47,7 @@ orgs:
 date: "2022-10-03"
 layout: qnews
 slug: quantinuum-is-on-a-roll-17-significant-quantum-computing-achievements-in-12-months
-companies: [Quantinuum]
+organizations: [Quantinuum]
 ---
 
 Quantum computing company Quantinuum made three more announcements at IEEE Quantum Week 2022. Announcements include another quantum volume record, a new method to make two-qubit gates with higher fidelity and greater efficiency, and a milestone achievement of more than a half-million downloads of its software.

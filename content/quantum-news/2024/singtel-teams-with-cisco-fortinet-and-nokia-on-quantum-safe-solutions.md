@@ -9,6 +9,7 @@ img: /quantum_news/2024/output/0328.capacitymedia.com
 img_caption: ""
 layout: qnews
 slug: singtel-teams-with-cisco-fortinet-and-nokia-on-quantum-safe-solutions
+organizations: [Singtel, Cisco, FOrtinet, Nokia]
 ---
 
 Singtel will partner with Cisco, Fortinet and Nokia to provide quantum security solutions to enterprises through its Quantum Safe Network (QSN).

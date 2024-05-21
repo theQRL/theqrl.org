@@ -9,7 +9,7 @@ blurb: |
 date: "2022-09-21"
 layout: qnews
 slug: psiquantum-has-a-goal-for-its-million-qubit-photonic-quantum-computer-to-outperform-every-supercomputer-on-the-planet
-companies: [psiquantum]
+organizations: [PsiQuantum]
 ---
 
 “We believed we had cracked the code for building a million-qubit quantum computer,” Dr. Shadbolt said. “Even though that's a huge number, the secret seemed simple. All we had to do was use the same process as the one being used to put billions of transistors into cell phones. We felt a large quantum computer wouldn’t exist in our lifetime unless we figured out how to build it in a semiconductor foundry. That idea has been turned into reality. We are now building quantum chips next to laptops and cell phone chips on the GlobalFoundries 300-millimeter platform.”
