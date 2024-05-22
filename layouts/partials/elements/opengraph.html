@@ -8,6 +8,10 @@
 	<meta property="article:published_time" content="{{ .Page.Date }}">
 {{ end }}
 
+{{ if (eq $.Params.layout "qnews") }}
+	<meta property="article:published_time" content="{{ .Page.Date }}">
+{{ end }}
+
 {{-  if .Page.Params.featured_image -}}
   {{- $resource := printf "/content/%simages/%s" .File.Dir .Page.Params.featured_image -}}
   {{- $image := resources.Get $resource -}}
@@ -15,6 +19,9 @@
   {{- $ogImage := $after.Permalink -}}
   <meta property="og:image" content="{{ $ogImage | absURL }}">
   <meta name="twitter:image" content="{{ $ogImage | absURL }}">
+{{- else if (eq $.Params.layout "qnews") -}}
+  <meta property="og:image" content="{{ $.Params.img | absURL }}-full.webp">
+  <meta name="twitter:image" content="{{ $.Params.img | absURL }}-full.webp">
 {{- else -}}
   <meta property="og:image" content="{{ "/logocircle.png" | absURL }}">
   <meta name="twitter:image" content="{{ "/logocircle.png" | absURL }}">

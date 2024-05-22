@@ -25,23 +25,7 @@ body.quantum-news {
             }
         }
     }
-    // p.img-caption {
-    //     // position:relative; bottom:0px; right:0;
-    //     background-color:#000;
-    //     color: #FFF;
-    //     font-size: 80%;
-    //     padding: 1px 7px;
-    //     margin:0;
-    // }
-    // p.img-credits {
-    //     // position:relative; bottom:0px; right:0px;
-    //     background-color:#F00;
 
-    //     color: #FFF;
-    //     font-size: 80%;
-    //     padding: 1px 7px;
-    //     margin:0;
-    // }
     .quantum-news-organization {
         height: 30px;
       }
@@ -62,6 +46,9 @@ body.quantum-news {
                 background-color: #FCFCFC;
                 border-radius: 6px;
                 padding: 20px 20px 10px 20px;
+                &:hover {
+                    border-color: #4AAFFF;
+                }
             }
             a:nth-child(n+11) {
                 display:none;
