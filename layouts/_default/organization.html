@@ -1,5 +1,5 @@
 {{ partial "head/prerender.html" . }}
-<body data-page-name="blogPage" class="blogPage">
+<body data-page-name="blogPage" class="blogPage quantum-news">
   {{ partial "elements/menu.html" . }}
   <main>
 <section class="blogPage__main big-padding bg-white">
@@ -21,20 +21,7 @@
     
     
     
-    {{ if .Content }}
-    <div class="container-mini">
-      <h1 class="section-title-header">{{ .Title }}</h2>
-        </div>
-        <div class="blogPageInner" id="article-container">
-          <div class="container-mini blog-article">
-            {{ if .Params.toc }}
-            <h3>Table of Contents</h3>
-            {{ .TableOfContents }}
-            {{ end }}
-            {{ .Content | replaceRE "(<h[1-6] id=\"(.+)\".*>)(.*)(</h[1-6]>)" `${1}<a href="#${2}">${3}${4}</a>` | safeHTML }}
-          </div>
-        </div>
-        {{ end }}
+
         
         
         
@@ -42,12 +29,30 @@
         
 
       <div class="container-mini">
-          <h1 class="section-title-header">{{ .Title }} QUANTUM NEWS AND UPDATES</h2>
+          {{ if eq .Params.taxonomy_index true }}
+          <h1 class="section-title-header">ORGANISATIONS IN QUANTUM NEWS AND UPDATES</h2>
+          {{ else }}
+            <h1 class="section-title-header">{{ .Title }} QUANTUM NEWS AND UPDATES</h2>
+          {{ end }}
       </div>
 
-
+      {{ if .Content }}
+      <div class="blogPageInner" id="article-container">
+        <div class="container-mini blog-article">
+          {{ if .Params.toc }}
+          <h3>Table of Contents</h3>
+          {{ .TableOfContents }}
+          {{ end }}
+          {{ .Content | replaceRE "(<h[1-6] id=\"(.+)\".*>)(.*)(</h[1-6]>)" `${1}<a href="#${2}">${3}${4}</a>` | safeHTML }}
+        </div>
+      </div>
+      {{ end }}
       
-        {{ $paginator := .Paginate (sort (where .Data.Pages "Params.layout" "qnews") ".Params.date" "desc") 10 }}
+
+
+
+
+        {{ $paginator := .Paginate (sort (where .Data.Pages "Params.layout" "qnews") ".Params.date" "desc") 1 }}
         {{ range $paginator.Pages }}
         <div class="listPage__item">
             <h2>
@@ -181,10 +186,10 @@
 {{ end }}
 
 
+{{ partial "elements/taxonomy-organizations.html" . }}
 
 
-
-  </div>
+</div>
 </section>
 {{ partial "footer/popup.html" }}
 </main>

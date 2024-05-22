@@ -1,5 +1,5 @@
 {{ partial "head/prerender.html" . }}
-<body data-page-name="listPage" class="listPage quantum-news-list">
+<body data-page-name="listPage" class="listPage quantum-news quantum-news-list">
   {{ partial "elements/menu.html" . }}
   <main>
 <section class="listPage__main big-padding bg-white">
@@ -8,8 +8,12 @@
           <h1 class="section-title-header">Quantum News</h2>
       </div>
       <div class="listPage__list">
+        {{ partial "elements/taxonomy-organizations.html" . }}
+
+
+
         {{ $paginator := .Paginate (sort (where .Site.Pages "Params.layout" "qnews") ".Params.date" "desc") 10 }}
-        
+
         {{ range $paginator.Pages }}
 
           <div class="listPage__item">

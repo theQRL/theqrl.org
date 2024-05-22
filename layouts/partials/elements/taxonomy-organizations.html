@@ -1,0 +1,19 @@
+{{ $taxonomy := "organizations" }}
+{{ $notable := slice "intel" "ibm" "honeywell" "amazon-web-services-aws" "psiquantum" "apple" "cloudflare" "rigetti" }}
+<div class="flex-orgs{{ if isset .Params "taxonomy_index" }} flex-orgs--full{{ end }}">
+  <div>
+
+    {{ range (index site.Taxonomies $taxonomy).ByCount }}
+    {{ if (in $notable .Term ) }}
+    <a href="{{ .Page.RelPermalink }}"><img class="quantum-news-organization" src=/orgs/{{ .Term }}.svg></a>
+    {{ end }}
+    {{ end }}
+    
+    {{ range (index site.Taxonomies $taxonomy).ByCount }}
+    {{ if not (in $notable .Term ) }}
+    <a href="{{ .Page.RelPermalink }}"><img class="quantum-news-organization" src=/orgs/{{ .Term }}.svg></a>
+    {{ end }}
+    {{ end }}
+  </div>        
+  <a class="button button--center button--blue" href="/quantum-news/organizations/">View entire list of organizations</a>
+</div>
