@@ -42,6 +42,49 @@ body.quantum-news {
     //     padding: 1px 7px;
     //     margin:0;
     // }
+    .quantum-news-organization {
+        height: 30px;
+      }
+    .flex-orgs {
+        margin: 0px -10px;
+        > div {
+            display: inline-flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            // align-content: stretch;
+            
+            a {
+                text-align: center;
+                flex: auto;
+                margin:10px;
+                border: 1px solid #EAEAEA; 
+                background-color: #FCFCFC;
+                border-radius: 6px;
+                padding: 20px 20px 10px 20px;
+            }
+            a:nth-child(n+11) {
+                display:none;
+            }
+        }
+        &--full { 
+            > div {
+                a:nth-child(N+11) {
+                    display:unset;
+                }
+            }
+            .button {
+                display:none;
+            }
+        }
+        .button {
+            width:fit-content;
+            max-width: 100%;
+        }
+    }
+    .blogPage__pag + .flex-orgs {
+      margin-top:50px;
+    }
 }
 
 body.quantum-news-list {
@@ -57,3 +100,4 @@ body.quantum-news-list {
         }
     }
 }
+
