@@ -10,7 +10,7 @@ summary: California-based SandboxAQ acquired French startup Cryptosense to
 date: "2022-10-22"
 layout: qnews
 slug: sandboxaq-buys-cryptosense-to-deploy-post-quantum-cryptography
-organizations: [SandboxAQ, Cryptosense]
+organizations: [SandboxAQ]
 ---
 
 Attacks on large corporations are increasingly sophisticated, and Cryptosense, a French startup specializing in cryptographic security, addresses these vulnerabilities by providing software that detects and corrects cryptography misuse. Recently acquired by California-based SandboxAQ to bolster its post-quantum cryptography solutions, Cryptosense originated from the French National Institute for Computer Science Research (Inria) and was founded in 2013. The acquisition aims to enhance SandboxAQ’s cybersecurity capabilities, especially in preparation for the advent of quantum computing, which poses significant risks to current cryptographic methods.
