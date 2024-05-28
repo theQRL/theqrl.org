@@ -2,7 +2,7 @@
 layout: qnews
 title: "Ripple publishes math prof’s warning: ‘public-key cryptosystems should
   be replaced’"
-slug: ripple-publishes-math-prof's-warning:-'public-key-cryptosystems-should-be-replaced'
+slug: ripple-publishes-math-profs-warning-public-key-cryptosystems-should-be-replaced
 org: cointelegraph.com
 link: https://cointelegraph.com/news/ripple-math-warning-public-key-cryptosystems-quantum-computers
 date: 2024-05-19
