@@ -5,7 +5,7 @@ layout_single_header:
   sectionsubtitle: 'Quantum Resistant Ledger'
   sectiontitle: 'Consensus 2024 NFC Tag hunt'
   blurb: |
-    Join the thrill of the future with our cutting-edge Quantum Resistant Ledger NFC Tag Hunt and learn about QRL in the process! Collect all 34 codes and win the grand prize.
+    Join the thrill of the future with our cutting-edge Quantum Resistant Ledger NFC Tag Hunt and learn about QRL and earn some in the process!
   cta:
     primary:
       text: NO CODE FOUND
@@ -13,7 +13,7 @@ layout_single_header:
     secondary:
       text: View markets
       link: '/markets/'
-summary: "Join the thrill of the future with our cutting-edge Quantum Resistant Ledger NFC Tag Hunt and learn about QRL in the process! Collect all 34 codes and win the grand prize."
+summary: "Join the thrill of the future with our cutting-edge Quantum Resistant Ledger NFC Tag Hunt and learn about QRL and earn some in the process!"
 title: "Consensus 2024 NFC Tag hunt"
 scripts_footer: [footer.js]
 toc: true
@@ -36,7 +36,14 @@ Confused about getting started? Come check out our booth for more information on
 </style>
 {{</rawhtml>}}
 
-## Step 1: Get the QRL wallet
+
+## Step 1: Come to our QRL Booth
+
+Go to the QRL Booth and create a wallet (see step 2) for some initial QRL to start your journey
+
+![alt text](image-1.png)
+
+## Step 2: Get the QRL wallet
 
 Download the QRL wallet developed by Volt Development on the Google Play or Apple Store.
 
@@ -47,12 +54,6 @@ Download the QRL wallet developed by Volt Development on the Google Play or Appl
 ### Apple/iOS
 
 [![GPlay](../img/icons/button-app-store.svg)](itms-apps://itunes.apple.com/app/id6448219494)
-
-## Step 2: Get QRL
-
-Go to the QRL Booth for some initial QRL to start your journey
-
-![alt text](image-1.png)
 
 ## Step 3: Look out for QRL NFC stickers
 
@@ -69,13 +70,18 @@ Stickers will look like this:
 2. Go to Tools
 3. Click on "Send Message"
 4. Copy the code into the message area
+5. Send transraction
+6. **Come see us to claim a reward**. 1 tag = 1 Quanta (QRL)
 
 ## Step 5: Win the grand prize
 
-All 34 stickers is enough to create a mnemonic, so write them down! This opens a wallet. 
+All 34 stickers is enough to create a mnemonic! This opens a wallet (though you don't need to for the event)
 
-From that wallet create a message transaction with your address in it and come to a team member to show us. 
+When you head home (or before 4pm on Friday), come see us and we'll record your address and how much of the mnemonic you've completed.
 
+After the event, we will select the winners and distribute the grand prizes accordingly.
+
+> Had to catch a flight early? Contact us through our socials with a screenshot of the mnemonic and your QRL address and you'll be accounted for.
 
 ## Current Mnemonic Gathered
 
