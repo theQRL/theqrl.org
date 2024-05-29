@@ -40,8 +40,13 @@ Confused about getting started? Come check out our booth for more information on
 
 Download the QRL wallet developed by Volt Development on the Google Play or Apple Store.
 
-- [Volt Development Google Play store](market://details?id=com.volt.qrlmobile)
-- [Volt Development Apple Store](itms-apps://itunes.apple.com/app/id6448219494)
+### Google Play
+
+[![GPlay](../img/icons/button-google-play.svg)](market://details?id=com.volt.qrlmobile)
+
+### Apple/iOS
+
+[![GPlay](../img/icons/button-app-store.svg)](itms-apps://itunes.apple.com/app/id6448219494)
 
 ## Step 2: Get QRL
 
@@ -72,7 +77,28 @@ All 34 stickers is enough to create a mnemonic, so write them down! This opens a
 From that wallet create a message transaction with your address in it and come to a team member to show us. 
 
 
+## Current Mnemonic Gathered
+
 {{<rawhtml>}}
 <div id="mn">
 </div>
+
+
+<style>
+
+#mn {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
+
+.mnemonic {
+  border: 1px solid #CCC;
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+</style>
 {{</rawhtml>}}
