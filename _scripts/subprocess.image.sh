@@ -69,9 +69,9 @@ do
     filename=$(basename "$f")
 
     echo "Converting $f to $format with $basename as the base filename"
-    convert $f -resize "$width"x -gravity center -crop 16:9 -quality $quality "$out""$basename"-full."$format"
-    convert $f -resize "$width"x -gravity center -crop 20:5 -quality $quality "$out""$basename"-thin."$format"
-    convert $f -resize "$width"x -gravity center -crop 1:1 -quality $quality "$out""$basename"-square."$format"
+    magick $f -resize "$width"x -gravity center -crop 16:9 -quality $quality "$out""$basename"-full."$format"
+    magick $f -resize "$width"x -gravity center -crop 20:5 -quality $quality "$out""$basename"-thin."$format"
+    magick $f -resize "$width"x -gravity center -crop 1:1 -quality $quality "$out""$basename"-square."$format"
     
     # cp $f "$out"source/"$filename"
 done
