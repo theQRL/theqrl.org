@@ -5,11 +5,10 @@
   X-Content-Type-Options: nosniff
   Cache-Control: no-transform
   Access-Control-Allow-Origin: "*"
-  Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' www.youtube.com embed.typeform.com form.typeform.com; script-src 'self' 'unsafe-inline' www.googletagmanager.com embed.typeform.com www.google-analytics.com; media-src 'self' www.google-analytics.com; font-src 'self'; connect-src 'self' www.google-analytics.com; img-src 'self' www.google-analytics.com; style-src 'self' 'unsafe-inline' embed.typeform.com; base-uri 'self'
+  Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' *.youtube.com embed.typeform.com form.typeform.com; script-src 'self' 'unsafe-inline' *.googletagmanager.com embed.typeform.com *.google-analytics.com; media-src 'self' www.google-analytics.com *.youtube.com; font-src 'self' data:; frame-src 'self' *.youtube.com; connect-src 'self' *.google-analytics.com *.youtube.com; img-src 'self' *.google-analytics.com *.youtube.com; style-src 'self' 'unsafe-inline' embed.typeform.com; base-uri 'self'; frame-ancestors 'self' *.youtube.com; form-action 'self'; manifest-src 'self'; worker-src 'self';
   Referrer-Policy: strict-origin-when-cross-origin
   X-Permitted-Cross-Domain-Policies: none
-  Clear-Site-Data: "*"
-  Cross-Origin-Embedder-Policy: require-corp
+  Cross-Origin-Embedder-Policy: unsafe-none
   Cross-Origin-Opener-Policy: same-origin
-  Cross-Origin-Resource-Policy: same-origin
+  Cross-Origin-Resource-Policy: cross-origin
   
