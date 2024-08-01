@@ -4,7 +4,7 @@ slug: updates-and-insights-the-future-of-qrl-ama-with-kaushal-kumar-singh
 date: 2024-07-31
 author: "The QRL Core Contributors"
 title: "Updates and Insights: The Future of QRL AMA with lead developer Kaushal Kumar Singh"
-summary: ""
+summary: "In our recent AMA session, lead developer Kaushal Kumar Singh shared significant progress updates and the future vision for the Zond project. Key highlights included advancements in quantum-secure features, seamless Ethereum integration, and an upcoming user-friendly wallet extension."
 featured_image: header.png
 categories:
   - Video
@@ -13,39 +13,38 @@ youtube: uOwqTQy7wOw
 ---
 
 
+## Opening
+
+In our latest AMA session, we had the pleasure of sitting down with Kaushal Kumar Singh, the lead developer of the QRL project, to discuss the exciting advancements and future direction of Zond. 
+
+Since our [last update](https://www.youtube.com/watch?v=AzUqtH1a8m4), significant progress has been made in various facets of the project. As we gear up for the final stages of development, this AMA provides a comprehensive look at what the community can expect in the coming months, from seamless transitions for Ethereum developers to key timelines and upcoming audits. 
+
+Join us as we delve into the latest updates and insights into the future of QRL and Zond.
+
 ## Q1: Since that AMA back in April what has progress been like? What stage are we at and what do timelines look like from here?
 
-### Code Cleanup and Review
+### Progress since the last AMA
 
-- Significant progress in reviewing and cleaning up existing code, particularly related to proof of work.
-- Derivation of current code from Ethereum and Prismatic Labs necessitated a thorough review.
-- Most unnecessary code elements have been removed, with a few remaining to be addressed.
+* Code cleanup: Removed unnecessary code related to Proof of Work, inherited from Ethereum and Prismatic Labs.
+* Implementation of XMSS in the JavaScript library: A pull request has been submitted and is being reviewed.
+* Progress on Chrome extension wallet, similar to MetaMask, to interact with the Solidity compiler.
+* Review of critical parts, including block reward computation.
 
-### Implementation of XMSS
+### Current Stage
 
-- The team has started incorporating XMSS into the JavaScript library.
-- A pull request for XMSS is under review, pending some further refactoring.
-- Integration with the Crypto.js library, which already includes Dilithium, is a focus.
+* Most of the unnecessary code has been removed.
+* XMSS implementation is in progress.
+* Chrome extension wallet development is ongoing, expected to be finished by the end of December.
 
-### Chrome Extension Wallet Development
+### Timelines
 
-- Development is underway for a Chrome extension wallet, similar to MetaMask.
-- This wallet will facilitate interactions with the Solidarity compiler, enabling app creation.
-- Developers will have access to APIs to streamline app development on the Zond platform.
-- Expected completion by the end of December.
+* Chrome extension wallet: Expected to be finished by the end of December.
+* Development wrap-up: Expected to be completed by January or mid-February 2025.
+* Audit:
+	+ Some components, like the cryptography libraries and MetaMask-like wallet, may be audited before January.
+	+ The main code, including the consensus algorithm, will be audited around January or mid-February 2025.
 
-### Block Reward System
-- Transitioning from proof of work to proof of stake introduces complexities in reward distribution.
-- Identifying a fair mechanism to compute rewards for multiple validators is a priority.
-- Adjustments are needed to ensure that the limited supply in QRL is maintained over time while still being appealing for stakers.
-
-### Timeline and Future Plans
-
-- The consensus protocol, being critical, is targeted for finalization by early to mid-February 2025.
-- Audit processes for various components (e.g., Chrome extension, cryptography libraries) may begin earlier, likely before January.
-- The team aims to ensure a robust infrastructure before engaging in audits, promoting a smoother transition to release.
-
-Previous AMA can be found on [YouTube](https://www.youtube.com/watch?v=AzUqtH1a8m4).
+Previous AMA can be found on [our YouTube Channel](https://www.youtube.com/watch?v=AzUqtH1a8m4).
 
 {{< youtube "AzUqtH1a8m4" >}}
 
@@ -207,3 +206,9 @@ In summary, scaling in post-quantum cryptography is a developing field. While cu
 ## Q9: Anything else you’d like viewers to know at this moment on Zond that we haven’t already covered?
 
 We've covered most points, but viewers can keep up with our development progress through our available documentation. For those looking to get ahead, we offer cryptography libraries in Golang and JavaScript, which are beneficial for creating decentralized applications. You can start building on Zond today, even though our ecosystem isn't fully complete. We're here to assist developers in getting started on our testnet and smoothly transitioning to the final versions of our libraries once they're released.
+
+## Closing
+
+As we wrap up this AMA, we're excited about the future of Zond and the strides we're making towards the defining quantum-safe blockchain ecosystem. With seamless Ethereum integration, user-friendly tools, and upcoming audits, our journey is just beginning.
+
+Stay tuned for more updates and join us as we shape the future of secure blockchain technology. Thank you for being a vital part of our community!
