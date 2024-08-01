@@ -12,6 +12,7 @@ slug: "2024-July-30"
 - Review in progress for insertChain, Prefetch function in StatePrefetcher for followup blocks in Go-Zond
 - More unit tests for Go-Zond in progress
 - Type description added for the Dilithium wallet in wallet.js 
+- wallet.js v0.1.2 is released on github
 
 ## Updates and Insights: The Future of QRL AMA with lead developer Kaushal Kumar Singh 
 
@@ -23,7 +24,7 @@ Since our [last update](https://www.youtube.com/watch?v=AzUqtH1a8m4), significan
 
 <!--more-->
 
-Should you want to read the summary or follow along you can visit our blog below:
+If you're looking to dive deeper into the topic, or simply prefer to read along with a detailed summary, we invite you to explore our blog below: 
 
 {{< button url="/blog/updates-and-insights-the-future-of-qrl-ama-with-kaushal-kumar-singh" text="Read the AMA summary">}}
 
