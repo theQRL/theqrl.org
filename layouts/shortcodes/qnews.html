@@ -1,10 +1,11 @@
 {{ $start := .Get "start" }}
 {{ $end := (.Get "end" | time.AsTime).AddDate 0 0 1 }}
 
-{{ $qnews_collection := (sort (where .Site.Pages "Params.layout" "qnews") ".Params.date" "desc") }}
+{{ $threshold := 30 }}
+
+{{ $qnews_collection := (sort (where (where .Site.Pages "Params.layout" "qnews") "Params.threshold" "gt" $threshold) ".Params.date" "desc") }}
 
 {{ range $qnews_collection }}
-
 
 {{ if and ((time .Params.date).After (time $start )) ((time .Params.date).Before (time $end )) }}
 
