@@ -15,6 +15,7 @@ img_credits: 'thenextweb'
 layout: qnews
 slug: deepmind-taps-the-power-of-its-ai-to-accelerate-quantum-computers
 organizations: [Google]
+threshold: 65
 ---
 
 Google DeepMind taps the power of its AI to accelerate quantum computers

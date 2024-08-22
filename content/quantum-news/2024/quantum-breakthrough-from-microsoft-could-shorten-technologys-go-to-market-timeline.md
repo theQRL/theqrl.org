@@ -17,6 +17,7 @@ summary: Microsoft and Quantinuum have achieved a significant quantum computing
 organizations:
   - Microsoft
   - Quantinuum
+threshold: 82
 ---
 
 Microsoft and Quantinuum have announced a significant advancement in quantum computing, achieving error-free calculations across over 14,000 experiments using Quantinuum’s ion-trap hardware and Microsoft’s qubit-virtualization system. This milestone marks the transition from Level 1 Foundational to Level 2 Resilient quantum computing, suggesting that commercial adoption of reliable quantum computers is drawing nearer. Quantum computing promises transformative applications in payments and financial services by enhancing security, optimizing transaction processing, and improving fraud detection. The breakthrough addresses the challenge of "noise" in quantum calculations, moving closer to harnessing the full potential of quantum mechanics for complex problem-solving.

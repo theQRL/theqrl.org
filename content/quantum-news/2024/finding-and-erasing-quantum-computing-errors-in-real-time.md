@@ -16,6 +16,7 @@ img_caption: ""
 layout: qnews
 slug: finding-and-erasing-quantum-computing-errors-in-real-time
 organizations: [Princeton University]
+threshold: 60
 ---
 
 Researchers, led by Jeff Thompson at Princeton University, have developed a novel method to detect and correct errors in quantum computers in real time, potentially making them up to ten times easier to correct. 

@@ -9,6 +9,7 @@ img: /quantum_news/2024/output/0327.cio.com
 img_caption: ""
 layout: qnews
 slug: think-you-can-ignore-quantum-computing-think-again
+threshold: 55
 ---
 
 While gen AI has captured the attention of virtually every CIO, quantum computing is priming to take center stage. 

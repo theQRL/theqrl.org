@@ -11,6 +11,7 @@ img_credits: ""
 summary: Meta is proactively migrating to PQC, prioritizing internal communication traffic susceptible to SNDL attacks. Looking forward, Meta plans to extend its PQC solutions to external traffic.
 organizations:
   - Meta
+threshold: 85
 ---
 
 Meta is proactively transitioning to Post-Quantum Cryptography (PQC) to enhance security against potential quantum threats, initially focusing on internal communications that are vulnerable to specific cyberattacks. They are deploying a hybrid cryptographic approach, which combines traditional algorithms with quantum-resistant technologies, using Kyber and X25519 for hybrid key exchanges in their TLS protocols. This integration is managed through their [Fizz protocol library](https://github.com/facebookincubator/fizz).

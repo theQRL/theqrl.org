@@ -12,6 +12,7 @@ summary: Zoom has globally introduced post-quantum end-to-end encryption for its
   Meetings service, enhancing security against future quantum computer threats,
   with plans to extend this to Zoom Phone and Zoom Rooms.
 organizations: [Zoom]
+threshold: 85
 ---
 
 Zoom has globally launched post-quantum end-to-end encryption (E2EE) for its Meetings service and plans to extend this security feature to Zoom Phone and Zoom Rooms. Using the Kyber768 quantum-resistant algorithm, this encryption ensures that data transmitted between servers and clients remains secure against future quantum computer threats. When users enable E2EE, only meeting participants have access to the encryption keys, addressing concerns about "harvest now, decrypt later" attacks.
