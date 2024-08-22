@@ -13,6 +13,7 @@ summary: Researchers at the University of Bristol have developed the world’s
   could significantly advance the scalability and operational speed of quantum
   computers.
 organizations: [University of Bristol]
+threshold: 75
 ---
 
 Researchers at the University of Bristol have created the world’s smallest quantum light detector on a silicon chip, significantly advancing the miniaturization of quantum technology. This detector, which is thinner than a human hair, operates ten times faster than previous models and is integrated onto a single chip, reducing its footprint by 50 times. The innovation could pave the way for more scalable and practical quantum computers, which currently require large spaces and extremely low temperatures to function. The development mirrors the transformation in electronics during the 1960s when bulky transistors were replaced by compact microchips.

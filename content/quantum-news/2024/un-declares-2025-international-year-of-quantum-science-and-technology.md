@@ -13,6 +13,7 @@ summary: The United Nations has declared 2025 as the International Year of
   building, and the role of quantum research in achieving Sustainable
   Development Goals.
 organizations: [United Nations, European Union]
+threshold: 81
 ---
 
 The United Nations has declared 2025 as the International Year of Quantum Science and Technology (IYQ) to emphasize the critical role quantum research plays in achieving the Sustainable Development Goals (SDGs). This global initiative aims to bolster national capacities in basic sciences and science education, celebrating quantum science's century-long impact on technology, culture, and our understanding of the natural world. Key figures like Thierry Breton and Yasser Omar highlighted Europe's leading role in quantum advancements and the potential of quantum technologies to foster a sustainable and equitable world. The IYQ will feature educational and research activities, showcasing significant projects from Europe’s Quantum Flagship initiative.

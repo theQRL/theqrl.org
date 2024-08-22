@@ -14,6 +14,7 @@ summary: MIT researchers developed a scalable quantum system-on-chip (QSoC) that
   networks.
 organizations:
   - MIT
+threshold: 70
 ---
 
 MIT researchers have made significant progress in the development of quantum computing by creating a scalable hardware system called a "quantum-system-on-chip" (QSoC). 

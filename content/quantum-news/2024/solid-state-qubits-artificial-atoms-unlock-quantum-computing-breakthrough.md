@@ -13,6 +13,7 @@ img: /quantum_news/2024/output/0311.scitechdaily.com
 img_caption: ""
 layout: qnews
 slug: solid-state-qubits-artificial-atoms-unlock-quantum-computing-breakthrough
+threshold: 70
 ---
 
 JILA breakthrough in integrating artificial atoms with photonic circuits advances quantum computing efficiency and scalability.

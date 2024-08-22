@@ -3,7 +3,7 @@ title: US firm plans to build 10,000 qubit quantum computer by 2026
 org: interestingengineering.com
 link: https://interestingengineering.com/innovation/10000-qubit-quantum-computer-2026
 date: "2024-02-05"
-blurb: "QuEra Computing, a Boston-based company, aims to revolutionize computing with
+summary: "QuEra Computing, a Boston-based company, aims to revolutionize computing with
   quantum technology. They plan to launch a 10,000 qubit quantum computer by 2026,
   surpassing the capabilities of today's fastest supercomputers.\n\nQuEra's roadmap
   includes launching a quantum computer with 256 physical qubits and 10 logical qubits
@@ -17,6 +17,7 @@ img_credits: bpawesom/iStock
 layout: qnews
 slug: us-firm-plans-to-build-10-000-qubit-quantum-computer-by-2026
 organizations: [QuEra]
+threshold: 85
 ---
 
 QuEra Computing, a Boston-based company, aims to revolutionize computing with quantum technology. They plan to launch a 10,000 qubit quantum computer by 2026, surpassing the capabilities of today's fastest supercomputers.

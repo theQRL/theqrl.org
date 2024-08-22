@@ -13,6 +13,7 @@ summary: Mathematician Massimiliano Sala warns that current encryption methods
   won't protect blockchain systems from future quantum computers, urging the
   development of quantum-resistant cryptosystems.
 organizations: [Ripple]
+threshold: 45
 ---
 
 Professor Massimiliano Sala of the University of Trento has raised concerns about the vulnerability of current blockchain encryption methods to future quantum computers. Speaking at Ripple's university lecture series, Sala highlighted that quantum computers could potentially solve problems underlying digital signatures, thereby compromising blockchain security. He emphasized the concept of “Q-day,” a hypothetical point when quantum computers become powerful enough to break classical encryption, posing significant risks to various sectors including cryptocurrency and blockchain.

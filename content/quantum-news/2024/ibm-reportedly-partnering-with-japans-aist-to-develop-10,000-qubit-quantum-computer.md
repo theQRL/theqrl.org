@@ -13,6 +13,7 @@ summary: Japan's AIST will collaborate with IBM to develop a 10,000-qubit
   quantum computer, significantly advancing current technology, and has also
   signed a deal for a Fujitsu quantum computer installation.
 organizations: [AIST, IBM]
+threshold: 85
 ---
 
 Japan's National Institute of Advanced Industrial Science and Technology (AIST) is collaborating with IBM to develop a cutting-edge quantum computer boasting 10,000 qubits. This ambitious project aims to vastly outperform current quantum computers, which typically operate with only a few hundred qubits.
