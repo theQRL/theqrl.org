@@ -36,6 +36,14 @@
   logo: xt.com.svg
   type: Centralized Exchange
 
+- name: "Tapbit"
+  markets:
+    - market: QRL-USDT
+      link: https://www.tapbit.com/spot/exchange/QRL_USDT
+  link: https://www.tapbit.com/spot/exchange/QRL_USDT
+  logo: tapbit.svg
+  type: Centralized Exchange
+
 - name: "Dex-Trade"
   markets:
     - market: QRL-USDT
@@ -47,6 +55,7 @@
   link: https://dex-trade.com/spot/trading/QRLUSDT
   logo: dextrade.png
   type: Centralized Exchange
+
 
 - name: "Tidecoin Exchange"
   markets: 
