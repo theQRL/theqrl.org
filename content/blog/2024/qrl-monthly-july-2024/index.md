@@ -64,7 +64,11 @@ Below are some of the entries from the QRL Community. Feel like you missed out? 
 
 ![alt text](image.png)
 
+Winners for this contest were
 
+- 🥇 1st Place - qrlcoin with his QRL Stick Man Figurines  
+- 🥈 2nd place - dralinho with the Squirrel/QRL book design  
+- 🥉 3rd place - otdto with the QRL Rocket Coin Design  
 
 ## Development changelog
 
