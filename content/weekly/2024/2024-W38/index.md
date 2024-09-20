@@ -14,6 +14,12 @@ slug: "2024-September-17"
 
 <!--more-->
 
+## North American Breckenridge Core Team Retreat
+
+This week, the North American part of the QRL Core Team came together for a several day retreat to discuss the upcoming roadmap, plan, film content, and enjoy some quality in-person team bonding time.
+
+![alt text](retreat.png)
+
 ## Quantum News
 
 {{% qnews start="2024-08-28" end="2024-09-17" %}}
