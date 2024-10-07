@@ -1,11 +1,11 @@
 ---
-volume: 245298454.71435302
-transactions: 1752394
+volume: 276775469.09374565
+transactions: 2023509
 nodes: 900
-block_height: "2846951"
-coins_emitted: 77653406.41253479
-block_reward: 1.657852485
-hashrate: 12818168.533333333
+block_height: "3266500"
+coins_emitted: 78325231.55408612
+block_reward: 1.546054894
+hashrate: 14926416
 repositories: 72
 contributors: 57
 commits: 12853
