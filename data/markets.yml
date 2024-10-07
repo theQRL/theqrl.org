@@ -26,12 +26,6 @@
   markets:
     - market: QRL-USDT
       link: https://www.xt.com/en/trade/qrl_usdt
-    - market: QRL-USDC
-      link: https://www.xt.com/en/trade/qrl_usdc
-    - market: QRL-BTC
-      link: https://www.xt.com/en/trade/qrl_btc
-    - market: QRL-ETH
-      link: https://www.xt.com/en/trade/qrl_eth
   link: https://www.xt.com
   logo: xt.com.svg
   type: Centralized Exchange
