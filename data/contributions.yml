@@ -1,22 +1,22 @@
 ---
 - id: 13854791
   login: cyyber
-  contributions: 3565
+  contributions: 4127
 - id: 13698520
   login: jleni
-  contributions: 1938
+  contributions: 1826
 - id: 13877236
   login: surg0r
-  contributions: 447
+  contributions: 454
 - id: 9956122
   login: randomshinichi
   contributions: 217
 - id: 2139011
   login: jplomas
-  contributions: 2508
+  contributions: 2929
 - id: 6901778
   login: scottdonaldau
-  contributions: 1250
+  contributions: 1058
 - id: 36388483
   login: som-dev
   contributions: 47
@@ -25,7 +25,7 @@
   contributions: 14
 - id: 22141056
   login: fr1t2
-  contributions: 826
+  contributions: 974
 - id: 1280059
   login: bmoscon
   contributions: 7
@@ -47,30 +47,30 @@
 - id: 562943
   login: Neurone
   contributions: 3
-- id: 7437709
-  login: bitcoinsSG
-  contributions: 2
-- id: 3376497
-  login: jomarip
+- id: 1199588
+  login: ademcan
+  contributions: 216
+- id: 57887371
+  login: fungibly
   contributions: 2
 - id: 552662
   login: r41d
   contributions: 2
-- id: 57887371
-  login: fungibly
+- id: 3376497
+  login: jomarip
   contributions: 2
-- id: 1199588
-  login: ademcan
-  contributions: 216
+- id: 7437709
+  login: bitcoinsSG
+  contributions: 2
 - id: 22973130
   login: aidanbeale
   contributions: 1
 - id: 232510
   login: jackalyst
-  contributions: 1004
+  contributions: 1486
 - id: 23704769
   login: codacy-badger
-  contributions: 4
+  contributions: 3
 - id: 7972792
   login: timhovius
   contributions: 1
@@ -98,9 +98,12 @@
 - id: 3620657
   login: happysmash27
   contributions: 9
+- id: 84232240
+  login: Volt-Mine
+  contributions: 2
 - id: 49699333
-  login: dependabot
-  contributions: 34
+  login: dependabot[bot]
+  contributions: 39
 - id: 26060097
   login: xiphon
   contributions: 1
@@ -119,9 +122,12 @@
 - id: 37201691
   login: Vadim1024
   contributions: 2
+- id: 42574567
+  login: "0xFF0"
+  contributions: 11
 - id: 32208642
   login: doctor-gonzo
-  contributions: 187
+  contributions: 11
 - id: 31810306
   login: puck342
   contributions: 3
@@ -131,46 +137,55 @@
 - id: 21246742
   login: Mitchellpkt
   contributions: 2
+- id: 45665822
+  login: Ottslayer
+  contributions: 2
 - id: 45530642
   login: ScotishFold
   contributions: 1
 - id: 44660014
   login: IMac318
   contributions: 4
-- id: 84232240
-  login: Volt-Mine
-  contributions: 1
+- id: 359173
+  login: Robyer
+  contributions: 4
 - id: 54854891
   login: successor1
-  contributions: 6
-- id: 42574567
-  login: "0xFF0"
-  contributions: 1
-- id: 45665822
-  login: Ottslayer
-  contributions: 1
+  contributions: 10
 - id: 31483484
   login: cooper7777
   contributions: 1
-- id: 16767612
-  login: 0d4rujd
-  contributions: 76
-- id: 3167973
-  login: shargon
-  contributions: 3
-- id: 9592881
-  login: alvarodh5
-  contributions: 2
 - id: 19733683
   login: snyk-bot
-  contributions: 5
+  contributions: 6
 - id: 32174276
   login: semantic-release-bot
   contributions: 5
 - id: 15140091
   login: afilis
   contributions: 2
+- id: 94739453
+  login: playfaculty
+  contributions: 1
+- id: 10585474
+  login: muhammed-shaheer-keerirakath
+  contributions: 452
+- id: 144315960
+  login: rgeraldes24
+  contributions: 62
+- id: 52816910
+  login: Prajjawalk
+  contributions: 44
+- id: 53407084
+  login: sarkarabhijeet0512
+  contributions: 3
+- id: 36254809
+  login: Ompanime
+  contributions: 3
 - id: 53553783
   login: JSmithCrypto
   contributions: 14
+- id: 77561641
+  login: CrypTrip
+  contributions: 3
 ...
