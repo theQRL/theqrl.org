@@ -12,7 +12,7 @@ if [ ! -f "config.toml" ]; then
 	exit 1;
 fi
 
-blogtocopy="qrl-monthly-november-2023"
+blogtocopy="qrl-monthly-august-2024"
 name=$1
 
 if [[ -z ${1} ]]; then
@@ -36,7 +36,7 @@ _author="The QRL Core Contributors"
 _summary=""
 
 echo "... copying assets from: $blogtocopy -> $name"
-cp -r assets/content/blog/2023/"$blogtocopy"/. "$assets_dir"
+cp -r assets/content/blog/2024/"$blogtocopy"/. "$assets_dir"
 sleep 1
 
 echo "... removing images except for header.png"
@@ -104,6 +104,14 @@ features:
   - nfts
 toc: true
 ---
+
+## QRL Highlights
+
+## Development changelog
+
+## Quantum Computing Developments
+
+{{% qnews start="2024-04-01" end="2024-04-30" %}}
 EOF
 
 

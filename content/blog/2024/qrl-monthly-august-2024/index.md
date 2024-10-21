@@ -35,7 +35,6 @@ Want to roll your own zond node? Be sure to visit [Test Zond](https://test-zond.
 
 {{< button text="Test Zond" url="https://test-zond.theqrl.org" >}}
 
-
 ## In case you missed it
 
 ### SwapSpace Huddle feat. Michael Strike: The Good, the Bad, and the Ugly of Quantum Computing
