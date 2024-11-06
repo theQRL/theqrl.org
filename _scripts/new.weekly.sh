@@ -21,7 +21,7 @@ file=$dir"/index.md"
 mkdir -p $dir
 
 _iso_date=$(date '+%Y-%m-%d')
-_iso_date_start=$(date +%Y-%m-%d -d "21 days ago")
+_iso_date_start=$(date +%Y-%m-%d -d "14 days ago")
 _date=$(date '+%Y-%B-%d')
 _week=$(date +%U)
 
