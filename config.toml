@@ -11,6 +11,24 @@ images = ["/logocircle.png"]
 description = "The Quantum Resistant Ledger (QRL) is a first-of-its-kind, post-quantum value store and decentralized communication layer proactively tackling the threat advanced Quantum Computers pose to cryptocurrencies"
 dateFormat = "02 Jan 2006"
 
+
+
+[[headers]]
+  for = '/**'
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    X-Content-Type-Options = "nosniff"
+    Cache-Control = "no-transform"
+    Access-Control-Allow-Origin = "*"
+    Content-Security-Policy = "default-src 'self' 'unsafe-eval' *.youtube.com embed.typeform.com form.typeform.com; script-src 'self' *.googletagmanager.com embed.typeform.com *.google-analytics.com; media-src 'self' www.google-analytics.com *.youtube.com; font-src 'self' data:; frame-src 'self' *.youtube.com; connect-src 'self' *.google-analytics.com *.youtube.com; img-src 'self' *.google-analytics.com *.youtube.com; style-src 'self' 'unsafe-inline' embed.typeform.com; base-uri 'self'; frame-ancestors 'self' *.youtube.com; form-action 'self' theqrl.us15.list-manage.com; manifest-src 'self'; worker-src 'self';"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Permitted-Cross-Domain-Policies = "none"
+    Cross-Origin-Embedder-Policy = "unsafe-none"
+    Cross-Origin-Opener-Policy = "same-origin"
+    Cross-Origin-Resource-Policy = "cross-origin"
+
 [module]
   [[module.imports]]
     path = 'github.com/theQRL/qips'
@@ -95,3 +113,4 @@ nations = "/quantum-news/nation/:slug"
   disableSVG = false
   disableXML = false
   minifyOutput = true
+
