@@ -2,7 +2,7 @@
 
 # Simply process input files of various ratios and sizes and output to various web optimized files
 # 
-# Hugo can do a lot of this as well, but this increases the overal process time for full site builds,
+# Hugo can do a lot of this as well, but this increases the overall process time for full site builds,
 # and doesn't have the same amount of control.
 # 
 # usage: pconvert [input_folder] [output_folder]
