@@ -8,6 +8,7 @@ date: 2024-04-12
 img: /quantum_news/2024/output/0412.thequantuminsider.com
 img_caption: ""
 img_credits: ""
+summary: "PsiQuantum, a Palo Alto startup valued at $3.15 billion, plans to deliver its first commercial quantum computer within six years, outpacing expert predictions. Collaborating with GlobalFoundries and the U.S. Department of Energy, the company uses SLAC National Accelerator Laboratory facilities to design cryogenic quantum modules. PsiQuantum aims to integrate these modules into a data center-like setup with around 1 million qubits for applications in materials science, national security, and finance."
 organizations: [PsiQuantum]
 threshold: 80
 ---
