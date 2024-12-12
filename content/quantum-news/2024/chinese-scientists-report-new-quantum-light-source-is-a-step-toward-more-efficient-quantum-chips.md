@@ -11,6 +11,7 @@ blurb: |
 img: /quantum_news/2024/output/0422.thequantuminsider.com
 img_caption: ""
 img_credits: ""
+summary: "Chinese researchers have developed a quantum light source using gallium nitride (GaN), a semiconductor commonly used in blue LEDs. This innovation marks progress toward functional quantum chips by generating entangled light particles essential for quantum systems. The GaN-based device offers a wider wavelength range than existing sources, promising more efficient, easily integrated quantum chips for computing and other applications. Researchers foresee GaN enabling all-on-chip quantum photonic circuits."
 nations: [China]
 threshold: 55
 ---
