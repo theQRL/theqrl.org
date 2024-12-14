@@ -17,6 +17,14 @@ summary: "Trading the QRL Digital Asset"
 title: QRL Markets
 ---
 
+> **Important Notice: QRL is NOT an ERC20 Token**
+>
+> Please be aware that QRL (Quantum Resistant Ledger) operates on its own independent blockchain and is not an ERC20 token on the Ethereum or any other network (Solana, Chainlink, etc).
+>
+> This independence is essential for QRL's quantum security. Tokens on these networks are inherently vulnerable to attacks from sufficiently powerful quantum computers, whereas QRL is designed to be safe from such threats.
+>
+> For projects exploring quantum-safe deployments, QRL’s next-generation platform, Zond, is currently in beta-testnet. Zond combines QRL’s quantum resistance with the versatility of Ethereum’s ecosystem, introducing EVM-compatible smart contracts for a more secure and flexible future.
+
 {{< markets "grid" >}}
 
 ## Other ways to acquire QRL
