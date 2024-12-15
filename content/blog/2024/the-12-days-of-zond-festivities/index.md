@@ -11,6 +11,32 @@ categories:
 toc: true
 ---
 
+### Day 3: Private Key Under the Tree
+
+{{< image "./images/day3.png" >}}
+
+Welcome to Day 3 of the 12 Days of Zond! Today’s festivity is simple. Be the first community member to wake up and grab one of the few presents with a prize under the digital tree
+
+## What Is It?
+
+A little holiday treat. We’ve dropped a couple private keys with small prizes in the image below.
+
+## How to Participate
+
+**Step 1: Head over the QRL Wallet**
+
+1. Go to [wallet.theqrl.org](https://wallet.theqrl.org)
+2. Click Open Wallet and select Mnemonic Phrase in the drop down
+
+![alt text](image.png)
+
+**Step 2: Add the Mnemonic Phrases in using the image above as reference**
+
+Once you’ve typed out the mnemonic phrases, you’ll see if there’s anything left in the presents.
+
+If there’s any funds in the public wallet, move them over to a personal wallet as soon as possible (ASAP) to keep it
+
+If someone beats you to it and you’re left with the wrapping paper and the box, no worries… there’s still 9 days left of 12 Days of Zond.
 
 ## Day 2: Compliment a community member!
 
@@ -60,7 +86,8 @@ By joining, you’ll become part of a vibrant and diverse group of like-minded i
 
 ## Day 1: Post-Quantum Crossword Puzzle Festivity
 
-> **Hint:** Still stuck on #5 "I Lov this word"? Might be time to use a quantum search algorithm or ask the person who devised it. 
+> **Hint:** Still stuck on #5 across "I Lov this word"? Might be time to use a quantum search algorithm or ask the person who devised it. 
+> **Hint 2:** For those on #2 across "suite of algorithms". This suite is for algebraic lattices.
 
 {{< image "./images/day1.png" >}}
 
