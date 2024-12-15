@@ -35,10 +35,6 @@ QRL uses the CPU friendly RandomX Proof-of-Work consensus algorithm to mine and 
 
 For extra mining power, some people like to rent extra hashrate from a service like [nicehash](https://nicehash.com/) and pointing that hashrate to a pool.
 
-### QRL faucet (Currently in Discord)
-
-You can join our [discord community](https://theqrl.org/discord) and use the Tipbot to get daily faucet drips. Read more about our [tipbot in our blog](/blog/introducing-the-new-qrl-tipbot/).
-
 ### The Discord #OTC (Over-the-counter) channel
 
 You can head over to the Discord [#OTC](https://theqrl.org/discord) channel and put in a `wts` (want to sell) or `wtb` (want to buy) order.
