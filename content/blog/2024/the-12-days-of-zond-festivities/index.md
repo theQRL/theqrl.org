@@ -11,17 +11,17 @@ categories:
 toc: true
 ---
 
-### Day 3: Private Key Under the Tree
+## Day 3: Private Key Under the Tree
 
 {{< image "./images/day3.png" >}}
 
 Welcome to Day 3 of the 12 Days of Zond! Today’s festivity is simple. Be the first community member to wake up and grab one of the few presents with a prize under the digital tree
 
-## What Is It?
+### What Is It?
 
 A little holiday treat. We’ve dropped a couple private keys with small prizes in the image below.
 
-## How to Participate
+### How to Participate
 
 **Step 1: Head over the QRL Wallet**
 
