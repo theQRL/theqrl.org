@@ -11,6 +11,33 @@ categories:
 toc: true
 ---
 
+## Day 5: Post-Quantum Trivia
+
+{{< image "./images/day5.png" >}}
+
+For Day 5 of the #12DaysOfZond, we're dropping a fun little Post-Quantum Trivia for everyone to join in…
+
+### How to Participate
+
+It’s easy! Below, we’ve shared a simple Google Form to check out the trivia questions…
+
+**Step 1: Click the Google Form Below** 
+
+Please answer the trivia questions here: https://forms.gle/armX9KRaMn2jpRMD7
+
+**Step 2: Submit Your Answers**
+
+- Answer all the trivia questions (there’s only 7 of them)
+- Be sure to add a best QRL Address at the bottom (we're dropping some small holiday prizes for the top trivia scores that we receive)
+
+**Not Yet a Community Member?**
+
+If you’re not yet part of the QRL family, join us [here in our Discord](/discord).
+
+By joining, you’ll become part of a vibrant and diverse group of like-minded individuals—from PhDs and academics to retail investors and hardcore cryptographers. It’s a community like no other!
+
+
+
 ## Day 4: Community Chronicles - Share Your Initial Intro to The Project
 
 {{< image "./images/day4.png" >}}
