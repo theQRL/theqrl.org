@@ -11,6 +11,32 @@ categories:
 toc: true
 ---
 
+## Day 4: Community Chronicles - Share Your Initial Intro to The Project
+
+{{< image "./images/day4.png" >}}
+
+Welcome to **Day 4 of the 12 Days of Zond!** Today’s festivity is all about taking a trip down memory lane.
+
+Depending on how long you’ve been in the community, that trip back to you joining may go back 6 years or maybe only 6 days if you’re brand new here…regardless, you reading this at this very moment in time makes you apart of an elite group of forward thinkers on the web (who are post-quantum secure). That’s a big deal…
+
+Let’s get into today’s activity!
+
+### What Is It?
+
+Whatever your platform of choice is on the internet, tell us about your introduction to the project. You can do so 100% anonymously (through a Google Form) or you can write it out on [Discord](/discord), [Reddit](/reddit), [Telegram](/telegram), or [X/Twitter](/twitter).
+
+Were you up late one night going down an internet rabbit hole when you came across the QRL Whitepaper or did a friend introduce you and you’ve been glued to the laptop since? There’s so many stories that cover how each of us came to this project initially and we’d love to hear your story 💛
+
+### How to Participate
+
+**Step 1: Write out your introduction to the project** 
+
+On [Discord](/discord), [Reddit](/reddit), [Telegram](/telegram), or [X/Twitter](/twitter), write out your introduction to the project and be sure to include [#12DaysOfZond](https://x.com/hashtag/12DaysOfZond). If you'd like to stay anonymous we've also created a [Google Form](https://forms.gle/1CdhUZU5tgF5QgAJ9).
+
+**Step 2: Post/Submit** 
+
+Depending on the number of submissions, we’ll try our best to distribute rewards for each thoughtful response.
+
 ## Day 3: Private Key Under the Tree
 
 {{< image "./images/day3.png" >}}
