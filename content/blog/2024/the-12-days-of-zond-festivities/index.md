@@ -4,12 +4,81 @@ slug: the-12-days-of-zond-festivities
 date: 2024-12-12 12:00:00
 author: "The QRL Core Contributors"
 title: "The 12 Days of Zond Festivities"
-summary: "For 12 days in a row, we’re hosting a mix of daily activities, mini challenges, announcements, and opportunities to win daily prizes. The digital festivities are all centered around the future of post-quantum security within our amazing community."
+summary: "For 12 days in a row, we're hosting a mix of daily activities, mini challenges, announcements, and opportunities to win daily prizes. The digital festivities are all centered around the future of post-quantum security within our amazing community."
 featured_image: header.png
 categories:
   - community
 toc: true
 ---
+
+## Day 7: Post-Quantum Holiday Reading List
+
+{{< image "./images/day7.png" >}}
+
+Welcome to Day 7 of the 12 Days of Zond! Today's activity is all about sharing knowledge and discovering some favorite resources together. 
+
+It's time to cozy up with your favorite holiday beverage (hot cocoa, tea, egg nog) and compile a fun little Post-Quantum Holiday Reading List 🎄📚
+
+### What Is It?
+
+We're creating a small community-curated holiday reading list filled with blogs, books, podcasts, YouTube episodes, and any other content centered around the quantum threat and post-quantum cryptography.
+
+If one member enjoyed a particular resource (a book, blog, podcast), it's likely others will too…including you.
+
+### How to Participate:
+
+1. Think of Your Favorite Resource
+   - Share a book, podcast, YouTube video, or article you've enjoyed that touches on:
+       - quantum threat
+       - post-quantum cryptography.
+       - quantum computing's impact on ___
+2. Drop your Answers in the Google Form below
+   - Head to the google form below and share your resource(s) with us. 
+       - [Post-Quantum Holiday Reading List Submission](https://forms.gle/i8KxN2xkEPvunQLX6)
+
+**Aim to include:**
+
+- What it is: (Book title, podcast episode, video, etc.)
+- Why you recommend it: A short sentence or two about what you liked or learned (this helps others a ton)
+- Bonus: Add a link or easy way to help others check it out!
+
+### Rewards
+
+We'll be dropping a few prizes to those who share their favorite resources 🎁 
+
+Not Yet a Community Member? Join us in Discord here: https://www.theqrl.org/discord
+
+Let's Build the Ultimate Reading List! Post your favorite resource(s), and let's make this the most quantum-secure holiday reading list around!
+
+## Day 6: Zond AMA with Kaushal Kumar Singh (Lead Blockchain Developer)
+
+{{< image "./images/day6.png" >}}
+
+Welcome to Day 6 of the 12 Days of Zond! Today's event is an exciting one..
+
+### What Is It?
+
+Project Zond's Lead Blockchain Developer, Kaushal Kumar Singh, joins QRL Core Team members Ryan Malinowski and Michael Strike for an hour-long development AMA to discuss all things Zond.
+
+How to Watch It
+
+You can watch or listen to the full Zond AMA at either of the links below.
+
+- QRL YouTube: https://youtu.be/FuJMQhW9d0M
+- QRL X/Twitter Spaces: https://x.com/QRLedger/status/1869042726903402818
+
+Rewards + Participation
+
+Leading up to this AMA, we received numerous questions from the community. We'll be dropping a few surprises to those who asked the top questions in helping to shape this AMA.
+
+For those who weren't able to get a question in for this one, there's still 6 more days to go in #12DaysOfZond…which means plenty more chances to take part in the festivities 😁
+
+We'll see you tomorrow for Day 7 🎁
+
+### Not Yet a Community Member?
+
+If you're not yet part of the QRL family, join us here: [QRL Discord Link].
+By joining, you'll become part of a vibrant and diverse group of like-minded individuals—from PhDs and academics to retail investors and hardcore cryptographers. It's a community like no other!
 
 ## Day 5: Post-Quantum Trivia
 
@@ -19,7 +88,7 @@ For Day 5 of the #12DaysOfZond, we're dropping a fun little Post-Quantum Trivia 
 
 ### How to Participate
 
-It’s easy! Below, we’ve shared a simple Google Form to check out the trivia questions…
+It's easy! Below, we've shared a simple Google Form to check out the trivia questions…
 
 **Step 1: Click the Google Form Below** 
 
@@ -27,32 +96,30 @@ Please answer the trivia questions here: https://forms.gle/armX9KRaMn2jpRMD7
 
 **Step 2: Submit Your Answers**
 
-- Answer all the trivia questions (there’s only 7 of them)
+- Answer all the trivia questions (there's only 7 of them)
 - Be sure to add a best QRL Address at the bottom (we're dropping some small holiday prizes for the top trivia scores that we receive)
 
 **Not Yet a Community Member?**
 
-If you’re not yet part of the QRL family, join us [here in our Discord](/discord).
+If you're not yet part of the QRL family, join us [here in our Discord](/discord).
 
-By joining, you’ll become part of a vibrant and diverse group of like-minded individuals—from PhDs and academics to retail investors and hardcore cryptographers. It’s a community like no other!
-
-
+By joining, you'll become part of a vibrant and diverse group of like-minded individuals—from PhDs and academics to retail investors and hardcore cryptographers. It's a community like no other!
 
 ## Day 4: Community Chronicles - Share Your Initial Intro to The Project
 
 {{< image "./images/day4.png" >}}
 
-Welcome to **Day 4 of the 12 Days of Zond!** Today’s festivity is all about taking a trip down memory lane.
+Welcome to **Day 4 of the 12 Days of Zond!** Today's festivity is all about taking a trip down memory lane.
 
-Depending on how long you’ve been in the community, that trip back to you joining may go back 6 years or maybe only 6 days if you’re brand new here…regardless, you reading this at this very moment in time makes you apart of an elite group of forward thinkers on the web (who are post-quantum secure). That’s a big deal…
+Depending on how long you've been in the community, that trip back to you joining may go back 6 years or maybe only 6 days if you're brand new here…regardless, you reading this at this very moment in time makes you apart of an elite group of forward thinkers on the web (who are post-quantum secure). That's a big deal…
 
-Let’s get into today’s activity!
+Let's get into today's activity!
 
 ### What Is It?
 
 Whatever your platform of choice is on the internet, tell us about your introduction to the project. You can do so 100% anonymously (through a Google Form) or you can write it out on [Discord](/discord), [Reddit](/reddit), [Telegram](/telegram), or [X/Twitter](/twitter).
 
-Were you up late one night going down an internet rabbit hole when you came across the QRL Whitepaper or did a friend introduce you and you’ve been glued to the laptop since? There’s so many stories that cover how each of us came to this project initially and we’d love to hear your story 💛
+Were you up late one night going down an internet rabbit hole when you came across the QRL Whitepaper or did a friend introduce you and you've been glued to the laptop since? There's so many stories that cover how each of us came to this project initially and we'd love to hear your story 💛
 
 ### How to Participate
 
@@ -62,17 +129,17 @@ On [Discord](/discord), [Reddit](/reddit), [Telegram](/telegram), or [X/Twitter]
 
 **Step 2: Post/Submit** 
 
-Depending on the number of submissions, we’ll try our best to distribute rewards for each thoughtful response.
+Depending on the number of submissions, we'll try our best to distribute rewards for each thoughtful response.
 
 ## Day 3: Private Key Under the Tree
 
 {{< image "./images/day3.png" >}}
 
-Welcome to Day 3 of the 12 Days of Zond! Today’s festivity is simple. Be the first community member to wake up and grab one of the few presents with a prize under the digital tree
+Welcome to Day 3 of the 12 Days of Zond! Today's festivity is simple. Be the first community member to wake up and grab one of the few presents with a prize under the digital tree
 
 ### What Is It?
 
-A little holiday treat. We’ve dropped a couple private keys with small prizes in the image below.
+A little holiday treat. We've dropped a couple private keys with small prizes in the image below.
 
 ### How to Participate
 
@@ -85,21 +152,21 @@ A little holiday treat. We’ve dropped a couple private keys with small prizes 
 
 **Step 2: Add the Mnemonic Phrases in using the image above as reference**
 
-Once you’ve typed out the mnemonic phrases, you’ll see if there’s anything left in the presents.
+Once you've typed out the mnemonic phrases, you'll see if there's anything left in the presents.
 
-If there’s any funds in the public wallet, move them over to a personal wallet as soon as possible (ASAP) to keep it
+If there's any funds in the public wallet, move them over to a personal wallet as soon as possible (ASAP) to keep it
 
-If someone beats you to it and you’re left with the wrapping paper and the box, no worries… there’s still 9 days left of 12 Days of Zond.
+If someone beats you to it and you're left with the wrapping paper and the box, no worries… there's still 9 days left of 12 Days of Zond.
 
 ## Day 2: Compliment a community member!
 
 {{< image "./images/day2.png" >}}
 
-Welcome to Day 2 of the 12 Days of Zond! Today’s festivity is all about appreciating and celebrating the amazing members of the [QRL community](/discord). It’s a chance to recognize the unique values and contributions that make our community so special. 👏🎁
+Welcome to Day 2 of the 12 Days of Zond! Today's festivity is all about appreciating and celebrating the amazing members of the [QRL community](/discord). It's a chance to recognize the unique values and contributions that make our community so special. 👏🎁
 
 ### What Is It?
 
-Today’s activity is Discord-specific and revolves around showing appreciation for fellow members of the QRL community. Whether it’s their insightful comments, warm welcomes to newcomers, or consistent contributions, let’s tip our hats to the individuals who make our community thrive.
+Today's activity is Discord-specific and revolves around showing appreciation for fellow members of the QRL community. Whether it's their insightful comments, warm welcomes to newcomers, or consistent contributions, let's tip our hats to the individuals who make our community thrive.
 
 ### How to Participate
 
@@ -113,13 +180,13 @@ Take a moment to think about a fellow community member who deserves recognition.
 
 - Regularly brings unique value or insights to the chat.
 - Welcomes newcomers in a refreshing way.
-- Or anyone else who’s made a positive impact!
+- Or anyone else who's made a positive impact!
 
 **Step 3: Post Your Compliment**
 
 - Publicly share your compliment in the #general-qrl channel with the following 3 pieces of info:
 - @Mention the user (e.g., @JohnSmith).
-- Write out your compliment (what they’ve done and why you appreciate them).
+- Write out your compliment (what they've done and why you appreciate them).
 
 **Include the hashtag #12DaysOfZond**
 
@@ -127,15 +194,15 @@ Take a moment to think about a fellow community member who deserves recognition.
 
 **Example Post**
 
-To help inspire you, here’s a quality example:
+To help inspire you, here's a quality example:
 
-- @JohnSmith I’m tipping my PQ digital hat to you. Since I’ve joined the community a few years ago, you’ve always made me feel welcome and less intimidated. Your help breaking down the technical specifics of the quantum threat into layman terms alongside the team’s QRL video content made me realize there are many others like me in the community. Keep doing your thing! #12DaysOfZond
+- @JohnSmith I'm tipping my PQ digital hat to you. Since I've joined the community a few years ago, you've always made me feel welcome and less intimidated. Your help breaking down the technical specifics of the quantum threat into layman terms alongside the team's QRL video content made me realize there are many others like me in the community. Keep doing your thing! #12DaysOfZond
 
 **Not Yet a Community Member?**
 
-This activity is geared toward current community members, but if you’re not yet part of the QRL family, join us in our [QRL Discord](/discord).
+This activity is geared toward current community members, but if you're not yet part of the QRL family, join us in our [QRL Discord](/discord).
 
-By joining, you’ll become part of a vibrant and diverse group of like-minded individuals — from PhDs and academics to retail investors and hardcore cryptographers. It’s a community like no other!
+By joining, you'll become part of a vibrant and diverse group of like-minded individuals — from PhDs and academics to retail investors and hardcore cryptographers. It's a community like no other!
 
 ## Day 1: Post-Quantum Crossword Puzzle Festivity
 
@@ -144,7 +211,7 @@ By joining, you’ll become part of a vibrant and diverse group of like-minded i
 
 {{< image "./images/day1.png" >}}
 
-Welcome to the first day of the **12 Days of Zond**! We’re kicking off the celebration with an activity that’s as fun as it is brainy: the **Post-Quantum Crossword Puzzle Competition**. 🥨🔐  
+Welcome to the first day of the **12 Days of Zond**! We're kicking off the celebration with an activity that's as fun as it is brainy: the **Post-Quantum Crossword Puzzle Competition**. 🥨🔐  
 
 ### What Is It? 
 
