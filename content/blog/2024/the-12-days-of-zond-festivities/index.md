@@ -11,6 +11,45 @@ categories:
 toc: true
 ---
 
+## Day 8: Bring a Brain to the Chain
+
+{{< image "./images/day8.png" >}}
+
+Welcome to Day 8 of the 12 Days of Zond! Today’s festive theme is a call to action for the community to invite your smartest dev friends to join our post-quantum party: Bring a Brain to the Chain! 🧠 ⛏
+
+### What Is It?
+
+Who is one (or a few) of the smartest developers, coders, or tech-savvy friends you know that love to build, explore, and innovate? But they haven’t yet been introduced to the project 🤯
+
+Today’s event is all about inviting them into Zond early as we shape the future of quantum-resistant blockchain technology…
+
+This is your chance to share Zond’s vision with talented developers (you know) who you believe can contribute, learn, and grow with the project. They’re joining a community that’s leading the charge into the post-quantum era.
+
+### How to Participate
+
+1. Think of Your Smartest Developer Friend(s)
+   - It could be a current or past colleague, a friend, or someone else you know and admire online for their coding skills, problem-solving, or curiosity about blockchain and cryptography.
+2. Send Them an Invitation
+   - Invite them to join Zond and our [QRL Discord](/discord) community. Can be a quick message like the one below or write whatever you want based on how well you know them.
+     Here’s a quick example:
+     
+     “Hey Satoshi! I know you’re always looking for exciting projects to build on and I know your bar is high- I think QRL’s Project Zond fits your criteria. They’ve been actively running since 2018 (QRL) and are the leading post-quantum secure blockchain in the space. Project Zond is currently in Testnet as they move from PoW over to PoS. I think you’ll enjoy the online Discord community too and would find it worthwhile to build and explore early during testnet. This project is going to be big. Check it out: QRL Discord #12DaysOfZond”
+3. Celebrate the Brainpower
+     - Feel free to give a shoutout in #general-qrl channel when your friend joins so we know you recommended them!
+
+### Why Participate?
+
+- 🔍 **Grow the Community:** Help bring more smart and like-minded developers into the community
+- 🛠️ **Bolster the Ecosystem:** More builders mean more innovation, tools, and projects on Zond.
+
+### Rewards
+
+We’ll be sharing some holiday prizes with those who legitimately introduce a technical friend to our community.
+
+To ensure we see who you’ve recommended someone, you can DM @jackalyst on the team either on Discord/Telegram. 
+
+***Bonus points if you note their experience broadly (ex: Hey team- I just introduced my friend and they just joined QRL’s Discord. I’ve known her for a while online- she’s an experienced Solidity developer)
+
 ## Day 7: Post-Quantum Holiday Reading List
 
 {{< image "./images/day7.png" >}}
