@@ -11,6 +11,36 @@ categories:
 toc: true
 ---
 
+## Day 9: Community Art Contest (GIFs, Memes, Media)
+
+{{< image "./images/day9.png" >}}
+
+> Note: We've added a [reward distribution status](#reward-distribution-status) at the bottom of this page.
+
+Welcome to Day 9 of the 12 Days of Zond! Today, we’re post-quantumly calling on all creative minds in the QRL community for a fun Community Art Contest 🎨 🔐
+
+### What Is It?
+
+It’s time to get creative! We’re inviting the community to create and share Zond and QRL inspired digital art in any form- think GIFs, memes, photos, videos, or other media. 
+
+Whether you’re a design pro, meme wizard, or you just have a few minutes to create something fun, this is your chance to show off your creativity and celebrate Zond in a creative way.
+
+### How to Participate
+
+1. Create Your Art
+   - Use any form of digital art: GIFs, memes, photos, or other creative media you can think of.
+   - Make it fitting to Zond, QRL, or the post-quantum theme (in general)
+2. Post Your Art on the Social Platform of your choosing (ex: X/Twitter)
+   - Once you’ve posted it on the social platform of your choosing, head over to Discord and simply link to your art in the #qrl-art channel on Discord
+   - Include the hashtag #12DaysOfZond so we know it’s a part of this contest
+3. Cheer Others On
+
+Enjoy other peoples art within the community and react to your favorites!!
+
+### Rewards
+
+We’ll be dropping a little quanta to the winners as well as those who take part.
+
 ## Day 8: Bring a Brain to the Chain
 
 {{< image "./images/day8.png" >}}
@@ -313,3 +343,14 @@ Most of our festivities with rewards will follow our standard reward distributio
 - 2nd submission (5 QRL)
 - 3rd-5th submission (2.5 QRL)
 - 6th to 100th (0.5 QRL)
+
+### Reward distribution status
+
+- **Day 1:** First 2 rounds of rewards have been distributed
+- **Day 2:** Not distributed as of yet.
+- **Day 3:** Not distributed as of yet.
+- **Day 4:** Not distributed as of yet.
+- **Day 5:** Not distributed as of yet.
+- **Day 6:** Not distributed as of yet.
+- **Day 7:** Not distributed as of yet.
+- **Day 8:** Not distributed as of yet.
