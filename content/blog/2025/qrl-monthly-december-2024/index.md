@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 slug: qrl-monthly-december-2024
-date: 2025-01-01
+date: 2025-01-07
 author: "The QRL Core Contributors"
 title: "QRL Monthly, December 2024"
 summary: "QRL Zond advances beyond quantum resilience with extensive end-to-end testing, critical terminology updates to reflect a quantum-resistant ecosystem, seamless Vortex IDE integration for developers, and significant progress in Ledger hardware wallet support. Stay ahead of the quantum threat as we prepare to launch QRL Zond Testnet V1 in Q1 2025, ensuring a secure and scalable blockchain future."
