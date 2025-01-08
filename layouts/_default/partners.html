@@ -55,26 +55,7 @@
 
           {{ end }}
 
-            
-              <div>
-                <p class="text-yellow section-title">With instrumental</p>
-                <h2 class="section-title-header">Advisors</h2>
-              </div>
-              <div class="grid grid-three-cols">
-              {{ range (sort (where site.Pages "Params.layout" "team-member")) }}
-              {{ if and (ne .Params.inactive true) (eq .Params.role "advisor") }}
-              <a href='/team/{{ .Param "slug" }}'>
-                <div class="core__el animate-fade">
-                  <div class="core__el__img">
-                    <img src='{{ .Param "profile" }}' alt='{{ .Param "name" }}' />
-                  </div>
-                  <div class="core__el__inner"> {{ .Param "name" }}<br>
-                    <p>{{ .Param "position" }}</p>
-                  </div>
-                </div>
-              </a>
-              {{ end }}
-              {{ end }}
+          
           </div>
         </div>
       </section>
