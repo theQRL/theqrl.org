@@ -21,21 +21,33 @@
 {{ end }}
 
 
-{{ if or (eq $output "grid") }}<div id="markets" class="grid grid-markets grid-three-cols">{{ end }}
+{{ if or (eq $output "grid") }}<div id="markets" class="grid grid-markets grid-two-cols">{{ end }}
 	{{ range $.Site.Data.markets }}
+		{{ if eq .listed true }}
 		<a href="{{ .link }}" class="no-ul">
-          <div class="core__el animate-fade{{ if .maintenance }} maintenance{{ end }}" style="opacity: 1; visibility: inherit;">
-			<div class="core__el__top">Under Maintenance</div>
+          <div class="core__el animate-fade {{ if .maintenance }} maintenance{{ end }}" style="opacity: 1; visibility: inherit;">
+			<div class="core__el__top maintenance">Under Maintenance</div>
             <div class="core__el__img">
               <img src="/img/markets/{{ .logo }}" alt="{{ .name }}">
             </div>
             <div class="core__el__inner">
 				{{ .name }}
 				<div class="market-pairs">
+					Market Pairs: 
 					{{ range $i, $e := .markets }}{{ if $i }}{{ end }}<span class="market">{{ .market }}</span>{{ end }}
 				</div>
+
+				{{ if .prohibited }}
+				<div class="market-pairs restricted">
+					Restricted Countries: <br>
+					{{ range .prohibited }}{{ if . }}{{ end }}<span class="market">{{ . }}</span>{{ end }}*
+				</div>
+				{{ end }}
             </div>
           </div>
 		</a>
+		{{ end }}
 	{{ end }}
 {{ if or (eq $output "grid") }}</div>{{ end }}
+
+<p>* Disclaimer: The data here is provided for informational purposes only and should not be considered exhaustive or definitive. Exchange availability and restrictions can vary by region and are subject to change. Exchanges on this page are not an indication of endorsement and should be used at the users discretion.</p>

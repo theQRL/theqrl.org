@@ -3,8 +3,11 @@
     - market: QRL-USDT
       link: https://www.mexc.com/exchange/QRL_USDT
   link: https://www.mexc.com/exchange/QRL_USDT
+
   logo: mexc.svg
+  prohibited: ["North Korea", "Cuba", "Sudan", "Syria", "Iran", "Mainland China", "Singapore", "United States", "United Kingdom", "Hong Kong", "Russian-controlled regions of Ukraine", "Sevastopol", "Canada"]
   type: Centralized Exchange
+  listed: true
 
 - name: "Biconomy"
   markets: 
@@ -13,6 +16,7 @@
   link: https://www.biconomy.com/exchange/QRL_USDT
   logo: biconomy.svg 
   type: Centralized Exchange
+  listed: true
 
 - name: "LBank Cryptocurrency Exchange"
   markets: 
@@ -21,6 +25,8 @@
   link: https://www.lbank.com/en-US/trade/qrl_usdt
   logo: lbank.svg 
   type: Centralized Exchange
+  prohibited: [Mainland China, the United States, Iran, Iraq, Syria, Sudan, North Korea, Cuba] 
+  listed: true
 
 - name: "XT.com"
   markets:
@@ -28,7 +34,9 @@
       link: https://www.xt.com/en/trade/qrl_usdt
   link: https://www.xt.com
   logo: xt.com.svg
+  prohibited: [United States, Canada, Mainland China, Cuba, North Korea, Singapore, Sudan, Syria, Venezuela, Indonesia, Crimea]
   type: Centralized Exchange
+  listed: true
 
 - name: "Tapbit"
   markets:
@@ -36,7 +44,9 @@
       link: https://www.tapbit.com/spot/exchange/QRL_USDT
   link: https://www.tapbit.com/spot/exchange/QRL_USDT
   logo: tapbit.svg
+  prohibited: [Cuba, China, North Korea or any Restricted Territory as defined in Section 35]
   type: Centralized Exchange
+  listed: true
 
 - name: "Dex-Trade"
   markets:
@@ -49,6 +59,7 @@
   link: https://dex-trade.com/spot/trading/QRLUSDT
   logo: dextrade.png
   type: Centralized Exchange
+  listed: false
 
 
 - name: "Tidecoin Exchange"
@@ -66,3 +77,4 @@
   link: https://www.tidecoin.exchange/trading/qrlusdt
   logo: tidecoin.png 
   type: Centralized Exchange
+  listed: false
