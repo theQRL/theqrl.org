@@ -11,6 +11,107 @@ categories:
 toc: true
 ---
 
+
+## Day 12: Give the Gift of PQ Secure Crypto Day
+
+{{< image "./images/day12.png" >}}
+
+Welcome to Day 12 of the 12 Days of Zond! The final day's theme is all about spreading knowledge and sharing the gift of post-quantum secure crypto with friends, family, or even curious strangers 🎁 🔐
+
+### What Is It?
+
+Today’s activity encourages you to share something valuable: knowledge about the quantum threat and post-quantum security in relation to cryptocurrency (and why it matters).
+
+Whether it’s explaining what quantum threats mean for blockchain security or introducing the concept of post-quantum cryptography, let’s help others understand the future of secure digital assets.
+
+
+### How to Participate:
+
+1. Pick Someone to Share With
+   - Think of a co-worker, a friend, family member, or fellow crypto enthusiast who might find post-quantum crypto interesting
+2. Share the Gift of Knowledge
+   - Share with them what the quantum threat and our project is all about.
+
+   Remember: the goal isn’t necessarily to get them to name their next child ZOND (maybe it is), but rather to introduce them to the project in a rational way. 
+
+   Think back to when you were first introduced to crypto for the first time? Maybe you read a book, came across a resource through a friend and started with learning about Bitcoin, Ethereum, Monero, or some other coin. And then later went down the next rabbit hole which was QRL.
+
+   The person you’re sharing this project with now (who doesn’t yet know about it) needs a few starting points as well. 
+3. Spread the Word in Your Own Way 
+   - Share the project with them via message, email, IRL, or even snail mail 🐌 Make it yours—fun, serious, or anything in between!
+
+
+Here’s a few quick ideas:
+
+- Have them start out with a favorite QRL YouTube channel episode to learn more
+- Show them how easy it is to create and set up a post-quantum secure wallet: Create a QRL Wallet
+- Share with them some of the latest news around quantum computing progress (ex: Google announces Willow- new state-of-the-art quantum chip)
+- Send them over to our site by visiting https://www.theqrl.org
+- Invite them into the community (Discord, Telegram, etc)
+- And so on
+
+### Rewards
+
+If you’d like a little holiday prize for spreading the word, you can DM @jackalyst on the core team either on Discord or Telegram letting us know you. Feel free to include a screenshot or just mention that you invited a friend (be honest). We’ll share some holiday prizes spread across those who participate in this last day's challenge.
+
+## Day 11: Post-Quantum Secure Surname Crossword Puzzle
+
+{{< image "./images/day11.png" >}}
+
+Welcome to Day 11 of the 12 Days of Zond! Back by popular demand from Day 1’s crossword, we’re mixing in a 2nd crossword puzzle which is titled: Post-Quantum Secure Surname Crossword Puzzle 🥨 ✍️
+
+### What Is It?
+
+A small crossword puzzle inspired by surnames that are familiar on The QRL Show (think guests, popular names in the space, and maybe even the shows hosts). We know the holiday schedules are busy so we’ve kept this one on the shorter side.
+
+Test your QRL Show surname knowledge while competing for a little prize!
+
+### How to Participate:
+
+1. **Take a look at the Crossword Puzzle:**
+   - https://crosswordlabs.com/embed/post-quantum-secure-surname-puzzle-2 
+2. **Solve It:** 
+   - Fill in the crossword by answering clues related to guests, popular names in the space, QRL shows hosts, etc.
+3. **Submit Your Crossword Puzzle:**
+   Once your crossword puzzle is completed correctly, submit your answers by:  
+   1. Take a quick screenshot of your completed crossword
+   2. Gather your screenshot
+      - For a bonus you can share this event on social media as well and include a link to it in your message to us.
+   3. Have your QRL address handy (or Create a QRL address if you haven’t already!)
+   4. Reaching out to us on X/Twitter, Telegram, Discord, or Reddit:
+      - Preferred: DM’ing your finished crossword puzzle image to our official QRL Twitter/x handle (@QRLedger),
+      - DM’ing @jackalyst on Discord/Telegram
+      - Messaging the QRL Reddit Mods
+
+## Day 10: Post-quantum secure stocking stuffer
+
+{{< image "./images/day10.png" >}}
+
+Welcome to Day 10 of the 12 Days of Zond! Today, we're adding some festive fun with a mini Post-Quantum Secure Stocking Stuffer challenge. Get ready to dive into the stockings and uncover a few hidden treasures- mnemonic phrases that unlock a post-quantum holiday surprise 🔑🧦
+
+### What Is It?
+
+We’ve tucked away some mnemonic phrases inside digital holiday stockings. The challenge? Be the first few to correctly grab and unlock them to claim your post-quantum surprise.
+
+### How to Participate
+
+1. Examine the Stockings
+   - Take a close look at the stockings in the image below. Each stocking contains a visible mnemonic phrase.
+   **Grab the Phrases**
+   - Identify and note down the mnemonic phrases in the stockings.
+2. **Unlock Your Surprise**
+
+Use the mnemonic phrases to unlock the corresponding surprise.
+If there’s any funds in the public wallet, move them over to a personal wallet asap to keep it.
+
+If someone beats you to it and you’re left with an empty stocking, don’t fret…there’s a few days remaining in the 12 Days of Zond. It might also be fun to head over to the QRL Block Explorer and see who was able to grab the PQ stocking stuffers 🔑 💨
+
+**Prizes**
+
+The first community members to correctly grab and unlock the wallets will receive a post-quantum holiday surprise!
+
+
+
 ## Day 9: Community Art Contest (GIFs, Memes, Media)
 
 {{< image "./images/day9.png" >}}
@@ -354,3 +455,7 @@ Most of our festivities with rewards will follow our standard reward distributio
 - **Day 6:** Not distributed as of yet.
 - **Day 7:** Not distributed as of yet.
 - **Day 8:** Not distributed as of yet.
+- **Day 9:** Not distributed as of yet.
+- **Day 10:** Not distributed as of yet.
+- **Day 11:** Not distributed as of yet.
+- **Day 12:** Not distributed as of yet.
