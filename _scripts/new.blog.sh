@@ -111,15 +111,15 @@ toc: true
 
 ## Quantum Computing Developments
 
-{{% qnews start="2024-04-01" end="2024-04-30" %}}
+{{% qnews start="2025-04-01" end="2025-04-30" %}}
 EOF
 
 
 
 
-postdata=$(curl -s -H 'Authorization: Bearer '$HACKMD_BEARER_TOKEN'' -H 'Content-Type: application/json' --location 'https://api.hackmd.io/v1/notes' -d "$(gencontent)")
+# postdata=$(curl -s -H 'Authorization: Bearer '$HACKMD_BEARER_TOKEN'' -H 'Content-Type: application/json' --location 'https://api.hackmd.io/v1/notes' -d "$(gencontent)")
 
-resultid=$(echo "$postdata" | jq -r .id)
+# resultid=$(echo "$postdata" | jq -r .id)
 
 echo "$(cat <<EOF
 Title: $_title
