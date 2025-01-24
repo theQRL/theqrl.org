@@ -8,3 +8,4 @@ process_images () {
 process_images 2022
 process_images 2023
 process_images 2024
+process_images 2025
