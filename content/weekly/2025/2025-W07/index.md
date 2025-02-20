@@ -2,13 +2,13 @@
 layout: weekly-update
 date: 2025-02-18
 author: "The QRL Core Contributors"
-title: "QRL Weekly: Zond Testnet V1 Internal Preview, 2025-February-18"
+title: "QRL Weekly: Zond Private Testnet V1 Preview (internal), 2025-February-18"
 slug: "2025-February-18"
 ---
 
 ## Weekly Development Snapshot
 
-- Released **Zond Testnet V1 Internal Preview** to the team for extended testing and documentation.
+- Released **Zond Private Testnet V1 Preview (internal)** to the team for extended testing and documentation.
 - Full network (gzond & qrysm) running in a Docker network using the **Zond Package** (a [Kurtosis](https://github.com/kurtosis-tech/kurtosis) fork) that automatically establishes state on boot, providing access to prefunded wallets and a Web3 endpoint for application development.
 - [Zond Roadmap progression update](https://www.theqrl.org/roadmap/#project-zond)
 
