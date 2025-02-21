@@ -89,6 +89,8 @@
 }
 
 
+
+
 .progress {
   width:50%;
   display:flex;
@@ -252,8 +254,16 @@
     font-weight:bold;
     font-size: 16px;
     display:inline-block;
+
+
   }
 
+  .grid-markets {
+    p {
+      padding: 0;
+      margin:0;
+    }
+  }
   .grid-markets .restricted {
     span.market {
       margin: 1px 1px;

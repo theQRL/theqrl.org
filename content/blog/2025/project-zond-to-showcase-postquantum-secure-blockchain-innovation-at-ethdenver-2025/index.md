@@ -17,7 +17,7 @@ The rise of quantum computing isn’t science fiction — it’s a ticking clock
 
 In response to these challenges, at [ETHDenver 2025](https://www.ethdenver.com/), we’ll be showcasing Project Zond, a next-generation evolution in quantum-secure blockchain technology. 
 
-Built on Ethereum’s foundation, it introduces a Zond Virtual Machine (ZVM) (similar to Hyperion) with an address space that post-quantum secure using Dilithium. This means developers can keep using their favorite tools — but with a critical upgrade: quantum-resistant security.
+Built on Ethereum’s foundation, it introduces a Zond Virtual Machine (ZVM) (similar to Hyperion) with an address space that's post-quantum secure using Dilithium. This means developers can keep using their favorite tools — but with a critical upgrade: quantum-resistant security.
 
 No need to reinvent the wheel; just build with confidence.
 
