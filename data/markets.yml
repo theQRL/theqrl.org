@@ -16,6 +16,8 @@
   link: https://www.biconomy.com/exchange/QRL_USDT
   logo: biconomy.svg 
   type: Centralized Exchange
+  prohibited: ["Mainland China"]
+  notes: "From their support \"Please note that there are certain restrictions for users located in the United States and Mainland China. Users located in the United States login and trade, but KYC isn't available to those regions\""
   listed: true
 
 - name: "LBank Cryptocurrency Exchange"

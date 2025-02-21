@@ -43,6 +43,13 @@
 					{{ range .prohibited }}{{ if . }}{{ end }}<span class="market">{{ . }}</span>{{ end }}*
 				</div>
 				{{ end }}
+
+				{{ if .notes }}
+				<div class="market-pairs restricted">
+					Additional notes:<br>
+					<p>{{ .notes }}*</p>
+				</div>
+				{{ end }}
             </div>
           </div>
 		</a>
