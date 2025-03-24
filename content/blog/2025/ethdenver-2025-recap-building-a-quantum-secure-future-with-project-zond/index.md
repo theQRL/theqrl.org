@@ -12,7 +12,7 @@ categories:
 
 ETHDenver, the world's largest annual Web3 event, lived up to the hype. This year's event brought together a strong mix of builders, developers, industry leaders, institutional reps, and crypto enthusiasts from around the globe. Our QRL team was thrilled to participate on the main show floor, showcasing our latest advancements in quantum-secure blockchain technology in Project Zond.
 
-{{< image "./images/core-team-photo.png" >}}
+{{< image "./images/ethdenver-collage.png" >}}
 
 ## Quantum Security Takes Center Stage
 
@@ -35,10 +35,8 @@ At ETHDenver 2025, we were proud to unveil the Project Zond BUIDL Testnet Previe
 >
 > -Ryan Malinowski, Director of Marketing at QRL
 
-{{< image "./images/core-team-photo.png" >}}
-
 ## Join Us in Building a Quantum-Secure Blockchain Future
 
 As quantum computing progress continues to grow, everyone from developers to the largest of institutions must proactively secure their blockchain applications. If you're a developer or builder passionate about creating long-term, post quantum resistant solutions, we invite you to join our community.
 
-Get started by exploring the QRL Project Zond Testnet. For more insights into our upcoming milestones, you can check out our Roadmap or join our vibrant community on QRL Discord to collaborate, innovate, and help secure the future of blockchain together.
+Get started by exploring the [QRL Project Zond Private Testnet](https://test-zond.theqrl.org/testnet). For more insights into our upcoming milestones, you can check out our [Roadmap](https://www.theqrl.org/roadmap/) or join our vibrant community on [QRL Discord](/discord) to collaborate, innovate, and help secure the future of blockchain together.
