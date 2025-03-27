@@ -8,6 +8,8 @@ summary: "Get ready for the future of blockchain at ETHDenver 2025, where Projec
 featured_image: header.png
 tags:
   - featured
+categories:
+  - zond
 toc: true
 ---
 
