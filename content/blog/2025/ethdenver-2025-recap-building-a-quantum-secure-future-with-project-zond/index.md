@@ -8,6 +8,7 @@ summary: "The QRL team showcased its latest advancements in quantum-secure block
 featured_image: header.png
 categories:
   - events
+  - zond
 ---
 
 ETHDenver, the world's largest annual Web3 event, lived up to the hype. This year's event brought together a strong mix of builders, developers, industry leaders, institutional reps, and crypto enthusiasts from around the globe. Our QRL team was thrilled to participate on the main show floor, showcasing our latest advancements in quantum-secure blockchain technology in Project Zond.
