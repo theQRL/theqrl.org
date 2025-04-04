@@ -23,7 +23,7 @@ title: QRL Markets
 >
 > This independence is essential for QRL's quantum security. Tokens on these networks are inherently vulnerable to attacks from sufficiently powerful quantum computers, whereas QRL is designed to be safe from such threats.
 >
-> For projects exploring quantum-safe deployments, QRL’s next-generation platform, Zond, is currently in beta-testnet. Zond combines QRL’s quantum resistance with the versatility of Ethereum’s ecosystem, introducing EVM-compatible smart contracts for a more secure and flexible future.
+> For projects exploring quantum-safe deployments, QRL’s next-generation platform, Zond, is currently in Testnet v1. Zond combines QRL’s quantum resistance with the versatility of Ethereum’s ecosystem, introducing EVM-compatible smart contracts for a more secure and flexible future.
 
 {{< markets "grid" >}}
 
@@ -56,5 +56,3 @@ We have frequent community lead puzzles and events in our [discord community](ht
 
 - [QRL Whitepaper](https://github.com/theQRL/Whitepaper/blob/master/QRL_whitepaper.pdf)
 - [QRL Blockchain Explorer](https://explorer.theqrl.org/)
-
-
